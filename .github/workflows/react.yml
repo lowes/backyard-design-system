@@ -1,0 +1,99 @@
+name: Deploy React
+
+on:
+  workflow_dispatch:
+    inputs:
+      release_type:
+        type: choice
+        description: Release type
+        options: 
+          - major
+          - minor
+          - patch
+          - premajor
+          - preminor
+          - prepatch
+          - prerelease
+      release_tag:
+        type: choice
+        description: Release tag
+        options:
+          - alpha
+          - next
+          - open
+          - latest
+          - lts
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: checkout code
+        uses: actions/checkout@v2
+
+      - name: setup node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+          registry-url: 'https://registry.npmjs.org'
+          
+      - name: setup pnpm cache
+        uses: actions/cache@v2
+        with:
+          path: ~/.pnpm-store
+          key: ${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-
+          
+      - name: setup pnpm
+        uses: pnpm/action-setup@v2.1.0
+        with:
+          version: 6.32.3
+          
+      - name: pnpm install
+        run: pnpm install
+
+      - name: lint
+        run: pnpm lint:react
+
+      - name: build
+        run: pnpm build:react
+
+      - name: test
+        run: pnpm test:react
+        
+      - name: extract branch name
+        shell: bash
+        run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+        id: extract_branch
+        
+      - name: setup git config
+        run: |
+          git config user.name "Github Actions Bot"
+          git config user.email "<>"
+
+      - name: update package version
+        run: npm version ${{ github.event.inputs.release_type }} --preid=${{ github.event.inputs.release_tag }}
+        working-directory: ./packages/bds-react  
+
+      - name: push to npm
+        run: npm publish --tag ${{github.event.inputs.release_tag}} --ignore-scripts
+        working-directory: ./packages/bds-react
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          
+      - name: get-npm-version
+        id: package-version
+        uses: martinbeentjes/npm-get-version-action@master
+        with:
+          path: packages/bds-react
+          
+      - name: push commit and tag to repo
+        run: |
+          git add --all
+          git commit -m "@lowes-tech/bds-react -> ${{ steps.package-version.outputs.current-version }}"
+          git tag "bds-react@${{ steps.package-version.outputs.current-version }}"
+          git push origin ${{ steps.extract_branch.outputs.branch }} --tags
+          
