@@ -1,0 +1,38 @@
+{
+    "source": ["tokens/*.json", "tokens/light/*.json"],
+    "platforms": {
+        "css": {
+            "transformGroup": "custom/css",
+            "prefix": "bds",
+            "buildPath": "src/v3/light/",
+            "files": [
+                {
+                    "destination": "_cssvars.css",
+                    "format": "cssvars"
+                },
+                {
+                    "destination": "_properties.json",
+                    "format": "properties"
+                },
+                {
+                    "destination": "_scProperties.ts",
+                    "format": "scGlobalStyles"
+                }
+            ]
+        },
+        "js": {
+            "transformGroup": "custom/js",
+            "buildPath": "src/v3/light/",
+            "files": [
+                {
+                    "destination": "_theme.json",
+                    "format": "Json"
+                },
+                {
+                    "destination": "_theme.ts",
+                    "format": "typescript"
+                }
+            ]
+        }
+    }
+}

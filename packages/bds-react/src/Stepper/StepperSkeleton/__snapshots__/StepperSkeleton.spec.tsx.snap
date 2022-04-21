@@ -1,0 +1,265 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StepperSkeleton Snapshots renders 1`] = `
+<DocumentFragment>
+  .c0 {
+  background: var(--bds-color-skeleton-01);
+  position: relative;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.c0.style--animated::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--bds-color-skeleton-01);
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+  animation-direction: normal;
+  -webkit-animation-fill-mode: none;
+  animation-fill-mode: none;
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+}
+
+.c0.variant--circle {
+  border-radius: var(--bds-border-radius-circle);
+}
+
+.c0.variant--rect.shape--rounded {
+  border-radius: var(--bds-border-radius-lg);
+}
+
+.c0.variant--rect.shape--squared {
+  border-radius: 0;
+}
+
+.c0.variant--text {
+  width: 100%;
+  height: 16px;
+  margin-bottom: var(--bds-sizes-size-6);
+}
+
+.c0.variant--text.shape--rounded {
+  border-radius: var(--bds-border-radius-lg);
+}
+
+.c0.variant--text.shape--squared {
+  border-radius: 0;
+}
+
+<span
+    class="stepper--skeleton"
+    style="display: inline-flex; flex-direction: column; width: 10.125rem;"
+  >
+    <span
+      style="display: inline-flex;"
+    >
+      <div
+        class="c0 variant--rect shape--rounded stepper--minus style--animated"
+        style="margin-right: 0.0625rem; min-height: calc(3.25rem + 0.125rem); min-width: calc(3.25rem + 0.125rem);"
+      />
+      <div
+        class="c0 variant--rect shape--rounded stepper--input style--animated"
+        style="min-height: calc(3.25rem + 0.125rem); min-width: calc(3.25rem + 0.125rem);"
+      />
+      <div
+        class="c0 variant--rect shape--rounded stepper--plus style--animated"
+        style="margin-left: 0.0625rem; min-height: calc(3.25rem + 0.125rem); min-width: calc(3.25rem + 0.125rem);"
+      />
+    </span>
+  </span>
+</DocumentFragment>
+`;
+
+exports[`StepperSkeleton Snapshots renders with hidden buttons 1`] = `
+<DocumentFragment>
+  .c0 {
+  background: var(--bds-color-skeleton-01);
+  position: relative;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.c0.style--animated::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--bds-color-skeleton-01);
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+  animation-direction: normal;
+  -webkit-animation-fill-mode: none;
+  animation-fill-mode: none;
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+}
+
+.c0.variant--circle {
+  border-radius: var(--bds-border-radius-circle);
+}
+
+.c0.variant--rect.shape--rounded {
+  border-radius: var(--bds-border-radius-lg);
+}
+
+.c0.variant--rect.shape--squared {
+  border-radius: 0;
+}
+
+.c0.variant--text {
+  width: 100%;
+  height: 16px;
+  margin-bottom: var(--bds-sizes-size-6);
+}
+
+.c0.variant--text.shape--rounded {
+  border-radius: var(--bds-border-radius-lg);
+}
+
+.c0.variant--text.shape--squared {
+  border-radius: 0;
+}
+
+<span
+    class="stepper--skeleton"
+    style="display: inline-flex; flex-direction: column; width: 10.125rem;"
+  >
+    <span
+      style="display: inline-flex;"
+    >
+      <div
+        class="c0 variant--rect shape--rounded stepper--input style--animated"
+        style="min-height: calc(3.25rem + 0.125rem); min-width: calc(3.25rem + 0.125rem);"
+      />
+    </span>
+  </span>
+</DocumentFragment>
+`;
+
+exports[`StepperSkeleton Snapshots renders with label 1`] = `
+<DocumentFragment>
+  .c0 {
+  background: var(--bds-color-skeleton-01);
+  position: relative;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.c0.style--animated::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--bds-color-skeleton-01);
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+  animation-direction: normal;
+  -webkit-animation-fill-mode: none;
+  animation-fill-mode: none;
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+}
+
+.c0.variant--circle {
+  border-radius: var(--bds-border-radius-circle);
+}
+
+.c0.variant--rect.shape--rounded {
+  border-radius: var(--bds-border-radius-lg);
+}
+
+.c0.variant--rect.shape--squared {
+  border-radius: 0;
+}
+
+.c0.variant--text {
+  width: 100%;
+  height: 16px;
+  margin-bottom: var(--bds-sizes-size-6);
+}
+
+.c0.variant--text.shape--rounded {
+  border-radius: var(--bds-border-radius-lg);
+}
+
+.c0.variant--text.shape--squared {
+  border-radius: 0;
+}
+
+<span
+    class="stepper--skeleton"
+    style="display: inline-flex; flex-direction: column; width: 10.125rem;"
+  >
+    <span
+      style="display: inline-flex;"
+    >
+      <div
+        class="c0 variant--rect shape--rounded stepper--minus style--animated"
+        style="margin-right: 0.0625rem; min-height: calc(3.25rem + 0.125rem); min-width: calc(3.25rem + 0.125rem);"
+      />
+      <div
+        class="c0 variant--rect shape--rounded stepper--input style--animated"
+        style="min-height: calc(3.25rem + 0.125rem); min-width: calc(3.25rem + 0.125rem);"
+      />
+      <div
+        class="c0 variant--rect shape--rounded stepper--plus style--animated"
+        style="margin-left: 0.0625rem; min-height: calc(3.25rem + 0.125rem); min-width: calc(3.25rem + 0.125rem);"
+      />
+    </span>
+    <span
+      style="display: inline-flex; justify-content: center;"
+    >
+      <div
+        class="c0 variant--text shape--rounded stepper--label style--animated"
+        style="margin-top: 0.5rem; width: 5.25rem; height: 1rem;"
+      />
+    </span>
+  </span>
+</DocumentFragment>
+`;

@@ -1,0 +1,6 @@
+{
+    "name": "@lowes-tech/bds-tokens-src",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./v3/"
+}

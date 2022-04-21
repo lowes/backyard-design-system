@@ -1,0 +1,1363 @@
+{
+	"id": 0,
+	"name": "@lowes-tech/bds-react/ThemeProvider",
+	"kind": 1,
+	"kindString": "Project",
+	"flags": {},
+	"children": [
+		{
+			"id": 45,
+			"name": "default",
+			"kind": 16777216,
+			"kindString": "Reference",
+			"flags": {},
+			"target": 1
+		},
+		{
+			"id": 2,
+			"name": "ThemeProvider",
+			"kind": 4,
+			"kindString": "Namespace",
+			"flags": {},
+			"children": [
+				{
+					"id": 3,
+					"name": "bdsName",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Variables",
+					"kind": 32,
+					"children": [
+						3
+					]
+				}
+			]
+		},
+		{
+			"id": 7,
+			"name": "BackyardTheme",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 12,
+					"name": "breakpoints",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"shortText": "Record of breakpoints provided to application"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "intrinsic",
+								"name": "string"
+							}
+						],
+						"name": "Record"
+					}
+				},
+				{
+					"id": 8,
+					"name": "context",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"shortText": "Context can be any object"
+					},
+					"type": {
+						"type": "reference",
+						"name": "BackyardThemeContext"
+					}
+				},
+				{
+					"id": 9,
+					"name": "isDesktop",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"shortText": "Whether or not current viewport is desktop, tablet, or mobile"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 11,
+					"name": "isMobile",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 10,
+					"name": "isTablet",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 18,
+					"name": "name",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"shortText": "Name of the current theme"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "BaseTheme.name"
+					}
+				},
+				{
+					"id": 14,
+					"name": "setOverride",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"shortText": "`setOverride` dispatch to change the overrides of the Backyard theme"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "object"
+									}
+								],
+								"name": "SetStateAction"
+							}
+						],
+						"name": "Dispatch"
+					}
+				},
+				{
+					"id": 13,
+					"name": "setTheme",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"shortText": "`setTheme` dispatch to change the theme state of the the Backyard theme"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "union",
+										"types": [
+											{
+												"type": "literal",
+												"value": "light"
+											},
+											{
+												"type": "literal",
+												"value": "dark"
+											}
+										]
+									}
+								],
+								"name": "SetStateAction"
+							}
+						],
+						"name": "Dispatch"
+					}
+				},
+				{
+					"id": 15,
+					"name": "setContext",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {},
+					"signatures": [
+						{
+							"id": 16,
+							"name": "setContext",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`setContext` dispatch to change the context of the Backyard theme\nCan store anything such as the font, heading, etc."
+							},
+							"parameters": [
+								{
+									"id": 17,
+									"name": "newContext",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						12,
+						8,
+						9,
+						11,
+						10,
+						18,
+						14,
+						13
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						15
+					]
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"id": 6,
+					"name": "BaseTheme"
+				}
+			]
+		},
+		{
+			"id": 19,
+			"name": "ThemeProviderProps",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 23,
+					"name": "canvas",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Canvas color token"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "marketing_interactive"
+							},
+							{
+								"type": "literal",
+								"value": "text_interactive"
+							},
+							{
+								"type": "literal",
+								"value": "text_interactive_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "icon_interactive"
+							},
+							{
+								"type": "literal",
+								"value": "icon_interactive_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "border_interactive"
+							},
+							{
+								"type": "literal",
+								"value": "border_interactive_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "focus_interactive"
+							},
+							{
+								"type": "literal",
+								"value": "action_interactive"
+							},
+							{
+								"type": "literal",
+								"value": "action_interactive_hover"
+							},
+							{
+								"type": "literal",
+								"value": "action_interactive_pressed"
+							},
+							{
+								"type": "literal",
+								"value": "action_interactive_subdued"
+							},
+							{
+								"type": "literal",
+								"value": "action_interactive_subdued_hover"
+							},
+							{
+								"type": "literal",
+								"value": "action_interactive_subdued_pressed"
+							},
+							{
+								"type": "literal",
+								"value": "highlight"
+							},
+							{
+								"type": "literal",
+								"value": "marketing_dark_blue"
+							},
+							{
+								"type": "literal",
+								"value": "surface_dark_blue"
+							},
+							{
+								"type": "literal",
+								"value": "surface_dark_blue_subdued"
+							},
+							{
+								"type": "literal",
+								"value": "surface_dark_blue_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "surface_dark_blue_subdued_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "marketing_blue"
+							},
+							{
+								"type": "literal",
+								"value": "surface_blue"
+							},
+							{
+								"type": "literal",
+								"value": "surface_blue_subdued"
+							},
+							{
+								"type": "literal",
+								"value": "surface_blue_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "surface_blue_subdued_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "marketing_light_blue"
+							},
+							{
+								"type": "literal",
+								"value": "surface_light_blue"
+							},
+							{
+								"type": "literal",
+								"value": "surface_light_blue_subdued"
+							},
+							{
+								"type": "literal",
+								"value": "surface_light_blue_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "surface_light_blue_subdued_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "marketing_green"
+							},
+							{
+								"type": "literal",
+								"value": "text_green"
+							},
+							{
+								"type": "literal",
+								"value": "text_green_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "icon_green"
+							},
+							{
+								"type": "literal",
+								"value": "icon_green_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "border_green"
+							},
+							{
+								"type": "literal",
+								"value": "border_green_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "surface_green"
+							},
+							{
+								"type": "literal",
+								"value": "surface_green_subdued"
+							},
+							{
+								"type": "literal",
+								"value": "surface_green_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "surface_green_subdued_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "action_green"
+							},
+							{
+								"type": "literal",
+								"value": "action_green_hover"
+							},
+							{
+								"type": "literal",
+								"value": "action_green_pressed"
+							},
+							{
+								"type": "literal",
+								"value": "action_green_subdued"
+							},
+							{
+								"type": "literal",
+								"value": "action_green_subdued_hover"
+							},
+							{
+								"type": "literal",
+								"value": "action_green_subdued_pressed"
+							},
+							{
+								"type": "literal",
+								"value": "marketing_red"
+							},
+							{
+								"type": "literal",
+								"value": "text_red"
+							},
+							{
+								"type": "literal",
+								"value": "text_red_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "icon_red"
+							},
+							{
+								"type": "literal",
+								"value": "icon_red_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "border_red"
+							},
+							{
+								"type": "literal",
+								"value": "border_red_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "surface_red"
+							},
+							{
+								"type": "literal",
+								"value": "surface_red_subdued"
+							},
+							{
+								"type": "literal",
+								"value": "surface_red_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "surface_red_subdued_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "action_red"
+							},
+							{
+								"type": "literal",
+								"value": "action_red_hover"
+							},
+							{
+								"type": "literal",
+								"value": "action_red_pressed"
+							},
+							{
+								"type": "literal",
+								"value": "action_red_subdued"
+							},
+							{
+								"type": "literal",
+								"value": "action_red_subdued_hover"
+							},
+							{
+								"type": "literal",
+								"value": "action_red_subdued_pressed"
+							},
+							{
+								"type": "literal",
+								"value": "marketing_gold"
+							},
+							{
+								"type": "literal",
+								"value": "surface_gold"
+							},
+							{
+								"type": "literal",
+								"value": "surface_gold_subdued"
+							},
+							{
+								"type": "literal",
+								"value": "surface_gold_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "surface_gold_subdued_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "marketing_lfp_yellow"
+							},
+							{
+								"type": "literal",
+								"value": "text_solid_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "text_primary_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "text_secondary_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "text_tertiary_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "text_disabled_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "icon_solid_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "icon_primary_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "icon_secondary_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "icon_tertiary_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "icon_disabled_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "border_default_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "border_hover_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "border_pressed_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "border_subdued_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "border_contrast_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "border_disabled_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "focus_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "surface_default"
+							},
+							{
+								"type": "literal",
+								"value": "surface_default_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "surface_subdued"
+							},
+							{
+								"type": "literal",
+								"value": "elevation_01"
+							},
+							{
+								"type": "literal",
+								"value": "elevation_02"
+							},
+							{
+								"type": "literal",
+								"value": "elevation_03"
+							},
+							{
+								"type": "literal",
+								"value": "elevation_04"
+							},
+							{
+								"type": "literal",
+								"value": "elevation_05"
+							},
+							{
+								"type": "literal",
+								"value": "elevation_06"
+							},
+							{
+								"type": "literal",
+								"value": "action_neutral"
+							},
+							{
+								"type": "literal",
+								"value": "action_neutral_hover"
+							},
+							{
+								"type": "literal",
+								"value": "action_neutral_pressed"
+							},
+							{
+								"type": "literal",
+								"value": "white"
+							},
+							{
+								"type": "literal",
+								"value": "black"
+							},
+							{
+								"type": "literal",
+								"value": "text_solid"
+							},
+							{
+								"type": "literal",
+								"value": "text_primary"
+							},
+							{
+								"type": "literal",
+								"value": "text_secondary"
+							},
+							{
+								"type": "literal",
+								"value": "text_tertiary"
+							},
+							{
+								"type": "literal",
+								"value": "text_disabled"
+							},
+							{
+								"type": "literal",
+								"value": "icon_solid"
+							},
+							{
+								"type": "literal",
+								"value": "icon_primary"
+							},
+							{
+								"type": "literal",
+								"value": "icon_secondary"
+							},
+							{
+								"type": "literal",
+								"value": "icon_tertiary"
+							},
+							{
+								"type": "literal",
+								"value": "icon_disabled"
+							},
+							{
+								"type": "literal",
+								"value": "border_default"
+							},
+							{
+								"type": "literal",
+								"value": "border_hover"
+							},
+							{
+								"type": "literal",
+								"value": "border_pressed"
+							},
+							{
+								"type": "literal",
+								"value": "border_subdued"
+							},
+							{
+								"type": "literal",
+								"value": "border_contrast"
+							},
+							{
+								"type": "literal",
+								"value": "border_disabled"
+							},
+							{
+								"type": "literal",
+								"value": "focus_default"
+							},
+							{
+								"type": "literal",
+								"value": "neutral_01"
+							},
+							{
+								"type": "literal",
+								"value": "neutral_02"
+							},
+							{
+								"type": "literal",
+								"value": "neutral_03"
+							},
+							{
+								"type": "literal",
+								"value": "neutral_04"
+							},
+							{
+								"type": "literal",
+								"value": "neutral_05"
+							},
+							{
+								"type": "literal",
+								"value": "neutral_06"
+							},
+							{
+								"type": "literal",
+								"value": "neutral_07"
+							},
+							{
+								"type": "literal",
+								"value": "neutral_08"
+							},
+							{
+								"type": "literal",
+								"value": "neutral_09"
+							},
+							{
+								"type": "literal",
+								"value": "neutral_10"
+							},
+							{
+								"type": "literal",
+								"value": "skeleton_01"
+							},
+							{
+								"type": "literal",
+								"value": "skeleton_02"
+							},
+							{
+								"type": "literal",
+								"value": "overlay"
+							},
+							{
+								"type": "literal",
+								"value": "text_visited_link"
+							}
+						]
+					}
+				},
+				{
+					"id": 20,
+					"name": "children",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"shortText": "React Children"
+					},
+					"type": {
+						"type": "reference",
+						"name": "ReactNode"
+					}
+				},
+				{
+					"id": 25,
+					"name": "context",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Extra Context to be made available to child 'styled-components'\nex. font"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "object"
+					}
+				},
+				{
+					"id": 24,
+					"name": "override",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Overrides to override Backyard theme with"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "object"
+					}
+				},
+				{
+					"id": 22,
+					"name": "shape",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Default shape of all components"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "rounded"
+							},
+							{
+								"type": "literal",
+								"value": "squared"
+							}
+						]
+					}
+				},
+				{
+					"id": 21,
+					"name": "theme",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Selected Theme"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "light"
+							},
+							{
+								"type": "literal",
+								"value": "dark"
+							}
+						]
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						23,
+						20,
+						25,
+						24,
+						22,
+						21
+					]
+				}
+			]
+		},
+		{
+			"id": 6,
+			"name": "BaseTheme",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"type": {
+				"type": "query",
+				"queryType": {
+					"type": "reference",
+					"name": "Theme"
+				}
+			},
+			"extendedBy": [
+				{
+					"type": "reference",
+					"id": 7,
+					"name": "BackyardTheme"
+				}
+			]
+		},
+		{
+			"id": 5,
+			"name": "ThemeConsumer",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"comment": {
+				"shortText": "ThemeConsumer same as 'styled-components'"
+			},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"id": 7,
+						"name": "BackyardTheme"
+					}
+				],
+				"name": "React.Consumer"
+			},
+			"defaultValue": "StyledComponentsThemeConsumer"
+		},
+		{
+			"id": 4,
+			"name": "ThemeContext",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"comment": {
+				"shortText": "ThemeContext same as 'styled-components'"
+			},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"id": 7,
+						"name": "BackyardTheme"
+					}
+				],
+				"name": "React.Context"
+			},
+			"defaultValue": "StyledComponentsThemeContext"
+		},
+		{
+			"id": 1,
+			"name": "ThemeProvider",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"comment": {
+				"shortText": "Backyard React Theme Provider",
+				"text": " <ThemeProvider theme=\"light\" font=\"fellix\" someOtherContext=\"value\">\n     <Grid.Container>\n         ...\n             <Button />\n         ...\n     </Grid.Container>\n </ThemeProvider>\n\nCustom Theme Provider wrapper to provide extra context and overrides for Backyard Themes.\n"
+			},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"id": 19,
+						"name": "ThemeProviderProps"
+					}
+				],
+				"name": "BDSFunctional"
+			},
+			"defaultValue": "..."
+		},
+		{
+			"id": 41,
+			"name": "dropShadow",
+			"kind": 64,
+			"kindString": "Function",
+			"flags": {
+				"isConst": true
+			},
+			"signatures": [
+				{
+					"id": 42,
+					"name": "dropShadow",
+					"kind": 4096,
+					"kindString": "Call signature",
+					"flags": {},
+					"comment": {
+						"shortText": "Converts box-shadow to drop-shadow, if necessary.",
+						"text": "Use for `filter` css instead of `box-shadow`.\n",
+						"returns": "\n",
+						"tags": [
+							{
+								"tag": "example",
+								"text": "\n```\ndropShadow(theme.shadows.shadow_04)\n => 'drop-shadow(0px 2px 1px rgba(0, 0, 0, 0.2)) \n         drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.14)) \n         drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.12))'\n```"
+							}
+						]
+					},
+					"parameters": [
+						{
+							"id": 43,
+							"name": "shadow",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {},
+							"comment": {
+								"shortText": "box-shadow"
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 44,
+							"name": "defaultShadow",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {},
+							"comment": {
+								"shortText": "default shadow if none given"
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							},
+							"defaultValue": "'none'"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				}
+			]
+		},
+		{
+			"id": 33,
+			"name": "getShape",
+			"kind": 64,
+			"kindString": "Function",
+			"flags": {
+				"isConst": true
+			},
+			"signatures": [
+				{
+					"id": 34,
+					"name": "getShape",
+					"kind": 4096,
+					"kindString": "Call signature",
+					"flags": {},
+					"comment": {
+						"shortText": "Get the shape or shape context in priority"
+					},
+					"parameters": [
+						{
+							"id": 35,
+							"name": "shapeProp",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {},
+							"comment": {
+								"shortText": "shape value from props"
+							},
+							"type": {
+								"type": "reference",
+								"name": "ExtendedShapes"
+							}
+						},
+						{
+							"id": 36,
+							"name": "shapeContext",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {},
+							"comment": {
+								"shortText": "shape value from context\n"
+							},
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "literal",
+										"value": "rounded"
+									},
+									{
+										"type": "literal",
+										"value": "squared"
+									}
+								]
+							}
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "rounded"
+							},
+							{
+								"type": "literal",
+								"value": "squared"
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"id": 37,
+			"name": "splitShadows",
+			"kind": 64,
+			"kindString": "Function",
+			"flags": {
+				"isConst": true
+			},
+			"signatures": [
+				{
+					"id": 38,
+					"name": "splitShadows",
+					"kind": 4096,
+					"kindString": "Call signature",
+					"flags": {},
+					"comment": {
+						"shortText": "Split the shadows in a given string",
+						"returns": "\n",
+						"tags": [
+							{
+								"tag": "example",
+								"text": "\n```\nsplitShadows('0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)')\n => [\n     '0px 2px 1px rgba(0, 0, 0, 0.2)',\n     '0px 1px 1px rgba(0, 0, 0, 0.14)',\n     '0px 1px 3px rgba(0, 0, 0, 0.12)'\n ]\n```\n"
+							}
+						]
+					},
+					"parameters": [
+						{
+							"id": 39,
+							"name": "shadows",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {},
+							"comment": {
+								"shortText": "shadow string from backyard"
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 40,
+							"name": "defaultShadow",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {},
+							"comment": {
+								"shortText": "default shadow if none given"
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						}
+					],
+					"type": {
+						"type": "array",
+						"elementType": {
+							"type": "intrinsic",
+							"name": "string"
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": 26,
+			"name": "useBackyardTheme",
+			"kind": 64,
+			"kindString": "Function",
+			"flags": {
+				"isConst": true
+			},
+			"signatures": [
+				{
+					"id": 27,
+					"name": "useBackyardTheme",
+					"kind": 4096,
+					"kindString": "Call signature",
+					"flags": {},
+					"parameters": [
+						{
+							"id": 28,
+							"name": "props",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"name": "UseBackyardThemeProps"
+							},
+							"defaultValue": "{}"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"id": 7,
+						"name": "BackyardTheme"
+					}
+				}
+			]
+		},
+		{
+			"id": 29,
+			"name": "validateBackyardTheme",
+			"kind": 64,
+			"kindString": "Function",
+			"flags": {
+				"isConst": true
+			},
+			"signatures": [
+				{
+					"id": 30,
+					"name": "validateBackyardTheme",
+					"kind": 4096,
+					"kindString": "Call signature",
+					"flags": {},
+					"parameters": [
+						{
+							"id": 31,
+							"name": "theme",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"id": 7,
+								"name": "BackyardTheme"
+							}
+						},
+						{
+							"id": 32,
+							"name": "name",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {},
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				}
+			]
+		}
+	],
+	"groups": [
+		{
+			"title": "References",
+			"kind": 16777216,
+			"children": [
+				45
+			]
+		},
+		{
+			"title": "Namespaces",
+			"kind": 4,
+			"children": [
+				2
+			]
+		},
+		{
+			"title": "Interfaces",
+			"kind": 256,
+			"children": [
+				7,
+				19
+			]
+		},
+		{
+			"title": "Type aliases",
+			"kind": 4194304,
+			"children": [
+				6
+			]
+		},
+		{
+			"title": "Variables",
+			"kind": 32,
+			"children": [
+				5,
+				4,
+				1
+			]
+		},
+		{
+			"title": "Functions",
+			"kind": 64,
+			"children": [
+				41,
+				33,
+				37,
+				26,
+				29
+			]
+		}
+	]
+}

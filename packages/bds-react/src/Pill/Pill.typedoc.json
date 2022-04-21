@@ -1,0 +1,504 @@
+{
+	"id": 0,
+	"name": "@lowes-tech/bds-react/Pill",
+	"kind": 1,
+	"kindString": "Project",
+	"flags": {},
+	"children": [
+		{
+			"id": 19,
+			"name": "default",
+			"kind": 16777216,
+			"kindString": "Reference",
+			"flags": {},
+			"target": 1
+		},
+		{
+			"id": 2,
+			"name": "PillProps",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 3,
+					"name": "anchor",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "The anchor of the pill [y-pos, x-pos]\ntop-left, top-right, bottom-left, bottom-right"
+					},
+					"type": {
+						"type": "array",
+						"elementType": {
+							"type": "union",
+							"types": [
+								{
+									"type": "literal",
+									"value": "top"
+								},
+								{
+									"type": "literal",
+									"value": "bottom"
+								},
+								{
+									"type": "literal",
+									"value": "left"
+								},
+								{
+									"type": "literal",
+									"value": "right"
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 17,
+					"name": "as",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ElementType"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "BackyardBaseProps.as"
+					}
+				},
+				{
+					"id": 4,
+					"name": "children",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "The pill will be added relative to this node."
+					},
+					"type": {
+						"type": "reference",
+						"name": "ReactNode"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.children"
+					}
+				},
+				{
+					"id": 5,
+					"name": "className",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "DOM Class Name for pill"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.className"
+					}
+				},
+				{
+					"id": 6,
+					"name": "color",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "The color of the component. It supports those theme colors that make sense for this component."
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "dark-blue"
+							},
+							{
+								"type": "literal",
+								"value": "blue"
+							},
+							{
+								"type": "literal",
+								"value": "light-blue"
+							},
+							{
+								"type": "literal",
+								"value": "interactive"
+							},
+							{
+								"type": "literal",
+								"value": "green"
+							},
+							{
+								"type": "literal",
+								"value": "red"
+							},
+							{
+								"type": "literal",
+								"value": "gold"
+							},
+							{
+								"type": "literal",
+								"value": "lfp-yellow"
+							},
+							{
+								"type": "literal",
+								"value": "neutral"
+							}
+						]
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.color"
+					}
+				},
+				{
+					"id": 7,
+					"name": "display",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Display type of wrapper\nUseful if you need a blocking 'flex'"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 8,
+					"name": "invisible",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not the pill is invisible\nIf invisible, still renders children; only the pill is invisible"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 9,
+					"name": "max",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Maximum value of pill number"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.max"
+					}
+				},
+				{
+					"id": 10,
+					"name": "shape",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Shape of pill\nUseful if you still want to provide a `value`, but force a dot"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "circle"
+							},
+							{
+								"type": "literal",
+								"value": "dot"
+							}
+						]
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.shape"
+					}
+				},
+				{
+					"id": 16,
+					"name": "size",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Change the size of the pill"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "medium"
+							},
+							{
+								"type": "literal",
+								"value": "jumbo"
+							}
+						]
+					}
+				},
+				{
+					"id": 11,
+					"name": "value",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Value of pill"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.value"
+					}
+				},
+				{
+					"id": 12,
+					"name": "variant",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Variant of pill"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "filled"
+							},
+							{
+								"type": "literal",
+								"value": "outlined"
+							},
+							{
+								"type": "literal",
+								"value": "indicator"
+							}
+						]
+					}
+				},
+				{
+					"id": 13,
+					"name": "wrapperProps",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Wrapper props of pill and children\nUseful for if you want to set the `style` prop of the wrapper"
+					},
+					"type": {
+						"type": "intersection",
+						"types": [
+							{
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "reference",
+										"name": "HTMLSpanElement"
+									},
+									{
+										"type": "literal",
+										"value": ""
+									}
+								],
+								"name": "BackyardBaseProps"
+							},
+							{
+								"type": "reflection",
+								"declaration": {
+									"id": 14,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {},
+									"children": [
+										{
+											"id": 15,
+											"name": "display",
+											"kind": 1024,
+											"kindString": "Property",
+											"flags": {
+												"isOptional": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"groups": [
+										{
+											"title": "Properties",
+											"kind": 1024,
+											"children": [
+												15
+											]
+										}
+									]
+								}
+							}
+						]
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						3,
+						17,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						16,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"typeArguments": [
+						{
+							"type": "reference",
+							"id": 18,
+							"name": "PillRef"
+						},
+						{
+							"type": "reference",
+							"name": "PillOverrideProps"
+						}
+					],
+					"name": "BackyardBaseProps"
+				}
+			]
+		},
+		{
+			"id": 18,
+			"name": "PillRef",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"type": {
+				"type": "reference",
+				"name": "HTMLSpanElement"
+			}
+		},
+		{
+			"id": 1,
+			"name": "Pill",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"comment": {
+				"shortText": "Backyard React Pill",
+				"text": "Wraps a child and renders a colored number at the anchor position\nWrapped component should be a single element, such as an icon\n\nCan be used without children for further customizability\n\nIf `value` prop is not defined, forces to 'dot' shape\nIf `value` prop is defined, defaults to `circle` shape\nIt is possible to set `shape` to 'dot' and still give a number\n\nIf `invisible` flag is set, pill will still render, but not be visible\n     Note: `children` will still be visible\n\n <Pill\n     color=\"red\"\n >\n     <Account />\n </Pill>\n\n <Pill\n     color=\"green\"\n     value={23}\n />\n"
+			},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"id": 2,
+						"name": "PillProps"
+					}
+				],
+				"name": "BDSForwardRef"
+			},
+			"defaultValue": "..."
+		}
+	],
+	"groups": [
+		{
+			"title": "References",
+			"kind": 16777216,
+			"children": [
+				19
+			]
+		},
+		{
+			"title": "Interfaces",
+			"kind": 256,
+			"children": [
+				2
+			]
+		},
+		{
+			"title": "Type aliases",
+			"kind": 4194304,
+			"children": [
+				18
+			]
+		},
+		{
+			"title": "Variables",
+			"kind": 32,
+			"children": [
+				1
+			]
+		}
+	]
+}

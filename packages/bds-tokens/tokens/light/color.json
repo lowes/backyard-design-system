@@ -1,0 +1,400 @@
+{
+    "color": {
+        "marketing_interactive": {
+            "value": "hsl(213, 84%, 45%, 1)"
+        },
+        "text_interactive": {
+            "value": "hsl(213, 84%, 45%, 1)"
+        },
+        "text_interactive_inverse": {
+            "value": "hsl(213, 73%, 68%, 1)"
+        },
+        "icon_interactive": {
+            "value": "hsl(213, 84%, 35%, 1)"
+        },
+        "icon_interactive_inverse": {
+            "value": "hsl(213, 73%, 68%, 1)"
+        },
+        "border_interactive": {
+            "value": "hsl(213, 84%, 45%, 1)"
+        },
+        "border_interactive_inverse": {
+            "value": "hsl(213, 73%, 68%, 1)"
+        },
+        "focus_interactive": {
+            "value": "hsl(213, 84%, 45%, 1)"
+        },
+        "action_interactive": {
+            "value": "hsl(213, 84%, 45%, 1)"
+        },
+        "action_interactive_hover": {
+            "value": "hsl(213, 84%, 40%, 1)"
+        },
+        "action_interactive_pressed": {
+            "value": "hsl(213, 84%, 35%, 1)"
+        },
+        "action_interactive_subdued": {
+            "value": "hsl(213, 84%, 95%, 1)"
+        },
+        "action_interactive_subdued_hover": {
+            "value": "hsl(213, 84%, 92%, 1)"
+        },
+        "action_interactive_subdued_pressed": {
+            "value": "hsl(213, 84%, 90%, 1)"
+        },
+        "highlight": {
+            "value": "hsl(220, 53%, 97%, 1)"
+        },
+        "marketing_dark_blue": {
+            "value": "hsl(222, 98%, 21%, 1)"
+        },
+        "surface_dark_blue": {
+            "value": "hsl(222, 98%, 21%, 1)"
+        },
+        "surface_dark_blue_subdued": {
+            "value": "hsl(222, 25%, 92%, 1)"
+        },
+        "surface_dark_blue_inverse": {
+            "value": "hsl(222, 81%, 31%, 1)"
+        },
+        "surface_dark_blue_subdued_inverse": {
+            "value": "hsl(221, 55%, 18%, 1)"
+        },
+        "marketing_blue": {
+            "value": "hsl(196, 100%, 44%, 1)"
+        },
+        "surface_blue": {
+            "value": "hsl(196, 100%, 44%, 1)"
+        },
+        "surface_blue_subdued": {
+            "value": "hsl(196, 79%, 94%, 1)"
+        },
+        "surface_blue_inverse": {
+            "value": "hsl(196, 78%, 61%, 1)"
+        },
+        "surface_blue_subdued_inverse": {
+            "value": "hsl(197, 100%, 13%, 1)"
+        },
+        "marketing_light_blue": {
+            "value": "hsl(204, 69%, 76%, 1)"
+        },
+        "surface_light_blue": {
+            "value": "hsl(204, 69%, 76%, 1)"
+        },
+        "surface_light_blue_subdued": {
+            "value": "hsl(203, 67%, 98%, 1)"
+        },
+        "surface_light_blue_inverse": {
+            "value": "hsl(204, 67%, 84%, 1)"
+        },
+        "surface_light_blue_subdued_inverse": {
+            "value": "hsl(211, 100%, 10%, 1)"
+        },
+        "marketing_green": {
+            "value": "hsl(142, 100%, 35%, 1)"
+        },
+        "text_green": {
+            "value": "hsl(142, 86%, 28%, 1)"
+        },
+        "text_green_inverse": {
+            "value": "hsl(142, 37%, 55%, 1)"
+        },
+        "icon_green": {
+            "value": "hsl(142, 86%, 28%, 1)"
+        },
+        "icon_green_inverse": {
+            "value": "hsl(142, 37%, 55%, 1)"
+        },
+        "border_green": {
+            "value": "hsl(142, 86%, 28%, 1)"
+        },
+        "border_green_inverse": {
+            "value": "hsl(142, 37%, 55%, 1)"
+        },
+        "surface_green": {
+            "value": "hsl(142, 100%, 35%, 1)"
+        },
+        "surface_green_subdued": {
+            "value": "hsl(141, 61%, 90%, 1)"
+        },
+        "surface_green_inverse": {
+            "value": "hsl(142, 37%, 48%, 1)"
+        },
+        "surface_green_subdued_inverse": {
+            "value": "hsl(166, 42%, 20%, 1)"
+        },
+        "action_green": {
+            "value": "hsl(142, 86%, 28%, 1)"
+        },
+        "action_green_hover": {
+            "value": "hsl(142, 92%, 23%, 1)"
+        },
+        "action_green_pressed": {
+            "value": "hsl(142, 92%, 18%, 1)"
+        },
+        "action_green_subdued": {
+            "value": "hsl(141, 61%, 94%, 1)"
+        },
+        "action_green_subdued_hover": {
+            "value": "hsl(142, 61%, 91%, 1)"
+        },
+        "action_green_subdued_pressed": {
+            "value": "hsl(141, 61%, 87%, 1)"
+        },
+        "marketing_red": {
+            "value": "hsl(350, 73%, 35%, 1)"
+        },
+        "text_red": {
+            "value": "hsl(350, 73%, 35%, 1)"
+        },
+        "text_red_inverse": {
+            "value": "hsl(349, 40%, 71%, 1)"
+        },
+        "icon_red": {
+            "value": "hsl(350, 73%, 35%, 1)"
+        },
+        "icon_red_inverse": {
+            "value": "hsl(349, 40%, 71%, 1)"
+        },
+        "border_red": {
+            "value": "hsl(350, 73%, 35%, 1)"
+        },
+        "border_red_inverse": {
+            "value": "hsl(349, 40%, 71%, 1)"
+        },
+        "surface_red": {
+            "value": "hsl(350, 73%, 35%, 1)"
+        },
+        "surface_red_subdued": {
+            "value": "hsl(350, 33%, 96%, 1)"
+        },
+        "surface_red_inverse": {
+            "value": "hsl(357, 66%, 68%, 1)"
+        },
+        "surface_red_subdued_inverse": {
+            "value": "hsl(343, 61%, 24%, 1)"
+        },
+        "action_red": {
+            "value": "hsl(350, 73%, 35%, 1)"
+        },
+        "action_red_hover": {
+            "value": "hsl(349, 74%, 32%, 1)"
+        },
+        "action_red_pressed": {
+            "value": "hsl(350, 73%, 27%, 1)"
+        },
+        "action_red_subdued": {
+            "value": "hsl(350, 33%, 96%, 1)"
+        },
+        "action_red_subdued_hover": {
+            "value": "hsl(351, 39%, 94%, 1)"
+        },
+        "action_red_subdued_pressed": {
+            "value": "hsl(350, 39%, 91%, 1)"
+        },
+        "marketing_gold": {
+            "value": "hsl(41, 91%, 57%, 1)"
+        },
+        "surface_gold": {
+            "value": "hsl(41, 91%, 57%, 1)"
+        },
+        "surface_gold_subdued": {
+            "value": "hsl(41, 92%, 90%, 1)"
+        },
+        "surface_gold_inverse": {
+            "value": "hsl(41, 91%, 70%, 1)"
+        },
+        "surface_gold_subdued_inverse": {
+            "value": "hsl(41, 27%, 38%, 1)"
+        },
+        "marketing_lfp_yellow": {
+            "value": "hsl(48, 88%, 60%, 1)"
+        },
+        "text_solid_inverse": {
+            "value": "hsl(0, 0%, 100%, 1)"
+        },
+        "text_primary_inverse": {
+            "value": "hsl(0, 0%, 100%, .87)"
+        },
+        "text_secondary_inverse": {
+            "value": "hsl(0, 0%, 100%, .70)"
+        },
+        "text_tertiary_inverse": {
+            "value": "hsl(0, 0%, 100%, .60)"
+        },
+        "text_disabled_inverse": {
+            "value": "hsl(0, 0%, 100%, .30)"
+        },
+        "icon_solid_inverse": {
+            "value": "hsl(0, 0%, 100%, 1)"
+        },
+        "icon_primary_inverse": {
+            "value": "hsl(0, 0%, 100%, .87)"
+        },
+        "icon_secondary_inverse": {
+            "value": "hsl(0, 0%, 100%, .70)"
+        },
+        "icon_tertiary_inverse": {
+            "value": "hsl(0, 0%, 100%, .60)"
+        },
+        "icon_disabled_inverse": {
+            "value": "hsl(0, 0%, 100%, .30)"
+        },
+        "border_default_inverse": {
+            "value": "hsl(0, 0%, 100%, .44)"
+        },
+        "border_hover_inverse": {
+            "value": "hsl(0, 0%, 100%, .52)"
+        },
+        "border_pressed_inverse": {
+            "value": "hsl(0, 0%, 100%, .60)"
+        },
+        "border_subdued_inverse": {
+            "value": "hsl(0, 0%, 100%, .12)"
+        },
+        "border_contrast_inverse": {
+            "value": "hsl(0, 0%, 100%, .90)"
+        },
+        "border_disabled_inverse": {
+            "value": "hsl(0, 0%, 100%, .30)"
+        },
+        "focus_inverse": {
+            "value": "hsl(0, 0%, 100%, 1)"
+        },
+        "surface_default": {
+            "value": "hsl(0, 0%, 100%, 1)"
+        },
+        "surface_default_inverse": {
+            "value": "hsl(221, 100%, 6%, 1)"
+        },
+        "surface_subdued": {
+            "value": "hsl(0, 0%, 96%, 1)"
+        },
+        "elevation_01": {
+            "value": "hsl(0, 0%, 100%, 1)"
+        },
+        "elevation_02": {
+            "value": "hsl(0, 0%, 100%, 1)"
+        },
+        "elevation_03": {
+            "value": "hsl(0, 0%, 100%, 1)"
+        },
+        "elevation_04": {
+            "value": "hsl(0, 0%, 100%, 1)"
+        },
+        "elevation_05": {
+            "value": "hsl(0, 0%, 100%, 1)"
+        },
+        "elevation_06": {
+            "value": "hsl(0, 0%, 100%, 1)"
+        },
+        "action_neutral": {
+            "value": "hsl(0, 0%, 96%, 1)"
+        },
+        "action_neutral_hover": {
+            "value": "hsl(0, 0%, 94%, 1)"
+        },
+        "action_neutral_pressed": {
+            "value": "hsl(0, 0%, 92%, 1)"
+        },
+        "white": {
+            "value": "hsl(0, 0%, 100%, 1)"
+        },
+        "black": {
+            "value": "hsl(0, 0%, 0%, 1)"
+        },
+        "text_solid": {
+            "value": "hsl(0, 0%, 0%, 1)"
+        },
+        "text_primary": {
+            "value": "hsl(0, 0%, 0%, .87)"
+        },
+        "text_secondary": {
+            "value": "hsl(0, 0%, 0%, .70)"
+        },
+        "text_tertiary": {
+            "value": "hsl(0, 0%, 0%, .60)"
+        },
+        "text_disabled": {
+            "value": "hsl(0, 0%, 0%, .30)"
+        },
+        "icon_solid": {
+            "value": "hsl(0, 0%, 0%, 1)"
+        },
+        "icon_primary": {
+            "value": "hsl(0, 0%, 0%, .87)"
+        },
+        "icon_secondary": {
+            "value": "hsl(0, 0%, 0%, .70)"
+        },
+        "icon_tertiary": {
+            "value": "hsl(0, 0%, 0%, .60)"
+        },
+        "icon_disabled": {
+            "value": "hsl(0, 0%, 0%, .30)"
+        },
+        "border_default": {
+            "value": "hsl(0, 0%, 44%, 1)"
+        },
+        "border_hover": {
+            "value": "hsl(0, 0%, 52%, 1)"
+        },
+        "border_pressed": {
+            "value": "hsl(0, 0%, 60%, 1)"
+        },
+        "border_subdued": {
+            "value": "hsl(0, 0%, 0%, .12)"
+        },
+        "border_contrast": {
+            "value": "hsl(0, 0%, 0%, .90)"
+        },
+        "border_disabled": {
+            "value": "hsl(0, 0%, 70%, 1)"
+        },
+        "focus_default": {
+            "value": "hsl(0, 0%, 55%, 1)"
+        },
+        "neutral_01": {
+            "value": "hsl(0, 0%, 96%, 1)"
+        },
+        "neutral_02": {
+            "value": "hsl(0, 0%, 88%, 1)"
+        },
+        "neutral_03": {
+            "value": "hsl(0, 0%, 78%, 1)"
+        },
+        "neutral_04": {
+            "value": "hsl(0, 0%, 66%, 1)"
+        },
+        "neutral_05": {
+            "value": "hsl(0, 0%, 55%, 1)"
+        },
+        "neutral_06": {
+            "value": "hsl(0, 0%, 44%, 1)"
+        },
+        "neutral_07": {
+            "value": "hsl(0, 0%, 32%, 1)"
+        },
+        "neutral_08": {
+            "value": "hsl(0, 0%, 22%, 1)"
+        },
+        "neutral_09": {
+            "value": "hsl(0, 0%, 15%, 1)"
+        },
+        "neutral_10": {
+            "value": "hsl(0, 0%, 9%, 1)"
+        },
+        "skeleton_01": {
+            "value": "hsl(0, 0%, 90%, 1)"
+        },
+        "skeleton_02": {
+            "value": "hsl(0, 0%, 78%, 1)"
+        },
+        "overlay": {
+            "value": "hsl(0, 0%, 0%, .60)"
+        },
+        "text_visited_link": {
+            "value": "hsl(264, 97%, 58%, 1)"
+        }
+    }
+}

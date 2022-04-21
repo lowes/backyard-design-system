@@ -1,0 +1,2874 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox Snapshots Checkbox default snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+}
+
+.c0 label {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  pointer-events: none;
+}
+
+.c0 label .checkbox-icon {
+  z-index: 1;
+}
+
+.c0 input {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.c0 input:checked + label::after {
+  opacity: 1;
+}
+
+.c0 input:not(:checked) + label::after {
+  opacity: 0;
+}
+
+.c0 input + label::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: var(--bds-sizes-size-14);
+  width: var(--bds-sizes-size-14);
+  border-width: var(--bds-border-width-sm);
+  border-style: solid;
+}
+
+.c0 input.shape--rounded + label::before {
+  border-radius: var(--bds-border-radius-md);
+}
+
+.c0 input.shape--squared + label::before {
+  border-radius: 0;
+}
+
+.c0 input:not(:checked):enabled + label::before,
+.c0 input:not(:checked).enabled + label::before {
+  border-color: var(--bds-color-border-default);
+}
+
+.c0 input:not(:checked):hover + label::before,
+.c0 input:not(:checked).hover + label::before {
+  border-color: var(--bds-color-action-interative-hover);
+}
+
+.c0 input:not(:checked):focus + label::before,
+.c0 input:not(:checked).focus + label::before {
+  border-color: var(--bds-color-action-interactive);
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+}
+
+.c0 input:not(:checked):disabled,
+.c0 input:not(:checked).disabled,
+.c0 input:not(:checked):disabled + label,
+.c0 input:not(:checked).disabled + label {
+  cursor: not-allowed;
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 input:not(:checked):disabled + label::before,
+.c0 input:not(:checked).disabled + label::before {
+  border-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:not(:checked),
+.c0 input:not(:checked) + label {
+  cursor: pointer;
+}
+
+.c0 input:not(:checked) + label::before {
+  background-color: transparent;
+  border-color: var(--bds-color-border-default);
+}
+
+.c0 input:checked:enabled + label::before,
+.c0 input:checked.enabled + label::before {
+  background-color: var(--bds-color-action-interactive);
+}
+
+.c0 input:checked:hover + label::before,
+.c0 input:checked:focus:hover + label::before,
+.c0 input:checked.hover + label::before {
+  background-color: var(--bds-color-action-interactive-hover);
+  border-color: var(--bds-color-action-interactive-hover);
+}
+
+.c0 input:checked:focus + label::before,
+.c0 input:checked.focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c0 input:checked:disabled,
+.c0 input:checked.disabled,
+.c0 input:checked:disabled + label,
+.c0 input:checked.disabled + label {
+  cursor: not-allowed;
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 input:checked:disabled + label::before,
+.c0 input:checked.disabled + label::before {
+  background-color: var(--bds-color-text-disabled);
+  border-color: transparent;
+}
+
+.c0 input:checked,
+.c0 input:checked + label {
+  cursor: pointer;
+}
+
+.c0 input:checked + label::before {
+  background-color: var(--bds-color-action-interactive);
+  border-color: var(--bds-color-action-interactive);
+}
+
+<span
+    class="c0"
+  >
+    <input
+      class="backyard checkbox shape--rounded"
+      data-indeterminate="false"
+      type="checkbox"
+      value=""
+    />
+    <label
+      class="checkbox-label"
+    />
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Checkbox Snapshots extra props Checkbox DOM id, name, value snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+}
+
+.c0 label {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  pointer-events: none;
+}
+
+.c0 label .checkbox-icon {
+  z-index: 1;
+}
+
+.c0 input {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.c0 input:checked + label::after {
+  opacity: 1;
+}
+
+.c0 input:not(:checked) + label::after {
+  opacity: 0;
+}
+
+.c0 input + label::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: var(--bds-sizes-size-14);
+  width: var(--bds-sizes-size-14);
+  border-width: var(--bds-border-width-sm);
+  border-style: solid;
+}
+
+.c0 input.shape--rounded + label::before {
+  border-radius: var(--bds-border-radius-md);
+}
+
+.c0 input.shape--squared + label::before {
+  border-radius: 0;
+}
+
+.c0 input:not(:checked):enabled + label::before,
+.c0 input:not(:checked).enabled + label::before {
+  border-color: var(--bds-color-border-default);
+}
+
+.c0 input:not(:checked):hover + label::before,
+.c0 input:not(:checked).hover + label::before {
+  border-color: var(--bds-color-action-interative-hover);
+}
+
+.c0 input:not(:checked):focus + label::before,
+.c0 input:not(:checked).focus + label::before {
+  border-color: var(--bds-color-action-interactive);
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+}
+
+.c0 input:not(:checked):disabled,
+.c0 input:not(:checked).disabled,
+.c0 input:not(:checked):disabled + label,
+.c0 input:not(:checked).disabled + label {
+  cursor: not-allowed;
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 input:not(:checked):disabled + label::before,
+.c0 input:not(:checked).disabled + label::before {
+  border-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:not(:checked),
+.c0 input:not(:checked) + label {
+  cursor: pointer;
+}
+
+.c0 input:not(:checked) + label::before {
+  background-color: transparent;
+  border-color: var(--bds-color-border-default);
+}
+
+.c0 input:checked:enabled + label::before,
+.c0 input:checked.enabled + label::before {
+  background-color: var(--bds-color-action-interactive);
+}
+
+.c0 input:checked:hover + label::before,
+.c0 input:checked:focus:hover + label::before,
+.c0 input:checked.hover + label::before {
+  background-color: var(--bds-color-action-interactive-hover);
+  border-color: var(--bds-color-action-interactive-hover);
+}
+
+.c0 input:checked:focus + label::before,
+.c0 input:checked.focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c0 input:checked:disabled,
+.c0 input:checked.disabled,
+.c0 input:checked:disabled + label,
+.c0 input:checked.disabled + label {
+  cursor: not-allowed;
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 input:checked:disabled + label::before,
+.c0 input:checked.disabled + label::before {
+  background-color: var(--bds-color-text-disabled);
+  border-color: transparent;
+}
+
+.c0 input:checked,
+.c0 input:checked + label {
+  cursor: pointer;
+}
+
+.c0 input:checked + label::before {
+  background-color: var(--bds-color-action-interactive);
+  border-color: var(--bds-color-action-interactive);
+}
+
+<span
+    class="c0"
+  >
+    <input
+      class="backyard checkbox shape--rounded"
+      data-indeterminate="false"
+      name="test-name"
+      type="checkbox"
+      value="test-value"
+    />
+    <label
+      class="checkbox-label"
+    />
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Checkbox Snapshots extra props Checkbox className snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+}
+
+.c0 label {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  pointer-events: none;
+}
+
+.c0 label .checkbox-icon {
+  z-index: 1;
+}
+
+.c0 input {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.c0 input:checked + label::after {
+  opacity: 1;
+}
+
+.c0 input:not(:checked) + label::after {
+  opacity: 0;
+}
+
+.c0 input + label::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: var(--bds-sizes-size-14);
+  width: var(--bds-sizes-size-14);
+  border-width: var(--bds-border-width-sm);
+  border-style: solid;
+}
+
+.c0 input.shape--rounded + label::before {
+  border-radius: var(--bds-border-radius-md);
+}
+
+.c0 input.shape--squared + label::before {
+  border-radius: 0;
+}
+
+.c0 input:not(:checked):enabled + label::before,
+.c0 input:not(:checked).enabled + label::before {
+  border-color: var(--bds-color-border-default);
+}
+
+.c0 input:not(:checked):hover + label::before,
+.c0 input:not(:checked).hover + label::before {
+  border-color: var(--bds-color-action-interative-hover);
+}
+
+.c0 input:not(:checked):focus + label::before,
+.c0 input:not(:checked).focus + label::before {
+  border-color: var(--bds-color-action-interactive);
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+}
+
+.c0 input:not(:checked):disabled,
+.c0 input:not(:checked).disabled,
+.c0 input:not(:checked):disabled + label,
+.c0 input:not(:checked).disabled + label {
+  cursor: not-allowed;
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 input:not(:checked):disabled + label::before,
+.c0 input:not(:checked).disabled + label::before {
+  border-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:not(:checked),
+.c0 input:not(:checked) + label {
+  cursor: pointer;
+}
+
+.c0 input:not(:checked) + label::before {
+  background-color: transparent;
+  border-color: var(--bds-color-border-default);
+}
+
+.c0 input:checked:enabled + label::before,
+.c0 input:checked.enabled + label::before {
+  background-color: var(--bds-color-action-interactive);
+}
+
+.c0 input:checked:hover + label::before,
+.c0 input:checked:focus:hover + label::before,
+.c0 input:checked.hover + label::before {
+  background-color: var(--bds-color-action-interactive-hover);
+  border-color: var(--bds-color-action-interactive-hover);
+}
+
+.c0 input:checked:focus + label::before,
+.c0 input:checked.focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c0 input:checked:disabled,
+.c0 input:checked.disabled,
+.c0 input:checked:disabled + label,
+.c0 input:checked.disabled + label {
+  cursor: not-allowed;
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 input:checked:disabled + label::before,
+.c0 input:checked.disabled + label::before {
+  background-color: var(--bds-color-text-disabled);
+  border-color: transparent;
+}
+
+.c0 input:checked,
+.c0 input:checked + label {
+  cursor: pointer;
+}
+
+.c0 input:checked + label::before {
+  background-color: var(--bds-color-action-interactive);
+  border-color: var(--bds-color-action-interactive);
+}
+
+<span
+    class="c0"
+  >
+    <input
+      class="backyard checkbox shape--rounded test-class"
+      data-indeterminate="false"
+      type="checkbox"
+      value=""
+    />
+    <label
+      class="checkbox-label"
+    />
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Checkbox Snapshots extra props Checkbox wrapperProps snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+}
+
+.c0 label {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  pointer-events: none;
+}
+
+.c0 label .checkbox-icon {
+  z-index: 1;
+}
+
+.c0 input {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.c0 input:checked + label::after {
+  opacity: 1;
+}
+
+.c0 input:not(:checked) + label::after {
+  opacity: 0;
+}
+
+.c0 input + label::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: var(--bds-sizes-size-14);
+  width: var(--bds-sizes-size-14);
+  border-width: var(--bds-border-width-sm);
+  border-style: solid;
+}
+
+.c0 input.shape--rounded + label::before {
+  border-radius: var(--bds-border-radius-md);
+}
+
+.c0 input.shape--squared + label::before {
+  border-radius: 0;
+}
+
+.c0 input:not(:checked):enabled + label::before,
+.c0 input:not(:checked).enabled + label::before {
+  border-color: var(--bds-color-border-default);
+}
+
+.c0 input:not(:checked):hover + label::before,
+.c0 input:not(:checked).hover + label::before {
+  border-color: var(--bds-color-action-interative-hover);
+}
+
+.c0 input:not(:checked):focus + label::before,
+.c0 input:not(:checked).focus + label::before {
+  border-color: var(--bds-color-action-interactive);
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+}
+
+.c0 input:not(:checked):disabled,
+.c0 input:not(:checked).disabled,
+.c0 input:not(:checked):disabled + label,
+.c0 input:not(:checked).disabled + label {
+  cursor: not-allowed;
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 input:not(:checked):disabled + label::before,
+.c0 input:not(:checked).disabled + label::before {
+  border-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:not(:checked),
+.c0 input:not(:checked) + label {
+  cursor: pointer;
+}
+
+.c0 input:not(:checked) + label::before {
+  background-color: transparent;
+  border-color: var(--bds-color-border-default);
+}
+
+.c0 input:checked:enabled + label::before,
+.c0 input:checked.enabled + label::before {
+  background-color: var(--bds-color-action-interactive);
+}
+
+.c0 input:checked:hover + label::before,
+.c0 input:checked:focus:hover + label::before,
+.c0 input:checked.hover + label::before {
+  background-color: var(--bds-color-action-interactive-hover);
+  border-color: var(--bds-color-action-interactive-hover);
+}
+
+.c0 input:checked:focus + label::before,
+.c0 input:checked.focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c0 input:checked:disabled,
+.c0 input:checked.disabled,
+.c0 input:checked:disabled + label,
+.c0 input:checked.disabled + label {
+  cursor: not-allowed;
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 input:checked:disabled + label::before,
+.c0 input:checked.disabled + label::before {
+  background-color: var(--bds-color-text-disabled);
+  border-color: transparent;
+}
+
+.c0 input:checked,
+.c0 input:checked + label {
+  cursor: pointer;
+}
+
+.c0 input:checked + label::before {
+  background-color: var(--bds-color-action-interactive);
+  border-color: var(--bds-color-action-interactive);
+}
+
+<span
+    class="c0"
+    style="opacity: 0;"
+  >
+    <input
+      class="backyard checkbox shape--rounded"
+      data-indeterminate="false"
+      type="checkbox"
+      value=""
+    />
+    <label
+      class="checkbox-label"
+    />
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Checkbox Snapshots prop: checked Checkbox checked snapshot 1`] = `
+<DocumentFragment>
+  .c1 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c1:not(.color-override) g,
+.c1:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c1:not(.color-override) g[stroke-width],
+.c1:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c1:not(.color-override) g[stroke-width] *,
+.c1:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c1.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c1.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+}
+
+.c0 label {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  pointer-events: none;
+}
+
+.c0 label .checkbox-icon {
+  z-index: 1;
+}
+
+.c0 input {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.c0 input:checked + label::after {
+  opacity: 1;
+}
+
+.c0 input:not(:checked) + label::after {
+  opacity: 0;
+}
+
+.c0 input + label::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: var(--bds-sizes-size-14);
+  width: var(--bds-sizes-size-14);
+  border-width: var(--bds-border-width-sm);
+  border-style: solid;
+}
+
+.c0 input.shape--rounded + label::before {
+  border-radius: var(--bds-border-radius-md);
+}
+
+.c0 input.shape--squared + label::before {
+  border-radius: 0;
+}
+
+.c0 input:not(:checked):enabled + label::before,
+.c0 input:not(:checked).enabled + label::before {
+  border-color: var(--bds-color-border-default);
+}
+
+.c0 input:not(:checked):hover + label::before,
+.c0 input:not(:checked).hover + label::before {
+  border-color: var(--bds-color-action-interative-hover);
+}
+
+.c0 input:not(:checked):focus + label::before,
+.c0 input:not(:checked).focus + label::before {
+  border-color: var(--bds-color-action-interactive);
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+}
+
+.c0 input:not(:checked):disabled,
+.c0 input:not(:checked).disabled,
+.c0 input:not(:checked):disabled + label,
+.c0 input:not(:checked).disabled + label {
+  cursor: not-allowed;
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 input:not(:checked):disabled + label::before,
+.c0 input:not(:checked).disabled + label::before {
+  border-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:not(:checked),
+.c0 input:not(:checked) + label {
+  cursor: pointer;
+}
+
+.c0 input:not(:checked) + label::before {
+  background-color: transparent;
+  border-color: var(--bds-color-border-default);
+}
+
+.c0 input:checked:enabled + label::before,
+.c0 input:checked.enabled + label::before {
+  background-color: var(--bds-color-action-interactive);
+}
+
+.c0 input:checked:hover + label::before,
+.c0 input:checked:focus:hover + label::before,
+.c0 input:checked.hover + label::before {
+  background-color: var(--bds-color-action-interactive-hover);
+  border-color: var(--bds-color-action-interactive-hover);
+}
+
+.c0 input:checked:focus + label::before,
+.c0 input:checked.focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c0 input:checked:disabled,
+.c0 input:checked.disabled,
+.c0 input:checked:disabled + label,
+.c0 input:checked.disabled + label {
+  cursor: not-allowed;
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 input:checked:disabled + label::before,
+.c0 input:checked.disabled + label::before {
+  background-color: var(--bds-color-text-disabled);
+  border-color: transparent;
+}
+
+.c0 input:checked,
+.c0 input:checked + label {
+  cursor: pointer;
+}
+
+.c0 input:checked + label::before {
+  background-color: var(--bds-color-action-interactive);
+  border-color: var(--bds-color-action-interactive);
+}
+
+<span
+    class="c0"
+  >
+    <input
+      checked=""
+      class="backyard checkbox shape--rounded checked"
+      data-indeterminate="false"
+      type="checkbox"
+      value=""
+    />
+    <label
+      class="checkbox-label"
+    >
+      <svg
+        aria-hidden="true"
+        class="c1 icon icon-checkmark checkbox-icon checkbox-mark"
+        role="presentation"
+        style="--style-icon-height: var(--bds-sizes-size-12); --style-icon-width: var(--bds-sizes-size-12); --style-icon-color: var(--bds-color-icon-solid-inverse);"
+        viewBox="0 0 16 16"
+      >
+        <path
+          d="M5.6338 10.9115 3.141 8.4188a.6684.6684 0 0 0-.9453.9453l2.9495 2.9495a.6661.6661 0 0 0 .4885.1956.6661.6661 0 0 0 .4884-.1956l7.682-7.682a.6685.6685 0 0 0-.9453-.9452l-7.2252 7.2251Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </label>
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Checkbox Snapshots prop: checked Checkbox not checked snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+}
+
+.c0 label {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  pointer-events: none;
+}
+
+.c0 label .checkbox-icon {
+  z-index: 1;
+}
+
+.c0 input {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.c0 input:checked + label::after {
+  opacity: 1;
+}
+
+.c0 input:not(:checked) + label::after {
+  opacity: 0;
+}
+
+.c0 input + label::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: var(--bds-sizes-size-14);
+  width: var(--bds-sizes-size-14);
+  border-width: var(--bds-border-width-sm);
+  border-style: solid;
+}
+
+.c0 input.shape--rounded + label::before {
+  border-radius: var(--bds-border-radius-md);
+}
+
+.c0 input.shape--squared + label::before {
+  border-radius: 0;
+}
+
+.c0 input:not(:checked):enabled + label::before,
+.c0 input:not(:checked).enabled + label::before {
+  border-color: var(--bds-color-border-default);
+}
+
+.c0 input:not(:checked):hover + label::before,
+.c0 input:not(:checked).hover + label::before {
+  border-color: var(--bds-color-action-interative-hover);
+}
+
+.c0 input:not(:checked):focus + label::before,
+.c0 input:not(:checked).focus + label::before {
+  border-color: var(--bds-color-action-interactive);
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+}
+
+.c0 input:not(:checked):disabled,
+.c0 input:not(:checked).disabled,
+.c0 input:not(:checked):disabled + label,
+.c0 input:not(:checked).disabled + label {
+  cursor: not-allowed;
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 input:not(:checked):disabled + label::before,
+.c0 input:not(:checked).disabled + label::before {
+  border-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:not(:checked),
+.c0 input:not(:checked) + label {
+  cursor: pointer;
+}
+
+.c0 input:not(:checked) + label::before {
+  background-color: transparent;
+  border-color: var(--bds-color-border-default);
+}
+
+.c0 input:checked:enabled + label::before,
+.c0 input:checked.enabled + label::before {
+  background-color: var(--bds-color-action-interactive);
+}
+
+.c0 input:checked:hover + label::before,
+.c0 input:checked:focus:hover + label::before,
+.c0 input:checked.hover + label::before {
+  background-color: var(--bds-color-action-interactive-hover);
+  border-color: var(--bds-color-action-interactive-hover);
+}
+
+.c0 input:checked:focus + label::before,
+.c0 input:checked.focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c0 input:checked:disabled,
+.c0 input:checked.disabled,
+.c0 input:checked:disabled + label,
+.c0 input:checked.disabled + label {
+  cursor: not-allowed;
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 input:checked:disabled + label::before,
+.c0 input:checked.disabled + label::before {
+  background-color: var(--bds-color-text-disabled);
+  border-color: transparent;
+}
+
+.c0 input:checked,
+.c0 input:checked + label {
+  cursor: pointer;
+}
+
+.c0 input:checked + label::before {
+  background-color: var(--bds-color-action-interactive);
+  border-color: var(--bds-color-action-interactive);
+}
+
+<span
+    class="c0"
+  >
+    <input
+      class="backyard checkbox shape--rounded"
+      data-indeterminate="false"
+      type="checkbox"
+      value=""
+    />
+    <label
+      class="checkbox-label"
+    />
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Checkbox Snapshots prop: defaultChecked Checkbox default checked snapshot 1`] = `
+<DocumentFragment>
+  .c1 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c1:not(.color-override) g,
+.c1:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c1:not(.color-override) g[stroke-width],
+.c1:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c1:not(.color-override) g[stroke-width] *,
+.c1:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c1.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c1.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+}
+
+.c0 label {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  pointer-events: none;
+}
+
+.c0 label .checkbox-icon {
+  z-index: 1;
+}
+
+.c0 input {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.c0 input:checked + label::after {
+  opacity: 1;
+}
+
+.c0 input:not(:checked) + label::after {
+  opacity: 0;
+}
+
+.c0 input + label::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: var(--bds-sizes-size-14);
+  width: var(--bds-sizes-size-14);
+  border-width: var(--bds-border-width-sm);
+  border-style: solid;
+}
+
+.c0 input.shape--rounded + label::before {
+  border-radius: var(--bds-border-radius-md);
+}
+
+.c0 input.shape--squared + label::before {
+  border-radius: 0;
+}
+
+.c0 input:not(:checked):enabled + label::before,
+.c0 input:not(:checked).enabled + label::before {
+  border-color: var(--bds-color-border-default);
+}
+
+.c0 input:not(:checked):hover + label::before,
+.c0 input:not(:checked).hover + label::before {
+  border-color: var(--bds-color-action-interative-hover);
+}
+
+.c0 input:not(:checked):focus + label::before,
+.c0 input:not(:checked).focus + label::before {
+  border-color: var(--bds-color-action-interactive);
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+}
+
+.c0 input:not(:checked):disabled,
+.c0 input:not(:checked).disabled,
+.c0 input:not(:checked):disabled + label,
+.c0 input:not(:checked).disabled + label {
+  cursor: not-allowed;
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 input:not(:checked):disabled + label::before,
+.c0 input:not(:checked).disabled + label::before {
+  border-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:not(:checked),
+.c0 input:not(:checked) + label {
+  cursor: pointer;
+}
+
+.c0 input:not(:checked) + label::before {
+  background-color: transparent;
+  border-color: var(--bds-color-border-default);
+}
+
+.c0 input:checked:enabled + label::before,
+.c0 input:checked.enabled + label::before {
+  background-color: var(--bds-color-action-interactive);
+}
+
+.c0 input:checked:hover + label::before,
+.c0 input:checked:focus:hover + label::before,
+.c0 input:checked.hover + label::before {
+  background-color: var(--bds-color-action-interactive-hover);
+  border-color: var(--bds-color-action-interactive-hover);
+}
+
+.c0 input:checked:focus + label::before,
+.c0 input:checked.focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c0 input:checked:disabled,
+.c0 input:checked.disabled,
+.c0 input:checked:disabled + label,
+.c0 input:checked.disabled + label {
+  cursor: not-allowed;
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 input:checked:disabled + label::before,
+.c0 input:checked.disabled + label::before {
+  background-color: var(--bds-color-text-disabled);
+  border-color: transparent;
+}
+
+.c0 input:checked,
+.c0 input:checked + label {
+  cursor: pointer;
+}
+
+.c0 input:checked + label::before {
+  background-color: var(--bds-color-action-interactive);
+  border-color: var(--bds-color-action-interactive);
+}
+
+<span
+    class="c0"
+  >
+    <input
+      checked=""
+      class="backyard checkbox shape--rounded checked"
+      data-indeterminate="false"
+      type="checkbox"
+      value=""
+    />
+    <label
+      class="checkbox-label"
+    >
+      <svg
+        aria-hidden="true"
+        class="c1 icon icon-checkmark checkbox-icon checkbox-mark"
+        role="presentation"
+        style="--style-icon-height: var(--bds-sizes-size-12); --style-icon-width: var(--bds-sizes-size-12); --style-icon-color: var(--bds-color-icon-solid-inverse);"
+        viewBox="0 0 16 16"
+      >
+        <path
+          d="M5.6338 10.9115 3.141 8.4188a.6684.6684 0 0 0-.9453.9453l2.9495 2.9495a.6661.6661 0 0 0 .4885.1956.6661.6661 0 0 0 .4884-.1956l7.682-7.682a.6685.6685 0 0 0-.9453-.9452l-7.2252 7.2251Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </label>
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Checkbox Snapshots prop: defaultChecked Checkbox default not checked snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+}
+
+.c0 label {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  pointer-events: none;
+}
+
+.c0 label .checkbox-icon {
+  z-index: 1;
+}
+
+.c0 input {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.c0 input:checked + label::after {
+  opacity: 1;
+}
+
+.c0 input:not(:checked) + label::after {
+  opacity: 0;
+}
+
+.c0 input + label::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: var(--bds-sizes-size-14);
+  width: var(--bds-sizes-size-14);
+  border-width: var(--bds-border-width-sm);
+  border-style: solid;
+}
+
+.c0 input.shape--rounded + label::before {
+  border-radius: var(--bds-border-radius-md);
+}
+
+.c0 input.shape--squared + label::before {
+  border-radius: 0;
+}
+
+.c0 input:not(:checked):enabled + label::before,
+.c0 input:not(:checked).enabled + label::before {
+  border-color: var(--bds-color-border-default);
+}
+
+.c0 input:not(:checked):hover + label::before,
+.c0 input:not(:checked).hover + label::before {
+  border-color: var(--bds-color-action-interative-hover);
+}
+
+.c0 input:not(:checked):focus + label::before,
+.c0 input:not(:checked).focus + label::before {
+  border-color: var(--bds-color-action-interactive);
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+}
+
+.c0 input:not(:checked):disabled,
+.c0 input:not(:checked).disabled,
+.c0 input:not(:checked):disabled + label,
+.c0 input:not(:checked).disabled + label {
+  cursor: not-allowed;
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 input:not(:checked):disabled + label::before,
+.c0 input:not(:checked).disabled + label::before {
+  border-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:not(:checked),
+.c0 input:not(:checked) + label {
+  cursor: pointer;
+}
+
+.c0 input:not(:checked) + label::before {
+  background-color: transparent;
+  border-color: var(--bds-color-border-default);
+}
+
+.c0 input:checked:enabled + label::before,
+.c0 input:checked.enabled + label::before {
+  background-color: var(--bds-color-action-interactive);
+}
+
+.c0 input:checked:hover + label::before,
+.c0 input:checked:focus:hover + label::before,
+.c0 input:checked.hover + label::before {
+  background-color: var(--bds-color-action-interactive-hover);
+  border-color: var(--bds-color-action-interactive-hover);
+}
+
+.c0 input:checked:focus + label::before,
+.c0 input:checked.focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c0 input:checked:disabled,
+.c0 input:checked.disabled,
+.c0 input:checked:disabled + label,
+.c0 input:checked.disabled + label {
+  cursor: not-allowed;
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 input:checked:disabled + label::before,
+.c0 input:checked.disabled + label::before {
+  background-color: var(--bds-color-text-disabled);
+  border-color: transparent;
+}
+
+.c0 input:checked,
+.c0 input:checked + label {
+  cursor: pointer;
+}
+
+.c0 input:checked + label::before {
+  background-color: var(--bds-color-action-interactive);
+  border-color: var(--bds-color-action-interactive);
+}
+
+<span
+    class="c0"
+  >
+    <input
+      class="backyard checkbox shape--rounded"
+      data-indeterminate="false"
+      type="checkbox"
+      value=""
+    />
+    <label
+      class="checkbox-label"
+    />
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Checkbox Snapshots prop: disabled Checkbox disabled snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+}
+
+.c0 label {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  pointer-events: none;
+}
+
+.c0 label .checkbox-icon {
+  z-index: 1;
+}
+
+.c0 input {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.c0 input:checked + label::after {
+  opacity: 1;
+}
+
+.c0 input:not(:checked) + label::after {
+  opacity: 0;
+}
+
+.c0 input + label::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: var(--bds-sizes-size-14);
+  width: var(--bds-sizes-size-14);
+  border-width: var(--bds-border-width-sm);
+  border-style: solid;
+}
+
+.c0 input.shape--rounded + label::before {
+  border-radius: var(--bds-border-radius-md);
+}
+
+.c0 input.shape--squared + label::before {
+  border-radius: 0;
+}
+
+.c0 input:not(:checked):enabled + label::before,
+.c0 input:not(:checked).enabled + label::before {
+  border-color: var(--bds-color-border-default);
+}
+
+.c0 input:not(:checked):hover + label::before,
+.c0 input:not(:checked).hover + label::before {
+  border-color: var(--bds-color-action-interative-hover);
+}
+
+.c0 input:not(:checked):focus + label::before,
+.c0 input:not(:checked).focus + label::before {
+  border-color: var(--bds-color-action-interactive);
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+}
+
+.c0 input:not(:checked):disabled,
+.c0 input:not(:checked).disabled,
+.c0 input:not(:checked):disabled + label,
+.c0 input:not(:checked).disabled + label {
+  cursor: not-allowed;
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 input:not(:checked):disabled + label::before,
+.c0 input:not(:checked).disabled + label::before {
+  border-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:not(:checked),
+.c0 input:not(:checked) + label {
+  cursor: pointer;
+}
+
+.c0 input:not(:checked) + label::before {
+  background-color: transparent;
+  border-color: var(--bds-color-border-default);
+}
+
+.c0 input:checked:enabled + label::before,
+.c0 input:checked.enabled + label::before {
+  background-color: var(--bds-color-action-interactive);
+}
+
+.c0 input:checked:hover + label::before,
+.c0 input:checked:focus:hover + label::before,
+.c0 input:checked.hover + label::before {
+  background-color: var(--bds-color-action-interactive-hover);
+  border-color: var(--bds-color-action-interactive-hover);
+}
+
+.c0 input:checked:focus + label::before,
+.c0 input:checked.focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c0 input:checked:disabled,
+.c0 input:checked.disabled,
+.c0 input:checked:disabled + label,
+.c0 input:checked.disabled + label {
+  cursor: not-allowed;
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 input:checked:disabled + label::before,
+.c0 input:checked.disabled + label::before {
+  background-color: var(--bds-color-text-disabled);
+  border-color: transparent;
+}
+
+.c0 input:checked,
+.c0 input:checked + label {
+  cursor: pointer;
+}
+
+.c0 input:checked + label::before {
+  background-color: var(--bds-color-action-interactive);
+  border-color: var(--bds-color-action-interactive);
+}
+
+<span
+    class="c0"
+  >
+    <input
+      class="backyard checkbox shape--rounded disabled"
+      data-indeterminate="false"
+      disabled=""
+      type="checkbox"
+      value=""
+    />
+    <label
+      class="checkbox-label"
+    />
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Checkbox Snapshots prop: disabled Checkbox enabled snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+}
+
+.c0 label {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  pointer-events: none;
+}
+
+.c0 label .checkbox-icon {
+  z-index: 1;
+}
+
+.c0 input {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.c0 input:checked + label::after {
+  opacity: 1;
+}
+
+.c0 input:not(:checked) + label::after {
+  opacity: 0;
+}
+
+.c0 input + label::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: var(--bds-sizes-size-14);
+  width: var(--bds-sizes-size-14);
+  border-width: var(--bds-border-width-sm);
+  border-style: solid;
+}
+
+.c0 input.shape--rounded + label::before {
+  border-radius: var(--bds-border-radius-md);
+}
+
+.c0 input.shape--squared + label::before {
+  border-radius: 0;
+}
+
+.c0 input:not(:checked):enabled + label::before,
+.c0 input:not(:checked).enabled + label::before {
+  border-color: var(--bds-color-border-default);
+}
+
+.c0 input:not(:checked):hover + label::before,
+.c0 input:not(:checked).hover + label::before {
+  border-color: var(--bds-color-action-interative-hover);
+}
+
+.c0 input:not(:checked):focus + label::before,
+.c0 input:not(:checked).focus + label::before {
+  border-color: var(--bds-color-action-interactive);
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+}
+
+.c0 input:not(:checked):disabled,
+.c0 input:not(:checked).disabled,
+.c0 input:not(:checked):disabled + label,
+.c0 input:not(:checked).disabled + label {
+  cursor: not-allowed;
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 input:not(:checked):disabled + label::before,
+.c0 input:not(:checked).disabled + label::before {
+  border-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:not(:checked),
+.c0 input:not(:checked) + label {
+  cursor: pointer;
+}
+
+.c0 input:not(:checked) + label::before {
+  background-color: transparent;
+  border-color: var(--bds-color-border-default);
+}
+
+.c0 input:checked:enabled + label::before,
+.c0 input:checked.enabled + label::before {
+  background-color: var(--bds-color-action-interactive);
+}
+
+.c0 input:checked:hover + label::before,
+.c0 input:checked:focus:hover + label::before,
+.c0 input:checked.hover + label::before {
+  background-color: var(--bds-color-action-interactive-hover);
+  border-color: var(--bds-color-action-interactive-hover);
+}
+
+.c0 input:checked:focus + label::before,
+.c0 input:checked.focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c0 input:checked:disabled,
+.c0 input:checked.disabled,
+.c0 input:checked:disabled + label,
+.c0 input:checked.disabled + label {
+  cursor: not-allowed;
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 input:checked:disabled + label::before,
+.c0 input:checked.disabled + label::before {
+  background-color: var(--bds-color-text-disabled);
+  border-color: transparent;
+}
+
+.c0 input:checked,
+.c0 input:checked + label {
+  cursor: pointer;
+}
+
+.c0 input:checked + label::before {
+  background-color: var(--bds-color-action-interactive);
+  border-color: var(--bds-color-action-interactive);
+}
+
+<span
+    class="c0"
+  >
+    <input
+      class="backyard checkbox shape--rounded"
+      data-indeterminate="false"
+      type="checkbox"
+      value=""
+    />
+    <label
+      class="checkbox-label"
+    />
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Checkbox Snapshots prop: indeterminate Checkbox indeterminate snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+}
+
+.c0 label {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  pointer-events: none;
+}
+
+.c0 label .checkbox-icon {
+  z-index: 1;
+}
+
+.c0 input {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.c0 input:checked + label::after {
+  opacity: 1;
+}
+
+.c0 input:not(:checked) + label::after {
+  opacity: 0;
+}
+
+.c0 input + label::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: var(--bds-sizes-size-14);
+  width: var(--bds-sizes-size-14);
+  border-width: var(--bds-border-width-sm);
+  border-style: solid;
+}
+
+.c0 input.shape--rounded + label::before {
+  border-radius: var(--bds-border-radius-md);
+}
+
+.c0 input.shape--squared + label::before {
+  border-radius: 0;
+}
+
+.c0 input:not(:checked):enabled + label::before,
+.c0 input:not(:checked).enabled + label::before {
+  border-color: var(--bds-color-border-default);
+}
+
+.c0 input:not(:checked):hover + label::before,
+.c0 input:not(:checked).hover + label::before {
+  border-color: var(--bds-color-action-interative-hover);
+}
+
+.c0 input:not(:checked):focus + label::before,
+.c0 input:not(:checked).focus + label::before {
+  border-color: var(--bds-color-action-interactive);
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+}
+
+.c0 input:not(:checked):disabled,
+.c0 input:not(:checked).disabled,
+.c0 input:not(:checked):disabled + label,
+.c0 input:not(:checked).disabled + label {
+  cursor: not-allowed;
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 input:not(:checked):disabled + label::before,
+.c0 input:not(:checked).disabled + label::before {
+  border-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:not(:checked),
+.c0 input:not(:checked) + label {
+  cursor: pointer;
+}
+
+.c0 input:not(:checked) + label::before {
+  background-color: transparent;
+  border-color: var(--bds-color-border-default);
+}
+
+.c0 input:checked:enabled + label::before,
+.c0 input:checked.enabled + label::before {
+  background-color: var(--bds-color-action-interactive);
+}
+
+.c0 input:checked:hover + label::before,
+.c0 input:checked:focus:hover + label::before,
+.c0 input:checked.hover + label::before {
+  background-color: var(--bds-color-action-interactive-hover);
+  border-color: var(--bds-color-action-interactive-hover);
+}
+
+.c0 input:checked:focus + label::before,
+.c0 input:checked.focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c0 input:checked:disabled,
+.c0 input:checked.disabled,
+.c0 input:checked:disabled + label,
+.c0 input:checked.disabled + label {
+  cursor: not-allowed;
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 input:checked:disabled + label::before,
+.c0 input:checked.disabled + label::before {
+  background-color: var(--bds-color-text-disabled);
+  border-color: transparent;
+}
+
+.c0 input:checked,
+.c0 input:checked + label {
+  cursor: pointer;
+}
+
+.c0 input:checked + label::before {
+  background-color: var(--bds-color-action-interactive);
+  border-color: var(--bds-color-action-interactive);
+}
+
+<span
+    class="c0"
+  >
+    <input
+      class="backyard checkbox shape--rounded indeterminate"
+      data-indeterminate="true"
+      type="checkbox"
+      value=""
+    />
+    <label
+      class="checkbox-label"
+    />
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Checkbox Snapshots prop: indeterminate Checkbox not indeterminate snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+}
+
+.c0 label {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  pointer-events: none;
+}
+
+.c0 label .checkbox-icon {
+  z-index: 1;
+}
+
+.c0 input {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.c0 input:checked + label::after {
+  opacity: 1;
+}
+
+.c0 input:not(:checked) + label::after {
+  opacity: 0;
+}
+
+.c0 input + label::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: var(--bds-sizes-size-14);
+  width: var(--bds-sizes-size-14);
+  border-width: var(--bds-border-width-sm);
+  border-style: solid;
+}
+
+.c0 input.shape--rounded + label::before {
+  border-radius: var(--bds-border-radius-md);
+}
+
+.c0 input.shape--squared + label::before {
+  border-radius: 0;
+}
+
+.c0 input:not(:checked):enabled + label::before,
+.c0 input:not(:checked).enabled + label::before {
+  border-color: var(--bds-color-border-default);
+}
+
+.c0 input:not(:checked):hover + label::before,
+.c0 input:not(:checked).hover + label::before {
+  border-color: var(--bds-color-action-interative-hover);
+}
+
+.c0 input:not(:checked):focus + label::before,
+.c0 input:not(:checked).focus + label::before {
+  border-color: var(--bds-color-action-interactive);
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+}
+
+.c0 input:not(:checked):disabled,
+.c0 input:not(:checked).disabled,
+.c0 input:not(:checked):disabled + label,
+.c0 input:not(:checked).disabled + label {
+  cursor: not-allowed;
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 input:not(:checked):disabled + label::before,
+.c0 input:not(:checked).disabled + label::before {
+  border-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:not(:checked),
+.c0 input:not(:checked) + label {
+  cursor: pointer;
+}
+
+.c0 input:not(:checked) + label::before {
+  background-color: transparent;
+  border-color: var(--bds-color-border-default);
+}
+
+.c0 input:checked:enabled + label::before,
+.c0 input:checked.enabled + label::before {
+  background-color: var(--bds-color-action-interactive);
+}
+
+.c0 input:checked:hover + label::before,
+.c0 input:checked:focus:hover + label::before,
+.c0 input:checked.hover + label::before {
+  background-color: var(--bds-color-action-interactive-hover);
+  border-color: var(--bds-color-action-interactive-hover);
+}
+
+.c0 input:checked:focus + label::before,
+.c0 input:checked.focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c0 input:checked:disabled,
+.c0 input:checked.disabled,
+.c0 input:checked:disabled + label,
+.c0 input:checked.disabled + label {
+  cursor: not-allowed;
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 input:checked:disabled + label::before,
+.c0 input:checked.disabled + label::before {
+  background-color: var(--bds-color-text-disabled);
+  border-color: transparent;
+}
+
+.c0 input:checked,
+.c0 input:checked + label {
+  cursor: pointer;
+}
+
+.c0 input:checked + label::before {
+  background-color: var(--bds-color-action-interactive);
+  border-color: var(--bds-color-action-interactive);
+}
+
+<span
+    class="c0"
+  >
+    <input
+      class="backyard checkbox shape--rounded"
+      data-indeterminate="false"
+      type="checkbox"
+      value=""
+    />
+    <label
+      class="checkbox-label"
+    />
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Checkbox Snapshots prop: shape Checkbox shape rounded snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+}
+
+.c0 label {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  pointer-events: none;
+}
+
+.c0 label .checkbox-icon {
+  z-index: 1;
+}
+
+.c0 input {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.c0 input:checked + label::after {
+  opacity: 1;
+}
+
+.c0 input:not(:checked) + label::after {
+  opacity: 0;
+}
+
+.c0 input + label::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: var(--bds-sizes-size-14);
+  width: var(--bds-sizes-size-14);
+  border-width: var(--bds-border-width-sm);
+  border-style: solid;
+}
+
+.c0 input.shape--rounded + label::before {
+  border-radius: var(--bds-border-radius-md);
+}
+
+.c0 input.shape--squared + label::before {
+  border-radius: 0;
+}
+
+.c0 input:not(:checked):enabled + label::before,
+.c0 input:not(:checked).enabled + label::before {
+  border-color: var(--bds-color-border-default);
+}
+
+.c0 input:not(:checked):hover + label::before,
+.c0 input:not(:checked).hover + label::before {
+  border-color: var(--bds-color-action-interative-hover);
+}
+
+.c0 input:not(:checked):focus + label::before,
+.c0 input:not(:checked).focus + label::before {
+  border-color: var(--bds-color-action-interactive);
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+}
+
+.c0 input:not(:checked):disabled,
+.c0 input:not(:checked).disabled,
+.c0 input:not(:checked):disabled + label,
+.c0 input:not(:checked).disabled + label {
+  cursor: not-allowed;
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 input:not(:checked):disabled + label::before,
+.c0 input:not(:checked).disabled + label::before {
+  border-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:not(:checked),
+.c0 input:not(:checked) + label {
+  cursor: pointer;
+}
+
+.c0 input:not(:checked) + label::before {
+  background-color: transparent;
+  border-color: var(--bds-color-border-default);
+}
+
+.c0 input:checked:enabled + label::before,
+.c0 input:checked.enabled + label::before {
+  background-color: var(--bds-color-action-interactive);
+}
+
+.c0 input:checked:hover + label::before,
+.c0 input:checked:focus:hover + label::before,
+.c0 input:checked.hover + label::before {
+  background-color: var(--bds-color-action-interactive-hover);
+  border-color: var(--bds-color-action-interactive-hover);
+}
+
+.c0 input:checked:focus + label::before,
+.c0 input:checked.focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c0 input:checked:disabled,
+.c0 input:checked.disabled,
+.c0 input:checked:disabled + label,
+.c0 input:checked.disabled + label {
+  cursor: not-allowed;
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 input:checked:disabled + label::before,
+.c0 input:checked.disabled + label::before {
+  background-color: var(--bds-color-text-disabled);
+  border-color: transparent;
+}
+
+.c0 input:checked,
+.c0 input:checked + label {
+  cursor: pointer;
+}
+
+.c0 input:checked + label::before {
+  background-color: var(--bds-color-action-interactive);
+  border-color: var(--bds-color-action-interactive);
+}
+
+<span
+    class="c0"
+  >
+    <input
+      class="backyard checkbox shape--rounded"
+      data-indeterminate="false"
+      type="checkbox"
+      value=""
+    />
+    <label
+      class="checkbox-label"
+    />
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Checkbox Snapshots prop: shape Checkbox shape squared snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+}
+
+.c0 label {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  pointer-events: none;
+}
+
+.c0 label .checkbox-icon {
+  z-index: 1;
+}
+
+.c0 input {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.c0 input:checked + label::after {
+  opacity: 1;
+}
+
+.c0 input:not(:checked) + label::after {
+  opacity: 0;
+}
+
+.c0 input + label::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: var(--bds-sizes-size-14);
+  width: var(--bds-sizes-size-14);
+  border-width: var(--bds-border-width-sm);
+  border-style: solid;
+}
+
+.c0 input.shape--rounded + label::before {
+  border-radius: var(--bds-border-radius-md);
+}
+
+.c0 input.shape--squared + label::before {
+  border-radius: 0;
+}
+
+.c0 input:not(:checked):enabled + label::before,
+.c0 input:not(:checked).enabled + label::before {
+  border-color: var(--bds-color-border-default);
+}
+
+.c0 input:not(:checked):hover + label::before,
+.c0 input:not(:checked).hover + label::before {
+  border-color: var(--bds-color-action-interative-hover);
+}
+
+.c0 input:not(:checked):focus + label::before,
+.c0 input:not(:checked).focus + label::before {
+  border-color: var(--bds-color-action-interactive);
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+}
+
+.c0 input:not(:checked):disabled,
+.c0 input:not(:checked).disabled,
+.c0 input:not(:checked):disabled + label,
+.c0 input:not(:checked).disabled + label {
+  cursor: not-allowed;
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 input:not(:checked):disabled + label::before,
+.c0 input:not(:checked).disabled + label::before {
+  border-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:not(:checked),
+.c0 input:not(:checked) + label {
+  cursor: pointer;
+}
+
+.c0 input:not(:checked) + label::before {
+  background-color: transparent;
+  border-color: var(--bds-color-border-default);
+}
+
+.c0 input:checked:enabled + label::before,
+.c0 input:checked.enabled + label::before {
+  background-color: var(--bds-color-action-interactive);
+}
+
+.c0 input:checked:hover + label::before,
+.c0 input:checked:focus:hover + label::before,
+.c0 input:checked.hover + label::before {
+  background-color: var(--bds-color-action-interactive-hover);
+  border-color: var(--bds-color-action-interactive-hover);
+}
+
+.c0 input:checked:focus + label::before,
+.c0 input:checked.focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c0 input:checked:disabled,
+.c0 input:checked.disabled,
+.c0 input:checked:disabled + label,
+.c0 input:checked.disabled + label {
+  cursor: not-allowed;
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 input:checked:disabled + label::before,
+.c0 input:checked.disabled + label::before {
+  background-color: var(--bds-color-text-disabled);
+  border-color: transparent;
+}
+
+.c0 input:checked,
+.c0 input:checked + label {
+  cursor: pointer;
+}
+
+.c0 input:checked + label::before {
+  background-color: var(--bds-color-action-interactive);
+  border-color: var(--bds-color-action-interactive);
+}
+
+<span
+    class="c0"
+  >
+    <input
+      class="backyard checkbox shape--squared"
+      data-indeterminate="false"
+      type="checkbox"
+      value=""
+    />
+    <label
+      class="checkbox-label"
+    />
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Checkbox Snapshots themes Checkbox dark theme snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+}
+
+.c0 label {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  pointer-events: none;
+}
+
+.c0 label .checkbox-icon {
+  z-index: 1;
+}
+
+.c0 input {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.c0 input:checked + label::after {
+  opacity: 1;
+}
+
+.c0 input:not(:checked) + label::after {
+  opacity: 0;
+}
+
+.c0 input + label::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: var(--bds-sizes-size-14);
+  width: var(--bds-sizes-size-14);
+  border-width: var(--bds-border-width-sm);
+  border-style: solid;
+}
+
+.c0 input.shape--rounded + label::before {
+  border-radius: var(--bds-border-radius-md);
+}
+
+.c0 input.shape--squared + label::before {
+  border-radius: 0;
+}
+
+.c0 input:not(:checked):enabled + label::before,
+.c0 input:not(:checked).enabled + label::before {
+  border-color: var(--bds-color-border-default);
+}
+
+.c0 input:not(:checked):hover + label::before,
+.c0 input:not(:checked).hover + label::before {
+  border-color: var(--bds-color-action-interative-hover);
+}
+
+.c0 input:not(:checked):focus + label::before,
+.c0 input:not(:checked).focus + label::before {
+  border-color: var(--bds-color-action-interactive);
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+}
+
+.c0 input:not(:checked):disabled,
+.c0 input:not(:checked).disabled,
+.c0 input:not(:checked):disabled + label,
+.c0 input:not(:checked).disabled + label {
+  cursor: not-allowed;
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 input:not(:checked):disabled + label::before,
+.c0 input:not(:checked).disabled + label::before {
+  border-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:not(:checked),
+.c0 input:not(:checked) + label {
+  cursor: pointer;
+}
+
+.c0 input:not(:checked) + label::before {
+  background-color: transparent;
+  border-color: var(--bds-color-border-default);
+}
+
+.c0 input:checked:enabled + label::before,
+.c0 input:checked.enabled + label::before {
+  background-color: var(--bds-color-action-interactive);
+}
+
+.c0 input:checked:hover + label::before,
+.c0 input:checked:focus:hover + label::before,
+.c0 input:checked.hover + label::before {
+  background-color: var(--bds-color-action-interactive-hover);
+  border-color: var(--bds-color-action-interactive-hover);
+}
+
+.c0 input:checked:focus + label::before,
+.c0 input:checked.focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c0 input:checked:disabled,
+.c0 input:checked.disabled,
+.c0 input:checked:disabled + label,
+.c0 input:checked.disabled + label {
+  cursor: not-allowed;
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 input:checked:disabled + label::before,
+.c0 input:checked.disabled + label::before {
+  background-color: var(--bds-color-text-disabled);
+  border-color: transparent;
+}
+
+.c0 input:checked,
+.c0 input:checked + label {
+  cursor: pointer;
+}
+
+.c0 input:checked + label::before {
+  background-color: var(--bds-color-action-interactive);
+  border-color: var(--bds-color-action-interactive);
+}
+
+<span
+    class="c0"
+  >
+    <input
+      class="backyard checkbox shape--rounded"
+      data-indeterminate="false"
+      type="checkbox"
+      value=""
+    />
+    <label
+      class="checkbox-label"
+    />
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Checkbox Snapshots themes Checkbox light theme snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+}
+
+.c0 label {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  pointer-events: none;
+}
+
+.c0 label .checkbox-icon {
+  z-index: 1;
+}
+
+.c0 input {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.c0 input:checked + label::after {
+  opacity: 1;
+}
+
+.c0 input:not(:checked) + label::after {
+  opacity: 0;
+}
+
+.c0 input + label::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: var(--bds-sizes-size-14);
+  width: var(--bds-sizes-size-14);
+  border-width: var(--bds-border-width-sm);
+  border-style: solid;
+}
+
+.c0 input.shape--rounded + label::before {
+  border-radius: var(--bds-border-radius-md);
+}
+
+.c0 input.shape--squared + label::before {
+  border-radius: 0;
+}
+
+.c0 input:not(:checked):enabled + label::before,
+.c0 input:not(:checked).enabled + label::before {
+  border-color: var(--bds-color-border-default);
+}
+
+.c0 input:not(:checked):hover + label::before,
+.c0 input:not(:checked).hover + label::before {
+  border-color: var(--bds-color-action-interative-hover);
+}
+
+.c0 input:not(:checked):focus + label::before,
+.c0 input:not(:checked).focus + label::before {
+  border-color: var(--bds-color-action-interactive);
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+}
+
+.c0 input:not(:checked):disabled,
+.c0 input:not(:checked).disabled,
+.c0 input:not(:checked):disabled + label,
+.c0 input:not(:checked).disabled + label {
+  cursor: not-allowed;
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 input:not(:checked):disabled + label::before,
+.c0 input:not(:checked).disabled + label::before {
+  border-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:not(:checked),
+.c0 input:not(:checked) + label {
+  cursor: pointer;
+}
+
+.c0 input:not(:checked) + label::before {
+  background-color: transparent;
+  border-color: var(--bds-color-border-default);
+}
+
+.c0 input:checked:enabled + label::before,
+.c0 input:checked.enabled + label::before {
+  background-color: var(--bds-color-action-interactive);
+}
+
+.c0 input:checked:hover + label::before,
+.c0 input:checked:focus:hover + label::before,
+.c0 input:checked.hover + label::before {
+  background-color: var(--bds-color-action-interactive-hover);
+  border-color: var(--bds-color-action-interactive-hover);
+}
+
+.c0 input:checked:focus + label::before,
+.c0 input:checked.focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c0 input:checked:disabled,
+.c0 input:checked.disabled,
+.c0 input:checked:disabled + label,
+.c0 input:checked.disabled + label {
+  cursor: not-allowed;
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 input:checked:disabled + label::before,
+.c0 input:checked.disabled + label::before {
+  background-color: var(--bds-color-text-disabled);
+  border-color: transparent;
+}
+
+.c0 input:checked,
+.c0 input:checked + label {
+  cursor: pointer;
+}
+
+.c0 input:checked + label::before {
+  background-color: var(--bds-color-action-interactive);
+  border-color: var(--bds-color-action-interactive);
+}
+
+<span
+    class="c0"
+  >
+    <input
+      class="backyard checkbox shape--rounded"
+      data-indeterminate="false"
+      type="checkbox"
+      value=""
+    />
+    <label
+      class="checkbox-label"
+    />
+  </span>
+</DocumentFragment>
+`;

@@ -1,0 +1,17 @@
+{
+    "extends": "../../tsconfig",
+    "compilerOptions": {
+        "rootDir": "src",
+        "outDir": "build",
+        "composite": true
+    },
+    "include": [
+        "src",
+        "styled.d.ts"
+    ],
+    "exclude": [
+        "dist",
+        "**/*.spec.*s*",
+        "**/*.test.*s*"
+    ]
+}

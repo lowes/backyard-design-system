@@ -1,0 +1,938 @@
+{
+	"id": 0,
+	"name": "@lowes-tech/bds-react/TooltipPopper",
+	"kind": 1,
+	"kindString": "Project",
+	"flags": {},
+	"children": [
+		{
+			"id": 37,
+			"name": "default",
+			"kind": 16777216,
+			"kindString": "Reference",
+			"flags": {},
+			"target": 3
+		},
+		{
+			"id": 4,
+			"name": "TooltipPopperProps",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 30,
+					"name": "arrow",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Position of arrow from the center of the tooltip\nNote: This is opposite of `TooltipPopper`'s `placement` prop, which positions the tooltip from the reference\n For example, a `bottom` placed `TooltipPopper` will have the `arrow` be on top\n [Some Element]\n      /|\\\n   [Tooltip]"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "bottom-end"
+							},
+							{
+								"type": "literal",
+								"value": "bottom-start"
+							},
+							{
+								"type": "literal",
+								"value": "bottom"
+							},
+							{
+								"type": "literal",
+								"value": "left"
+							},
+							{
+								"type": "literal",
+								"value": "right"
+							},
+							{
+								"type": "literal",
+								"value": "top-end"
+							},
+							{
+								"type": "literal",
+								"value": "top-start"
+							},
+							{
+								"type": "literal",
+								"value": "top"
+							},
+							{
+								"type": "literal",
+								"value": "none"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.arrow"
+					}
+				},
+				{
+					"id": 31,
+					"name": "arrowProps",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Arrow Props to extend arrow with"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "reference",
+								"name": "HTMLSpanElement"
+							},
+							{
+								"type": "literal",
+								"value": ""
+							}
+						],
+						"name": "BackyardBaseProps"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.arrowProps"
+					}
+				},
+				{
+					"id": 27,
+					"name": "as",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ElementType"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.as"
+					}
+				},
+				{
+					"id": 5,
+					"name": "children",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"shortText": "Tooltip reference element."
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							},
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ReactElement"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.children"
+					}
+				},
+				{
+					"id": 6,
+					"name": "className",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "DOM Class Name"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.className"
+					}
+				},
+				{
+					"id": 7,
+					"name": "container",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Portal Container"
+					},
+					"type": {
+						"type": "reference",
+						"name": "ReactInstance"
+					}
+				},
+				{
+					"id": 8,
+					"name": "defaultOpen",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not the tooltip is open by default"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 9,
+					"name": "disablePortal",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not portal will be disabled"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 10,
+					"name": "enterDelay",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "The number of milliseconds to wait before showing the tooltip.\nThis prop won't impact the enter touch delay (`enterTouchDelay`)."
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 11,
+					"name": "enterNextDelay",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "The number of milliseconds to wait before showing the tooltip when one was already recently opened."
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 32,
+					"name": "icon",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Leading icon of tooltip"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							},
+							{
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									},
+									{
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "JSXElementConstructor"
+									}
+								]
+							}
+						],
+						"name": "ReactElement"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.icon"
+					}
+				},
+				{
+					"id": 12,
+					"name": "id",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "This prop is used to help implement the accessibility logic.\nIf you don't provide this prop. It falls back to a randomly generated id."
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.id"
+					}
+				},
+				{
+					"id": 33,
+					"name": "invisible",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not tooltip is invisible"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.invisible"
+					}
+				},
+				{
+					"id": 13,
+					"name": "keepMounted",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not the tooltip/portal will remain mounted when closed\nThis is useful for SSR/SEO situations where you want the Tooltip to remain on the page when closed"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 14,
+					"name": "leaveDelay",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "The number of milliseconds to wait before hiding the tooltip.\nThis prop won't impact the leave touch delay (`leaveTouchDelay`)."
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 21,
+					"name": "open",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "If `true`, the tooltip is shown."
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.open"
+					}
+				},
+				{
+					"id": 22,
+					"name": "placement",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Position of the tooltip from the reference element (child)\nNote: This is opposite of `Tooltip`'s `arrow` prop, which positions the tooltip from the reference\n For example, a `bottom` placed `TooltipPopper` will have the `arrow` be on top\n [Some Element]\n      /|\\\n   [Tooltip]"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "bottom-end"
+							},
+							{
+								"type": "literal",
+								"value": "bottom-start"
+							},
+							{
+								"type": "literal",
+								"value": "bottom"
+							},
+							{
+								"type": "literal",
+								"value": "left-end"
+							},
+							{
+								"type": "literal",
+								"value": "left-start"
+							},
+							{
+								"type": "literal",
+								"value": "left"
+							},
+							{
+								"type": "literal",
+								"value": "right-end"
+							},
+							{
+								"type": "literal",
+								"value": "right-start"
+							},
+							{
+								"type": "literal",
+								"value": "right"
+							},
+							{
+								"type": "literal",
+								"value": "top-end"
+							},
+							{
+								"type": "literal",
+								"value": "top-start"
+							},
+							{
+								"type": "literal",
+								"value": "top"
+							}
+						]
+					}
+				},
+				{
+					"id": 23,
+					"name": "popperModifiers",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "PopperJS Modifiers to extend/override default modifiers in `TooltipPopper`"
+					},
+					"type": {
+						"type": "array",
+						"elementType": {
+							"type": "reference",
+							"typeArguments": [
+								{
+									"type": "intrinsic",
+									"name": "string"
+								},
+								{
+									"type": "intrinsic",
+									"name": "object"
+								}
+							],
+							"name": "Modifier"
+						}
+					}
+				},
+				{
+					"id": 24,
+					"name": "popperOptions",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "PopperJS Options to extends/override default options in `TooltipOptions`"
+					},
+					"type": {
+						"type": "reference",
+						"name": "Options"
+					}
+				},
+				{
+					"id": 34,
+					"name": "shadow",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Shadow token to use, or none",
+						"tags": [
+							{
+								"tag": "default",
+								"text": "'shadow_04'\n"
+							}
+						]
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "string"
+							},
+							{
+								"type": "literal",
+								"value": "none"
+							},
+							{
+								"type": "literal",
+								"value": "shadow_01"
+							},
+							{
+								"type": "literal",
+								"value": "shadow_02"
+							},
+							{
+								"type": "literal",
+								"value": "shadow_03"
+							},
+							{
+								"type": "literal",
+								"value": "shadow_04"
+							},
+							{
+								"type": "literal",
+								"value": "shadow_05"
+							},
+							{
+								"type": "literal",
+								"value": "shadow_06"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.shadow"
+					}
+				},
+				{
+					"id": 28,
+					"name": "shape",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Shape of the tooltip"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "rounded"
+							},
+							{
+								"type": "literal",
+								"value": "squared"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.shape"
+					}
+				},
+				{
+					"id": 25,
+					"name": "title",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Tooltip title. Zero-length titles string are never displayed."
+					},
+					"type": {
+						"type": "reference",
+						"name": "ReactNode"
+					}
+				},
+				{
+					"id": 26,
+					"name": "tooltip",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"shortText": "Tooltip to handle popper events"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "reference",
+								"name": "TooltipProps"
+							},
+							{
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									},
+									{
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "JSXElementConstructor"
+									}
+								]
+							}
+						],
+						"name": "ReactElement"
+					}
+				},
+				{
+					"id": 35,
+					"name": "variant",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Variant of Tooltip"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "low_contrast"
+							},
+							{
+								"type": "literal",
+								"value": "high_contrast"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.variant"
+					}
+				},
+				{
+					"id": 29,
+					"name": "width",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Width of Tooltip\nDefaults to auto\nLimited by a maximum width of 320px (Desktop) and 256px (Mobile)"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.width"
+					}
+				},
+				{
+					"id": 15,
+					"name": "onClose",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 16,
+							"name": "onClose",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Callback fired when the component requests to be closed."
+							},
+							"parameters": [
+								{
+									"id": 17,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"shortText": "The event source of the callback.\n"
+									},
+									"type": {
+										"type": "reference",
+										"name": "TooltipPopperEvent"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				},
+				{
+					"id": 18,
+					"name": "onOpen",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 19,
+							"name": "onOpen",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Callback fired when the component requests to be open."
+							},
+							"parameters": [
+								{
+									"id": 20,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"shortText": "The event source of the callback.\n"
+									},
+									"type": {
+										"type": "reference",
+										"name": "TooltipPopperEvent"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						30,
+						31,
+						27,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						32,
+						12,
+						33,
+						13,
+						14,
+						21,
+						22,
+						23,
+						24,
+						34,
+						28,
+						25,
+						26,
+						35,
+						29
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						15,
+						18
+					]
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"typeArguments": [
+						{
+							"type": "reference",
+							"name": "TooltipProps"
+						},
+						{
+							"type": "reference",
+							"name": "TooltipPopperOverrideProps"
+						}
+					],
+					"name": "Omit"
+				}
+			]
+		},
+		{
+			"id": 36,
+			"name": "TooltipPopperRef",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"type": {
+				"type": "reference",
+				"name": "TooltipRef"
+			}
+		},
+		{
+			"id": 3,
+			"name": "TooltipPopper",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"comment": {
+				"shortText": "Backyard React TooltipPopper",
+				"tags": [
+					{
+						"tag": "todo",
+						"text": "Comments\n"
+					}
+				]
+			},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"id": 4,
+						"name": "TooltipPopperProps"
+					}
+				],
+				"name": "BDSForwardRef"
+			},
+			"defaultValue": "..."
+		},
+		{
+			"id": 1,
+			"name": "testReset",
+			"kind": 64,
+			"kindString": "Function",
+			"flags": {},
+			"signatures": [
+				{
+					"id": 2,
+					"name": "testReset",
+					"kind": 4096,
+					"kindString": "Call signature",
+					"flags": {},
+					"type": {
+						"type": "intrinsic",
+						"name": "void"
+					}
+				}
+			]
+		}
+	],
+	"groups": [
+		{
+			"title": "References",
+			"kind": 16777216,
+			"children": [
+				37
+			]
+		},
+		{
+			"title": "Interfaces",
+			"kind": 256,
+			"children": [
+				4
+			]
+		},
+		{
+			"title": "Type aliases",
+			"kind": 4194304,
+			"children": [
+				36
+			]
+		},
+		{
+			"title": "Variables",
+			"kind": 32,
+			"children": [
+				3
+			]
+		},
+		{
+			"title": "Functions",
+			"kind": 64,
+			"children": [
+				1
+			]
+		}
+	]
+}

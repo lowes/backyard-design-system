@@ -1,0 +1,2515 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Switch Snapshots Switch default snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 label {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+}
+
+.c0 input {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.c0 input + label::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--bds-border-radius-circle);
+  -webkit-transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.c0 input + label::after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-radius: var(--bds-border-radius-circle);
+  -webkit-transition: margin-left 0.2s ease-in-out;
+  transition: margin-left 0.2s ease-in-out;
+}
+
+.c0.size--large label {
+  height: var(--bds-sizes-size-24);
+  width: var(--bds-sizes-size-48);
+}
+
+.c0.size--large input + label::before {
+  height: var(--bds-sizes-size-24);
+  width: var(--bds-sizes-size-48);
+}
+
+.c0.size--large input + label::after {
+  left: var(--bds-sizes-size-2);
+  top: var(--bds-sizes-size-2);
+  border-width: var(--bds-sizes-size-10);
+}
+
+.c0.size--small label {
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-32);
+}
+
+.c0.size--small input + label::before {
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-32);
+}
+
+.c0.size--small input + label::after {
+  left: var(--bds-sizes-size-2);
+  top: var(--bds-sizes-size-2);
+  border-width: var(--bds-sizes-size-6);
+}
+
+.c0 input:not(:checked):enabled + label::before,
+.c0 input:not(:checked).enabled + label::before {
+  background-color: var(--bds-color-neutral-04);
+}
+
+.c0 input:not(:checked):enabled + label::after,
+.c0 input:not(:checked).enabled + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:not(:checked):hover + label::before,
+.c0 input:not(:checked).hover + label::before {
+  background-color: var(--bds-color-border-hover);
+}
+
+.c0 input:not(:checked):hover + label::after,
+.c0 input:not(:checked).hover + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:not(:checked):focus + label::before,
+.c0 input:not(:checked).focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+}
+
+.c0 input:not(:checked):focus + label::after,
+.c0 input:not(:checked).focus + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:not(:checked):disabled,
+.c0 input:not(:checked).disabled,
+.c0 input:not(:checked):disabled + label,
+.c0 input:not(:checked).disabled + label {
+  cursor: not-allowed;
+}
+
+.c0 input:not(:checked):disabled + label::before,
+.c0 input:not(:checked).disabled + label::before {
+  background-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:not(:checked):disabled + label::after,
+.c0 input:not(:checked).disabled + label::after {
+  border-color: var(--bds-color-icon-disabled);
+}
+
+.c0 input:not(:checked),
+.c0 input:not(:checked) + label {
+  cursor: pointer;
+}
+
+.c0 input:checked:enabled + label::before,
+.c0 input:checked.enabled + label::before {
+  background-color: var(--bds-color-action-interactive);
+}
+
+.c0 input:checked:enabled + label::after,
+.c0 input:checked.enabled + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:checked:hover + label::before,
+.c0 input:checked:focus:hover + label::before,
+.c0 input:checked.hover + label::before {
+  background-color: var(--bds-color-action-interactive-hover);
+}
+
+.c0 input:checked:hover + label::after,
+.c0 input:checked:focus:hover + label::after,
+.c0 input:checked.hover + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:checked:focus + label::before,
+.c0 input:checked.focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c0 input:checked:focus + label::after,
+.c0 input:checked.focus + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:checked:disabled,
+.c0 input:checked.disabled,
+.c0 input:checked:disabled + label,
+.c0 input:checked.disabled + label {
+  cursor: not-allowed;
+}
+
+.c0 input:checked:disabled + label::before,
+.c0 input:checked.disabled + label::before {
+  background-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:checked:disabled + label::after,
+.c0 input:checked.disabled + label::after {
+  border-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:checked,
+.c0 input:checked + label {
+  cursor: pointer;
+}
+
+.c0 input:checked.size--large + label::after {
+  margin-left: var(--bds-sizes-size-24);
+}
+
+.c0 input:checked.size--small + label::after {
+  margin-left: var(--bds-sizes-size-16);
+}
+
+<span
+    class="c0 switch--wrapper size--large"
+  >
+    <input
+      class="backyard switch size--large"
+      type="checkbox"
+      value=""
+    />
+    <label />
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Switch Snapshots extra props Switch DOM id, name, value snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 label {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+}
+
+.c0 input {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.c0 input + label::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--bds-border-radius-circle);
+  -webkit-transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.c0 input + label::after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-radius: var(--bds-border-radius-circle);
+  -webkit-transition: margin-left 0.2s ease-in-out;
+  transition: margin-left 0.2s ease-in-out;
+}
+
+.c0.size--large label {
+  height: var(--bds-sizes-size-24);
+  width: var(--bds-sizes-size-48);
+}
+
+.c0.size--large input + label::before {
+  height: var(--bds-sizes-size-24);
+  width: var(--bds-sizes-size-48);
+}
+
+.c0.size--large input + label::after {
+  left: var(--bds-sizes-size-2);
+  top: var(--bds-sizes-size-2);
+  border-width: var(--bds-sizes-size-10);
+}
+
+.c0.size--small label {
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-32);
+}
+
+.c0.size--small input + label::before {
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-32);
+}
+
+.c0.size--small input + label::after {
+  left: var(--bds-sizes-size-2);
+  top: var(--bds-sizes-size-2);
+  border-width: var(--bds-sizes-size-6);
+}
+
+.c0 input:not(:checked):enabled + label::before,
+.c0 input:not(:checked).enabled + label::before {
+  background-color: var(--bds-color-neutral-04);
+}
+
+.c0 input:not(:checked):enabled + label::after,
+.c0 input:not(:checked).enabled + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:not(:checked):hover + label::before,
+.c0 input:not(:checked).hover + label::before {
+  background-color: var(--bds-color-border-hover);
+}
+
+.c0 input:not(:checked):hover + label::after,
+.c0 input:not(:checked).hover + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:not(:checked):focus + label::before,
+.c0 input:not(:checked).focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+}
+
+.c0 input:not(:checked):focus + label::after,
+.c0 input:not(:checked).focus + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:not(:checked):disabled,
+.c0 input:not(:checked).disabled,
+.c0 input:not(:checked):disabled + label,
+.c0 input:not(:checked).disabled + label {
+  cursor: not-allowed;
+}
+
+.c0 input:not(:checked):disabled + label::before,
+.c0 input:not(:checked).disabled + label::before {
+  background-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:not(:checked):disabled + label::after,
+.c0 input:not(:checked).disabled + label::after {
+  border-color: var(--bds-color-icon-disabled);
+}
+
+.c0 input:not(:checked),
+.c0 input:not(:checked) + label {
+  cursor: pointer;
+}
+
+.c0 input:checked:enabled + label::before,
+.c0 input:checked.enabled + label::before {
+  background-color: var(--bds-color-action-interactive);
+}
+
+.c0 input:checked:enabled + label::after,
+.c0 input:checked.enabled + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:checked:hover + label::before,
+.c0 input:checked:focus:hover + label::before,
+.c0 input:checked.hover + label::before {
+  background-color: var(--bds-color-action-interactive-hover);
+}
+
+.c0 input:checked:hover + label::after,
+.c0 input:checked:focus:hover + label::after,
+.c0 input:checked.hover + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:checked:focus + label::before,
+.c0 input:checked.focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c0 input:checked:focus + label::after,
+.c0 input:checked.focus + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:checked:disabled,
+.c0 input:checked.disabled,
+.c0 input:checked:disabled + label,
+.c0 input:checked.disabled + label {
+  cursor: not-allowed;
+}
+
+.c0 input:checked:disabled + label::before,
+.c0 input:checked.disabled + label::before {
+  background-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:checked:disabled + label::after,
+.c0 input:checked.disabled + label::after {
+  border-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:checked,
+.c0 input:checked + label {
+  cursor: pointer;
+}
+
+.c0 input:checked.size--large + label::after {
+  margin-left: var(--bds-sizes-size-24);
+}
+
+.c0 input:checked.size--small + label::after {
+  margin-left: var(--bds-sizes-size-16);
+}
+
+<span
+    class="c0 switch--wrapper size--large"
+  >
+    <input
+      aria-label="test-value"
+      class="backyard switch size--large"
+      name="test-name"
+      type="checkbox"
+      value="test-value"
+    />
+    <label />
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Switch Snapshots extra props Switch className snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 label {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+}
+
+.c0 input {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.c0 input + label::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--bds-border-radius-circle);
+  -webkit-transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.c0 input + label::after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-radius: var(--bds-border-radius-circle);
+  -webkit-transition: margin-left 0.2s ease-in-out;
+  transition: margin-left 0.2s ease-in-out;
+}
+
+.c0.size--large label {
+  height: var(--bds-sizes-size-24);
+  width: var(--bds-sizes-size-48);
+}
+
+.c0.size--large input + label::before {
+  height: var(--bds-sizes-size-24);
+  width: var(--bds-sizes-size-48);
+}
+
+.c0.size--large input + label::after {
+  left: var(--bds-sizes-size-2);
+  top: var(--bds-sizes-size-2);
+  border-width: var(--bds-sizes-size-10);
+}
+
+.c0.size--small label {
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-32);
+}
+
+.c0.size--small input + label::before {
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-32);
+}
+
+.c0.size--small input + label::after {
+  left: var(--bds-sizes-size-2);
+  top: var(--bds-sizes-size-2);
+  border-width: var(--bds-sizes-size-6);
+}
+
+.c0 input:not(:checked):enabled + label::before,
+.c0 input:not(:checked).enabled + label::before {
+  background-color: var(--bds-color-neutral-04);
+}
+
+.c0 input:not(:checked):enabled + label::after,
+.c0 input:not(:checked).enabled + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:not(:checked):hover + label::before,
+.c0 input:not(:checked).hover + label::before {
+  background-color: var(--bds-color-border-hover);
+}
+
+.c0 input:not(:checked):hover + label::after,
+.c0 input:not(:checked).hover + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:not(:checked):focus + label::before,
+.c0 input:not(:checked).focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+}
+
+.c0 input:not(:checked):focus + label::after,
+.c0 input:not(:checked).focus + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:not(:checked):disabled,
+.c0 input:not(:checked).disabled,
+.c0 input:not(:checked):disabled + label,
+.c0 input:not(:checked).disabled + label {
+  cursor: not-allowed;
+}
+
+.c0 input:not(:checked):disabled + label::before,
+.c0 input:not(:checked).disabled + label::before {
+  background-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:not(:checked):disabled + label::after,
+.c0 input:not(:checked).disabled + label::after {
+  border-color: var(--bds-color-icon-disabled);
+}
+
+.c0 input:not(:checked),
+.c0 input:not(:checked) + label {
+  cursor: pointer;
+}
+
+.c0 input:checked:enabled + label::before,
+.c0 input:checked.enabled + label::before {
+  background-color: var(--bds-color-action-interactive);
+}
+
+.c0 input:checked:enabled + label::after,
+.c0 input:checked.enabled + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:checked:hover + label::before,
+.c0 input:checked:focus:hover + label::before,
+.c0 input:checked.hover + label::before {
+  background-color: var(--bds-color-action-interactive-hover);
+}
+
+.c0 input:checked:hover + label::after,
+.c0 input:checked:focus:hover + label::after,
+.c0 input:checked.hover + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:checked:focus + label::before,
+.c0 input:checked.focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c0 input:checked:focus + label::after,
+.c0 input:checked.focus + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:checked:disabled,
+.c0 input:checked.disabled,
+.c0 input:checked:disabled + label,
+.c0 input:checked.disabled + label {
+  cursor: not-allowed;
+}
+
+.c0 input:checked:disabled + label::before,
+.c0 input:checked.disabled + label::before {
+  background-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:checked:disabled + label::after,
+.c0 input:checked.disabled + label::after {
+  border-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:checked,
+.c0 input:checked + label {
+  cursor: pointer;
+}
+
+.c0 input:checked.size--large + label::after {
+  margin-left: var(--bds-sizes-size-24);
+}
+
+.c0 input:checked.size--small + label::after {
+  margin-left: var(--bds-sizes-size-16);
+}
+
+<span
+    class="c0 switch--wrapper size--large"
+  >
+    <input
+      class="backyard switch size--large test-class"
+      type="checkbox"
+      value=""
+    />
+    <label />
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Switch Snapshots extra props Switch wrapperProps snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 label {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+}
+
+.c0 input {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.c0 input + label::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--bds-border-radius-circle);
+  -webkit-transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.c0 input + label::after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-radius: var(--bds-border-radius-circle);
+  -webkit-transition: margin-left 0.2s ease-in-out;
+  transition: margin-left 0.2s ease-in-out;
+}
+
+.c0.size--large label {
+  height: var(--bds-sizes-size-24);
+  width: var(--bds-sizes-size-48);
+}
+
+.c0.size--large input + label::before {
+  height: var(--bds-sizes-size-24);
+  width: var(--bds-sizes-size-48);
+}
+
+.c0.size--large input + label::after {
+  left: var(--bds-sizes-size-2);
+  top: var(--bds-sizes-size-2);
+  border-width: var(--bds-sizes-size-10);
+}
+
+.c0.size--small label {
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-32);
+}
+
+.c0.size--small input + label::before {
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-32);
+}
+
+.c0.size--small input + label::after {
+  left: var(--bds-sizes-size-2);
+  top: var(--bds-sizes-size-2);
+  border-width: var(--bds-sizes-size-6);
+}
+
+.c0 input:not(:checked):enabled + label::before,
+.c0 input:not(:checked).enabled + label::before {
+  background-color: var(--bds-color-neutral-04);
+}
+
+.c0 input:not(:checked):enabled + label::after,
+.c0 input:not(:checked).enabled + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:not(:checked):hover + label::before,
+.c0 input:not(:checked).hover + label::before {
+  background-color: var(--bds-color-border-hover);
+}
+
+.c0 input:not(:checked):hover + label::after,
+.c0 input:not(:checked).hover + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:not(:checked):focus + label::before,
+.c0 input:not(:checked).focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+}
+
+.c0 input:not(:checked):focus + label::after,
+.c0 input:not(:checked).focus + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:not(:checked):disabled,
+.c0 input:not(:checked).disabled,
+.c0 input:not(:checked):disabled + label,
+.c0 input:not(:checked).disabled + label {
+  cursor: not-allowed;
+}
+
+.c0 input:not(:checked):disabled + label::before,
+.c0 input:not(:checked).disabled + label::before {
+  background-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:not(:checked):disabled + label::after,
+.c0 input:not(:checked).disabled + label::after {
+  border-color: var(--bds-color-icon-disabled);
+}
+
+.c0 input:not(:checked),
+.c0 input:not(:checked) + label {
+  cursor: pointer;
+}
+
+.c0 input:checked:enabled + label::before,
+.c0 input:checked.enabled + label::before {
+  background-color: var(--bds-color-action-interactive);
+}
+
+.c0 input:checked:enabled + label::after,
+.c0 input:checked.enabled + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:checked:hover + label::before,
+.c0 input:checked:focus:hover + label::before,
+.c0 input:checked.hover + label::before {
+  background-color: var(--bds-color-action-interactive-hover);
+}
+
+.c0 input:checked:hover + label::after,
+.c0 input:checked:focus:hover + label::after,
+.c0 input:checked.hover + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:checked:focus + label::before,
+.c0 input:checked.focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c0 input:checked:focus + label::after,
+.c0 input:checked.focus + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:checked:disabled,
+.c0 input:checked.disabled,
+.c0 input:checked:disabled + label,
+.c0 input:checked.disabled + label {
+  cursor: not-allowed;
+}
+
+.c0 input:checked:disabled + label::before,
+.c0 input:checked.disabled + label::before {
+  background-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:checked:disabled + label::after,
+.c0 input:checked.disabled + label::after {
+  border-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:checked,
+.c0 input:checked + label {
+  cursor: pointer;
+}
+
+.c0 input:checked.size--large + label::after {
+  margin-left: var(--bds-sizes-size-24);
+}
+
+.c0 input:checked.size--small + label::after {
+  margin-left: var(--bds-sizes-size-16);
+}
+
+<span
+    class="c0 switch--wrapper size--large"
+    style="opacity: 0;"
+  >
+    <input
+      class="backyard switch size--large"
+      type="checkbox"
+      value=""
+    />
+    <label />
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Switch Snapshots prop: checked Switch checked snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 label {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+}
+
+.c0 input {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.c0 input + label::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--bds-border-radius-circle);
+  -webkit-transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.c0 input + label::after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-radius: var(--bds-border-radius-circle);
+  -webkit-transition: margin-left 0.2s ease-in-out;
+  transition: margin-left 0.2s ease-in-out;
+}
+
+.c0.size--large label {
+  height: var(--bds-sizes-size-24);
+  width: var(--bds-sizes-size-48);
+}
+
+.c0.size--large input + label::before {
+  height: var(--bds-sizes-size-24);
+  width: var(--bds-sizes-size-48);
+}
+
+.c0.size--large input + label::after {
+  left: var(--bds-sizes-size-2);
+  top: var(--bds-sizes-size-2);
+  border-width: var(--bds-sizes-size-10);
+}
+
+.c0.size--small label {
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-32);
+}
+
+.c0.size--small input + label::before {
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-32);
+}
+
+.c0.size--small input + label::after {
+  left: var(--bds-sizes-size-2);
+  top: var(--bds-sizes-size-2);
+  border-width: var(--bds-sizes-size-6);
+}
+
+.c0 input:not(:checked):enabled + label::before,
+.c0 input:not(:checked).enabled + label::before {
+  background-color: var(--bds-color-neutral-04);
+}
+
+.c0 input:not(:checked):enabled + label::after,
+.c0 input:not(:checked).enabled + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:not(:checked):hover + label::before,
+.c0 input:not(:checked).hover + label::before {
+  background-color: var(--bds-color-border-hover);
+}
+
+.c0 input:not(:checked):hover + label::after,
+.c0 input:not(:checked).hover + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:not(:checked):focus + label::before,
+.c0 input:not(:checked).focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+}
+
+.c0 input:not(:checked):focus + label::after,
+.c0 input:not(:checked).focus + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:not(:checked):disabled,
+.c0 input:not(:checked).disabled,
+.c0 input:not(:checked):disabled + label,
+.c0 input:not(:checked).disabled + label {
+  cursor: not-allowed;
+}
+
+.c0 input:not(:checked):disabled + label::before,
+.c0 input:not(:checked).disabled + label::before {
+  background-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:not(:checked):disabled + label::after,
+.c0 input:not(:checked).disabled + label::after {
+  border-color: var(--bds-color-icon-disabled);
+}
+
+.c0 input:not(:checked),
+.c0 input:not(:checked) + label {
+  cursor: pointer;
+}
+
+.c0 input:checked:enabled + label::before,
+.c0 input:checked.enabled + label::before {
+  background-color: var(--bds-color-action-interactive);
+}
+
+.c0 input:checked:enabled + label::after,
+.c0 input:checked.enabled + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:checked:hover + label::before,
+.c0 input:checked:focus:hover + label::before,
+.c0 input:checked.hover + label::before {
+  background-color: var(--bds-color-action-interactive-hover);
+}
+
+.c0 input:checked:hover + label::after,
+.c0 input:checked:focus:hover + label::after,
+.c0 input:checked.hover + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:checked:focus + label::before,
+.c0 input:checked.focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c0 input:checked:focus + label::after,
+.c0 input:checked.focus + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:checked:disabled,
+.c0 input:checked.disabled,
+.c0 input:checked:disabled + label,
+.c0 input:checked.disabled + label {
+  cursor: not-allowed;
+}
+
+.c0 input:checked:disabled + label::before,
+.c0 input:checked.disabled + label::before {
+  background-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:checked:disabled + label::after,
+.c0 input:checked.disabled + label::after {
+  border-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:checked,
+.c0 input:checked + label {
+  cursor: pointer;
+}
+
+.c0 input:checked.size--large + label::after {
+  margin-left: var(--bds-sizes-size-24);
+}
+
+.c0 input:checked.size--small + label::after {
+  margin-left: var(--bds-sizes-size-16);
+}
+
+<span
+    class="c0 switch--wrapper size--large"
+  >
+    <input
+      checked=""
+      class="backyard switch size--large checked"
+      type="checkbox"
+      value=""
+    />
+    <label />
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Switch Snapshots prop: checked Switch not checked snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 label {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+}
+
+.c0 input {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.c0 input + label::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--bds-border-radius-circle);
+  -webkit-transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.c0 input + label::after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-radius: var(--bds-border-radius-circle);
+  -webkit-transition: margin-left 0.2s ease-in-out;
+  transition: margin-left 0.2s ease-in-out;
+}
+
+.c0.size--large label {
+  height: var(--bds-sizes-size-24);
+  width: var(--bds-sizes-size-48);
+}
+
+.c0.size--large input + label::before {
+  height: var(--bds-sizes-size-24);
+  width: var(--bds-sizes-size-48);
+}
+
+.c0.size--large input + label::after {
+  left: var(--bds-sizes-size-2);
+  top: var(--bds-sizes-size-2);
+  border-width: var(--bds-sizes-size-10);
+}
+
+.c0.size--small label {
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-32);
+}
+
+.c0.size--small input + label::before {
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-32);
+}
+
+.c0.size--small input + label::after {
+  left: var(--bds-sizes-size-2);
+  top: var(--bds-sizes-size-2);
+  border-width: var(--bds-sizes-size-6);
+}
+
+.c0 input:not(:checked):enabled + label::before,
+.c0 input:not(:checked).enabled + label::before {
+  background-color: var(--bds-color-neutral-04);
+}
+
+.c0 input:not(:checked):enabled + label::after,
+.c0 input:not(:checked).enabled + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:not(:checked):hover + label::before,
+.c0 input:not(:checked).hover + label::before {
+  background-color: var(--bds-color-border-hover);
+}
+
+.c0 input:not(:checked):hover + label::after,
+.c0 input:not(:checked).hover + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:not(:checked):focus + label::before,
+.c0 input:not(:checked).focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+}
+
+.c0 input:not(:checked):focus + label::after,
+.c0 input:not(:checked).focus + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:not(:checked):disabled,
+.c0 input:not(:checked).disabled,
+.c0 input:not(:checked):disabled + label,
+.c0 input:not(:checked).disabled + label {
+  cursor: not-allowed;
+}
+
+.c0 input:not(:checked):disabled + label::before,
+.c0 input:not(:checked).disabled + label::before {
+  background-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:not(:checked):disabled + label::after,
+.c0 input:not(:checked).disabled + label::after {
+  border-color: var(--bds-color-icon-disabled);
+}
+
+.c0 input:not(:checked),
+.c0 input:not(:checked) + label {
+  cursor: pointer;
+}
+
+.c0 input:checked:enabled + label::before,
+.c0 input:checked.enabled + label::before {
+  background-color: var(--bds-color-action-interactive);
+}
+
+.c0 input:checked:enabled + label::after,
+.c0 input:checked.enabled + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:checked:hover + label::before,
+.c0 input:checked:focus:hover + label::before,
+.c0 input:checked.hover + label::before {
+  background-color: var(--bds-color-action-interactive-hover);
+}
+
+.c0 input:checked:hover + label::after,
+.c0 input:checked:focus:hover + label::after,
+.c0 input:checked.hover + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:checked:focus + label::before,
+.c0 input:checked.focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c0 input:checked:focus + label::after,
+.c0 input:checked.focus + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:checked:disabled,
+.c0 input:checked.disabled,
+.c0 input:checked:disabled + label,
+.c0 input:checked.disabled + label {
+  cursor: not-allowed;
+}
+
+.c0 input:checked:disabled + label::before,
+.c0 input:checked.disabled + label::before {
+  background-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:checked:disabled + label::after,
+.c0 input:checked.disabled + label::after {
+  border-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:checked,
+.c0 input:checked + label {
+  cursor: pointer;
+}
+
+.c0 input:checked.size--large + label::after {
+  margin-left: var(--bds-sizes-size-24);
+}
+
+.c0 input:checked.size--small + label::after {
+  margin-left: var(--bds-sizes-size-16);
+}
+
+<span
+    class="c0 switch--wrapper size--large"
+  >
+    <input
+      class="backyard switch size--large"
+      type="checkbox"
+      value=""
+    />
+    <label />
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Switch Snapshots prop: defaultChecked Switch default checked snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 label {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+}
+
+.c0 input {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.c0 input + label::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--bds-border-radius-circle);
+  -webkit-transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.c0 input + label::after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-radius: var(--bds-border-radius-circle);
+  -webkit-transition: margin-left 0.2s ease-in-out;
+  transition: margin-left 0.2s ease-in-out;
+}
+
+.c0.size--large label {
+  height: var(--bds-sizes-size-24);
+  width: var(--bds-sizes-size-48);
+}
+
+.c0.size--large input + label::before {
+  height: var(--bds-sizes-size-24);
+  width: var(--bds-sizes-size-48);
+}
+
+.c0.size--large input + label::after {
+  left: var(--bds-sizes-size-2);
+  top: var(--bds-sizes-size-2);
+  border-width: var(--bds-sizes-size-10);
+}
+
+.c0.size--small label {
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-32);
+}
+
+.c0.size--small input + label::before {
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-32);
+}
+
+.c0.size--small input + label::after {
+  left: var(--bds-sizes-size-2);
+  top: var(--bds-sizes-size-2);
+  border-width: var(--bds-sizes-size-6);
+}
+
+.c0 input:not(:checked):enabled + label::before,
+.c0 input:not(:checked).enabled + label::before {
+  background-color: var(--bds-color-neutral-04);
+}
+
+.c0 input:not(:checked):enabled + label::after,
+.c0 input:not(:checked).enabled + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:not(:checked):hover + label::before,
+.c0 input:not(:checked).hover + label::before {
+  background-color: var(--bds-color-border-hover);
+}
+
+.c0 input:not(:checked):hover + label::after,
+.c0 input:not(:checked).hover + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:not(:checked):focus + label::before,
+.c0 input:not(:checked).focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+}
+
+.c0 input:not(:checked):focus + label::after,
+.c0 input:not(:checked).focus + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:not(:checked):disabled,
+.c0 input:not(:checked).disabled,
+.c0 input:not(:checked):disabled + label,
+.c0 input:not(:checked).disabled + label {
+  cursor: not-allowed;
+}
+
+.c0 input:not(:checked):disabled + label::before,
+.c0 input:not(:checked).disabled + label::before {
+  background-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:not(:checked):disabled + label::after,
+.c0 input:not(:checked).disabled + label::after {
+  border-color: var(--bds-color-icon-disabled);
+}
+
+.c0 input:not(:checked),
+.c0 input:not(:checked) + label {
+  cursor: pointer;
+}
+
+.c0 input:checked:enabled + label::before,
+.c0 input:checked.enabled + label::before {
+  background-color: var(--bds-color-action-interactive);
+}
+
+.c0 input:checked:enabled + label::after,
+.c0 input:checked.enabled + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:checked:hover + label::before,
+.c0 input:checked:focus:hover + label::before,
+.c0 input:checked.hover + label::before {
+  background-color: var(--bds-color-action-interactive-hover);
+}
+
+.c0 input:checked:hover + label::after,
+.c0 input:checked:focus:hover + label::after,
+.c0 input:checked.hover + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:checked:focus + label::before,
+.c0 input:checked.focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c0 input:checked:focus + label::after,
+.c0 input:checked.focus + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:checked:disabled,
+.c0 input:checked.disabled,
+.c0 input:checked:disabled + label,
+.c0 input:checked.disabled + label {
+  cursor: not-allowed;
+}
+
+.c0 input:checked:disabled + label::before,
+.c0 input:checked.disabled + label::before {
+  background-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:checked:disabled + label::after,
+.c0 input:checked.disabled + label::after {
+  border-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:checked,
+.c0 input:checked + label {
+  cursor: pointer;
+}
+
+.c0 input:checked.size--large + label::after {
+  margin-left: var(--bds-sizes-size-24);
+}
+
+.c0 input:checked.size--small + label::after {
+  margin-left: var(--bds-sizes-size-16);
+}
+
+<span
+    class="c0 switch--wrapper size--large"
+  >
+    <input
+      checked=""
+      class="backyard switch size--large checked"
+      type="checkbox"
+      value=""
+    />
+    <label />
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Switch Snapshots prop: defaultChecked Switch default not checked snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 label {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+}
+
+.c0 input {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.c0 input + label::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--bds-border-radius-circle);
+  -webkit-transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.c0 input + label::after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-radius: var(--bds-border-radius-circle);
+  -webkit-transition: margin-left 0.2s ease-in-out;
+  transition: margin-left 0.2s ease-in-out;
+}
+
+.c0.size--large label {
+  height: var(--bds-sizes-size-24);
+  width: var(--bds-sizes-size-48);
+}
+
+.c0.size--large input + label::before {
+  height: var(--bds-sizes-size-24);
+  width: var(--bds-sizes-size-48);
+}
+
+.c0.size--large input + label::after {
+  left: var(--bds-sizes-size-2);
+  top: var(--bds-sizes-size-2);
+  border-width: var(--bds-sizes-size-10);
+}
+
+.c0.size--small label {
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-32);
+}
+
+.c0.size--small input + label::before {
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-32);
+}
+
+.c0.size--small input + label::after {
+  left: var(--bds-sizes-size-2);
+  top: var(--bds-sizes-size-2);
+  border-width: var(--bds-sizes-size-6);
+}
+
+.c0 input:not(:checked):enabled + label::before,
+.c0 input:not(:checked).enabled + label::before {
+  background-color: var(--bds-color-neutral-04);
+}
+
+.c0 input:not(:checked):enabled + label::after,
+.c0 input:not(:checked).enabled + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:not(:checked):hover + label::before,
+.c0 input:not(:checked).hover + label::before {
+  background-color: var(--bds-color-border-hover);
+}
+
+.c0 input:not(:checked):hover + label::after,
+.c0 input:not(:checked).hover + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:not(:checked):focus + label::before,
+.c0 input:not(:checked).focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+}
+
+.c0 input:not(:checked):focus + label::after,
+.c0 input:not(:checked).focus + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:not(:checked):disabled,
+.c0 input:not(:checked).disabled,
+.c0 input:not(:checked):disabled + label,
+.c0 input:not(:checked).disabled + label {
+  cursor: not-allowed;
+}
+
+.c0 input:not(:checked):disabled + label::before,
+.c0 input:not(:checked).disabled + label::before {
+  background-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:not(:checked):disabled + label::after,
+.c0 input:not(:checked).disabled + label::after {
+  border-color: var(--bds-color-icon-disabled);
+}
+
+.c0 input:not(:checked),
+.c0 input:not(:checked) + label {
+  cursor: pointer;
+}
+
+.c0 input:checked:enabled + label::before,
+.c0 input:checked.enabled + label::before {
+  background-color: var(--bds-color-action-interactive);
+}
+
+.c0 input:checked:enabled + label::after,
+.c0 input:checked.enabled + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:checked:hover + label::before,
+.c0 input:checked:focus:hover + label::before,
+.c0 input:checked.hover + label::before {
+  background-color: var(--bds-color-action-interactive-hover);
+}
+
+.c0 input:checked:hover + label::after,
+.c0 input:checked:focus:hover + label::after,
+.c0 input:checked.hover + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:checked:focus + label::before,
+.c0 input:checked.focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c0 input:checked:focus + label::after,
+.c0 input:checked.focus + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:checked:disabled,
+.c0 input:checked.disabled,
+.c0 input:checked:disabled + label,
+.c0 input:checked.disabled + label {
+  cursor: not-allowed;
+}
+
+.c0 input:checked:disabled + label::before,
+.c0 input:checked.disabled + label::before {
+  background-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:checked:disabled + label::after,
+.c0 input:checked.disabled + label::after {
+  border-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:checked,
+.c0 input:checked + label {
+  cursor: pointer;
+}
+
+.c0 input:checked.size--large + label::after {
+  margin-left: var(--bds-sizes-size-24);
+}
+
+.c0 input:checked.size--small + label::after {
+  margin-left: var(--bds-sizes-size-16);
+}
+
+<span
+    class="c0 switch--wrapper size--large"
+  >
+    <input
+      class="backyard switch size--large"
+      type="checkbox"
+      value=""
+    />
+    <label />
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Switch Snapshots prop: disabled Switch disabled snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 label {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+}
+
+.c0 input {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.c0 input + label::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--bds-border-radius-circle);
+  -webkit-transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.c0 input + label::after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-radius: var(--bds-border-radius-circle);
+  -webkit-transition: margin-left 0.2s ease-in-out;
+  transition: margin-left 0.2s ease-in-out;
+}
+
+.c0.size--large label {
+  height: var(--bds-sizes-size-24);
+  width: var(--bds-sizes-size-48);
+}
+
+.c0.size--large input + label::before {
+  height: var(--bds-sizes-size-24);
+  width: var(--bds-sizes-size-48);
+}
+
+.c0.size--large input + label::after {
+  left: var(--bds-sizes-size-2);
+  top: var(--bds-sizes-size-2);
+  border-width: var(--bds-sizes-size-10);
+}
+
+.c0.size--small label {
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-32);
+}
+
+.c0.size--small input + label::before {
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-32);
+}
+
+.c0.size--small input + label::after {
+  left: var(--bds-sizes-size-2);
+  top: var(--bds-sizes-size-2);
+  border-width: var(--bds-sizes-size-6);
+}
+
+.c0 input:not(:checked):enabled + label::before,
+.c0 input:not(:checked).enabled + label::before {
+  background-color: var(--bds-color-neutral-04);
+}
+
+.c0 input:not(:checked):enabled + label::after,
+.c0 input:not(:checked).enabled + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:not(:checked):hover + label::before,
+.c0 input:not(:checked).hover + label::before {
+  background-color: var(--bds-color-border-hover);
+}
+
+.c0 input:not(:checked):hover + label::after,
+.c0 input:not(:checked).hover + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:not(:checked):focus + label::before,
+.c0 input:not(:checked).focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+}
+
+.c0 input:not(:checked):focus + label::after,
+.c0 input:not(:checked).focus + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:not(:checked):disabled,
+.c0 input:not(:checked).disabled,
+.c0 input:not(:checked):disabled + label,
+.c0 input:not(:checked).disabled + label {
+  cursor: not-allowed;
+}
+
+.c0 input:not(:checked):disabled + label::before,
+.c0 input:not(:checked).disabled + label::before {
+  background-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:not(:checked):disabled + label::after,
+.c0 input:not(:checked).disabled + label::after {
+  border-color: var(--bds-color-icon-disabled);
+}
+
+.c0 input:not(:checked),
+.c0 input:not(:checked) + label {
+  cursor: pointer;
+}
+
+.c0 input:checked:enabled + label::before,
+.c0 input:checked.enabled + label::before {
+  background-color: var(--bds-color-action-interactive);
+}
+
+.c0 input:checked:enabled + label::after,
+.c0 input:checked.enabled + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:checked:hover + label::before,
+.c0 input:checked:focus:hover + label::before,
+.c0 input:checked.hover + label::before {
+  background-color: var(--bds-color-action-interactive-hover);
+}
+
+.c0 input:checked:hover + label::after,
+.c0 input:checked:focus:hover + label::after,
+.c0 input:checked.hover + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:checked:focus + label::before,
+.c0 input:checked.focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c0 input:checked:focus + label::after,
+.c0 input:checked.focus + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:checked:disabled,
+.c0 input:checked.disabled,
+.c0 input:checked:disabled + label,
+.c0 input:checked.disabled + label {
+  cursor: not-allowed;
+}
+
+.c0 input:checked:disabled + label::before,
+.c0 input:checked.disabled + label::before {
+  background-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:checked:disabled + label::after,
+.c0 input:checked.disabled + label::after {
+  border-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:checked,
+.c0 input:checked + label {
+  cursor: pointer;
+}
+
+.c0 input:checked.size--large + label::after {
+  margin-left: var(--bds-sizes-size-24);
+}
+
+.c0 input:checked.size--small + label::after {
+  margin-left: var(--bds-sizes-size-16);
+}
+
+<span
+    class="c0 switch--wrapper size--large"
+  >
+    <input
+      class="backyard switch size--large disabled"
+      disabled=""
+      type="checkbox"
+      value=""
+    />
+    <label />
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Switch Snapshots prop: disabled Switch enabled snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 label {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+}
+
+.c0 input {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.c0 input + label::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--bds-border-radius-circle);
+  -webkit-transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.c0 input + label::after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-radius: var(--bds-border-radius-circle);
+  -webkit-transition: margin-left 0.2s ease-in-out;
+  transition: margin-left 0.2s ease-in-out;
+}
+
+.c0.size--large label {
+  height: var(--bds-sizes-size-24);
+  width: var(--bds-sizes-size-48);
+}
+
+.c0.size--large input + label::before {
+  height: var(--bds-sizes-size-24);
+  width: var(--bds-sizes-size-48);
+}
+
+.c0.size--large input + label::after {
+  left: var(--bds-sizes-size-2);
+  top: var(--bds-sizes-size-2);
+  border-width: var(--bds-sizes-size-10);
+}
+
+.c0.size--small label {
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-32);
+}
+
+.c0.size--small input + label::before {
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-32);
+}
+
+.c0.size--small input + label::after {
+  left: var(--bds-sizes-size-2);
+  top: var(--bds-sizes-size-2);
+  border-width: var(--bds-sizes-size-6);
+}
+
+.c0 input:not(:checked):enabled + label::before,
+.c0 input:not(:checked).enabled + label::before {
+  background-color: var(--bds-color-neutral-04);
+}
+
+.c0 input:not(:checked):enabled + label::after,
+.c0 input:not(:checked).enabled + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:not(:checked):hover + label::before,
+.c0 input:not(:checked).hover + label::before {
+  background-color: var(--bds-color-border-hover);
+}
+
+.c0 input:not(:checked):hover + label::after,
+.c0 input:not(:checked).hover + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:not(:checked):focus + label::before,
+.c0 input:not(:checked).focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+}
+
+.c0 input:not(:checked):focus + label::after,
+.c0 input:not(:checked).focus + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:not(:checked):disabled,
+.c0 input:not(:checked).disabled,
+.c0 input:not(:checked):disabled + label,
+.c0 input:not(:checked).disabled + label {
+  cursor: not-allowed;
+}
+
+.c0 input:not(:checked):disabled + label::before,
+.c0 input:not(:checked).disabled + label::before {
+  background-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:not(:checked):disabled + label::after,
+.c0 input:not(:checked).disabled + label::after {
+  border-color: var(--bds-color-icon-disabled);
+}
+
+.c0 input:not(:checked),
+.c0 input:not(:checked) + label {
+  cursor: pointer;
+}
+
+.c0 input:checked:enabled + label::before,
+.c0 input:checked.enabled + label::before {
+  background-color: var(--bds-color-action-interactive);
+}
+
+.c0 input:checked:enabled + label::after,
+.c0 input:checked.enabled + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:checked:hover + label::before,
+.c0 input:checked:focus:hover + label::before,
+.c0 input:checked.hover + label::before {
+  background-color: var(--bds-color-action-interactive-hover);
+}
+
+.c0 input:checked:hover + label::after,
+.c0 input:checked:focus:hover + label::after,
+.c0 input:checked.hover + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:checked:focus + label::before,
+.c0 input:checked.focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c0 input:checked:focus + label::after,
+.c0 input:checked.focus + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:checked:disabled,
+.c0 input:checked.disabled,
+.c0 input:checked:disabled + label,
+.c0 input:checked.disabled + label {
+  cursor: not-allowed;
+}
+
+.c0 input:checked:disabled + label::before,
+.c0 input:checked.disabled + label::before {
+  background-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:checked:disabled + label::after,
+.c0 input:checked.disabled + label::after {
+  border-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:checked,
+.c0 input:checked + label {
+  cursor: pointer;
+}
+
+.c0 input:checked.size--large + label::after {
+  margin-left: var(--bds-sizes-size-24);
+}
+
+.c0 input:checked.size--small + label::after {
+  margin-left: var(--bds-sizes-size-16);
+}
+
+<span
+    class="c0 switch--wrapper size--large"
+  >
+    <input
+      class="backyard switch size--large"
+      type="checkbox"
+      value=""
+    />
+    <label />
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Switch Snapshots themes Switch dark theme snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 label {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+}
+
+.c0 input {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.c0 input + label::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--bds-border-radius-circle);
+  -webkit-transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.c0 input + label::after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-radius: var(--bds-border-radius-circle);
+  -webkit-transition: margin-left 0.2s ease-in-out;
+  transition: margin-left 0.2s ease-in-out;
+}
+
+.c0.size--large label {
+  height: var(--bds-sizes-size-24);
+  width: var(--bds-sizes-size-48);
+}
+
+.c0.size--large input + label::before {
+  height: var(--bds-sizes-size-24);
+  width: var(--bds-sizes-size-48);
+}
+
+.c0.size--large input + label::after {
+  left: var(--bds-sizes-size-2);
+  top: var(--bds-sizes-size-2);
+  border-width: var(--bds-sizes-size-10);
+}
+
+.c0.size--small label {
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-32);
+}
+
+.c0.size--small input + label::before {
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-32);
+}
+
+.c0.size--small input + label::after {
+  left: var(--bds-sizes-size-2);
+  top: var(--bds-sizes-size-2);
+  border-width: var(--bds-sizes-size-6);
+}
+
+.c0 input:not(:checked):enabled + label::before,
+.c0 input:not(:checked).enabled + label::before {
+  background-color: var(--bds-color-neutral-04);
+}
+
+.c0 input:not(:checked):enabled + label::after,
+.c0 input:not(:checked).enabled + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:not(:checked):hover + label::before,
+.c0 input:not(:checked).hover + label::before {
+  background-color: var(--bds-color-border-hover);
+}
+
+.c0 input:not(:checked):hover + label::after,
+.c0 input:not(:checked).hover + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:not(:checked):focus + label::before,
+.c0 input:not(:checked).focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+}
+
+.c0 input:not(:checked):focus + label::after,
+.c0 input:not(:checked).focus + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:not(:checked):disabled,
+.c0 input:not(:checked).disabled,
+.c0 input:not(:checked):disabled + label,
+.c0 input:not(:checked).disabled + label {
+  cursor: not-allowed;
+}
+
+.c0 input:not(:checked):disabled + label::before,
+.c0 input:not(:checked).disabled + label::before {
+  background-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:not(:checked):disabled + label::after,
+.c0 input:not(:checked).disabled + label::after {
+  border-color: var(--bds-color-icon-disabled);
+}
+
+.c0 input:not(:checked),
+.c0 input:not(:checked) + label {
+  cursor: pointer;
+}
+
+.c0 input:checked:enabled + label::before,
+.c0 input:checked.enabled + label::before {
+  background-color: var(--bds-color-action-interactive);
+}
+
+.c0 input:checked:enabled + label::after,
+.c0 input:checked.enabled + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:checked:hover + label::before,
+.c0 input:checked:focus:hover + label::before,
+.c0 input:checked.hover + label::before {
+  background-color: var(--bds-color-action-interactive-hover);
+}
+
+.c0 input:checked:hover + label::after,
+.c0 input:checked:focus:hover + label::after,
+.c0 input:checked.hover + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:checked:focus + label::before,
+.c0 input:checked.focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c0 input:checked:focus + label::after,
+.c0 input:checked.focus + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:checked:disabled,
+.c0 input:checked.disabled,
+.c0 input:checked:disabled + label,
+.c0 input:checked.disabled + label {
+  cursor: not-allowed;
+}
+
+.c0 input:checked:disabled + label::before,
+.c0 input:checked.disabled + label::before {
+  background-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:checked:disabled + label::after,
+.c0 input:checked.disabled + label::after {
+  border-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:checked,
+.c0 input:checked + label {
+  cursor: pointer;
+}
+
+.c0 input:checked.size--large + label::after {
+  margin-left: var(--bds-sizes-size-24);
+}
+
+.c0 input:checked.size--small + label::after {
+  margin-left: var(--bds-sizes-size-16);
+}
+
+<span
+    class="c0 switch--wrapper size--large"
+  >
+    <input
+      class="backyard switch size--large"
+      type="checkbox"
+      value=""
+    />
+    <label />
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Switch Snapshots themes Switch light theme snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 label {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+}
+
+.c0 input {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.c0 input + label::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--bds-border-radius-circle);
+  -webkit-transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.c0 input + label::after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-radius: var(--bds-border-radius-circle);
+  -webkit-transition: margin-left 0.2s ease-in-out;
+  transition: margin-left 0.2s ease-in-out;
+}
+
+.c0.size--large label {
+  height: var(--bds-sizes-size-24);
+  width: var(--bds-sizes-size-48);
+}
+
+.c0.size--large input + label::before {
+  height: var(--bds-sizes-size-24);
+  width: var(--bds-sizes-size-48);
+}
+
+.c0.size--large input + label::after {
+  left: var(--bds-sizes-size-2);
+  top: var(--bds-sizes-size-2);
+  border-width: var(--bds-sizes-size-10);
+}
+
+.c0.size--small label {
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-32);
+}
+
+.c0.size--small input + label::before {
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-32);
+}
+
+.c0.size--small input + label::after {
+  left: var(--bds-sizes-size-2);
+  top: var(--bds-sizes-size-2);
+  border-width: var(--bds-sizes-size-6);
+}
+
+.c0 input:not(:checked):enabled + label::before,
+.c0 input:not(:checked).enabled + label::before {
+  background-color: var(--bds-color-neutral-04);
+}
+
+.c0 input:not(:checked):enabled + label::after,
+.c0 input:not(:checked).enabled + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:not(:checked):hover + label::before,
+.c0 input:not(:checked).hover + label::before {
+  background-color: var(--bds-color-border-hover);
+}
+
+.c0 input:not(:checked):hover + label::after,
+.c0 input:not(:checked).hover + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:not(:checked):focus + label::before,
+.c0 input:not(:checked).focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+}
+
+.c0 input:not(:checked):focus + label::after,
+.c0 input:not(:checked).focus + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:not(:checked):disabled,
+.c0 input:not(:checked).disabled,
+.c0 input:not(:checked):disabled + label,
+.c0 input:not(:checked).disabled + label {
+  cursor: not-allowed;
+}
+
+.c0 input:not(:checked):disabled + label::before,
+.c0 input:not(:checked).disabled + label::before {
+  background-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:not(:checked):disabled + label::after,
+.c0 input:not(:checked).disabled + label::after {
+  border-color: var(--bds-color-icon-disabled);
+}
+
+.c0 input:not(:checked),
+.c0 input:not(:checked) + label {
+  cursor: pointer;
+}
+
+.c0 input:checked:enabled + label::before,
+.c0 input:checked.enabled + label::before {
+  background-color: var(--bds-color-action-interactive);
+}
+
+.c0 input:checked:enabled + label::after,
+.c0 input:checked.enabled + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:checked:hover + label::before,
+.c0 input:checked:focus:hover + label::before,
+.c0 input:checked.hover + label::before {
+  background-color: var(--bds-color-action-interactive-hover);
+}
+
+.c0 input:checked:hover + label::after,
+.c0 input:checked:focus:hover + label::after,
+.c0 input:checked.hover + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:checked:focus + label::before,
+.c0 input:checked.focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c0 input:checked:focus + label::after,
+.c0 input:checked.focus + label::after {
+  border-color: var(--bds-color-surface-default);
+}
+
+.c0 input:checked:disabled,
+.c0 input:checked.disabled,
+.c0 input:checked:disabled + label,
+.c0 input:checked.disabled + label {
+  cursor: not-allowed;
+}
+
+.c0 input:checked:disabled + label::before,
+.c0 input:checked.disabled + label::before {
+  background-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:checked:disabled + label::after,
+.c0 input:checked.disabled + label::after {
+  border-color: var(--bds-color-text-disabled);
+}
+
+.c0 input:checked,
+.c0 input:checked + label {
+  cursor: pointer;
+}
+
+.c0 input:checked.size--large + label::after {
+  margin-left: var(--bds-sizes-size-24);
+}
+
+.c0 input:checked.size--small + label::after {
+  margin-left: var(--bds-sizes-size-16);
+}
+
+<span
+    class="c0 switch--wrapper size--large"
+  >
+    <input
+      class="backyard switch size--large"
+      type="checkbox"
+      value=""
+    />
+    <label />
+  </span>
+</DocumentFragment>
+`;

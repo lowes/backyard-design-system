@@ -1,0 +1,12 @@
+{
+    "excludeExternals": true,
+    "excludePrivate": true,
+    "excludeProtected": true,
+    "excludeInternal": true,
+    "hideBreadcrumbs": true,
+    "hideInPageTOC": true,
+    "githubPages": false,
+    "readme": "none",
+    "disableSources": true,
+    "cleanOutputDir": false
+}

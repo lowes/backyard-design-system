@@ -1,0 +1,284 @@
+{
+	"id": 0,
+	"name": "@lowes-tech/bds-react/TrapFocus",
+	"kind": 1,
+	"kindString": "Project",
+	"flags": {},
+	"children": [
+		{
+			"id": 14,
+			"name": "default",
+			"kind": 16777216,
+			"kindString": "Reference",
+			"flags": {},
+			"target": 1
+		},
+		{
+			"id": 2,
+			"name": "TrapFocus",
+			"kind": 4,
+			"kindString": "Namespace",
+			"flags": {},
+			"children": [
+				{
+					"id": 3,
+					"name": "bdsName",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Variables",
+					"kind": 32,
+					"children": [
+						3
+					]
+				}
+			]
+		},
+		{
+			"id": 4,
+			"name": "TrapFocusProps",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 5,
+					"name": "children",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"shortText": "A single child content element"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							},
+							{
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									},
+									{
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "JSXElementConstructor"
+									}
+								]
+							}
+						],
+						"name": "ReactElement"
+					}
+				},
+				{
+					"id": 6,
+					"name": "disableAutoFocus",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "If `true`, the modal will not automatically shift focus to itself when it opens, and\nreplace it to the last focused element when it closes.\nThis also works correctly with any modal children that have the `disableAutoFocus` prop.",
+						"text": "Generally this should never be set to `true` as it makes the modal less\naccessible to assistive technologies, like screen readers.\n"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 7,
+					"name": "disableEnforceFocus",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "If `true`, the modal will not prevent focus from leaving the modal while open.",
+						"text": "Generally this should never be set to `true` as it makes the modal less\naccessible to assistive technologies, like screen readers.\n"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 8,
+					"name": "disableRestoreFocus",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "If `true`, the modal will not restore focus to previously focused element once\nmodal is hidden."
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 13,
+					"name": "open",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"shortText": "If `true`, the modal is open."
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 9,
+					"name": "getDoc",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {},
+					"signatures": [
+						{
+							"id": 10,
+							"name": "getDoc",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Return the document to consider.\nWe use it to implement the restore focus between different browser documents."
+							},
+							"type": {
+								"type": "reference",
+								"name": "HTMLDocument"
+							}
+						}
+					]
+				},
+				{
+					"id": 11,
+					"name": "isEnabled",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {},
+					"signatures": [
+						{
+							"id": 12,
+							"name": "isEnabled",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Do we still want to enforce the focus?\nThis prop helps nesting TrapFocus elements."
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						5,
+						6,
+						7,
+						8,
+						13
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						9,
+						11
+					]
+				}
+			]
+		},
+		{
+			"id": 1,
+			"name": "TrapFocus",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"comment": {
+				"shortText": "Backyard React Trap Focus",
+				"text": "Traps focus so that user cannot focus on anything outside of children\nCreates sentinels around content with tab index 0 to reset tabs\n\nHeavily Based on Material-UI's TrapFocus:",
+				"tags": [
+					{
+						"tag": "see",
+						"text": "https://github.com/mui-org/material-ui/blob/master/packages/material-ui/src/Modal/TrapFocus.js\n"
+					}
+				]
+			},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"id": 4,
+						"name": "TrapFocusProps"
+					}
+				],
+				"name": "BDSFunctional"
+			},
+			"defaultValue": "..."
+		}
+	],
+	"groups": [
+		{
+			"title": "References",
+			"kind": 16777216,
+			"children": [
+				14
+			]
+		},
+		{
+			"title": "Namespaces",
+			"kind": 4,
+			"children": [
+				2
+			]
+		},
+		{
+			"title": "Interfaces",
+			"kind": 256,
+			"children": [
+				4
+			]
+		},
+		{
+			"title": "Variables",
+			"kind": 32,
+			"children": [
+				1
+			]
+		}
+	]
+}

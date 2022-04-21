@@ -1,0 +1,3257 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table Snapshots Table default snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0;
+  box-sizing: border-box;
+}
+
+.c0 thead,
+.c0 tbody,
+.c0 tfoot,
+.c0 tr,
+.c0 th,
+.c0 td {
+  box-sizing: border-box;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.variant--outlined th {
+  background-color: var(--bds-color-surface-default);
+}
+
+.c0.right-rule-on tr th:not(:last-child),
+.c0.right-rule-on tr td:not(:last-child) {
+  border-right: 1px solid var(--bds-color-border-subdued);
+}
+
+.c0 h5 {
+  margin: 0;
+}
+
+.c0.shape--rounded > .table-head > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c0.shape--rounded > .table-head > .table-row:first-child > .table-cell:first-child {
+  border-top-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-head > .table-row:first-child > .table-cell:last-child {
+  border-top-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c0.shape--rounded > .table-body:first-child > .table-row:first-child > .table-cell:first-child {
+  border-top-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body:first-child > .table-row:first-child > .table-cell:last-child {
+  border-top-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row:last-child > .table-cell:first-child {
+  border-bottom-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row:last-child > .table-cell:last-child {
+  border-bottom-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--squared > .table-head > .table-row > .table-cell,
+.c0.shape--squared > .table-body > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c4 {
+  color: hsl(0,0%,0%,.87);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: hsl(0,0%,0%,.87);
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  font-size: var(--bds-font-tag-h5-mobile-font-size);
+  line-height: var(--bds-font-tag-h5-mobile-line-height);
+}
+
+.c4.align--left {
+  text-align: left;
+}
+
+.c4.align--center {
+  text-align: center;
+}
+
+.c4.align--right {
+  text-align: right;
+}
+
+.c4.display--block {
+  display: block;
+}
+
+.c4.display--inline {
+  display: inline;
+}
+
+.c4 b,
+.c4 bold,
+.c4 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c4.bold {
+  font-weight: 500;
+}
+
+.c6 {
+  color: hsl(0,0%,0%,.60);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  color: hsl(0,0%,0%,.60);
+}
+
+.c6.align--left {
+  text-align: left;
+}
+
+.c6.align--center {
+  text-align: center;
+}
+
+.c6.align--right {
+  text-align: right;
+}
+
+.c6.display--block {
+  display: block;
+}
+
+.c6.display--inline {
+  display: inline;
+}
+
+.c6 b,
+.c6 bold,
+.c6 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c6.bold {
+  font-weight: 500;
+}
+
+.c6.c6.c6.body_1 {
+  font-size: var(--bds-font-tag-body-1-mobile-font-size);
+  line-height: var(--bds-font-tag-body-1-mobile-line-height);
+}
+
+.c6.c6.c6.body_2 {
+  font-size: var(--bds-font-tag-body-2-mobile-font-size);
+  line-height: var(--bds-font-tag-body-2-mobile-line-height);
+}
+
+.c5 {
+  padding: var(--bds-sizes-size-14) var(--bds-sizes-size-36) var(--bds-sizes-size-14) var(--bds-sizes-size-16);
+  width: auto;
+  font-size: var(--bds-sizes-size-16);
+}
+
+.c5 svg {
+  vertical-align: middle;
+}
+
+.c5 .td-container,
+.c5 .th-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c5 .td-container .more-info,
+.c5 .th-container .more-info {
+  margin-left: var(--bds-sizes-size-4);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.c5 h6 {
+  margin: 0;
+}
+
+.c5 .td-container > .cell-content {
+  display: block;
+  display: -webkit-box;
+  max-height: var(--bds-sizes-size-48);
+  margin: 0;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c1 {
+  border-bottom: 1px solid var(--bds-color-border-subdued);
+}
+
+.c1 h5 {
+  margin: 0;
+}
+
+.c3 {
+  padding: var(--bds-sizes-size-14) var(--bds-sizes-size-36) var(--bds-sizes-size-14) var(--bds-sizes-size-16);
+  width: auto;
+  font-size: var(--bds-sizes-size-16);
+  background-color: var(--bds-color-surface-subdued);
+}
+
+.c3 svg {
+  vertical-align: middle;
+}
+
+.c3 .td-container,
+.c3 .th-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 .td-container .more-info,
+.c3 .th-container .more-info {
+  margin-left: var(--bds-sizes-size-4);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.c3 h6 {
+  margin: 0;
+}
+
+.c3 .td-container > .cell-content {
+  display: block;
+  display: -webkit-box;
+  max-height: var(--bds-sizes-size-48);
+  margin: 0;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c3 .cell-content .header-content {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c3 .cell-content.overflow {
+  overflow: hidden;
+}
+
+.c2 {
+  border-bottom: var(--bds-sizes-size-1) solid var(--bds-color-border-subdued);
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c4 {
+    font-size: var(--bds-font-tag-h5-desktop-font-size);
+    line-height: var(--bds-font-tag-h5-desktop-line-height);
+  }
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c6.c6.c6.body_1 {
+    font-size: var(--bds-font-tag-body-1-desktop-font-size);
+    line-height: var(--bds-font-tag-body-1-desktop-line-height);
+  }
+
+  .c6.c6.c6.body_2 {
+    font-size: var(--bds-font-tag-body-2-desktop-font-size);
+    line-height: var(--bds-font-tag-body-2-desktop-line-height);
+  }
+}
+
+@media screen and (-ms-high-contrast:active),(-ms-high-contrast:none) {
+  .c5 .td-container > .cell-content * {
+    max-height: var(--bds-sizes-size-40);
+  }
+}
+
+@media screen and (-ms-high-contrast:active),(-ms-high-contrast:none) {
+  .c3 .td-container > .cell-content * {
+    max-height: var(--bds-sizes-size-40);
+  }
+}
+
+<table
+    class="c0 table shape--rounded variant--filled right-rule-on"
+  >
+    <thead
+      class="c1 table-head"
+    >
+      <tr
+        class="c2 table-row"
+      >
+        <th
+          class="c3 table-header-cell header-cell table-cell shape--rounded"
+        >
+          <div
+            class="th-container"
+          >
+            <div
+              class="cell-content"
+            >
+              <h5
+                class="c4 typography variant--h5 align--left header-content"
+                color="text_primary"
+              >
+                header1
+              </h5>
+            </div>
+          </div>
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="table-body"
+    >
+      <tr
+        class="c2 table-row"
+      >
+        <td
+          class="c5 table-body-cell table-cell data-cell shape--rounded"
+        >
+          <div
+            class="td-container"
+          >
+            <div
+              class="cell-content"
+            >
+              <div
+                class="c6 typography variant--body_1 align--left body_1"
+                color="text_tertiary"
+              >
+                cell11
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr
+        class="c2 table-row"
+      >
+        <td
+          class="c5 table-body-cell table-cell data-cell shape--rounded"
+        >
+          <div
+            class="td-container"
+          >
+            <div
+              class="cell-content"
+            >
+              <div
+                class="c6 typography variant--body_1 align--left body_1"
+                color="text_tertiary"
+              >
+                cell21
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</DocumentFragment>
+`;
+
+exports[`Table Snapshots extra props Table DOM props (id, className) snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0;
+  box-sizing: border-box;
+}
+
+.c0 thead,
+.c0 tbody,
+.c0 tfoot,
+.c0 tr,
+.c0 th,
+.c0 td {
+  box-sizing: border-box;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.variant--outlined th {
+  background-color: var(--bds-color-surface-default);
+}
+
+.c0.right-rule-on tr th:not(:last-child),
+.c0.right-rule-on tr td:not(:last-child) {
+  border-right: 1px solid var(--bds-color-border-subdued);
+}
+
+.c0 h5 {
+  margin: 0;
+}
+
+.c0.shape--rounded > .table-head > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c0.shape--rounded > .table-head > .table-row:first-child > .table-cell:first-child {
+  border-top-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-head > .table-row:first-child > .table-cell:last-child {
+  border-top-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c0.shape--rounded > .table-body:first-child > .table-row:first-child > .table-cell:first-child {
+  border-top-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body:first-child > .table-row:first-child > .table-cell:last-child {
+  border-top-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row:last-child > .table-cell:first-child {
+  border-bottom-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row:last-child > .table-cell:last-child {
+  border-bottom-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--squared > .table-head > .table-row > .table-cell,
+.c0.shape--squared > .table-body > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c4 {
+  color: hsl(0,0%,0%,.87);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: hsl(0,0%,0%,.87);
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  font-size: var(--bds-font-tag-h5-mobile-font-size);
+  line-height: var(--bds-font-tag-h5-mobile-line-height);
+}
+
+.c4.align--left {
+  text-align: left;
+}
+
+.c4.align--center {
+  text-align: center;
+}
+
+.c4.align--right {
+  text-align: right;
+}
+
+.c4.display--block {
+  display: block;
+}
+
+.c4.display--inline {
+  display: inline;
+}
+
+.c4 b,
+.c4 bold,
+.c4 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c4.bold {
+  font-weight: 500;
+}
+
+.c6 {
+  color: hsl(0,0%,0%,.60);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  color: hsl(0,0%,0%,.60);
+}
+
+.c6.align--left {
+  text-align: left;
+}
+
+.c6.align--center {
+  text-align: center;
+}
+
+.c6.align--right {
+  text-align: right;
+}
+
+.c6.display--block {
+  display: block;
+}
+
+.c6.display--inline {
+  display: inline;
+}
+
+.c6 b,
+.c6 bold,
+.c6 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c6.bold {
+  font-weight: 500;
+}
+
+.c6.c6.c6.body_1 {
+  font-size: var(--bds-font-tag-body-1-mobile-font-size);
+  line-height: var(--bds-font-tag-body-1-mobile-line-height);
+}
+
+.c6.c6.c6.body_2 {
+  font-size: var(--bds-font-tag-body-2-mobile-font-size);
+  line-height: var(--bds-font-tag-body-2-mobile-line-height);
+}
+
+.c5 {
+  padding: var(--bds-sizes-size-14) var(--bds-sizes-size-36) var(--bds-sizes-size-14) var(--bds-sizes-size-16);
+  width: auto;
+  font-size: var(--bds-sizes-size-16);
+}
+
+.c5 svg {
+  vertical-align: middle;
+}
+
+.c5 .td-container,
+.c5 .th-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c5 .td-container .more-info,
+.c5 .th-container .more-info {
+  margin-left: var(--bds-sizes-size-4);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.c5 h6 {
+  margin: 0;
+}
+
+.c5 .td-container > .cell-content {
+  display: block;
+  display: -webkit-box;
+  max-height: var(--bds-sizes-size-48);
+  margin: 0;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c1 {
+  border-bottom: 1px solid var(--bds-color-border-subdued);
+}
+
+.c1 h5 {
+  margin: 0;
+}
+
+.c3 {
+  padding: var(--bds-sizes-size-14) var(--bds-sizes-size-36) var(--bds-sizes-size-14) var(--bds-sizes-size-16);
+  width: auto;
+  font-size: var(--bds-sizes-size-16);
+  background-color: var(--bds-color-surface-subdued);
+}
+
+.c3 svg {
+  vertical-align: middle;
+}
+
+.c3 .td-container,
+.c3 .th-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 .td-container .more-info,
+.c3 .th-container .more-info {
+  margin-left: var(--bds-sizes-size-4);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.c3 h6 {
+  margin: 0;
+}
+
+.c3 .td-container > .cell-content {
+  display: block;
+  display: -webkit-box;
+  max-height: var(--bds-sizes-size-48);
+  margin: 0;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c3 .cell-content .header-content {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c3 .cell-content.overflow {
+  overflow: hidden;
+}
+
+.c2 {
+  border-bottom: var(--bds-sizes-size-1) solid var(--bds-color-border-subdued);
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c4 {
+    font-size: var(--bds-font-tag-h5-desktop-font-size);
+    line-height: var(--bds-font-tag-h5-desktop-line-height);
+  }
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c6.c6.c6.body_1 {
+    font-size: var(--bds-font-tag-body-1-desktop-font-size);
+    line-height: var(--bds-font-tag-body-1-desktop-line-height);
+  }
+
+  .c6.c6.c6.body_2 {
+    font-size: var(--bds-font-tag-body-2-desktop-font-size);
+    line-height: var(--bds-font-tag-body-2-desktop-line-height);
+  }
+}
+
+@media screen and (-ms-high-contrast:active),(-ms-high-contrast:none) {
+  .c5 .td-container > .cell-content * {
+    max-height: var(--bds-sizes-size-40);
+  }
+}
+
+@media screen and (-ms-high-contrast:active),(-ms-high-contrast:none) {
+  .c3 .td-container > .cell-content * {
+    max-height: var(--bds-sizes-size-40);
+  }
+}
+
+<table
+    class="c0 table shape--rounded variant--filled right-rule-on"
+  >
+    <thead
+      class="c1 table-head"
+    >
+      <tr
+        class="c2 table-row"
+      >
+        <th
+          class="c3 table-header-cell header-cell table-cell shape--rounded"
+        >
+          <div
+            class="th-container"
+          >
+            <div
+              class="cell-content"
+            >
+              <h5
+                class="c4 typography variant--h5 align--left header-content"
+                color="text_primary"
+              >
+                header1
+              </h5>
+            </div>
+          </div>
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="table-body"
+    >
+      <tr
+        class="c2 table-row"
+      >
+        <td
+          class="c5 table-body-cell table-cell data-cell shape--rounded"
+        >
+          <div
+            class="td-container"
+          >
+            <div
+              class="cell-content"
+            >
+              <div
+                class="c6 typography variant--body_1 align--left body_1"
+                color="text_tertiary"
+              >
+                cell11
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr
+        class="c2 table-row"
+      >
+        <td
+          class="c5 table-body-cell table-cell data-cell shape--rounded"
+        >
+          <div
+            class="td-container"
+          >
+            <div
+              class="cell-content"
+            >
+              <div
+                class="c6 typography variant--body_1 align--left body_1"
+                color="text_tertiary"
+              >
+                cell21
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</DocumentFragment>
+`;
+
+exports[`Table Snapshots themes Table dark theme snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0;
+  box-sizing: border-box;
+}
+
+.c0 thead,
+.c0 tbody,
+.c0 tfoot,
+.c0 tr,
+.c0 th,
+.c0 td {
+  box-sizing: border-box;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.variant--outlined th {
+  background-color: var(--bds-color-surface-default);
+}
+
+.c0.right-rule-on tr th:not(:last-child),
+.c0.right-rule-on tr td:not(:last-child) {
+  border-right: 1px solid var(--bds-color-border-subdued);
+}
+
+.c0 h5 {
+  margin: 0;
+}
+
+.c0.shape--rounded > .table-head > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c0.shape--rounded > .table-head > .table-row:first-child > .table-cell:first-child {
+  border-top-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-head > .table-row:first-child > .table-cell:last-child {
+  border-top-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c0.shape--rounded > .table-body:first-child > .table-row:first-child > .table-cell:first-child {
+  border-top-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body:first-child > .table-row:first-child > .table-cell:last-child {
+  border-top-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row:last-child > .table-cell:first-child {
+  border-bottom-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row:last-child > .table-cell:last-child {
+  border-bottom-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--squared > .table-head > .table-row > .table-cell,
+.c0.shape--squared > .table-body > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c4 {
+  color: hsl(0,0%,100%,.87);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: hsl(0,0%,100%,.87);
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  font-size: var(--bds-font-tag-h5-mobile-font-size);
+  line-height: var(--bds-font-tag-h5-mobile-line-height);
+}
+
+.c4.align--left {
+  text-align: left;
+}
+
+.c4.align--center {
+  text-align: center;
+}
+
+.c4.align--right {
+  text-align: right;
+}
+
+.c4.display--block {
+  display: block;
+}
+
+.c4.display--inline {
+  display: inline;
+}
+
+.c4 b,
+.c4 bold,
+.c4 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c4.bold {
+  font-weight: 500;
+}
+
+.c6 {
+  color: hsl(0,0%,100%,.60);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  color: hsl(0,0%,100%,.60);
+}
+
+.c6.align--left {
+  text-align: left;
+}
+
+.c6.align--center {
+  text-align: center;
+}
+
+.c6.align--right {
+  text-align: right;
+}
+
+.c6.display--block {
+  display: block;
+}
+
+.c6.display--inline {
+  display: inline;
+}
+
+.c6 b,
+.c6 bold,
+.c6 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c6.bold {
+  font-weight: 500;
+}
+
+.c6.c6.c6.body_1 {
+  font-size: var(--bds-font-tag-body-1-mobile-font-size);
+  line-height: var(--bds-font-tag-body-1-mobile-line-height);
+}
+
+.c6.c6.c6.body_2 {
+  font-size: var(--bds-font-tag-body-2-mobile-font-size);
+  line-height: var(--bds-font-tag-body-2-mobile-line-height);
+}
+
+.c5 {
+  padding: var(--bds-sizes-size-14) var(--bds-sizes-size-36) var(--bds-sizes-size-14) var(--bds-sizes-size-16);
+  width: auto;
+  font-size: var(--bds-sizes-size-16);
+}
+
+.c5 svg {
+  vertical-align: middle;
+}
+
+.c5 .td-container,
+.c5 .th-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c5 .td-container .more-info,
+.c5 .th-container .more-info {
+  margin-left: var(--bds-sizes-size-4);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.c5 h6 {
+  margin: 0;
+}
+
+.c5 .td-container > .cell-content {
+  display: block;
+  display: -webkit-box;
+  max-height: var(--bds-sizes-size-48);
+  margin: 0;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c1 {
+  border-bottom: 1px solid var(--bds-color-border-subdued);
+}
+
+.c1 h5 {
+  margin: 0;
+}
+
+.c3 {
+  padding: var(--bds-sizes-size-14) var(--bds-sizes-size-36) var(--bds-sizes-size-14) var(--bds-sizes-size-16);
+  width: auto;
+  font-size: var(--bds-sizes-size-16);
+  background-color: var(--bds-color-surface-subdued);
+}
+
+.c3 svg {
+  vertical-align: middle;
+}
+
+.c3 .td-container,
+.c3 .th-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 .td-container .more-info,
+.c3 .th-container .more-info {
+  margin-left: var(--bds-sizes-size-4);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.c3 h6 {
+  margin: 0;
+}
+
+.c3 .td-container > .cell-content {
+  display: block;
+  display: -webkit-box;
+  max-height: var(--bds-sizes-size-48);
+  margin: 0;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c3 .cell-content .header-content {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c3 .cell-content.overflow {
+  overflow: hidden;
+}
+
+.c2 {
+  border-bottom: var(--bds-sizes-size-1) solid var(--bds-color-border-subdued);
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c4 {
+    font-size: var(--bds-font-tag-h5-desktop-font-size);
+    line-height: var(--bds-font-tag-h5-desktop-line-height);
+  }
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c6.c6.c6.body_1 {
+    font-size: var(--bds-font-tag-body-1-desktop-font-size);
+    line-height: var(--bds-font-tag-body-1-desktop-line-height);
+  }
+
+  .c6.c6.c6.body_2 {
+    font-size: var(--bds-font-tag-body-2-desktop-font-size);
+    line-height: var(--bds-font-tag-body-2-desktop-line-height);
+  }
+}
+
+@media screen and (-ms-high-contrast:active),(-ms-high-contrast:none) {
+  .c5 .td-container > .cell-content * {
+    max-height: var(--bds-sizes-size-40);
+  }
+}
+
+@media screen and (-ms-high-contrast:active),(-ms-high-contrast:none) {
+  .c3 .td-container > .cell-content * {
+    max-height: var(--bds-sizes-size-40);
+  }
+}
+
+<table
+    class="c0 table shape--rounded variant--filled right-rule-on"
+  >
+    <thead
+      class="c1 table-head"
+    >
+      <tr
+        class="c2 table-row"
+      >
+        <th
+          class="c3 table-header-cell header-cell table-cell shape--rounded"
+        >
+          <div
+            class="th-container"
+          >
+            <div
+              class="cell-content"
+            >
+              <h5
+                class="c4 typography variant--h5 align--left header-content"
+                color="text_primary"
+              >
+                header1
+              </h5>
+            </div>
+          </div>
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="table-body"
+    >
+      <tr
+        class="c2 table-row"
+      >
+        <td
+          class="c5 table-body-cell table-cell data-cell shape--rounded"
+        >
+          <div
+            class="td-container"
+          >
+            <div
+              class="cell-content"
+            >
+              <div
+                class="c6 typography variant--body_1 align--left body_1"
+                color="text_tertiary"
+              >
+                cell11
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr
+        class="c2 table-row"
+      >
+        <td
+          class="c5 table-body-cell table-cell data-cell shape--rounded"
+        >
+          <div
+            class="td-container"
+          >
+            <div
+              class="cell-content"
+            >
+              <div
+                class="c6 typography variant--body_1 align--left body_1"
+                color="text_tertiary"
+              >
+                cell21
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</DocumentFragment>
+`;
+
+exports[`Table Snapshots themes Table light theme snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0;
+  box-sizing: border-box;
+}
+
+.c0 thead,
+.c0 tbody,
+.c0 tfoot,
+.c0 tr,
+.c0 th,
+.c0 td {
+  box-sizing: border-box;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.variant--outlined th {
+  background-color: var(--bds-color-surface-default);
+}
+
+.c0.right-rule-on tr th:not(:last-child),
+.c0.right-rule-on tr td:not(:last-child) {
+  border-right: 1px solid var(--bds-color-border-subdued);
+}
+
+.c0 h5 {
+  margin: 0;
+}
+
+.c0.shape--rounded > .table-head > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c0.shape--rounded > .table-head > .table-row:first-child > .table-cell:first-child {
+  border-top-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-head > .table-row:first-child > .table-cell:last-child {
+  border-top-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c0.shape--rounded > .table-body:first-child > .table-row:first-child > .table-cell:first-child {
+  border-top-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body:first-child > .table-row:first-child > .table-cell:last-child {
+  border-top-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row:last-child > .table-cell:first-child {
+  border-bottom-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row:last-child > .table-cell:last-child {
+  border-bottom-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--squared > .table-head > .table-row > .table-cell,
+.c0.shape--squared > .table-body > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c4 {
+  color: hsl(0,0%,0%,.87);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: hsl(0,0%,0%,.87);
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  font-size: var(--bds-font-tag-h5-mobile-font-size);
+  line-height: var(--bds-font-tag-h5-mobile-line-height);
+}
+
+.c4.align--left {
+  text-align: left;
+}
+
+.c4.align--center {
+  text-align: center;
+}
+
+.c4.align--right {
+  text-align: right;
+}
+
+.c4.display--block {
+  display: block;
+}
+
+.c4.display--inline {
+  display: inline;
+}
+
+.c4 b,
+.c4 bold,
+.c4 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c4.bold {
+  font-weight: 500;
+}
+
+.c6 {
+  color: hsl(0,0%,0%,.60);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  color: hsl(0,0%,0%,.60);
+}
+
+.c6.align--left {
+  text-align: left;
+}
+
+.c6.align--center {
+  text-align: center;
+}
+
+.c6.align--right {
+  text-align: right;
+}
+
+.c6.display--block {
+  display: block;
+}
+
+.c6.display--inline {
+  display: inline;
+}
+
+.c6 b,
+.c6 bold,
+.c6 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c6.bold {
+  font-weight: 500;
+}
+
+.c6.c6.c6.body_1 {
+  font-size: var(--bds-font-tag-body-1-mobile-font-size);
+  line-height: var(--bds-font-tag-body-1-mobile-line-height);
+}
+
+.c6.c6.c6.body_2 {
+  font-size: var(--bds-font-tag-body-2-mobile-font-size);
+  line-height: var(--bds-font-tag-body-2-mobile-line-height);
+}
+
+.c5 {
+  padding: var(--bds-sizes-size-14) var(--bds-sizes-size-36) var(--bds-sizes-size-14) var(--bds-sizes-size-16);
+  width: auto;
+  font-size: var(--bds-sizes-size-16);
+}
+
+.c5 svg {
+  vertical-align: middle;
+}
+
+.c5 .td-container,
+.c5 .th-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c5 .td-container .more-info,
+.c5 .th-container .more-info {
+  margin-left: var(--bds-sizes-size-4);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.c5 h6 {
+  margin: 0;
+}
+
+.c5 .td-container > .cell-content {
+  display: block;
+  display: -webkit-box;
+  max-height: var(--bds-sizes-size-48);
+  margin: 0;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c1 {
+  border-bottom: 1px solid var(--bds-color-border-subdued);
+}
+
+.c1 h5 {
+  margin: 0;
+}
+
+.c3 {
+  padding: var(--bds-sizes-size-14) var(--bds-sizes-size-36) var(--bds-sizes-size-14) var(--bds-sizes-size-16);
+  width: auto;
+  font-size: var(--bds-sizes-size-16);
+  background-color: var(--bds-color-surface-subdued);
+}
+
+.c3 svg {
+  vertical-align: middle;
+}
+
+.c3 .td-container,
+.c3 .th-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 .td-container .more-info,
+.c3 .th-container .more-info {
+  margin-left: var(--bds-sizes-size-4);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.c3 h6 {
+  margin: 0;
+}
+
+.c3 .td-container > .cell-content {
+  display: block;
+  display: -webkit-box;
+  max-height: var(--bds-sizes-size-48);
+  margin: 0;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c3 .cell-content .header-content {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c3 .cell-content.overflow {
+  overflow: hidden;
+}
+
+.c2 {
+  border-bottom: var(--bds-sizes-size-1) solid var(--bds-color-border-subdued);
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c4 {
+    font-size: var(--bds-font-tag-h5-desktop-font-size);
+    line-height: var(--bds-font-tag-h5-desktop-line-height);
+  }
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c6.c6.c6.body_1 {
+    font-size: var(--bds-font-tag-body-1-desktop-font-size);
+    line-height: var(--bds-font-tag-body-1-desktop-line-height);
+  }
+
+  .c6.c6.c6.body_2 {
+    font-size: var(--bds-font-tag-body-2-desktop-font-size);
+    line-height: var(--bds-font-tag-body-2-desktop-line-height);
+  }
+}
+
+@media screen and (-ms-high-contrast:active),(-ms-high-contrast:none) {
+  .c5 .td-container > .cell-content * {
+    max-height: var(--bds-sizes-size-40);
+  }
+}
+
+@media screen and (-ms-high-contrast:active),(-ms-high-contrast:none) {
+  .c3 .td-container > .cell-content * {
+    max-height: var(--bds-sizes-size-40);
+  }
+}
+
+<table
+    class="c0 table shape--rounded variant--filled right-rule-on"
+  >
+    <thead
+      class="c1 table-head"
+    >
+      <tr
+        class="c2 table-row"
+      >
+        <th
+          class="c3 table-header-cell header-cell table-cell shape--rounded"
+        >
+          <div
+            class="th-container"
+          >
+            <div
+              class="cell-content"
+            >
+              <h5
+                class="c4 typography variant--h5 align--left header-content"
+                color="text_primary"
+              >
+                header1
+              </h5>
+            </div>
+          </div>
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="table-body"
+    >
+      <tr
+        class="c2 table-row"
+      >
+        <td
+          class="c5 table-body-cell table-cell data-cell shape--rounded"
+        >
+          <div
+            class="td-container"
+          >
+            <div
+              class="cell-content"
+            >
+              <div
+                class="c6 typography variant--body_1 align--left body_1"
+                color="text_tertiary"
+              >
+                cell11
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr
+        class="c2 table-row"
+      >
+        <td
+          class="c5 table-body-cell table-cell data-cell shape--rounded"
+        >
+          <div
+            class="td-container"
+          >
+            <div
+              class="cell-content"
+            >
+              <div
+                class="c6 typography variant--body_1 align--left body_1"
+                color="text_tertiary"
+              >
+                cell21
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</DocumentFragment>
+`;
+
+exports[`Table Snapshots variants Table DOM props (id, className) snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0;
+  box-sizing: border-box;
+}
+
+.c0 thead,
+.c0 tbody,
+.c0 tfoot,
+.c0 tr,
+.c0 th,
+.c0 td {
+  box-sizing: border-box;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.variant--outlined th {
+  background-color: var(--bds-color-surface-default);
+}
+
+.c0.right-rule-on tr th:not(:last-child),
+.c0.right-rule-on tr td:not(:last-child) {
+  border-right: 1px solid var(--bds-color-border-subdued);
+}
+
+.c0 h5 {
+  margin: 0;
+}
+
+.c0.shape--rounded > .table-head > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c0.shape--rounded > .table-head > .table-row:first-child > .table-cell:first-child {
+  border-top-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-head > .table-row:first-child > .table-cell:last-child {
+  border-top-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c0.shape--rounded > .table-body:first-child > .table-row:first-child > .table-cell:first-child {
+  border-top-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body:first-child > .table-row:first-child > .table-cell:last-child {
+  border-top-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row:last-child > .table-cell:first-child {
+  border-bottom-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row:last-child > .table-cell:last-child {
+  border-bottom-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--squared > .table-head > .table-row > .table-cell,
+.c0.shape--squared > .table-body > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c4 {
+  color: hsl(0,0%,0%,.87);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: hsl(0,0%,0%,.87);
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  font-size: var(--bds-font-tag-h5-mobile-font-size);
+  line-height: var(--bds-font-tag-h5-mobile-line-height);
+}
+
+.c4.align--left {
+  text-align: left;
+}
+
+.c4.align--center {
+  text-align: center;
+}
+
+.c4.align--right {
+  text-align: right;
+}
+
+.c4.display--block {
+  display: block;
+}
+
+.c4.display--inline {
+  display: inline;
+}
+
+.c4 b,
+.c4 bold,
+.c4 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c4.bold {
+  font-weight: 500;
+}
+
+.c6 {
+  color: hsl(0,0%,0%,.60);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  color: hsl(0,0%,0%,.60);
+}
+
+.c6.align--left {
+  text-align: left;
+}
+
+.c6.align--center {
+  text-align: center;
+}
+
+.c6.align--right {
+  text-align: right;
+}
+
+.c6.display--block {
+  display: block;
+}
+
+.c6.display--inline {
+  display: inline;
+}
+
+.c6 b,
+.c6 bold,
+.c6 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c6.bold {
+  font-weight: 500;
+}
+
+.c6.c6.c6.body_1 {
+  font-size: var(--bds-font-tag-body-1-mobile-font-size);
+  line-height: var(--bds-font-tag-body-1-mobile-line-height);
+}
+
+.c6.c6.c6.body_2 {
+  font-size: var(--bds-font-tag-body-2-mobile-font-size);
+  line-height: var(--bds-font-tag-body-2-mobile-line-height);
+}
+
+.c5 {
+  padding: var(--bds-sizes-size-14) var(--bds-sizes-size-36) var(--bds-sizes-size-14) var(--bds-sizes-size-16);
+  width: auto;
+  font-size: var(--bds-sizes-size-16);
+}
+
+.c5 svg {
+  vertical-align: middle;
+}
+
+.c5 .td-container,
+.c5 .th-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c5 .td-container .more-info,
+.c5 .th-container .more-info {
+  margin-left: var(--bds-sizes-size-4);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.c5 h6 {
+  margin: 0;
+}
+
+.c5 .td-container > .cell-content {
+  display: block;
+  display: -webkit-box;
+  max-height: var(--bds-sizes-size-48);
+  margin: 0;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c1 {
+  border-bottom: 1px solid var(--bds-color-border-subdued);
+}
+
+.c1 h5 {
+  margin: 0;
+}
+
+.c3 {
+  padding: var(--bds-sizes-size-14) var(--bds-sizes-size-36) var(--bds-sizes-size-14) var(--bds-sizes-size-16);
+  width: auto;
+  font-size: var(--bds-sizes-size-16);
+  background-color: var(--bds-color-surface-subdued);
+}
+
+.c3 svg {
+  vertical-align: middle;
+}
+
+.c3 .td-container,
+.c3 .th-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 .td-container .more-info,
+.c3 .th-container .more-info {
+  margin-left: var(--bds-sizes-size-4);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.c3 h6 {
+  margin: 0;
+}
+
+.c3 .td-container > .cell-content {
+  display: block;
+  display: -webkit-box;
+  max-height: var(--bds-sizes-size-48);
+  margin: 0;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c3 .cell-content .header-content {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c3 .cell-content.overflow {
+  overflow: hidden;
+}
+
+.c2 {
+  border-bottom: var(--bds-sizes-size-1) solid var(--bds-color-border-subdued);
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c4 {
+    font-size: var(--bds-font-tag-h5-desktop-font-size);
+    line-height: var(--bds-font-tag-h5-desktop-line-height);
+  }
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c6.c6.c6.body_1 {
+    font-size: var(--bds-font-tag-body-1-desktop-font-size);
+    line-height: var(--bds-font-tag-body-1-desktop-line-height);
+  }
+
+  .c6.c6.c6.body_2 {
+    font-size: var(--bds-font-tag-body-2-desktop-font-size);
+    line-height: var(--bds-font-tag-body-2-desktop-line-height);
+  }
+}
+
+@media screen and (-ms-high-contrast:active),(-ms-high-contrast:none) {
+  .c5 .td-container > .cell-content * {
+    max-height: var(--bds-sizes-size-40);
+  }
+}
+
+@media screen and (-ms-high-contrast:active),(-ms-high-contrast:none) {
+  .c3 .td-container > .cell-content * {
+    max-height: var(--bds-sizes-size-40);
+  }
+}
+
+<table
+    class="c0 table shape--rounded variant--outlined right-rule-on"
+  >
+    <thead
+      class="c1 table-head"
+    >
+      <tr
+        class="c2 table-row"
+      >
+        <th
+          class="c3 table-header-cell header-cell table-cell shape--rounded"
+        >
+          <div
+            class="th-container"
+          >
+            <div
+              class="cell-content"
+            >
+              <h5
+                class="c4 typography variant--h5 align--left header-content"
+                color="text_primary"
+              >
+                header1
+              </h5>
+            </div>
+          </div>
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="table-body"
+    >
+      <tr
+        class="c2 table-row"
+      >
+        <td
+          class="c5 table-body-cell table-cell data-cell shape--rounded"
+        >
+          <div
+            class="td-container"
+          >
+            <div
+              class="cell-content"
+            >
+              <div
+                class="c6 typography variant--body_1 align--left body_1"
+                color="text_tertiary"
+              >
+                cell11
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr
+        class="c2 table-row"
+      >
+        <td
+          class="c5 table-body-cell table-cell data-cell shape--rounded"
+        >
+          <div
+            class="td-container"
+          >
+            <div
+              class="cell-content"
+            >
+              <div
+                class="c6 typography variant--body_1 align--left body_1"
+                color="text_tertiary"
+              >
+                cell21
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</DocumentFragment>
+`;
+
+exports[`Table Snapshots variants Table DOM props (id, className) snapshot 2`] = `
+<DocumentFragment>
+  .c0 {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0;
+  box-sizing: border-box;
+}
+
+.c0 thead,
+.c0 tbody,
+.c0 tfoot,
+.c0 tr,
+.c0 th,
+.c0 td {
+  box-sizing: border-box;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.variant--outlined th {
+  background-color: var(--bds-color-surface-default);
+}
+
+.c0.right-rule-on tr th:not(:last-child),
+.c0.right-rule-on tr td:not(:last-child) {
+  border-right: 1px solid var(--bds-color-border-subdued);
+}
+
+.c0 h5 {
+  margin: 0;
+}
+
+.c0.shape--rounded > .table-head > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c0.shape--rounded > .table-head > .table-row:first-child > .table-cell:first-child {
+  border-top-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-head > .table-row:first-child > .table-cell:last-child {
+  border-top-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c0.shape--rounded > .table-body:first-child > .table-row:first-child > .table-cell:first-child {
+  border-top-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body:first-child > .table-row:first-child > .table-cell:last-child {
+  border-top-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row:last-child > .table-cell:first-child {
+  border-bottom-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row:last-child > .table-cell:last-child {
+  border-bottom-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--squared > .table-head > .table-row > .table-cell,
+.c0.shape--squared > .table-body > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c4 {
+  color: hsl(0,0%,0%,.87);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: hsl(0,0%,0%,.87);
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  font-size: var(--bds-font-tag-h5-mobile-font-size);
+  line-height: var(--bds-font-tag-h5-mobile-line-height);
+}
+
+.c4.align--left {
+  text-align: left;
+}
+
+.c4.align--center {
+  text-align: center;
+}
+
+.c4.align--right {
+  text-align: right;
+}
+
+.c4.display--block {
+  display: block;
+}
+
+.c4.display--inline {
+  display: inline;
+}
+
+.c4 b,
+.c4 bold,
+.c4 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c4.bold {
+  font-weight: 500;
+}
+
+.c6 {
+  color: hsl(0,0%,0%,.60);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  color: hsl(0,0%,0%,.60);
+}
+
+.c6.align--left {
+  text-align: left;
+}
+
+.c6.align--center {
+  text-align: center;
+}
+
+.c6.align--right {
+  text-align: right;
+}
+
+.c6.display--block {
+  display: block;
+}
+
+.c6.display--inline {
+  display: inline;
+}
+
+.c6 b,
+.c6 bold,
+.c6 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c6.bold {
+  font-weight: 500;
+}
+
+.c6.c6.c6.body_1 {
+  font-size: var(--bds-font-tag-body-1-mobile-font-size);
+  line-height: var(--bds-font-tag-body-1-mobile-line-height);
+}
+
+.c6.c6.c6.body_2 {
+  font-size: var(--bds-font-tag-body-2-mobile-font-size);
+  line-height: var(--bds-font-tag-body-2-mobile-line-height);
+}
+
+.c5 {
+  padding: var(--bds-sizes-size-14) var(--bds-sizes-size-36) var(--bds-sizes-size-14) var(--bds-sizes-size-16);
+  width: auto;
+  font-size: var(--bds-sizes-size-16);
+}
+
+.c5 svg {
+  vertical-align: middle;
+}
+
+.c5 .td-container,
+.c5 .th-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c5 .td-container .more-info,
+.c5 .th-container .more-info {
+  margin-left: var(--bds-sizes-size-4);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.c5 h6 {
+  margin: 0;
+}
+
+.c5 .td-container > .cell-content {
+  display: block;
+  display: -webkit-box;
+  max-height: var(--bds-sizes-size-48);
+  margin: 0;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c1 {
+  border-bottom: 1px solid var(--bds-color-border-subdued);
+}
+
+.c1 h5 {
+  margin: 0;
+}
+
+.c3 {
+  padding: var(--bds-sizes-size-14) var(--bds-sizes-size-36) var(--bds-sizes-size-14) var(--bds-sizes-size-16);
+  width: auto;
+  font-size: var(--bds-sizes-size-16);
+  background-color: var(--bds-color-surface-subdued);
+}
+
+.c3 svg {
+  vertical-align: middle;
+}
+
+.c3 .td-container,
+.c3 .th-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 .td-container .more-info,
+.c3 .th-container .more-info {
+  margin-left: var(--bds-sizes-size-4);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.c3 h6 {
+  margin: 0;
+}
+
+.c3 .td-container > .cell-content {
+  display: block;
+  display: -webkit-box;
+  max-height: var(--bds-sizes-size-48);
+  margin: 0;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c3 .cell-content .header-content {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c3 .cell-content.overflow {
+  overflow: hidden;
+}
+
+.c2 {
+  border-bottom: var(--bds-sizes-size-1) solid var(--bds-color-border-subdued);
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c4 {
+    font-size: var(--bds-font-tag-h5-desktop-font-size);
+    line-height: var(--bds-font-tag-h5-desktop-line-height);
+  }
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c6.c6.c6.body_1 {
+    font-size: var(--bds-font-tag-body-1-desktop-font-size);
+    line-height: var(--bds-font-tag-body-1-desktop-line-height);
+  }
+
+  .c6.c6.c6.body_2 {
+    font-size: var(--bds-font-tag-body-2-desktop-font-size);
+    line-height: var(--bds-font-tag-body-2-desktop-line-height);
+  }
+}
+
+@media screen and (-ms-high-contrast:active),(-ms-high-contrast:none) {
+  .c5 .td-container > .cell-content * {
+    max-height: var(--bds-sizes-size-40);
+  }
+}
+
+@media screen and (-ms-high-contrast:active),(-ms-high-contrast:none) {
+  .c3 .td-container > .cell-content * {
+    max-height: var(--bds-sizes-size-40);
+  }
+}
+
+<table
+    class="c0 table shape--rounded variant--filled right-rule-on"
+  >
+    <thead
+      class="c1 table-head"
+    >
+      <tr
+        class="c2 table-row"
+      >
+        <th
+          class="c3 table-header-cell header-cell table-cell shape--rounded"
+        >
+          <div
+            class="th-container"
+          >
+            <div
+              class="cell-content"
+            >
+              <h5
+                class="c4 typography variant--h5 align--left header-content"
+                color="text_primary"
+              >
+                header1
+              </h5>
+            </div>
+          </div>
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="table-body"
+    >
+      <tr
+        class="c2 table-row"
+      >
+        <td
+          class="c5 table-body-cell table-cell data-cell shape--rounded"
+        >
+          <div
+            class="td-container"
+          >
+            <div
+              class="cell-content"
+            >
+              <div
+                class="c6 typography variant--body_1 align--left body_1"
+                color="text_tertiary"
+              >
+                cell11
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr
+        class="c2 table-row"
+      >
+        <td
+          class="c5 table-body-cell table-cell data-cell shape--rounded"
+        >
+          <div
+            class="td-container"
+          >
+            <div
+              class="cell-content"
+            >
+              <div
+                class="c6 typography variant--body_1 align--left body_1"
+                color="text_tertiary"
+              >
+                cell21
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</DocumentFragment>
+`;
+
+exports[`Table Snapshots variants Table DOM props (id, className) snapshot 3`] = `
+<DocumentFragment>
+  .c0 {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0;
+  box-sizing: border-box;
+}
+
+.c0 thead,
+.c0 tbody,
+.c0 tfoot,
+.c0 tr,
+.c0 th,
+.c0 td {
+  box-sizing: border-box;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.variant--outlined th {
+  background-color: var(--bds-color-surface-default);
+}
+
+.c0.right-rule-on tr th:not(:last-child),
+.c0.right-rule-on tr td:not(:last-child) {
+  border-right: 1px solid var(--bds-color-border-subdued);
+}
+
+.c0 h5 {
+  margin: 0;
+}
+
+.c0.shape--rounded > .table-head > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c0.shape--rounded > .table-head > .table-row:first-child > .table-cell:first-child {
+  border-top-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-head > .table-row:first-child > .table-cell:last-child {
+  border-top-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c0.shape--rounded > .table-body:first-child > .table-row:first-child > .table-cell:first-child {
+  border-top-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body:first-child > .table-row:first-child > .table-cell:last-child {
+  border-top-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row:last-child > .table-cell:first-child {
+  border-bottom-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row:last-child > .table-cell:last-child {
+  border-bottom-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--squared > .table-head > .table-row > .table-cell,
+.c0.shape--squared > .table-body > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c4 {
+  color: hsl(0,0%,0%,.87);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: hsl(0,0%,0%,.87);
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  font-size: var(--bds-font-tag-h5-mobile-font-size);
+  line-height: var(--bds-font-tag-h5-mobile-line-height);
+}
+
+.c4.align--left {
+  text-align: left;
+}
+
+.c4.align--center {
+  text-align: center;
+}
+
+.c4.align--right {
+  text-align: right;
+}
+
+.c4.display--block {
+  display: block;
+}
+
+.c4.display--inline {
+  display: inline;
+}
+
+.c4 b,
+.c4 bold,
+.c4 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c4.bold {
+  font-weight: 500;
+}
+
+.c6 {
+  color: hsl(0,0%,0%,.60);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  color: hsl(0,0%,0%,.60);
+}
+
+.c6.align--left {
+  text-align: left;
+}
+
+.c6.align--center {
+  text-align: center;
+}
+
+.c6.align--right {
+  text-align: right;
+}
+
+.c6.display--block {
+  display: block;
+}
+
+.c6.display--inline {
+  display: inline;
+}
+
+.c6 b,
+.c6 bold,
+.c6 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c6.bold {
+  font-weight: 500;
+}
+
+.c6.c6.c6.body_1 {
+  font-size: var(--bds-font-tag-body-1-mobile-font-size);
+  line-height: var(--bds-font-tag-body-1-mobile-line-height);
+}
+
+.c6.c6.c6.body_2 {
+  font-size: var(--bds-font-tag-body-2-mobile-font-size);
+  line-height: var(--bds-font-tag-body-2-mobile-line-height);
+}
+
+.c5 {
+  padding: var(--bds-sizes-size-14) var(--bds-sizes-size-36) var(--bds-sizes-size-14) var(--bds-sizes-size-16);
+  width: auto;
+  font-size: var(--bds-sizes-size-16);
+}
+
+.c5 svg {
+  vertical-align: middle;
+}
+
+.c5 .td-container,
+.c5 .th-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c5 .td-container .more-info,
+.c5 .th-container .more-info {
+  margin-left: var(--bds-sizes-size-4);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.c5 h6 {
+  margin: 0;
+}
+
+.c5 .td-container > .cell-content {
+  display: block;
+  display: -webkit-box;
+  max-height: var(--bds-sizes-size-48);
+  margin: 0;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c1 {
+  border-bottom: 1px solid var(--bds-color-border-subdued);
+}
+
+.c1 h5 {
+  margin: 0;
+}
+
+.c3 {
+  padding: var(--bds-sizes-size-14) var(--bds-sizes-size-36) var(--bds-sizes-size-14) var(--bds-sizes-size-16);
+  width: auto;
+  font-size: var(--bds-sizes-size-16);
+  background-color: var(--bds-color-surface-subdued);
+}
+
+.c3 svg {
+  vertical-align: middle;
+}
+
+.c3 .td-container,
+.c3 .th-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 .td-container .more-info,
+.c3 .th-container .more-info {
+  margin-left: var(--bds-sizes-size-4);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.c3 h6 {
+  margin: 0;
+}
+
+.c3 .td-container > .cell-content {
+  display: block;
+  display: -webkit-box;
+  max-height: var(--bds-sizes-size-48);
+  margin: 0;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c3 .cell-content .header-content {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c3 .cell-content.overflow {
+  overflow: hidden;
+}
+
+.c2 {
+  border-bottom: var(--bds-sizes-size-1) solid var(--bds-color-border-subdued);
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c4 {
+    font-size: var(--bds-font-tag-h5-desktop-font-size);
+    line-height: var(--bds-font-tag-h5-desktop-line-height);
+  }
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c6.c6.c6.body_1 {
+    font-size: var(--bds-font-tag-body-1-desktop-font-size);
+    line-height: var(--bds-font-tag-body-1-desktop-line-height);
+  }
+
+  .c6.c6.c6.body_2 {
+    font-size: var(--bds-font-tag-body-2-desktop-font-size);
+    line-height: var(--bds-font-tag-body-2-desktop-line-height);
+  }
+}
+
+@media screen and (-ms-high-contrast:active),(-ms-high-contrast:none) {
+  .c5 .td-container > .cell-content * {
+    max-height: var(--bds-sizes-size-40);
+  }
+}
+
+@media screen and (-ms-high-contrast:active),(-ms-high-contrast:none) {
+  .c3 .td-container > .cell-content * {
+    max-height: var(--bds-sizes-size-40);
+  }
+}
+
+<table
+    class="c0 table shape--rounded variant--filled right-rule-on"
+  >
+    <thead
+      class="c1 table-head"
+    >
+      <tr
+        class="c2 table-row"
+      >
+        <th
+          class="c3 table-header-cell header-cell table-cell shape--rounded"
+        >
+          <div
+            class="th-container"
+          >
+            <div
+              class="cell-content"
+            >
+              <h5
+                class="c4 typography variant--h5 align--left header-content"
+                color="text_primary"
+              >
+                header1
+              </h5>
+            </div>
+          </div>
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="table-body"
+    >
+      <tr
+        class="c2 table-row"
+      >
+        <td
+          class="c5 table-body-cell table-cell data-cell shape--rounded"
+        >
+          <div
+            class="td-container"
+          >
+            <div
+              class="cell-content"
+            >
+              <div
+                class="c6 typography variant--body_1 align--left body_1"
+                color="text_tertiary"
+              >
+                cell11
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr
+        class="c2 table-row"
+      >
+        <td
+          class="c5 table-body-cell table-cell data-cell shape--rounded"
+        >
+          <div
+            class="td-container"
+          >
+            <div
+              class="cell-content"
+            >
+              <div
+                class="c6 typography variant--body_1 align--left body_1"
+                color="text_tertiary"
+              >
+                cell21
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</DocumentFragment>
+`;
+
+exports[`Table Snapshots variants Table DOM props (id, className) snapshot 4`] = `
+<DocumentFragment>
+  .c0 {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0;
+  box-sizing: border-box;
+}
+
+.c0 thead,
+.c0 tbody,
+.c0 tfoot,
+.c0 tr,
+.c0 th,
+.c0 td {
+  box-sizing: border-box;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.variant--outlined th {
+  background-color: var(--bds-color-surface-default);
+}
+
+.c0.right-rule-on tr th:not(:last-child),
+.c0.right-rule-on tr td:not(:last-child) {
+  border-right: 1px solid var(--bds-color-border-subdued);
+}
+
+.c0 h5 {
+  margin: 0;
+}
+
+.c0.shape--rounded > .table-head > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c0.shape--rounded > .table-head > .table-row:first-child > .table-cell:first-child {
+  border-top-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-head > .table-row:first-child > .table-cell:last-child {
+  border-top-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c0.shape--rounded > .table-body:first-child > .table-row:first-child > .table-cell:first-child {
+  border-top-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body:first-child > .table-row:first-child > .table-cell:last-child {
+  border-top-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row:last-child > .table-cell:first-child {
+  border-bottom-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row:last-child > .table-cell:last-child {
+  border-bottom-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--squared > .table-head > .table-row > .table-cell,
+.c0.shape--squared > .table-body > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c4 {
+  color: hsl(0,0%,0%,.87);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: hsl(0,0%,0%,.87);
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  font-size: var(--bds-font-tag-h5-mobile-font-size);
+  line-height: var(--bds-font-tag-h5-mobile-line-height);
+}
+
+.c4.align--left {
+  text-align: left;
+}
+
+.c4.align--center {
+  text-align: center;
+}
+
+.c4.align--right {
+  text-align: right;
+}
+
+.c4.display--block {
+  display: block;
+}
+
+.c4.display--inline {
+  display: inline;
+}
+
+.c4 b,
+.c4 bold,
+.c4 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c4.bold {
+  font-weight: 500;
+}
+
+.c6 {
+  color: hsl(0,0%,0%,.60);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  color: hsl(0,0%,0%,.60);
+}
+
+.c6.align--left {
+  text-align: left;
+}
+
+.c6.align--center {
+  text-align: center;
+}
+
+.c6.align--right {
+  text-align: right;
+}
+
+.c6.display--block {
+  display: block;
+}
+
+.c6.display--inline {
+  display: inline;
+}
+
+.c6 b,
+.c6 bold,
+.c6 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c6.bold {
+  font-weight: 500;
+}
+
+.c6.c6.c6.body_1 {
+  font-size: var(--bds-font-tag-body-1-mobile-font-size);
+  line-height: var(--bds-font-tag-body-1-mobile-line-height);
+}
+
+.c6.c6.c6.body_2 {
+  font-size: var(--bds-font-tag-body-2-mobile-font-size);
+  line-height: var(--bds-font-tag-body-2-mobile-line-height);
+}
+
+.c5 {
+  padding: var(--bds-sizes-size-14) var(--bds-sizes-size-36) var(--bds-sizes-size-14) var(--bds-sizes-size-16);
+  width: auto;
+  font-size: var(--bds-sizes-size-16);
+}
+
+.c5 svg {
+  vertical-align: middle;
+}
+
+.c5 .td-container,
+.c5 .th-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c5 .td-container .more-info,
+.c5 .th-container .more-info {
+  margin-left: var(--bds-sizes-size-4);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.c5 h6 {
+  margin: 0;
+}
+
+.c5 .td-container > .cell-content {
+  display: block;
+  display: -webkit-box;
+  max-height: var(--bds-sizes-size-48);
+  margin: 0;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c1 {
+  border-bottom: 1px solid var(--bds-color-border-subdued);
+}
+
+.c1 h5 {
+  margin: 0;
+}
+
+.c3 {
+  padding: var(--bds-sizes-size-14) var(--bds-sizes-size-36) var(--bds-sizes-size-14) var(--bds-sizes-size-16);
+  width: auto;
+  font-size: var(--bds-sizes-size-16);
+  background-color: var(--bds-color-surface-subdued);
+}
+
+.c3 svg {
+  vertical-align: middle;
+}
+
+.c3 .td-container,
+.c3 .th-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 .td-container .more-info,
+.c3 .th-container .more-info {
+  margin-left: var(--bds-sizes-size-4);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.c3 h6 {
+  margin: 0;
+}
+
+.c3 .td-container > .cell-content {
+  display: block;
+  display: -webkit-box;
+  max-height: var(--bds-sizes-size-48);
+  margin: 0;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c3 .cell-content .header-content {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c3 .cell-content.overflow {
+  overflow: hidden;
+}
+
+.c2 {
+  border-bottom: var(--bds-sizes-size-1) solid var(--bds-color-border-subdued);
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c4 {
+    font-size: var(--bds-font-tag-h5-desktop-font-size);
+    line-height: var(--bds-font-tag-h5-desktop-line-height);
+  }
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c6.c6.c6.body_1 {
+    font-size: var(--bds-font-tag-body-1-desktop-font-size);
+    line-height: var(--bds-font-tag-body-1-desktop-line-height);
+  }
+
+  .c6.c6.c6.body_2 {
+    font-size: var(--bds-font-tag-body-2-desktop-font-size);
+    line-height: var(--bds-font-tag-body-2-desktop-line-height);
+  }
+}
+
+@media screen and (-ms-high-contrast:active),(-ms-high-contrast:none) {
+  .c5 .td-container > .cell-content * {
+    max-height: var(--bds-sizes-size-40);
+  }
+}
+
+@media screen and (-ms-high-contrast:active),(-ms-high-contrast:none) {
+  .c3 .td-container > .cell-content * {
+    max-height: var(--bds-sizes-size-40);
+  }
+}
+
+<table
+    class="c0 table shape--rounded variant--filled"
+  >
+    <thead
+      class="c1 table-head"
+    >
+      <tr
+        class="c2 table-row"
+      >
+        <th
+          class="c3 table-header-cell header-cell table-cell shape--rounded"
+        >
+          <div
+            class="th-container"
+          >
+            <div
+              class="cell-content"
+            >
+              <h5
+                class="c4 typography variant--h5 align--left header-content"
+                color="text_primary"
+              >
+                header1
+              </h5>
+            </div>
+          </div>
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="table-body"
+    >
+      <tr
+        class="c2 table-row"
+      >
+        <td
+          class="c5 table-body-cell table-cell data-cell shape--rounded"
+        >
+          <div
+            class="td-container"
+          >
+            <div
+              class="cell-content"
+            >
+              <div
+                class="c6 typography variant--body_1 align--left body_1"
+                color="text_tertiary"
+              >
+                cell11
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr
+        class="c2 table-row"
+      >
+        <td
+          class="c5 table-body-cell table-cell data-cell shape--rounded"
+        >
+          <div
+            class="td-container"
+          >
+            <div
+              class="cell-content"
+            >
+              <div
+                class="c6 typography variant--body_1 align--left body_1"
+                color="text_tertiary"
+              >
+                cell21
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</DocumentFragment>
+`;

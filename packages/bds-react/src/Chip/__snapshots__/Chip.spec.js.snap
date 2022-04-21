@@ -1,0 +1,2777 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chip Snapshots Chip default snapshot 1`] = `
+<DocumentFragment>
+  .c0.c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.c0 input {
+  box-sizing: border-box;
+  border: none;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  padding: 0;
+}
+
+.c0 input:disabled,
+.c0 input:disabled + label {
+  pointer-events: none;
+}
+
+.c0 input:disabled:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  cursor: not-allowed;
+  pointer-events: all;
+}
+
+.c0 label {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-sizing: border-box;
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-20);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  border-width: var(--bds-sizes-size-1);
+  border-style: solid;
+  border-radius: var(--bds-border-radius-circle);
+  padding: 0 var(--bds-sizes-size-14);
+  height: var(--bds-sizes-size-40);
+  -webkit-transition: 0.2s all ease-in-out;
+  transition: 0.2s all ease-in-out;
+}
+
+.c0 label .chip--icon {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c0 label .chip--delete {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c0 input.enabled + label,
+.c0 input:enabled + label {
+  background-color: transparent;
+  border-color: var(--bds-color-border-default);
+}
+
+.c0 input.enabled + label .label,
+.c0 input:enabled + label .label {
+  color: var(--bds-color-text-primary);
+}
+
+.c0 input.enabled + label .icon path,
+.c0 input:enabled + label .icon path {
+  fill: var(--bds-color-icon-primary);
+}
+
+.c0 input.hover + label,
+.c0 input:hover:not(:disabled):not(:checked) + label,
+.c0 input:not(:disabled):not(:checked) + label:hover {
+  background-color: var(--bds-color-action-neutral-hover);
+  border-color: var(--bds-color-border-interactive);
+}
+
+.c0 input.focus + label,
+.c0 input:focus + label {
+  border-color: var(--bds-color-border-interactive);
+  box-shadow: 0 0 0 2px var(--bds-color-border-interactive);
+}
+
+.c0 input.checked + label,
+.c0 input:checked + label {
+  background-color: var(--bds-color-action-interactive);
+  border-color: var(--bds-color-action-interactive);
+}
+
+.c0 input.checked + label .label,
+.c0 input:checked + label .label {
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 input.checked + label .icon path,
+.c0 input:checked + label .icon path {
+  fill: var(--bds-color-icon-primary-inverse);
+}
+
+.c0 input.checked + label.subdued,
+.c0 input:checked + label.subdued {
+  background-color: var(--bds-color-action-interactive-subdued-pressed);
+  border-color: var(--bds-color-action-interactive-subdued-pressed);
+}
+
+.c0 input.checked + label.subdued .label,
+.c0 input:checked + label.subdued .label {
+  color: var(--bds-color-text-primary);
+}
+
+.c0 input.checked + label.subdued .icon path,
+.c0 input:checked + label.subdued .icon path {
+  fill: var(--bds-color-icon-primary);
+}
+
+.c0 input.disabled + label,
+.c0 input:disabled + label {
+  border-color: var(--bds-color-border-disabled);
+}
+
+.c0 input.disabled + label .label,
+.c0 input:disabled + label .label {
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 input.disabled + label .icon path,
+.c0 input:disabled + label .icon path {
+  fill: var(--bds-color-icon-disabled);
+}
+
+@media only screen and (min-width:var(--bds-grid-breakpoint-md-max)) {
+  .c0 label {
+    font-size: var(--bds-sizes-size-16);
+  }
+}
+
+<span
+    class="c0 backyard chip variant--filter"
+  >
+    <input
+      class="chip--input"
+      id=""
+      role="checkbox"
+      type="checkbox"
+      value=""
+    />
+    <label
+      class="chip--label"
+      for=""
+    >
+      <span
+        class="label"
+      >
+        Test Label
+      </span>
+    </label>
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Chip Snapshots other props Chip DOM id, name, value snapshot 1`] = `
+<DocumentFragment>
+  .c0.c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.c0 input {
+  box-sizing: border-box;
+  border: none;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  padding: 0;
+}
+
+.c0 input:disabled,
+.c0 input:disabled + label {
+  pointer-events: none;
+}
+
+.c0 input:disabled:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  cursor: not-allowed;
+  pointer-events: all;
+}
+
+.c0 label {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-sizing: border-box;
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-20);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  border-width: var(--bds-sizes-size-1);
+  border-style: solid;
+  border-radius: var(--bds-border-radius-circle);
+  padding: 0 var(--bds-sizes-size-14);
+  height: var(--bds-sizes-size-40);
+  -webkit-transition: 0.2s all ease-in-out;
+  transition: 0.2s all ease-in-out;
+}
+
+.c0 label .chip--icon {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c0 label .chip--delete {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c0 input.enabled + label,
+.c0 input:enabled + label {
+  background-color: transparent;
+  border-color: var(--bds-color-border-default);
+}
+
+.c0 input.enabled + label .label,
+.c0 input:enabled + label .label {
+  color: var(--bds-color-text-primary);
+}
+
+.c0 input.enabled + label .icon path,
+.c0 input:enabled + label .icon path {
+  fill: var(--bds-color-icon-primary);
+}
+
+.c0 input.hover + label,
+.c0 input:hover:not(:disabled):not(:checked) + label,
+.c0 input:not(:disabled):not(:checked) + label:hover {
+  background-color: var(--bds-color-action-neutral-hover);
+  border-color: var(--bds-color-border-interactive);
+}
+
+.c0 input.focus + label,
+.c0 input:focus + label {
+  border-color: var(--bds-color-border-interactive);
+  box-shadow: 0 0 0 2px var(--bds-color-border-interactive);
+}
+
+.c0 input.checked + label,
+.c0 input:checked + label {
+  background-color: var(--bds-color-action-interactive);
+  border-color: var(--bds-color-action-interactive);
+}
+
+.c0 input.checked + label .label,
+.c0 input:checked + label .label {
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 input.checked + label .icon path,
+.c0 input:checked + label .icon path {
+  fill: var(--bds-color-icon-primary-inverse);
+}
+
+.c0 input.checked + label.subdued,
+.c0 input:checked + label.subdued {
+  background-color: var(--bds-color-action-interactive-subdued-pressed);
+  border-color: var(--bds-color-action-interactive-subdued-pressed);
+}
+
+.c0 input.checked + label.subdued .label,
+.c0 input:checked + label.subdued .label {
+  color: var(--bds-color-text-primary);
+}
+
+.c0 input.checked + label.subdued .icon path,
+.c0 input:checked + label.subdued .icon path {
+  fill: var(--bds-color-icon-primary);
+}
+
+.c0 input.disabled + label,
+.c0 input:disabled + label {
+  border-color: var(--bds-color-border-disabled);
+}
+
+.c0 input.disabled + label .label,
+.c0 input:disabled + label .label {
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 input.disabled + label .icon path,
+.c0 input:disabled + label .icon path {
+  fill: var(--bds-color-icon-disabled);
+}
+
+@media only screen and (min-width:var(--bds-grid-breakpoint-md-max)) {
+  .c0 label {
+    font-size: var(--bds-sizes-size-16);
+  }
+}
+
+<span
+    class="c0 backyard chip variant--filter"
+  >
+    <input
+      class="chip--input"
+      id="test-id"
+      name="test-name"
+      role="checkbox"
+      type="checkbox"
+      value="test-value"
+    />
+    <label
+      class="chip--label"
+      for="test-id"
+    >
+      <span
+        class="label"
+      >
+        Test Label
+      </span>
+    </label>
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Chip Snapshots other props Chip className snapshot 1`] = `
+<DocumentFragment>
+  .c0.c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.c0 input {
+  box-sizing: border-box;
+  border: none;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  padding: 0;
+}
+
+.c0 input:disabled,
+.c0 input:disabled + label {
+  pointer-events: none;
+}
+
+.c0 input:disabled:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  cursor: not-allowed;
+  pointer-events: all;
+}
+
+.c0 label {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-sizing: border-box;
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-20);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  border-width: var(--bds-sizes-size-1);
+  border-style: solid;
+  border-radius: var(--bds-border-radius-circle);
+  padding: 0 var(--bds-sizes-size-14);
+  height: var(--bds-sizes-size-40);
+  -webkit-transition: 0.2s all ease-in-out;
+  transition: 0.2s all ease-in-out;
+}
+
+.c0 label .chip--icon {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c0 label .chip--delete {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c0 input.enabled + label,
+.c0 input:enabled + label {
+  background-color: transparent;
+  border-color: var(--bds-color-border-default);
+}
+
+.c0 input.enabled + label .label,
+.c0 input:enabled + label .label {
+  color: var(--bds-color-text-primary);
+}
+
+.c0 input.enabled + label .icon path,
+.c0 input:enabled + label .icon path {
+  fill: var(--bds-color-icon-primary);
+}
+
+.c0 input.hover + label,
+.c0 input:hover:not(:disabled):not(:checked) + label,
+.c0 input:not(:disabled):not(:checked) + label:hover {
+  background-color: var(--bds-color-action-neutral-hover);
+  border-color: var(--bds-color-border-interactive);
+}
+
+.c0 input.focus + label,
+.c0 input:focus + label {
+  border-color: var(--bds-color-border-interactive);
+  box-shadow: 0 0 0 2px var(--bds-color-border-interactive);
+}
+
+.c0 input.checked + label,
+.c0 input:checked + label {
+  background-color: var(--bds-color-action-interactive);
+  border-color: var(--bds-color-action-interactive);
+}
+
+.c0 input.checked + label .label,
+.c0 input:checked + label .label {
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 input.checked + label .icon path,
+.c0 input:checked + label .icon path {
+  fill: var(--bds-color-icon-primary-inverse);
+}
+
+.c0 input.checked + label.subdued,
+.c0 input:checked + label.subdued {
+  background-color: var(--bds-color-action-interactive-subdued-pressed);
+  border-color: var(--bds-color-action-interactive-subdued-pressed);
+}
+
+.c0 input.checked + label.subdued .label,
+.c0 input:checked + label.subdued .label {
+  color: var(--bds-color-text-primary);
+}
+
+.c0 input.checked + label.subdued .icon path,
+.c0 input:checked + label.subdued .icon path {
+  fill: var(--bds-color-icon-primary);
+}
+
+.c0 input.disabled + label,
+.c0 input:disabled + label {
+  border-color: var(--bds-color-border-disabled);
+}
+
+.c0 input.disabled + label .label,
+.c0 input:disabled + label .label {
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 input.disabled + label .icon path,
+.c0 input:disabled + label .icon path {
+  fill: var(--bds-color-icon-disabled);
+}
+
+@media only screen and (min-width:var(--bds-grid-breakpoint-md-max)) {
+  .c0 label {
+    font-size: var(--bds-sizes-size-16);
+  }
+}
+
+<span
+    class="c0 backyard chip variant--filter"
+  >
+    <input
+      class="chip--input test-class"
+      id=""
+      role="checkbox"
+      type="checkbox"
+      value=""
+    />
+    <label
+      class="chip--label"
+      for=""
+    >
+      <span
+        class="label"
+      >
+        Test Label
+      </span>
+    </label>
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Chip Snapshots other props Chip subdued snapshot 1`] = `
+<DocumentFragment>
+  .c0.c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.c0 input {
+  box-sizing: border-box;
+  border: none;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  padding: 0;
+}
+
+.c0 input:disabled,
+.c0 input:disabled + label {
+  pointer-events: none;
+}
+
+.c0 input:disabled:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  cursor: not-allowed;
+  pointer-events: all;
+}
+
+.c0 label {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-sizing: border-box;
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-20);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  border-width: var(--bds-sizes-size-1);
+  border-style: solid;
+  border-radius: var(--bds-border-radius-circle);
+  padding: 0 var(--bds-sizes-size-14);
+  height: var(--bds-sizes-size-40);
+  -webkit-transition: 0.2s all ease-in-out;
+  transition: 0.2s all ease-in-out;
+}
+
+.c0 label .chip--icon {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c0 label .chip--delete {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c0 input.enabled + label,
+.c0 input:enabled + label {
+  background-color: transparent;
+  border-color: var(--bds-color-border-default);
+}
+
+.c0 input.enabled + label .label,
+.c0 input:enabled + label .label {
+  color: var(--bds-color-text-primary);
+}
+
+.c0 input.enabled + label .icon path,
+.c0 input:enabled + label .icon path {
+  fill: var(--bds-color-icon-primary);
+}
+
+.c0 input.hover + label,
+.c0 input:hover:not(:disabled):not(:checked) + label,
+.c0 input:not(:disabled):not(:checked) + label:hover {
+  background-color: var(--bds-color-action-neutral-hover);
+  border-color: var(--bds-color-border-interactive);
+}
+
+.c0 input.focus + label,
+.c0 input:focus + label {
+  border-color: var(--bds-color-border-interactive);
+  box-shadow: 0 0 0 2px var(--bds-color-border-interactive);
+}
+
+.c0 input.checked + label,
+.c0 input:checked + label {
+  background-color: var(--bds-color-action-interactive);
+  border-color: var(--bds-color-action-interactive);
+}
+
+.c0 input.checked + label .label,
+.c0 input:checked + label .label {
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 input.checked + label .icon path,
+.c0 input:checked + label .icon path {
+  fill: var(--bds-color-icon-primary-inverse);
+}
+
+.c0 input.checked + label.subdued,
+.c0 input:checked + label.subdued {
+  background-color: var(--bds-color-action-interactive-subdued-pressed);
+  border-color: var(--bds-color-action-interactive-subdued-pressed);
+}
+
+.c0 input.checked + label.subdued .label,
+.c0 input:checked + label.subdued .label {
+  color: var(--bds-color-text-primary);
+}
+
+.c0 input.checked + label.subdued .icon path,
+.c0 input:checked + label.subdued .icon path {
+  fill: var(--bds-color-icon-primary);
+}
+
+.c0 input.disabled + label,
+.c0 input:disabled + label {
+  border-color: var(--bds-color-border-disabled);
+}
+
+.c0 input.disabled + label .label,
+.c0 input:disabled + label .label {
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 input.disabled + label .icon path,
+.c0 input:disabled + label .icon path {
+  fill: var(--bds-color-icon-disabled);
+}
+
+@media only screen and (min-width:var(--bds-grid-breakpoint-md-max)) {
+  .c0 label {
+    font-size: var(--bds-sizes-size-16);
+  }
+}
+
+<span
+    class="c0 backyard chip variant--filter"
+  >
+    <input
+      class="chip--input"
+      id=""
+      role="checkbox"
+      type="checkbox"
+      value=""
+    />
+    <label
+      class="chip--label subdued"
+      for=""
+    >
+      <span
+        class="label"
+      >
+        Test Label
+      </span>
+    </label>
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Chip Snapshots other props Chip wrapperProps snapshot 1`] = `
+<DocumentFragment>
+  .c0.c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.c0 input {
+  box-sizing: border-box;
+  border: none;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  padding: 0;
+}
+
+.c0 input:disabled,
+.c0 input:disabled + label {
+  pointer-events: none;
+}
+
+.c0 input:disabled:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  cursor: not-allowed;
+  pointer-events: all;
+}
+
+.c0 label {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-sizing: border-box;
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-20);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  border-width: var(--bds-sizes-size-1);
+  border-style: solid;
+  border-radius: var(--bds-border-radius-circle);
+  padding: 0 var(--bds-sizes-size-14);
+  height: var(--bds-sizes-size-40);
+  -webkit-transition: 0.2s all ease-in-out;
+  transition: 0.2s all ease-in-out;
+}
+
+.c0 label .chip--icon {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c0 label .chip--delete {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c0 input.enabled + label,
+.c0 input:enabled + label {
+  background-color: transparent;
+  border-color: var(--bds-color-border-default);
+}
+
+.c0 input.enabled + label .label,
+.c0 input:enabled + label .label {
+  color: var(--bds-color-text-primary);
+}
+
+.c0 input.enabled + label .icon path,
+.c0 input:enabled + label .icon path {
+  fill: var(--bds-color-icon-primary);
+}
+
+.c0 input.hover + label,
+.c0 input:hover:not(:disabled):not(:checked) + label,
+.c0 input:not(:disabled):not(:checked) + label:hover {
+  background-color: var(--bds-color-action-neutral-hover);
+  border-color: var(--bds-color-border-interactive);
+}
+
+.c0 input.focus + label,
+.c0 input:focus + label {
+  border-color: var(--bds-color-border-interactive);
+  box-shadow: 0 0 0 2px var(--bds-color-border-interactive);
+}
+
+.c0 input.checked + label,
+.c0 input:checked + label {
+  background-color: var(--bds-color-action-interactive);
+  border-color: var(--bds-color-action-interactive);
+}
+
+.c0 input.checked + label .label,
+.c0 input:checked + label .label {
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 input.checked + label .icon path,
+.c0 input:checked + label .icon path {
+  fill: var(--bds-color-icon-primary-inverse);
+}
+
+.c0 input.checked + label.subdued,
+.c0 input:checked + label.subdued {
+  background-color: var(--bds-color-action-interactive-subdued-pressed);
+  border-color: var(--bds-color-action-interactive-subdued-pressed);
+}
+
+.c0 input.checked + label.subdued .label,
+.c0 input:checked + label.subdued .label {
+  color: var(--bds-color-text-primary);
+}
+
+.c0 input.checked + label.subdued .icon path,
+.c0 input:checked + label.subdued .icon path {
+  fill: var(--bds-color-icon-primary);
+}
+
+.c0 input.disabled + label,
+.c0 input:disabled + label {
+  border-color: var(--bds-color-border-disabled);
+}
+
+.c0 input.disabled + label .label,
+.c0 input:disabled + label .label {
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 input.disabled + label .icon path,
+.c0 input:disabled + label .icon path {
+  fill: var(--bds-color-icon-disabled);
+}
+
+@media only screen and (min-width:var(--bds-grid-breakpoint-md-max)) {
+  .c0 label {
+    font-size: var(--bds-sizes-size-16);
+  }
+}
+
+<span
+    class="c0 backyard chip variant--filter"
+    style="opacity: 0;"
+  >
+    <input
+      class="chip--input"
+      id=""
+      role="checkbox"
+      type="checkbox"
+      value=""
+    />
+    <label
+      class="chip--label"
+      for=""
+    >
+      <span
+        class="label"
+      >
+        Test Label
+      </span>
+    </label>
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Chip Snapshots prop: checked Chip checked snapshot 1`] = `
+<DocumentFragment>
+  .c1 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c1:not(.color-override) g,
+.c1:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c1:not(.color-override) g[stroke-width],
+.c1:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c1:not(.color-override) g[stroke-width] *,
+.c1:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c1.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c1.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c0.c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.c0 input {
+  box-sizing: border-box;
+  border: none;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  padding: 0;
+}
+
+.c0 input:disabled,
+.c0 input:disabled + label {
+  pointer-events: none;
+}
+
+.c0 input:disabled:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  cursor: not-allowed;
+  pointer-events: all;
+}
+
+.c0 label {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-sizing: border-box;
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-20);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  border-width: var(--bds-sizes-size-1);
+  border-style: solid;
+  border-radius: var(--bds-border-radius-circle);
+  padding: 0 var(--bds-sizes-size-14);
+  height: var(--bds-sizes-size-40);
+  -webkit-transition: 0.2s all ease-in-out;
+  transition: 0.2s all ease-in-out;
+}
+
+.c0 label .chip--icon {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c0 label .chip--delete {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c0 input.enabled + label,
+.c0 input:enabled + label {
+  background-color: transparent;
+  border-color: var(--bds-color-border-default);
+}
+
+.c0 input.enabled + label .label,
+.c0 input:enabled + label .label {
+  color: var(--bds-color-text-primary);
+}
+
+.c0 input.enabled + label .icon path,
+.c0 input:enabled + label .icon path {
+  fill: var(--bds-color-icon-primary);
+}
+
+.c0 input.hover + label,
+.c0 input:hover:not(:disabled):not(:checked) + label,
+.c0 input:not(:disabled):not(:checked) + label:hover {
+  background-color: var(--bds-color-action-neutral-hover);
+  border-color: var(--bds-color-border-interactive);
+}
+
+.c0 input.focus + label,
+.c0 input:focus + label {
+  border-color: var(--bds-color-border-interactive);
+  box-shadow: 0 0 0 2px var(--bds-color-border-interactive);
+}
+
+.c0 input.checked + label,
+.c0 input:checked + label {
+  background-color: var(--bds-color-action-interactive);
+  border-color: var(--bds-color-action-interactive);
+}
+
+.c0 input.checked + label .label,
+.c0 input:checked + label .label {
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 input.checked + label .icon path,
+.c0 input:checked + label .icon path {
+  fill: var(--bds-color-icon-primary-inverse);
+}
+
+.c0 input.checked + label.subdued,
+.c0 input:checked + label.subdued {
+  background-color: var(--bds-color-action-interactive-subdued-pressed);
+  border-color: var(--bds-color-action-interactive-subdued-pressed);
+}
+
+.c0 input.checked + label.subdued .label,
+.c0 input:checked + label.subdued .label {
+  color: var(--bds-color-text-primary);
+}
+
+.c0 input.checked + label.subdued .icon path,
+.c0 input:checked + label.subdued .icon path {
+  fill: var(--bds-color-icon-primary);
+}
+
+.c0 input.disabled + label,
+.c0 input:disabled + label {
+  border-color: var(--bds-color-border-disabled);
+}
+
+.c0 input.disabled + label .label,
+.c0 input:disabled + label .label {
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 input.disabled + label .icon path,
+.c0 input:disabled + label .icon path {
+  fill: var(--bds-color-icon-disabled);
+}
+
+@media only screen and (min-width:var(--bds-grid-breakpoint-md-max)) {
+  .c0 label {
+    font-size: var(--bds-sizes-size-16);
+  }
+}
+
+<span
+    class="c0 backyard chip variant--filter checked"
+  >
+    <input
+      checked=""
+      class="chip--input"
+      id=""
+      role="checkbox"
+      type="checkbox"
+      value=""
+    />
+    <label
+      class="chip--label"
+      for=""
+    >
+      <svg
+        aria-hidden="true"
+        class="c1 icon icon-checkmark chip--icon"
+        role="presentation"
+        style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(0, 0%, 0%, 1);"
+        viewBox="0 0 16 16"
+      >
+        <path
+          d="M5.6338 10.9115 3.141 8.4188a.6684.6684 0 0 0-.9453.9453l2.9495 2.9495a.6661.6661 0 0 0 .4885.1956.6661.6661 0 0 0 .4884-.1956l7.682-7.682a.6685.6685 0 0 0-.9453-.9452l-7.2252 7.2251Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+      <span
+        class="label"
+      >
+        Test Label
+      </span>
+    </label>
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Chip Snapshots prop: checked Chip not checked snapshot 1`] = `
+<DocumentFragment>
+  .c0.c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.c0 input {
+  box-sizing: border-box;
+  border: none;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  padding: 0;
+}
+
+.c0 input:disabled,
+.c0 input:disabled + label {
+  pointer-events: none;
+}
+
+.c0 input:disabled:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  cursor: not-allowed;
+  pointer-events: all;
+}
+
+.c0 label {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-sizing: border-box;
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-20);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  border-width: var(--bds-sizes-size-1);
+  border-style: solid;
+  border-radius: var(--bds-border-radius-circle);
+  padding: 0 var(--bds-sizes-size-14);
+  height: var(--bds-sizes-size-40);
+  -webkit-transition: 0.2s all ease-in-out;
+  transition: 0.2s all ease-in-out;
+}
+
+.c0 label .chip--icon {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c0 label .chip--delete {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c0 input.enabled + label,
+.c0 input:enabled + label {
+  background-color: transparent;
+  border-color: var(--bds-color-border-default);
+}
+
+.c0 input.enabled + label .label,
+.c0 input:enabled + label .label {
+  color: var(--bds-color-text-primary);
+}
+
+.c0 input.enabled + label .icon path,
+.c0 input:enabled + label .icon path {
+  fill: var(--bds-color-icon-primary);
+}
+
+.c0 input.hover + label,
+.c0 input:hover:not(:disabled):not(:checked) + label,
+.c0 input:not(:disabled):not(:checked) + label:hover {
+  background-color: var(--bds-color-action-neutral-hover);
+  border-color: var(--bds-color-border-interactive);
+}
+
+.c0 input.focus + label,
+.c0 input:focus + label {
+  border-color: var(--bds-color-border-interactive);
+  box-shadow: 0 0 0 2px var(--bds-color-border-interactive);
+}
+
+.c0 input.checked + label,
+.c0 input:checked + label {
+  background-color: var(--bds-color-action-interactive);
+  border-color: var(--bds-color-action-interactive);
+}
+
+.c0 input.checked + label .label,
+.c0 input:checked + label .label {
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 input.checked + label .icon path,
+.c0 input:checked + label .icon path {
+  fill: var(--bds-color-icon-primary-inverse);
+}
+
+.c0 input.checked + label.subdued,
+.c0 input:checked + label.subdued {
+  background-color: var(--bds-color-action-interactive-subdued-pressed);
+  border-color: var(--bds-color-action-interactive-subdued-pressed);
+}
+
+.c0 input.checked + label.subdued .label,
+.c0 input:checked + label.subdued .label {
+  color: var(--bds-color-text-primary);
+}
+
+.c0 input.checked + label.subdued .icon path,
+.c0 input:checked + label.subdued .icon path {
+  fill: var(--bds-color-icon-primary);
+}
+
+.c0 input.disabled + label,
+.c0 input:disabled + label {
+  border-color: var(--bds-color-border-disabled);
+}
+
+.c0 input.disabled + label .label,
+.c0 input:disabled + label .label {
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 input.disabled + label .icon path,
+.c0 input:disabled + label .icon path {
+  fill: var(--bds-color-icon-disabled);
+}
+
+@media only screen and (min-width:var(--bds-grid-breakpoint-md-max)) {
+  .c0 label {
+    font-size: var(--bds-sizes-size-16);
+  }
+}
+
+<span
+    class="c0 backyard chip variant--filter"
+  >
+    <input
+      class="chip--input"
+      id=""
+      role="checkbox"
+      type="checkbox"
+      value=""
+    />
+    <label
+      class="chip--label"
+      for=""
+    >
+      <span
+        class="label"
+      >
+        Test Label
+      </span>
+    </label>
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Chip Snapshots prop: disabled Chip disabled snapshot 1`] = `
+<DocumentFragment>
+  .c0.c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.c0 input {
+  box-sizing: border-box;
+  border: none;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  padding: 0;
+}
+
+.c0 input:disabled,
+.c0 input:disabled + label {
+  pointer-events: none;
+}
+
+.c0 input:disabled:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  cursor: not-allowed;
+  pointer-events: all;
+}
+
+.c0 label {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-sizing: border-box;
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-20);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  border-width: var(--bds-sizes-size-1);
+  border-style: solid;
+  border-radius: var(--bds-border-radius-circle);
+  padding: 0 var(--bds-sizes-size-14);
+  height: var(--bds-sizes-size-40);
+  -webkit-transition: 0.2s all ease-in-out;
+  transition: 0.2s all ease-in-out;
+}
+
+.c0 label .chip--icon {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c0 label .chip--delete {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c0 input.enabled + label,
+.c0 input:enabled + label {
+  background-color: transparent;
+  border-color: var(--bds-color-border-default);
+}
+
+.c0 input.enabled + label .label,
+.c0 input:enabled + label .label {
+  color: var(--bds-color-text-primary);
+}
+
+.c0 input.enabled + label .icon path,
+.c0 input:enabled + label .icon path {
+  fill: var(--bds-color-icon-primary);
+}
+
+.c0 input.hover + label,
+.c0 input:hover:not(:disabled):not(:checked) + label,
+.c0 input:not(:disabled):not(:checked) + label:hover {
+  background-color: var(--bds-color-action-neutral-hover);
+  border-color: var(--bds-color-border-interactive);
+}
+
+.c0 input.focus + label,
+.c0 input:focus + label {
+  border-color: var(--bds-color-border-interactive);
+  box-shadow: 0 0 0 2px var(--bds-color-border-interactive);
+}
+
+.c0 input.checked + label,
+.c0 input:checked + label {
+  background-color: var(--bds-color-action-interactive);
+  border-color: var(--bds-color-action-interactive);
+}
+
+.c0 input.checked + label .label,
+.c0 input:checked + label .label {
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 input.checked + label .icon path,
+.c0 input:checked + label .icon path {
+  fill: var(--bds-color-icon-primary-inverse);
+}
+
+.c0 input.checked + label.subdued,
+.c0 input:checked + label.subdued {
+  background-color: var(--bds-color-action-interactive-subdued-pressed);
+  border-color: var(--bds-color-action-interactive-subdued-pressed);
+}
+
+.c0 input.checked + label.subdued .label,
+.c0 input:checked + label.subdued .label {
+  color: var(--bds-color-text-primary);
+}
+
+.c0 input.checked + label.subdued .icon path,
+.c0 input:checked + label.subdued .icon path {
+  fill: var(--bds-color-icon-primary);
+}
+
+.c0 input.disabled + label,
+.c0 input:disabled + label {
+  border-color: var(--bds-color-border-disabled);
+}
+
+.c0 input.disabled + label .label,
+.c0 input:disabled + label .label {
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 input.disabled + label .icon path,
+.c0 input:disabled + label .icon path {
+  fill: var(--bds-color-icon-disabled);
+}
+
+@media only screen and (min-width:var(--bds-grid-breakpoint-md-max)) {
+  .c0 label {
+    font-size: var(--bds-sizes-size-16);
+  }
+}
+
+<span
+    class="c0 backyard chip variant--filter disabled"
+  >
+    <input
+      aria-disabled="true"
+      class="chip--input"
+      disabled=""
+      id=""
+      role="checkbox"
+      type="checkbox"
+      value=""
+    />
+    <label
+      class="chip--label"
+      for=""
+    >
+      <span
+        class="label"
+      >
+        Test Label
+      </span>
+    </label>
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Chip Snapshots prop: disabled Chip enabled snapshot 1`] = `
+<DocumentFragment>
+  .c0.c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.c0 input {
+  box-sizing: border-box;
+  border: none;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  padding: 0;
+}
+
+.c0 input:disabled,
+.c0 input:disabled + label {
+  pointer-events: none;
+}
+
+.c0 input:disabled:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  cursor: not-allowed;
+  pointer-events: all;
+}
+
+.c0 label {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-sizing: border-box;
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-20);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  border-width: var(--bds-sizes-size-1);
+  border-style: solid;
+  border-radius: var(--bds-border-radius-circle);
+  padding: 0 var(--bds-sizes-size-14);
+  height: var(--bds-sizes-size-40);
+  -webkit-transition: 0.2s all ease-in-out;
+  transition: 0.2s all ease-in-out;
+}
+
+.c0 label .chip--icon {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c0 label .chip--delete {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c0 input.enabled + label,
+.c0 input:enabled + label {
+  background-color: transparent;
+  border-color: var(--bds-color-border-default);
+}
+
+.c0 input.enabled + label .label,
+.c0 input:enabled + label .label {
+  color: var(--bds-color-text-primary);
+}
+
+.c0 input.enabled + label .icon path,
+.c0 input:enabled + label .icon path {
+  fill: var(--bds-color-icon-primary);
+}
+
+.c0 input.hover + label,
+.c0 input:hover:not(:disabled):not(:checked) + label,
+.c0 input:not(:disabled):not(:checked) + label:hover {
+  background-color: var(--bds-color-action-neutral-hover);
+  border-color: var(--bds-color-border-interactive);
+}
+
+.c0 input.focus + label,
+.c0 input:focus + label {
+  border-color: var(--bds-color-border-interactive);
+  box-shadow: 0 0 0 2px var(--bds-color-border-interactive);
+}
+
+.c0 input.checked + label,
+.c0 input:checked + label {
+  background-color: var(--bds-color-action-interactive);
+  border-color: var(--bds-color-action-interactive);
+}
+
+.c0 input.checked + label .label,
+.c0 input:checked + label .label {
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 input.checked + label .icon path,
+.c0 input:checked + label .icon path {
+  fill: var(--bds-color-icon-primary-inverse);
+}
+
+.c0 input.checked + label.subdued,
+.c0 input:checked + label.subdued {
+  background-color: var(--bds-color-action-interactive-subdued-pressed);
+  border-color: var(--bds-color-action-interactive-subdued-pressed);
+}
+
+.c0 input.checked + label.subdued .label,
+.c0 input:checked + label.subdued .label {
+  color: var(--bds-color-text-primary);
+}
+
+.c0 input.checked + label.subdued .icon path,
+.c0 input:checked + label.subdued .icon path {
+  fill: var(--bds-color-icon-primary);
+}
+
+.c0 input.disabled + label,
+.c0 input:disabled + label {
+  border-color: var(--bds-color-border-disabled);
+}
+
+.c0 input.disabled + label .label,
+.c0 input:disabled + label .label {
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 input.disabled + label .icon path,
+.c0 input:disabled + label .icon path {
+  fill: var(--bds-color-icon-disabled);
+}
+
+@media only screen and (min-width:var(--bds-grid-breakpoint-md-max)) {
+  .c0 label {
+    font-size: var(--bds-sizes-size-16);
+  }
+}
+
+<span
+    class="c0 backyard chip variant--filter"
+  >
+    <input
+      class="chip--input"
+      id=""
+      role="checkbox"
+      type="checkbox"
+      value=""
+    />
+    <label
+      class="chip--label"
+      for=""
+    >
+      <span
+        class="label"
+      >
+        Test Label
+      </span>
+    </label>
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Chip Snapshots prop: variant Chip variant choice snapshot 1`] = `
+<DocumentFragment>
+  .c0.c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.c0 input {
+  box-sizing: border-box;
+  border: none;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  padding: 0;
+}
+
+.c0 input:disabled,
+.c0 input:disabled + label {
+  pointer-events: none;
+}
+
+.c0 input:disabled:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  cursor: not-allowed;
+  pointer-events: all;
+}
+
+.c0 label {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-sizing: border-box;
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-20);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  border-width: var(--bds-sizes-size-1);
+  border-style: solid;
+  border-radius: var(--bds-border-radius-circle);
+  padding: 0 var(--bds-sizes-size-14);
+  height: var(--bds-sizes-size-40);
+  -webkit-transition: 0.2s all ease-in-out;
+  transition: 0.2s all ease-in-out;
+}
+
+.c0 label .chip--icon {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c0 label .chip--delete {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c0 input.enabled + label,
+.c0 input:enabled + label {
+  background-color: transparent;
+  border-color: var(--bds-color-border-default);
+}
+
+.c0 input.enabled + label .label,
+.c0 input:enabled + label .label {
+  color: var(--bds-color-text-primary);
+}
+
+.c0 input.enabled + label .icon path,
+.c0 input:enabled + label .icon path {
+  fill: var(--bds-color-icon-primary);
+}
+
+.c0 input.hover + label,
+.c0 input:hover:not(:disabled):not(:checked) + label,
+.c0 input:not(:disabled):not(:checked) + label:hover {
+  background-color: var(--bds-color-action-neutral-hover);
+  border-color: var(--bds-color-border-interactive);
+}
+
+.c0 input.focus + label,
+.c0 input:focus + label {
+  border-color: var(--bds-color-border-interactive);
+  box-shadow: 0 0 0 2px var(--bds-color-border-interactive);
+}
+
+.c0 input.checked + label,
+.c0 input:checked + label {
+  background-color: var(--bds-color-action-interactive);
+  border-color: var(--bds-color-action-interactive);
+}
+
+.c0 input.checked + label .label,
+.c0 input:checked + label .label {
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 input.checked + label .icon path,
+.c0 input:checked + label .icon path {
+  fill: var(--bds-color-icon-primary-inverse);
+}
+
+.c0 input.checked + label.subdued,
+.c0 input:checked + label.subdued {
+  background-color: var(--bds-color-action-interactive-subdued-pressed);
+  border-color: var(--bds-color-action-interactive-subdued-pressed);
+}
+
+.c0 input.checked + label.subdued .label,
+.c0 input:checked + label.subdued .label {
+  color: var(--bds-color-text-primary);
+}
+
+.c0 input.checked + label.subdued .icon path,
+.c0 input:checked + label.subdued .icon path {
+  fill: var(--bds-color-icon-primary);
+}
+
+.c0 input.disabled + label,
+.c0 input:disabled + label {
+  border-color: var(--bds-color-border-disabled);
+}
+
+.c0 input.disabled + label .label,
+.c0 input:disabled + label .label {
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 input.disabled + label .icon path,
+.c0 input:disabled + label .icon path {
+  fill: var(--bds-color-icon-disabled);
+}
+
+@media only screen and (min-width:var(--bds-grid-breakpoint-md-max)) {
+  .c0 label {
+    font-size: var(--bds-sizes-size-16);
+  }
+}
+
+<span
+    class="c0 backyard chip variant--choice"
+  >
+    <input
+      class="chip--input"
+      id=""
+      role="radio"
+      type="radio"
+      value=""
+    />
+    <label
+      class="chip--label"
+      for=""
+    >
+      <span
+        class="label"
+      >
+        Test Label
+      </span>
+    </label>
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Chip Snapshots prop: variant Chip variant filter snapshot 1`] = `
+<DocumentFragment>
+  .c0.c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.c0 input {
+  box-sizing: border-box;
+  border: none;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  padding: 0;
+}
+
+.c0 input:disabled,
+.c0 input:disabled + label {
+  pointer-events: none;
+}
+
+.c0 input:disabled:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  cursor: not-allowed;
+  pointer-events: all;
+}
+
+.c0 label {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-sizing: border-box;
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-20);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  border-width: var(--bds-sizes-size-1);
+  border-style: solid;
+  border-radius: var(--bds-border-radius-circle);
+  padding: 0 var(--bds-sizes-size-14);
+  height: var(--bds-sizes-size-40);
+  -webkit-transition: 0.2s all ease-in-out;
+  transition: 0.2s all ease-in-out;
+}
+
+.c0 label .chip--icon {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c0 label .chip--delete {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c0 input.enabled + label,
+.c0 input:enabled + label {
+  background-color: transparent;
+  border-color: var(--bds-color-border-default);
+}
+
+.c0 input.enabled + label .label,
+.c0 input:enabled + label .label {
+  color: var(--bds-color-text-primary);
+}
+
+.c0 input.enabled + label .icon path,
+.c0 input:enabled + label .icon path {
+  fill: var(--bds-color-icon-primary);
+}
+
+.c0 input.hover + label,
+.c0 input:hover:not(:disabled):not(:checked) + label,
+.c0 input:not(:disabled):not(:checked) + label:hover {
+  background-color: var(--bds-color-action-neutral-hover);
+  border-color: var(--bds-color-border-interactive);
+}
+
+.c0 input.focus + label,
+.c0 input:focus + label {
+  border-color: var(--bds-color-border-interactive);
+  box-shadow: 0 0 0 2px var(--bds-color-border-interactive);
+}
+
+.c0 input.checked + label,
+.c0 input:checked + label {
+  background-color: var(--bds-color-action-interactive);
+  border-color: var(--bds-color-action-interactive);
+}
+
+.c0 input.checked + label .label,
+.c0 input:checked + label .label {
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 input.checked + label .icon path,
+.c0 input:checked + label .icon path {
+  fill: var(--bds-color-icon-primary-inverse);
+}
+
+.c0 input.checked + label.subdued,
+.c0 input:checked + label.subdued {
+  background-color: var(--bds-color-action-interactive-subdued-pressed);
+  border-color: var(--bds-color-action-interactive-subdued-pressed);
+}
+
+.c0 input.checked + label.subdued .label,
+.c0 input:checked + label.subdued .label {
+  color: var(--bds-color-text-primary);
+}
+
+.c0 input.checked + label.subdued .icon path,
+.c0 input:checked + label.subdued .icon path {
+  fill: var(--bds-color-icon-primary);
+}
+
+.c0 input.disabled + label,
+.c0 input:disabled + label {
+  border-color: var(--bds-color-border-disabled);
+}
+
+.c0 input.disabled + label .label,
+.c0 input:disabled + label .label {
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 input.disabled + label .icon path,
+.c0 input:disabled + label .icon path {
+  fill: var(--bds-color-icon-disabled);
+}
+
+@media only screen and (min-width:var(--bds-grid-breakpoint-md-max)) {
+  .c0 label {
+    font-size: var(--bds-sizes-size-16);
+  }
+}
+
+<span
+    class="c0 backyard chip variant--filter"
+  >
+    <input
+      class="chip--input"
+      id=""
+      role="checkbox"
+      type="checkbox"
+      value=""
+    />
+    <label
+      class="chip--label"
+      for=""
+    >
+      <span
+        class="label"
+      >
+        Test Label
+      </span>
+    </label>
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Chip Snapshots prop: variant Chip variant input snapshot 1`] = `
+<DocumentFragment>
+  .c1 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c1:not(.color-override) g,
+.c1:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c1:not(.color-override) g[stroke-width],
+.c1:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c1:not(.color-override) g[stroke-width] *,
+.c1:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c1.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c1.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c0.c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.c0 input {
+  box-sizing: border-box;
+  border: none;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  padding: 0;
+}
+
+.c0 input:disabled,
+.c0 input:disabled + label {
+  pointer-events: none;
+}
+
+.c0 input:disabled:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  cursor: not-allowed;
+  pointer-events: all;
+}
+
+.c0 label {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-sizing: border-box;
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-20);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  border-width: var(--bds-sizes-size-1);
+  border-style: solid;
+  border-radius: var(--bds-border-radius-circle);
+  padding: 0 var(--bds-sizes-size-14);
+  height: var(--bds-sizes-size-40);
+  -webkit-transition: 0.2s all ease-in-out;
+  transition: 0.2s all ease-in-out;
+}
+
+.c0 label .chip--icon {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c0 label .chip--delete {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c0 input.enabled + label,
+.c0 input:enabled + label {
+  background-color: transparent;
+  border-color: var(--bds-color-border-default);
+}
+
+.c0 input.enabled + label .label,
+.c0 input:enabled + label .label {
+  color: var(--bds-color-text-primary);
+}
+
+.c0 input.enabled + label .icon path,
+.c0 input:enabled + label .icon path {
+  fill: var(--bds-color-icon-primary);
+}
+
+.c0 input.hover + label,
+.c0 input:hover:not(:disabled):not(:checked) + label,
+.c0 input:not(:disabled):not(:checked) + label:hover {
+  background-color: var(--bds-color-action-neutral-hover);
+  border-color: var(--bds-color-border-interactive);
+}
+
+.c0 input.focus + label,
+.c0 input:focus + label {
+  border-color: var(--bds-color-border-interactive);
+  box-shadow: 0 0 0 2px var(--bds-color-border-interactive);
+}
+
+.c0 input.checked + label,
+.c0 input:checked + label {
+  background-color: var(--bds-color-action-interactive);
+  border-color: var(--bds-color-action-interactive);
+}
+
+.c0 input.checked + label .label,
+.c0 input:checked + label .label {
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 input.checked + label .icon path,
+.c0 input:checked + label .icon path {
+  fill: var(--bds-color-icon-primary-inverse);
+}
+
+.c0 input.checked + label.subdued,
+.c0 input:checked + label.subdued {
+  background-color: var(--bds-color-action-interactive-subdued-pressed);
+  border-color: var(--bds-color-action-interactive-subdued-pressed);
+}
+
+.c0 input.checked + label.subdued .label,
+.c0 input:checked + label.subdued .label {
+  color: var(--bds-color-text-primary);
+}
+
+.c0 input.checked + label.subdued .icon path,
+.c0 input:checked + label.subdued .icon path {
+  fill: var(--bds-color-icon-primary);
+}
+
+.c0 input.disabled + label,
+.c0 input:disabled + label {
+  border-color: var(--bds-color-border-disabled);
+}
+
+.c0 input.disabled + label .label,
+.c0 input:disabled + label .label {
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 input.disabled + label .icon path,
+.c0 input:disabled + label .icon path {
+  fill: var(--bds-color-icon-disabled);
+}
+
+@media only screen and (min-width:var(--bds-grid-breakpoint-md-max)) {
+  .c0 label {
+    font-size: var(--bds-sizes-size-16);
+  }
+}
+
+<span
+    class="c0 backyard chip variant--input"
+  >
+    <input
+      class="chip--input"
+      id=""
+      role="checkbox"
+      type="checkbox"
+      value=""
+    />
+    <label
+      class="chip--label"
+      for=""
+    >
+      <span
+        class="label"
+      >
+        Test Label
+      </span>
+      <svg
+        aria-hidden="true"
+        class="c1 icon icon-close-circle-filled chip--delete"
+        role="presentation"
+        style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(0, 0%, 0%, 1);"
+        viewBox="0 0 16 16"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M8 14c3.2824 0 6-2.7176 6-6 0-3.2765-2.7235-6-6.0059-6C4.7176 2 2 4.7235 2 8c0 3.2824 2.7235 6 6 6Zm2.1059-3.3882a.4976.4976 0 0 1-.353-.1471L7.9941 8.7l-1.753 1.7647c-.0882.0941-.2117.1471-.3529.1471-.2706 0-.494-.2236-.494-.5 0-.1353.0529-.253.147-.3412L7.3 8.0059 5.5412 6.2412c-.0941-.0824-.147-.206-.147-.3412 0-.2706.2235-.4882.494-.4882.1412 0 .253.053.3412.147l1.7647 1.7589 1.7765-1.7648c.1-.1058.2118-.1529.3412-.1529a.4933.4933 0 0 1 .4941.4941c0 .1353-.0412.247-.1471.3412L8.6941 8.0059l1.7588 1.753c.0942.094.1471.2117.1471.3529 0 .2764-.2176.5-.4941.5Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </label>
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Chip Snapshots themes Chip dark theme snapshot 1`] = `
+<DocumentFragment>
+  .c0.c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.c0 input {
+  box-sizing: border-box;
+  border: none;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  padding: 0;
+}
+
+.c0 input:disabled,
+.c0 input:disabled + label {
+  pointer-events: none;
+}
+
+.c0 input:disabled:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  cursor: not-allowed;
+  pointer-events: all;
+}
+
+.c0 label {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-sizing: border-box;
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-20);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  border-width: var(--bds-sizes-size-1);
+  border-style: solid;
+  border-radius: var(--bds-border-radius-circle);
+  padding: 0 var(--bds-sizes-size-14);
+  height: var(--bds-sizes-size-40);
+  -webkit-transition: 0.2s all ease-in-out;
+  transition: 0.2s all ease-in-out;
+}
+
+.c0 label .chip--icon {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c0 label .chip--delete {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c0 input.enabled + label,
+.c0 input:enabled + label {
+  background-color: transparent;
+  border-color: var(--bds-color-border-default);
+}
+
+.c0 input.enabled + label .label,
+.c0 input:enabled + label .label {
+  color: var(--bds-color-text-primary);
+}
+
+.c0 input.enabled + label .icon path,
+.c0 input:enabled + label .icon path {
+  fill: var(--bds-color-icon-primary);
+}
+
+.c0 input.hover + label,
+.c0 input:hover:not(:disabled):not(:checked) + label,
+.c0 input:not(:disabled):not(:checked) + label:hover {
+  background-color: var(--bds-color-action-neutral-hover);
+  border-color: var(--bds-color-border-interactive);
+}
+
+.c0 input.focus + label,
+.c0 input:focus + label {
+  border-color: var(--bds-color-border-interactive);
+  box-shadow: 0 0 0 2px var(--bds-color-border-interactive);
+}
+
+.c0 input.checked + label,
+.c0 input:checked + label {
+  background-color: var(--bds-color-action-interactive);
+  border-color: var(--bds-color-action-interactive);
+}
+
+.c0 input.checked + label .label,
+.c0 input:checked + label .label {
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 input.checked + label .icon path,
+.c0 input:checked + label .icon path {
+  fill: var(--bds-color-icon-primary-inverse);
+}
+
+.c0 input.checked + label.subdued,
+.c0 input:checked + label.subdued {
+  background-color: var(--bds-color-action-interactive-subdued-pressed);
+  border-color: var(--bds-color-action-interactive-subdued-pressed);
+}
+
+.c0 input.checked + label.subdued .label,
+.c0 input:checked + label.subdued .label {
+  color: var(--bds-color-text-primary);
+}
+
+.c0 input.checked + label.subdued .icon path,
+.c0 input:checked + label.subdued .icon path {
+  fill: var(--bds-color-icon-primary);
+}
+
+.c0 input.disabled + label,
+.c0 input:disabled + label {
+  border-color: var(--bds-color-border-disabled);
+}
+
+.c0 input.disabled + label .label,
+.c0 input:disabled + label .label {
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 input.disabled + label .icon path,
+.c0 input:disabled + label .icon path {
+  fill: var(--bds-color-icon-disabled);
+}
+
+@media only screen and (min-width:var(--bds-grid-breakpoint-md-max)) {
+  .c0 label {
+    font-size: var(--bds-sizes-size-16);
+  }
+}
+
+<span
+    class="c0 backyard chip variant--filter"
+  >
+    <input
+      class="chip--input"
+      id=""
+      role="checkbox"
+      type="checkbox"
+      value=""
+    />
+    <label
+      class="chip--label"
+      for=""
+    >
+      <span
+        class="label"
+      >
+        Test Label
+      </span>
+    </label>
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Chip Snapshots themes Chip light theme snapshot 1`] = `
+<DocumentFragment>
+  .c0.c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.c0 input {
+  box-sizing: border-box;
+  border: none;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  padding: 0;
+}
+
+.c0 input:disabled,
+.c0 input:disabled + label {
+  pointer-events: none;
+}
+
+.c0 input:disabled:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  cursor: not-allowed;
+  pointer-events: all;
+}
+
+.c0 label {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-sizing: border-box;
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-20);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  border-width: var(--bds-sizes-size-1);
+  border-style: solid;
+  border-radius: var(--bds-border-radius-circle);
+  padding: 0 var(--bds-sizes-size-14);
+  height: var(--bds-sizes-size-40);
+  -webkit-transition: 0.2s all ease-in-out;
+  transition: 0.2s all ease-in-out;
+}
+
+.c0 label .chip--icon {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c0 label .chip--delete {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c0 input.enabled + label,
+.c0 input:enabled + label {
+  background-color: transparent;
+  border-color: var(--bds-color-border-default);
+}
+
+.c0 input.enabled + label .label,
+.c0 input:enabled + label .label {
+  color: var(--bds-color-text-primary);
+}
+
+.c0 input.enabled + label .icon path,
+.c0 input:enabled + label .icon path {
+  fill: var(--bds-color-icon-primary);
+}
+
+.c0 input.hover + label,
+.c0 input:hover:not(:disabled):not(:checked) + label,
+.c0 input:not(:disabled):not(:checked) + label:hover {
+  background-color: var(--bds-color-action-neutral-hover);
+  border-color: var(--bds-color-border-interactive);
+}
+
+.c0 input.focus + label,
+.c0 input:focus + label {
+  border-color: var(--bds-color-border-interactive);
+  box-shadow: 0 0 0 2px var(--bds-color-border-interactive);
+}
+
+.c0 input.checked + label,
+.c0 input:checked + label {
+  background-color: var(--bds-color-action-interactive);
+  border-color: var(--bds-color-action-interactive);
+}
+
+.c0 input.checked + label .label,
+.c0 input:checked + label .label {
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 input.checked + label .icon path,
+.c0 input:checked + label .icon path {
+  fill: var(--bds-color-icon-primary-inverse);
+}
+
+.c0 input.checked + label.subdued,
+.c0 input:checked + label.subdued {
+  background-color: var(--bds-color-action-interactive-subdued-pressed);
+  border-color: var(--bds-color-action-interactive-subdued-pressed);
+}
+
+.c0 input.checked + label.subdued .label,
+.c0 input:checked + label.subdued .label {
+  color: var(--bds-color-text-primary);
+}
+
+.c0 input.checked + label.subdued .icon path,
+.c0 input:checked + label.subdued .icon path {
+  fill: var(--bds-color-icon-primary);
+}
+
+.c0 input.disabled + label,
+.c0 input:disabled + label {
+  border-color: var(--bds-color-border-disabled);
+}
+
+.c0 input.disabled + label .label,
+.c0 input:disabled + label .label {
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 input.disabled + label .icon path,
+.c0 input:disabled + label .icon path {
+  fill: var(--bds-color-icon-disabled);
+}
+
+@media only screen and (min-width:var(--bds-grid-breakpoint-md-max)) {
+  .c0 label {
+    font-size: var(--bds-sizes-size-16);
+  }
+}
+
+<span
+    class="c0 backyard chip variant--filter"
+  >
+    <input
+      class="chip--input"
+      id=""
+      role="checkbox"
+      type="checkbox"
+      value=""
+    />
+    <label
+      class="chip--label"
+      for=""
+    >
+      <span
+        class="label"
+      >
+        Test Label
+      </span>
+    </label>
+  </span>
+</DocumentFragment>
+`;

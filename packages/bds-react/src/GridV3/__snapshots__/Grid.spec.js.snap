@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Grid Snapshots Grid default snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.c0.container--xs {
+  margin: 0 auto;
+  max-width: 20rem;
+}
+
+.c0.container--sm {
+  margin: 0 auto;
+  max-width: 42rem;
+}
+
+.c0.container--md {
+  margin: 0 auto;
+  max-width: 66rem;
+}
+
+.c0.container--lg {
+  margin: 0 auto;
+  max-width: 82rem;
+}
+
+.c0.container--xl {
+  margin: 0 auto;
+  max-width: 99rem;
+}
+
+.c0.container--xxl {
+  margin: 0 auto;
+  max-width: 117rem;
+}
+
+.c1 {
+  display: grid;
+  grid-template-columns: repeat(var(--cols-default),1fr);
+  grid-column-gap: var(--gap-default);
+  box-sizing: border-box;
+  margin-left: var(--gutter-default);
+  margin-right: var(--gutter-default);
+}
+
+.c2 {
+  box-sizing: border-box;
+  width: 100%;
+  grid-column-start: var(--col-start);
+  grid-column-end: var(--col-end);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: var(--justify-content);
+  -webkit-justify-content: var(--justify-content);
+  -ms-flex-pack: var(--justify-content);
+  justify-content: var(--justify-content);
+  justify-items: var(--justify-items);
+  -webkit-align-content: var(--align-content);
+  -ms-flex-line-pack: var(--align-content);
+  align-content: var(--align-content);
+  -webkit-align-items: var(--align-items);
+  -webkit-box-align: var(--align-items);
+  -ms-flex-align: var(--align-items);
+  align-items: var(--align-items);
+}
+
+@media only screen and (max-width:20rem) {
+  .c1 {
+    grid-template-columns: repeat(var(--cols-xs),1fr);
+    grid-column-gap: var(--gap-xs);
+    margin-left: var(--gutter-xs);
+    margin-right: var(--gutter-xs);
+  }
+}
+
+@media only screen  and (min-width:20.0625rem)  and (max-width:42rem) {
+  .c1 {
+    grid-template-columns: repeat(var(--cols-sm),1fr);
+    grid-column-gap: var(--gap-sm);
+    margin-left: var(--gutter-sm);
+    margin-right: var(--gutter-sm);
+  }
+}
+
+@media only screen  and (min-width:42.0625rem)  and (max-width:66rem) {
+  .c1 {
+    grid-template-columns: repeat(var(--cols-md),1fr);
+    grid-column-gap: var(--gap-md);
+    margin-left: var(--gutter-md);
+    margin-right: var(--gutter-md);
+  }
+}
+
+@media only screen  and (min-width:66.0625rem)  and (max-width:82rem) {
+  .c1 {
+    grid-template-columns: repeat(var(--cols-lg),1fr);
+    grid-column-gap: var(--gap-lg);
+    margin-left: var(--gutter-lg);
+    margin-right: var(--gutter-lg);
+  }
+}
+
+@media only screen  and (min-width:82.0625rem)  and (max-width:99rem) {
+  .c1 {
+    grid-template-columns: repeat(var(--cols-xl),1fr);
+    grid-column-gap: var(--gap-xl);
+    margin-left: var(--gutter-xl);
+    margin-right: var(--gutter-xl);
+  }
+}
+
+@media only screen  and (min-width:99.0625rem)  and (max-width:117rem) {
+  .c1 {
+    grid-template-columns: repeat(var(--cols-xxl),1fr);
+    grid-column-gap: var(--gap-xxl);
+    margin-left: var(--gutter-xxl);
+    margin-right: var(--gutter-xxl);
+  }
+}
+
+<div
+    class="c0 container"
+  >
+    <div
+      class="c1 row"
+      style="--gutter-default: var(--bds-sizes-size-16); --gutter-xs: var(--bds-sizes-size-16); --gutter-sm: var(--bds-sizes-size-32); --gutter-md: var(--bds-sizes-size-32); --gutter-lg: var(--bds-sizes-size-32); --gutter-xl: var(--bds-sizes-size-40); --gutter-xxl: var(--bds-sizes-size-56); --cols-default: 16; --cols-xs: 4; --cols-sm: 8; --cols-md: 16; --cols-lg: 16; --cols-xl: 16; --cols-xxl: 16; --gap-default: var(--bds-sizes-size-32); --gap-xs: var(--bds-sizes-size-32); --gap-sm: var(--bds-sizes-size-32); --gap-md: var(--bds-sizes-size-32); --gap-lg: var(--bds-sizes-size-32); --gap-xl: var(--bds-sizes-size-32); --gap-xxl: var(--bds-sizes-size-32);"
+    >
+      <div
+        class="c2 col"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

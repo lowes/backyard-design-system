@@ -1,0 +1,2368 @@
+{
+	"id": 0,
+	"name": "@lowes-tech/bds-react/ListSelector",
+	"kind": 1,
+	"kindString": "Project",
+	"flags": {},
+	"children": [
+		{
+			"id": 118,
+			"name": "default",
+			"kind": 16777216,
+			"kindString": "Reference",
+			"flags": {},
+			"target": 1
+		},
+		{
+			"id": 103,
+			"name": "ListOptionInfo",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 104,
+					"name": "container",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"type": {
+						"type": "reference",
+						"name": "HTMLUListElement"
+					}
+				},
+				{
+					"id": 110,
+					"name": "disabled",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 106,
+					"name": "index",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 105,
+					"name": "item",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"type": {
+						"type": "reference",
+						"name": "HTMLButtonElement"
+					}
+				},
+				{
+					"id": 107,
+					"name": "label",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 109,
+					"name": "text",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 108,
+					"name": "value",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						104,
+						110,
+						106,
+						105,
+						107,
+						109,
+						108
+					]
+				}
+			]
+		},
+		{
+			"id": 51,
+			"name": "ListSelectorMultipleProps",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 62,
+					"name": "as",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ElementType"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.as"
+					}
+				},
+				{
+					"id": 68,
+					"name": "buttonProps",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Props to define a unselected toggle button"
+					},
+					"type": {
+						"type": "reference",
+						"name": "ToggleButtonProps"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.buttonProps"
+					}
+				},
+				{
+					"id": 52,
+					"name": "children",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Children to define options from",
+						"text": "Required is `options` not defined,\nIs overridden by `options` if defined\n"
+					},
+					"type": {
+						"type": "array",
+						"elementType": {
+							"type": "reference",
+							"typeArguments": [
+								{
+									"type": "reference",
+									"name": "OptionProps"
+								},
+								{
+									"type": "union",
+									"types": [
+										{
+											"type": "intrinsic",
+											"name": "string"
+										},
+										{
+											"type": "reference",
+											"typeArguments": [
+												{
+													"type": "intrinsic",
+													"name": "any"
+												}
+											],
+											"name": "JSXElementConstructor"
+										}
+									]
+								}
+							],
+							"name": "ReactElement"
+						}
+					}
+				},
+				{
+					"id": 65,
+					"name": "className",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Adds a classname to the button group."
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.className"
+					}
+				},
+				{
+					"id": 66,
+					"name": "color",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Color of the grouped buttons"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "interactive"
+							},
+							{
+								"type": "literal",
+								"value": "neutral"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.color"
+					}
+				},
+				{
+					"id": 53,
+					"name": "defaultValue",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Default value of the multiselect"
+					},
+					"type": {
+						"type": "array",
+						"elementType": {
+							"type": "intrinsic",
+							"name": "string"
+						}
+					}
+				},
+				{
+					"id": 54,
+					"name": "enableGlobalKeyDown",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Enables the global key down listener to listen for arrow key interactions"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 71,
+					"name": "enforceSelected",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not toggle should enforce at least one toggle\nto be selected at all times",
+						"text": "When enabled, defaults `Toggle` value to value of first `ToggleButton` child\nif `defaultValue` prop is not given\n"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.enforceSelected"
+					}
+				},
+				{
+					"id": 70,
+					"name": "exclusive",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not toggle buttons are exclusively toggled",
+						"text": "When enabled, `Toggle` values are a single `string`\nWhen disabled, `Toggle` values are an array of `string`s\n"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.exclusive"
+					}
+				},
+				{
+					"id": 59,
+					"name": "options",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Options to define dropdown children from",
+						"text": "Required if `children` not defined.\nOverrides `children` if defined.\n"
+					},
+					"type": {
+						"type": "array",
+						"elementType": {
+							"type": "reference",
+							"id": 111,
+							"name": "ListSelectorOption"
+						}
+					}
+				},
+				{
+					"id": 69,
+					"name": "selectedButtonProps",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Props to define a selected toggle button"
+					},
+					"type": {
+						"type": "reference",
+						"name": "ToggleButtonProps"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.selectedButtonProps"
+					}
+				},
+				{
+					"id": 63,
+					"name": "shape",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Shape of the edges of the button group"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "rounded"
+							},
+							{
+								"type": "literal",
+								"value": "squared"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.shape"
+					}
+				},
+				{
+					"id": 64,
+					"name": "size",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "small"
+							},
+							{
+								"type": "literal",
+								"value": "medium"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.size"
+					}
+				},
+				{
+					"id": 60,
+					"name": "value",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Controlled value for dropdown"
+					},
+					"type": {
+						"type": "array",
+						"elementType": {
+							"type": "intrinsic",
+							"name": "string"
+						}
+					}
+				},
+				{
+					"id": 67,
+					"name": "variant",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Toggle variants"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "secondary"
+							},
+							{
+								"type": "literal",
+								"value": "ghost"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.variant"
+					}
+				},
+				{
+					"id": 61,
+					"name": "width",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Width override for ListWrapper\nCan be given a token (such as `size_128`) or other value (like `15rem`)"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 55,
+					"name": "onChange",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 56,
+							"name": "onChange",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onChange` trigger function for when either\nthe native component or the custom calendar change interaction occurs"
+							},
+							"parameters": [
+								{
+									"id": 57,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											},
+											{
+												"type": "reference",
+												"name": "MouseEvent"
+											}
+										],
+										"name": "MouseEvent"
+									}
+								},
+								{
+									"id": 58,
+									"name": "value",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "string"
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						62,
+						68,
+						52,
+						65,
+						66,
+						53,
+						54,
+						71,
+						70,
+						59,
+						69,
+						63,
+						64,
+						60,
+						67,
+						61
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						55
+					]
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"typeArguments": [
+						{
+							"type": "reference",
+							"name": "ToggleProps"
+						},
+						{
+							"type": "reference",
+							"name": "ListSelectorMultipleOverrideProps"
+						}
+					],
+					"name": "Omit"
+				}
+			]
+		},
+		{
+			"id": 111,
+			"name": "ListSelectorOption",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 114,
+					"name": "disabled",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 112,
+					"name": "label",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 115,
+					"name": "options",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "array",
+						"elementType": {
+							"type": "reference",
+							"id": 111,
+							"name": "ListSelectorOption"
+						}
+					}
+				},
+				{
+					"id": 113,
+					"name": "value",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "intrinsic",
+								"name": "number"
+							}
+						]
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						114,
+						112,
+						115,
+						113
+					]
+				}
+			],
+			"indexSignature": {
+				"id": 116,
+				"name": "__index",
+				"kind": 8192,
+				"kindString": "Index signature",
+				"flags": {},
+				"parameters": [
+					{
+						"id": 117,
+						"name": "key",
+						"kind": 32768,
+						"flags": {},
+						"type": {
+							"type": "intrinsic",
+							"name": "string"
+						}
+					}
+				],
+				"type": {
+					"type": "intrinsic",
+					"name": "any"
+				}
+			}
+		},
+		{
+			"id": 3,
+			"name": "ListSelectorProps",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 22,
+					"name": "as",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ElementType"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.as"
+					}
+				},
+				{
+					"id": 4,
+					"name": "children",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Children to define options from",
+						"text": "Required is `options` not defined,\nIs overridden by `options` if defined\n"
+					},
+					"type": {
+						"type": "array",
+						"elementType": {
+							"type": "reference",
+							"typeArguments": [
+								{
+									"type": "reference",
+									"name": "OptionProps"
+								},
+								{
+									"type": "union",
+									"types": [
+										{
+											"type": "intrinsic",
+											"name": "string"
+										},
+										{
+											"type": "reference",
+											"typeArguments": [
+												{
+													"type": "intrinsic",
+													"name": "any"
+												}
+											],
+											"name": "JSXElementConstructor"
+										}
+									]
+								}
+							],
+							"name": "ReactElement"
+						}
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.children"
+					}
+				},
+				{
+					"id": 19,
+					"name": "defaultValue",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Default value of the list selector"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "reference",
+								"name": "ListSelectorValue"
+							},
+							{
+								"type": "array",
+								"elementType": {
+									"type": "reference",
+									"name": "ListSelectorValue"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": 24,
+					"name": "enableGlobalKeyDown",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Enables the global key down listener to listen for arrow key interactions"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.enableGlobalKeyDown"
+					}
+				},
+				{
+					"id": 5,
+					"name": "multiple",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not list selector is multiple selection or single selection"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.multiple"
+					}
+				},
+				{
+					"id": 6,
+					"name": "onChange",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "`onChange` trigger function for when either\nthe native component or the custom calendar change interaction occurs"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "reflection",
+								"declaration": {
+									"id": 7,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {},
+									"signatures": [
+										{
+											"id": 8,
+											"name": "__type",
+											"kind": 4096,
+											"kindString": "Call signature",
+											"flags": {},
+											"comment": {
+												"shortText": "`onChange` trigger function for when either\nthe native component or the custom calendar change interaction occurs"
+											},
+											"parameters": [
+												{
+													"id": 9,
+													"name": "event",
+													"kind": 32768,
+													"kindString": "Parameter",
+													"flags": {},
+													"type": {
+														"type": "reference",
+														"typeArguments": [
+															{
+																"type": "reference",
+																"name": "Element"
+															},
+															{
+																"type": "reference",
+																"name": "MouseEvent"
+															}
+														],
+														"name": "MouseEvent"
+													}
+												},
+												{
+													"id": 10,
+													"name": "value",
+													"kind": 32768,
+													"kindString": "Parameter",
+													"flags": {},
+													"type": {
+														"type": "array",
+														"elementType": {
+															"type": "intrinsic",
+															"name": "string"
+														}
+													}
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "void"
+											}
+										}
+									]
+								}
+							},
+							{
+								"type": "reflection",
+								"declaration": {
+									"id": 11,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {},
+									"signatures": [
+										{
+											"id": 12,
+											"name": "__type",
+											"kind": 4096,
+											"kindString": "Call signature",
+											"flags": {},
+											"comment": {
+												"shortText": "`onChange` function to trigger",
+												"tags": [
+													{
+														"tag": "argument",
+														"text": "{React.ChangeEvent} event - DOM Event of `onChange`"
+													},
+													{
+														"tag": "argument",
+														"text": "{ListOptionIfno} info -  Selected list item info\n"
+													}
+												]
+											},
+											"parameters": [
+												{
+													"id": 13,
+													"name": "event",
+													"kind": 32768,
+													"kindString": "Parameter",
+													"flags": {},
+													"type": {
+														"type": "reference",
+														"typeArguments": [
+															{
+																"type": "reference",
+																"name": "Element"
+															}
+														],
+														"name": "ChangeEvent"
+													}
+												},
+												{
+													"id": 14,
+													"name": "item",
+													"kind": 32768,
+													"kindString": "Parameter",
+													"flags": {},
+													"type": {
+														"type": "reference",
+														"id": 103,
+														"name": "ListOptionInfo"
+													}
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "void"
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": 25,
+					"name": "options",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "List of selector options to render as list items",
+						"text": "Is required if `children` are not defined,\nWill override `children` if both defined.\n"
+					},
+					"type": {
+						"type": "array",
+						"elementType": {
+							"type": "reference",
+							"id": 111,
+							"name": "ListSelectorOption"
+						}
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.options"
+					}
+				},
+				{
+					"id": 21,
+					"name": "shape",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Shape of the first/last list item"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "rounded"
+							},
+							{
+								"type": "literal",
+								"value": "squared"
+							}
+						]
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.shape"
+					}
+				},
+				{
+					"id": 20,
+					"name": "value",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Value of the list selector"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "reference",
+								"name": "ListSelectorValue"
+							},
+							{
+								"type": "array",
+								"elementType": {
+									"type": "reference",
+									"name": "ListSelectorValue"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": 23,
+					"name": "width",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Width override for ListWrapper\nCan be given a token (such as `size_128`) or other value (like `15rem`)"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.width"
+					}
+				},
+				{
+					"id": 15,
+					"name": "renderItem",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 16,
+							"name": "renderItem",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "List item to render"
+							},
+							"parameters": [
+								{
+									"id": 17,
+									"name": "props",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"name": "ListOptionProps"
+									}
+								},
+								{
+									"id": 18,
+									"name": "ref",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "Ref"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									},
+									{
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "intrinsic",
+														"name": "any"
+													}
+												],
+												"name": "JSXElementConstructor"
+											}
+										]
+									}
+								],
+								"name": "ReactElement"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						22,
+						4,
+						19,
+						24,
+						5,
+						6,
+						25,
+						21,
+						20,
+						23
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						15
+					]
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"typeArguments": [
+						{
+							"type": "reference",
+							"name": "ListSelectorExtend"
+						},
+						{
+							"type": "reference",
+							"name": "ListSelectorOverrideProps"
+						}
+					],
+					"name": "Omit"
+				}
+			]
+		},
+		{
+			"id": 28,
+			"name": "ListSelectorSingleProps",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 38,
+					"name": "as",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ElementType"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"id": 102,
+						"name": "UseListSelectorProps.as"
+					}
+				},
+				{
+					"id": 35,
+					"name": "defaultValue",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Default value of the list selector"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "intrinsic",
+								"name": "number"
+							}
+						]
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.defaultValue"
+					}
+				},
+				{
+					"id": 29,
+					"name": "enableGlobalKeyDown",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Enables the global key down listener to listen for arrow key interactions"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 44,
+					"name": "innerRef",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Forwarded ref from `List`"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "reference",
+								"name": "HTMLUListElement"
+							}
+						],
+						"name": "RefObject"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"id": 100,
+						"name": "UseListSelectorProps.innerRef"
+					}
+				},
+				{
+					"id": 43,
+					"name": "innerref",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Ref of the container List"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "reference",
+								"name": "HTMLUListElement"
+							}
+						],
+						"name": "RefObject"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"id": 98,
+						"name": "UseListSelectorProps.innerref"
+					}
+				},
+				{
+					"id": 45,
+					"name": "options",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "List of selector options to render as list items",
+						"text": "Is required if `children` are not defined,\nWill override `children` if both defined.\n"
+					},
+					"type": {
+						"type": "array",
+						"elementType": {
+							"type": "reference",
+							"id": 111,
+							"name": "ListSelectorOption"
+						}
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"id": 101,
+						"name": "UseListSelectorProps.options"
+					}
+				},
+				{
+					"id": 37,
+					"name": "shape",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Shape of the list"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "rounded"
+							},
+							{
+								"type": "literal",
+								"value": "squared"
+							}
+						]
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.shape"
+					}
+				},
+				{
+					"id": 36,
+					"name": "value",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Value of the list selector"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "intrinsic",
+								"name": "number"
+							}
+						]
+					},
+					"overwrites": {
+						"type": "reference",
+						"id": 99,
+						"name": "UseListSelectorProps.value"
+					}
+				},
+				{
+					"id": 34,
+					"name": "width",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Width override for ListWrapper\nCan be given a token (such as `size_128`) or other value (like `15rem`)"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 39,
+					"name": "onChange",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 40,
+							"name": "onChange",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onChange` function to trigger",
+								"tags": [
+									{
+										"tag": "argument",
+										"text": "{React.ChangeEvent} event - DOM Event of `onChange`"
+									},
+									{
+										"tag": "argument",
+										"text": "{ListOptionIfno} info -  Selected list item info\n"
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 41,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											}
+										],
+										"name": "ChangeEvent"
+									}
+								},
+								{
+									"id": 42,
+									"name": "item",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"id": 103,
+										"name": "ListOptionInfo"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 95,
+								"name": "UseListSelectorProps.onChange"
+							}
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"id": 94,
+						"name": "UseListSelectorProps.onChange"
+					}
+				},
+				{
+					"id": 30,
+					"name": "renderItem",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 31,
+							"name": "renderItem",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "List item to render"
+							},
+							"parameters": [
+								{
+									"id": 32,
+									"name": "props",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"name": "ListOptionProps"
+									}
+								},
+								{
+									"id": 33,
+									"name": "ref",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "Ref"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									},
+									{
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "intrinsic",
+														"name": "any"
+													}
+												],
+												"name": "JSXElementConstructor"
+											}
+										]
+									}
+								],
+								"name": "ReactElement"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						38,
+						35,
+						29,
+						44,
+						43,
+						45,
+						37,
+						36,
+						34
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						39,
+						30
+					]
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"typeArguments": [
+						{
+							"type": "reference",
+							"id": 46,
+							"name": "ListSelectorSingleRef"
+						},
+						{
+							"type": "reference",
+							"name": "ListSelectorSingleOverrideProps"
+						}
+					],
+					"name": "BackyardBaseProps"
+				},
+				{
+					"type": "reference",
+					"id": 92,
+					"name": "UseListSelectorProps"
+				}
+			]
+		},
+		{
+			"id": 92,
+			"name": "UseListSelectorProps",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 102,
+					"name": "as",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ElementType"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "BackyardBaseProps.as"
+					}
+				},
+				{
+					"id": 93,
+					"name": "disabled",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not list item is disabled"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.disabled"
+					}
+				},
+				{
+					"id": 100,
+					"name": "innerRef",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Forwarded ref from `List`"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "reference",
+								"name": "HTMLUListElement"
+							}
+						],
+						"name": "RefObject"
+					}
+				},
+				{
+					"id": 98,
+					"name": "innerref",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Ref of the container List"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "reference",
+								"name": "HTMLUListElement"
+							}
+						],
+						"name": "RefObject"
+					}
+				},
+				{
+					"id": 101,
+					"name": "options",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "List of selector options to render as list items",
+						"text": "Is required if `children` are not defined,\nWill override `children` if both defined.\n"
+					},
+					"type": {
+						"type": "array",
+						"elementType": {
+							"type": "reference",
+							"id": 111,
+							"name": "ListSelectorOption"
+						}
+					}
+				},
+				{
+					"id": 99,
+					"name": "value",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Value of the list item"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "intrinsic",
+								"name": "number"
+							}
+						]
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.value"
+					}
+				},
+				{
+					"id": 94,
+					"name": "onChange",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 95,
+							"name": "onChange",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onChange` function to trigger",
+								"tags": [
+									{
+										"tag": "argument",
+										"text": "{React.ChangeEvent} event - DOM Event of `onChange`"
+									},
+									{
+										"tag": "argument",
+										"text": "{ListOptionIfno} info -  Selected list item info\n"
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 96,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											}
+										],
+										"name": "ChangeEvent"
+									}
+								},
+								{
+									"id": 97,
+									"name": "item",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"id": 103,
+										"name": "ListOptionInfo"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						102,
+						93,
+						100,
+						98,
+						101,
+						99
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						94
+					]
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"typeArguments": [
+						{
+							"type": "reference",
+							"id": 46,
+							"name": "ListSelectorSingleRef"
+						},
+						{
+							"type": "reference",
+							"name": "ListSelectorOverrideProps"
+						}
+					],
+					"name": "BackyardBaseProps"
+				}
+			],
+			"extendedBy": [
+				{
+					"type": "reference",
+					"id": 28,
+					"name": "ListSelectorSingleProps"
+				}
+			]
+		},
+		{
+			"id": 50,
+			"name": "ListSelectorMultipleRef",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"type": {
+				"type": "reference",
+				"name": "ToggleRef"
+			}
+		},
+		{
+			"id": 26,
+			"name": "ListSelectorRef",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"type": {
+				"type": "intersection",
+				"types": [
+					{
+						"type": "reference",
+						"id": 50,
+						"name": "ListSelectorMultipleRef"
+					},
+					{
+						"type": "reference",
+						"id": 46,
+						"name": "ListSelectorSingleRef"
+					}
+				]
+			}
+		},
+		{
+			"id": 46,
+			"name": "ListSelectorSingleRef",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"type": {
+				"type": "reference",
+				"name": "HTMLUListElement"
+			}
+		},
+		{
+			"id": 2,
+			"name": "List",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"id": 3,
+						"name": "ListSelectorProps"
+					}
+				],
+				"name": "BDSForwardRef"
+			},
+			"defaultValue": "ListSelector"
+		},
+		{
+			"id": 1,
+			"name": "ListSelector",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"comment": {
+				"shortText": "Backyard React List Selector (List)",
+				"text": "`List` provides a method for selecting a single or multiple option out of a list of options.\n\nIt functions similarly to a `Select` or `Multiselect` but offers a different, more customized presentation to the user.\n\nFor a non-selected list of options for a user to trigger actions from, use `Menu`.\n\nExample:\n```\n <List>\n     <ListOption\n         icon={<Location />}\n     >\n         New York\n     </ListOption>\n     <ListOption\n         icon={<Location />}\n     >\n         New Jersey\n     </ListOption>\n     <ListOption\n         icon={<Location />}\n     >\n         Charlotte\n     </ListOption>\n     <ListOption\n         icon={<Location />}\n     >\n         Atlanta\n     </ListOption>\n </List>\n```\n"
+			},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"id": 3,
+						"name": "ListSelectorProps"
+					}
+				],
+				"name": "BDSForwardRef"
+			},
+			"defaultValue": "..."
+		},
+		{
+			"id": 72,
+			"name": "useListSelector",
+			"kind": 64,
+			"kindString": "Function",
+			"flags": {
+				"isConst": true
+			},
+			"signatures": [
+				{
+					"id": 73,
+					"name": "useListSelector",
+					"kind": 4096,
+					"kindString": "Call signature",
+					"flags": {},
+					"parameters": [
+						{
+							"id": 74,
+							"name": "__namedParameters",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"id": 92,
+								"name": "UseListSelectorProps"
+							}
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 75,
+							"name": "__type",
+							"kind": 65536,
+							"kindString": "Type literal",
+							"flags": {},
+							"children": [
+								{
+									"id": 77,
+									"name": "as",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isOptional": true
+									},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "ElementType"
+									}
+								},
+								{
+									"id": 76,
+									"name": "innerref",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isOptional": true
+									},
+									"comment": {
+										"shortText": "Ref of the container List"
+									},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "HTMLUListElement"
+											}
+										],
+										"name": "RefObject"
+									}
+								},
+								{
+									"id": 79,
+									"name": "items",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {},
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "reflection",
+											"declaration": {
+												"id": 80,
+												"name": "__type",
+												"kind": 65536,
+												"kindString": "Type literal",
+												"flags": {},
+												"children": [
+													{
+														"id": 91,
+														"name": "aria-current",
+														"kind": 1024,
+														"kindString": "Property",
+														"flags": {},
+														"type": {
+															"type": "intrinsic",
+															"name": "string"
+														},
+														"defaultValue": "..."
+													},
+													{
+														"id": 89,
+														"name": "data-selected",
+														"kind": 1024,
+														"kindString": "Property",
+														"flags": {},
+														"type": {
+															"type": "intrinsic",
+															"name": "string"
+														},
+														"defaultValue": "..."
+													},
+													{
+														"id": 90,
+														"name": "disabled",
+														"kind": 1024,
+														"kindString": "Property",
+														"flags": {},
+														"type": {
+															"type": "intrinsic",
+															"name": "boolean"
+														}
+													},
+													{
+														"id": 87,
+														"name": "index",
+														"kind": 1024,
+														"kindString": "Property",
+														"flags": {},
+														"type": {
+															"type": "intrinsic",
+															"name": "number"
+														}
+													},
+													{
+														"id": 83,
+														"name": "onClick",
+														"kind": 1024,
+														"kindString": "Property",
+														"flags": {},
+														"type": {
+															"type": "reflection",
+															"declaration": {
+																"id": 84,
+																"name": "__type",
+																"kind": 65536,
+																"kindString": "Type literal",
+																"flags": {},
+																"signatures": [
+																	{
+																		"id": 85,
+																		"name": "__type",
+																		"kind": 4096,
+																		"kindString": "Call signature",
+																		"flags": {},
+																		"parameters": [
+																			{
+																				"id": 86,
+																				"name": "event",
+																				"kind": 32768,
+																				"kindString": "Parameter",
+																				"flags": {},
+																				"type": {
+																					"type": "intrinsic",
+																					"name": "any"
+																				}
+																			}
+																		],
+																		"type": {
+																			"type": "intrinsic",
+																			"name": "void"
+																		}
+																	}
+																]
+															}
+														},
+														"defaultValue": "..."
+													},
+													{
+														"id": 82,
+														"name": "ref",
+														"kind": 1024,
+														"kindString": "Property",
+														"flags": {},
+														"type": {
+															"type": "reference",
+															"typeArguments": [
+																{
+																	"type": "reference",
+																	"name": "HTMLButtonElement"
+																}
+															],
+															"name": "RefObject"
+														},
+														"defaultValue": "..."
+													},
+													{
+														"id": 88,
+														"name": "selected",
+														"kind": 1024,
+														"kindString": "Property",
+														"flags": {},
+														"type": {
+															"type": "intrinsic",
+															"name": "boolean"
+														},
+														"defaultValue": "isSelected"
+													},
+													{
+														"id": 81,
+														"name": "value",
+														"kind": 1024,
+														"kindString": "Property",
+														"flags": {},
+														"type": {
+															"type": "union",
+															"types": [
+																{
+																	"type": "intrinsic",
+																	"name": "string"
+																},
+																{
+																	"type": "intrinsic",
+																	"name": "number"
+																}
+															]
+														},
+														"defaultValue": "itemValue"
+													}
+												],
+												"groups": [
+													{
+														"title": "Properties",
+														"kind": 1024,
+														"children": [
+															91,
+															89,
+															90,
+															87,
+															83,
+															82,
+															88,
+															81
+														]
+													}
+												]
+											}
+										}
+									}
+								},
+								{
+									"id": 78,
+									"name": "refs",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "array",
+												"elementType": {
+													"type": "reference",
+													"typeArguments": [
+														{
+															"type": "reference",
+															"name": "HTMLButtonElement"
+														}
+													],
+													"name": "RefObject"
+												}
+											}
+										],
+										"name": "MutableRefObject"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"kind": 1024,
+									"children": [
+										77,
+										76,
+										79,
+										78
+									]
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+	],
+	"groups": [
+		{
+			"title": "References",
+			"kind": 16777216,
+			"children": [
+				118
+			]
+		},
+		{
+			"title": "Interfaces",
+			"kind": 256,
+			"children": [
+				103,
+				51,
+				111,
+				3,
+				28,
+				92
+			]
+		},
+		{
+			"title": "Type aliases",
+			"kind": 4194304,
+			"children": [
+				50,
+				26,
+				46
+			]
+		},
+		{
+			"title": "Variables",
+			"kind": 32,
+			"children": [
+				2,
+				1
+			]
+		},
+		{
+			"title": "Functions",
+			"kind": 64,
+			"children": [
+				72
+			]
+		}
+	]
+}

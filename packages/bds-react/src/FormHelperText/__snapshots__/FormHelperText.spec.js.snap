@@ -1,0 +1,618 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormHelperText Snapshots FormHelperText default snapshot 1`] = `
+<DocumentFragment>
+  .c1 {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  color: hsl(0,0%,0%,.87);
+  font-size: var(--bds-font-tag-helper-text-mobile-font-size);
+  line-height: var(--bds-font-tag-helper-text-mobile-line-height);
+}
+
+.c0 {
+  margin: 0;
+  padding-top: 0.25rem;
+}
+
+.c0 .typography {
+  color: hsl(0,0%,0%,.60);
+}
+
+.c0 .typography .icon path {
+  fill: hsl(0,0%,0%,.60);
+}
+
+.c0 .icon {
+  vertical-align: text-top;
+}
+
+.c0 .helper-text-icon {
+  margin-right: 0.5rem;
+}
+
+.c0.c0.indent .typography {
+  padding-left: var(--helper-text-indent);
+}
+
+.c0.c0.disabled .typography {
+  color: hsl(0,0%,0%,.30);
+}
+
+.c0.c0.disabled .typography .icon path {
+  fill: hsl(0,0%,0%,.30);
+}
+
+.c0.error .typography {
+  color: hsl(350,73%,35%,1);
+}
+
+.c0.error .typography .icon path {
+  fill: hsl(350,73%,35%,1);
+}
+
+.c0.success .typography {
+  color: hsl(142,86%,28%,1);
+}
+
+.c0.success .typography .icon path {
+  fill: hsl(142,86%,28%,1);
+}
+
+.c0.warning .typography {
+  color: hsl(350,73%,35%,1);
+}
+
+.c0.warning .typography .icon path {
+  fill: hsl(350,73%,35%,1);
+}
+
+.c0.info .typography {
+  color: hsl(213,84%,45%,1);
+}
+
+.c0.info .typography .icon path {
+  fill: hsl(213,84%,45%,1);
+}
+
+@media only screen and (min-width:66rem) {
+  .c1 {
+    font-size: var(--bds-font-tag-helper-text-desktop-font-size);
+    line-height: var(--bds-font-tag-helper-text-desktop-line-height);
+  }
+}
+
+<span
+    class="c0 helper-text indent"
+  >
+    <span
+      class="c1 typography variant--helper align--left"
+      color="text_primary"
+      style="padding-left: 1rem;"
+    >
+      Helper Text
+    </span>
+  </span>
+</DocumentFragment>
+`;
+
+exports[`FormHelperText Snapshots prop: icon FormHeading icon snapshot 1`] = `
+<DocumentFragment>
+  .c2 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c2:not(.color-override) g,
+.c2:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c2:not(.color-override) g[stroke-width],
+.c2:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c2:not(.color-override) g[stroke-width] *,
+.c2:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c2.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c2.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c1 {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  color: hsl(0,0%,0%,.87);
+  font-size: var(--bds-font-tag-helper-text-mobile-font-size);
+  line-height: var(--bds-font-tag-helper-text-mobile-line-height);
+}
+
+.c0 {
+  margin: 0;
+  padding-top: 0.25rem;
+}
+
+.c0 .typography {
+  color: hsl(0,0%,0%,.60);
+}
+
+.c0 .typography .icon path {
+  fill: hsl(0,0%,0%,.60);
+}
+
+.c0 .icon {
+  vertical-align: text-top;
+}
+
+.c0 .helper-text-icon {
+  margin-right: 0.5rem;
+}
+
+.c0.c0.indent .typography {
+  padding-left: var(--helper-text-indent);
+}
+
+.c0.c0.disabled .typography {
+  color: hsl(0,0%,0%,.30);
+}
+
+.c0.c0.disabled .typography .icon path {
+  fill: hsl(0,0%,0%,.30);
+}
+
+.c0.error .typography {
+  color: hsl(350,73%,35%,1);
+}
+
+.c0.error .typography .icon path {
+  fill: hsl(350,73%,35%,1);
+}
+
+.c0.success .typography {
+  color: hsl(142,86%,28%,1);
+}
+
+.c0.success .typography .icon path {
+  fill: hsl(142,86%,28%,1);
+}
+
+.c0.warning .typography {
+  color: hsl(350,73%,35%,1);
+}
+
+.c0.warning .typography .icon path {
+  fill: hsl(350,73%,35%,1);
+}
+
+.c0.info .typography {
+  color: hsl(213,84%,45%,1);
+}
+
+.c0.info .typography .icon path {
+  fill: hsl(213,84%,45%,1);
+}
+
+@media only screen and (min-width:66rem) {
+  .c1 {
+    font-size: var(--bds-font-tag-helper-text-desktop-font-size);
+    line-height: var(--bds-font-tag-helper-text-desktop-line-height);
+  }
+}
+
+<span
+    class="c0 helper-text indent"
+  >
+    <span
+      class="c1 typography variant--helper align--left"
+      color="text_primary"
+      style="padding-left: 1rem;"
+    >
+      <svg
+        aria-hidden="true"
+        class="c2 icon icon-info-outlined helper-text-icon"
+        role="presentation"
+        style="--style-icon-height: 0.75rem; --style-icon-width: 0.75rem; --style-icon-color: hsl(0, 0%, 0%, 1);"
+        viewBox="0 0 16 16"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M8 14c3.2824 0 6-2.7176 6-6 0-3.2765-2.7235-6-6.0059-6C4.7176 2 2 4.7235 2 8c0 3.2824 2.7235 6 6 6Zm0-1c-2.7765 0-4.9941-2.2235-4.9941-5 0-2.7706 2.2117-5 4.9882-5s5 2.2294 5.0059 5c.0059 2.7765-2.2235 5-5 5Zm-.053-7.0941c.4295 0 .7648-.3412.7648-.7647 0-.4294-.3353-.7706-.7647-.7706-.4236 0-.7648.3412-.7648.7706 0 .4235.3412.7647.7648.7647Zm1.4177 5.3294c.2412 0 .4294-.1706.4294-.4118 0-.2294-.1882-.4117-.4294-.4117h-.7294V7.4177c0-.3177-.1588-.5295-.4588-.5295h-1.106c-.241 0-.4293.1824-.4293.4118 0 .2412.1882.4118.4294.4118H7.7v2.7h-.7294c-.2412 0-.4294.1823-.4294.4117 0 .2412.1882.4118.4294.4118h2.3941Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+      Helper Text
+    </span>
+  </span>
+</DocumentFragment>
+`;
+
+exports[`FormHelperText Snapshots prop: indent FormHeading default snapshot 1`] = `
+<DocumentFragment>
+  .c1 {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  color: hsl(0,0%,0%,.87);
+  font-size: var(--bds-font-tag-helper-text-mobile-font-size);
+  line-height: var(--bds-font-tag-helper-text-mobile-line-height);
+}
+
+.c0 {
+  margin: 0;
+  padding-top: 0.25rem;
+}
+
+.c0 .typography {
+  color: hsl(0,0%,0%,.60);
+}
+
+.c0 .typography .icon path {
+  fill: hsl(0,0%,0%,.60);
+}
+
+.c0 .icon {
+  vertical-align: text-top;
+}
+
+.c0 .helper-text-icon {
+  margin-right: 0.5rem;
+}
+
+.c0.c0.indent .typography {
+  padding-left: var(--helper-text-indent);
+}
+
+.c0.c0.disabled .typography {
+  color: hsl(0,0%,0%,.30);
+}
+
+.c0.c0.disabled .typography .icon path {
+  fill: hsl(0,0%,0%,.30);
+}
+
+.c0.error .typography {
+  color: hsl(350,73%,35%,1);
+}
+
+.c0.error .typography .icon path {
+  fill: hsl(350,73%,35%,1);
+}
+
+.c0.success .typography {
+  color: hsl(142,86%,28%,1);
+}
+
+.c0.success .typography .icon path {
+  fill: hsl(142,86%,28%,1);
+}
+
+.c0.warning .typography {
+  color: hsl(350,73%,35%,1);
+}
+
+.c0.warning .typography .icon path {
+  fill: hsl(350,73%,35%,1);
+}
+
+.c0.info .typography {
+  color: hsl(213,84%,45%,1);
+}
+
+.c0.info .typography .icon path {
+  fill: hsl(213,84%,45%,1);
+}
+
+@media only screen and (min-width:66rem) {
+  .c1 {
+    font-size: var(--bds-font-tag-helper-text-desktop-font-size);
+    line-height: var(--bds-font-tag-helper-text-desktop-line-height);
+  }
+}
+
+<span
+    class="c0 helper-text"
+  >
+    <span
+      class="c1 typography variant--helper align--left"
+      color="text_primary"
+    >
+      Helper Text
+    </span>
+  </span>
+</DocumentFragment>
+`;
+
+exports[`FormHelperText Snapshots prop: indent FormHeading true snapshot 1`] = `
+<DocumentFragment>
+  .c1 {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  color: hsl(0,0%,0%,.87);
+  font-size: var(--bds-font-tag-helper-text-mobile-font-size);
+  line-height: var(--bds-font-tag-helper-text-mobile-line-height);
+}
+
+.c0 {
+  margin: 0;
+  padding-top: 0.25rem;
+}
+
+.c0 .typography {
+  color: hsl(0,0%,0%,.60);
+}
+
+.c0 .typography .icon path {
+  fill: hsl(0,0%,0%,.60);
+}
+
+.c0 .icon {
+  vertical-align: text-top;
+}
+
+.c0 .helper-text-icon {
+  margin-right: 0.5rem;
+}
+
+.c0.c0.indent .typography {
+  padding-left: var(--helper-text-indent);
+}
+
+.c0.c0.disabled .typography {
+  color: hsl(0,0%,0%,.30);
+}
+
+.c0.c0.disabled .typography .icon path {
+  fill: hsl(0,0%,0%,.30);
+}
+
+.c0.error .typography {
+  color: hsl(350,73%,35%,1);
+}
+
+.c0.error .typography .icon path {
+  fill: hsl(350,73%,35%,1);
+}
+
+.c0.success .typography {
+  color: hsl(142,86%,28%,1);
+}
+
+.c0.success .typography .icon path {
+  fill: hsl(142,86%,28%,1);
+}
+
+.c0.warning .typography {
+  color: hsl(350,73%,35%,1);
+}
+
+.c0.warning .typography .icon path {
+  fill: hsl(350,73%,35%,1);
+}
+
+.c0.info .typography {
+  color: hsl(213,84%,45%,1);
+}
+
+.c0.info .typography .icon path {
+  fill: hsl(213,84%,45%,1);
+}
+
+@media only screen and (min-width:66rem) {
+  .c1 {
+    font-size: var(--bds-font-tag-helper-text-desktop-font-size);
+    line-height: var(--bds-font-tag-helper-text-desktop-line-height);
+  }
+}
+
+<span
+    class="c0 helper-text indent"
+  >
+    <span
+      class="c1 typography variant--helper align--left"
+      color="text_primary"
+      style="padding-left: 1rem;"
+    >
+      Helper Text
+    </span>
+  </span>
+</DocumentFragment>
+`;
+
+exports[`FormHelperText Snapshots themes FormHeading dark theme snapshot 1`] = `
+<DocumentFragment>
+  .c1 {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  color: hsl(0,0%,100%,.87);
+  font-size: var(--bds-font-tag-helper-text-mobile-font-size);
+  line-height: var(--bds-font-tag-helper-text-mobile-line-height);
+}
+
+.c0 {
+  margin: 0;
+  padding-top: 0.25rem;
+}
+
+.c0 .typography {
+  color: hsl(0,0%,100%,.60);
+}
+
+.c0 .typography .icon path {
+  fill: hsl(0,0%,100%,.60);
+}
+
+.c0 .icon {
+  vertical-align: text-top;
+}
+
+.c0 .helper-text-icon {
+  margin-right: 0.5rem;
+}
+
+.c0.c0.indent .typography {
+  padding-left: var(--helper-text-indent);
+}
+
+.c0.c0.disabled .typography {
+  color: hsl(0,0%,100%,.30);
+}
+
+.c0.c0.disabled .typography .icon path {
+  fill: hsl(0,0%,100%,.30);
+}
+
+.c0.error .typography {
+  color: hsl(350,40%,64%,1);
+}
+
+.c0.error .typography .icon path {
+  fill: hsl(350,40%,64%,1);
+}
+
+.c0.success .typography {
+  color: hsl(142,37%,48%,1);
+}
+
+.c0.success .typography .icon path {
+  fill: hsl(142,37%,48%,1);
+}
+
+.c0.warning .typography {
+  color: hsl(350,40%,64%,1);
+}
+
+.c0.warning .typography .icon path {
+  fill: hsl(350,40%,64%,1);
+}
+
+.c0.info .typography {
+  color: hsl(213,73%,68%,1);
+}
+
+.c0.info .typography .icon path {
+  fill: hsl(213,73%,68%,1);
+}
+
+@media only screen and (min-width:66rem) {
+  .c1 {
+    font-size: var(--bds-font-tag-helper-text-desktop-font-size);
+    line-height: var(--bds-font-tag-helper-text-desktop-line-height);
+  }
+}
+
+<span
+    class="c0 helper-text indent"
+  >
+    <span
+      class="c1 typography variant--helper align--left"
+      color="text_primary"
+      style="padding-left: 1rem;"
+    >
+      Helper Text
+    </span>
+  </span>
+</DocumentFragment>
+`;
+
+exports[`FormHelperText Snapshots themes FormHeading light theme snapshot 1`] = `
+<DocumentFragment>
+  .c1 {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  color: hsl(0,0%,0%,.87);
+  font-size: var(--bds-font-tag-helper-text-mobile-font-size);
+  line-height: var(--bds-font-tag-helper-text-mobile-line-height);
+}
+
+.c0 {
+  margin: 0;
+  padding-top: 0.25rem;
+}
+
+.c0 .typography {
+  color: hsl(0,0%,0%,.60);
+}
+
+.c0 .typography .icon path {
+  fill: hsl(0,0%,0%,.60);
+}
+
+.c0 .icon {
+  vertical-align: text-top;
+}
+
+.c0 .helper-text-icon {
+  margin-right: 0.5rem;
+}
+
+.c0.c0.indent .typography {
+  padding-left: var(--helper-text-indent);
+}
+
+.c0.c0.disabled .typography {
+  color: hsl(0,0%,0%,.30);
+}
+
+.c0.c0.disabled .typography .icon path {
+  fill: hsl(0,0%,0%,.30);
+}
+
+.c0.error .typography {
+  color: hsl(350,73%,35%,1);
+}
+
+.c0.error .typography .icon path {
+  fill: hsl(350,73%,35%,1);
+}
+
+.c0.success .typography {
+  color: hsl(142,86%,28%,1);
+}
+
+.c0.success .typography .icon path {
+  fill: hsl(142,86%,28%,1);
+}
+
+.c0.warning .typography {
+  color: hsl(350,73%,35%,1);
+}
+
+.c0.warning .typography .icon path {
+  fill: hsl(350,73%,35%,1);
+}
+
+.c0.info .typography {
+  color: hsl(213,84%,45%,1);
+}
+
+.c0.info .typography .icon path {
+  fill: hsl(213,84%,45%,1);
+}
+
+@media only screen and (min-width:66rem) {
+  .c1 {
+    font-size: var(--bds-font-tag-helper-text-desktop-font-size);
+    line-height: var(--bds-font-tag-helper-text-desktop-line-height);
+  }
+}
+
+<span
+    class="c0 helper-text indent"
+  >
+    <span
+      class="c1 typography variant--helper align--left"
+      color="text_primary"
+      style="padding-left: 1rem;"
+    >
+      Helper Text
+    </span>
+  </span>
+</DocumentFragment>
+`;

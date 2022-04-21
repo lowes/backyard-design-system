@@ -1,0 +1,894 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tabs Snapshots Tabs default snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c0.shape--rounded .tablist > .tab {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c0.shape--squared .tablist {
+  border-radius: 0;
+}
+
+.c0.shape--squared .tablist > .tab {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c0 .tabs {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  padding: 0;
+}
+
+.c0 .tabs .tablist {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 100%;
+  background-color: trasparent;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.c0 .content-container {
+  width: 100%;
+}
+
+.c0 .tabs .carousel-item {
+  margin: 0;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c0 .tabs .carousel-button-left.carousel-button-left.carousel-button-left.carousel-button-left,
+.c0 .tabs .carousel-button-right.carousel-button-right.carousel-button-right.carousel-button-right {
+  background-color: transparent;
+  width: 2.375rem;
+  height: 2.375rem;
+  padding: auto;
+}
+
+.c0 .tabs .carousel-button-left.carousel-button-left.carousel-button-left.carousel-button-left:hover,
+.c0 .tabs .carousel-button-right.carousel-button-right.carousel-button-right.carousel-button-right:hover {
+  border-bottom-color: var(--bds-color-action-interactive-hover);
+}
+
+.c0 .tabs .carousel-button-left.carousel-button-left.carousel-button-left.carousel-button-left:focus,
+.c0 .tabs .carousel-button-right.carousel-button-right.carousel-button-right.carousel-button-right:focus {
+  box-shadow: inset 0 0 0 var(--bds-sizes-size-2) var(--bds-color-action-interactive);
+}
+
+.c0 .tabs .carousel-button-left.carousel-button-left.carousel-button-left.carousel-button-left .icon path,
+.c0 .tabs .carousel-button-right.carousel-button-right.carousel-button-right.carousel-button-right .icon path {
+  fill: hsl(213,84%,45%,1);
+}
+
+.c0 .tabs .carousel-content {
+  width: 100%;
+  padding: 0;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+
+.c3 {
+  display: none;
+  padding: 0;
+}
+
+.c3.selected {
+  display: block;
+}
+
+.c1.tab {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  width: 100%;
+  height: var(--bds-sizes-size-40);
+  outline: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  padding: 0 var(--bds-sizes-size-20);
+  margin: 0;
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid var(--bds-color-border-subdued);
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.c1.tab:hover:not(.selected):not(.disabled),
+.c1.tab.hover:not(.selected):not(.disabled) {
+  border-bottom-color: var(--bds-color-action-interactive);
+}
+
+.c1.tab.selected {
+  border-bottom-color: var(--bds-color-action-interactive);
+  box-shadow: 0 1px 0 var(--bds-color-action-interactive);
+}
+
+.c1.tab.selected:focus,
+.c1.tab.selected.focus {
+  outline: none;
+  z-index: 1;
+  box-shadow: 0 0 0 var(--bds-sizes-size-1) var(--bds-color-action-interactive);
+}
+
+.c1.tab.disabled {
+  z-index: 0;
+  cursor: not-allowed;
+}
+
+.c1.tab.disabled > p {
+  color: var(--bds-color-text-disabled);
+}
+
+.c1.tab:focus,
+.c1.tab.focus {
+  outline: none;
+  z-index: 1;
+  box-shadow: 0 0 0 var(--bds-sizes-size-1) var(--bds-color-action-interactive);
+}
+
+.c2 {
+  color: hsl(0,0%,0%,.87);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  color: hsl(0,0%,0%,.87);
+}
+
+.c2.align--left {
+  text-align: left;
+}
+
+.c2.align--center {
+  text-align: center;
+}
+
+.c2.align--right {
+  text-align: right;
+}
+
+.c2.display--block {
+  display: block;
+}
+
+.c2.display--inline {
+  display: inline;
+}
+
+.c2 b,
+.c2 bold,
+.c2 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c2.bold {
+  font-weight: 500;
+}
+
+.c2.c2.c2.body_1 {
+  font-size: var(--bds-font-tag-body-1-mobile-font-size);
+  line-height: var(--bds-font-tag-body-1-mobile-line-height);
+}
+
+.c2.c2.c2.body_2 {
+  font-size: var(--bds-font-tag-body-2-mobile-font-size);
+  line-height: var(--bds-font-tag-body-2-mobile-line-height);
+}
+
+@media only screen and (min-width:var(--bds-grid-breakpoint-md-max)) {
+  .c3 {
+    padding-top: var(--bds-sizes-size-16);
+  }
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c2.c2.c2.body_1 {
+    font-size: var(--bds-font-tag-body-1-desktop-font-size);
+    line-height: var(--bds-font-tag-body-1-desktop-line-height);
+  }
+
+  .c2.c2.c2.body_2 {
+    font-size: var(--bds-font-tag-body-2-desktop-font-size);
+    line-height: var(--bds-font-tag-body-2-desktop-line-height);
+  }
+}
+
+<div
+    class="c0 tabs-wrapper shape--rounded"
+    role="navigation"
+  >
+    <div
+      class="tabs"
+    >
+      <div
+        class="tablist"
+        role="tablist"
+      >
+        <button
+          aria-controls="tab-1-panel"
+          aria-selected="true"
+          class="c1 tab selected"
+          id="tab-1"
+          role="tab"
+        >
+          <p
+            class="c2 typography variant--body_2 align--left bold body_2"
+            color="text_primary"
+          >
+            Tab one
+          </p>
+        </button>
+      </div>
+    </div>
+    <div
+      class="c3 tab-content selected"
+      id="tab-1-panel"
+      role="tabpanel"
+    >
+      <span
+        class="typography variant--body align--left"
+        color="text_primary"
+      >
+        This is tab one's content.
+      </span>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tabs Snapshots Tabs in different themes 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c0.shape--rounded .tablist > .tab {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c0.shape--squared .tablist {
+  border-radius: 0;
+}
+
+.c0.shape--squared .tablist > .tab {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c0 .tabs {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  padding: 0;
+}
+
+.c0 .tabs .tablist {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 100%;
+  background-color: trasparent;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.c0 .content-container {
+  width: 100%;
+}
+
+.c0 .tabs .carousel-item {
+  margin: 0;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c0 .tabs .carousel-button-left.carousel-button-left.carousel-button-left.carousel-button-left,
+.c0 .tabs .carousel-button-right.carousel-button-right.carousel-button-right.carousel-button-right {
+  background-color: transparent;
+  width: 2.375rem;
+  height: 2.375rem;
+  padding: auto;
+}
+
+.c0 .tabs .carousel-button-left.carousel-button-left.carousel-button-left.carousel-button-left:hover,
+.c0 .tabs .carousel-button-right.carousel-button-right.carousel-button-right.carousel-button-right:hover {
+  border-bottom-color: var(--bds-color-action-interactive-hover);
+}
+
+.c0 .tabs .carousel-button-left.carousel-button-left.carousel-button-left.carousel-button-left:focus,
+.c0 .tabs .carousel-button-right.carousel-button-right.carousel-button-right.carousel-button-right:focus {
+  box-shadow: inset 0 0 0 var(--bds-sizes-size-2) var(--bds-color-action-interactive);
+}
+
+.c0 .tabs .carousel-button-left.carousel-button-left.carousel-button-left.carousel-button-left .icon path,
+.c0 .tabs .carousel-button-right.carousel-button-right.carousel-button-right.carousel-button-right .icon path {
+  fill: hsl(213,84%,45%,1);
+}
+
+.c0 .tabs .carousel-content {
+  width: 100%;
+  padding: 0;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+
+.c3 {
+  display: none;
+  padding: 0;
+}
+
+.c3.selected {
+  display: block;
+}
+
+.c1.tab {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  width: 100%;
+  height: var(--bds-sizes-size-40);
+  outline: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  padding: 0 var(--bds-sizes-size-20);
+  margin: 0;
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid var(--bds-color-border-subdued);
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.c1.tab:hover:not(.selected):not(.disabled),
+.c1.tab.hover:not(.selected):not(.disabled) {
+  border-bottom-color: var(--bds-color-action-interactive);
+}
+
+.c1.tab.selected {
+  border-bottom-color: var(--bds-color-action-interactive);
+  box-shadow: 0 1px 0 var(--bds-color-action-interactive);
+}
+
+.c1.tab.selected:focus,
+.c1.tab.selected.focus {
+  outline: none;
+  z-index: 1;
+  box-shadow: 0 0 0 var(--bds-sizes-size-1) var(--bds-color-action-interactive);
+}
+
+.c1.tab.disabled {
+  z-index: 0;
+  cursor: not-allowed;
+}
+
+.c1.tab.disabled > p {
+  color: var(--bds-color-text-disabled);
+}
+
+.c1.tab:focus,
+.c1.tab.focus {
+  outline: none;
+  z-index: 1;
+  box-shadow: 0 0 0 var(--bds-sizes-size-1) var(--bds-color-action-interactive);
+}
+
+.c2 {
+  color: hsl(0,0%,0%,.87);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  color: hsl(0,0%,0%,.87);
+}
+
+.c2.align--left {
+  text-align: left;
+}
+
+.c2.align--center {
+  text-align: center;
+}
+
+.c2.align--right {
+  text-align: right;
+}
+
+.c2.display--block {
+  display: block;
+}
+
+.c2.display--inline {
+  display: inline;
+}
+
+.c2 b,
+.c2 bold,
+.c2 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c2.bold {
+  font-weight: 500;
+}
+
+.c2.c2.c2.body_1 {
+  font-size: var(--bds-font-tag-body-1-mobile-font-size);
+  line-height: var(--bds-font-tag-body-1-mobile-line-height);
+}
+
+.c2.c2.c2.body_2 {
+  font-size: var(--bds-font-tag-body-2-mobile-font-size);
+  line-height: var(--bds-font-tag-body-2-mobile-line-height);
+}
+
+@media only screen and (min-width:var(--bds-grid-breakpoint-md-max)) {
+  .c3 {
+    padding-top: var(--bds-sizes-size-16);
+  }
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c2.c2.c2.body_1 {
+    font-size: var(--bds-font-tag-body-1-desktop-font-size);
+    line-height: var(--bds-font-tag-body-1-desktop-line-height);
+  }
+
+  .c2.c2.c2.body_2 {
+    font-size: var(--bds-font-tag-body-2-desktop-font-size);
+    line-height: var(--bds-font-tag-body-2-desktop-line-height);
+  }
+}
+
+<div
+    class="c0 tabs-wrapper shape--rounded"
+    role="navigation"
+  >
+    <div
+      class="tabs"
+    >
+      <div
+        class="tablist"
+        role="tablist"
+      >
+        <button
+          aria-controls="tab-1-panel"
+          aria-selected="true"
+          class="c1 tab selected"
+          id="tab-1"
+          role="tab"
+        >
+          <p
+            class="c2 typography variant--body_2 align--left bold body_2"
+            color="text_primary"
+          >
+            Tab one
+          </p>
+        </button>
+        <button
+          aria-controls="tab-2-panel"
+          aria-selected="false"
+          class="c1 tab"
+          id="tab-2"
+          role="tab"
+        >
+          <p
+            class="c2 typography variant--body_2 align--left body_2"
+            color="text_primary"
+          >
+            Tab two
+          </p>
+        </button>
+        <button
+          aria-controls="tab-3-panel"
+          aria-selected="false"
+          class="c1 tab"
+          id="tab-3"
+          role="tab"
+        >
+          <p
+            class="c2 typography variant--body_2 align--left body_2"
+            color="text_primary"
+          >
+            Tab three
+          </p>
+        </button>
+      </div>
+    </div>
+    <div
+      class="c3 tab-content selected"
+      id="tab-1-panel"
+      role="tabpanel"
+    >
+      <span
+        class="typography variant--body align--left"
+        color="text_primary"
+      >
+        This is tab one's content
+      </span>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tabs Snapshots Tabs in different themes 2`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c0.shape--rounded .tablist > .tab {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c0.shape--squared .tablist {
+  border-radius: 0;
+}
+
+.c0.shape--squared .tablist > .tab {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c0 .tabs {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  padding: 0;
+}
+
+.c0 .tabs .tablist {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 100%;
+  background-color: trasparent;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.c0 .content-container {
+  width: 100%;
+}
+
+.c0 .tabs .carousel-item {
+  margin: 0;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c0 .tabs .carousel-button-left.carousel-button-left.carousel-button-left.carousel-button-left,
+.c0 .tabs .carousel-button-right.carousel-button-right.carousel-button-right.carousel-button-right {
+  background-color: transparent;
+  width: 2.375rem;
+  height: 2.375rem;
+  padding: auto;
+}
+
+.c0 .tabs .carousel-button-left.carousel-button-left.carousel-button-left.carousel-button-left:hover,
+.c0 .tabs .carousel-button-right.carousel-button-right.carousel-button-right.carousel-button-right:hover {
+  border-bottom-color: var(--bds-color-action-interactive-hover);
+}
+
+.c0 .tabs .carousel-button-left.carousel-button-left.carousel-button-left.carousel-button-left:focus,
+.c0 .tabs .carousel-button-right.carousel-button-right.carousel-button-right.carousel-button-right:focus {
+  box-shadow: inset 0 0 0 var(--bds-sizes-size-2) var(--bds-color-action-interactive);
+}
+
+.c0 .tabs .carousel-button-left.carousel-button-left.carousel-button-left.carousel-button-left .icon path,
+.c0 .tabs .carousel-button-right.carousel-button-right.carousel-button-right.carousel-button-right .icon path {
+  fill: hsl(213,84%,45%,1);
+}
+
+.c0 .tabs .carousel-content {
+  width: 100%;
+  padding: 0;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+
+.c3 {
+  display: none;
+  padding: 0;
+}
+
+.c3.selected {
+  display: block;
+}
+
+.c1.tab {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  width: 100%;
+  height: var(--bds-sizes-size-40);
+  outline: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  padding: 0 var(--bds-sizes-size-20);
+  margin: 0;
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid var(--bds-color-border-subdued);
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.c1.tab:hover:not(.selected):not(.disabled),
+.c1.tab.hover:not(.selected):not(.disabled) {
+  border-bottom-color: var(--bds-color-action-interactive);
+}
+
+.c1.tab.selected {
+  border-bottom-color: var(--bds-color-action-interactive);
+  box-shadow: 0 1px 0 var(--bds-color-action-interactive);
+}
+
+.c1.tab.selected:focus,
+.c1.tab.selected.focus {
+  outline: none;
+  z-index: 1;
+  box-shadow: 0 0 0 var(--bds-sizes-size-1) var(--bds-color-action-interactive);
+}
+
+.c1.tab.disabled {
+  z-index: 0;
+  cursor: not-allowed;
+}
+
+.c1.tab.disabled > p {
+  color: var(--bds-color-text-disabled);
+}
+
+.c1.tab:focus,
+.c1.tab.focus {
+  outline: none;
+  z-index: 1;
+  box-shadow: 0 0 0 var(--bds-sizes-size-1) var(--bds-color-action-interactive);
+}
+
+.c2 {
+  color: hsl(0,0%,0%,.87);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  color: hsl(0,0%,0%,.87);
+}
+
+.c2.align--left {
+  text-align: left;
+}
+
+.c2.align--center {
+  text-align: center;
+}
+
+.c2.align--right {
+  text-align: right;
+}
+
+.c2.display--block {
+  display: block;
+}
+
+.c2.display--inline {
+  display: inline;
+}
+
+.c2 b,
+.c2 bold,
+.c2 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c2.bold {
+  font-weight: 500;
+}
+
+.c2.c2.c2.body_1 {
+  font-size: var(--bds-font-tag-body-1-mobile-font-size);
+  line-height: var(--bds-font-tag-body-1-mobile-line-height);
+}
+
+.c2.c2.c2.body_2 {
+  font-size: var(--bds-font-tag-body-2-mobile-font-size);
+  line-height: var(--bds-font-tag-body-2-mobile-line-height);
+}
+
+@media only screen and (min-width:var(--bds-grid-breakpoint-md-max)) {
+  .c3 {
+    padding-top: var(--bds-sizes-size-16);
+  }
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c2.c2.c2.body_1 {
+    font-size: var(--bds-font-tag-body-1-desktop-font-size);
+    line-height: var(--bds-font-tag-body-1-desktop-line-height);
+  }
+
+  .c2.c2.c2.body_2 {
+    font-size: var(--bds-font-tag-body-2-desktop-font-size);
+    line-height: var(--bds-font-tag-body-2-desktop-line-height);
+  }
+}
+
+<div
+    class="c0 tabs-wrapper shape--rounded"
+    role="navigation"
+  >
+    <div
+      class="tabs"
+    >
+      <div
+        class="tablist"
+        role="tablist"
+      >
+        <button
+          aria-controls="tab-1-panel"
+          aria-selected="true"
+          class="c1 tab selected"
+          id="tab-1"
+          role="tab"
+        >
+          <p
+            class="c2 typography variant--body_2 align--left bold body_2"
+            color="text_primary"
+          >
+            Tab one
+          </p>
+        </button>
+        <button
+          aria-controls="tab-2-panel"
+          aria-selected="false"
+          class="c1 tab"
+          id="tab-2"
+          role="tab"
+        >
+          <p
+            class="c2 typography variant--body_2 align--left body_2"
+            color="text_primary"
+          >
+            Tab two
+          </p>
+        </button>
+        <button
+          aria-controls="tab-3-panel"
+          aria-selected="false"
+          class="c1 tab"
+          id="tab-3"
+          role="tab"
+        >
+          <p
+            class="c2 typography variant--body_2 align--left body_2"
+            color="text_primary"
+          >
+            Tab three
+          </p>
+        </button>
+      </div>
+    </div>
+    <div
+      class="c3 tab-content selected"
+      id="tab-1-panel"
+      role="tabpanel"
+    >
+      <span
+        class="typography variant--body align--left"
+        color="text_primary"
+      >
+        This is tab one's content
+      </span>
+    </div>
+  </div>
+</DocumentFragment>
+`;
