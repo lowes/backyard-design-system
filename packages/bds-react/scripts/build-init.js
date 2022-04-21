@@ -14,7 +14,6 @@ const rootFiles = [
     'README.md',
     'sizes.json',
     'styled.d.ts', // Backyard Theme declaration for TS
-    'src/server', // Server for storybook
 ]
 
 // Generated files/folders to clear
