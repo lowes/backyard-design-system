@@ -1,0 +1,1026 @@
+{
+	"id": 0,
+	"name": "@lowes-tech/bds-react/TextArea",
+	"kind": 1,
+	"kindString": "Project",
+	"flags": {},
+	"children": [
+		{
+			"id": 45,
+			"name": "default",
+			"kind": 16777216,
+			"kindString": "Reference",
+			"flags": {},
+			"target": 1
+		},
+		{
+			"id": 2,
+			"name": "TextAreaProps",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 43,
+					"name": "as",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ElementType"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "TextInputProps.as"
+					}
+				},
+				{
+					"id": 3,
+					"name": "children",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Children"
+					},
+					"type": {
+						"type": "reference",
+						"name": "ReactNode"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "TextInputProps.children"
+					}
+				},
+				{
+					"id": 4,
+					"name": "className",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "DOM Class Name"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "TextInputProps.className"
+					}
+				},
+				{
+					"id": 18,
+					"name": "component",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Component to render text input with"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									},
+									{
+										"type": "intrinsic",
+										"name": "any"
+									}
+								],
+								"name": "ComponentClass"
+							},
+							{
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									}
+								],
+								"name": "FunctionComponent"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "TextInputProps.component"
+					}
+				},
+				{
+					"id": 41,
+					"name": "customIcon",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Boolean prop to have custom icons show correct coloring"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "TextInputProps.customIcon"
+					}
+				},
+				{
+					"id": 6,
+					"name": "defaultValue",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Default value of input"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "TextInputProps.defaultValue"
+					}
+				},
+				{
+					"id": 5,
+					"name": "disabled",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not input is disabled"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "TextInputProps.disabled"
+					}
+				},
+				{
+					"id": 7,
+					"name": "helperText",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Helper text to display"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 42,
+					"name": "hiddenLabel",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "TextInputProps.hiddenLabel"
+					}
+				},
+				{
+					"id": 21,
+					"name": "interaction",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Initial interaction of component"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "TextInputProps.interaction"
+					}
+				},
+				{
+					"id": 20,
+					"name": "itemAfter",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Icon displayed after text input"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							},
+							{
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									},
+									{
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "JSXElementConstructor"
+									}
+								]
+							}
+						],
+						"name": "ReactElement"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "TextInputProps.itemAfter"
+					}
+				},
+				{
+					"id": 19,
+					"name": "itemBefore",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Icon displayed before text input"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							},
+							{
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									},
+									{
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "JSXElementConstructor"
+									}
+								]
+							}
+						],
+						"name": "ReactElement"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "TextInputProps.itemBefore"
+					}
+				},
+				{
+					"id": 14,
+					"name": "label",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "TextInputProps.label"
+					}
+				},
+				{
+					"id": 9,
+					"name": "max",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Maximum number of characters allowed\nWhen defined, text area will show character count"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "TextInputProps.max"
+					}
+				},
+				{
+					"id": 10,
+					"name": "resizer",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not resizer is present"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 8,
+					"name": "rows",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Default number of rows to show, changes default height"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "TextInputProps.rows"
+					}
+				},
+				{
+					"id": 11,
+					"name": "shape",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Visual shape of text input"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "rounded"
+							},
+							{
+								"type": "literal",
+								"value": "squared"
+							}
+						]
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "TextInputProps.shape"
+					}
+				},
+				{
+					"id": 39,
+					"name": "size",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Size of component."
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "small"
+							},
+							{
+								"type": "literal",
+								"value": "large"
+							},
+							{
+								"type": "literal",
+								"value": "medium"
+							},
+							{
+								"type": "literal",
+								"value": "jumbo"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "TextInputProps.size"
+					}
+				},
+				{
+					"id": 12,
+					"name": "state",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Visual state of component"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "default"
+							},
+							{
+								"type": "literal",
+								"value": "error"
+							},
+							{
+								"type": "literal",
+								"value": "success"
+							}
+						]
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "TextInputProps.state"
+					}
+				},
+				{
+					"id": 40,
+					"name": "suffix",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Adding a suffix abbreviation to the end of the field"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "TextInputProps.suffix"
+					}
+				},
+				{
+					"id": 13,
+					"name": "type",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Type of text input"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "TextInputProps.type"
+					}
+				},
+				{
+					"id": 38,
+					"name": "value",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Value of text input"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "TextInputProps.value"
+					}
+				},
+				{
+					"id": 15,
+					"name": "wrapperProps",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Wrapper props object for text input.\nUseful for setting the style of text input\nvisual container instead of input directly"
+					},
+					"type": {
+						"type": "intersection",
+						"types": [
+							{
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "reference",
+										"name": "HTMLDivElement"
+									},
+									{
+										"type": "literal",
+										"value": ""
+									}
+								],
+								"name": "BackyardBaseProps"
+							},
+							{
+								"type": "reflection",
+								"declaration": {
+									"id": 16,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {},
+									"children": [
+										{
+											"id": 17,
+											"name": "rows",
+											"kind": 1024,
+											"kindString": "Property",
+											"flags": {
+												"isOptional": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										}
+									],
+									"groups": [
+										{
+											"title": "Properties",
+											"kind": 1024,
+											"children": [
+												17
+											]
+										}
+									]
+								}
+							}
+						]
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "TextInputProps.wrapperProps"
+					}
+				},
+				{
+					"id": 34,
+					"name": "onBlur",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 35,
+							"name": "onBlur",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onBlur` trigger event"
+							},
+							"parameters": [
+								{
+									"id": 36,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											},
+											{
+												"type": "reference",
+												"name": "Element"
+											}
+										],
+										"name": "FocusEvent"
+									}
+								},
+								{
+									"id": 37,
+									"name": "value",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "TextInputProps.onBlur"
+							}
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "TextInputProps.onBlur"
+					}
+				},
+				{
+					"id": 22,
+					"name": "onChange",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 23,
+							"name": "onChange",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onChange` trigger event"
+							},
+							"parameters": [
+								{
+									"id": 24,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											}
+										],
+										"name": "ChangeEvent"
+									}
+								},
+								{
+									"id": 25,
+									"name": "value",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "TextInputProps.onChange"
+							}
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "TextInputProps.onChange"
+					}
+				},
+				{
+					"id": 26,
+					"name": "onClick",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 27,
+							"name": "onClick",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onChange` trigger event"
+							},
+							"parameters": [
+								{
+									"id": 28,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											},
+											{
+												"type": "reference",
+												"name": "MouseEvent"
+											}
+										],
+										"name": "MouseEvent"
+									}
+								},
+								{
+									"id": 29,
+									"name": "value",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "TextInputProps.onClick"
+							}
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "TextInputProps.onClick"
+					}
+				},
+				{
+					"id": 30,
+					"name": "onFocus",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 31,
+							"name": "onFocus",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onFocus` trigger event"
+							},
+							"parameters": [
+								{
+									"id": 32,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											},
+											{
+												"type": "reference",
+												"name": "Element"
+											}
+										],
+										"name": "FocusEvent"
+									}
+								},
+								{
+									"id": 33,
+									"name": "value",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "TextInputProps.onFocus"
+							}
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "TextInputProps.onFocus"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						43,
+						3,
+						4,
+						18,
+						41,
+						6,
+						5,
+						7,
+						42,
+						21,
+						20,
+						19,
+						14,
+						9,
+						10,
+						8,
+						11,
+						39,
+						12,
+						40,
+						13,
+						38,
+						15
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						34,
+						22,
+						26,
+						30
+					]
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"name": "TextInputProps"
+				}
+			]
+		},
+		{
+			"id": 44,
+			"name": "TextAreaRef",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"type": {
+				"type": "reference",
+				"name": "TextInputRef"
+			}
+		},
+		{
+			"id": 1,
+			"name": "TextArea",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"comment": {
+				"shortText": "Backyard React Text Area",
+				"text": "Standard text area that extends `TextInput` for functionality.\nTextArea is different from `TextField`, `Search`, etc. because it is wrapper in `FormControl`\nin order to place the helper text on the same line as the counter.\n\n <TextArea label=\"Label\" max={500} />\n\nTo include helper text, use `helperText` prop\n\n <TextArea\n     label=\"Comment\"\n     rows={10}\n     max={2000}\n     helperText=\"Type a comment here\"\n />\n"
+			},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"id": 2,
+						"name": "TextAreaProps"
+					}
+				],
+				"name": "BDSForwardRef"
+			},
+			"defaultValue": "..."
+		}
+	],
+	"groups": [
+		{
+			"title": "References",
+			"kind": 16777216,
+			"children": [
+				45
+			]
+		},
+		{
+			"title": "Interfaces",
+			"kind": 256,
+			"children": [
+				2
+			]
+		},
+		{
+			"title": "Type aliases",
+			"kind": 4194304,
+			"children": [
+				44
+			]
+		},
+		{
+			"title": "Variables",
+			"kind": 32,
+			"children": [
+				1
+			]
+		}
+	]
+}

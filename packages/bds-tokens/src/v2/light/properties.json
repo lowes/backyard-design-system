@@ -1,0 +1,2246 @@
+{
+    "tokens": {
+        "shadow_01": {
+            "name": "shadow_01",
+            "path": "shadows.shadow_01",
+            "version": "2.2.0",
+            "type": "effect",
+            "category": "box-shadow",
+            "value": "0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12)"
+        },
+        "shadow_02": {
+            "name": "shadow_02",
+            "path": "shadows.shadow_02",
+            "version": "2.2.0",
+            "type": "effect",
+            "category": "box-shadow",
+            "value": "0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12)"
+        },
+        "shadow_03": {
+            "name": "shadow_03",
+            "path": "shadows.shadow_03",
+            "version": "2.2.0",
+            "type": "effect",
+            "category": "box-shadow",
+            "value": "0 3px 3px -2px rgba(0,0,0,.2), 0 3px 4px 0 rgba(0,0,0,.14), 0 1px 8px 0 rgba(0,0,0,.12)"
+        },
+        "shadow_04": {
+            "name": "shadow_04",
+            "path": "shadows.shadow_04",
+            "version": "2.2.0",
+            "type": "effect",
+            "category": "box-shadow",
+            "value": "0 2px 4px -1px rgba(0,0,0,.2), 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12)"
+        },
+        "shadow_05": {
+            "name": "shadow_05",
+            "path": "shadows.shadow_05",
+            "version": "2.2.0",
+            "type": "effect",
+            "category": "box-shadow",
+            "value": "0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12)"
+        },
+        "shadow_06": {
+            "name": "shadow_06",
+            "path": "shadows.shadow_06",
+            "version": "2.2.0",
+            "type": "effect",
+            "category": "box-shadow",
+            "value": "0 5px 5px -3px rgba(0,0,0,.2), 0 8px 10px 1px rgba(0,0,0,.14), 0 3px 14px 2px rgba(0,0,0,.12)"
+        },
+        "shadow_07": {
+            "name": "shadow_07",
+            "path": "shadows.shadow_07",
+            "version": "2.2.0",
+            "type": "effect",
+            "category": "box-shadow",
+            "value": "0 7px 8px -4px rgba(0,0,0,.2), 0 12px 17px 2px rgba(0,0,0,.14), 0 5px 22px 4px rgba(0,0,0,.12)"
+        },
+        "shadow_08": {
+            "name": "shadow_08",
+            "path": "shadows.shadow_08",
+            "version": "2.2.0",
+            "type": "effect",
+            "category": "box-shadow",
+            "value": "0 8px 10px -5px rgba(0,0,0,.2), 0 16px 24px 2px rgba(0,0,0,.14), 0 6px 30px 5px rgba(0,0,0,.12)"
+        },
+        "shadow_09": {
+            "name": "shadow_09",
+            "path": "shadows.shadow_09",
+            "version": "2.2.0",
+            "type": "effect",
+            "category": "box-shadow",
+            "value": "0 11px 15px -7px rgba(0,0,0,.2), 0 24px 38px 3px rgba(0,0,0,.14), 0 9px 46px 8px rgba(0,0,0,.12)"
+        },
+        "commerce": {
+            "name": "commerce",
+            "path": "colors.commerce",
+            "version": "2.9.0",
+            "colorName": "Green 575",
+            "type": "color",
+            "category": "commerce",
+            "value": "#2b7200",
+            "rgbValue": "rgb(43, 114, 0)"
+        },
+        "hover_commerce": {
+            "name": "hover_commerce",
+            "path": "colors.hover_commerce",
+            "version": "2.9.0",
+            "colorName": "Green 625",
+            "type": "color",
+            "category": "commerce",
+            "value": "#266500",
+            "rgbValue": "rgb(38, 101, 0)"
+        },
+        "active_commerce": {
+            "name": "active_commerce",
+            "path": "colors.active_commerce",
+            "version": "2.9.0",
+            "colorName": "Green 675",
+            "type": "color",
+            "category": "commerce",
+            "value": "#215700",
+            "rgbValue": "rgb(33, 87, 0)"
+        },
+        "hover_secondary_commerce": {
+            "name": "hover_secondary_commerce",
+            "path": "colors.hover_secondary_commerce",
+            "version": "2.9.0",
+            "colorName": "Green 50",
+            "type": "color",
+            "category": "commerce",
+            "value": "#ebf3e6",
+            "rgbValue": "rgb(235, 243, 230)"
+        },
+        "active_secondary_commerce": {
+            "name": "active_secondary_commerce",
+            "path": "colors.active_secondary_commerce",
+            "version": "2.9.0",
+            "colorName": "Green 75",
+            "type": "color",
+            "category": "commerce",
+            "value": "#e0edd9",
+            "rgbValue": "rgb(224, 237, 217)"
+        },
+        "disabled": {
+            "name": "disabled",
+            "path": "colors.disabled",
+            "version": "2.2.0",
+            "colorName": "Gray 30",
+            "type": "color",
+            "category": "disabled",
+            "value": "#c6c6c6",
+            "rgbValue": "rgb(198, 198, 198)"
+        },
+        "onDisabled": {
+            "name": "onDisabled",
+            "path": "colors.onDisabled",
+            "version": "2.6.0",
+            "colorName": "Gray 10",
+            "type": "color",
+            "category": "disabled",
+            "value": "#f4f4f4",
+            "rgbValue": "rgb(244, 244, 244)"
+        },
+        "inverse_disabled": {
+            "name": "inverse_disabled",
+            "path": "colors.inverse_disabled",
+            "version": "2.9.0",
+            "colorName": "Gray 70",
+            "type": "color",
+            "category": "disabled",
+            "value": "#525252",
+            "rgbValue": "rgb(82, 82, 82)"
+        },
+        "interactive": {
+            "name": "interactive",
+            "path": "colors.interactive",
+            "version": "2.2.0",
+            "colorName": "Sapphire 500",
+            "type": "color",
+            "category": "interactive",
+            "value": "#0041C2",
+            "rgbValue": "rgb(0, 65, 194)"
+        },
+        "hover_interactive": {
+            "name": "hover_interactive",
+            "path": "colors.hover_interactive",
+            "version": "2.0.0",
+            "colorName": "Sapphire 550",
+            "type": "color",
+            "category": "interactive",
+            "value": "#003AAE",
+            "rgbValue": "rgb(0, 58, 174)"
+        },
+        "active_interactive": {
+            "name": "active_interactive",
+            "path": "colors.active_interactive",
+            "version": "2.0.0",
+            "colorName": "Sapphire 600",
+            "type": "color",
+            "category": "interactive",
+            "value": "#00349B",
+            "rgbValue": "rgb(0, 52, 155)"
+        },
+        "hover_secondary_interactive": {
+            "name": "hover_secondary_interactive",
+            "path": "colors.hover_secondary_interactive",
+            "version": "2.9.0",
+            "colorName": "Sapphire 50",
+            "type": "color",
+            "category": "interactive",
+            "value": "#E6ECF9",
+            "rgbValue": "rgb(230, 236, 249)"
+        },
+        "active_secondary_interactive": {
+            "name": "active_secondary_interactive",
+            "path": "colors.active_secondary_interactive",
+            "version": "2.9.0",
+            "colorName": "Sapphire 75",
+            "type": "color",
+            "category": "interactive",
+            "value": "#D9E2F5",
+            "rgbValue": "rgb(217, 226, 245)"
+        },
+        "subtle": {
+            "name": "subtle",
+            "path": "colors.subtle",
+            "version": "2.6.0",
+            "colorName": "Gray 65",
+            "type": "color",
+            "category": "subtle",
+            "value": "#616161",
+            "rgbValue": "rgb(97, 97, 97)"
+        },
+        "hover_subtle": {
+            "name": "hover_subtle",
+            "path": "colors.hover_subtle",
+            "version": "2.6.0",
+            "colorName": "Gray 75",
+            "type": "color",
+            "category": "subtle",
+            "value": "#464646",
+            "rgbValue": "rgb(70, 70, 70)"
+        },
+        "active_subtle": {
+            "name": "active_subtle",
+            "path": "colors.active_subtle",
+            "version": "2.6.0",
+            "colorName": "Gray 85",
+            "type": "color",
+            "category": "subtle",
+            "value": "#303030",
+            "rgbValue": "rgb(48, 48, 48)"
+        },
+        "hover_secondary_subtle": {
+            "name": "hover_secondary_subtle",
+            "path": "colors.hover_subtle",
+            "version": "2.9.0",
+            "colorName": "Gray 25",
+            "type": "color",
+            "category": "subtle",
+            "value": "#d3d3d3",
+            "rgbValue": "rgb(211, 211, 211)"
+        },
+        "active_secondary_subtle": {
+            "name": "active_secondary_subtle",
+            "path": "colors.active_subtle",
+            "version": "2.9.0",
+            "colorName": "Gray 30",
+            "type": "color",
+            "category": "subtle",
+            "value": "#c6c6c6",
+            "rgbValue": "rgb(198, 198, 198)"
+        },
+        "contrast": {
+            "name": "contrast",
+            "path": "colors.contrast",
+            "version": "2.2.0",
+            "colorName": "Gray 80",
+            "type": "color",
+            "category": "contrast",
+            "value": "#393939",
+            "rgbValue": "rgb(57, 57, 57)"
+        },
+        "hover_contrast": {
+            "name": "hover_contrast",
+            "path": "colors.hover_contrast",
+            "version": "2.0.0",
+            "colorName": "Gray 85",
+            "type": "color",
+            "category": "contrast",
+            "value": "#303030",
+            "rgbValue": "rgb(48, 48, 48)"
+        },
+        "active_contrast": {
+            "name": "active_contrast",
+            "path": "colors.active_contrast",
+            "version": "2.0.0",
+            "colorName": "Gray 90",
+            "type": "color",
+            "category": "contrast",
+            "value": "#262626",
+            "rgbValue": "rgb(38, 38, 38)"
+        },
+        "hover_secondary_contrast": {
+            "name": "hover_secondary_contrast",
+            "path": "colors.hover_secondary_contrast",
+            "version": "2.9.0",
+            "colorName": "Gray 25",
+            "type": "color",
+            "category": "contrast",
+            "value": "#d3d3d3",
+            "rgbValue": "rgb(211, 211, 211)"
+        },
+        "active_secondary_contrast": {
+            "name": "active_secondary_contrast",
+            "path": "colors.active_secondary_contrast",
+            "version": "2.9.0",
+            "colorName": "Gray 30",
+            "type": "color",
+            "category": "contrast",
+            "value": "#c6c6c6",
+            "rgbValue": "rgb(198, 198, 198)"
+        },
+        "inverse_focus": {
+            "name": "inverse_focus",
+            "path": "colors.inverse_focus",
+            "version": "2.0.0",
+            "colorName": "White 500",
+            "type": "color",
+            "category": "focus",
+            "value": "#ffffff",
+            "rgbValue": "rgb(255, 255, 255)"
+        },
+        "interactive_focus": {
+            "name": "interactive_focus",
+            "path": "colors.interactive_focus",
+            "version": "2.0.0",
+            "colorName": "Sapphire 500",
+            "type": "color",
+            "category": "focus",
+            "value": "#0041C2",
+            "rgbValue": "rgb(0, 65, 194)"
+        },
+        "focus": {
+            "name": "focus",
+            "path": "colors.focus",
+            "version": "2.4.0",
+            "colorName": "Gray 48",
+            "type": "color",
+            "category": "focus",
+            "value": "#8D8D8D",
+            "rgbValue": "rgb(141, 141, 141)"
+        },
+        "canvas": {
+            "name": "canvas",
+            "path": "colors.canvas",
+            "version": "2.0.0",
+            "colorName": "White 500",
+            "type": "color",
+            "category": "layer",
+            "value": "#ffffff",
+            "rgbValue": "rgb(255, 255, 255)"
+        },
+        "alt_canvas": {
+            "name": "alt_canvas",
+            "path": "colors.alt_canvas",
+            "version": "2.9.0",
+            "colorName": "Gray 10",
+            "type": "color",
+            "category": "layer",
+            "value": "#f4f4f4",
+            "rgbValue": "rgb(244, 244, 244)"
+        },
+        "layer_01": {
+            "name": "layer_01",
+            "path": "colors.layer_01",
+            "version": "2.9.0",
+            "colorName": "Gray 01",
+            "type": "color",
+            "category": "layer",
+            "value": "#f4f4f4",
+            "rgbValue": "rgb(244, 244, 244)"
+        },
+        "layer_02": {
+            "name": "layer_02",
+            "path": "colors.layer_02",
+            "version": "2.9.0",
+            "colorName": "Gray 20",
+            "type": "color",
+            "category": "layer",
+            "value": "#e0e0e0",
+            "rgbValue": "rgb(224, 224, 224)"
+        },
+        "alt_layer_01": {
+            "name": "alt_layer_01",
+            "path": "colors.alt_layer_01",
+            "version": "2.9.0",
+            "colorName": "White 500",
+            "type": "color",
+            "category": "layer",
+            "value": "#ffffff",
+            "rgbValue": "rgb(255, 255, 255)"
+        },
+        "alt_layer_02": {
+            "name": "alt_layer_02",
+            "path": "colors.alt_layer_02",
+            "version": "2.9.0",
+            "colorName": "Gray 20",
+            "type": "color",
+            "category": "layer",
+            "value": "#e0e0e0",
+            "rgbValue": "rgb(224, 224, 224)"
+        },
+        "overlay": {
+            "name": "overlay",
+            "path": "zIndex.overlay",
+            "version": "2.9.0",
+            "type": "effect",
+            "category": "z-index",
+            "value": 1150
+        },
+        "hover_interface": {
+            "name": "hover_interface",
+            "path": "colors.hover_interface",
+            "version": "2.9.0",
+            "colorName": "Gray 17",
+            "type": "color",
+            "category": "layer",
+            "value": "#e5e5e5",
+            "rgbValue": "rgb(229, 229, 229)"
+        },
+        "active_interface": {
+            "name": "active_interface",
+            "path": "colors.active_interface",
+            "version": "2.9.0",
+            "colorName": "Gray 30",
+            "type": "color",
+            "category": "layer",
+            "value": "#c6c6c6",
+            "rgbValue": "rgb(198, 198, 198)"
+        },
+        "inverse_interface": {
+            "name": "inverse_interface",
+            "path": "colors.inverse_interface",
+            "version": "2.9.0",
+            "colorName": "Gray 80",
+            "type": "color",
+            "category": "layer",
+            "value": "#393939",
+            "rgbValue": "rgb(57, 57, 57)"
+        },
+        "inverse_hover_interface": {
+            "name": "inverse_hover_interface",
+            "path": "colors.inverse_hover_interface",
+            "version": "2.9.0",
+            "colorName": "Gray 77",
+            "type": "color",
+            "category": "layer",
+            "value": "#4C4C4C",
+            "rgbValue": "rgb(76, 76, 76)"
+        },
+        "link": {
+            "name": "link",
+            "path": "colors.link",
+            "version": "2.4.0",
+            "colorName": "Sapphire 500",
+            "type": "color",
+            "category": "link",
+            "value": "#0041C2",
+            "rgbValue": "rgb(0, 65, 194)"
+        },
+        "inline_link": {
+            "name": "inline_link",
+            "path": "colors.inline_link",
+            "version": "2.9.0",
+            "colorName": "Sapphire 425",
+            "type": "color",
+            "category": "link",
+            "value": "#265DCB",
+            "rgbValue": "rgb(38, 93, 203)"
+        },
+        "text_link": {
+            "name": "text_link",
+            "path": "colors.text_link",
+            "version": "2.4.0",
+            "colorName": "Gray 100",
+            "type": "color",
+            "category": "link",
+            "value": "#161616",
+            "rgbValue": "rgb(22, 22, 22)"
+        },
+        "inverse_text_link": {
+            "name": "inverse_text_link",
+            "path": "colors.inverse_text_link",
+            "version": "2.4.0",
+            "colorName": "White 500",
+            "type": "color",
+            "category": "link",
+            "value": "#ffffff",
+            "rgbValue": "rgb(255, 255, 255)"
+        },
+        "visited_link": {
+            "name": "visited_link",
+            "path": "colors.visited_link",
+            "version": "2.9.0",
+            "colorName": "Purple 500",
+            "type": "color",
+            "category": "link",
+            "value": "#7f2cfc",
+            "rgbValue": "rgb(127, 44, 252)"
+        },
+        "inverse_link": {
+            "name": "inverse_link",
+            "path": "colors.inverse_link",
+            "version": "2.9.0",
+            "colorName": "Sapphire 150",
+            "type": "color",
+            "category": "link",
+            "value": "#B3C6EC",
+            "rgbValue": "rgb(179, 198, 236)"
+        },
+        "neutral_01": {
+            "name": "neutral_01",
+            "path": "colors.neutral_01",
+            "version": "2.0.0",
+            "colorName": "Gray 10",
+            "type": "color",
+            "category": "neutral",
+            "value": "#f4f4f4",
+            "rgbValue": "rgb(244, 244, 244)"
+        },
+        "neutral_02": {
+            "name": "neutral_02",
+            "path": "colors.neutral_02",
+            "version": "2.0.0",
+            "colorName": "Gray 20",
+            "type": "color",
+            "category": "neutral",
+            "value": "#e0e0e0",
+            "rgbValue": "rgb(224, 224, 224)"
+        },
+        "neutral_03": {
+            "name": "neutral_03",
+            "path": "colors.neutral_03",
+            "version": "2.0.0",
+            "colorName": "Gray 30",
+            "type": "color",
+            "category": "neutral",
+            "value": "#c6c6c6",
+            "rgbValue": "rgb(198, 198, 198)"
+        },
+        "neutral_04": {
+            "name": "neutral_04",
+            "path": "colors.neutral_04",
+            "version": "2.0.0",
+            "colorName": "Gray 40",
+            "type": "color",
+            "category": "neutral",
+            "value": "#a8a8a8",
+            "rgbValue": "rgb(168, 168, 168)"
+        },
+        "neutral_05": {
+            "name": "neutral_05",
+            "path": "colors.neutral_05",
+            "version": "2.0.0",
+            "colorName": "Gray 50",
+            "type": "color",
+            "category": "neutral",
+            "value": "#898989",
+            "rgbValue": "rgb(137, 137, 137)"
+        },
+        "neutral_06": {
+            "name": "neutral_06",
+            "path": "colors.neutral_06",
+            "version": "2.0.0",
+            "colorName": "Gray 60",
+            "type": "color",
+            "category": "neutral",
+            "value": "#6f6f6f",
+            "rgbValue": "rgb(111, 111, 111)"
+        },
+        "neutral_07": {
+            "name": "neutral_07",
+            "path": "colors.neutral_07",
+            "version": "2.0.0",
+            "colorName": "Gray 70",
+            "type": "color",
+            "category": "neutral",
+            "value": "#525252",
+            "rgbValue": "rgb(82, 82, 82)"
+        },
+        "neutral_08": {
+            "name": "neutral_08",
+            "path": "colors.neutral_08",
+            "version": "2.0.0",
+            "colorName": "Gray 80",
+            "type": "color",
+            "category": "neutral",
+            "value": "#393939",
+            "rgbValue": "rgb(57, 57, 57)"
+        },
+        "neutral_09": {
+            "name": "neutral_09",
+            "path": "colors.neutral_09",
+            "version": "2.0.0",
+            "colorName": "Gray 90",
+            "type": "color",
+            "category": "neutral",
+            "value": "#262626",
+            "rgbValue": "rgb(38, 38, 38)"
+        },
+        "neutral_10": {
+            "name": "neutral_10",
+            "path": "colors.neutral_10",
+            "version": "2.0.0",
+            "colorName": "Gray 100",
+            "type": "color",
+            "category": "neutral",
+            "value": "#161616",
+            "rgbValue": "rgb(22, 22, 22)"
+        },
+        "black": {
+            "name": "black",
+            "path": "colors.black",
+            "version": "2.0.0",
+            "colorName": "Black 500",
+            "type": "color",
+            "category": "neutral",
+            "value": "#000000",
+            "rgbValue": "rgb(0, 0, 0)"
+        },
+        "white": {
+            "name": "white",
+            "path": "colors.white",
+            "version": "2.0.0",
+            "colorName": "White 500",
+            "type": "color",
+            "category": "neutral",
+            "value": "#ffffff",
+            "rgbValue": "rgb(255, 255, 255)"
+        },
+        "text_primary": {
+            "name": "text_primary",
+            "path": "colors.text_primary",
+            "version": "2.9.0",
+            "colorName": "Black 500 @ 90%",
+            "type": "color",
+            "category": "text",
+            "value": "rgba(0, 0, 0, .90)",
+            "rgbValue": "rgba(0, 0, 0, .90)"
+        },
+        "text_secondary": {
+            "name": "text_secondary",
+            "path": "colors.text_secondary",
+            "version": "2.9.0",
+            "colorName": "Black 500 @ 75%",
+            "type": "color",
+            "category": "text",
+            "value": "rgba(0, 0, 0, .75)",
+            "rgbValue": "rgba(0, 0, 0, .75)"
+        },
+        "text_tertiary": {
+            "name": "text_tertiary",
+            "path": "colors.text_tertiary",
+            "version": "2.9.0",
+            "colorName": "Black 500 @ 60%",
+            "type": "color",
+            "category": "text",
+            "value": "rgba(0, 0, 0, .60)",
+            "rgbValue": "rgba(0, 0, 0, .60)"
+        },
+        "text_placeholder": {
+            "name": "text_placeholder",
+            "path": "colors.text_placeholder",
+            "version": "2.9.0",
+            "colorName": "Black 500 @ 50%",
+            "type": "color",
+            "category": "text",
+            "value": "rgba(0, 0, 0, .50)",
+            "rgbValue": "rgba(0, 0, 0, .50)"
+        },
+        "text_onColor": {
+            "name": "text_onColor",
+            "path": "colors.text_onColor",
+            "version": "2.9.0",
+            "colorName": "White 500",
+            "type": "color",
+            "category": "text",
+            "value": "#ffffff",
+            "rgbValue": "rgb(255, 255, 255)"
+        },
+        "inverse_text_primary": {
+            "name": "inverse_text_primary",
+            "path": "colors.inverse_text_primary",
+            "version": "2.9.0",
+            "colorName": "White 500 @ 90%",
+            "type": "color",
+            "category": "text",
+            "value": "rgba(255, 255, 255, .90)",
+            "rgbValue": "rgba(255, 255, 255, .90)"
+        },
+        "inverse_text_secondary": {
+            "name": "inverse_text_secondary",
+            "path": "colors.inverse_text_secondary",
+            "version": "2.9.0",
+            "colorName": "White 500 @ 75%",
+            "type": "color",
+            "category": "text",
+            "value": "rgba(255, 255, 255, .75)",
+            "rgbValue": "rgba(255, 255, 255, .75)"
+        },
+        "inverse_text_tertiary": {
+            "name": "inverse_text_tertiary",
+            "path": "colors.inverse_text_tertiary",
+            "version": "2.9.0",
+            "colorName": "White 500 @ 60%",
+            "type": "color",
+            "category": "text",
+            "value": "rgba(255, 255, 255, .60)",
+            "rgbValue": "rgba(255, 255, 255, .60)"
+        },
+        "inverse_text_onColor": {
+            "name": "inverse_text_onColor",
+            "path": "colors.inverse_text_onColor",
+            "version": "2.9.0",
+            "colorName": "Black 500",
+            "type": "color",
+            "category": "text",
+            "value": "#000000",
+            "rgbValue": "rgb(0, 0, 0)"
+        },
+        "border": {
+            "name": "border",
+            "path": "colors.border",
+            "version": "2.9.0",
+            "colorName": "Black 500 @ 44%",
+            "type": "color",
+            "category": "ui",
+            "value": "rgba(0, 0, 0, .44)",
+            "rgbValue": "rgba(0, 0, 0, .44)"
+        },
+        "border_subtle": {
+            "name": "border_subtle",
+            "path": "colors.border_subtle",
+            "version": "2.9.0",
+            "colorName": "Black 500 @ 12%",
+            "type": "color",
+            "category": "ui",
+            "value": "rgba(0, 0, 0, .12)",
+            "rgbValue": "rgba(0, 0, 0, .12)"
+        },
+        "border_contrast": {
+            "name": "border_contrast",
+            "path": "colors.border_contrast",
+            "version": "2.9.0",
+            "colorName": "Black 500 @ 90%",
+            "type": "color",
+            "category": "ui",
+            "value": "rgba(0, 0, 0, .90)",
+            "rgbValue": "rgba(0, 0, 0, .90)"
+        },
+        "inverse_border": {
+            "name": "inverse_border",
+            "path": "colors.inverse_border",
+            "version": "2.9.0",
+            "colorName": "White 500 @ 44%",
+            "type": "color",
+            "category": "ui",
+            "value": "rgba(255, 255, 255, .44)",
+            "rgbValue": "rgba(255, 255, 255, .44)"
+        },
+        "inverse_border_subtle": {
+            "name": "inverse_border_subtle",
+            "path": "colors.inverse_border_subtle",
+            "version": "2.9.0",
+            "colorName": "White 500 @ 12%",
+            "type": "color",
+            "category": "ui",
+            "value": "rgba(255, 255, 255, .12)",
+            "rgbValue": "rgba(255, 255, 255, .12)"
+        },
+        "inverse_border_contrast": {
+            "name": "inverse_border_contrast",
+            "path": "colors.inverse_border_contrast",
+            "version": "2.9.0",
+            "colorName": "White 500 @ 90%",
+            "type": "color",
+            "category": "ui",
+            "value": "rgba(255, 255, 255, .90)",
+            "rgbValue": "rgba(255, 255, 255, .90)"
+        },
+        "field": {
+            "name": "field",
+            "path": "colors.field",
+            "version": "2.9.0",
+            "colorName": "Gray 10",
+            "type": "color",
+            "category": "ui",
+            "value": "#f4f4f4",
+            "rgbValue": "rgb(244, 244, 244)"
+        },
+        "inverse_field": {
+            "name": "inverse_field",
+            "path": "colors.inverse_field",
+            "version": "2.9.0",
+            "colorName": "White 500",
+            "type": "color",
+            "category": "ui",
+            "value": "#ffffff",
+            "rgbValue": "rgb(255, 255, 255)"
+        },
+        "error": {
+            "name": "error",
+            "path": "colors.error",
+            "version": "2.14.0",
+            "colorName": "Ruby 500",
+            "type": "color",
+            "category": "error",
+            "value": "#9C182F",
+            "rgbValue": "rgb(156, 24, 47)"
+        },
+        "light_error": {
+            "name": "light_error",
+            "path": "colors.light_error",
+            "version": "2.14.0",
+            "colorName": "Ruby 25",
+            "type": "color",
+            "category": "error",
+            "value": "#F9F3F4",
+            "rgbValue": "rgb(249, 243, 244)"
+        },
+        "inverse_error": {
+            "name": "inverse_error",
+            "path": "colors.inverse_error",
+            "version": "2.14.0",
+            "colorName": "Ruby 225",
+            "type": "color",
+            "category": "error",
+            "value": "#D296A1",
+            "rgbValue": "rgb(210, 150, 161)"
+        },
+        "hover_error": {
+            "name": "hover_error",
+            "path": "colors.hover_error",
+            "version": "2.14.0",
+            "colorName": "Ruby 550",
+            "type": "color",
+            "category": "error",
+            "value": "#8C152A",
+            "rgbValue": "rgb(140, 21, 42)"
+        },
+        "active_error": {
+            "name": "active_error",
+            "path": "colors.active_error",
+            "version": "2.14.0",
+            "colorName": "Ruby 600",
+            "type": "color",
+            "category": "error",
+            "value": "#7C1325",
+            "rgbValue": "rgb(124, 19, 37)"
+        },
+        "hover_secondary_error": {
+            "name": "hover_secondary_error",
+            "path": "colors.hover_secondary_error",
+            "version": "2.14.0",
+            "colorName": "Ruby 25",
+            "type": "color",
+            "category": "error",
+            "value": "#F9F3F4",
+            "rgbValue": "rgb(249, 243, 244)"
+        },
+        "active_secondary_error": {
+            "name": "active_secondary_error",
+            "path": "colors.active_secondary_error",
+            "version": "2.14.0",
+            "colorName": "Ruby 50",
+            "type": "color",
+            "category": "error",
+            "value": "#F5E8EA",
+            "rgbValue": "rgb(245, 232, 234)"
+        },
+        "info": {
+            "name": "info",
+            "path": "colors.info",
+            "version": "2.2.0",
+            "colorName": "Cyan 500",
+            "type": "color",
+            "category": "info",
+            "value": "#00A3E0",
+            "rgbValue": "rgb(0, 163, 224)"
+        },
+        "inverse_info": {
+            "name": "inverse_info",
+            "path": "colors.inverse_info",
+            "version": "2.9.0",
+            "colorName": "Cyan 275",
+            "type": "color",
+            "category": "info",
+            "value": "#73CCED",
+            "rgbValue": "rgb(115, 204, 237)"
+        },
+        "light_info": {
+            "name": "light_info",
+            "path": "colors.light_info",
+            "version": "2.2.0",
+            "colorName": "Cyan 50",
+            "type": "color",
+            "category": "info",
+            "value": "#E6F5FB",
+            "rgbValue": "rgb(230, 245, 251)"
+        },
+        "success": {
+            "name": "success",
+            "path": "colors.success",
+            "version": "2.2.0",
+            "colorName": "Green 500",
+            "type": "color",
+            "category": "success",
+            "value": "#338700",
+            "rgbValue": "rgb(51, 135, 0)"
+        },
+        "inverse_success": {
+            "name": "inverse_success",
+            "path": "colors.inverse_success",
+            "version": "2.9.0",
+            "colorName": "Green 275",
+            "type": "color",
+            "category": "success",
+            "value": "#8fbd73",
+            "rgbValue": "rgb(143, 189, 115)"
+        },
+        "light_success": {
+            "name": "light_success",
+            "path": "colors.light_success",
+            "version": "2.2.0",
+            "colorName": "Green 50",
+            "type": "color",
+            "category": "success",
+            "value": "#ebf3e6",
+            "rgbValue": "rgb(235, 243, 230)"
+        },
+        "warning": {
+            "name": "warning",
+            "path": "colors.warning",
+            "version": "2.2.0",
+            "colorName": "Gold 500",
+            "type": "color",
+            "category": "warning",
+            "value": "#F5B324",
+            "rgbValue": "rgb(245, 179, 36)"
+        },
+        "inverse_warning": {
+            "name": "inverse_warning",
+            "path": "colors.inverse_warning",
+            "version": "2.9.0",
+            "colorName": "Gold 275",
+            "type": "color",
+            "category": "warning",
+            "value": "#F9D586",
+            "rgbValue": "rgb(249, 213, 134)"
+        },
+        "light_warning": {
+            "name": "light_warning",
+            "path": "colors.light_warning",
+            "version": "2.2.0",
+            "colorName": "Gold 50",
+            "type": "color",
+            "category": "warning",
+            "value": "#FEF7E9",
+            "rgbValue": "rgb(254, 247, 233)"
+        },
+        "highlight": {
+            "name": "highlight",
+            "path": "colors.highlight",
+            "version": "2.9.0",
+            "colorName": "Sapphire 25",
+            "type": "color",
+            "category": "other",
+            "value": "#F2F5FB",
+            "rgbValue": "rgb(242, 245, 251)"
+        },
+        "skeleton_01": {
+            "name": "skeleton_01",
+            "path": "colors.skeleton_01",
+            "version": "2.2.0",
+            "colorName": "Gray 17",
+            "type": "color",
+            "category": "other",
+            "value": "#e5e5e5",
+            "rgbValue": "rgb(229, 229, 229)"
+        },
+        "skeleton_02": {
+            "name": "skeleton_02",
+            "path": "colors.skeleton_02",
+            "version": "2.2.0",
+            "colorName": "Gray 30",
+            "type": "color",
+            "category": "other",
+            "value": "#c6c6c6",
+            "rgbValue": "rgb(198, 198, 198)"
+        },
+        "elevation_01": {
+            "name": "elevation_01",
+            "path": "colors.elevation_01",
+            "version": "2.9.0",
+            "colorName": "White 500",
+            "type": "color",
+            "category": "elevation",
+            "value": "#ffffff",
+            "rgbValue": "rgb(255, 255, 255)"
+        },
+        "elevation_02": {
+            "name": "elevation_02",
+            "path": "colors.elevation_02",
+            "version": "2.9.0",
+            "colorName": "White 500",
+            "type": "color",
+            "category": "elevation",
+            "value": "#ffffff",
+            "rgbValue": "rgb(255, 255, 255)"
+        },
+        "elevation_03": {
+            "name": "elevation_03",
+            "path": "colors.elevation_03",
+            "version": "2.9.0",
+            "colorName": "White 500",
+            "type": "color",
+            "category": "elevation",
+            "value": "#ffffff",
+            "rgbValue": "rgb(255, 255, 255)"
+        },
+        "elevation_04": {
+            "name": "elevation_04",
+            "path": "colors.elevation_04",
+            "version": "2.9.0",
+            "colorName": "White 500",
+            "type": "color",
+            "category": "elevation",
+            "value": "#ffffff",
+            "rgbValue": "rgb(255, 255, 255)"
+        },
+        "elevation_05": {
+            "name": "elevation_05",
+            "path": "colors.elevation_05",
+            "version": "2.9.0",
+            "colorName": "White 500",
+            "type": "color",
+            "category": "elevation",
+            "value": "#ffffff",
+            "rgbValue": "rgb(255, 255, 255)"
+        },
+        "elevation_06": {
+            "name": "elevation_06",
+            "path": "colors.elevation_06",
+            "version": "2.9.0",
+            "colorName": "White 500",
+            "type": "color",
+            "category": "elevation",
+            "value": "#ffffff",
+            "rgbValue": "rgb(255, 255, 255)"
+        },
+        "elevation_07": {
+            "name": "elevation_07",
+            "path": "colors.elevation_01",
+            "version": "2.9.0",
+            "colorName": "White 500",
+            "type": "color",
+            "category": "elevation",
+            "value": "#ffffff",
+            "rgbValue": "rgb(255, 255, 255)"
+        },
+        "elevation_08": {
+            "name": "elevation_08",
+            "path": "colors.elevation_08",
+            "version": "2.9.0",
+            "colorName": "White 500",
+            "type": "color",
+            "category": "elevation",
+            "value": "#ffffff",
+            "rgbValue": "rgb(255, 255, 255)"
+        },
+        "elevation_09": {
+            "name": "elevation_09",
+            "path": "colors.elevation_09",
+            "version": "2.9.0",
+            "colorName": "White 500",
+            "type": "color",
+            "category": "elevation",
+            "value": "#ffffff",
+            "rgbValue": "rgb(255, 255, 255)"
+        },
+        "border_radius_lg": {
+            "name": "border_radius_lg",
+            "path": "border.radius.lg",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "border-radius",
+            "value": "0.5rem"
+        },
+        "border_radius_md": {
+            "name": "border_radius_md",
+            "path": "border.radius.md",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "border-radius",
+            "value": "0.25rem"
+        },
+        "border_radius_sm": {
+            "name": "border_radius_sm",
+            "path": "border.radius.sm",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "border-radius",
+            "value": "0.125rem"
+        },
+        "border_radius_circle": {
+            "name": "border_radius_circle",
+            "path": "border.radius.circle",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "border-radius",
+            "value": "8rem"
+        },
+        "border_width_xl": {
+            "name": "border_width_xl",
+            "path": "border.width.xl",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "border-width",
+            "value": "0.5rem"
+        },
+        "border_width_lg": {
+            "name": "border_width_lg",
+            "path": "border.width.lg",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "border-width",
+            "value": "0.25rem"
+        },
+        "border_width_md": {
+            "name": "border_width_md",
+            "path": "border.width.md",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "border-width",
+            "value": "0.125rem"
+        },
+        "border_width_sm": {
+            "name": "border_width_sm",
+            "path": "border.width.sm",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "border-width",
+            "value": "0.0625rem"
+        },
+        "chart_01": {
+            "name": "chart_01",
+            "path": "colors.chart_01",
+            "version": "2.0.0",
+            "colorName": "Cyan 400",
+            "type": "color",
+            "category": "chart",
+            "value": "#33B5E6",
+            "rgbValue": "rgb(51, 181, 230)"
+        },
+        "chart_02": {
+            "name": "chart_02",
+            "path": "colors.chart_02",
+            "version": "2.0.0",
+            "colorName": "Sapphire 400",
+            "type": "color",
+            "category": "chart",
+            "value": "#3367CE",
+            "rgbValue": "rgb(51, 103, 206)"
+        },
+        "chart_03": {
+            "name": "chart_03",
+            "path": "colors.chart_03",
+            "version": "2.0.0",
+            "colorName": "Sky 400",
+            "type": "color",
+            "category": "chart",
+            "value": "#ACD4EF",
+            "rgbValue": "rgb(172, 212, 239)"
+        },
+        "chart_04": {
+            "name": "chart_04",
+            "path": "colors.chart_04",
+            "version": "2.0.0",
+            "colorName": "Brand 350",
+            "type": "color",
+            "category": "chart",
+            "value": "#4d6496",
+            "rgbValue": "rgb(77, 100, 150)"
+        },
+        "chart_05": {
+            "name": "chart_05",
+            "path": "colors.chart_05",
+            "version": "2.0.0",
+            "colorName": "Sapphire 500",
+            "type": "color",
+            "category": "chart",
+            "value": "#0041C2",
+            "rgbValue": "rgb(0, 65, 194)"
+        },
+        "chart_06": {
+            "name": "chart_06",
+            "path": "colors.chart_06",
+            "version": "2.0.0",
+            "colorName": "Sapphire 350",
+            "type": "color",
+            "category": "chart",
+            "value": "#4D7AD4",
+            "rgbValue": "rgb(77, 122, 212)"
+        },
+        "chart_07": {
+            "name": "chart_07",
+            "path": "colors.chart_07",
+            "version": "2.0.0",
+            "colorName": "Sky 500",
+            "type": "color",
+            "category": "chart",
+            "value": "#9BCBEB",
+            "rgbValue": "rgb(155, 203, 235)"
+        },
+        "brand": {
+            "name": "brand",
+            "path": "colors.brand",
+            "version": "2.0.0",
+            "colorName": "Brand 500",
+            "type": "color",
+            "category": "shared",
+            "value": "#012169",
+            "rgbValue": "rgb(1, 33, 105)"
+        },
+        "dark_blue": {
+            "name": "dark_blue",
+            "path": "colors.dark_blue",
+            "version": "2.14.0",
+            "colorName": "Dark Blue 500",
+            "type": "color",
+            "category": "shared",
+            "value": "#012169",
+            "rgbValue": "rgb(1, 33, 105)"
+        },
+        "sapphire": {
+            "name": "sapphire",
+            "path": "colors.sapphire",
+            "version": "2.0.0",
+            "colorName": "Sapphire 500",
+            "type": "color",
+            "category": "shared",
+            "value": "#0041C2",
+            "rgbValue": "rgb(0, 65, 194)"
+        },
+        "cyan": {
+            "name": "cyan",
+            "path": "colors.cyan",
+            "version": "2.0.0",
+            "colorName": "Cyan 500",
+            "type": "color",
+            "category": "shared",
+            "value": "#00A3E0",
+            "rgbValue": "rgb(0, 163, 224)"
+        },
+        "blue": {
+            "name": "blue",
+            "path": "colors.blue",
+            "version": "2.14.0",
+            "colorName": "Blue 500",
+            "type": "color",
+            "category": "shared",
+            "value": "#00A3E0",
+            "rgbValue": "rgb(0, 163, 224)"
+        },
+        "sky": {
+            "name": "sky",
+            "path": "colors.sky",
+            "version": "2.14.0",
+            "colorName": "Sky 500",
+            "type": "color",
+            "category": "shared",
+            "value": "#9BCBEB",
+            "rgbValue": "rgb(155, 203, 235)"
+        },
+        "light_blue": {
+            "name": "light_blue",
+            "path": "colors.light_blue",
+            "version": "2.14.0",
+            "colorName": "Light Blue 500",
+            "type": "color",
+            "category": "shared",
+            "value": "#9BCBEB",
+            "rgbValue": "rgb(155, 203, 235)"
+        },
+        "yellow": {
+            "name": "yellow",
+            "path": "colors.yellow",
+            "version": "2.14.0",
+            "colorName": "Yellow 500",
+            "type": "color",
+            "category": "shared",
+            "value": "#F3D03E",
+            "rgbValue": "rgb(243, 208, 62)"
+        },
+        "lfp_yellow": {
+            "name": "lfp_yellow",
+            "path": "colors.lfp_yellow",
+            "version": "2.14.0",
+            "colorName": "LFP Yellow 500",
+            "type": "color",
+            "category": "shared",
+            "value": "#F3D03E",
+            "rgbValue": "rgb(243, 208, 62)"
+        },
+        "gold": {
+            "name": "gold",
+            "path": "colors.gold",
+            "version": "2.0.0",
+            "colorName": "Gold 500",
+            "type": "color",
+            "category": "shared",
+            "value": "#F5B324",
+            "rgbValue": "rgb(245, 179, 36)"
+        },
+        "lime": {
+            "name": "lime",
+            "path": "colors.lime",
+            "version": "2.0.0",
+            "colorName": "Lime 500",
+            "type": "color",
+            "category": "shared",
+            "value": "#A9C23F",
+            "rgbValue": "rgb(169, 194, 63)"
+        },
+        "green": {
+            "name": "green",
+            "path": "colors.green",
+            "version": "2.0.0",
+            "colorName": "Green 500",
+            "type": "color",
+            "category": "shared",
+            "value": "#338700",
+            "rgbValue": "rgb(51, 135, 0)"
+        },
+        "red": {
+            "name": "red",
+            "path": "colors.red",
+            "version": "2.0.0",
+            "colorName": "Red 500",
+            "type": "color",
+            "category": "shared",
+            "value": "#E1261C",
+            "rgbValue": "rgb(225, 38, 28)"
+        },
+        "ruby": {
+            "name": "ruby",
+            "path": "colors.ruby",
+            "version": "2.0.0",
+            "colorName": "Ruby 500",
+            "type": "color",
+            "category": "shared",
+            "value": "#9C182F",
+            "rgbValue": "rgb(156, 24, 47)"
+        },
+        "midnight": {
+            "name": "midnight",
+            "path": "colors.midnight",
+            "version": "2.0.0",
+            "colorName": "Midnight 500",
+            "type": "color",
+            "category": "shared",
+            "value": "#000d2a",
+            "rgbValue": "rgb(0, 13, 42)"
+        },
+        "font_helvetica_regular": {
+            "name": "font_helvetica_regular",
+            "path": "typography.font_stack.helvetica.regular",
+            "version": "2.0.0",
+            "type": "typography",
+            "category": "font-family",
+            "value": "Helvetica, Arial, sans-serif"
+        },
+        "font_helvetica_bold": {
+            "name": "font_helvetica_bold",
+            "path": "typography.font_stack.helvetica.bold",
+            "version": "2.0.0",
+            "type": "typography",
+            "category": "font-family",
+            "value": "Helvetica, Arial, sans-serif"
+        },
+        "font_roboto_regular": {
+            "name": "font_roboto_regular",
+            "path": "typography.font_stack.roboto.regular",
+            "version": "2.0.0",
+            "type": "typography",
+            "category": "font-family",
+            "value": "Roboto-Regular, Helvetica, Arial, sans-serif"
+        },
+        "font_roboto_bold": {
+            "name": "font_roboto_bold",
+            "path": "typography.font_stack.roboto.bold",
+            "version": "2.0.0",
+            "type": "typography",
+            "category": "font-family",
+            "value": "Roboto-Bold, Helvetica, Arial, sans-serif"
+        },
+        "font_din_regular": {
+            "name": "font_din_regular",
+            "path": "typography.font_stack.din.regular",
+            "version": "2.0.0",
+            "type": "typography",
+            "category": "font-family",
+            "value": "DIN-Regular, Helvetica, Arial, sans-serif"
+        },
+        "font_din_bold": {
+            "name": "font_din_bold",
+            "path": "typography.font_stack.din.bold",
+            "version": "2.0.0",
+            "type": "typography",
+            "category": "font-family",
+            "value": "DIN-Bold, Helvetica, Arial, sans-serif"
+        },
+        "font_san_francisco_regular": {
+            "name": "font_san_francisco_regular",
+            "path": "typography.font_stack.san_francisco.regular",
+            "version": "2.0.0",
+            "type": "typography",
+            "category": "font-family",
+            "value": "San Francisco Pro Text Regular"
+        },
+        "font_san_francisco_bold": {
+            "name": "font_san_francisco_bold",
+            "path": "typography.font_stack.san_francisco.bold",
+            "version": "2.0.0",
+            "type": "typography",
+            "category": "font-family",
+            "value": "San Francisco Pro Display"
+        },
+        "font_weight_normal": {
+            "name": "font_weight_normal",
+            "path": "typography.font_weight.regular",
+            "version": "2.0.0",
+            "type": "typography",
+            "category": "font-weight",
+            "value": 400
+        },
+        "font_weight_medium": {
+            "name": "font_weight_medium",
+            "path": "typography.font_weight.medium",
+            "version": "2.0.0",
+            "type": "typography",
+            "category": "font-weight",
+            "value": 500
+        },
+        "font_weight_bold": {
+            "name": "font_weight_bold",
+            "path": "typography.font_weight.bold",
+            "version": "2.0.0",
+            "type": "typography",
+            "category": "font-weight",
+            "value": 700
+        },
+        "container_max": {
+            "name": "container_max",
+            "path": "grid.container.max",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizing",
+            "value": "100rem"
+        },
+        "view_sm_min": {
+            "name": "view_sm_min",
+            "path": "grid.media_query.sm_min",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "media-query",
+            "value": "18.75rem"
+        },
+        "view_sm_max": {
+            "name": "view_sm_max",
+            "path": "grid.media_query.sm_max",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "media-query",
+            "value": "36rem"
+        },
+        "view_md_min": {
+            "name": "view_md_min",
+            "path": "grid.media_query.md_min",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "media-query",
+            "value": "36rem"
+        },
+        "view_md_max": {
+            "name": "view_md_max",
+            "path": "grid.media_query.md_max",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "media-query",
+            "value": "48rem"
+        },
+        "view_lg_min": {
+            "name": "view_lg_min",
+            "path": "grid.media_query.lg_min",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "media-query",
+            "value": "48rem"
+        },
+        "view_lg_max": {
+            "name": "view_lg_max",
+            "path": "grid.media_query.lg_max",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "media-query",
+            "value": "64.5rem"
+        },
+        "view_xl_min": {
+            "name": "view_xl_min",
+            "path": "grid.media_query.xl_min",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "media-query",
+            "value": "64.5rem"
+        },
+        "view_xl_max": {
+            "name": "view_xl_max",
+            "path": "grid.media_query.xl_max",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "media-query",
+            "value": "84.75rem"
+        },
+        "gutter_sm": {
+            "name": "gutter_sm",
+            "path": "grid.gutter.sm",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "gutters",
+            "value": "0.25rem"
+        },
+        "gutter_md": {
+            "name": "gutter_md",
+            "path": "grid.gutter.md",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "gutters",
+            "value": "0.5rem"
+        },
+        "gutter_lg": {
+            "name": "gutter_lg",
+            "path": "grid.gutter.lg",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "gutters",
+            "value": "0.75rem"
+        },
+        "gutter_xl": {
+            "name": "gutter_xl",
+            "path": "grid.gutter.xl",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "gutters",
+            "value": "1rem"
+        },
+        "sizing_s1": {
+            "name": "sizing_s1",
+            "path": "sizing.s1",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "0.75rem"
+        },
+        "sizing_s2": {
+            "name": "sizing_s2",
+            "path": "sizing.s2",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "0.875rem"
+        },
+        "sizing_s3": {
+            "name": "sizing_s3",
+            "path": "sizing.s3",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "1rem"
+        },
+        "sizing_s4": {
+            "name": "sizing_s4",
+            "path": "sizing.s4",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "1.125rem"
+        },
+        "sizing_s5": {
+            "name": "sizing_s5",
+            "path": "sizing.s5",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "1.25rem"
+        },
+        "sizing_s6": {
+            "name": "sizing_s6",
+            "path": "sizing.s6",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "1.5rem"
+        },
+        "sizing_s7": {
+            "name": "sizing_s7",
+            "path": "sizing.s7",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "1.75rem"
+        },
+        "sizing_s8": {
+            "name": "sizing_s8",
+            "path": "sizing.s8",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "2rem"
+        },
+        "sizing_s9": {
+            "name": "sizing_s9",
+            "path": "sizing.s9",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "2.25rem"
+        },
+        "sizing_s10": {
+            "name": "sizing_s10",
+            "path": "sizing.s10",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "2.5rem"
+        },
+        "sizing_s11": {
+            "name": "sizing_s11",
+            "path": "sizing.s11",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "2.75rem"
+        },
+        "sizing_s12": {
+            "name": "sizing_s12",
+            "path": "sizing.s12",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "3rem"
+        },
+        "sizing_s13": {
+            "name": "sizing_s13",
+            "path": "sizing.s13",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "3.25rem"
+        },
+        "sizing_s14": {
+            "name": "sizing_s14",
+            "path": "sizing.s14",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "3.5rem"
+        },
+        "sizing_s15": {
+            "name": "sizing_s15",
+            "path": "sizing.s15",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "3.75rem"
+        },
+        "sizing_s16": {
+            "name": "sizing_s16",
+            "path": "sizing.s16",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "4rem"
+        },
+        "sizing_s17": {
+            "name": "sizing_s17",
+            "path": "sizing.s17",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "4.25rem"
+        },
+        "sizing_s18": {
+            "name": "sizing_s18",
+            "path": "sizing.s18",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "4.5rem"
+        },
+        "sizing_s19": {
+            "name": "sizing_s19",
+            "path": "sizing.s19",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "4.75rem"
+        },
+        "sizing_s20": {
+            "name": "sizing_s20",
+            "path": "sizing.s20",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "5rem"
+        },
+        "sizing_s21": {
+            "name": "sizing_s21",
+            "path": "sizing.s21",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "5.25rem"
+        },
+        "sizing_s22": {
+            "name": "sizing_s22",
+            "path": "sizing.s22",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "5.5rem"
+        },
+        "size_0": {
+            "name": "size_0",
+            "path": "sizes.size_0",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "0rem"
+        },
+        "size_1": {
+            "name": "size_1",
+            "path": "sizes.size_1",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "0.0625rem"
+        },
+        "size_2": {
+            "name": "size_2",
+            "path": "sizes.size_2",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "0.125rem"
+        },
+        "size_3": {
+            "name": "size_3",
+            "path": "sizes.size_3",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "0.1875rem"
+        },
+        "size_4": {
+            "name": "size_4",
+            "path": "sizes.size_4",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "0.25rem"
+        },
+        "size_5": {
+            "name": "size_5",
+            "path": "sizes.size_5",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "0.3125rem"
+        },
+        "size_6": {
+            "name": "size_6",
+            "path": "sizes.size_6",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "0.375rem"
+        },
+        "size_7": {
+            "name": "size_7",
+            "path": "sizes.size_7",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "0.4375rem"
+        },
+        "size_8": {
+            "name": "size_8",
+            "path": "sizes.size_8",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "0.5rem"
+        },
+        "size_10": {
+            "name": "size_10",
+            "path": "sizes.size_10",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "0.625rem"
+        },
+        "size_12": {
+            "name": "size_12",
+            "path": "sizes.size_12",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "0.75rem"
+        },
+        "size_14": {
+            "name": "size_14",
+            "path": "sizes.size_14",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "0.875rem"
+        },
+        "size_16": {
+            "name": "size_16",
+            "path": "sizes.size_16",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "1rem"
+        },
+        "size_18": {
+            "name": "size_18",
+            "path": "sizes.size_18",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "1.125rem"
+        },
+        "size_20": {
+            "name": "size_20",
+            "path": "sizes.size_20",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "1.25rem"
+        },
+        "size_24": {
+            "name": "size_24",
+            "path": "sizes.size_24",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "1.5rem"
+        },
+        "size_28": {
+            "name": "size_28",
+            "path": "sizes.size_28",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "1.75rem"
+        },
+        "size_30": {
+            "name": "size_30",
+            "path": "sizes.size_30",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "1.875rem"
+        },
+        "size_32": {
+            "name": "size_32",
+            "path": "sizes.size_32",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "2rem"
+        },
+        "size_36": {
+            "name": "size_36",
+            "path": "sizes.size_36",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "2.25rem"
+        },
+        "size_40": {
+            "name": "size_40",
+            "path": "sizes.size_40",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "2.5rem"
+        },
+        "size_44": {
+            "name": "size_44",
+            "path": "sizes.size_44",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "2.75rem"
+        },
+        "size_48": {
+            "name": "size_48",
+            "path": "sizes.size_48",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "3rem"
+        },
+        "size_52": {
+            "name": "size_52",
+            "path": "sizes.size_52",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "3.25rem"
+        },
+        "size_56": {
+            "name": "size_56",
+            "path": "sizes.size_56",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "3.5rem"
+        },
+        "size_60": {
+            "name": "size_60",
+            "path": "sizes.size_60",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "3.75rem"
+        },
+        "size_64": {
+            "name": "size_64",
+            "path": "sizes.size_64",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "4rem"
+        },
+        "size_68": {
+            "name": "size_68",
+            "path": "sizes.size_68",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "4.25rem"
+        },
+        "size_72": {
+            "name": "size_72",
+            "path": "sizes.size_72",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "4.5rem"
+        },
+        "size_76": {
+            "name": "size_76",
+            "path": "sizes.size_76",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "4.75rem"
+        },
+        "size_80": {
+            "name": "size_80",
+            "path": "sizes.size_80",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "5rem"
+        },
+        "size_84": {
+            "name": "size_84",
+            "path": "sizes.size_84",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "5.25rem"
+        },
+        "size_88": {
+            "name": "size_88",
+            "path": "sizes.size_88",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "5.5rem"
+        },
+        "size_92": {
+            "name": "size_92",
+            "path": "sizes.size_92",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "5.75rem"
+        },
+        "size_96": {
+            "name": "size_96",
+            "path": "sizes.size_96",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "6rem"
+        },
+        "size_112": {
+            "name": "size_112",
+            "path": "sizes.size_112",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "7rem"
+        },
+        "size_128": {
+            "name": "size_128",
+            "path": "sizes.size_128",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "sizes",
+            "value": "8rem"
+        },
+        "spacing_s1": {
+            "name": "spacing_s1",
+            "path": "spacing.s1",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "spacing",
+            "value": "0.125rem"
+        },
+        "spacing_s2": {
+            "name": "spacing_s2",
+            "path": "spacing.s2",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "spacing",
+            "value": "0.25rem"
+        },
+        "spacing_s3": {
+            "name": "spacing_s3",
+            "path": "spacing.s3",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "spacing",
+            "value": "0.5rem"
+        },
+        "spacing_s4": {
+            "name": "spacing_s4",
+            "path": "spacing.s4",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "spacing",
+            "value": "0.75rem"
+        },
+        "spacing_s5": {
+            "name": "spacing_s5",
+            "path": "spacing.s5",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "spacing",
+            "value": "1rem"
+        },
+        "spacing_s6": {
+            "name": "spacing_s6",
+            "path": "spacing.s6",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "spacing",
+            "value": "1.25rem"
+        },
+        "spacing_s7": {
+            "name": "spacing_s7",
+            "path": "spacing.s7",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "spacing",
+            "value": "1.5rem"
+        },
+        "spacing_s8": {
+            "name": "spacing_s8",
+            "path": "spacing.s8",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "spacing",
+            "value": "1.75rem"
+        },
+        "spacing_s9": {
+            "name": "spacing_s9",
+            "path": "spacing.s9",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "spacing",
+            "value": "2rem"
+        },
+        "spacing_s10": {
+            "name": "spacing_s10",
+            "path": "spacing.s10",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "spacing",
+            "value": "2.25rem"
+        },
+        "spacing_s11": {
+            "name": "spacing_s11",
+            "path": "spacing.s11",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "spacing",
+            "value": "2.5rem"
+        },
+        "spacing_s12": {
+            "name": "spacing_s12",
+            "path": "spacing.s12",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "spacing",
+            "value": "2.75rem"
+        },
+        "spacing_s13": {
+            "name": "spacing_s13",
+            "path": "spacing.s13",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "spacing",
+            "value": "3rem"
+        },
+        "layout_l1": {
+            "name": "layout_l1",
+            "path": "layout.l1",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "spacing",
+            "value": "0.5rem"
+        },
+        "layout_l2": {
+            "name": "layout_l2",
+            "path": "layout.l2",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "spacing",
+            "value": "1rem"
+        },
+        "layout_l3": {
+            "name": "layout_l3",
+            "path": "layout.l3",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "spacing",
+            "value": "1.5rem"
+        },
+        "layout_l4": {
+            "name": "layout_l4",
+            "path": "layout.l4",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "spacing",
+            "value": "2rem"
+        },
+        "layout_l5": {
+            "name": "layout_l5",
+            "path": "layout.l5",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "spacing",
+            "value": "2.5rem"
+        },
+        "layout_l6": {
+            "name": "layout_l6",
+            "path": "layout.l6",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "spacing",
+            "value": "3rem"
+        },
+        "layout_l7": {
+            "name": "layout_l7",
+            "path": "layout.l7",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "spacing",
+            "value": "4rem"
+        },
+        "layout_l8": {
+            "name": "layout_l8",
+            "path": "layout.l8",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "spacing",
+            "value": "5rem"
+        },
+        "layout_l9": {
+            "name": "layout_l9",
+            "path": "layout.l9",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "spacing",
+            "value": "6rem"
+        },
+        "layout_l10": {
+            "name": "layout_l10",
+            "path": "layout.l10",
+            "version": "2.0.0",
+            "type": "size",
+            "category": "spacing",
+            "value": "8rem"
+        },
+        "floating": {
+            "name": "floating",
+            "path": "zIndex.floating",
+            "version": "2.9.0",
+            "type": "effect",
+            "category": "z-index",
+            "value": 1050
+        },
+        "drawer": {
+            "name": "drawer",
+            "path": "zIndex.drawer",
+            "version": "2.9.0",
+            "type": "effect",
+            "category": "z-index",
+            "value": 1200
+        },
+        "modal": {
+            "name": "modal",
+            "path": "zIndex.modal",
+            "version": "2.9.0",
+            "type": "effect",
+            "category": "z-index",
+            "value": 1300
+        },
+        "notification": {
+            "name": "notification",
+            "path": "zIndex.notification",
+            "version": "2.9.0",
+            "type": "effect",
+            "category": "z-index",
+            "value": 1400
+        },
+        "tooltip": {
+            "name": "tooltip",
+            "path": "zIndex.tooltip",
+            "version": "2.9.0",
+            "type": "effect",
+            "category": "z-index",
+            "value": 1500
+        }
+    }
+}

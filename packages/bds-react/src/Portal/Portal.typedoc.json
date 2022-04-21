@@ -1,0 +1,223 @@
+{
+	"id": 0,
+	"name": "@lowes-tech/bds-react/Portal",
+	"kind": 1,
+	"kindString": "Project",
+	"flags": {},
+	"children": [
+		{
+			"id": 10,
+			"name": "default",
+			"kind": 16777216,
+			"kindString": "Reference",
+			"flags": {},
+			"target": 1
+		},
+		{
+			"id": 2,
+			"name": "PortalProps",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 8,
+					"name": "as",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ElementType"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "BackyardBaseProps.as"
+					}
+				},
+				{
+					"id": 3,
+					"name": "children",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"shortText": "Children of Portal"
+					},
+					"type": {
+						"type": "reference",
+						"name": "ReactNode"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.children"
+					}
+				},
+				{
+					"id": 4,
+					"name": "container",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"shortText": "Container owner of portal"
+					},
+					"type": {
+						"type": "reference",
+						"name": "ReactInstance"
+					}
+				},
+				{
+					"id": 5,
+					"name": "disablePortal",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not to disable portal functionality"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 6,
+					"name": "onRendered",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 7,
+							"name": "onRendered",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onRendered` trigger function"
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						8,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						6
+					]
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"typeArguments": [
+						{
+							"type": "reference",
+							"id": 9,
+							"name": "PortalRef"
+						}
+					],
+					"name": "BackyardBaseProps"
+				}
+			]
+		},
+		{
+			"id": 9,
+			"name": "PortalRef",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"type": {
+				"type": "reference",
+				"name": "HTMLElement"
+			}
+		},
+		{
+			"id": 1,
+			"name": "Portal",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"comment": {
+				"shortText": "Backyard React Portal",
+				"tags": [
+					{
+						"tag": "todo",
+						"text": "Comments\n"
+					}
+				]
+			},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"id": 2,
+						"name": "PortalProps"
+					}
+				],
+				"name": "BDSForwardRef"
+			},
+			"defaultValue": "..."
+		}
+	],
+	"groups": [
+		{
+			"title": "References",
+			"kind": 16777216,
+			"children": [
+				10
+			]
+		},
+		{
+			"title": "Interfaces",
+			"kind": 256,
+			"children": [
+				2
+			]
+		},
+		{
+			"title": "Type aliases",
+			"kind": 4194304,
+			"children": [
+				9
+			]
+		},
+		{
+			"title": "Variables",
+			"kind": 32,
+			"children": [
+				1
+			]
+		}
+	]
+}

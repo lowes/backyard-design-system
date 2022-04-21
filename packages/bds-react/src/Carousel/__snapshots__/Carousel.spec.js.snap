@@ -1,0 +1,4969 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Carousel Snapshots Carousel default snapshot 1`] = `
+<DocumentFragment>
+  .c5 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c5:not(.color-override) g,
+.c5:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c5:not(.color-override) g[stroke-width],
+.c5:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c5:not(.color-override) g[stroke-width] *,
+.c5:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c5.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c5.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c3 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  cursor: pointer;
+  box-sizing: border-box;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  border-style: solid;
+  border-width: var(--bds-border-width-sm);
+  height: 100%;
+}
+
+.c3 .btn-label {
+  display: inherit;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  -webkit-letter-spacing: .015rem;
+  -moz-letter-spacing: .015rem;
+  -ms-letter-spacing: .015rem;
+  letter-spacing: .015rem;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c3 .btn-label > .btn-start-icon {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c3 .btn-label > .btn-end-icon {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c3 .btn-label > .btn-end-icon svg {
+  width: var(--bds-sizes-size-16);
+  height: var(--bds-sizes-size-16);
+}
+
+.c3 .btn-label > .btn-start-icon,
+.c3 .btn-label > .btn-end-icon,
+.c3 .btn-label > .icon {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c3.full-width {
+  width: 100%;
+  padding: var(--bds-sizes-size-12) var(--bds-sizes-size-32);
+}
+
+.c3.elevation {
+  box-shadow: var(--bds-shadows-shadow-03);
+}
+
+.c3.variant--primary:enabled,
+.c3.variant--primary.enabled {
+  background-color: var(--btn-base);
+  border-color: var(--btn-base);
+}
+
+.c3.variant--primary:enabled .btn-label,
+.c3.variant--primary.enabled .btn-label {
+  color: var(--btn-text);
+}
+
+.c3.variant--primary:enabled .btn-label .icon path,
+.c3.variant--primary.enabled .btn-label .icon path {
+  fill: var(--btn-icon);
+}
+
+.c3.variant--primary:hover,
+.c3.variant--primary.hover {
+  background-color: var(--btn-hover);
+  border-color: var(--btn-hover);
+}
+
+.c3.variant--primary:focus,
+.c3.variant--primary.focus {
+  box-shadow: inset 0 0 0 1px var(--btn-base),inset 0px 0 0 2px var(--btn-focus);
+}
+
+.c3.variant--primary:focus:hover,
+.c3.variant--primary.focus:hover {
+  box-shadow: inset 0 0 0 1px var(--btn-hover),inset 0px 0 0 2px var(--btn-focus);
+}
+
+.c3.variant--primary:active,
+.c3.variant--primary.active {
+  background-color: var(--btn-pressed);
+  border-color: var(--btn-pressed);
+}
+
+.c3.variant--primary:disabled,
+.c3.variant--primary.disabled {
+  background-color: var(--btn-disabled);
+  border-color: transparent;
+}
+
+.c3.variant--primary:disabled .btn-label,
+.c3.variant--primary.disabled .btn-label {
+  color: var(--btn-disabled);
+}
+
+.c3.variant--primary:disabled .btn-label .icon path,
+.c3.variant--primary.disabled .btn-label .icon path {
+  fill: var(--btn-disabled);
+}
+
+.c3.variant--primary.c2.variant--primary.size--jumbo:focus,
+.c3.variant--primary.c3.variant--primary.size--jumbo.focus {
+  box-shadow: inset 0 0 0 2px var(--btn-base),inset 0px 0 0 4px var(--btn-focus);
+}
+
+.c3.variant--secondary:enabled,
+.c3.variant--secondary.enabled {
+  background-color: transparent;
+  border-color: var(--btn-base);
+}
+
+.c3.variant--secondary:enabled .btn-label,
+.c3.variant--secondary.enabled .btn-label {
+  color: var(--btn-text);
+}
+
+.c3.variant--secondary:enabled .btn-label .icon path,
+.c3.variant--secondary.enabled .btn-label .icon path {
+  fill: var(--btn-icon);
+}
+
+.c3.variant--secondary:hover,
+.c3.variant--secondary.hover {
+  background-color: var(--btn-hover);
+  border-color: var(--btn-base);
+}
+
+.c3.variant--secondary:focus,
+.c3.variant--secondary.focus {
+  background-color: transparent;
+  box-shadow: 0px 0 0 2px var(--btn-focus);
+}
+
+.c3.variant--secondary:active,
+.c3.variant--secondary:focus:active,
+.c3.variant--secondary.active {
+  background-color: var(--btn-pressed);
+  border-color: var(--btn-focus);
+}
+
+.c3.variant--secondary:disabled,
+.c3.variant--secondary.disabled {
+  background-color: transparent;
+  border-color: var(--btn-disabled);
+}
+
+.c3.variant--secondary:disabled .btn-label,
+.c3.variant--secondary.disabled .btn-label {
+  color: var(--btn-disabled);
+}
+
+.c3.variant--secondary:disabled .btn-label .icon path,
+.c3.variant--secondary.disabled .btn-label .icon path {
+  fill: var(--btn-disabled);
+}
+
+.c3.variant--tertiary:enabled,
+.c3.variant--tertiary.enabled {
+  background-color: var(--btn-base-subdued);
+  border-color: var(--btn-base-subdued);
+}
+
+.c3.variant--tertiary:enabled .btn-label,
+.c3.variant--tertiary.enabled .btn-label {
+  color: var(--btn-text);
+}
+
+.c3.variant--tertiary:enabled .btn-label .icon path,
+.c3.variant--tertiary.enabled .btn-label .icon path {
+  fill: var(--btn-icon);
+}
+
+.c3.variant--tertiary:hover,
+.c3.variant--tertiary.hover {
+  background-color: var(--btn-hover);
+  border-color: var(--btn-hover);
+}
+
+.c3.variant--tertiary:focus,
+.c3.variant--tertiary.focus {
+  box-shadow: 0px 0 0 2px var(--btn-focus);
+}
+
+.c3.variant--tertiary:focus:hover,
+.c3.variant--tertiary.focus:hover {
+  box-shadow: 0px 0 0 2px var(--btn-focus);
+}
+
+.c3.variant--tertiary:active,
+.c3.variant--tertiary.active {
+  background-color: var(--btn-pressed);
+  border-color: var(--btn-pressed);
+}
+
+.c3.variant--tertiary:disabled,
+.c3.variant--tertiary.disabled {
+  background-color: var(--btn-disabled-subdued);
+  border-color: var(--btn-disabled-subdued);
+}
+
+.c3.variant--tertiary:disabled .btn-label,
+.c3.variant--tertiary.disabled .btn-label {
+  color: var(--btn-disabled);
+}
+
+.c3.variant--tertiary:disabled .btn-label .icon path,
+.c3.variant--tertiary.disabled .btn-label .icon path {
+  fill: var(--btn-disabled);
+}
+
+.c3.variant--ghost:enabled,
+.c3.variant--ghost.enabled {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.c3.variant--ghost:enabled .btn-label,
+.c3.variant--ghost.enabled .btn-label {
+  color: var(--btn-text);
+}
+
+.c3.variant--ghost:enabled .btn-label .icon path,
+.c3.variant--ghost.enabled .btn-label .icon path {
+  fill: var(--btn-icon);
+}
+
+.c3.variant--ghost:hover,
+.c3.variant--ghost.hover {
+  background-color: var(--btn-hover);
+  border-color: transparent;
+}
+
+.c3.variant--ghost:focus,
+.c3.variant--ghost.focus {
+  background-color: transparent;
+  border-color: transparent;
+  box-shadow: 0px 0 0 2px var(--btn-focus);
+}
+
+.c3.variant--ghost:focus:hover,
+.c3.variant--ghost.focus:hover {
+  background-color: var(--btn-hover);
+  border-color: transparent;
+}
+
+.c3.variant--ghost:active,
+.c3.variant--ghost:focus:active,
+.c3.variant--ghost.active {
+  background-color: var(--btn-pressed);
+  border-color: transparent;
+}
+
+.c3.variant--ghost:disabled,
+.c3.variant--ghost.disabled {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.c3.variant--ghost:disabled .btn-label,
+.c3.variant--ghost.disabled .btn-label {
+  color: var(--btn-disabled);
+}
+
+.c3.variant--ghost:disabled .btn-label .icon path,
+.c3.variant--ghost.disabled .btn-label .icon path {
+  fill: var(--btn-disabled);
+}
+
+.c3.variant--inverse:enabled,
+.c3.variant--inverse.enabled {
+  background-color: var(--btn-base-subdued);
+  border-color: var(--btn-base-subdued);
+}
+
+.c3.variant--inverse:enabled .btn-label,
+.c3.variant--inverse.enabled .btn-label {
+  color: var(--btn-text);
+}
+
+.c3.variant--inverse:enabled .btn-label .icon path,
+.c3.variant--inverse.enabled .btn-label .icon path {
+  fill: var(--btn-icon);
+}
+
+.c3.variant--inverse:hover,
+.c3.variant--inverse.hover {
+  background-color: var(--btn-hover);
+  border-color: var(--btn-hover);
+}
+
+.c3.variant--inverse:focus,
+.c3.variant--inverse.focus {
+  background-color: var(--btn-base-subdued);
+  box-shadow: 0px 0 0 2px var(--btn-focus);
+}
+
+.c3.variant--inverse:focus:hover,
+.c3.variant--inverse.focus:hover {
+  background-color: var(--btn-hover);
+  border-color: var(--btn-focus);
+}
+
+.c3.variant--inverse:active,
+.c3.variant--inverse.active {
+  background-color: var(--btn-pressed);
+  border-color: var(--btn-pressed);
+}
+
+.c3.variant--inverse:disabled,
+.c3.variant--inverse.disabled {
+  background-color: var(--btn-base-subdued);
+  border-color: var(--btn-base-subdued);
+}
+
+.c3.variant--inverse:disabled .btn-label,
+.c3.variant--inverse.disabled .btn-label {
+  color: var(--btn-disabled);
+}
+
+.c3.variant--inverse:disabled .btn-label .icon path,
+.c3.variant--inverse.disabled .btn-label .icon path {
+  fill: var(--btn-disabled);
+}
+
+.c3.shape--rounded {
+  border-radius: var(--bds-border-radius-lg);
+}
+
+.c3.shape--squared {
+  border-radius: 0;
+}
+
+.c3.shape--circle {
+  border-radius: var(--bds-border-radius-circle);
+}
+
+.c3.size--small {
+  min-height: var(--bds-sizes-size-40);
+  padding: 0 var(--bds-sizes-size-20);
+}
+
+.c3.size--small .btn-label {
+  font-size: var(--bds-sizes-size-12);
+  line-height: var(--bds-sizes-size-16);
+}
+
+.c3.size--small .btn-label .btn-start-icon,
+.c3.size--small .btn-label .btn-end-icon,
+.c3.size--small .btn-label .icon {
+  width: var(--bds-sizes-size-12);
+  height: var(--bds-sizes-size-12);
+}
+
+.c3.size--medium {
+  min-height: var(--bds-sizes-size-48);
+  padding: 0 var(--bds-sizes-size-32);
+}
+
+.c3.size--medium .btn-label {
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-24);
+}
+
+.c3.size--medium .btn-label .btn-start-icon,
+.c3.size--medium .btn-label .btn-end-icon,
+.c3.size--medium .btn-label .icon {
+  width: var(--bds-sizes-size-14);
+  height: var(--bds-sizes-size-14);
+}
+
+.c3.size--large {
+  min-height: var(--bds-sizes-size-56);
+  padding: 0 var(--bds-sizes-size-32);
+}
+
+.c3.size--large .btn-label {
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+}
+
+.c3.size--large .btn-label .btn-start-icon,
+.c3.size--large .btn-label .btn-end-icon,
+.c3.size--large .btn-label .icon {
+  width: var(--bds-sizes-size-16);
+  height: var(--bds-sizes-size-16);
+}
+
+.c3.size--jumbo {
+  min-height: var(--bds-sizes-size-96);
+  padding: 0 var(--bds-sizes-size-56);
+}
+
+.c3.size--jumbo .btn-label {
+  font-size: var(--bds-sizes-size-24);
+  line-height: var(--bds-sizes-size-40);
+}
+
+.c3.size--jumbo .btn-label .btn-start-icon,
+.c3.size--jumbo .btn-label .btn-end-icon,
+.c3.size--jumbo .btn-label .icon {
+  width: var(--bds-sizes-size-24);
+  height: var(--bds-sizes-size-24);
+}
+
+.c3.disabled {
+  cursor: not-allowed;
+}
+
+.c3.disabled:active {
+  pointer-events: none;
+}
+
+.c3.c3.c3 {
+  outline: none;
+  vertical-align: bottom;
+  height: auto;
+}
+
+.c3.c3.c3::-moz-focus-inner {
+  border: 0;
+}
+
+.c4.size--extra_small {
+  min-width: var(--bds-sizes-size-32);
+  min-height: var(--bds-sizes-size-32);
+}
+
+.c4.size--extra_small .btn-label > .btn-start-icon,
+.c4.size--extra_small .btn-label > .btn-end-icon,
+.c4.size--extra_small .btn-label > .icon {
+  width: var(--bds-sizes-size-14);
+  height: var(--bds-sizes-size-14);
+}
+
+.c4.size--small {
+  min-width: var(--bds-sizes-size-40);
+  min-height: var(--bds-sizes-size-40);
+  padding: var(--bds-sizes-size-8);
+}
+
+.c4.size--small .btn-label > .btn-start-icon,
+.c4.size--small .btn-label > .btn-end-icon,
+.c4.size--small .btn-label > .icon {
+  width: var(--bds-sizes-size-16);
+  height: var(--bds-sizes-size-16);
+}
+
+.c4.size--medium {
+  min-width: var(--bds-sizes-size-48);
+  min-height: var(--bds-sizes-size-48);
+  padding: var(--bds-sizes-size-12);
+}
+
+.c4.size--medium .btn-label > .btn-start-icon,
+.c4.size--medium .btn-label > .btn-end-icon,
+.c4.size--medium .btn-label > .icon {
+  width: var(--bds-sizes-size-20);
+  height: var(--bds-sizes-size-20);
+}
+
+.c4.size--large {
+  min-width: var(--bds-sizes-size-56);
+  min-height: var(--bds-sizes-size-56);
+  padding: var(--bds-sizes-size-16);
+}
+
+.c4.size--large .btn-label > .btn-start-icon,
+.c4.size--large .btn-label > .btn-end-icon,
+.c4.size--large .btn-label > .icon {
+  width: var(--bds-sizes-size-24);
+  height: var(--bds-sizes-size-24);
+}
+
+.c4.size--jumbo {
+  min-width: var(--bds-sizes-size-96);
+  min-height: var(--bds-sizes-size-96);
+  padding: var(--bds-sizes-size-32);
+}
+
+.c4.size--jumbo .btn-label > .btn-start-icon,
+.c4.size--jumbo .btn-label > .btn-end-icon,
+.c4.size--jumbo .btn-label > .icon {
+  width: var(--bds-sizes-size-48);
+  height: var(--bds-sizes-size-48);
+}
+
+.c0 {
+  height: auto;
+  width: auto;
+}
+
+.c0 .content-container {
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+}
+
+.c0 .content-container::-webkit-scrollbar {
+  display: none;
+}
+
+.c0 .content-container .scrollbar-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c8 {
+  width: 100%;
+  padding-top: var(--bds-sizes-size-4);
+  padding-bottom: var(--bds-sizes-size-4);
+}
+
+.c8:hover {
+  cursor: pointer;
+}
+
+.c8.hide-scrollbar {
+  display: none;
+}
+
+.c10 {
+  position: absolute;
+  left: 0;
+  width: 10%;
+  height: var(--bds-sizes-size-4);
+  background-color: var(--bds-color-action-interactive);
+  border-radius: var(--bds-border-radius-circle);
+  -webkit-transition: top 0.08s;
+  -moz-transition: top 0.08s;
+  -ms-transition: top 0.08s;
+  -o-transition: top 0.08s;
+  -webkit-transition: top 0.08s;
+  transition: top 0.08s;
+}
+
+.c10:hover {
+  background-color: var(--bds-color-action-interactive-hover);
+}
+
+.c10:hover,
+.c10:focus,
+.c10:active {
+  margin-top: -0.0625rem;
+  height: var(--bds-sizes-size-6);
+}
+
+.c9 {
+  position: relative;
+  background: var(--bds-color-surface-subdued);
+  height: 4px;
+  -webkit-order: 10;
+  -ms-flex-order: 10;
+  order: 10;
+  width: 100%;
+  border-radius: var(--bds-border-radius-circle);
+}
+
+.c7 {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  margin: 0 1rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  position: relative;
+  min-width: 0;
+  padding-top: var(--bds-sizes-size-16);
+  padding-right: var(--bds-sizes-size-20);
+  padding-left: var(--bds-sizes-size-20);
+}
+
+.c1 .scrollbar-container {
+  padding-top: var(--bds-sizes-size-20);
+  padding-bottom: var(--bds-sizes-size-20);
+}
+
+.c1.no-scrollbar > .scrollbar-container {
+  display: none;
+}
+
+.c1 .content-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  min-width: 0;
+}
+
+.c1 .content-container .c6:first-of-type {
+  margin-left: 0;
+}
+
+.c1 .content-container .c6:last-of-type {
+  margin-right: 0;
+}
+
+.c1 .content-container .carousel-button-right,
+.c1 .content-container .carousel-button-left {
+  display: none;
+  position: absolute;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.c1 .content-container .carousel-button-right.show-button,
+.c1 .content-container .carousel-button-left.show-button {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 .content-container .carousel-button-left {
+  left: 0;
+}
+
+.c1 .content-container .carousel-button-right {
+  right: 0;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c3.size--small .btn-label {
+    font-size: var(--bds-sizes-size-14);
+  }
+
+  .c3.size--small .btn-label .btn-start-icon,
+  .c3.size--small .btn-label .btn-end-icon,
+  .c3.size--small .btn-label .icon {
+    width: var(--bds-sizes-size-14);
+    height: var(--bds-sizes-size-14);
+  }
+
+  .c3.size--medium .btn-label {
+    font-size: var(--bds-sizes-size-16);
+  }
+
+  .c3.size--medium .btn-label .btn-start-icon,
+  .c3.size--medium .btn-label .btn-end-icon,
+  .c3.size--medium .btn-label .icon {
+    width: var(--bds-sizes-size-16);
+    height: var(--bds-sizes-size-16);
+  }
+
+  .c3.size--large .btn-label {
+    font-size: var(--bds-sizes-size-18);
+  }
+
+  .c3.size--large .btn-label .btn-start-icon,
+  .c3.size--large .btn-label .btn-end-icon,
+  .c3.size--large .btn-label .icon {
+    width: var(--bds-sizes-size-18);
+    height: var(--bds-sizes-size-18);
+  }
+
+  .c3.size--jumbo .btn-label {
+    font-size: var(--bds-sizes-size-28);
+  }
+
+  .c3.size--jumbo .btn-label .btn-start-icon,
+  .c3.size--jumbo .btn-label .btn-end-icon,
+  .c3.size--jumbo .btn-label .icon {
+    width: var(--bds-sizes-size-28);
+    height: var(--bds-sizes-size-28);
+  }
+}
+
+<div
+    class="c0 c1 carousel-content"
+  >
+    <div
+      class="content-container"
+      id="test"
+    >
+      <div
+        class="scrollbar-content"
+      >
+        <button
+          aria-label="title"
+          class="c2 c3 backyard button size--small variant--inverse color--interactive shape--circle c4 icon-button carousel-button-left elevation"
+          color="interactive"
+          style="--btn-base: hsl(213, 84%, 45%, 1); --btn-base-subdued: hsl(0, 0%, 100%, 1); --btn-hover: hsl(213, 84%, 92%, 1); --btn-pressed: hsl(213, 84%, 90%, 1); --btn-focus: hsl(213, 84%, 45%, 1); --btn-text: hsl(213, 84%, 45%, 1); --btn-icon: hsl(213, 84%, 35%, 1); --btn-disabled: hsl(0, 0%, 0%, .30); --btn-disabled-subdued: hsl(0, 0%, 96%, 1);"
+          type="button"
+        >
+          <span
+            class="label btn-label"
+          >
+            <svg
+              aria-hidden="true"
+              class="c5 icon icon-arrow-left"
+              role="presentation"
+              style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(0, 0%, 0%, 1);"
+              viewBox="0 0 16 16"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.9112 12.8982c.3166 0 .5686-.2326.5686-.5557 0-.1551-.0582-.3102-.1615-.4071L5.8708 10.462 3.693 8.4782l1.5639.097h8.1744C13.7674 8.5751 14 8.336 14 8c0-.336-.2326-.5751-.5687-.5751H5.2569l-1.5574.097 2.1713-1.984 1.4475-1.4733c.1033-.1034.1615-.252.1615-.407 0-.3232-.252-.5558-.5686-.5558-.1551 0-.2908.0517-.433.1938L2.2003 7.567C2.0711 7.6898 2 7.8384 2 8c0 .1616.071.3102.2003.433l4.2908 4.2843c.1293.1228.265.1809.42.1809Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </button>
+        <div
+          class="c6 c7 carousel-item"
+        >
+          Item 1
+        </div>
+        <button
+          aria-label="title"
+          class="c2 c3 backyard button size--small variant--inverse color--interactive shape--circle c4 icon-button carousel-button-right elevation"
+          color="interactive"
+          style="--btn-base: hsl(213, 84%, 45%, 1); --btn-base-subdued: hsl(0, 0%, 100%, 1); --btn-hover: hsl(213, 84%, 92%, 1); --btn-pressed: hsl(213, 84%, 90%, 1); --btn-focus: hsl(213, 84%, 45%, 1); --btn-text: hsl(213, 84%, 45%, 1); --btn-icon: hsl(213, 84%, 35%, 1); --btn-disabled: hsl(0, 0%, 0%, .30); --btn-disabled-subdued: hsl(0, 0%, 96%, 1);"
+          type="button"
+        >
+          <span
+            class="label btn-label"
+          >
+            <svg
+              aria-hidden="true"
+              class="c5 icon icon-arrow-right"
+              role="presentation"
+              style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(0, 0%, 0%, 1);"
+              viewBox="0 0 16 16"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M9.0889 12.8982c.155 0 .2907-.0581.42-.1809L13.806 8.433C13.9354 8.3102 14 8.1616 14 8c0-.1616-.0646-.3102-.1939-.433L9.5218 3.2956c-.1422-.1421-.2779-.1938-.433-.1938-.3166 0-.5621.2326-.5621.5557 0 .1551.0517.3037.155.4071l1.4475 1.4734 2.1713 1.9838-1.5574-.097H2.5687C2.2327 7.4249 2 7.664 2 8c0 .336.2326.5751.5687.5751h8.1744l1.5638-.097-2.1777 1.9839-1.4475 1.4734c-.1033.0969-.155.252-.155.4071 0 .3231.2455.5557.5622.5557Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </button>
+      </div>
+    </div>
+    <div
+      class="c8 scrollbar-container hide-scrollbar"
+    >
+      <div
+        class="c9 scrollbar-track"
+      >
+        <div
+          aria-controls="test"
+          class="c10 scrollbar-knob"
+          role="scrollbar"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Carousel Snapshots extra props Carousel DOM props (id, className) snapshot 1`] = `
+<DocumentFragment>
+  .c5 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c5:not(.color-override) g,
+.c5:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c5:not(.color-override) g[stroke-width],
+.c5:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c5:not(.color-override) g[stroke-width] *,
+.c5:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c5.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c5.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c3 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  cursor: pointer;
+  box-sizing: border-box;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  border-style: solid;
+  border-width: var(--bds-border-width-sm);
+  height: 100%;
+}
+
+.c3 .btn-label {
+  display: inherit;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  -webkit-letter-spacing: .015rem;
+  -moz-letter-spacing: .015rem;
+  -ms-letter-spacing: .015rem;
+  letter-spacing: .015rem;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c3 .btn-label > .btn-start-icon {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c3 .btn-label > .btn-end-icon {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c3 .btn-label > .btn-end-icon svg {
+  width: var(--bds-sizes-size-16);
+  height: var(--bds-sizes-size-16);
+}
+
+.c3 .btn-label > .btn-start-icon,
+.c3 .btn-label > .btn-end-icon,
+.c3 .btn-label > .icon {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c3.full-width {
+  width: 100%;
+  padding: var(--bds-sizes-size-12) var(--bds-sizes-size-32);
+}
+
+.c3.elevation {
+  box-shadow: var(--bds-shadows-shadow-03);
+}
+
+.c3.variant--primary:enabled,
+.c3.variant--primary.enabled {
+  background-color: var(--btn-base);
+  border-color: var(--btn-base);
+}
+
+.c3.variant--primary:enabled .btn-label,
+.c3.variant--primary.enabled .btn-label {
+  color: var(--btn-text);
+}
+
+.c3.variant--primary:enabled .btn-label .icon path,
+.c3.variant--primary.enabled .btn-label .icon path {
+  fill: var(--btn-icon);
+}
+
+.c3.variant--primary:hover,
+.c3.variant--primary.hover {
+  background-color: var(--btn-hover);
+  border-color: var(--btn-hover);
+}
+
+.c3.variant--primary:focus,
+.c3.variant--primary.focus {
+  box-shadow: inset 0 0 0 1px var(--btn-base),inset 0px 0 0 2px var(--btn-focus);
+}
+
+.c3.variant--primary:focus:hover,
+.c3.variant--primary.focus:hover {
+  box-shadow: inset 0 0 0 1px var(--btn-hover),inset 0px 0 0 2px var(--btn-focus);
+}
+
+.c3.variant--primary:active,
+.c3.variant--primary.active {
+  background-color: var(--btn-pressed);
+  border-color: var(--btn-pressed);
+}
+
+.c3.variant--primary:disabled,
+.c3.variant--primary.disabled {
+  background-color: var(--btn-disabled);
+  border-color: transparent;
+}
+
+.c3.variant--primary:disabled .btn-label,
+.c3.variant--primary.disabled .btn-label {
+  color: var(--btn-disabled);
+}
+
+.c3.variant--primary:disabled .btn-label .icon path,
+.c3.variant--primary.disabled .btn-label .icon path {
+  fill: var(--btn-disabled);
+}
+
+.c3.variant--primary.c2.variant--primary.size--jumbo:focus,
+.c3.variant--primary.c3.variant--primary.size--jumbo.focus {
+  box-shadow: inset 0 0 0 2px var(--btn-base),inset 0px 0 0 4px var(--btn-focus);
+}
+
+.c3.variant--secondary:enabled,
+.c3.variant--secondary.enabled {
+  background-color: transparent;
+  border-color: var(--btn-base);
+}
+
+.c3.variant--secondary:enabled .btn-label,
+.c3.variant--secondary.enabled .btn-label {
+  color: var(--btn-text);
+}
+
+.c3.variant--secondary:enabled .btn-label .icon path,
+.c3.variant--secondary.enabled .btn-label .icon path {
+  fill: var(--btn-icon);
+}
+
+.c3.variant--secondary:hover,
+.c3.variant--secondary.hover {
+  background-color: var(--btn-hover);
+  border-color: var(--btn-base);
+}
+
+.c3.variant--secondary:focus,
+.c3.variant--secondary.focus {
+  background-color: transparent;
+  box-shadow: 0px 0 0 2px var(--btn-focus);
+}
+
+.c3.variant--secondary:active,
+.c3.variant--secondary:focus:active,
+.c3.variant--secondary.active {
+  background-color: var(--btn-pressed);
+  border-color: var(--btn-focus);
+}
+
+.c3.variant--secondary:disabled,
+.c3.variant--secondary.disabled {
+  background-color: transparent;
+  border-color: var(--btn-disabled);
+}
+
+.c3.variant--secondary:disabled .btn-label,
+.c3.variant--secondary.disabled .btn-label {
+  color: var(--btn-disabled);
+}
+
+.c3.variant--secondary:disabled .btn-label .icon path,
+.c3.variant--secondary.disabled .btn-label .icon path {
+  fill: var(--btn-disabled);
+}
+
+.c3.variant--tertiary:enabled,
+.c3.variant--tertiary.enabled {
+  background-color: var(--btn-base-subdued);
+  border-color: var(--btn-base-subdued);
+}
+
+.c3.variant--tertiary:enabled .btn-label,
+.c3.variant--tertiary.enabled .btn-label {
+  color: var(--btn-text);
+}
+
+.c3.variant--tertiary:enabled .btn-label .icon path,
+.c3.variant--tertiary.enabled .btn-label .icon path {
+  fill: var(--btn-icon);
+}
+
+.c3.variant--tertiary:hover,
+.c3.variant--tertiary.hover {
+  background-color: var(--btn-hover);
+  border-color: var(--btn-hover);
+}
+
+.c3.variant--tertiary:focus,
+.c3.variant--tertiary.focus {
+  box-shadow: 0px 0 0 2px var(--btn-focus);
+}
+
+.c3.variant--tertiary:focus:hover,
+.c3.variant--tertiary.focus:hover {
+  box-shadow: 0px 0 0 2px var(--btn-focus);
+}
+
+.c3.variant--tertiary:active,
+.c3.variant--tertiary.active {
+  background-color: var(--btn-pressed);
+  border-color: var(--btn-pressed);
+}
+
+.c3.variant--tertiary:disabled,
+.c3.variant--tertiary.disabled {
+  background-color: var(--btn-disabled-subdued);
+  border-color: var(--btn-disabled-subdued);
+}
+
+.c3.variant--tertiary:disabled .btn-label,
+.c3.variant--tertiary.disabled .btn-label {
+  color: var(--btn-disabled);
+}
+
+.c3.variant--tertiary:disabled .btn-label .icon path,
+.c3.variant--tertiary.disabled .btn-label .icon path {
+  fill: var(--btn-disabled);
+}
+
+.c3.variant--ghost:enabled,
+.c3.variant--ghost.enabled {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.c3.variant--ghost:enabled .btn-label,
+.c3.variant--ghost.enabled .btn-label {
+  color: var(--btn-text);
+}
+
+.c3.variant--ghost:enabled .btn-label .icon path,
+.c3.variant--ghost.enabled .btn-label .icon path {
+  fill: var(--btn-icon);
+}
+
+.c3.variant--ghost:hover,
+.c3.variant--ghost.hover {
+  background-color: var(--btn-hover);
+  border-color: transparent;
+}
+
+.c3.variant--ghost:focus,
+.c3.variant--ghost.focus {
+  background-color: transparent;
+  border-color: transparent;
+  box-shadow: 0px 0 0 2px var(--btn-focus);
+}
+
+.c3.variant--ghost:focus:hover,
+.c3.variant--ghost.focus:hover {
+  background-color: var(--btn-hover);
+  border-color: transparent;
+}
+
+.c3.variant--ghost:active,
+.c3.variant--ghost:focus:active,
+.c3.variant--ghost.active {
+  background-color: var(--btn-pressed);
+  border-color: transparent;
+}
+
+.c3.variant--ghost:disabled,
+.c3.variant--ghost.disabled {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.c3.variant--ghost:disabled .btn-label,
+.c3.variant--ghost.disabled .btn-label {
+  color: var(--btn-disabled);
+}
+
+.c3.variant--ghost:disabled .btn-label .icon path,
+.c3.variant--ghost.disabled .btn-label .icon path {
+  fill: var(--btn-disabled);
+}
+
+.c3.variant--inverse:enabled,
+.c3.variant--inverse.enabled {
+  background-color: var(--btn-base-subdued);
+  border-color: var(--btn-base-subdued);
+}
+
+.c3.variant--inverse:enabled .btn-label,
+.c3.variant--inverse.enabled .btn-label {
+  color: var(--btn-text);
+}
+
+.c3.variant--inverse:enabled .btn-label .icon path,
+.c3.variant--inverse.enabled .btn-label .icon path {
+  fill: var(--btn-icon);
+}
+
+.c3.variant--inverse:hover,
+.c3.variant--inverse.hover {
+  background-color: var(--btn-hover);
+  border-color: var(--btn-hover);
+}
+
+.c3.variant--inverse:focus,
+.c3.variant--inverse.focus {
+  background-color: var(--btn-base-subdued);
+  box-shadow: 0px 0 0 2px var(--btn-focus);
+}
+
+.c3.variant--inverse:focus:hover,
+.c3.variant--inverse.focus:hover {
+  background-color: var(--btn-hover);
+  border-color: var(--btn-focus);
+}
+
+.c3.variant--inverse:active,
+.c3.variant--inverse.active {
+  background-color: var(--btn-pressed);
+  border-color: var(--btn-pressed);
+}
+
+.c3.variant--inverse:disabled,
+.c3.variant--inverse.disabled {
+  background-color: var(--btn-base-subdued);
+  border-color: var(--btn-base-subdued);
+}
+
+.c3.variant--inverse:disabled .btn-label,
+.c3.variant--inverse.disabled .btn-label {
+  color: var(--btn-disabled);
+}
+
+.c3.variant--inverse:disabled .btn-label .icon path,
+.c3.variant--inverse.disabled .btn-label .icon path {
+  fill: var(--btn-disabled);
+}
+
+.c3.shape--rounded {
+  border-radius: var(--bds-border-radius-lg);
+}
+
+.c3.shape--squared {
+  border-radius: 0;
+}
+
+.c3.shape--circle {
+  border-radius: var(--bds-border-radius-circle);
+}
+
+.c3.size--small {
+  min-height: var(--bds-sizes-size-40);
+  padding: 0 var(--bds-sizes-size-20);
+}
+
+.c3.size--small .btn-label {
+  font-size: var(--bds-sizes-size-12);
+  line-height: var(--bds-sizes-size-16);
+}
+
+.c3.size--small .btn-label .btn-start-icon,
+.c3.size--small .btn-label .btn-end-icon,
+.c3.size--small .btn-label .icon {
+  width: var(--bds-sizes-size-12);
+  height: var(--bds-sizes-size-12);
+}
+
+.c3.size--medium {
+  min-height: var(--bds-sizes-size-48);
+  padding: 0 var(--bds-sizes-size-32);
+}
+
+.c3.size--medium .btn-label {
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-24);
+}
+
+.c3.size--medium .btn-label .btn-start-icon,
+.c3.size--medium .btn-label .btn-end-icon,
+.c3.size--medium .btn-label .icon {
+  width: var(--bds-sizes-size-14);
+  height: var(--bds-sizes-size-14);
+}
+
+.c3.size--large {
+  min-height: var(--bds-sizes-size-56);
+  padding: 0 var(--bds-sizes-size-32);
+}
+
+.c3.size--large .btn-label {
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+}
+
+.c3.size--large .btn-label .btn-start-icon,
+.c3.size--large .btn-label .btn-end-icon,
+.c3.size--large .btn-label .icon {
+  width: var(--bds-sizes-size-16);
+  height: var(--bds-sizes-size-16);
+}
+
+.c3.size--jumbo {
+  min-height: var(--bds-sizes-size-96);
+  padding: 0 var(--bds-sizes-size-56);
+}
+
+.c3.size--jumbo .btn-label {
+  font-size: var(--bds-sizes-size-24);
+  line-height: var(--bds-sizes-size-40);
+}
+
+.c3.size--jumbo .btn-label .btn-start-icon,
+.c3.size--jumbo .btn-label .btn-end-icon,
+.c3.size--jumbo .btn-label .icon {
+  width: var(--bds-sizes-size-24);
+  height: var(--bds-sizes-size-24);
+}
+
+.c3.disabled {
+  cursor: not-allowed;
+}
+
+.c3.disabled:active {
+  pointer-events: none;
+}
+
+.c3.c3.c3 {
+  outline: none;
+  vertical-align: bottom;
+  height: auto;
+}
+
+.c3.c3.c3::-moz-focus-inner {
+  border: 0;
+}
+
+.c4.size--extra_small {
+  min-width: var(--bds-sizes-size-32);
+  min-height: var(--bds-sizes-size-32);
+}
+
+.c4.size--extra_small .btn-label > .btn-start-icon,
+.c4.size--extra_small .btn-label > .btn-end-icon,
+.c4.size--extra_small .btn-label > .icon {
+  width: var(--bds-sizes-size-14);
+  height: var(--bds-sizes-size-14);
+}
+
+.c4.size--small {
+  min-width: var(--bds-sizes-size-40);
+  min-height: var(--bds-sizes-size-40);
+  padding: var(--bds-sizes-size-8);
+}
+
+.c4.size--small .btn-label > .btn-start-icon,
+.c4.size--small .btn-label > .btn-end-icon,
+.c4.size--small .btn-label > .icon {
+  width: var(--bds-sizes-size-16);
+  height: var(--bds-sizes-size-16);
+}
+
+.c4.size--medium {
+  min-width: var(--bds-sizes-size-48);
+  min-height: var(--bds-sizes-size-48);
+  padding: var(--bds-sizes-size-12);
+}
+
+.c4.size--medium .btn-label > .btn-start-icon,
+.c4.size--medium .btn-label > .btn-end-icon,
+.c4.size--medium .btn-label > .icon {
+  width: var(--bds-sizes-size-20);
+  height: var(--bds-sizes-size-20);
+}
+
+.c4.size--large {
+  min-width: var(--bds-sizes-size-56);
+  min-height: var(--bds-sizes-size-56);
+  padding: var(--bds-sizes-size-16);
+}
+
+.c4.size--large .btn-label > .btn-start-icon,
+.c4.size--large .btn-label > .btn-end-icon,
+.c4.size--large .btn-label > .icon {
+  width: var(--bds-sizes-size-24);
+  height: var(--bds-sizes-size-24);
+}
+
+.c4.size--jumbo {
+  min-width: var(--bds-sizes-size-96);
+  min-height: var(--bds-sizes-size-96);
+  padding: var(--bds-sizes-size-32);
+}
+
+.c4.size--jumbo .btn-label > .btn-start-icon,
+.c4.size--jumbo .btn-label > .btn-end-icon,
+.c4.size--jumbo .btn-label > .icon {
+  width: var(--bds-sizes-size-48);
+  height: var(--bds-sizes-size-48);
+}
+
+.c0 {
+  height: auto;
+  width: auto;
+}
+
+.c0 .content-container {
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+}
+
+.c0 .content-container::-webkit-scrollbar {
+  display: none;
+}
+
+.c0 .content-container .scrollbar-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c8 {
+  width: 100%;
+  padding-top: var(--bds-sizes-size-4);
+  padding-bottom: var(--bds-sizes-size-4);
+}
+
+.c8:hover {
+  cursor: pointer;
+}
+
+.c8.hide-scrollbar {
+  display: none;
+}
+
+.c10 {
+  position: absolute;
+  left: 0;
+  width: 10%;
+  height: var(--bds-sizes-size-4);
+  background-color: var(--bds-color-action-interactive);
+  border-radius: var(--bds-border-radius-circle);
+  -webkit-transition: top 0.08s;
+  -moz-transition: top 0.08s;
+  -ms-transition: top 0.08s;
+  -o-transition: top 0.08s;
+  -webkit-transition: top 0.08s;
+  transition: top 0.08s;
+}
+
+.c10:hover {
+  background-color: var(--bds-color-action-interactive-hover);
+}
+
+.c10:hover,
+.c10:focus,
+.c10:active {
+  margin-top: -0.0625rem;
+  height: var(--bds-sizes-size-6);
+}
+
+.c9 {
+  position: relative;
+  background: var(--bds-color-surface-subdued);
+  height: 4px;
+  -webkit-order: 10;
+  -ms-flex-order: 10;
+  order: 10;
+  width: 100%;
+  border-radius: var(--bds-border-radius-circle);
+}
+
+.c7 {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  margin: 0 1rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  position: relative;
+  min-width: 0;
+  padding-top: var(--bds-sizes-size-16);
+  padding-right: var(--bds-sizes-size-20);
+  padding-left: var(--bds-sizes-size-20);
+}
+
+.c1 .scrollbar-container {
+  padding-top: var(--bds-sizes-size-20);
+  padding-bottom: var(--bds-sizes-size-20);
+}
+
+.c1.no-scrollbar > .scrollbar-container {
+  display: none;
+}
+
+.c1 .content-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  min-width: 0;
+}
+
+.c1 .content-container .c6:first-of-type {
+  margin-left: 0;
+}
+
+.c1 .content-container .c6:last-of-type {
+  margin-right: 0;
+}
+
+.c1 .content-container .carousel-button-right,
+.c1 .content-container .carousel-button-left {
+  display: none;
+  position: absolute;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.c1 .content-container .carousel-button-right.show-button,
+.c1 .content-container .carousel-button-left.show-button {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 .content-container .carousel-button-left {
+  left: 0;
+}
+
+.c1 .content-container .carousel-button-right {
+  right: 0;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c3.size--small .btn-label {
+    font-size: var(--bds-sizes-size-14);
+  }
+
+  .c3.size--small .btn-label .btn-start-icon,
+  .c3.size--small .btn-label .btn-end-icon,
+  .c3.size--small .btn-label .icon {
+    width: var(--bds-sizes-size-14);
+    height: var(--bds-sizes-size-14);
+  }
+
+  .c3.size--medium .btn-label {
+    font-size: var(--bds-sizes-size-16);
+  }
+
+  .c3.size--medium .btn-label .btn-start-icon,
+  .c3.size--medium .btn-label .btn-end-icon,
+  .c3.size--medium .btn-label .icon {
+    width: var(--bds-sizes-size-16);
+    height: var(--bds-sizes-size-16);
+  }
+
+  .c3.size--large .btn-label {
+    font-size: var(--bds-sizes-size-18);
+  }
+
+  .c3.size--large .btn-label .btn-start-icon,
+  .c3.size--large .btn-label .btn-end-icon,
+  .c3.size--large .btn-label .icon {
+    width: var(--bds-sizes-size-18);
+    height: var(--bds-sizes-size-18);
+  }
+
+  .c3.size--jumbo .btn-label {
+    font-size: var(--bds-sizes-size-28);
+  }
+
+  .c3.size--jumbo .btn-label .btn-start-icon,
+  .c3.size--jumbo .btn-label .btn-end-icon,
+  .c3.size--jumbo .btn-label .icon {
+    width: var(--bds-sizes-size-28);
+    height: var(--bds-sizes-size-28);
+  }
+}
+
+<div
+    class="c0 c1 classname"
+  >
+    <div
+      class="content-container"
+      id="id"
+    >
+      <div
+        class="scrollbar-content"
+      >
+        <button
+          aria-label="title"
+          class="c2 c3 backyard button size--small variant--inverse color--interactive shape--circle c4 icon-button carousel-button-left elevation"
+          color="interactive"
+          style="--btn-base: hsl(213, 84%, 45%, 1); --btn-base-subdued: hsl(0, 0%, 100%, 1); --btn-hover: hsl(213, 84%, 92%, 1); --btn-pressed: hsl(213, 84%, 90%, 1); --btn-focus: hsl(213, 84%, 45%, 1); --btn-text: hsl(213, 84%, 45%, 1); --btn-icon: hsl(213, 84%, 35%, 1); --btn-disabled: hsl(0, 0%, 0%, .30); --btn-disabled-subdued: hsl(0, 0%, 96%, 1);"
+          type="button"
+        >
+          <span
+            class="label btn-label"
+          >
+            <svg
+              aria-hidden="true"
+              class="c5 icon icon-arrow-left"
+              role="presentation"
+              style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(0, 0%, 0%, 1);"
+              viewBox="0 0 16 16"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.9112 12.8982c.3166 0 .5686-.2326.5686-.5557 0-.1551-.0582-.3102-.1615-.4071L5.8708 10.462 3.693 8.4782l1.5639.097h8.1744C13.7674 8.5751 14 8.336 14 8c0-.336-.2326-.5751-.5687-.5751H5.2569l-1.5574.097 2.1713-1.984 1.4475-1.4733c.1033-.1034.1615-.252.1615-.407 0-.3232-.252-.5558-.5686-.5558-.1551 0-.2908.0517-.433.1938L2.2003 7.567C2.0711 7.6898 2 7.8384 2 8c0 .1616.071.3102.2003.433l4.2908 4.2843c.1293.1228.265.1809.42.1809Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </button>
+        <div
+          class="c6 c7 carousel-item"
+        >
+          <p>
+            Hello World
+          </p>
+        </div>
+        <button
+          aria-label="title"
+          class="c2 c3 backyard button size--small variant--inverse color--interactive shape--circle c4 icon-button carousel-button-right elevation"
+          color="interactive"
+          style="--btn-base: hsl(213, 84%, 45%, 1); --btn-base-subdued: hsl(0, 0%, 100%, 1); --btn-hover: hsl(213, 84%, 92%, 1); --btn-pressed: hsl(213, 84%, 90%, 1); --btn-focus: hsl(213, 84%, 45%, 1); --btn-text: hsl(213, 84%, 45%, 1); --btn-icon: hsl(213, 84%, 35%, 1); --btn-disabled: hsl(0, 0%, 0%, .30); --btn-disabled-subdued: hsl(0, 0%, 96%, 1);"
+          type="button"
+        >
+          <span
+            class="label btn-label"
+          >
+            <svg
+              aria-hidden="true"
+              class="c5 icon icon-arrow-right"
+              role="presentation"
+              style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(0, 0%, 0%, 1);"
+              viewBox="0 0 16 16"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M9.0889 12.8982c.155 0 .2907-.0581.42-.1809L13.806 8.433C13.9354 8.3102 14 8.1616 14 8c0-.1616-.0646-.3102-.1939-.433L9.5218 3.2956c-.1422-.1421-.2779-.1938-.433-.1938-.3166 0-.5621.2326-.5621.5557 0 .1551.0517.3037.155.4071l1.4475 1.4734 2.1713 1.9838-1.5574-.097H2.5687C2.2327 7.4249 2 7.664 2 8c0 .336.2326.5751.5687.5751h8.1744l1.5638-.097-2.1777 1.9839-1.4475 1.4734c-.1033.0969-.155.252-.155.4071 0 .3231.2455.5557.5622.5557Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </button>
+      </div>
+    </div>
+    <div
+      class="c8 scrollbar-container hide-scrollbar"
+    >
+      <div
+        class="c9 scrollbar-track"
+      >
+        <div
+          aria-controls="id"
+          class="c10 scrollbar-knob"
+          role="scrollbar"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Carousel Snapshots noScrollbar prop snapshot 1`] = `
+<DocumentFragment>
+  .c5 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c5:not(.color-override) g,
+.c5:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c5:not(.color-override) g[stroke-width],
+.c5:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c5:not(.color-override) g[stroke-width] *,
+.c5:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c5.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c5.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c3 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  cursor: pointer;
+  box-sizing: border-box;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  border-style: solid;
+  border-width: var(--bds-border-width-sm);
+  height: 100%;
+}
+
+.c3 .btn-label {
+  display: inherit;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  -webkit-letter-spacing: .015rem;
+  -moz-letter-spacing: .015rem;
+  -ms-letter-spacing: .015rem;
+  letter-spacing: .015rem;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c3 .btn-label > .btn-start-icon {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c3 .btn-label > .btn-end-icon {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c3 .btn-label > .btn-end-icon svg {
+  width: var(--bds-sizes-size-16);
+  height: var(--bds-sizes-size-16);
+}
+
+.c3 .btn-label > .btn-start-icon,
+.c3 .btn-label > .btn-end-icon,
+.c3 .btn-label > .icon {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c3.full-width {
+  width: 100%;
+  padding: var(--bds-sizes-size-12) var(--bds-sizes-size-32);
+}
+
+.c3.elevation {
+  box-shadow: var(--bds-shadows-shadow-03);
+}
+
+.c3.variant--primary:enabled,
+.c3.variant--primary.enabled {
+  background-color: var(--btn-base);
+  border-color: var(--btn-base);
+}
+
+.c3.variant--primary:enabled .btn-label,
+.c3.variant--primary.enabled .btn-label {
+  color: var(--btn-text);
+}
+
+.c3.variant--primary:enabled .btn-label .icon path,
+.c3.variant--primary.enabled .btn-label .icon path {
+  fill: var(--btn-icon);
+}
+
+.c3.variant--primary:hover,
+.c3.variant--primary.hover {
+  background-color: var(--btn-hover);
+  border-color: var(--btn-hover);
+}
+
+.c3.variant--primary:focus,
+.c3.variant--primary.focus {
+  box-shadow: inset 0 0 0 1px var(--btn-base),inset 0px 0 0 2px var(--btn-focus);
+}
+
+.c3.variant--primary:focus:hover,
+.c3.variant--primary.focus:hover {
+  box-shadow: inset 0 0 0 1px var(--btn-hover),inset 0px 0 0 2px var(--btn-focus);
+}
+
+.c3.variant--primary:active,
+.c3.variant--primary.active {
+  background-color: var(--btn-pressed);
+  border-color: var(--btn-pressed);
+}
+
+.c3.variant--primary:disabled,
+.c3.variant--primary.disabled {
+  background-color: var(--btn-disabled);
+  border-color: transparent;
+}
+
+.c3.variant--primary:disabled .btn-label,
+.c3.variant--primary.disabled .btn-label {
+  color: var(--btn-disabled);
+}
+
+.c3.variant--primary:disabled .btn-label .icon path,
+.c3.variant--primary.disabled .btn-label .icon path {
+  fill: var(--btn-disabled);
+}
+
+.c3.variant--primary.c2.variant--primary.size--jumbo:focus,
+.c3.variant--primary.c3.variant--primary.size--jumbo.focus {
+  box-shadow: inset 0 0 0 2px var(--btn-base),inset 0px 0 0 4px var(--btn-focus);
+}
+
+.c3.variant--secondary:enabled,
+.c3.variant--secondary.enabled {
+  background-color: transparent;
+  border-color: var(--btn-base);
+}
+
+.c3.variant--secondary:enabled .btn-label,
+.c3.variant--secondary.enabled .btn-label {
+  color: var(--btn-text);
+}
+
+.c3.variant--secondary:enabled .btn-label .icon path,
+.c3.variant--secondary.enabled .btn-label .icon path {
+  fill: var(--btn-icon);
+}
+
+.c3.variant--secondary:hover,
+.c3.variant--secondary.hover {
+  background-color: var(--btn-hover);
+  border-color: var(--btn-base);
+}
+
+.c3.variant--secondary:focus,
+.c3.variant--secondary.focus {
+  background-color: transparent;
+  box-shadow: 0px 0 0 2px var(--btn-focus);
+}
+
+.c3.variant--secondary:active,
+.c3.variant--secondary:focus:active,
+.c3.variant--secondary.active {
+  background-color: var(--btn-pressed);
+  border-color: var(--btn-focus);
+}
+
+.c3.variant--secondary:disabled,
+.c3.variant--secondary.disabled {
+  background-color: transparent;
+  border-color: var(--btn-disabled);
+}
+
+.c3.variant--secondary:disabled .btn-label,
+.c3.variant--secondary.disabled .btn-label {
+  color: var(--btn-disabled);
+}
+
+.c3.variant--secondary:disabled .btn-label .icon path,
+.c3.variant--secondary.disabled .btn-label .icon path {
+  fill: var(--btn-disabled);
+}
+
+.c3.variant--tertiary:enabled,
+.c3.variant--tertiary.enabled {
+  background-color: var(--btn-base-subdued);
+  border-color: var(--btn-base-subdued);
+}
+
+.c3.variant--tertiary:enabled .btn-label,
+.c3.variant--tertiary.enabled .btn-label {
+  color: var(--btn-text);
+}
+
+.c3.variant--tertiary:enabled .btn-label .icon path,
+.c3.variant--tertiary.enabled .btn-label .icon path {
+  fill: var(--btn-icon);
+}
+
+.c3.variant--tertiary:hover,
+.c3.variant--tertiary.hover {
+  background-color: var(--btn-hover);
+  border-color: var(--btn-hover);
+}
+
+.c3.variant--tertiary:focus,
+.c3.variant--tertiary.focus {
+  box-shadow: 0px 0 0 2px var(--btn-focus);
+}
+
+.c3.variant--tertiary:focus:hover,
+.c3.variant--tertiary.focus:hover {
+  box-shadow: 0px 0 0 2px var(--btn-focus);
+}
+
+.c3.variant--tertiary:active,
+.c3.variant--tertiary.active {
+  background-color: var(--btn-pressed);
+  border-color: var(--btn-pressed);
+}
+
+.c3.variant--tertiary:disabled,
+.c3.variant--tertiary.disabled {
+  background-color: var(--btn-disabled-subdued);
+  border-color: var(--btn-disabled-subdued);
+}
+
+.c3.variant--tertiary:disabled .btn-label,
+.c3.variant--tertiary.disabled .btn-label {
+  color: var(--btn-disabled);
+}
+
+.c3.variant--tertiary:disabled .btn-label .icon path,
+.c3.variant--tertiary.disabled .btn-label .icon path {
+  fill: var(--btn-disabled);
+}
+
+.c3.variant--ghost:enabled,
+.c3.variant--ghost.enabled {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.c3.variant--ghost:enabled .btn-label,
+.c3.variant--ghost.enabled .btn-label {
+  color: var(--btn-text);
+}
+
+.c3.variant--ghost:enabled .btn-label .icon path,
+.c3.variant--ghost.enabled .btn-label .icon path {
+  fill: var(--btn-icon);
+}
+
+.c3.variant--ghost:hover,
+.c3.variant--ghost.hover {
+  background-color: var(--btn-hover);
+  border-color: transparent;
+}
+
+.c3.variant--ghost:focus,
+.c3.variant--ghost.focus {
+  background-color: transparent;
+  border-color: transparent;
+  box-shadow: 0px 0 0 2px var(--btn-focus);
+}
+
+.c3.variant--ghost:focus:hover,
+.c3.variant--ghost.focus:hover {
+  background-color: var(--btn-hover);
+  border-color: transparent;
+}
+
+.c3.variant--ghost:active,
+.c3.variant--ghost:focus:active,
+.c3.variant--ghost.active {
+  background-color: var(--btn-pressed);
+  border-color: transparent;
+}
+
+.c3.variant--ghost:disabled,
+.c3.variant--ghost.disabled {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.c3.variant--ghost:disabled .btn-label,
+.c3.variant--ghost.disabled .btn-label {
+  color: var(--btn-disabled);
+}
+
+.c3.variant--ghost:disabled .btn-label .icon path,
+.c3.variant--ghost.disabled .btn-label .icon path {
+  fill: var(--btn-disabled);
+}
+
+.c3.variant--inverse:enabled,
+.c3.variant--inverse.enabled {
+  background-color: var(--btn-base-subdued);
+  border-color: var(--btn-base-subdued);
+}
+
+.c3.variant--inverse:enabled .btn-label,
+.c3.variant--inverse.enabled .btn-label {
+  color: var(--btn-text);
+}
+
+.c3.variant--inverse:enabled .btn-label .icon path,
+.c3.variant--inverse.enabled .btn-label .icon path {
+  fill: var(--btn-icon);
+}
+
+.c3.variant--inverse:hover,
+.c3.variant--inverse.hover {
+  background-color: var(--btn-hover);
+  border-color: var(--btn-hover);
+}
+
+.c3.variant--inverse:focus,
+.c3.variant--inverse.focus {
+  background-color: var(--btn-base-subdued);
+  box-shadow: 0px 0 0 2px var(--btn-focus);
+}
+
+.c3.variant--inverse:focus:hover,
+.c3.variant--inverse.focus:hover {
+  background-color: var(--btn-hover);
+  border-color: var(--btn-focus);
+}
+
+.c3.variant--inverse:active,
+.c3.variant--inverse.active {
+  background-color: var(--btn-pressed);
+  border-color: var(--btn-pressed);
+}
+
+.c3.variant--inverse:disabled,
+.c3.variant--inverse.disabled {
+  background-color: var(--btn-base-subdued);
+  border-color: var(--btn-base-subdued);
+}
+
+.c3.variant--inverse:disabled .btn-label,
+.c3.variant--inverse.disabled .btn-label {
+  color: var(--btn-disabled);
+}
+
+.c3.variant--inverse:disabled .btn-label .icon path,
+.c3.variant--inverse.disabled .btn-label .icon path {
+  fill: var(--btn-disabled);
+}
+
+.c3.shape--rounded {
+  border-radius: var(--bds-border-radius-lg);
+}
+
+.c3.shape--squared {
+  border-radius: 0;
+}
+
+.c3.shape--circle {
+  border-radius: var(--bds-border-radius-circle);
+}
+
+.c3.size--small {
+  min-height: var(--bds-sizes-size-40);
+  padding: 0 var(--bds-sizes-size-20);
+}
+
+.c3.size--small .btn-label {
+  font-size: var(--bds-sizes-size-12);
+  line-height: var(--bds-sizes-size-16);
+}
+
+.c3.size--small .btn-label .btn-start-icon,
+.c3.size--small .btn-label .btn-end-icon,
+.c3.size--small .btn-label .icon {
+  width: var(--bds-sizes-size-12);
+  height: var(--bds-sizes-size-12);
+}
+
+.c3.size--medium {
+  min-height: var(--bds-sizes-size-48);
+  padding: 0 var(--bds-sizes-size-32);
+}
+
+.c3.size--medium .btn-label {
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-24);
+}
+
+.c3.size--medium .btn-label .btn-start-icon,
+.c3.size--medium .btn-label .btn-end-icon,
+.c3.size--medium .btn-label .icon {
+  width: var(--bds-sizes-size-14);
+  height: var(--bds-sizes-size-14);
+}
+
+.c3.size--large {
+  min-height: var(--bds-sizes-size-56);
+  padding: 0 var(--bds-sizes-size-32);
+}
+
+.c3.size--large .btn-label {
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+}
+
+.c3.size--large .btn-label .btn-start-icon,
+.c3.size--large .btn-label .btn-end-icon,
+.c3.size--large .btn-label .icon {
+  width: var(--bds-sizes-size-16);
+  height: var(--bds-sizes-size-16);
+}
+
+.c3.size--jumbo {
+  min-height: var(--bds-sizes-size-96);
+  padding: 0 var(--bds-sizes-size-56);
+}
+
+.c3.size--jumbo .btn-label {
+  font-size: var(--bds-sizes-size-24);
+  line-height: var(--bds-sizes-size-40);
+}
+
+.c3.size--jumbo .btn-label .btn-start-icon,
+.c3.size--jumbo .btn-label .btn-end-icon,
+.c3.size--jumbo .btn-label .icon {
+  width: var(--bds-sizes-size-24);
+  height: var(--bds-sizes-size-24);
+}
+
+.c3.disabled {
+  cursor: not-allowed;
+}
+
+.c3.disabled:active {
+  pointer-events: none;
+}
+
+.c3.c3.c3 {
+  outline: none;
+  vertical-align: bottom;
+  height: auto;
+}
+
+.c3.c3.c3::-moz-focus-inner {
+  border: 0;
+}
+
+.c4.size--extra_small {
+  min-width: var(--bds-sizes-size-32);
+  min-height: var(--bds-sizes-size-32);
+}
+
+.c4.size--extra_small .btn-label > .btn-start-icon,
+.c4.size--extra_small .btn-label > .btn-end-icon,
+.c4.size--extra_small .btn-label > .icon {
+  width: var(--bds-sizes-size-14);
+  height: var(--bds-sizes-size-14);
+}
+
+.c4.size--small {
+  min-width: var(--bds-sizes-size-40);
+  min-height: var(--bds-sizes-size-40);
+  padding: var(--bds-sizes-size-8);
+}
+
+.c4.size--small .btn-label > .btn-start-icon,
+.c4.size--small .btn-label > .btn-end-icon,
+.c4.size--small .btn-label > .icon {
+  width: var(--bds-sizes-size-16);
+  height: var(--bds-sizes-size-16);
+}
+
+.c4.size--medium {
+  min-width: var(--bds-sizes-size-48);
+  min-height: var(--bds-sizes-size-48);
+  padding: var(--bds-sizes-size-12);
+}
+
+.c4.size--medium .btn-label > .btn-start-icon,
+.c4.size--medium .btn-label > .btn-end-icon,
+.c4.size--medium .btn-label > .icon {
+  width: var(--bds-sizes-size-20);
+  height: var(--bds-sizes-size-20);
+}
+
+.c4.size--large {
+  min-width: var(--bds-sizes-size-56);
+  min-height: var(--bds-sizes-size-56);
+  padding: var(--bds-sizes-size-16);
+}
+
+.c4.size--large .btn-label > .btn-start-icon,
+.c4.size--large .btn-label > .btn-end-icon,
+.c4.size--large .btn-label > .icon {
+  width: var(--bds-sizes-size-24);
+  height: var(--bds-sizes-size-24);
+}
+
+.c4.size--jumbo {
+  min-width: var(--bds-sizes-size-96);
+  min-height: var(--bds-sizes-size-96);
+  padding: var(--bds-sizes-size-32);
+}
+
+.c4.size--jumbo .btn-label > .btn-start-icon,
+.c4.size--jumbo .btn-label > .btn-end-icon,
+.c4.size--jumbo .btn-label > .icon {
+  width: var(--bds-sizes-size-48);
+  height: var(--bds-sizes-size-48);
+}
+
+.c0 {
+  height: auto;
+  width: auto;
+}
+
+.c0 .content-container {
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+}
+
+.c0 .content-container::-webkit-scrollbar {
+  display: none;
+}
+
+.c0 .content-container .scrollbar-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c8 {
+  width: 100%;
+  padding-top: var(--bds-sizes-size-4);
+  padding-bottom: var(--bds-sizes-size-4);
+}
+
+.c8:hover {
+  cursor: pointer;
+}
+
+.c8.hide-scrollbar {
+  display: none;
+}
+
+.c10 {
+  position: absolute;
+  left: 0;
+  width: 10%;
+  height: var(--bds-sizes-size-4);
+  background-color: var(--bds-color-action-interactive);
+  border-radius: var(--bds-border-radius-circle);
+  -webkit-transition: top 0.08s;
+  -moz-transition: top 0.08s;
+  -ms-transition: top 0.08s;
+  -o-transition: top 0.08s;
+  -webkit-transition: top 0.08s;
+  transition: top 0.08s;
+}
+
+.c10:hover {
+  background-color: var(--bds-color-action-interactive-hover);
+}
+
+.c10:hover,
+.c10:focus,
+.c10:active {
+  margin-top: -0.0625rem;
+  height: var(--bds-sizes-size-6);
+}
+
+.c9 {
+  position: relative;
+  background: var(--bds-color-surface-subdued);
+  height: 4px;
+  -webkit-order: 10;
+  -ms-flex-order: 10;
+  order: 10;
+  width: 100%;
+  border-radius: var(--bds-border-radius-circle);
+}
+
+.c7 {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  margin: 0 1rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  position: relative;
+  min-width: 0;
+  padding-top: var(--bds-sizes-size-16);
+  padding-right: var(--bds-sizes-size-20);
+  padding-left: var(--bds-sizes-size-20);
+}
+
+.c1 .scrollbar-container {
+  padding-top: var(--bds-sizes-size-20);
+  padding-bottom: var(--bds-sizes-size-20);
+}
+
+.c1.no-scrollbar > .scrollbar-container {
+  display: none;
+}
+
+.c1 .content-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  min-width: 0;
+}
+
+.c1 .content-container .c6:first-of-type {
+  margin-left: 0;
+}
+
+.c1 .content-container .c6:last-of-type {
+  margin-right: 0;
+}
+
+.c1 .content-container .carousel-button-right,
+.c1 .content-container .carousel-button-left {
+  display: none;
+  position: absolute;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.c1 .content-container .carousel-button-right.show-button,
+.c1 .content-container .carousel-button-left.show-button {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 .content-container .carousel-button-left {
+  left: 0;
+}
+
+.c1 .content-container .carousel-button-right {
+  right: 0;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c3.size--small .btn-label {
+    font-size: var(--bds-sizes-size-14);
+  }
+
+  .c3.size--small .btn-label .btn-start-icon,
+  .c3.size--small .btn-label .btn-end-icon,
+  .c3.size--small .btn-label .icon {
+    width: var(--bds-sizes-size-14);
+    height: var(--bds-sizes-size-14);
+  }
+
+  .c3.size--medium .btn-label {
+    font-size: var(--bds-sizes-size-16);
+  }
+
+  .c3.size--medium .btn-label .btn-start-icon,
+  .c3.size--medium .btn-label .btn-end-icon,
+  .c3.size--medium .btn-label .icon {
+    width: var(--bds-sizes-size-16);
+    height: var(--bds-sizes-size-16);
+  }
+
+  .c3.size--large .btn-label {
+    font-size: var(--bds-sizes-size-18);
+  }
+
+  .c3.size--large .btn-label .btn-start-icon,
+  .c3.size--large .btn-label .btn-end-icon,
+  .c3.size--large .btn-label .icon {
+    width: var(--bds-sizes-size-18);
+    height: var(--bds-sizes-size-18);
+  }
+
+  .c3.size--jumbo .btn-label {
+    font-size: var(--bds-sizes-size-28);
+  }
+
+  .c3.size--jumbo .btn-label .btn-start-icon,
+  .c3.size--jumbo .btn-label .btn-end-icon,
+  .c3.size--jumbo .btn-label .icon {
+    width: var(--bds-sizes-size-28);
+    height: var(--bds-sizes-size-28);
+  }
+}
+
+<div
+    class="c0 c1 carousel-content no-scrollbar"
+  >
+    <div
+      class="content-container"
+      id="test"
+    >
+      <div
+        class="scrollbar-content"
+      >
+        <button
+          aria-label="title"
+          class="c2 c3 backyard button size--small variant--inverse color--interactive shape--circle c4 icon-button carousel-button-left elevation"
+          color="interactive"
+          style="--btn-base: hsl(213, 84%, 45%, 1); --btn-base-subdued: hsl(0, 0%, 100%, 1); --btn-hover: hsl(213, 84%, 92%, 1); --btn-pressed: hsl(213, 84%, 90%, 1); --btn-focus: hsl(213, 84%, 45%, 1); --btn-text: hsl(213, 84%, 45%, 1); --btn-icon: hsl(213, 84%, 35%, 1); --btn-disabled: hsl(0, 0%, 0%, .30); --btn-disabled-subdued: hsl(0, 0%, 96%, 1);"
+          type="button"
+        >
+          <span
+            class="label btn-label"
+          >
+            <svg
+              aria-hidden="true"
+              class="c5 icon icon-arrow-left"
+              role="presentation"
+              style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(0, 0%, 0%, 1);"
+              viewBox="0 0 16 16"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.9112 12.8982c.3166 0 .5686-.2326.5686-.5557 0-.1551-.0582-.3102-.1615-.4071L5.8708 10.462 3.693 8.4782l1.5639.097h8.1744C13.7674 8.5751 14 8.336 14 8c0-.336-.2326-.5751-.5687-.5751H5.2569l-1.5574.097 2.1713-1.984 1.4475-1.4733c.1033-.1034.1615-.252.1615-.407 0-.3232-.252-.5558-.5686-.5558-.1551 0-.2908.0517-.433.1938L2.2003 7.567C2.0711 7.6898 2 7.8384 2 8c0 .1616.071.3102.2003.433l4.2908 4.2843c.1293.1228.265.1809.42.1809Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </button>
+        <div
+          class="c6 c7 carousel-item"
+        >
+          <p>
+            Hello World
+          </p>
+        </div>
+        <button
+          aria-label="title"
+          class="c2 c3 backyard button size--small variant--inverse color--interactive shape--circle c4 icon-button carousel-button-right elevation"
+          color="interactive"
+          style="--btn-base: hsl(213, 84%, 45%, 1); --btn-base-subdued: hsl(0, 0%, 100%, 1); --btn-hover: hsl(213, 84%, 92%, 1); --btn-pressed: hsl(213, 84%, 90%, 1); --btn-focus: hsl(213, 84%, 45%, 1); --btn-text: hsl(213, 84%, 45%, 1); --btn-icon: hsl(213, 84%, 35%, 1); --btn-disabled: hsl(0, 0%, 0%, .30); --btn-disabled-subdued: hsl(0, 0%, 96%, 1);"
+          type="button"
+        >
+          <span
+            class="label btn-label"
+          >
+            <svg
+              aria-hidden="true"
+              class="c5 icon icon-arrow-right"
+              role="presentation"
+              style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(0, 0%, 0%, 1);"
+              viewBox="0 0 16 16"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M9.0889 12.8982c.155 0 .2907-.0581.42-.1809L13.806 8.433C13.9354 8.3102 14 8.1616 14 8c0-.1616-.0646-.3102-.1939-.433L9.5218 3.2956c-.1422-.1421-.2779-.1938-.433-.1938-.3166 0-.5621.2326-.5621.5557 0 .1551.0517.3037.155.4071l1.4475 1.4734 2.1713 1.9838-1.5574-.097H2.5687C2.2327 7.4249 2 7.664 2 8c0 .336.2326.5751.5687.5751h8.1744l1.5638-.097-2.1777 1.9839-1.4475 1.4734c-.1033.0969-.155.252-.155.4071 0 .3231.2455.5557.5622.5557Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </button>
+      </div>
+    </div>
+    <div
+      class="c8 scrollbar-container hide-scrollbar"
+    >
+      <div
+        class="c9 scrollbar-track"
+      >
+        <div
+          aria-controls="test"
+          class="c10 scrollbar-knob"
+          role="scrollbar"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Carousel Snapshots scrollDistance prop snapshot 1`] = `
+<DocumentFragment>
+  .c5 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c5:not(.color-override) g,
+.c5:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c5:not(.color-override) g[stroke-width],
+.c5:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c5:not(.color-override) g[stroke-width] *,
+.c5:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c5.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c5.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c3 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  cursor: pointer;
+  box-sizing: border-box;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  border-style: solid;
+  border-width: var(--bds-border-width-sm);
+  height: 100%;
+}
+
+.c3 .btn-label {
+  display: inherit;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  -webkit-letter-spacing: .015rem;
+  -moz-letter-spacing: .015rem;
+  -ms-letter-spacing: .015rem;
+  letter-spacing: .015rem;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c3 .btn-label > .btn-start-icon {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c3 .btn-label > .btn-end-icon {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c3 .btn-label > .btn-end-icon svg {
+  width: var(--bds-sizes-size-16);
+  height: var(--bds-sizes-size-16);
+}
+
+.c3 .btn-label > .btn-start-icon,
+.c3 .btn-label > .btn-end-icon,
+.c3 .btn-label > .icon {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c3.full-width {
+  width: 100%;
+  padding: var(--bds-sizes-size-12) var(--bds-sizes-size-32);
+}
+
+.c3.elevation {
+  box-shadow: var(--bds-shadows-shadow-03);
+}
+
+.c3.variant--primary:enabled,
+.c3.variant--primary.enabled {
+  background-color: var(--btn-base);
+  border-color: var(--btn-base);
+}
+
+.c3.variant--primary:enabled .btn-label,
+.c3.variant--primary.enabled .btn-label {
+  color: var(--btn-text);
+}
+
+.c3.variant--primary:enabled .btn-label .icon path,
+.c3.variant--primary.enabled .btn-label .icon path {
+  fill: var(--btn-icon);
+}
+
+.c3.variant--primary:hover,
+.c3.variant--primary.hover {
+  background-color: var(--btn-hover);
+  border-color: var(--btn-hover);
+}
+
+.c3.variant--primary:focus,
+.c3.variant--primary.focus {
+  box-shadow: inset 0 0 0 1px var(--btn-base),inset 0px 0 0 2px var(--btn-focus);
+}
+
+.c3.variant--primary:focus:hover,
+.c3.variant--primary.focus:hover {
+  box-shadow: inset 0 0 0 1px var(--btn-hover),inset 0px 0 0 2px var(--btn-focus);
+}
+
+.c3.variant--primary:active,
+.c3.variant--primary.active {
+  background-color: var(--btn-pressed);
+  border-color: var(--btn-pressed);
+}
+
+.c3.variant--primary:disabled,
+.c3.variant--primary.disabled {
+  background-color: var(--btn-disabled);
+  border-color: transparent;
+}
+
+.c3.variant--primary:disabled .btn-label,
+.c3.variant--primary.disabled .btn-label {
+  color: var(--btn-disabled);
+}
+
+.c3.variant--primary:disabled .btn-label .icon path,
+.c3.variant--primary.disabled .btn-label .icon path {
+  fill: var(--btn-disabled);
+}
+
+.c3.variant--primary.c2.variant--primary.size--jumbo:focus,
+.c3.variant--primary.c3.variant--primary.size--jumbo.focus {
+  box-shadow: inset 0 0 0 2px var(--btn-base),inset 0px 0 0 4px var(--btn-focus);
+}
+
+.c3.variant--secondary:enabled,
+.c3.variant--secondary.enabled {
+  background-color: transparent;
+  border-color: var(--btn-base);
+}
+
+.c3.variant--secondary:enabled .btn-label,
+.c3.variant--secondary.enabled .btn-label {
+  color: var(--btn-text);
+}
+
+.c3.variant--secondary:enabled .btn-label .icon path,
+.c3.variant--secondary.enabled .btn-label .icon path {
+  fill: var(--btn-icon);
+}
+
+.c3.variant--secondary:hover,
+.c3.variant--secondary.hover {
+  background-color: var(--btn-hover);
+  border-color: var(--btn-base);
+}
+
+.c3.variant--secondary:focus,
+.c3.variant--secondary.focus {
+  background-color: transparent;
+  box-shadow: 0px 0 0 2px var(--btn-focus);
+}
+
+.c3.variant--secondary:active,
+.c3.variant--secondary:focus:active,
+.c3.variant--secondary.active {
+  background-color: var(--btn-pressed);
+  border-color: var(--btn-focus);
+}
+
+.c3.variant--secondary:disabled,
+.c3.variant--secondary.disabled {
+  background-color: transparent;
+  border-color: var(--btn-disabled);
+}
+
+.c3.variant--secondary:disabled .btn-label,
+.c3.variant--secondary.disabled .btn-label {
+  color: var(--btn-disabled);
+}
+
+.c3.variant--secondary:disabled .btn-label .icon path,
+.c3.variant--secondary.disabled .btn-label .icon path {
+  fill: var(--btn-disabled);
+}
+
+.c3.variant--tertiary:enabled,
+.c3.variant--tertiary.enabled {
+  background-color: var(--btn-base-subdued);
+  border-color: var(--btn-base-subdued);
+}
+
+.c3.variant--tertiary:enabled .btn-label,
+.c3.variant--tertiary.enabled .btn-label {
+  color: var(--btn-text);
+}
+
+.c3.variant--tertiary:enabled .btn-label .icon path,
+.c3.variant--tertiary.enabled .btn-label .icon path {
+  fill: var(--btn-icon);
+}
+
+.c3.variant--tertiary:hover,
+.c3.variant--tertiary.hover {
+  background-color: var(--btn-hover);
+  border-color: var(--btn-hover);
+}
+
+.c3.variant--tertiary:focus,
+.c3.variant--tertiary.focus {
+  box-shadow: 0px 0 0 2px var(--btn-focus);
+}
+
+.c3.variant--tertiary:focus:hover,
+.c3.variant--tertiary.focus:hover {
+  box-shadow: 0px 0 0 2px var(--btn-focus);
+}
+
+.c3.variant--tertiary:active,
+.c3.variant--tertiary.active {
+  background-color: var(--btn-pressed);
+  border-color: var(--btn-pressed);
+}
+
+.c3.variant--tertiary:disabled,
+.c3.variant--tertiary.disabled {
+  background-color: var(--btn-disabled-subdued);
+  border-color: var(--btn-disabled-subdued);
+}
+
+.c3.variant--tertiary:disabled .btn-label,
+.c3.variant--tertiary.disabled .btn-label {
+  color: var(--btn-disabled);
+}
+
+.c3.variant--tertiary:disabled .btn-label .icon path,
+.c3.variant--tertiary.disabled .btn-label .icon path {
+  fill: var(--btn-disabled);
+}
+
+.c3.variant--ghost:enabled,
+.c3.variant--ghost.enabled {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.c3.variant--ghost:enabled .btn-label,
+.c3.variant--ghost.enabled .btn-label {
+  color: var(--btn-text);
+}
+
+.c3.variant--ghost:enabled .btn-label .icon path,
+.c3.variant--ghost.enabled .btn-label .icon path {
+  fill: var(--btn-icon);
+}
+
+.c3.variant--ghost:hover,
+.c3.variant--ghost.hover {
+  background-color: var(--btn-hover);
+  border-color: transparent;
+}
+
+.c3.variant--ghost:focus,
+.c3.variant--ghost.focus {
+  background-color: transparent;
+  border-color: transparent;
+  box-shadow: 0px 0 0 2px var(--btn-focus);
+}
+
+.c3.variant--ghost:focus:hover,
+.c3.variant--ghost.focus:hover {
+  background-color: var(--btn-hover);
+  border-color: transparent;
+}
+
+.c3.variant--ghost:active,
+.c3.variant--ghost:focus:active,
+.c3.variant--ghost.active {
+  background-color: var(--btn-pressed);
+  border-color: transparent;
+}
+
+.c3.variant--ghost:disabled,
+.c3.variant--ghost.disabled {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.c3.variant--ghost:disabled .btn-label,
+.c3.variant--ghost.disabled .btn-label {
+  color: var(--btn-disabled);
+}
+
+.c3.variant--ghost:disabled .btn-label .icon path,
+.c3.variant--ghost.disabled .btn-label .icon path {
+  fill: var(--btn-disabled);
+}
+
+.c3.variant--inverse:enabled,
+.c3.variant--inverse.enabled {
+  background-color: var(--btn-base-subdued);
+  border-color: var(--btn-base-subdued);
+}
+
+.c3.variant--inverse:enabled .btn-label,
+.c3.variant--inverse.enabled .btn-label {
+  color: var(--btn-text);
+}
+
+.c3.variant--inverse:enabled .btn-label .icon path,
+.c3.variant--inverse.enabled .btn-label .icon path {
+  fill: var(--btn-icon);
+}
+
+.c3.variant--inverse:hover,
+.c3.variant--inverse.hover {
+  background-color: var(--btn-hover);
+  border-color: var(--btn-hover);
+}
+
+.c3.variant--inverse:focus,
+.c3.variant--inverse.focus {
+  background-color: var(--btn-base-subdued);
+  box-shadow: 0px 0 0 2px var(--btn-focus);
+}
+
+.c3.variant--inverse:focus:hover,
+.c3.variant--inverse.focus:hover {
+  background-color: var(--btn-hover);
+  border-color: var(--btn-focus);
+}
+
+.c3.variant--inverse:active,
+.c3.variant--inverse.active {
+  background-color: var(--btn-pressed);
+  border-color: var(--btn-pressed);
+}
+
+.c3.variant--inverse:disabled,
+.c3.variant--inverse.disabled {
+  background-color: var(--btn-base-subdued);
+  border-color: var(--btn-base-subdued);
+}
+
+.c3.variant--inverse:disabled .btn-label,
+.c3.variant--inverse.disabled .btn-label {
+  color: var(--btn-disabled);
+}
+
+.c3.variant--inverse:disabled .btn-label .icon path,
+.c3.variant--inverse.disabled .btn-label .icon path {
+  fill: var(--btn-disabled);
+}
+
+.c3.shape--rounded {
+  border-radius: var(--bds-border-radius-lg);
+}
+
+.c3.shape--squared {
+  border-radius: 0;
+}
+
+.c3.shape--circle {
+  border-radius: var(--bds-border-radius-circle);
+}
+
+.c3.size--small {
+  min-height: var(--bds-sizes-size-40);
+  padding: 0 var(--bds-sizes-size-20);
+}
+
+.c3.size--small .btn-label {
+  font-size: var(--bds-sizes-size-12);
+  line-height: var(--bds-sizes-size-16);
+}
+
+.c3.size--small .btn-label .btn-start-icon,
+.c3.size--small .btn-label .btn-end-icon,
+.c3.size--small .btn-label .icon {
+  width: var(--bds-sizes-size-12);
+  height: var(--bds-sizes-size-12);
+}
+
+.c3.size--medium {
+  min-height: var(--bds-sizes-size-48);
+  padding: 0 var(--bds-sizes-size-32);
+}
+
+.c3.size--medium .btn-label {
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-24);
+}
+
+.c3.size--medium .btn-label .btn-start-icon,
+.c3.size--medium .btn-label .btn-end-icon,
+.c3.size--medium .btn-label .icon {
+  width: var(--bds-sizes-size-14);
+  height: var(--bds-sizes-size-14);
+}
+
+.c3.size--large {
+  min-height: var(--bds-sizes-size-56);
+  padding: 0 var(--bds-sizes-size-32);
+}
+
+.c3.size--large .btn-label {
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+}
+
+.c3.size--large .btn-label .btn-start-icon,
+.c3.size--large .btn-label .btn-end-icon,
+.c3.size--large .btn-label .icon {
+  width: var(--bds-sizes-size-16);
+  height: var(--bds-sizes-size-16);
+}
+
+.c3.size--jumbo {
+  min-height: var(--bds-sizes-size-96);
+  padding: 0 var(--bds-sizes-size-56);
+}
+
+.c3.size--jumbo .btn-label {
+  font-size: var(--bds-sizes-size-24);
+  line-height: var(--bds-sizes-size-40);
+}
+
+.c3.size--jumbo .btn-label .btn-start-icon,
+.c3.size--jumbo .btn-label .btn-end-icon,
+.c3.size--jumbo .btn-label .icon {
+  width: var(--bds-sizes-size-24);
+  height: var(--bds-sizes-size-24);
+}
+
+.c3.disabled {
+  cursor: not-allowed;
+}
+
+.c3.disabled:active {
+  pointer-events: none;
+}
+
+.c3.c3.c3 {
+  outline: none;
+  vertical-align: bottom;
+  height: auto;
+}
+
+.c3.c3.c3::-moz-focus-inner {
+  border: 0;
+}
+
+.c4.size--extra_small {
+  min-width: var(--bds-sizes-size-32);
+  min-height: var(--bds-sizes-size-32);
+}
+
+.c4.size--extra_small .btn-label > .btn-start-icon,
+.c4.size--extra_small .btn-label > .btn-end-icon,
+.c4.size--extra_small .btn-label > .icon {
+  width: var(--bds-sizes-size-14);
+  height: var(--bds-sizes-size-14);
+}
+
+.c4.size--small {
+  min-width: var(--bds-sizes-size-40);
+  min-height: var(--bds-sizes-size-40);
+  padding: var(--bds-sizes-size-8);
+}
+
+.c4.size--small .btn-label > .btn-start-icon,
+.c4.size--small .btn-label > .btn-end-icon,
+.c4.size--small .btn-label > .icon {
+  width: var(--bds-sizes-size-16);
+  height: var(--bds-sizes-size-16);
+}
+
+.c4.size--medium {
+  min-width: var(--bds-sizes-size-48);
+  min-height: var(--bds-sizes-size-48);
+  padding: var(--bds-sizes-size-12);
+}
+
+.c4.size--medium .btn-label > .btn-start-icon,
+.c4.size--medium .btn-label > .btn-end-icon,
+.c4.size--medium .btn-label > .icon {
+  width: var(--bds-sizes-size-20);
+  height: var(--bds-sizes-size-20);
+}
+
+.c4.size--large {
+  min-width: var(--bds-sizes-size-56);
+  min-height: var(--bds-sizes-size-56);
+  padding: var(--bds-sizes-size-16);
+}
+
+.c4.size--large .btn-label > .btn-start-icon,
+.c4.size--large .btn-label > .btn-end-icon,
+.c4.size--large .btn-label > .icon {
+  width: var(--bds-sizes-size-24);
+  height: var(--bds-sizes-size-24);
+}
+
+.c4.size--jumbo {
+  min-width: var(--bds-sizes-size-96);
+  min-height: var(--bds-sizes-size-96);
+  padding: var(--bds-sizes-size-32);
+}
+
+.c4.size--jumbo .btn-label > .btn-start-icon,
+.c4.size--jumbo .btn-label > .btn-end-icon,
+.c4.size--jumbo .btn-label > .icon {
+  width: var(--bds-sizes-size-48);
+  height: var(--bds-sizes-size-48);
+}
+
+.c0 {
+  height: auto;
+  width: auto;
+}
+
+.c0 .content-container {
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+}
+
+.c0 .content-container::-webkit-scrollbar {
+  display: none;
+}
+
+.c0 .content-container .scrollbar-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c8 {
+  width: 100%;
+  padding-top: var(--bds-sizes-size-4);
+  padding-bottom: var(--bds-sizes-size-4);
+}
+
+.c8:hover {
+  cursor: pointer;
+}
+
+.c8.hide-scrollbar {
+  display: none;
+}
+
+.c10 {
+  position: absolute;
+  left: 0;
+  width: 10%;
+  height: var(--bds-sizes-size-4);
+  background-color: var(--bds-color-action-interactive);
+  border-radius: var(--bds-border-radius-circle);
+  -webkit-transition: top 0.08s;
+  -moz-transition: top 0.08s;
+  -ms-transition: top 0.08s;
+  -o-transition: top 0.08s;
+  -webkit-transition: top 0.08s;
+  transition: top 0.08s;
+}
+
+.c10:hover {
+  background-color: var(--bds-color-action-interactive-hover);
+}
+
+.c10:hover,
+.c10:focus,
+.c10:active {
+  margin-top: -0.0625rem;
+  height: var(--bds-sizes-size-6);
+}
+
+.c9 {
+  position: relative;
+  background: var(--bds-color-surface-subdued);
+  height: 4px;
+  -webkit-order: 10;
+  -ms-flex-order: 10;
+  order: 10;
+  width: 100%;
+  border-radius: var(--bds-border-radius-circle);
+}
+
+.c7 {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  margin: 0 1rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  position: relative;
+  min-width: 0;
+  padding-top: var(--bds-sizes-size-16);
+  padding-right: var(--bds-sizes-size-20);
+  padding-left: var(--bds-sizes-size-20);
+}
+
+.c1 .scrollbar-container {
+  padding-top: var(--bds-sizes-size-20);
+  padding-bottom: var(--bds-sizes-size-20);
+}
+
+.c1.no-scrollbar > .scrollbar-container {
+  display: none;
+}
+
+.c1 .content-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  min-width: 0;
+}
+
+.c1 .content-container .c6:first-of-type {
+  margin-left: 0;
+}
+
+.c1 .content-container .c6:last-of-type {
+  margin-right: 0;
+}
+
+.c1 .content-container .carousel-button-right,
+.c1 .content-container .carousel-button-left {
+  display: none;
+  position: absolute;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.c1 .content-container .carousel-button-right.show-button,
+.c1 .content-container .carousel-button-left.show-button {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 .content-container .carousel-button-left {
+  left: 0;
+}
+
+.c1 .content-container .carousel-button-right {
+  right: 0;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c3.size--small .btn-label {
+    font-size: var(--bds-sizes-size-14);
+  }
+
+  .c3.size--small .btn-label .btn-start-icon,
+  .c3.size--small .btn-label .btn-end-icon,
+  .c3.size--small .btn-label .icon {
+    width: var(--bds-sizes-size-14);
+    height: var(--bds-sizes-size-14);
+  }
+
+  .c3.size--medium .btn-label {
+    font-size: var(--bds-sizes-size-16);
+  }
+
+  .c3.size--medium .btn-label .btn-start-icon,
+  .c3.size--medium .btn-label .btn-end-icon,
+  .c3.size--medium .btn-label .icon {
+    width: var(--bds-sizes-size-16);
+    height: var(--bds-sizes-size-16);
+  }
+
+  .c3.size--large .btn-label {
+    font-size: var(--bds-sizes-size-18);
+  }
+
+  .c3.size--large .btn-label .btn-start-icon,
+  .c3.size--large .btn-label .btn-end-icon,
+  .c3.size--large .btn-label .icon {
+    width: var(--bds-sizes-size-18);
+    height: var(--bds-sizes-size-18);
+  }
+
+  .c3.size--jumbo .btn-label {
+    font-size: var(--bds-sizes-size-28);
+  }
+
+  .c3.size--jumbo .btn-label .btn-start-icon,
+  .c3.size--jumbo .btn-label .btn-end-icon,
+  .c3.size--jumbo .btn-label .icon {
+    width: var(--bds-sizes-size-28);
+    height: var(--bds-sizes-size-28);
+  }
+}
+
+<div
+    class="c0 c1 carousel-content"
+  >
+    <div
+      class="content-container"
+      id="test"
+    >
+      <div
+        class="scrollbar-content"
+      >
+        <button
+          aria-label="title"
+          class="c2 c3 backyard button size--small variant--inverse color--interactive shape--circle c4 icon-button carousel-button-left elevation"
+          color="interactive"
+          style="--btn-base: hsl(213, 84%, 45%, 1); --btn-base-subdued: hsl(0, 0%, 100%, 1); --btn-hover: hsl(213, 84%, 92%, 1); --btn-pressed: hsl(213, 84%, 90%, 1); --btn-focus: hsl(213, 84%, 45%, 1); --btn-text: hsl(213, 84%, 45%, 1); --btn-icon: hsl(213, 84%, 35%, 1); --btn-disabled: hsl(0, 0%, 0%, .30); --btn-disabled-subdued: hsl(0, 0%, 96%, 1);"
+          type="button"
+        >
+          <span
+            class="label btn-label"
+          >
+            <svg
+              aria-hidden="true"
+              class="c5 icon icon-arrow-left"
+              role="presentation"
+              style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(0, 0%, 0%, 1);"
+              viewBox="0 0 16 16"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.9112 12.8982c.3166 0 .5686-.2326.5686-.5557 0-.1551-.0582-.3102-.1615-.4071L5.8708 10.462 3.693 8.4782l1.5639.097h8.1744C13.7674 8.5751 14 8.336 14 8c0-.336-.2326-.5751-.5687-.5751H5.2569l-1.5574.097 2.1713-1.984 1.4475-1.4733c.1033-.1034.1615-.252.1615-.407 0-.3232-.252-.5558-.5686-.5558-.1551 0-.2908.0517-.433.1938L2.2003 7.567C2.0711 7.6898 2 7.8384 2 8c0 .1616.071.3102.2003.433l4.2908 4.2843c.1293.1228.265.1809.42.1809Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </button>
+        <div
+          class="c6 c7 carousel-item"
+        >
+          <p>
+            Hello World
+          </p>
+        </div>
+        <button
+          aria-label="title"
+          class="c2 c3 backyard button size--small variant--inverse color--interactive shape--circle c4 icon-button carousel-button-right elevation"
+          color="interactive"
+          style="--btn-base: hsl(213, 84%, 45%, 1); --btn-base-subdued: hsl(0, 0%, 100%, 1); --btn-hover: hsl(213, 84%, 92%, 1); --btn-pressed: hsl(213, 84%, 90%, 1); --btn-focus: hsl(213, 84%, 45%, 1); --btn-text: hsl(213, 84%, 45%, 1); --btn-icon: hsl(213, 84%, 35%, 1); --btn-disabled: hsl(0, 0%, 0%, .30); --btn-disabled-subdued: hsl(0, 0%, 96%, 1);"
+          type="button"
+        >
+          <span
+            class="label btn-label"
+          >
+            <svg
+              aria-hidden="true"
+              class="c5 icon icon-arrow-right"
+              role="presentation"
+              style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(0, 0%, 0%, 1);"
+              viewBox="0 0 16 16"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M9.0889 12.8982c.155 0 .2907-.0581.42-.1809L13.806 8.433C13.9354 8.3102 14 8.1616 14 8c0-.1616-.0646-.3102-.1939-.433L9.5218 3.2956c-.1422-.1421-.2779-.1938-.433-.1938-.3166 0-.5621.2326-.5621.5557 0 .1551.0517.3037.155.4071l1.4475 1.4734 2.1713 1.9838-1.5574-.097H2.5687C2.2327 7.4249 2 7.664 2 8c0 .336.2326.5751.5687.5751h8.1744l1.5638-.097-2.1777 1.9839-1.4475 1.4734c-.1033.0969-.155.252-.155.4071 0 .3231.2455.5557.5622.5557Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </button>
+      </div>
+    </div>
+    <div
+      class="c8 scrollbar-container hide-scrollbar"
+    >
+      <div
+        class="c9 scrollbar-track"
+      >
+        <div
+          aria-controls="test"
+          class="c10 scrollbar-knob"
+          role="scrollbar"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Carousel Snapshots themes Carousel dark theme snapshot 1`] = `
+<DocumentFragment>
+  .c5 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c5:not(.color-override) g,
+.c5:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c5:not(.color-override) g[stroke-width],
+.c5:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c5:not(.color-override) g[stroke-width] *,
+.c5:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c5.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c5.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c3 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  cursor: pointer;
+  box-sizing: border-box;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  border-style: solid;
+  border-width: var(--bds-border-width-sm);
+  height: 100%;
+}
+
+.c3 .btn-label {
+  display: inherit;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  -webkit-letter-spacing: .015rem;
+  -moz-letter-spacing: .015rem;
+  -ms-letter-spacing: .015rem;
+  letter-spacing: .015rem;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c3 .btn-label > .btn-start-icon {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c3 .btn-label > .btn-end-icon {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c3 .btn-label > .btn-end-icon svg {
+  width: var(--bds-sizes-size-16);
+  height: var(--bds-sizes-size-16);
+}
+
+.c3 .btn-label > .btn-start-icon,
+.c3 .btn-label > .btn-end-icon,
+.c3 .btn-label > .icon {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c3.full-width {
+  width: 100%;
+  padding: var(--bds-sizes-size-12) var(--bds-sizes-size-32);
+}
+
+.c3.elevation {
+  box-shadow: var(--bds-shadows-shadow-03);
+}
+
+.c3.variant--primary:enabled,
+.c3.variant--primary.enabled {
+  background-color: var(--btn-base);
+  border-color: var(--btn-base);
+}
+
+.c3.variant--primary:enabled .btn-label,
+.c3.variant--primary.enabled .btn-label {
+  color: var(--btn-text);
+}
+
+.c3.variant--primary:enabled .btn-label .icon path,
+.c3.variant--primary.enabled .btn-label .icon path {
+  fill: var(--btn-icon);
+}
+
+.c3.variant--primary:hover,
+.c3.variant--primary.hover {
+  background-color: var(--btn-hover);
+  border-color: var(--btn-hover);
+}
+
+.c3.variant--primary:focus,
+.c3.variant--primary.focus {
+  box-shadow: inset 0 0 0 1px var(--btn-base),inset 0px 0 0 2px var(--btn-focus);
+}
+
+.c3.variant--primary:focus:hover,
+.c3.variant--primary.focus:hover {
+  box-shadow: inset 0 0 0 1px var(--btn-hover),inset 0px 0 0 2px var(--btn-focus);
+}
+
+.c3.variant--primary:active,
+.c3.variant--primary.active {
+  background-color: var(--btn-pressed);
+  border-color: var(--btn-pressed);
+}
+
+.c3.variant--primary:disabled,
+.c3.variant--primary.disabled {
+  background-color: var(--btn-disabled);
+  border-color: transparent;
+}
+
+.c3.variant--primary:disabled .btn-label,
+.c3.variant--primary.disabled .btn-label {
+  color: var(--btn-disabled);
+}
+
+.c3.variant--primary:disabled .btn-label .icon path,
+.c3.variant--primary.disabled .btn-label .icon path {
+  fill: var(--btn-disabled);
+}
+
+.c3.variant--primary.c2.variant--primary.size--jumbo:focus,
+.c3.variant--primary.c3.variant--primary.size--jumbo.focus {
+  box-shadow: inset 0 0 0 2px var(--btn-base),inset 0px 0 0 4px var(--btn-focus);
+}
+
+.c3.variant--secondary:enabled,
+.c3.variant--secondary.enabled {
+  background-color: transparent;
+  border-color: var(--btn-base);
+}
+
+.c3.variant--secondary:enabled .btn-label,
+.c3.variant--secondary.enabled .btn-label {
+  color: var(--btn-text);
+}
+
+.c3.variant--secondary:enabled .btn-label .icon path,
+.c3.variant--secondary.enabled .btn-label .icon path {
+  fill: var(--btn-icon);
+}
+
+.c3.variant--secondary:hover,
+.c3.variant--secondary.hover {
+  background-color: var(--btn-hover);
+  border-color: var(--btn-base);
+}
+
+.c3.variant--secondary:focus,
+.c3.variant--secondary.focus {
+  background-color: transparent;
+  box-shadow: 0px 0 0 2px var(--btn-focus);
+}
+
+.c3.variant--secondary:active,
+.c3.variant--secondary:focus:active,
+.c3.variant--secondary.active {
+  background-color: var(--btn-pressed);
+  border-color: var(--btn-focus);
+}
+
+.c3.variant--secondary:disabled,
+.c3.variant--secondary.disabled {
+  background-color: transparent;
+  border-color: var(--btn-disabled);
+}
+
+.c3.variant--secondary:disabled .btn-label,
+.c3.variant--secondary.disabled .btn-label {
+  color: var(--btn-disabled);
+}
+
+.c3.variant--secondary:disabled .btn-label .icon path,
+.c3.variant--secondary.disabled .btn-label .icon path {
+  fill: var(--btn-disabled);
+}
+
+.c3.variant--tertiary:enabled,
+.c3.variant--tertiary.enabled {
+  background-color: var(--btn-base-subdued);
+  border-color: var(--btn-base-subdued);
+}
+
+.c3.variant--tertiary:enabled .btn-label,
+.c3.variant--tertiary.enabled .btn-label {
+  color: var(--btn-text);
+}
+
+.c3.variant--tertiary:enabled .btn-label .icon path,
+.c3.variant--tertiary.enabled .btn-label .icon path {
+  fill: var(--btn-icon);
+}
+
+.c3.variant--tertiary:hover,
+.c3.variant--tertiary.hover {
+  background-color: var(--btn-hover);
+  border-color: var(--btn-hover);
+}
+
+.c3.variant--tertiary:focus,
+.c3.variant--tertiary.focus {
+  box-shadow: 0px 0 0 2px var(--btn-focus);
+}
+
+.c3.variant--tertiary:focus:hover,
+.c3.variant--tertiary.focus:hover {
+  box-shadow: 0px 0 0 2px var(--btn-focus);
+}
+
+.c3.variant--tertiary:active,
+.c3.variant--tertiary.active {
+  background-color: var(--btn-pressed);
+  border-color: var(--btn-pressed);
+}
+
+.c3.variant--tertiary:disabled,
+.c3.variant--tertiary.disabled {
+  background-color: var(--btn-disabled-subdued);
+  border-color: var(--btn-disabled-subdued);
+}
+
+.c3.variant--tertiary:disabled .btn-label,
+.c3.variant--tertiary.disabled .btn-label {
+  color: var(--btn-disabled);
+}
+
+.c3.variant--tertiary:disabled .btn-label .icon path,
+.c3.variant--tertiary.disabled .btn-label .icon path {
+  fill: var(--btn-disabled);
+}
+
+.c3.variant--ghost:enabled,
+.c3.variant--ghost.enabled {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.c3.variant--ghost:enabled .btn-label,
+.c3.variant--ghost.enabled .btn-label {
+  color: var(--btn-text);
+}
+
+.c3.variant--ghost:enabled .btn-label .icon path,
+.c3.variant--ghost.enabled .btn-label .icon path {
+  fill: var(--btn-icon);
+}
+
+.c3.variant--ghost:hover,
+.c3.variant--ghost.hover {
+  background-color: var(--btn-hover);
+  border-color: transparent;
+}
+
+.c3.variant--ghost:focus,
+.c3.variant--ghost.focus {
+  background-color: transparent;
+  border-color: transparent;
+  box-shadow: 0px 0 0 2px var(--btn-focus);
+}
+
+.c3.variant--ghost:focus:hover,
+.c3.variant--ghost.focus:hover {
+  background-color: var(--btn-hover);
+  border-color: transparent;
+}
+
+.c3.variant--ghost:active,
+.c3.variant--ghost:focus:active,
+.c3.variant--ghost.active {
+  background-color: var(--btn-pressed);
+  border-color: transparent;
+}
+
+.c3.variant--ghost:disabled,
+.c3.variant--ghost.disabled {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.c3.variant--ghost:disabled .btn-label,
+.c3.variant--ghost.disabled .btn-label {
+  color: var(--btn-disabled);
+}
+
+.c3.variant--ghost:disabled .btn-label .icon path,
+.c3.variant--ghost.disabled .btn-label .icon path {
+  fill: var(--btn-disabled);
+}
+
+.c3.variant--inverse:enabled,
+.c3.variant--inverse.enabled {
+  background-color: var(--btn-base-subdued);
+  border-color: var(--btn-base-subdued);
+}
+
+.c3.variant--inverse:enabled .btn-label,
+.c3.variant--inverse.enabled .btn-label {
+  color: var(--btn-text);
+}
+
+.c3.variant--inverse:enabled .btn-label .icon path,
+.c3.variant--inverse.enabled .btn-label .icon path {
+  fill: var(--btn-icon);
+}
+
+.c3.variant--inverse:hover,
+.c3.variant--inverse.hover {
+  background-color: var(--btn-hover);
+  border-color: var(--btn-hover);
+}
+
+.c3.variant--inverse:focus,
+.c3.variant--inverse.focus {
+  background-color: var(--btn-base-subdued);
+  box-shadow: 0px 0 0 2px var(--btn-focus);
+}
+
+.c3.variant--inverse:focus:hover,
+.c3.variant--inverse.focus:hover {
+  background-color: var(--btn-hover);
+  border-color: var(--btn-focus);
+}
+
+.c3.variant--inverse:active,
+.c3.variant--inverse.active {
+  background-color: var(--btn-pressed);
+  border-color: var(--btn-pressed);
+}
+
+.c3.variant--inverse:disabled,
+.c3.variant--inverse.disabled {
+  background-color: var(--btn-base-subdued);
+  border-color: var(--btn-base-subdued);
+}
+
+.c3.variant--inverse:disabled .btn-label,
+.c3.variant--inverse.disabled .btn-label {
+  color: var(--btn-disabled);
+}
+
+.c3.variant--inverse:disabled .btn-label .icon path,
+.c3.variant--inverse.disabled .btn-label .icon path {
+  fill: var(--btn-disabled);
+}
+
+.c3.shape--rounded {
+  border-radius: var(--bds-border-radius-lg);
+}
+
+.c3.shape--squared {
+  border-radius: 0;
+}
+
+.c3.shape--circle {
+  border-radius: var(--bds-border-radius-circle);
+}
+
+.c3.size--small {
+  min-height: var(--bds-sizes-size-40);
+  padding: 0 var(--bds-sizes-size-20);
+}
+
+.c3.size--small .btn-label {
+  font-size: var(--bds-sizes-size-12);
+  line-height: var(--bds-sizes-size-16);
+}
+
+.c3.size--small .btn-label .btn-start-icon,
+.c3.size--small .btn-label .btn-end-icon,
+.c3.size--small .btn-label .icon {
+  width: var(--bds-sizes-size-12);
+  height: var(--bds-sizes-size-12);
+}
+
+.c3.size--medium {
+  min-height: var(--bds-sizes-size-48);
+  padding: 0 var(--bds-sizes-size-32);
+}
+
+.c3.size--medium .btn-label {
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-24);
+}
+
+.c3.size--medium .btn-label .btn-start-icon,
+.c3.size--medium .btn-label .btn-end-icon,
+.c3.size--medium .btn-label .icon {
+  width: var(--bds-sizes-size-14);
+  height: var(--bds-sizes-size-14);
+}
+
+.c3.size--large {
+  min-height: var(--bds-sizes-size-56);
+  padding: 0 var(--bds-sizes-size-32);
+}
+
+.c3.size--large .btn-label {
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+}
+
+.c3.size--large .btn-label .btn-start-icon,
+.c3.size--large .btn-label .btn-end-icon,
+.c3.size--large .btn-label .icon {
+  width: var(--bds-sizes-size-16);
+  height: var(--bds-sizes-size-16);
+}
+
+.c3.size--jumbo {
+  min-height: var(--bds-sizes-size-96);
+  padding: 0 var(--bds-sizes-size-56);
+}
+
+.c3.size--jumbo .btn-label {
+  font-size: var(--bds-sizes-size-24);
+  line-height: var(--bds-sizes-size-40);
+}
+
+.c3.size--jumbo .btn-label .btn-start-icon,
+.c3.size--jumbo .btn-label .btn-end-icon,
+.c3.size--jumbo .btn-label .icon {
+  width: var(--bds-sizes-size-24);
+  height: var(--bds-sizes-size-24);
+}
+
+.c3.disabled {
+  cursor: not-allowed;
+}
+
+.c3.disabled:active {
+  pointer-events: none;
+}
+
+.c3.c3.c3 {
+  outline: none;
+  vertical-align: bottom;
+  height: auto;
+}
+
+.c3.c3.c3::-moz-focus-inner {
+  border: 0;
+}
+
+.c4.size--extra_small {
+  min-width: var(--bds-sizes-size-32);
+  min-height: var(--bds-sizes-size-32);
+}
+
+.c4.size--extra_small .btn-label > .btn-start-icon,
+.c4.size--extra_small .btn-label > .btn-end-icon,
+.c4.size--extra_small .btn-label > .icon {
+  width: var(--bds-sizes-size-14);
+  height: var(--bds-sizes-size-14);
+}
+
+.c4.size--small {
+  min-width: var(--bds-sizes-size-40);
+  min-height: var(--bds-sizes-size-40);
+  padding: var(--bds-sizes-size-8);
+}
+
+.c4.size--small .btn-label > .btn-start-icon,
+.c4.size--small .btn-label > .btn-end-icon,
+.c4.size--small .btn-label > .icon {
+  width: var(--bds-sizes-size-16);
+  height: var(--bds-sizes-size-16);
+}
+
+.c4.size--medium {
+  min-width: var(--bds-sizes-size-48);
+  min-height: var(--bds-sizes-size-48);
+  padding: var(--bds-sizes-size-12);
+}
+
+.c4.size--medium .btn-label > .btn-start-icon,
+.c4.size--medium .btn-label > .btn-end-icon,
+.c4.size--medium .btn-label > .icon {
+  width: var(--bds-sizes-size-20);
+  height: var(--bds-sizes-size-20);
+}
+
+.c4.size--large {
+  min-width: var(--bds-sizes-size-56);
+  min-height: var(--bds-sizes-size-56);
+  padding: var(--bds-sizes-size-16);
+}
+
+.c4.size--large .btn-label > .btn-start-icon,
+.c4.size--large .btn-label > .btn-end-icon,
+.c4.size--large .btn-label > .icon {
+  width: var(--bds-sizes-size-24);
+  height: var(--bds-sizes-size-24);
+}
+
+.c4.size--jumbo {
+  min-width: var(--bds-sizes-size-96);
+  min-height: var(--bds-sizes-size-96);
+  padding: var(--bds-sizes-size-32);
+}
+
+.c4.size--jumbo .btn-label > .btn-start-icon,
+.c4.size--jumbo .btn-label > .btn-end-icon,
+.c4.size--jumbo .btn-label > .icon {
+  width: var(--bds-sizes-size-48);
+  height: var(--bds-sizes-size-48);
+}
+
+.c0 {
+  height: auto;
+  width: auto;
+}
+
+.c0 .content-container {
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+}
+
+.c0 .content-container::-webkit-scrollbar {
+  display: none;
+}
+
+.c0 .content-container .scrollbar-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c8 {
+  width: 100%;
+  padding-top: var(--bds-sizes-size-4);
+  padding-bottom: var(--bds-sizes-size-4);
+}
+
+.c8:hover {
+  cursor: pointer;
+}
+
+.c8.hide-scrollbar {
+  display: none;
+}
+
+.c10 {
+  position: absolute;
+  left: 0;
+  width: 10%;
+  height: var(--bds-sizes-size-4);
+  background-color: var(--bds-color-action-interactive);
+  border-radius: var(--bds-border-radius-circle);
+  -webkit-transition: top 0.08s;
+  -moz-transition: top 0.08s;
+  -ms-transition: top 0.08s;
+  -o-transition: top 0.08s;
+  -webkit-transition: top 0.08s;
+  transition: top 0.08s;
+}
+
+.c10:hover {
+  background-color: var(--bds-color-action-interactive-hover);
+}
+
+.c10:hover,
+.c10:focus,
+.c10:active {
+  margin-top: -0.0625rem;
+  height: var(--bds-sizes-size-6);
+}
+
+.c9 {
+  position: relative;
+  background: var(--bds-color-surface-subdued);
+  height: 4px;
+  -webkit-order: 10;
+  -ms-flex-order: 10;
+  order: 10;
+  width: 100%;
+  border-radius: var(--bds-border-radius-circle);
+}
+
+.c7 {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  margin: 0 1rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  position: relative;
+  min-width: 0;
+  padding-top: var(--bds-sizes-size-16);
+  padding-right: var(--bds-sizes-size-20);
+  padding-left: var(--bds-sizes-size-20);
+}
+
+.c1 .scrollbar-container {
+  padding-top: var(--bds-sizes-size-20);
+  padding-bottom: var(--bds-sizes-size-20);
+}
+
+.c1.no-scrollbar > .scrollbar-container {
+  display: none;
+}
+
+.c1 .content-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  min-width: 0;
+}
+
+.c1 .content-container .c6:first-of-type {
+  margin-left: 0;
+}
+
+.c1 .content-container .c6:last-of-type {
+  margin-right: 0;
+}
+
+.c1 .content-container .carousel-button-right,
+.c1 .content-container .carousel-button-left {
+  display: none;
+  position: absolute;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.c1 .content-container .carousel-button-right.show-button,
+.c1 .content-container .carousel-button-left.show-button {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 .content-container .carousel-button-left {
+  left: 0;
+}
+
+.c1 .content-container .carousel-button-right {
+  right: 0;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c3.size--small .btn-label {
+    font-size: var(--bds-sizes-size-14);
+  }
+
+  .c3.size--small .btn-label .btn-start-icon,
+  .c3.size--small .btn-label .btn-end-icon,
+  .c3.size--small .btn-label .icon {
+    width: var(--bds-sizes-size-14);
+    height: var(--bds-sizes-size-14);
+  }
+
+  .c3.size--medium .btn-label {
+    font-size: var(--bds-sizes-size-16);
+  }
+
+  .c3.size--medium .btn-label .btn-start-icon,
+  .c3.size--medium .btn-label .btn-end-icon,
+  .c3.size--medium .btn-label .icon {
+    width: var(--bds-sizes-size-16);
+    height: var(--bds-sizes-size-16);
+  }
+
+  .c3.size--large .btn-label {
+    font-size: var(--bds-sizes-size-18);
+  }
+
+  .c3.size--large .btn-label .btn-start-icon,
+  .c3.size--large .btn-label .btn-end-icon,
+  .c3.size--large .btn-label .icon {
+    width: var(--bds-sizes-size-18);
+    height: var(--bds-sizes-size-18);
+  }
+
+  .c3.size--jumbo .btn-label {
+    font-size: var(--bds-sizes-size-28);
+  }
+
+  .c3.size--jumbo .btn-label .btn-start-icon,
+  .c3.size--jumbo .btn-label .btn-end-icon,
+  .c3.size--jumbo .btn-label .icon {
+    width: var(--bds-sizes-size-28);
+    height: var(--bds-sizes-size-28);
+  }
+}
+
+<div
+    class="c0 c1 carousel-content"
+  >
+    <div
+      class="content-container"
+      id="test"
+    >
+      <div
+        class="scrollbar-content"
+      >
+        <button
+          aria-label="title"
+          class="c2 c3 backyard button size--small variant--inverse color--interactive shape--circle c4 icon-button carousel-button-left elevation"
+          color="interactive"
+          style="--btn-base: hsl(213, 73%, 60%, 1); --btn-base-subdued: hsl(221, 100%, 6%, 1); --btn-hover: hsl(212, 72%, 19%, 1); --btn-pressed: hsl(212, 74%, 20%, 1); --btn-focus: hsl(213, 73%, 60%, 1); --btn-text: hsl(213, 73%, 68%, 1); --btn-icon: hsl(213, 73%, 68%, 1); --btn-disabled: hsl(0, 0%, 100%, .30); --btn-disabled-subdued: hsl(222, 54%, 11%, 1);"
+          type="button"
+        >
+          <span
+            class="label btn-label"
+          >
+            <svg
+              aria-hidden="true"
+              class="c5 icon icon-arrow-left"
+              role="presentation"
+              style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(0, 0%, 100%, 1);"
+              viewBox="0 0 16 16"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.9112 12.8982c.3166 0 .5686-.2326.5686-.5557 0-.1551-.0582-.3102-.1615-.4071L5.8708 10.462 3.693 8.4782l1.5639.097h8.1744C13.7674 8.5751 14 8.336 14 8c0-.336-.2326-.5751-.5687-.5751H5.2569l-1.5574.097 2.1713-1.984 1.4475-1.4733c.1033-.1034.1615-.252.1615-.407 0-.3232-.252-.5558-.5686-.5558-.1551 0-.2908.0517-.433.1938L2.2003 7.567C2.0711 7.6898 2 7.8384 2 8c0 .1616.071.3102.2003.433l4.2908 4.2843c.1293.1228.265.1809.42.1809Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </button>
+        <div
+          class="c6 c7 carousel-item"
+        >
+          Item 1
+        </div>
+        <button
+          aria-label="title"
+          class="c2 c3 backyard button size--small variant--inverse color--interactive shape--circle c4 icon-button carousel-button-right elevation"
+          color="interactive"
+          style="--btn-base: hsl(213, 73%, 60%, 1); --btn-base-subdued: hsl(221, 100%, 6%, 1); --btn-hover: hsl(212, 72%, 19%, 1); --btn-pressed: hsl(212, 74%, 20%, 1); --btn-focus: hsl(213, 73%, 60%, 1); --btn-text: hsl(213, 73%, 68%, 1); --btn-icon: hsl(213, 73%, 68%, 1); --btn-disabled: hsl(0, 0%, 100%, .30); --btn-disabled-subdued: hsl(222, 54%, 11%, 1);"
+          type="button"
+        >
+          <span
+            class="label btn-label"
+          >
+            <svg
+              aria-hidden="true"
+              class="c5 icon icon-arrow-right"
+              role="presentation"
+              style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(0, 0%, 100%, 1);"
+              viewBox="0 0 16 16"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M9.0889 12.8982c.155 0 .2907-.0581.42-.1809L13.806 8.433C13.9354 8.3102 14 8.1616 14 8c0-.1616-.0646-.3102-.1939-.433L9.5218 3.2956c-.1422-.1421-.2779-.1938-.433-.1938-.3166 0-.5621.2326-.5621.5557 0 .1551.0517.3037.155.4071l1.4475 1.4734 2.1713 1.9838-1.5574-.097H2.5687C2.2327 7.4249 2 7.664 2 8c0 .336.2326.5751.5687.5751h8.1744l1.5638-.097-2.1777 1.9839-1.4475 1.4734c-.1033.0969-.155.252-.155.4071 0 .3231.2455.5557.5622.5557Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </button>
+      </div>
+    </div>
+    <div
+      class="c8 scrollbar-container hide-scrollbar"
+    >
+      <div
+        class="c9 scrollbar-track"
+      >
+        <div
+          aria-controls="test"
+          class="c10 scrollbar-knob"
+          role="scrollbar"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Carousel Snapshots themes Carousel light theme snapshot 1`] = `
+<DocumentFragment>
+  .c5 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c5:not(.color-override) g,
+.c5:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c5:not(.color-override) g[stroke-width],
+.c5:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c5:not(.color-override) g[stroke-width] *,
+.c5:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c5.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c5.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c3 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  cursor: pointer;
+  box-sizing: border-box;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  border-style: solid;
+  border-width: var(--bds-border-width-sm);
+  height: 100%;
+}
+
+.c3 .btn-label {
+  display: inherit;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  -webkit-letter-spacing: .015rem;
+  -moz-letter-spacing: .015rem;
+  -ms-letter-spacing: .015rem;
+  letter-spacing: .015rem;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c3 .btn-label > .btn-start-icon {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c3 .btn-label > .btn-end-icon {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c3 .btn-label > .btn-end-icon svg {
+  width: var(--bds-sizes-size-16);
+  height: var(--bds-sizes-size-16);
+}
+
+.c3 .btn-label > .btn-start-icon,
+.c3 .btn-label > .btn-end-icon,
+.c3 .btn-label > .icon {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c3.full-width {
+  width: 100%;
+  padding: var(--bds-sizes-size-12) var(--bds-sizes-size-32);
+}
+
+.c3.elevation {
+  box-shadow: var(--bds-shadows-shadow-03);
+}
+
+.c3.variant--primary:enabled,
+.c3.variant--primary.enabled {
+  background-color: var(--btn-base);
+  border-color: var(--btn-base);
+}
+
+.c3.variant--primary:enabled .btn-label,
+.c3.variant--primary.enabled .btn-label {
+  color: var(--btn-text);
+}
+
+.c3.variant--primary:enabled .btn-label .icon path,
+.c3.variant--primary.enabled .btn-label .icon path {
+  fill: var(--btn-icon);
+}
+
+.c3.variant--primary:hover,
+.c3.variant--primary.hover {
+  background-color: var(--btn-hover);
+  border-color: var(--btn-hover);
+}
+
+.c3.variant--primary:focus,
+.c3.variant--primary.focus {
+  box-shadow: inset 0 0 0 1px var(--btn-base),inset 0px 0 0 2px var(--btn-focus);
+}
+
+.c3.variant--primary:focus:hover,
+.c3.variant--primary.focus:hover {
+  box-shadow: inset 0 0 0 1px var(--btn-hover),inset 0px 0 0 2px var(--btn-focus);
+}
+
+.c3.variant--primary:active,
+.c3.variant--primary.active {
+  background-color: var(--btn-pressed);
+  border-color: var(--btn-pressed);
+}
+
+.c3.variant--primary:disabled,
+.c3.variant--primary.disabled {
+  background-color: var(--btn-disabled);
+  border-color: transparent;
+}
+
+.c3.variant--primary:disabled .btn-label,
+.c3.variant--primary.disabled .btn-label {
+  color: var(--btn-disabled);
+}
+
+.c3.variant--primary:disabled .btn-label .icon path,
+.c3.variant--primary.disabled .btn-label .icon path {
+  fill: var(--btn-disabled);
+}
+
+.c3.variant--primary.c2.variant--primary.size--jumbo:focus,
+.c3.variant--primary.c3.variant--primary.size--jumbo.focus {
+  box-shadow: inset 0 0 0 2px var(--btn-base),inset 0px 0 0 4px var(--btn-focus);
+}
+
+.c3.variant--secondary:enabled,
+.c3.variant--secondary.enabled {
+  background-color: transparent;
+  border-color: var(--btn-base);
+}
+
+.c3.variant--secondary:enabled .btn-label,
+.c3.variant--secondary.enabled .btn-label {
+  color: var(--btn-text);
+}
+
+.c3.variant--secondary:enabled .btn-label .icon path,
+.c3.variant--secondary.enabled .btn-label .icon path {
+  fill: var(--btn-icon);
+}
+
+.c3.variant--secondary:hover,
+.c3.variant--secondary.hover {
+  background-color: var(--btn-hover);
+  border-color: var(--btn-base);
+}
+
+.c3.variant--secondary:focus,
+.c3.variant--secondary.focus {
+  background-color: transparent;
+  box-shadow: 0px 0 0 2px var(--btn-focus);
+}
+
+.c3.variant--secondary:active,
+.c3.variant--secondary:focus:active,
+.c3.variant--secondary.active {
+  background-color: var(--btn-pressed);
+  border-color: var(--btn-focus);
+}
+
+.c3.variant--secondary:disabled,
+.c3.variant--secondary.disabled {
+  background-color: transparent;
+  border-color: var(--btn-disabled);
+}
+
+.c3.variant--secondary:disabled .btn-label,
+.c3.variant--secondary.disabled .btn-label {
+  color: var(--btn-disabled);
+}
+
+.c3.variant--secondary:disabled .btn-label .icon path,
+.c3.variant--secondary.disabled .btn-label .icon path {
+  fill: var(--btn-disabled);
+}
+
+.c3.variant--tertiary:enabled,
+.c3.variant--tertiary.enabled {
+  background-color: var(--btn-base-subdued);
+  border-color: var(--btn-base-subdued);
+}
+
+.c3.variant--tertiary:enabled .btn-label,
+.c3.variant--tertiary.enabled .btn-label {
+  color: var(--btn-text);
+}
+
+.c3.variant--tertiary:enabled .btn-label .icon path,
+.c3.variant--tertiary.enabled .btn-label .icon path {
+  fill: var(--btn-icon);
+}
+
+.c3.variant--tertiary:hover,
+.c3.variant--tertiary.hover {
+  background-color: var(--btn-hover);
+  border-color: var(--btn-hover);
+}
+
+.c3.variant--tertiary:focus,
+.c3.variant--tertiary.focus {
+  box-shadow: 0px 0 0 2px var(--btn-focus);
+}
+
+.c3.variant--tertiary:focus:hover,
+.c3.variant--tertiary.focus:hover {
+  box-shadow: 0px 0 0 2px var(--btn-focus);
+}
+
+.c3.variant--tertiary:active,
+.c3.variant--tertiary.active {
+  background-color: var(--btn-pressed);
+  border-color: var(--btn-pressed);
+}
+
+.c3.variant--tertiary:disabled,
+.c3.variant--tertiary.disabled {
+  background-color: var(--btn-disabled-subdued);
+  border-color: var(--btn-disabled-subdued);
+}
+
+.c3.variant--tertiary:disabled .btn-label,
+.c3.variant--tertiary.disabled .btn-label {
+  color: var(--btn-disabled);
+}
+
+.c3.variant--tertiary:disabled .btn-label .icon path,
+.c3.variant--tertiary.disabled .btn-label .icon path {
+  fill: var(--btn-disabled);
+}
+
+.c3.variant--ghost:enabled,
+.c3.variant--ghost.enabled {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.c3.variant--ghost:enabled .btn-label,
+.c3.variant--ghost.enabled .btn-label {
+  color: var(--btn-text);
+}
+
+.c3.variant--ghost:enabled .btn-label .icon path,
+.c3.variant--ghost.enabled .btn-label .icon path {
+  fill: var(--btn-icon);
+}
+
+.c3.variant--ghost:hover,
+.c3.variant--ghost.hover {
+  background-color: var(--btn-hover);
+  border-color: transparent;
+}
+
+.c3.variant--ghost:focus,
+.c3.variant--ghost.focus {
+  background-color: transparent;
+  border-color: transparent;
+  box-shadow: 0px 0 0 2px var(--btn-focus);
+}
+
+.c3.variant--ghost:focus:hover,
+.c3.variant--ghost.focus:hover {
+  background-color: var(--btn-hover);
+  border-color: transparent;
+}
+
+.c3.variant--ghost:active,
+.c3.variant--ghost:focus:active,
+.c3.variant--ghost.active {
+  background-color: var(--btn-pressed);
+  border-color: transparent;
+}
+
+.c3.variant--ghost:disabled,
+.c3.variant--ghost.disabled {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.c3.variant--ghost:disabled .btn-label,
+.c3.variant--ghost.disabled .btn-label {
+  color: var(--btn-disabled);
+}
+
+.c3.variant--ghost:disabled .btn-label .icon path,
+.c3.variant--ghost.disabled .btn-label .icon path {
+  fill: var(--btn-disabled);
+}
+
+.c3.variant--inverse:enabled,
+.c3.variant--inverse.enabled {
+  background-color: var(--btn-base-subdued);
+  border-color: var(--btn-base-subdued);
+}
+
+.c3.variant--inverse:enabled .btn-label,
+.c3.variant--inverse.enabled .btn-label {
+  color: var(--btn-text);
+}
+
+.c3.variant--inverse:enabled .btn-label .icon path,
+.c3.variant--inverse.enabled .btn-label .icon path {
+  fill: var(--btn-icon);
+}
+
+.c3.variant--inverse:hover,
+.c3.variant--inverse.hover {
+  background-color: var(--btn-hover);
+  border-color: var(--btn-hover);
+}
+
+.c3.variant--inverse:focus,
+.c3.variant--inverse.focus {
+  background-color: var(--btn-base-subdued);
+  box-shadow: 0px 0 0 2px var(--btn-focus);
+}
+
+.c3.variant--inverse:focus:hover,
+.c3.variant--inverse.focus:hover {
+  background-color: var(--btn-hover);
+  border-color: var(--btn-focus);
+}
+
+.c3.variant--inverse:active,
+.c3.variant--inverse.active {
+  background-color: var(--btn-pressed);
+  border-color: var(--btn-pressed);
+}
+
+.c3.variant--inverse:disabled,
+.c3.variant--inverse.disabled {
+  background-color: var(--btn-base-subdued);
+  border-color: var(--btn-base-subdued);
+}
+
+.c3.variant--inverse:disabled .btn-label,
+.c3.variant--inverse.disabled .btn-label {
+  color: var(--btn-disabled);
+}
+
+.c3.variant--inverse:disabled .btn-label .icon path,
+.c3.variant--inverse.disabled .btn-label .icon path {
+  fill: var(--btn-disabled);
+}
+
+.c3.shape--rounded {
+  border-radius: var(--bds-border-radius-lg);
+}
+
+.c3.shape--squared {
+  border-radius: 0;
+}
+
+.c3.shape--circle {
+  border-radius: var(--bds-border-radius-circle);
+}
+
+.c3.size--small {
+  min-height: var(--bds-sizes-size-40);
+  padding: 0 var(--bds-sizes-size-20);
+}
+
+.c3.size--small .btn-label {
+  font-size: var(--bds-sizes-size-12);
+  line-height: var(--bds-sizes-size-16);
+}
+
+.c3.size--small .btn-label .btn-start-icon,
+.c3.size--small .btn-label .btn-end-icon,
+.c3.size--small .btn-label .icon {
+  width: var(--bds-sizes-size-12);
+  height: var(--bds-sizes-size-12);
+}
+
+.c3.size--medium {
+  min-height: var(--bds-sizes-size-48);
+  padding: 0 var(--bds-sizes-size-32);
+}
+
+.c3.size--medium .btn-label {
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-24);
+}
+
+.c3.size--medium .btn-label .btn-start-icon,
+.c3.size--medium .btn-label .btn-end-icon,
+.c3.size--medium .btn-label .icon {
+  width: var(--bds-sizes-size-14);
+  height: var(--bds-sizes-size-14);
+}
+
+.c3.size--large {
+  min-height: var(--bds-sizes-size-56);
+  padding: 0 var(--bds-sizes-size-32);
+}
+
+.c3.size--large .btn-label {
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+}
+
+.c3.size--large .btn-label .btn-start-icon,
+.c3.size--large .btn-label .btn-end-icon,
+.c3.size--large .btn-label .icon {
+  width: var(--bds-sizes-size-16);
+  height: var(--bds-sizes-size-16);
+}
+
+.c3.size--jumbo {
+  min-height: var(--bds-sizes-size-96);
+  padding: 0 var(--bds-sizes-size-56);
+}
+
+.c3.size--jumbo .btn-label {
+  font-size: var(--bds-sizes-size-24);
+  line-height: var(--bds-sizes-size-40);
+}
+
+.c3.size--jumbo .btn-label .btn-start-icon,
+.c3.size--jumbo .btn-label .btn-end-icon,
+.c3.size--jumbo .btn-label .icon {
+  width: var(--bds-sizes-size-24);
+  height: var(--bds-sizes-size-24);
+}
+
+.c3.disabled {
+  cursor: not-allowed;
+}
+
+.c3.disabled:active {
+  pointer-events: none;
+}
+
+.c3.c3.c3 {
+  outline: none;
+  vertical-align: bottom;
+  height: auto;
+}
+
+.c3.c3.c3::-moz-focus-inner {
+  border: 0;
+}
+
+.c4.size--extra_small {
+  min-width: var(--bds-sizes-size-32);
+  min-height: var(--bds-sizes-size-32);
+}
+
+.c4.size--extra_small .btn-label > .btn-start-icon,
+.c4.size--extra_small .btn-label > .btn-end-icon,
+.c4.size--extra_small .btn-label > .icon {
+  width: var(--bds-sizes-size-14);
+  height: var(--bds-sizes-size-14);
+}
+
+.c4.size--small {
+  min-width: var(--bds-sizes-size-40);
+  min-height: var(--bds-sizes-size-40);
+  padding: var(--bds-sizes-size-8);
+}
+
+.c4.size--small .btn-label > .btn-start-icon,
+.c4.size--small .btn-label > .btn-end-icon,
+.c4.size--small .btn-label > .icon {
+  width: var(--bds-sizes-size-16);
+  height: var(--bds-sizes-size-16);
+}
+
+.c4.size--medium {
+  min-width: var(--bds-sizes-size-48);
+  min-height: var(--bds-sizes-size-48);
+  padding: var(--bds-sizes-size-12);
+}
+
+.c4.size--medium .btn-label > .btn-start-icon,
+.c4.size--medium .btn-label > .btn-end-icon,
+.c4.size--medium .btn-label > .icon {
+  width: var(--bds-sizes-size-20);
+  height: var(--bds-sizes-size-20);
+}
+
+.c4.size--large {
+  min-width: var(--bds-sizes-size-56);
+  min-height: var(--bds-sizes-size-56);
+  padding: var(--bds-sizes-size-16);
+}
+
+.c4.size--large .btn-label > .btn-start-icon,
+.c4.size--large .btn-label > .btn-end-icon,
+.c4.size--large .btn-label > .icon {
+  width: var(--bds-sizes-size-24);
+  height: var(--bds-sizes-size-24);
+}
+
+.c4.size--jumbo {
+  min-width: var(--bds-sizes-size-96);
+  min-height: var(--bds-sizes-size-96);
+  padding: var(--bds-sizes-size-32);
+}
+
+.c4.size--jumbo .btn-label > .btn-start-icon,
+.c4.size--jumbo .btn-label > .btn-end-icon,
+.c4.size--jumbo .btn-label > .icon {
+  width: var(--bds-sizes-size-48);
+  height: var(--bds-sizes-size-48);
+}
+
+.c0 {
+  height: auto;
+  width: auto;
+}
+
+.c0 .content-container {
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+}
+
+.c0 .content-container::-webkit-scrollbar {
+  display: none;
+}
+
+.c0 .content-container .scrollbar-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c8 {
+  width: 100%;
+  padding-top: var(--bds-sizes-size-4);
+  padding-bottom: var(--bds-sizes-size-4);
+}
+
+.c8:hover {
+  cursor: pointer;
+}
+
+.c8.hide-scrollbar {
+  display: none;
+}
+
+.c10 {
+  position: absolute;
+  left: 0;
+  width: 10%;
+  height: var(--bds-sizes-size-4);
+  background-color: var(--bds-color-action-interactive);
+  border-radius: var(--bds-border-radius-circle);
+  -webkit-transition: top 0.08s;
+  -moz-transition: top 0.08s;
+  -ms-transition: top 0.08s;
+  -o-transition: top 0.08s;
+  -webkit-transition: top 0.08s;
+  transition: top 0.08s;
+}
+
+.c10:hover {
+  background-color: var(--bds-color-action-interactive-hover);
+}
+
+.c10:hover,
+.c10:focus,
+.c10:active {
+  margin-top: -0.0625rem;
+  height: var(--bds-sizes-size-6);
+}
+
+.c9 {
+  position: relative;
+  background: var(--bds-color-surface-subdued);
+  height: 4px;
+  -webkit-order: 10;
+  -ms-flex-order: 10;
+  order: 10;
+  width: 100%;
+  border-radius: var(--bds-border-radius-circle);
+}
+
+.c7 {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  margin: 0 1rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  position: relative;
+  min-width: 0;
+  padding-top: var(--bds-sizes-size-16);
+  padding-right: var(--bds-sizes-size-20);
+  padding-left: var(--bds-sizes-size-20);
+}
+
+.c1 .scrollbar-container {
+  padding-top: var(--bds-sizes-size-20);
+  padding-bottom: var(--bds-sizes-size-20);
+}
+
+.c1.no-scrollbar > .scrollbar-container {
+  display: none;
+}
+
+.c1 .content-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  min-width: 0;
+}
+
+.c1 .content-container .c6:first-of-type {
+  margin-left: 0;
+}
+
+.c1 .content-container .c6:last-of-type {
+  margin-right: 0;
+}
+
+.c1 .content-container .carousel-button-right,
+.c1 .content-container .carousel-button-left {
+  display: none;
+  position: absolute;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.c1 .content-container .carousel-button-right.show-button,
+.c1 .content-container .carousel-button-left.show-button {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 .content-container .carousel-button-left {
+  left: 0;
+}
+
+.c1 .content-container .carousel-button-right {
+  right: 0;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c3.size--small .btn-label {
+    font-size: var(--bds-sizes-size-14);
+  }
+
+  .c3.size--small .btn-label .btn-start-icon,
+  .c3.size--small .btn-label .btn-end-icon,
+  .c3.size--small .btn-label .icon {
+    width: var(--bds-sizes-size-14);
+    height: var(--bds-sizes-size-14);
+  }
+
+  .c3.size--medium .btn-label {
+    font-size: var(--bds-sizes-size-16);
+  }
+
+  .c3.size--medium .btn-label .btn-start-icon,
+  .c3.size--medium .btn-label .btn-end-icon,
+  .c3.size--medium .btn-label .icon {
+    width: var(--bds-sizes-size-16);
+    height: var(--bds-sizes-size-16);
+  }
+
+  .c3.size--large .btn-label {
+    font-size: var(--bds-sizes-size-18);
+  }
+
+  .c3.size--large .btn-label .btn-start-icon,
+  .c3.size--large .btn-label .btn-end-icon,
+  .c3.size--large .btn-label .icon {
+    width: var(--bds-sizes-size-18);
+    height: var(--bds-sizes-size-18);
+  }
+
+  .c3.size--jumbo .btn-label {
+    font-size: var(--bds-sizes-size-28);
+  }
+
+  .c3.size--jumbo .btn-label .btn-start-icon,
+  .c3.size--jumbo .btn-label .btn-end-icon,
+  .c3.size--jumbo .btn-label .icon {
+    width: var(--bds-sizes-size-28);
+    height: var(--bds-sizes-size-28);
+  }
+}
+
+<div
+    class="c0 c1 carousel-content"
+  >
+    <div
+      class="content-container"
+      id="test"
+    >
+      <div
+        class="scrollbar-content"
+      >
+        <button
+          aria-label="title"
+          class="c2 c3 backyard button size--small variant--inverse color--interactive shape--circle c4 icon-button carousel-button-left elevation"
+          color="interactive"
+          style="--btn-base: hsl(213, 84%, 45%, 1); --btn-base-subdued: hsl(0, 0%, 100%, 1); --btn-hover: hsl(213, 84%, 92%, 1); --btn-pressed: hsl(213, 84%, 90%, 1); --btn-focus: hsl(213, 84%, 45%, 1); --btn-text: hsl(213, 84%, 45%, 1); --btn-icon: hsl(213, 84%, 35%, 1); --btn-disabled: hsl(0, 0%, 0%, .30); --btn-disabled-subdued: hsl(0, 0%, 96%, 1);"
+          type="button"
+        >
+          <span
+            class="label btn-label"
+          >
+            <svg
+              aria-hidden="true"
+              class="c5 icon icon-arrow-left"
+              role="presentation"
+              style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(0, 0%, 0%, 1);"
+              viewBox="0 0 16 16"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.9112 12.8982c.3166 0 .5686-.2326.5686-.5557 0-.1551-.0582-.3102-.1615-.4071L5.8708 10.462 3.693 8.4782l1.5639.097h8.1744C13.7674 8.5751 14 8.336 14 8c0-.336-.2326-.5751-.5687-.5751H5.2569l-1.5574.097 2.1713-1.984 1.4475-1.4733c.1033-.1034.1615-.252.1615-.407 0-.3232-.252-.5558-.5686-.5558-.1551 0-.2908.0517-.433.1938L2.2003 7.567C2.0711 7.6898 2 7.8384 2 8c0 .1616.071.3102.2003.433l4.2908 4.2843c.1293.1228.265.1809.42.1809Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </button>
+        <div
+          class="c6 c7 carousel-item"
+        >
+          Item 1
+        </div>
+        <button
+          aria-label="title"
+          class="c2 c3 backyard button size--small variant--inverse color--interactive shape--circle c4 icon-button carousel-button-right elevation"
+          color="interactive"
+          style="--btn-base: hsl(213, 84%, 45%, 1); --btn-base-subdued: hsl(0, 0%, 100%, 1); --btn-hover: hsl(213, 84%, 92%, 1); --btn-pressed: hsl(213, 84%, 90%, 1); --btn-focus: hsl(213, 84%, 45%, 1); --btn-text: hsl(213, 84%, 45%, 1); --btn-icon: hsl(213, 84%, 35%, 1); --btn-disabled: hsl(0, 0%, 0%, .30); --btn-disabled-subdued: hsl(0, 0%, 96%, 1);"
+          type="button"
+        >
+          <span
+            class="label btn-label"
+          >
+            <svg
+              aria-hidden="true"
+              class="c5 icon icon-arrow-right"
+              role="presentation"
+              style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(0, 0%, 0%, 1);"
+              viewBox="0 0 16 16"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M9.0889 12.8982c.155 0 .2907-.0581.42-.1809L13.806 8.433C13.9354 8.3102 14 8.1616 14 8c0-.1616-.0646-.3102-.1939-.433L9.5218 3.2956c-.1422-.1421-.2779-.1938-.433-.1938-.3166 0-.5621.2326-.5621.5557 0 .1551.0517.3037.155.4071l1.4475 1.4734 2.1713 1.9838-1.5574-.097H2.5687C2.2327 7.4249 2 7.664 2 8c0 .336.2326.5751.5687.5751h8.1744l1.5638-.097-2.1777 1.9839-1.4475 1.4734c-.1033.0969-.155.252-.155.4071 0 .3231.2455.5557.5622.5557Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </button>
+      </div>
+    </div>
+    <div
+      class="c8 scrollbar-container hide-scrollbar"
+    >
+      <div
+        class="c9 scrollbar-track"
+      >
+        <div
+          aria-controls="test"
+          class="c10 scrollbar-knob"
+          role="scrollbar"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

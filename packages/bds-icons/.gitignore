@@ -1,0 +1,67 @@
+# OS files
+**/.DS_Store
+
+# ENV Files
+.env
+.htaccess
+
+# Git files
+.git
+
+# NPM files
+node_modules
+bower_components
+
+# VS Code files
+.vscode
+
+# IDEA files
+.idea
+
+# Spec testing files.
+coverage.html
+clover.xml
+junit.xml
+jshint*.xml
+*.heapsnapshot
+coverage/
+.coverages
+.src
+
+# Gulp is executed by the CI System.
+gulpfile.js
+build.json
+temp
+
+# Ecosystem folder added by CI System.
+ecosystem
+
+# Remove artifact added by CI System.
+gauge.tar*
+
+# Bower is executed by the CI System.
+bower.json
+
+# JS hint files
+jshint*.xml
+
+# Log Files
+*.log
+*.iml
+
+# hidden files and folders
+.editorconfig
+.jshintignore
+.jshintrc
+
+# Builds
+/build
+/dist
+/types
+/.src
+
+# tar/misc files
+backyard_export.tar
+backyard_export/
+
+storybook-static/

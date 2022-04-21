@@ -1,0 +1,650 @@
+{
+	"id": 0,
+	"name": "@lowes-tech/bds-react/Slider",
+	"kind": 1,
+	"kindString": "Project",
+	"flags": {},
+	"children": [
+		{
+			"id": 34,
+			"name": "default",
+			"kind": 16777216,
+			"kindString": "Reference",
+			"flags": {},
+			"target": 1
+		},
+		{
+			"id": 2,
+			"name": "SliderProps",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 3,
+					"name": "className",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 4,
+					"name": "defaultValue",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "The default value for the slider."
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 5,
+					"name": "disabled",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Wether or not the slider is disabled."
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 7,
+					"name": "max",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "The max value of the slider."
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 8,
+					"name": "min",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "The min value of the slider."
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 27,
+					"name": "orientation",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "The orientation of the slider."
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "horizontal"
+							},
+							{
+								"type": "literal",
+								"value": "vertical"
+							}
+						]
+					}
+				},
+				{
+					"id": 29,
+					"name": "popoverProps",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "The tooltip popper's prop overrides"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "reference",
+								"name": "TooltipPopperProps"
+							}
+						],
+						"name": "Partial"
+					}
+				},
+				{
+					"id": 30,
+					"name": "popperProps",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "The tooltip popper's prop overrides",
+						"text": "Alias of `popoverProps`\n"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "reference",
+								"name": "TooltipPopperProps"
+							}
+						],
+						"name": "Partial"
+					}
+				},
+				{
+					"id": 28,
+					"name": "shape",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Shape of the tooltip"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "rounded"
+							},
+							{
+								"type": "literal",
+								"value": "squared"
+							}
+						]
+					}
+				},
+				{
+					"id": 6,
+					"name": "showInput",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "If the input should be rendered."
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 9,
+					"name": "step",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "The value the slider will increment and decrement."
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 10,
+					"name": "thumbClassName",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Adds a className to the thumb component."
+					},
+					"type": {
+						"type": "reference",
+						"name": "String"
+					}
+				},
+				{
+					"id": 11,
+					"name": "tooltip",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "The tooltip being displayed."
+					},
+					"type": {
+						"type": "reference",
+						"name": "Boolean"
+					}
+				},
+				{
+					"id": 31,
+					"name": "tooltipProps",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Tooltip prop overrides"
+					},
+					"type": {
+						"type": "reference",
+						"name": "TooltipProps"
+					}
+				},
+				{
+					"id": 32,
+					"name": "value",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "The value of the slider."
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 21,
+					"name": "onBlur",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 22,
+							"name": "onBlur",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onBlur` trigger function",
+								"tags": [
+									{
+										"tag": "argument",
+										"text": "{Event} event\n"
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 23,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											},
+											{
+												"type": "reference",
+												"name": "Element"
+											}
+										],
+										"name": "FocusEvent"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				},
+				{
+					"id": 12,
+					"name": "onChange",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 13,
+							"name": "onChange",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onChange` trigger function",
+								"tags": [
+									{
+										"tag": "argument",
+										"text": "{Event} event\n"
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 14,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											}
+										],
+										"name": "ChangeEvent"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				},
+				{
+					"id": 15,
+					"name": "onChangeCommitted",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 16,
+							"name": "onChangeCommitted",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onChangeCommitted` trigger function",
+								"tags": [
+									{
+										"tag": "argument",
+										"text": "{Event} event\n"
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 17,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											}
+										],
+										"name": "ChangeEvent"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				},
+				{
+					"id": 18,
+					"name": "onFocus",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 19,
+							"name": "onFocus",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onFocus` trigger function",
+								"tags": [
+									{
+										"tag": "argument",
+										"text": "{Event} event\n"
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 20,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											},
+											{
+												"type": "reference",
+												"name": "Element"
+											}
+										],
+										"name": "FocusEvent"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				},
+				{
+					"id": 24,
+					"name": "onMouseDown",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 25,
+							"name": "onMouseDown",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onMouseDown` trigger function",
+								"tags": [
+									{
+										"tag": "argument",
+										"text": "{Event} event\n"
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 26,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											},
+											{
+												"type": "reference",
+												"name": "MouseEvent"
+											}
+										],
+										"name": "MouseEvent"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						3,
+						4,
+						5,
+						7,
+						8,
+						27,
+						29,
+						30,
+						28,
+						6,
+						9,
+						10,
+						11,
+						31,
+						32
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						21,
+						12,
+						15,
+						18,
+						24
+					]
+				}
+			]
+		},
+		{
+			"id": 33,
+			"name": "SliderRef",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"type": {
+				"type": "reference",
+				"name": "HTMLSpanElement"
+			}
+		},
+		{
+			"id": 1,
+			"name": "Slider",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"id": 2,
+						"name": "SliderProps"
+					}
+				],
+				"name": "BDSForwardRef"
+			},
+			"defaultValue": "..."
+		}
+	],
+	"groups": [
+		{
+			"title": "References",
+			"kind": 16777216,
+			"children": [
+				34
+			]
+		},
+		{
+			"title": "Interfaces",
+			"kind": 256,
+			"children": [
+				2
+			]
+		},
+		{
+			"title": "Type aliases",
+			"kind": 4194304,
+			"children": [
+				33
+			]
+		},
+		{
+			"title": "Variables",
+			"kind": 32,
+			"children": [
+				1
+			]
+		}
+	]
+}

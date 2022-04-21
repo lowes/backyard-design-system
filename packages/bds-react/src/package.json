@@ -1,0 +1,24 @@
+{
+    "name": "@lowes-tech/bds-react-src",
+    "version": "0.0.0",
+    "main": "./index.ts",
+    "dependencies": {
+        "@juggle/resize-observer": "^3.3.1",
+        "@popperjs/core": "^2.9.2",
+        "@types/react-input-mask": "^2.0.5",
+        "@types/react-table": "~7.7.2",
+        "classnames": "^2.3.1",
+        "core-js": "^3.6.5",
+        "core-js-pure": "^3.6.5",
+        "date-fns": "^2.14.0",
+        "prop-types": "^15.7.2",
+        "react-device-detect": "^1.13.1",
+        "react-dropzone": "^11.2.1",
+        "react-input-mask": "^3.0.0-alpha.2",
+        "react-is": "^16.13.1",
+        "react-popper": "^2.2.3",
+        "react-table": "~7.7.0",
+        "styled-breakpoints": "^10.0.1",
+        "validator": "^13.5.2"
+    }
+}

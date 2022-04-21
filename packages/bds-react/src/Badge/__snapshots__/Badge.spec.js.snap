@@ -1,0 +1,3961 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Badge Snapshots Badge default snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 .arrow {
+  box-sizing: border-box;
+  height: 1.125rem;
+  width: 1.125rem;
+  border-width: 0.0625rem;
+  border-style: solid;
+  -webkit-transform: rotateY(0deg) rotate(45deg);
+  -ms-transform: rotateY(0deg) rotate(45deg);
+  transform: rotateY(0deg) rotate(45deg);
+  border-radius: var(--bds-border-radius-md);
+}
+
+.c0 .badge-label {
+  position: relative;
+  box-sizing: border-box;
+  padding: 0 var(--bds-sizes-size-8);
+  border: var(--bds-sizes-size-1) solid;
+  border-radius: var(--bds-border-radius-md);
+  height: var(--bds-sizes-size-24);
+  vertical-align: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: var(--bds-sizes-size-24);
+  z-index: 1;
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-14);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c0 .badge-label.arrow--left {
+  margin-left: -0.75rem;
+}
+
+.c0 .badge-label.arrow--left.size--jumbo {
+  margin-left: -1.1rem;
+}
+
+.c0 .badge-label.size--jumbo {
+  font-size: var(--bds-sizes-size-20);
+  line-height: var(--bds-sizes-size-32);
+  padding: var(--bds-sizes-size-4) var(--bds-sizes-size-8);
+  height: var(--bds-sizes-size-40);
+}
+
+.c0 .badge-label.size--jumbo+ .arrow {
+  height: 1.875rem;
+  width: 1.875rem;
+}
+
+.c0 .badge-label.variant--filled.color--dark-blue {
+  background-color: var(--bds-color-marketing-dark-blue);
+  border-color: var(--bds-color-marketing-dark-blue);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--dark-blue+ .arrow {
+  background-color: var(--bds-color-marketing-dark-blue);
+  border-color: var(--bds-color-marketing-dark-blue);
+}
+
+.c0 .badge-label.variant--filled.color--blue {
+  background-color: var(--bds-color-marketing-blue);
+  border-color: var(--bds-color-marketing-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--blue+ .arrow {
+  background-color: var(--bds-color-marketing-blue);
+  border-color: var(--bds-color-marketing-blue);
+}
+
+.c0 .badge-label.variant--filled.color--light-blue {
+  background-color: var(--bds-color-marketing-light-blue);
+  border-color: var(--bds-color-marketing-light-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--light-blue+ .arrow {
+  background-color: var(--bds-color-marketing-light-blue);
+  border-color: var(--bds-color-marketing-light-blue);
+}
+
+.c0 .badge-label.variant--filled.color--interactive {
+  background-color: var(--bds-color-marketing-interactive);
+  border-color: var(--bds-color-marketing-interactive);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--interactive+ .arrow {
+  background-color: var(--bds-color-marketing-interactive);
+  border-color: var(--bds-color-marketing-interactive);
+}
+
+.c0 .badge-label.variant--filled.color--green {
+  background-color: var(--bds-color-action-green);
+  border-color: var(--bds-color-action-green);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--green+ .arrow {
+  background-color: var(--bds-color-action-green);
+  border-color: var(--bds-color-action-green);
+}
+
+.c0 .badge-label.variant--filled.color--red {
+  background-color: var(--bds-color-action-red);
+  border-color: var(--bds-color-action-red);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--red+ .arrow {
+  background-color: var(--bds-color-action-red);
+  border-color: var(--bds-color-action-red);
+}
+
+.c0 .badge-label.variant--filled.color--gold {
+  background-color: var(--bds-color-marketing-gold);
+  border-color: var(--bds-color-marketing-gold);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--gold+ .arrow {
+  background-color: var(--bds-color-marketing-gold);
+  border-color: var(--bds-color-marketing-gold);
+}
+
+.c0 .badge-label.variant--filled.color--lfp-yellow {
+  background-color: var(--bds-color-marketing-lfp-yellow);
+  border-color: var(--bds-color-marketing-lfp-yellow);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--lfp-yellow+ .arrow {
+  background-color: var(--bds-color-marketing-lfp-yellow);
+  border-color: var(--bds-color-marketing-lfp-yellow);
+}
+
+.c0 .badge-label.variant--filled.color--neutral {
+  background-color: var(--bds-color-neutral-02);
+  border-color: var(--bds-color-neutral-02);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--neutral+ .arrow {
+  background-color: var(--bds-color-neutral-02);
+  border-color: var(--bds-color-neutral-02);
+}
+
+.c0 .badge-label.variant--outlined.variant--outlined.shape--dot {
+  visibility: hidden;
+}
+
+.c0 .badge-label.variant--outlined.color--dark-blue {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-dark-blue);
+  color: var(--bds-color-marketing-dark-blue);
+}
+
+.c0 .badge-label.variant--outlined.color--blue {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--light-blue {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-light-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--interactive {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-interactive);
+  color: var(--bds-color-text-interactive);
+}
+
+.c0 .badge-label.variant--outlined.color--green {
+  background-color: transparent;
+  border-color: var(--bds-color-action-green);
+  color: var(--bds-color-text-green);
+}
+
+.c0 .badge-label.variant--outlined.color--red {
+  background-color: transparent;
+  border-color: var(--bds-color-action-red);
+  color: var(--bds-color-text-red);
+}
+
+.c0 .badge-label.variant--outlined.color--gold {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-gold);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--lfp-yellow {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-lfp-yellow);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--neutral {
+  background-color: transparent;
+  border-color: var(--bds-color-neutral-02);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.arrow--right+.arrow {
+  margin-left: -0.75rem;
+}
+
+.c0 .badge-label.arrow--right+.arrow.size--jumbo {
+  margin-left: -1.1rem;
+}
+
+.c0 .bold {
+  font-weight: 500;
+}
+
+<span
+    class="c0 badge"
+  >
+    <span
+      class="badge-label variant--filled size--medium color--dark-blue arrow--none"
+    >
+      Placeholder
+    </span>
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Badge Snapshots extra props Badge className snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 .arrow {
+  box-sizing: border-box;
+  height: 1.125rem;
+  width: 1.125rem;
+  border-width: 0.0625rem;
+  border-style: solid;
+  -webkit-transform: rotateY(0deg) rotate(45deg);
+  -ms-transform: rotateY(0deg) rotate(45deg);
+  transform: rotateY(0deg) rotate(45deg);
+  border-radius: var(--bds-border-radius-md);
+}
+
+.c0 .badge-label {
+  position: relative;
+  box-sizing: border-box;
+  padding: 0 var(--bds-sizes-size-8);
+  border: var(--bds-sizes-size-1) solid;
+  border-radius: var(--bds-border-radius-md);
+  height: var(--bds-sizes-size-24);
+  vertical-align: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: var(--bds-sizes-size-24);
+  z-index: 1;
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-14);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c0 .badge-label.arrow--left {
+  margin-left: -0.75rem;
+}
+
+.c0 .badge-label.arrow--left.size--jumbo {
+  margin-left: -1.1rem;
+}
+
+.c0 .badge-label.size--jumbo {
+  font-size: var(--bds-sizes-size-20);
+  line-height: var(--bds-sizes-size-32);
+  padding: var(--bds-sizes-size-4) var(--bds-sizes-size-8);
+  height: var(--bds-sizes-size-40);
+}
+
+.c0 .badge-label.size--jumbo+ .arrow {
+  height: 1.875rem;
+  width: 1.875rem;
+}
+
+.c0 .badge-label.variant--filled.color--dark-blue {
+  background-color: var(--bds-color-marketing-dark-blue);
+  border-color: var(--bds-color-marketing-dark-blue);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--dark-blue+ .arrow {
+  background-color: var(--bds-color-marketing-dark-blue);
+  border-color: var(--bds-color-marketing-dark-blue);
+}
+
+.c0 .badge-label.variant--filled.color--blue {
+  background-color: var(--bds-color-marketing-blue);
+  border-color: var(--bds-color-marketing-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--blue+ .arrow {
+  background-color: var(--bds-color-marketing-blue);
+  border-color: var(--bds-color-marketing-blue);
+}
+
+.c0 .badge-label.variant--filled.color--light-blue {
+  background-color: var(--bds-color-marketing-light-blue);
+  border-color: var(--bds-color-marketing-light-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--light-blue+ .arrow {
+  background-color: var(--bds-color-marketing-light-blue);
+  border-color: var(--bds-color-marketing-light-blue);
+}
+
+.c0 .badge-label.variant--filled.color--interactive {
+  background-color: var(--bds-color-marketing-interactive);
+  border-color: var(--bds-color-marketing-interactive);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--interactive+ .arrow {
+  background-color: var(--bds-color-marketing-interactive);
+  border-color: var(--bds-color-marketing-interactive);
+}
+
+.c0 .badge-label.variant--filled.color--green {
+  background-color: var(--bds-color-action-green);
+  border-color: var(--bds-color-action-green);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--green+ .arrow {
+  background-color: var(--bds-color-action-green);
+  border-color: var(--bds-color-action-green);
+}
+
+.c0 .badge-label.variant--filled.color--red {
+  background-color: var(--bds-color-action-red);
+  border-color: var(--bds-color-action-red);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--red+ .arrow {
+  background-color: var(--bds-color-action-red);
+  border-color: var(--bds-color-action-red);
+}
+
+.c0 .badge-label.variant--filled.color--gold {
+  background-color: var(--bds-color-marketing-gold);
+  border-color: var(--bds-color-marketing-gold);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--gold+ .arrow {
+  background-color: var(--bds-color-marketing-gold);
+  border-color: var(--bds-color-marketing-gold);
+}
+
+.c0 .badge-label.variant--filled.color--lfp-yellow {
+  background-color: var(--bds-color-marketing-lfp-yellow);
+  border-color: var(--bds-color-marketing-lfp-yellow);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--lfp-yellow+ .arrow {
+  background-color: var(--bds-color-marketing-lfp-yellow);
+  border-color: var(--bds-color-marketing-lfp-yellow);
+}
+
+.c0 .badge-label.variant--filled.color--neutral {
+  background-color: var(--bds-color-neutral-02);
+  border-color: var(--bds-color-neutral-02);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--neutral+ .arrow {
+  background-color: var(--bds-color-neutral-02);
+  border-color: var(--bds-color-neutral-02);
+}
+
+.c0 .badge-label.variant--outlined.variant--outlined.shape--dot {
+  visibility: hidden;
+}
+
+.c0 .badge-label.variant--outlined.color--dark-blue {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-dark-blue);
+  color: var(--bds-color-marketing-dark-blue);
+}
+
+.c0 .badge-label.variant--outlined.color--blue {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--light-blue {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-light-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--interactive {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-interactive);
+  color: var(--bds-color-text-interactive);
+}
+
+.c0 .badge-label.variant--outlined.color--green {
+  background-color: transparent;
+  border-color: var(--bds-color-action-green);
+  color: var(--bds-color-text-green);
+}
+
+.c0 .badge-label.variant--outlined.color--red {
+  background-color: transparent;
+  border-color: var(--bds-color-action-red);
+  color: var(--bds-color-text-red);
+}
+
+.c0 .badge-label.variant--outlined.color--gold {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-gold);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--lfp-yellow {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-lfp-yellow);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--neutral {
+  background-color: transparent;
+  border-color: var(--bds-color-neutral-02);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.arrow--right+.arrow {
+  margin-left: -0.75rem;
+}
+
+.c0 .badge-label.arrow--right+.arrow.size--jumbo {
+  margin-left: -1.1rem;
+}
+
+.c0 .bold {
+  font-weight: 500;
+}
+
+<span
+    class="c0 badge test-class"
+  >
+    <span
+      class="badge-label variant--filled size--medium color--dark-blue arrow--none"
+    >
+      Placeholder
+    </span>
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Badge Snapshots prop: color Badge blue color snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 .arrow {
+  box-sizing: border-box;
+  height: 1.125rem;
+  width: 1.125rem;
+  border-width: 0.0625rem;
+  border-style: solid;
+  -webkit-transform: rotateY(0deg) rotate(45deg);
+  -ms-transform: rotateY(0deg) rotate(45deg);
+  transform: rotateY(0deg) rotate(45deg);
+  border-radius: var(--bds-border-radius-md);
+}
+
+.c0 .badge-label {
+  position: relative;
+  box-sizing: border-box;
+  padding: 0 var(--bds-sizes-size-8);
+  border: var(--bds-sizes-size-1) solid;
+  border-radius: var(--bds-border-radius-md);
+  height: var(--bds-sizes-size-24);
+  vertical-align: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: var(--bds-sizes-size-24);
+  z-index: 1;
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-14);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c0 .badge-label.arrow--left {
+  margin-left: -0.75rem;
+}
+
+.c0 .badge-label.arrow--left.size--jumbo {
+  margin-left: -1.1rem;
+}
+
+.c0 .badge-label.size--jumbo {
+  font-size: var(--bds-sizes-size-20);
+  line-height: var(--bds-sizes-size-32);
+  padding: var(--bds-sizes-size-4) var(--bds-sizes-size-8);
+  height: var(--bds-sizes-size-40);
+}
+
+.c0 .badge-label.size--jumbo+ .arrow {
+  height: 1.875rem;
+  width: 1.875rem;
+}
+
+.c0 .badge-label.variant--filled.color--dark-blue {
+  background-color: var(--bds-color-marketing-dark-blue);
+  border-color: var(--bds-color-marketing-dark-blue);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--dark-blue+ .arrow {
+  background-color: var(--bds-color-marketing-dark-blue);
+  border-color: var(--bds-color-marketing-dark-blue);
+}
+
+.c0 .badge-label.variant--filled.color--blue {
+  background-color: var(--bds-color-marketing-blue);
+  border-color: var(--bds-color-marketing-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--blue+ .arrow {
+  background-color: var(--bds-color-marketing-blue);
+  border-color: var(--bds-color-marketing-blue);
+}
+
+.c0 .badge-label.variant--filled.color--light-blue {
+  background-color: var(--bds-color-marketing-light-blue);
+  border-color: var(--bds-color-marketing-light-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--light-blue+ .arrow {
+  background-color: var(--bds-color-marketing-light-blue);
+  border-color: var(--bds-color-marketing-light-blue);
+}
+
+.c0 .badge-label.variant--filled.color--interactive {
+  background-color: var(--bds-color-marketing-interactive);
+  border-color: var(--bds-color-marketing-interactive);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--interactive+ .arrow {
+  background-color: var(--bds-color-marketing-interactive);
+  border-color: var(--bds-color-marketing-interactive);
+}
+
+.c0 .badge-label.variant--filled.color--green {
+  background-color: var(--bds-color-action-green);
+  border-color: var(--bds-color-action-green);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--green+ .arrow {
+  background-color: var(--bds-color-action-green);
+  border-color: var(--bds-color-action-green);
+}
+
+.c0 .badge-label.variant--filled.color--red {
+  background-color: var(--bds-color-action-red);
+  border-color: var(--bds-color-action-red);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--red+ .arrow {
+  background-color: var(--bds-color-action-red);
+  border-color: var(--bds-color-action-red);
+}
+
+.c0 .badge-label.variant--filled.color--gold {
+  background-color: var(--bds-color-marketing-gold);
+  border-color: var(--bds-color-marketing-gold);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--gold+ .arrow {
+  background-color: var(--bds-color-marketing-gold);
+  border-color: var(--bds-color-marketing-gold);
+}
+
+.c0 .badge-label.variant--filled.color--lfp-yellow {
+  background-color: var(--bds-color-marketing-lfp-yellow);
+  border-color: var(--bds-color-marketing-lfp-yellow);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--lfp-yellow+ .arrow {
+  background-color: var(--bds-color-marketing-lfp-yellow);
+  border-color: var(--bds-color-marketing-lfp-yellow);
+}
+
+.c0 .badge-label.variant--filled.color--neutral {
+  background-color: var(--bds-color-neutral-02);
+  border-color: var(--bds-color-neutral-02);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--neutral+ .arrow {
+  background-color: var(--bds-color-neutral-02);
+  border-color: var(--bds-color-neutral-02);
+}
+
+.c0 .badge-label.variant--outlined.variant--outlined.shape--dot {
+  visibility: hidden;
+}
+
+.c0 .badge-label.variant--outlined.color--dark-blue {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-dark-blue);
+  color: var(--bds-color-marketing-dark-blue);
+}
+
+.c0 .badge-label.variant--outlined.color--blue {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--light-blue {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-light-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--interactive {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-interactive);
+  color: var(--bds-color-text-interactive);
+}
+
+.c0 .badge-label.variant--outlined.color--green {
+  background-color: transparent;
+  border-color: var(--bds-color-action-green);
+  color: var(--bds-color-text-green);
+}
+
+.c0 .badge-label.variant--outlined.color--red {
+  background-color: transparent;
+  border-color: var(--bds-color-action-red);
+  color: var(--bds-color-text-red);
+}
+
+.c0 .badge-label.variant--outlined.color--gold {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-gold);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--lfp-yellow {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-lfp-yellow);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--neutral {
+  background-color: transparent;
+  border-color: var(--bds-color-neutral-02);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.arrow--right+.arrow {
+  margin-left: -0.75rem;
+}
+
+.c0 .badge-label.arrow--right+.arrow.size--jumbo {
+  margin-left: -1.1rem;
+}
+
+.c0 .bold {
+  font-weight: 500;
+}
+
+<span
+    class="c0 badge"
+  >
+    <span
+      class="badge-label variant--filled size--medium color--blue arrow--none"
+    >
+      Placeholder
+    </span>
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Badge Snapshots prop: color Badge dark-blue color snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 .arrow {
+  box-sizing: border-box;
+  height: 1.125rem;
+  width: 1.125rem;
+  border-width: 0.0625rem;
+  border-style: solid;
+  -webkit-transform: rotateY(0deg) rotate(45deg);
+  -ms-transform: rotateY(0deg) rotate(45deg);
+  transform: rotateY(0deg) rotate(45deg);
+  border-radius: var(--bds-border-radius-md);
+}
+
+.c0 .badge-label {
+  position: relative;
+  box-sizing: border-box;
+  padding: 0 var(--bds-sizes-size-8);
+  border: var(--bds-sizes-size-1) solid;
+  border-radius: var(--bds-border-radius-md);
+  height: var(--bds-sizes-size-24);
+  vertical-align: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: var(--bds-sizes-size-24);
+  z-index: 1;
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-14);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c0 .badge-label.arrow--left {
+  margin-left: -0.75rem;
+}
+
+.c0 .badge-label.arrow--left.size--jumbo {
+  margin-left: -1.1rem;
+}
+
+.c0 .badge-label.size--jumbo {
+  font-size: var(--bds-sizes-size-20);
+  line-height: var(--bds-sizes-size-32);
+  padding: var(--bds-sizes-size-4) var(--bds-sizes-size-8);
+  height: var(--bds-sizes-size-40);
+}
+
+.c0 .badge-label.size--jumbo+ .arrow {
+  height: 1.875rem;
+  width: 1.875rem;
+}
+
+.c0 .badge-label.variant--filled.color--dark-blue {
+  background-color: var(--bds-color-marketing-dark-blue);
+  border-color: var(--bds-color-marketing-dark-blue);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--dark-blue+ .arrow {
+  background-color: var(--bds-color-marketing-dark-blue);
+  border-color: var(--bds-color-marketing-dark-blue);
+}
+
+.c0 .badge-label.variant--filled.color--blue {
+  background-color: var(--bds-color-marketing-blue);
+  border-color: var(--bds-color-marketing-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--blue+ .arrow {
+  background-color: var(--bds-color-marketing-blue);
+  border-color: var(--bds-color-marketing-blue);
+}
+
+.c0 .badge-label.variant--filled.color--light-blue {
+  background-color: var(--bds-color-marketing-light-blue);
+  border-color: var(--bds-color-marketing-light-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--light-blue+ .arrow {
+  background-color: var(--bds-color-marketing-light-blue);
+  border-color: var(--bds-color-marketing-light-blue);
+}
+
+.c0 .badge-label.variant--filled.color--interactive {
+  background-color: var(--bds-color-marketing-interactive);
+  border-color: var(--bds-color-marketing-interactive);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--interactive+ .arrow {
+  background-color: var(--bds-color-marketing-interactive);
+  border-color: var(--bds-color-marketing-interactive);
+}
+
+.c0 .badge-label.variant--filled.color--green {
+  background-color: var(--bds-color-action-green);
+  border-color: var(--bds-color-action-green);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--green+ .arrow {
+  background-color: var(--bds-color-action-green);
+  border-color: var(--bds-color-action-green);
+}
+
+.c0 .badge-label.variant--filled.color--red {
+  background-color: var(--bds-color-action-red);
+  border-color: var(--bds-color-action-red);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--red+ .arrow {
+  background-color: var(--bds-color-action-red);
+  border-color: var(--bds-color-action-red);
+}
+
+.c0 .badge-label.variant--filled.color--gold {
+  background-color: var(--bds-color-marketing-gold);
+  border-color: var(--bds-color-marketing-gold);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--gold+ .arrow {
+  background-color: var(--bds-color-marketing-gold);
+  border-color: var(--bds-color-marketing-gold);
+}
+
+.c0 .badge-label.variant--filled.color--lfp-yellow {
+  background-color: var(--bds-color-marketing-lfp-yellow);
+  border-color: var(--bds-color-marketing-lfp-yellow);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--lfp-yellow+ .arrow {
+  background-color: var(--bds-color-marketing-lfp-yellow);
+  border-color: var(--bds-color-marketing-lfp-yellow);
+}
+
+.c0 .badge-label.variant--filled.color--neutral {
+  background-color: var(--bds-color-neutral-02);
+  border-color: var(--bds-color-neutral-02);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--neutral+ .arrow {
+  background-color: var(--bds-color-neutral-02);
+  border-color: var(--bds-color-neutral-02);
+}
+
+.c0 .badge-label.variant--outlined.variant--outlined.shape--dot {
+  visibility: hidden;
+}
+
+.c0 .badge-label.variant--outlined.color--dark-blue {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-dark-blue);
+  color: var(--bds-color-marketing-dark-blue);
+}
+
+.c0 .badge-label.variant--outlined.color--blue {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--light-blue {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-light-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--interactive {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-interactive);
+  color: var(--bds-color-text-interactive);
+}
+
+.c0 .badge-label.variant--outlined.color--green {
+  background-color: transparent;
+  border-color: var(--bds-color-action-green);
+  color: var(--bds-color-text-green);
+}
+
+.c0 .badge-label.variant--outlined.color--red {
+  background-color: transparent;
+  border-color: var(--bds-color-action-red);
+  color: var(--bds-color-text-red);
+}
+
+.c0 .badge-label.variant--outlined.color--gold {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-gold);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--lfp-yellow {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-lfp-yellow);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--neutral {
+  background-color: transparent;
+  border-color: var(--bds-color-neutral-02);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.arrow--right+.arrow {
+  margin-left: -0.75rem;
+}
+
+.c0 .badge-label.arrow--right+.arrow.size--jumbo {
+  margin-left: -1.1rem;
+}
+
+.c0 .bold {
+  font-weight: 500;
+}
+
+<span
+    class="c0 badge"
+  >
+    <span
+      class="badge-label variant--filled size--medium color--dark-blue arrow--none"
+    >
+      Placeholder
+    </span>
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Badge Snapshots prop: color Badge gold color snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 .arrow {
+  box-sizing: border-box;
+  height: 1.125rem;
+  width: 1.125rem;
+  border-width: 0.0625rem;
+  border-style: solid;
+  -webkit-transform: rotateY(0deg) rotate(45deg);
+  -ms-transform: rotateY(0deg) rotate(45deg);
+  transform: rotateY(0deg) rotate(45deg);
+  border-radius: var(--bds-border-radius-md);
+}
+
+.c0 .badge-label {
+  position: relative;
+  box-sizing: border-box;
+  padding: 0 var(--bds-sizes-size-8);
+  border: var(--bds-sizes-size-1) solid;
+  border-radius: var(--bds-border-radius-md);
+  height: var(--bds-sizes-size-24);
+  vertical-align: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: var(--bds-sizes-size-24);
+  z-index: 1;
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-14);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c0 .badge-label.arrow--left {
+  margin-left: -0.75rem;
+}
+
+.c0 .badge-label.arrow--left.size--jumbo {
+  margin-left: -1.1rem;
+}
+
+.c0 .badge-label.size--jumbo {
+  font-size: var(--bds-sizes-size-20);
+  line-height: var(--bds-sizes-size-32);
+  padding: var(--bds-sizes-size-4) var(--bds-sizes-size-8);
+  height: var(--bds-sizes-size-40);
+}
+
+.c0 .badge-label.size--jumbo+ .arrow {
+  height: 1.875rem;
+  width: 1.875rem;
+}
+
+.c0 .badge-label.variant--filled.color--dark-blue {
+  background-color: var(--bds-color-marketing-dark-blue);
+  border-color: var(--bds-color-marketing-dark-blue);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--dark-blue+ .arrow {
+  background-color: var(--bds-color-marketing-dark-blue);
+  border-color: var(--bds-color-marketing-dark-blue);
+}
+
+.c0 .badge-label.variant--filled.color--blue {
+  background-color: var(--bds-color-marketing-blue);
+  border-color: var(--bds-color-marketing-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--blue+ .arrow {
+  background-color: var(--bds-color-marketing-blue);
+  border-color: var(--bds-color-marketing-blue);
+}
+
+.c0 .badge-label.variant--filled.color--light-blue {
+  background-color: var(--bds-color-marketing-light-blue);
+  border-color: var(--bds-color-marketing-light-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--light-blue+ .arrow {
+  background-color: var(--bds-color-marketing-light-blue);
+  border-color: var(--bds-color-marketing-light-blue);
+}
+
+.c0 .badge-label.variant--filled.color--interactive {
+  background-color: var(--bds-color-marketing-interactive);
+  border-color: var(--bds-color-marketing-interactive);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--interactive+ .arrow {
+  background-color: var(--bds-color-marketing-interactive);
+  border-color: var(--bds-color-marketing-interactive);
+}
+
+.c0 .badge-label.variant--filled.color--green {
+  background-color: var(--bds-color-action-green);
+  border-color: var(--bds-color-action-green);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--green+ .arrow {
+  background-color: var(--bds-color-action-green);
+  border-color: var(--bds-color-action-green);
+}
+
+.c0 .badge-label.variant--filled.color--red {
+  background-color: var(--bds-color-action-red);
+  border-color: var(--bds-color-action-red);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--red+ .arrow {
+  background-color: var(--bds-color-action-red);
+  border-color: var(--bds-color-action-red);
+}
+
+.c0 .badge-label.variant--filled.color--gold {
+  background-color: var(--bds-color-marketing-gold);
+  border-color: var(--bds-color-marketing-gold);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--gold+ .arrow {
+  background-color: var(--bds-color-marketing-gold);
+  border-color: var(--bds-color-marketing-gold);
+}
+
+.c0 .badge-label.variant--filled.color--lfp-yellow {
+  background-color: var(--bds-color-marketing-lfp-yellow);
+  border-color: var(--bds-color-marketing-lfp-yellow);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--lfp-yellow+ .arrow {
+  background-color: var(--bds-color-marketing-lfp-yellow);
+  border-color: var(--bds-color-marketing-lfp-yellow);
+}
+
+.c0 .badge-label.variant--filled.color--neutral {
+  background-color: var(--bds-color-neutral-02);
+  border-color: var(--bds-color-neutral-02);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--neutral+ .arrow {
+  background-color: var(--bds-color-neutral-02);
+  border-color: var(--bds-color-neutral-02);
+}
+
+.c0 .badge-label.variant--outlined.variant--outlined.shape--dot {
+  visibility: hidden;
+}
+
+.c0 .badge-label.variant--outlined.color--dark-blue {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-dark-blue);
+  color: var(--bds-color-marketing-dark-blue);
+}
+
+.c0 .badge-label.variant--outlined.color--blue {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--light-blue {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-light-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--interactive {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-interactive);
+  color: var(--bds-color-text-interactive);
+}
+
+.c0 .badge-label.variant--outlined.color--green {
+  background-color: transparent;
+  border-color: var(--bds-color-action-green);
+  color: var(--bds-color-text-green);
+}
+
+.c0 .badge-label.variant--outlined.color--red {
+  background-color: transparent;
+  border-color: var(--bds-color-action-red);
+  color: var(--bds-color-text-red);
+}
+
+.c0 .badge-label.variant--outlined.color--gold {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-gold);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--lfp-yellow {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-lfp-yellow);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--neutral {
+  background-color: transparent;
+  border-color: var(--bds-color-neutral-02);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.arrow--right+.arrow {
+  margin-left: -0.75rem;
+}
+
+.c0 .badge-label.arrow--right+.arrow.size--jumbo {
+  margin-left: -1.1rem;
+}
+
+.c0 .bold {
+  font-weight: 500;
+}
+
+<span
+    class="c0 badge"
+  >
+    <span
+      class="badge-label variant--filled size--medium color--gold arrow--none"
+    >
+      Placeholder
+    </span>
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Badge Snapshots prop: color Badge green color snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 .arrow {
+  box-sizing: border-box;
+  height: 1.125rem;
+  width: 1.125rem;
+  border-width: 0.0625rem;
+  border-style: solid;
+  -webkit-transform: rotateY(0deg) rotate(45deg);
+  -ms-transform: rotateY(0deg) rotate(45deg);
+  transform: rotateY(0deg) rotate(45deg);
+  border-radius: var(--bds-border-radius-md);
+}
+
+.c0 .badge-label {
+  position: relative;
+  box-sizing: border-box;
+  padding: 0 var(--bds-sizes-size-8);
+  border: var(--bds-sizes-size-1) solid;
+  border-radius: var(--bds-border-radius-md);
+  height: var(--bds-sizes-size-24);
+  vertical-align: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: var(--bds-sizes-size-24);
+  z-index: 1;
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-14);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c0 .badge-label.arrow--left {
+  margin-left: -0.75rem;
+}
+
+.c0 .badge-label.arrow--left.size--jumbo {
+  margin-left: -1.1rem;
+}
+
+.c0 .badge-label.size--jumbo {
+  font-size: var(--bds-sizes-size-20);
+  line-height: var(--bds-sizes-size-32);
+  padding: var(--bds-sizes-size-4) var(--bds-sizes-size-8);
+  height: var(--bds-sizes-size-40);
+}
+
+.c0 .badge-label.size--jumbo+ .arrow {
+  height: 1.875rem;
+  width: 1.875rem;
+}
+
+.c0 .badge-label.variant--filled.color--dark-blue {
+  background-color: var(--bds-color-marketing-dark-blue);
+  border-color: var(--bds-color-marketing-dark-blue);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--dark-blue+ .arrow {
+  background-color: var(--bds-color-marketing-dark-blue);
+  border-color: var(--bds-color-marketing-dark-blue);
+}
+
+.c0 .badge-label.variant--filled.color--blue {
+  background-color: var(--bds-color-marketing-blue);
+  border-color: var(--bds-color-marketing-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--blue+ .arrow {
+  background-color: var(--bds-color-marketing-blue);
+  border-color: var(--bds-color-marketing-blue);
+}
+
+.c0 .badge-label.variant--filled.color--light-blue {
+  background-color: var(--bds-color-marketing-light-blue);
+  border-color: var(--bds-color-marketing-light-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--light-blue+ .arrow {
+  background-color: var(--bds-color-marketing-light-blue);
+  border-color: var(--bds-color-marketing-light-blue);
+}
+
+.c0 .badge-label.variant--filled.color--interactive {
+  background-color: var(--bds-color-marketing-interactive);
+  border-color: var(--bds-color-marketing-interactive);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--interactive+ .arrow {
+  background-color: var(--bds-color-marketing-interactive);
+  border-color: var(--bds-color-marketing-interactive);
+}
+
+.c0 .badge-label.variant--filled.color--green {
+  background-color: var(--bds-color-action-green);
+  border-color: var(--bds-color-action-green);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--green+ .arrow {
+  background-color: var(--bds-color-action-green);
+  border-color: var(--bds-color-action-green);
+}
+
+.c0 .badge-label.variant--filled.color--red {
+  background-color: var(--bds-color-action-red);
+  border-color: var(--bds-color-action-red);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--red+ .arrow {
+  background-color: var(--bds-color-action-red);
+  border-color: var(--bds-color-action-red);
+}
+
+.c0 .badge-label.variant--filled.color--gold {
+  background-color: var(--bds-color-marketing-gold);
+  border-color: var(--bds-color-marketing-gold);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--gold+ .arrow {
+  background-color: var(--bds-color-marketing-gold);
+  border-color: var(--bds-color-marketing-gold);
+}
+
+.c0 .badge-label.variant--filled.color--lfp-yellow {
+  background-color: var(--bds-color-marketing-lfp-yellow);
+  border-color: var(--bds-color-marketing-lfp-yellow);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--lfp-yellow+ .arrow {
+  background-color: var(--bds-color-marketing-lfp-yellow);
+  border-color: var(--bds-color-marketing-lfp-yellow);
+}
+
+.c0 .badge-label.variant--filled.color--neutral {
+  background-color: var(--bds-color-neutral-02);
+  border-color: var(--bds-color-neutral-02);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--neutral+ .arrow {
+  background-color: var(--bds-color-neutral-02);
+  border-color: var(--bds-color-neutral-02);
+}
+
+.c0 .badge-label.variant--outlined.variant--outlined.shape--dot {
+  visibility: hidden;
+}
+
+.c0 .badge-label.variant--outlined.color--dark-blue {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-dark-blue);
+  color: var(--bds-color-marketing-dark-blue);
+}
+
+.c0 .badge-label.variant--outlined.color--blue {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--light-blue {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-light-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--interactive {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-interactive);
+  color: var(--bds-color-text-interactive);
+}
+
+.c0 .badge-label.variant--outlined.color--green {
+  background-color: transparent;
+  border-color: var(--bds-color-action-green);
+  color: var(--bds-color-text-green);
+}
+
+.c0 .badge-label.variant--outlined.color--red {
+  background-color: transparent;
+  border-color: var(--bds-color-action-red);
+  color: var(--bds-color-text-red);
+}
+
+.c0 .badge-label.variant--outlined.color--gold {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-gold);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--lfp-yellow {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-lfp-yellow);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--neutral {
+  background-color: transparent;
+  border-color: var(--bds-color-neutral-02);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.arrow--right+.arrow {
+  margin-left: -0.75rem;
+}
+
+.c0 .badge-label.arrow--right+.arrow.size--jumbo {
+  margin-left: -1.1rem;
+}
+
+.c0 .bold {
+  font-weight: 500;
+}
+
+<span
+    class="c0 badge"
+  >
+    <span
+      class="badge-label variant--filled size--medium color--green arrow--none"
+    >
+      Placeholder
+    </span>
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Badge Snapshots prop: color Badge interactive color snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 .arrow {
+  box-sizing: border-box;
+  height: 1.125rem;
+  width: 1.125rem;
+  border-width: 0.0625rem;
+  border-style: solid;
+  -webkit-transform: rotateY(0deg) rotate(45deg);
+  -ms-transform: rotateY(0deg) rotate(45deg);
+  transform: rotateY(0deg) rotate(45deg);
+  border-radius: var(--bds-border-radius-md);
+}
+
+.c0 .badge-label {
+  position: relative;
+  box-sizing: border-box;
+  padding: 0 var(--bds-sizes-size-8);
+  border: var(--bds-sizes-size-1) solid;
+  border-radius: var(--bds-border-radius-md);
+  height: var(--bds-sizes-size-24);
+  vertical-align: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: var(--bds-sizes-size-24);
+  z-index: 1;
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-14);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c0 .badge-label.arrow--left {
+  margin-left: -0.75rem;
+}
+
+.c0 .badge-label.arrow--left.size--jumbo {
+  margin-left: -1.1rem;
+}
+
+.c0 .badge-label.size--jumbo {
+  font-size: var(--bds-sizes-size-20);
+  line-height: var(--bds-sizes-size-32);
+  padding: var(--bds-sizes-size-4) var(--bds-sizes-size-8);
+  height: var(--bds-sizes-size-40);
+}
+
+.c0 .badge-label.size--jumbo+ .arrow {
+  height: 1.875rem;
+  width: 1.875rem;
+}
+
+.c0 .badge-label.variant--filled.color--dark-blue {
+  background-color: var(--bds-color-marketing-dark-blue);
+  border-color: var(--bds-color-marketing-dark-blue);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--dark-blue+ .arrow {
+  background-color: var(--bds-color-marketing-dark-blue);
+  border-color: var(--bds-color-marketing-dark-blue);
+}
+
+.c0 .badge-label.variant--filled.color--blue {
+  background-color: var(--bds-color-marketing-blue);
+  border-color: var(--bds-color-marketing-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--blue+ .arrow {
+  background-color: var(--bds-color-marketing-blue);
+  border-color: var(--bds-color-marketing-blue);
+}
+
+.c0 .badge-label.variant--filled.color--light-blue {
+  background-color: var(--bds-color-marketing-light-blue);
+  border-color: var(--bds-color-marketing-light-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--light-blue+ .arrow {
+  background-color: var(--bds-color-marketing-light-blue);
+  border-color: var(--bds-color-marketing-light-blue);
+}
+
+.c0 .badge-label.variant--filled.color--interactive {
+  background-color: var(--bds-color-marketing-interactive);
+  border-color: var(--bds-color-marketing-interactive);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--interactive+ .arrow {
+  background-color: var(--bds-color-marketing-interactive);
+  border-color: var(--bds-color-marketing-interactive);
+}
+
+.c0 .badge-label.variant--filled.color--green {
+  background-color: var(--bds-color-action-green);
+  border-color: var(--bds-color-action-green);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--green+ .arrow {
+  background-color: var(--bds-color-action-green);
+  border-color: var(--bds-color-action-green);
+}
+
+.c0 .badge-label.variant--filled.color--red {
+  background-color: var(--bds-color-action-red);
+  border-color: var(--bds-color-action-red);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--red+ .arrow {
+  background-color: var(--bds-color-action-red);
+  border-color: var(--bds-color-action-red);
+}
+
+.c0 .badge-label.variant--filled.color--gold {
+  background-color: var(--bds-color-marketing-gold);
+  border-color: var(--bds-color-marketing-gold);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--gold+ .arrow {
+  background-color: var(--bds-color-marketing-gold);
+  border-color: var(--bds-color-marketing-gold);
+}
+
+.c0 .badge-label.variant--filled.color--lfp-yellow {
+  background-color: var(--bds-color-marketing-lfp-yellow);
+  border-color: var(--bds-color-marketing-lfp-yellow);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--lfp-yellow+ .arrow {
+  background-color: var(--bds-color-marketing-lfp-yellow);
+  border-color: var(--bds-color-marketing-lfp-yellow);
+}
+
+.c0 .badge-label.variant--filled.color--neutral {
+  background-color: var(--bds-color-neutral-02);
+  border-color: var(--bds-color-neutral-02);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--neutral+ .arrow {
+  background-color: var(--bds-color-neutral-02);
+  border-color: var(--bds-color-neutral-02);
+}
+
+.c0 .badge-label.variant--outlined.variant--outlined.shape--dot {
+  visibility: hidden;
+}
+
+.c0 .badge-label.variant--outlined.color--dark-blue {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-dark-blue);
+  color: var(--bds-color-marketing-dark-blue);
+}
+
+.c0 .badge-label.variant--outlined.color--blue {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--light-blue {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-light-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--interactive {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-interactive);
+  color: var(--bds-color-text-interactive);
+}
+
+.c0 .badge-label.variant--outlined.color--green {
+  background-color: transparent;
+  border-color: var(--bds-color-action-green);
+  color: var(--bds-color-text-green);
+}
+
+.c0 .badge-label.variant--outlined.color--red {
+  background-color: transparent;
+  border-color: var(--bds-color-action-red);
+  color: var(--bds-color-text-red);
+}
+
+.c0 .badge-label.variant--outlined.color--gold {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-gold);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--lfp-yellow {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-lfp-yellow);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--neutral {
+  background-color: transparent;
+  border-color: var(--bds-color-neutral-02);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.arrow--right+.arrow {
+  margin-left: -0.75rem;
+}
+
+.c0 .badge-label.arrow--right+.arrow.size--jumbo {
+  margin-left: -1.1rem;
+}
+
+.c0 .bold {
+  font-weight: 500;
+}
+
+<span
+    class="c0 badge"
+  >
+    <span
+      class="badge-label variant--filled size--medium color--interactive arrow--none"
+    >
+      Placeholder
+    </span>
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Badge Snapshots prop: color Badge lfp-yellow color snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 .arrow {
+  box-sizing: border-box;
+  height: 1.125rem;
+  width: 1.125rem;
+  border-width: 0.0625rem;
+  border-style: solid;
+  -webkit-transform: rotateY(0deg) rotate(45deg);
+  -ms-transform: rotateY(0deg) rotate(45deg);
+  transform: rotateY(0deg) rotate(45deg);
+  border-radius: var(--bds-border-radius-md);
+}
+
+.c0 .badge-label {
+  position: relative;
+  box-sizing: border-box;
+  padding: 0 var(--bds-sizes-size-8);
+  border: var(--bds-sizes-size-1) solid;
+  border-radius: var(--bds-border-radius-md);
+  height: var(--bds-sizes-size-24);
+  vertical-align: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: var(--bds-sizes-size-24);
+  z-index: 1;
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-14);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c0 .badge-label.arrow--left {
+  margin-left: -0.75rem;
+}
+
+.c0 .badge-label.arrow--left.size--jumbo {
+  margin-left: -1.1rem;
+}
+
+.c0 .badge-label.size--jumbo {
+  font-size: var(--bds-sizes-size-20);
+  line-height: var(--bds-sizes-size-32);
+  padding: var(--bds-sizes-size-4) var(--bds-sizes-size-8);
+  height: var(--bds-sizes-size-40);
+}
+
+.c0 .badge-label.size--jumbo+ .arrow {
+  height: 1.875rem;
+  width: 1.875rem;
+}
+
+.c0 .badge-label.variant--filled.color--dark-blue {
+  background-color: var(--bds-color-marketing-dark-blue);
+  border-color: var(--bds-color-marketing-dark-blue);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--dark-blue+ .arrow {
+  background-color: var(--bds-color-marketing-dark-blue);
+  border-color: var(--bds-color-marketing-dark-blue);
+}
+
+.c0 .badge-label.variant--filled.color--blue {
+  background-color: var(--bds-color-marketing-blue);
+  border-color: var(--bds-color-marketing-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--blue+ .arrow {
+  background-color: var(--bds-color-marketing-blue);
+  border-color: var(--bds-color-marketing-blue);
+}
+
+.c0 .badge-label.variant--filled.color--light-blue {
+  background-color: var(--bds-color-marketing-light-blue);
+  border-color: var(--bds-color-marketing-light-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--light-blue+ .arrow {
+  background-color: var(--bds-color-marketing-light-blue);
+  border-color: var(--bds-color-marketing-light-blue);
+}
+
+.c0 .badge-label.variant--filled.color--interactive {
+  background-color: var(--bds-color-marketing-interactive);
+  border-color: var(--bds-color-marketing-interactive);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--interactive+ .arrow {
+  background-color: var(--bds-color-marketing-interactive);
+  border-color: var(--bds-color-marketing-interactive);
+}
+
+.c0 .badge-label.variant--filled.color--green {
+  background-color: var(--bds-color-action-green);
+  border-color: var(--bds-color-action-green);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--green+ .arrow {
+  background-color: var(--bds-color-action-green);
+  border-color: var(--bds-color-action-green);
+}
+
+.c0 .badge-label.variant--filled.color--red {
+  background-color: var(--bds-color-action-red);
+  border-color: var(--bds-color-action-red);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--red+ .arrow {
+  background-color: var(--bds-color-action-red);
+  border-color: var(--bds-color-action-red);
+}
+
+.c0 .badge-label.variant--filled.color--gold {
+  background-color: var(--bds-color-marketing-gold);
+  border-color: var(--bds-color-marketing-gold);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--gold+ .arrow {
+  background-color: var(--bds-color-marketing-gold);
+  border-color: var(--bds-color-marketing-gold);
+}
+
+.c0 .badge-label.variant--filled.color--lfp-yellow {
+  background-color: var(--bds-color-marketing-lfp-yellow);
+  border-color: var(--bds-color-marketing-lfp-yellow);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--lfp-yellow+ .arrow {
+  background-color: var(--bds-color-marketing-lfp-yellow);
+  border-color: var(--bds-color-marketing-lfp-yellow);
+}
+
+.c0 .badge-label.variant--filled.color--neutral {
+  background-color: var(--bds-color-neutral-02);
+  border-color: var(--bds-color-neutral-02);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--neutral+ .arrow {
+  background-color: var(--bds-color-neutral-02);
+  border-color: var(--bds-color-neutral-02);
+}
+
+.c0 .badge-label.variant--outlined.variant--outlined.shape--dot {
+  visibility: hidden;
+}
+
+.c0 .badge-label.variant--outlined.color--dark-blue {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-dark-blue);
+  color: var(--bds-color-marketing-dark-blue);
+}
+
+.c0 .badge-label.variant--outlined.color--blue {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--light-blue {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-light-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--interactive {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-interactive);
+  color: var(--bds-color-text-interactive);
+}
+
+.c0 .badge-label.variant--outlined.color--green {
+  background-color: transparent;
+  border-color: var(--bds-color-action-green);
+  color: var(--bds-color-text-green);
+}
+
+.c0 .badge-label.variant--outlined.color--red {
+  background-color: transparent;
+  border-color: var(--bds-color-action-red);
+  color: var(--bds-color-text-red);
+}
+
+.c0 .badge-label.variant--outlined.color--gold {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-gold);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--lfp-yellow {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-lfp-yellow);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--neutral {
+  background-color: transparent;
+  border-color: var(--bds-color-neutral-02);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.arrow--right+.arrow {
+  margin-left: -0.75rem;
+}
+
+.c0 .badge-label.arrow--right+.arrow.size--jumbo {
+  margin-left: -1.1rem;
+}
+
+.c0 .bold {
+  font-weight: 500;
+}
+
+<span
+    class="c0 badge"
+  >
+    <span
+      class="badge-label variant--filled size--medium color--lfp-yellow arrow--none"
+    >
+      Placeholder
+    </span>
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Badge Snapshots prop: color Badge light-blue color snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 .arrow {
+  box-sizing: border-box;
+  height: 1.125rem;
+  width: 1.125rem;
+  border-width: 0.0625rem;
+  border-style: solid;
+  -webkit-transform: rotateY(0deg) rotate(45deg);
+  -ms-transform: rotateY(0deg) rotate(45deg);
+  transform: rotateY(0deg) rotate(45deg);
+  border-radius: var(--bds-border-radius-md);
+}
+
+.c0 .badge-label {
+  position: relative;
+  box-sizing: border-box;
+  padding: 0 var(--bds-sizes-size-8);
+  border: var(--bds-sizes-size-1) solid;
+  border-radius: var(--bds-border-radius-md);
+  height: var(--bds-sizes-size-24);
+  vertical-align: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: var(--bds-sizes-size-24);
+  z-index: 1;
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-14);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c0 .badge-label.arrow--left {
+  margin-left: -0.75rem;
+}
+
+.c0 .badge-label.arrow--left.size--jumbo {
+  margin-left: -1.1rem;
+}
+
+.c0 .badge-label.size--jumbo {
+  font-size: var(--bds-sizes-size-20);
+  line-height: var(--bds-sizes-size-32);
+  padding: var(--bds-sizes-size-4) var(--bds-sizes-size-8);
+  height: var(--bds-sizes-size-40);
+}
+
+.c0 .badge-label.size--jumbo+ .arrow {
+  height: 1.875rem;
+  width: 1.875rem;
+}
+
+.c0 .badge-label.variant--filled.color--dark-blue {
+  background-color: var(--bds-color-marketing-dark-blue);
+  border-color: var(--bds-color-marketing-dark-blue);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--dark-blue+ .arrow {
+  background-color: var(--bds-color-marketing-dark-blue);
+  border-color: var(--bds-color-marketing-dark-blue);
+}
+
+.c0 .badge-label.variant--filled.color--blue {
+  background-color: var(--bds-color-marketing-blue);
+  border-color: var(--bds-color-marketing-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--blue+ .arrow {
+  background-color: var(--bds-color-marketing-blue);
+  border-color: var(--bds-color-marketing-blue);
+}
+
+.c0 .badge-label.variant--filled.color--light-blue {
+  background-color: var(--bds-color-marketing-light-blue);
+  border-color: var(--bds-color-marketing-light-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--light-blue+ .arrow {
+  background-color: var(--bds-color-marketing-light-blue);
+  border-color: var(--bds-color-marketing-light-blue);
+}
+
+.c0 .badge-label.variant--filled.color--interactive {
+  background-color: var(--bds-color-marketing-interactive);
+  border-color: var(--bds-color-marketing-interactive);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--interactive+ .arrow {
+  background-color: var(--bds-color-marketing-interactive);
+  border-color: var(--bds-color-marketing-interactive);
+}
+
+.c0 .badge-label.variant--filled.color--green {
+  background-color: var(--bds-color-action-green);
+  border-color: var(--bds-color-action-green);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--green+ .arrow {
+  background-color: var(--bds-color-action-green);
+  border-color: var(--bds-color-action-green);
+}
+
+.c0 .badge-label.variant--filled.color--red {
+  background-color: var(--bds-color-action-red);
+  border-color: var(--bds-color-action-red);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--red+ .arrow {
+  background-color: var(--bds-color-action-red);
+  border-color: var(--bds-color-action-red);
+}
+
+.c0 .badge-label.variant--filled.color--gold {
+  background-color: var(--bds-color-marketing-gold);
+  border-color: var(--bds-color-marketing-gold);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--gold+ .arrow {
+  background-color: var(--bds-color-marketing-gold);
+  border-color: var(--bds-color-marketing-gold);
+}
+
+.c0 .badge-label.variant--filled.color--lfp-yellow {
+  background-color: var(--bds-color-marketing-lfp-yellow);
+  border-color: var(--bds-color-marketing-lfp-yellow);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--lfp-yellow+ .arrow {
+  background-color: var(--bds-color-marketing-lfp-yellow);
+  border-color: var(--bds-color-marketing-lfp-yellow);
+}
+
+.c0 .badge-label.variant--filled.color--neutral {
+  background-color: var(--bds-color-neutral-02);
+  border-color: var(--bds-color-neutral-02);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--neutral+ .arrow {
+  background-color: var(--bds-color-neutral-02);
+  border-color: var(--bds-color-neutral-02);
+}
+
+.c0 .badge-label.variant--outlined.variant--outlined.shape--dot {
+  visibility: hidden;
+}
+
+.c0 .badge-label.variant--outlined.color--dark-blue {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-dark-blue);
+  color: var(--bds-color-marketing-dark-blue);
+}
+
+.c0 .badge-label.variant--outlined.color--blue {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--light-blue {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-light-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--interactive {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-interactive);
+  color: var(--bds-color-text-interactive);
+}
+
+.c0 .badge-label.variant--outlined.color--green {
+  background-color: transparent;
+  border-color: var(--bds-color-action-green);
+  color: var(--bds-color-text-green);
+}
+
+.c0 .badge-label.variant--outlined.color--red {
+  background-color: transparent;
+  border-color: var(--bds-color-action-red);
+  color: var(--bds-color-text-red);
+}
+
+.c0 .badge-label.variant--outlined.color--gold {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-gold);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--lfp-yellow {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-lfp-yellow);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--neutral {
+  background-color: transparent;
+  border-color: var(--bds-color-neutral-02);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.arrow--right+.arrow {
+  margin-left: -0.75rem;
+}
+
+.c0 .badge-label.arrow--right+.arrow.size--jumbo {
+  margin-left: -1.1rem;
+}
+
+.c0 .bold {
+  font-weight: 500;
+}
+
+<span
+    class="c0 badge"
+  >
+    <span
+      class="badge-label variant--filled size--medium color--light-blue arrow--none"
+    >
+      Placeholder
+    </span>
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Badge Snapshots prop: color Badge neutral color snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 .arrow {
+  box-sizing: border-box;
+  height: 1.125rem;
+  width: 1.125rem;
+  border-width: 0.0625rem;
+  border-style: solid;
+  -webkit-transform: rotateY(0deg) rotate(45deg);
+  -ms-transform: rotateY(0deg) rotate(45deg);
+  transform: rotateY(0deg) rotate(45deg);
+  border-radius: var(--bds-border-radius-md);
+}
+
+.c0 .badge-label {
+  position: relative;
+  box-sizing: border-box;
+  padding: 0 var(--bds-sizes-size-8);
+  border: var(--bds-sizes-size-1) solid;
+  border-radius: var(--bds-border-radius-md);
+  height: var(--bds-sizes-size-24);
+  vertical-align: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: var(--bds-sizes-size-24);
+  z-index: 1;
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-14);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c0 .badge-label.arrow--left {
+  margin-left: -0.75rem;
+}
+
+.c0 .badge-label.arrow--left.size--jumbo {
+  margin-left: -1.1rem;
+}
+
+.c0 .badge-label.size--jumbo {
+  font-size: var(--bds-sizes-size-20);
+  line-height: var(--bds-sizes-size-32);
+  padding: var(--bds-sizes-size-4) var(--bds-sizes-size-8);
+  height: var(--bds-sizes-size-40);
+}
+
+.c0 .badge-label.size--jumbo+ .arrow {
+  height: 1.875rem;
+  width: 1.875rem;
+}
+
+.c0 .badge-label.variant--filled.color--dark-blue {
+  background-color: var(--bds-color-marketing-dark-blue);
+  border-color: var(--bds-color-marketing-dark-blue);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--dark-blue+ .arrow {
+  background-color: var(--bds-color-marketing-dark-blue);
+  border-color: var(--bds-color-marketing-dark-blue);
+}
+
+.c0 .badge-label.variant--filled.color--blue {
+  background-color: var(--bds-color-marketing-blue);
+  border-color: var(--bds-color-marketing-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--blue+ .arrow {
+  background-color: var(--bds-color-marketing-blue);
+  border-color: var(--bds-color-marketing-blue);
+}
+
+.c0 .badge-label.variant--filled.color--light-blue {
+  background-color: var(--bds-color-marketing-light-blue);
+  border-color: var(--bds-color-marketing-light-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--light-blue+ .arrow {
+  background-color: var(--bds-color-marketing-light-blue);
+  border-color: var(--bds-color-marketing-light-blue);
+}
+
+.c0 .badge-label.variant--filled.color--interactive {
+  background-color: var(--bds-color-marketing-interactive);
+  border-color: var(--bds-color-marketing-interactive);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--interactive+ .arrow {
+  background-color: var(--bds-color-marketing-interactive);
+  border-color: var(--bds-color-marketing-interactive);
+}
+
+.c0 .badge-label.variant--filled.color--green {
+  background-color: var(--bds-color-action-green);
+  border-color: var(--bds-color-action-green);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--green+ .arrow {
+  background-color: var(--bds-color-action-green);
+  border-color: var(--bds-color-action-green);
+}
+
+.c0 .badge-label.variant--filled.color--red {
+  background-color: var(--bds-color-action-red);
+  border-color: var(--bds-color-action-red);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--red+ .arrow {
+  background-color: var(--bds-color-action-red);
+  border-color: var(--bds-color-action-red);
+}
+
+.c0 .badge-label.variant--filled.color--gold {
+  background-color: var(--bds-color-marketing-gold);
+  border-color: var(--bds-color-marketing-gold);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--gold+ .arrow {
+  background-color: var(--bds-color-marketing-gold);
+  border-color: var(--bds-color-marketing-gold);
+}
+
+.c0 .badge-label.variant--filled.color--lfp-yellow {
+  background-color: var(--bds-color-marketing-lfp-yellow);
+  border-color: var(--bds-color-marketing-lfp-yellow);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--lfp-yellow+ .arrow {
+  background-color: var(--bds-color-marketing-lfp-yellow);
+  border-color: var(--bds-color-marketing-lfp-yellow);
+}
+
+.c0 .badge-label.variant--filled.color--neutral {
+  background-color: var(--bds-color-neutral-02);
+  border-color: var(--bds-color-neutral-02);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--neutral+ .arrow {
+  background-color: var(--bds-color-neutral-02);
+  border-color: var(--bds-color-neutral-02);
+}
+
+.c0 .badge-label.variant--outlined.variant--outlined.shape--dot {
+  visibility: hidden;
+}
+
+.c0 .badge-label.variant--outlined.color--dark-blue {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-dark-blue);
+  color: var(--bds-color-marketing-dark-blue);
+}
+
+.c0 .badge-label.variant--outlined.color--blue {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--light-blue {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-light-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--interactive {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-interactive);
+  color: var(--bds-color-text-interactive);
+}
+
+.c0 .badge-label.variant--outlined.color--green {
+  background-color: transparent;
+  border-color: var(--bds-color-action-green);
+  color: var(--bds-color-text-green);
+}
+
+.c0 .badge-label.variant--outlined.color--red {
+  background-color: transparent;
+  border-color: var(--bds-color-action-red);
+  color: var(--bds-color-text-red);
+}
+
+.c0 .badge-label.variant--outlined.color--gold {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-gold);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--lfp-yellow {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-lfp-yellow);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--neutral {
+  background-color: transparent;
+  border-color: var(--bds-color-neutral-02);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.arrow--right+.arrow {
+  margin-left: -0.75rem;
+}
+
+.c0 .badge-label.arrow--right+.arrow.size--jumbo {
+  margin-left: -1.1rem;
+}
+
+.c0 .bold {
+  font-weight: 500;
+}
+
+<span
+    class="c0 badge"
+  >
+    <span
+      class="badge-label variant--filled size--medium color--neutral arrow--none"
+    >
+      Placeholder
+    </span>
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Badge Snapshots prop: color Badge red color snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 .arrow {
+  box-sizing: border-box;
+  height: 1.125rem;
+  width: 1.125rem;
+  border-width: 0.0625rem;
+  border-style: solid;
+  -webkit-transform: rotateY(0deg) rotate(45deg);
+  -ms-transform: rotateY(0deg) rotate(45deg);
+  transform: rotateY(0deg) rotate(45deg);
+  border-radius: var(--bds-border-radius-md);
+}
+
+.c0 .badge-label {
+  position: relative;
+  box-sizing: border-box;
+  padding: 0 var(--bds-sizes-size-8);
+  border: var(--bds-sizes-size-1) solid;
+  border-radius: var(--bds-border-radius-md);
+  height: var(--bds-sizes-size-24);
+  vertical-align: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: var(--bds-sizes-size-24);
+  z-index: 1;
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-14);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c0 .badge-label.arrow--left {
+  margin-left: -0.75rem;
+}
+
+.c0 .badge-label.arrow--left.size--jumbo {
+  margin-left: -1.1rem;
+}
+
+.c0 .badge-label.size--jumbo {
+  font-size: var(--bds-sizes-size-20);
+  line-height: var(--bds-sizes-size-32);
+  padding: var(--bds-sizes-size-4) var(--bds-sizes-size-8);
+  height: var(--bds-sizes-size-40);
+}
+
+.c0 .badge-label.size--jumbo+ .arrow {
+  height: 1.875rem;
+  width: 1.875rem;
+}
+
+.c0 .badge-label.variant--filled.color--dark-blue {
+  background-color: var(--bds-color-marketing-dark-blue);
+  border-color: var(--bds-color-marketing-dark-blue);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--dark-blue+ .arrow {
+  background-color: var(--bds-color-marketing-dark-blue);
+  border-color: var(--bds-color-marketing-dark-blue);
+}
+
+.c0 .badge-label.variant--filled.color--blue {
+  background-color: var(--bds-color-marketing-blue);
+  border-color: var(--bds-color-marketing-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--blue+ .arrow {
+  background-color: var(--bds-color-marketing-blue);
+  border-color: var(--bds-color-marketing-blue);
+}
+
+.c0 .badge-label.variant--filled.color--light-blue {
+  background-color: var(--bds-color-marketing-light-blue);
+  border-color: var(--bds-color-marketing-light-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--light-blue+ .arrow {
+  background-color: var(--bds-color-marketing-light-blue);
+  border-color: var(--bds-color-marketing-light-blue);
+}
+
+.c0 .badge-label.variant--filled.color--interactive {
+  background-color: var(--bds-color-marketing-interactive);
+  border-color: var(--bds-color-marketing-interactive);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--interactive+ .arrow {
+  background-color: var(--bds-color-marketing-interactive);
+  border-color: var(--bds-color-marketing-interactive);
+}
+
+.c0 .badge-label.variant--filled.color--green {
+  background-color: var(--bds-color-action-green);
+  border-color: var(--bds-color-action-green);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--green+ .arrow {
+  background-color: var(--bds-color-action-green);
+  border-color: var(--bds-color-action-green);
+}
+
+.c0 .badge-label.variant--filled.color--red {
+  background-color: var(--bds-color-action-red);
+  border-color: var(--bds-color-action-red);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--red+ .arrow {
+  background-color: var(--bds-color-action-red);
+  border-color: var(--bds-color-action-red);
+}
+
+.c0 .badge-label.variant--filled.color--gold {
+  background-color: var(--bds-color-marketing-gold);
+  border-color: var(--bds-color-marketing-gold);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--gold+ .arrow {
+  background-color: var(--bds-color-marketing-gold);
+  border-color: var(--bds-color-marketing-gold);
+}
+
+.c0 .badge-label.variant--filled.color--lfp-yellow {
+  background-color: var(--bds-color-marketing-lfp-yellow);
+  border-color: var(--bds-color-marketing-lfp-yellow);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--lfp-yellow+ .arrow {
+  background-color: var(--bds-color-marketing-lfp-yellow);
+  border-color: var(--bds-color-marketing-lfp-yellow);
+}
+
+.c0 .badge-label.variant--filled.color--neutral {
+  background-color: var(--bds-color-neutral-02);
+  border-color: var(--bds-color-neutral-02);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--neutral+ .arrow {
+  background-color: var(--bds-color-neutral-02);
+  border-color: var(--bds-color-neutral-02);
+}
+
+.c0 .badge-label.variant--outlined.variant--outlined.shape--dot {
+  visibility: hidden;
+}
+
+.c0 .badge-label.variant--outlined.color--dark-blue {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-dark-blue);
+  color: var(--bds-color-marketing-dark-blue);
+}
+
+.c0 .badge-label.variant--outlined.color--blue {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--light-blue {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-light-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--interactive {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-interactive);
+  color: var(--bds-color-text-interactive);
+}
+
+.c0 .badge-label.variant--outlined.color--green {
+  background-color: transparent;
+  border-color: var(--bds-color-action-green);
+  color: var(--bds-color-text-green);
+}
+
+.c0 .badge-label.variant--outlined.color--red {
+  background-color: transparent;
+  border-color: var(--bds-color-action-red);
+  color: var(--bds-color-text-red);
+}
+
+.c0 .badge-label.variant--outlined.color--gold {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-gold);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--lfp-yellow {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-lfp-yellow);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--neutral {
+  background-color: transparent;
+  border-color: var(--bds-color-neutral-02);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.arrow--right+.arrow {
+  margin-left: -0.75rem;
+}
+
+.c0 .badge-label.arrow--right+.arrow.size--jumbo {
+  margin-left: -1.1rem;
+}
+
+.c0 .bold {
+  font-weight: 500;
+}
+
+<span
+    class="c0 badge"
+  >
+    <span
+      class="badge-label variant--filled size--medium color--red arrow--none"
+    >
+      Placeholder
+    </span>
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Badge Snapshots prop: variant Badge filled variant snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 .arrow {
+  box-sizing: border-box;
+  height: 1.125rem;
+  width: 1.125rem;
+  border-width: 0.0625rem;
+  border-style: solid;
+  -webkit-transform: rotateY(0deg) rotate(45deg);
+  -ms-transform: rotateY(0deg) rotate(45deg);
+  transform: rotateY(0deg) rotate(45deg);
+  border-radius: var(--bds-border-radius-md);
+}
+
+.c0 .badge-label {
+  position: relative;
+  box-sizing: border-box;
+  padding: 0 var(--bds-sizes-size-8);
+  border: var(--bds-sizes-size-1) solid;
+  border-radius: var(--bds-border-radius-md);
+  height: var(--bds-sizes-size-24);
+  vertical-align: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: var(--bds-sizes-size-24);
+  z-index: 1;
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-14);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c0 .badge-label.arrow--left {
+  margin-left: -0.75rem;
+}
+
+.c0 .badge-label.arrow--left.size--jumbo {
+  margin-left: -1.1rem;
+}
+
+.c0 .badge-label.size--jumbo {
+  font-size: var(--bds-sizes-size-20);
+  line-height: var(--bds-sizes-size-32);
+  padding: var(--bds-sizes-size-4) var(--bds-sizes-size-8);
+  height: var(--bds-sizes-size-40);
+}
+
+.c0 .badge-label.size--jumbo+ .arrow {
+  height: 1.875rem;
+  width: 1.875rem;
+}
+
+.c0 .badge-label.variant--filled.color--dark-blue {
+  background-color: var(--bds-color-marketing-dark-blue);
+  border-color: var(--bds-color-marketing-dark-blue);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--dark-blue+ .arrow {
+  background-color: var(--bds-color-marketing-dark-blue);
+  border-color: var(--bds-color-marketing-dark-blue);
+}
+
+.c0 .badge-label.variant--filled.color--blue {
+  background-color: var(--bds-color-marketing-blue);
+  border-color: var(--bds-color-marketing-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--blue+ .arrow {
+  background-color: var(--bds-color-marketing-blue);
+  border-color: var(--bds-color-marketing-blue);
+}
+
+.c0 .badge-label.variant--filled.color--light-blue {
+  background-color: var(--bds-color-marketing-light-blue);
+  border-color: var(--bds-color-marketing-light-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--light-blue+ .arrow {
+  background-color: var(--bds-color-marketing-light-blue);
+  border-color: var(--bds-color-marketing-light-blue);
+}
+
+.c0 .badge-label.variant--filled.color--interactive {
+  background-color: var(--bds-color-marketing-interactive);
+  border-color: var(--bds-color-marketing-interactive);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--interactive+ .arrow {
+  background-color: var(--bds-color-marketing-interactive);
+  border-color: var(--bds-color-marketing-interactive);
+}
+
+.c0 .badge-label.variant--filled.color--green {
+  background-color: var(--bds-color-action-green);
+  border-color: var(--bds-color-action-green);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--green+ .arrow {
+  background-color: var(--bds-color-action-green);
+  border-color: var(--bds-color-action-green);
+}
+
+.c0 .badge-label.variant--filled.color--red {
+  background-color: var(--bds-color-action-red);
+  border-color: var(--bds-color-action-red);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--red+ .arrow {
+  background-color: var(--bds-color-action-red);
+  border-color: var(--bds-color-action-red);
+}
+
+.c0 .badge-label.variant--filled.color--gold {
+  background-color: var(--bds-color-marketing-gold);
+  border-color: var(--bds-color-marketing-gold);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--gold+ .arrow {
+  background-color: var(--bds-color-marketing-gold);
+  border-color: var(--bds-color-marketing-gold);
+}
+
+.c0 .badge-label.variant--filled.color--lfp-yellow {
+  background-color: var(--bds-color-marketing-lfp-yellow);
+  border-color: var(--bds-color-marketing-lfp-yellow);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--lfp-yellow+ .arrow {
+  background-color: var(--bds-color-marketing-lfp-yellow);
+  border-color: var(--bds-color-marketing-lfp-yellow);
+}
+
+.c0 .badge-label.variant--filled.color--neutral {
+  background-color: var(--bds-color-neutral-02);
+  border-color: var(--bds-color-neutral-02);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--neutral+ .arrow {
+  background-color: var(--bds-color-neutral-02);
+  border-color: var(--bds-color-neutral-02);
+}
+
+.c0 .badge-label.variant--outlined.variant--outlined.shape--dot {
+  visibility: hidden;
+}
+
+.c0 .badge-label.variant--outlined.color--dark-blue {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-dark-blue);
+  color: var(--bds-color-marketing-dark-blue);
+}
+
+.c0 .badge-label.variant--outlined.color--blue {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--light-blue {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-light-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--interactive {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-interactive);
+  color: var(--bds-color-text-interactive);
+}
+
+.c0 .badge-label.variant--outlined.color--green {
+  background-color: transparent;
+  border-color: var(--bds-color-action-green);
+  color: var(--bds-color-text-green);
+}
+
+.c0 .badge-label.variant--outlined.color--red {
+  background-color: transparent;
+  border-color: var(--bds-color-action-red);
+  color: var(--bds-color-text-red);
+}
+
+.c0 .badge-label.variant--outlined.color--gold {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-gold);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--lfp-yellow {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-lfp-yellow);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--neutral {
+  background-color: transparent;
+  border-color: var(--bds-color-neutral-02);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.arrow--right+.arrow {
+  margin-left: -0.75rem;
+}
+
+.c0 .badge-label.arrow--right+.arrow.size--jumbo {
+  margin-left: -1.1rem;
+}
+
+.c0 .bold {
+  font-weight: 500;
+}
+
+<span
+    class="c0 badge"
+  >
+    <span
+      class="badge-label variant--filled size--medium color--dark-blue arrow--none"
+    >
+      Placeholder
+    </span>
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Badge Snapshots prop: variant Badge outlined variant snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 .arrow {
+  box-sizing: border-box;
+  height: 1.125rem;
+  width: 1.125rem;
+  border-width: 0.0625rem;
+  border-style: solid;
+  -webkit-transform: rotateY(0deg) rotate(45deg);
+  -ms-transform: rotateY(0deg) rotate(45deg);
+  transform: rotateY(0deg) rotate(45deg);
+  border-radius: var(--bds-border-radius-md);
+}
+
+.c0 .badge-label {
+  position: relative;
+  box-sizing: border-box;
+  padding: 0 var(--bds-sizes-size-8);
+  border: var(--bds-sizes-size-1) solid;
+  border-radius: var(--bds-border-radius-md);
+  height: var(--bds-sizes-size-24);
+  vertical-align: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: var(--bds-sizes-size-24);
+  z-index: 1;
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-14);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c0 .badge-label.arrow--left {
+  margin-left: -0.75rem;
+}
+
+.c0 .badge-label.arrow--left.size--jumbo {
+  margin-left: -1.1rem;
+}
+
+.c0 .badge-label.size--jumbo {
+  font-size: var(--bds-sizes-size-20);
+  line-height: var(--bds-sizes-size-32);
+  padding: var(--bds-sizes-size-4) var(--bds-sizes-size-8);
+  height: var(--bds-sizes-size-40);
+}
+
+.c0 .badge-label.size--jumbo+ .arrow {
+  height: 1.875rem;
+  width: 1.875rem;
+}
+
+.c0 .badge-label.variant--filled.color--dark-blue {
+  background-color: var(--bds-color-marketing-dark-blue);
+  border-color: var(--bds-color-marketing-dark-blue);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--dark-blue+ .arrow {
+  background-color: var(--bds-color-marketing-dark-blue);
+  border-color: var(--bds-color-marketing-dark-blue);
+}
+
+.c0 .badge-label.variant--filled.color--blue {
+  background-color: var(--bds-color-marketing-blue);
+  border-color: var(--bds-color-marketing-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--blue+ .arrow {
+  background-color: var(--bds-color-marketing-blue);
+  border-color: var(--bds-color-marketing-blue);
+}
+
+.c0 .badge-label.variant--filled.color--light-blue {
+  background-color: var(--bds-color-marketing-light-blue);
+  border-color: var(--bds-color-marketing-light-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--light-blue+ .arrow {
+  background-color: var(--bds-color-marketing-light-blue);
+  border-color: var(--bds-color-marketing-light-blue);
+}
+
+.c0 .badge-label.variant--filled.color--interactive {
+  background-color: var(--bds-color-marketing-interactive);
+  border-color: var(--bds-color-marketing-interactive);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--interactive+ .arrow {
+  background-color: var(--bds-color-marketing-interactive);
+  border-color: var(--bds-color-marketing-interactive);
+}
+
+.c0 .badge-label.variant--filled.color--green {
+  background-color: var(--bds-color-action-green);
+  border-color: var(--bds-color-action-green);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--green+ .arrow {
+  background-color: var(--bds-color-action-green);
+  border-color: var(--bds-color-action-green);
+}
+
+.c0 .badge-label.variant--filled.color--red {
+  background-color: var(--bds-color-action-red);
+  border-color: var(--bds-color-action-red);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--red+ .arrow {
+  background-color: var(--bds-color-action-red);
+  border-color: var(--bds-color-action-red);
+}
+
+.c0 .badge-label.variant--filled.color--gold {
+  background-color: var(--bds-color-marketing-gold);
+  border-color: var(--bds-color-marketing-gold);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--gold+ .arrow {
+  background-color: var(--bds-color-marketing-gold);
+  border-color: var(--bds-color-marketing-gold);
+}
+
+.c0 .badge-label.variant--filled.color--lfp-yellow {
+  background-color: var(--bds-color-marketing-lfp-yellow);
+  border-color: var(--bds-color-marketing-lfp-yellow);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--lfp-yellow+ .arrow {
+  background-color: var(--bds-color-marketing-lfp-yellow);
+  border-color: var(--bds-color-marketing-lfp-yellow);
+}
+
+.c0 .badge-label.variant--filled.color--neutral {
+  background-color: var(--bds-color-neutral-02);
+  border-color: var(--bds-color-neutral-02);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--neutral+ .arrow {
+  background-color: var(--bds-color-neutral-02);
+  border-color: var(--bds-color-neutral-02);
+}
+
+.c0 .badge-label.variant--outlined.variant--outlined.shape--dot {
+  visibility: hidden;
+}
+
+.c0 .badge-label.variant--outlined.color--dark-blue {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-dark-blue);
+  color: var(--bds-color-marketing-dark-blue);
+}
+
+.c0 .badge-label.variant--outlined.color--blue {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--light-blue {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-light-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--interactive {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-interactive);
+  color: var(--bds-color-text-interactive);
+}
+
+.c0 .badge-label.variant--outlined.color--green {
+  background-color: transparent;
+  border-color: var(--bds-color-action-green);
+  color: var(--bds-color-text-green);
+}
+
+.c0 .badge-label.variant--outlined.color--red {
+  background-color: transparent;
+  border-color: var(--bds-color-action-red);
+  color: var(--bds-color-text-red);
+}
+
+.c0 .badge-label.variant--outlined.color--gold {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-gold);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--lfp-yellow {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-lfp-yellow);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--neutral {
+  background-color: transparent;
+  border-color: var(--bds-color-neutral-02);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.arrow--right+.arrow {
+  margin-left: -0.75rem;
+}
+
+.c0 .badge-label.arrow--right+.arrow.size--jumbo {
+  margin-left: -1.1rem;
+}
+
+.c0 .bold {
+  font-weight: 500;
+}
+
+<span
+    class="c0 badge"
+  >
+    <span
+      class="badge-label variant--outlined size--medium color--dark-blue arrow--none"
+    >
+      Placeholder
+    </span>
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Badge Snapshots themes Badge dark theme snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 .arrow {
+  box-sizing: border-box;
+  height: 1.125rem;
+  width: 1.125rem;
+  border-width: 0.0625rem;
+  border-style: solid;
+  -webkit-transform: rotateY(0deg) rotate(45deg);
+  -ms-transform: rotateY(0deg) rotate(45deg);
+  transform: rotateY(0deg) rotate(45deg);
+  border-radius: var(--bds-border-radius-md);
+}
+
+.c0 .badge-label {
+  position: relative;
+  box-sizing: border-box;
+  padding: 0 var(--bds-sizes-size-8);
+  border: var(--bds-sizes-size-1) solid;
+  border-radius: var(--bds-border-radius-md);
+  height: var(--bds-sizes-size-24);
+  vertical-align: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: var(--bds-sizes-size-24);
+  z-index: 1;
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-14);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c0 .badge-label.arrow--left {
+  margin-left: -0.75rem;
+}
+
+.c0 .badge-label.arrow--left.size--jumbo {
+  margin-left: -1.1rem;
+}
+
+.c0 .badge-label.size--jumbo {
+  font-size: var(--bds-sizes-size-20);
+  line-height: var(--bds-sizes-size-32);
+  padding: var(--bds-sizes-size-4) var(--bds-sizes-size-8);
+  height: var(--bds-sizes-size-40);
+}
+
+.c0 .badge-label.size--jumbo+ .arrow {
+  height: 1.875rem;
+  width: 1.875rem;
+}
+
+.c0 .badge-label.variant--filled.color--dark-blue {
+  background-color: var(--bds-color-marketing-dark-blue);
+  border-color: var(--bds-color-marketing-dark-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--dark-blue+ .arrow {
+  background-color: var(--bds-color-marketing-dark-blue);
+  border-color: var(--bds-color-marketing-dark-blue);
+}
+
+.c0 .badge-label.variant--filled.color--blue {
+  background-color: var(--bds-color-marketing-blue);
+  border-color: var(--bds-color-marketing-blue);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--blue+ .arrow {
+  background-color: var(--bds-color-marketing-blue);
+  border-color: var(--bds-color-marketing-blue);
+}
+
+.c0 .badge-label.variant--filled.color--light-blue {
+  background-color: var(--bds-color-marketing-light-blue);
+  border-color: var(--bds-color-marketing-light-blue);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--light-blue+ .arrow {
+  background-color: var(--bds-color-marketing-light-blue);
+  border-color: var(--bds-color-marketing-light-blue);
+}
+
+.c0 .badge-label.variant--filled.color--interactive {
+  background-color: var(--bds-color-marketing-interactive);
+  border-color: var(--bds-color-marketing-interactive);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--interactive+ .arrow {
+  background-color: var(--bds-color-marketing-interactive);
+  border-color: var(--bds-color-marketing-interactive);
+}
+
+.c0 .badge-label.variant--filled.color--green {
+  background-color: var(--bds-color-action-green);
+  border-color: var(--bds-color-action-green);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--green+ .arrow {
+  background-color: var(--bds-color-action-green);
+  border-color: var(--bds-color-action-green);
+}
+
+.c0 .badge-label.variant--filled.color--red {
+  background-color: var(--bds-color-action-red);
+  border-color: var(--bds-color-action-red);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--red+ .arrow {
+  background-color: var(--bds-color-action-red);
+  border-color: var(--bds-color-action-red);
+}
+
+.c0 .badge-label.variant--filled.color--gold {
+  background-color: var(--bds-color-marketing-gold);
+  border-color: var(--bds-color-marketing-gold);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--gold+ .arrow {
+  background-color: var(--bds-color-marketing-gold);
+  border-color: var(--bds-color-marketing-gold);
+}
+
+.c0 .badge-label.variant--filled.color--lfp-yellow {
+  background-color: var(--bds-color-marketing-lfp-yellow);
+  border-color: var(--bds-color-marketing-lfp-yellow);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--lfp-yellow+ .arrow {
+  background-color: var(--bds-color-marketing-lfp-yellow);
+  border-color: var(--bds-color-marketing-lfp-yellow);
+}
+
+.c0 .badge-label.variant--filled.color--neutral {
+  background-color: var(--bds-color-elevation-02);
+  border-color: var(--bds-color-elevation-02);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--neutral+ .arrow {
+  background-color: var(--bds-color-elevation-02);
+  border-color: var(--bds-color-elevation-02);
+}
+
+.c0 .badge-label.variant--outlined.variant--outlined.shape--dot {
+  visibility: hidden;
+}
+
+.c0 .badge-label.variant--outlined.color--dark-blue {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-dark-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--blue {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--light-blue {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-light-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--interactive {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-interactive);
+  color: var(--bds-color-text-interactive);
+}
+
+.c0 .badge-label.variant--outlined.color--green {
+  background-color: transparent;
+  border-color: var(--bds-color-action-green);
+  color: var(--bds-color-text-green);
+}
+
+.c0 .badge-label.variant--outlined.color--red {
+  background-color: transparent;
+  border-color: var(--bds-color-action-red);
+  color: var(--bds-color-text-red);
+}
+
+.c0 .badge-label.variant--outlined.color--gold {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-gold);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--lfp-yellow {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-lfp-yellow);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--neutral {
+  background-color: transparent;
+  border-color: var(--bds-color-elevation-02);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.arrow--right+.arrow {
+  margin-left: -0.75rem;
+}
+
+.c0 .badge-label.arrow--right+.arrow.size--jumbo {
+  margin-left: -1.1rem;
+}
+
+.c0 .bold {
+  font-weight: 500;
+}
+
+<span
+    class="c0 badge"
+  >
+    <span
+      class="badge-label variant--filled size--medium color--dark-blue arrow--none"
+    >
+      Placeholder
+    </span>
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Badge Snapshots themes Badge light theme snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 .arrow {
+  box-sizing: border-box;
+  height: 1.125rem;
+  width: 1.125rem;
+  border-width: 0.0625rem;
+  border-style: solid;
+  -webkit-transform: rotateY(0deg) rotate(45deg);
+  -ms-transform: rotateY(0deg) rotate(45deg);
+  transform: rotateY(0deg) rotate(45deg);
+  border-radius: var(--bds-border-radius-md);
+}
+
+.c0 .badge-label {
+  position: relative;
+  box-sizing: border-box;
+  padding: 0 var(--bds-sizes-size-8);
+  border: var(--bds-sizes-size-1) solid;
+  border-radius: var(--bds-border-radius-md);
+  height: var(--bds-sizes-size-24);
+  vertical-align: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: var(--bds-sizes-size-24);
+  z-index: 1;
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-14);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c0 .badge-label.arrow--left {
+  margin-left: -0.75rem;
+}
+
+.c0 .badge-label.arrow--left.size--jumbo {
+  margin-left: -1.1rem;
+}
+
+.c0 .badge-label.size--jumbo {
+  font-size: var(--bds-sizes-size-20);
+  line-height: var(--bds-sizes-size-32);
+  padding: var(--bds-sizes-size-4) var(--bds-sizes-size-8);
+  height: var(--bds-sizes-size-40);
+}
+
+.c0 .badge-label.size--jumbo+ .arrow {
+  height: 1.875rem;
+  width: 1.875rem;
+}
+
+.c0 .badge-label.variant--filled.color--dark-blue {
+  background-color: var(--bds-color-marketing-dark-blue);
+  border-color: var(--bds-color-marketing-dark-blue);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--dark-blue+ .arrow {
+  background-color: var(--bds-color-marketing-dark-blue);
+  border-color: var(--bds-color-marketing-dark-blue);
+}
+
+.c0 .badge-label.variant--filled.color--blue {
+  background-color: var(--bds-color-marketing-blue);
+  border-color: var(--bds-color-marketing-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--blue+ .arrow {
+  background-color: var(--bds-color-marketing-blue);
+  border-color: var(--bds-color-marketing-blue);
+}
+
+.c0 .badge-label.variant--filled.color--light-blue {
+  background-color: var(--bds-color-marketing-light-blue);
+  border-color: var(--bds-color-marketing-light-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--light-blue+ .arrow {
+  background-color: var(--bds-color-marketing-light-blue);
+  border-color: var(--bds-color-marketing-light-blue);
+}
+
+.c0 .badge-label.variant--filled.color--interactive {
+  background-color: var(--bds-color-marketing-interactive);
+  border-color: var(--bds-color-marketing-interactive);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--interactive+ .arrow {
+  background-color: var(--bds-color-marketing-interactive);
+  border-color: var(--bds-color-marketing-interactive);
+}
+
+.c0 .badge-label.variant--filled.color--green {
+  background-color: var(--bds-color-action-green);
+  border-color: var(--bds-color-action-green);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--green+ .arrow {
+  background-color: var(--bds-color-action-green);
+  border-color: var(--bds-color-action-green);
+}
+
+.c0 .badge-label.variant--filled.color--red {
+  background-color: var(--bds-color-action-red);
+  border-color: var(--bds-color-action-red);
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0 .badge-label.variant--filled.color--red+ .arrow {
+  background-color: var(--bds-color-action-red);
+  border-color: var(--bds-color-action-red);
+}
+
+.c0 .badge-label.variant--filled.color--gold {
+  background-color: var(--bds-color-marketing-gold);
+  border-color: var(--bds-color-marketing-gold);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--gold+ .arrow {
+  background-color: var(--bds-color-marketing-gold);
+  border-color: var(--bds-color-marketing-gold);
+}
+
+.c0 .badge-label.variant--filled.color--lfp-yellow {
+  background-color: var(--bds-color-marketing-lfp-yellow);
+  border-color: var(--bds-color-marketing-lfp-yellow);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--lfp-yellow+ .arrow {
+  background-color: var(--bds-color-marketing-lfp-yellow);
+  border-color: var(--bds-color-marketing-lfp-yellow);
+}
+
+.c0 .badge-label.variant--filled.color--neutral {
+  background-color: var(--bds-color-neutral-02);
+  border-color: var(--bds-color-neutral-02);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--filled.color--neutral+ .arrow {
+  background-color: var(--bds-color-neutral-02);
+  border-color: var(--bds-color-neutral-02);
+}
+
+.c0 .badge-label.variant--outlined.variant--outlined.shape--dot {
+  visibility: hidden;
+}
+
+.c0 .badge-label.variant--outlined.color--dark-blue {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-dark-blue);
+  color: var(--bds-color-marketing-dark-blue);
+}
+
+.c0 .badge-label.variant--outlined.color--blue {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--light-blue {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-light-blue);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--interactive {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-interactive);
+  color: var(--bds-color-text-interactive);
+}
+
+.c0 .badge-label.variant--outlined.color--green {
+  background-color: transparent;
+  border-color: var(--bds-color-action-green);
+  color: var(--bds-color-text-green);
+}
+
+.c0 .badge-label.variant--outlined.color--red {
+  background-color: transparent;
+  border-color: var(--bds-color-action-red);
+  color: var(--bds-color-text-red);
+}
+
+.c0 .badge-label.variant--outlined.color--gold {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-gold);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--lfp-yellow {
+  background-color: transparent;
+  border-color: var(--bds-color-marketing-lfp-yellow);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.variant--outlined.color--neutral {
+  background-color: transparent;
+  border-color: var(--bds-color-neutral-02);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .badge-label.arrow--right+.arrow {
+  margin-left: -0.75rem;
+}
+
+.c0 .badge-label.arrow--right+.arrow.size--jumbo {
+  margin-left: -1.1rem;
+}
+
+.c0 .bold {
+  font-weight: 500;
+}
+
+<span
+    class="c0 badge"
+  >
+    <span
+      class="badge-label variant--filled size--medium color--dark-blue arrow--none"
+    >
+      Placeholder
+    </span>
+  </span>
+</DocumentFragment>
+`;

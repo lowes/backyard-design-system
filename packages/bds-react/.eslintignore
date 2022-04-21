@@ -1,0 +1,12 @@
+# Root
+build/
+coverage/
+dist/
+example/
+scripts/
+test-utils/
+
+.eslintrc.js
+babel.config.js
+prettier.config.js
+styled.d.ts

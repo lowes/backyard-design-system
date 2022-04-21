@@ -1,0 +1,1444 @@
+{
+	"id": 0,
+	"name": "@lowes-tech/bds-react/Toggle",
+	"kind": 1,
+	"kindString": "Project",
+	"flags": {},
+	"children": [
+		{
+			"id": 68,
+			"name": "default",
+			"kind": 16777216,
+			"kindString": "Reference",
+			"flags": {},
+			"target": 1
+		},
+		{
+			"id": 33,
+			"name": "ToggleButtonProps",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 34,
+					"name": "ariaLabel",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Aria label to give to toggle button\nDefaults to 'toggle button'"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 52,
+					"name": "as",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ElementType"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.as"
+					}
+				},
+				{
+					"id": 57,
+					"name": "children",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "React Children"
+					},
+					"type": {
+						"type": "reference",
+						"name": "ReactNode"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.children"
+					}
+				},
+				{
+					"id": 56,
+					"name": "className",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "DOM Class Name"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.className"
+					}
+				},
+				{
+					"id": 35,
+					"name": "component",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Component to render as"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ElementType"
+					}
+				},
+				{
+					"id": 53,
+					"name": "disabled",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not button is disabled"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.disabled"
+					}
+				},
+				{
+					"id": 67,
+					"name": "elevation",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Adds elevation to the button"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.elevation"
+					}
+				},
+				{
+					"id": 66,
+					"name": "fullWidth",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Makes button 100% the width of the container"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.fullWidth"
+					}
+				},
+				{
+					"id": 64,
+					"name": "iconAfter",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Icon Node to display on right-side of button text",
+						"text": "Note: Do not use for an icon-only button, use `IconButton` for that\n"
+					},
+					"type": {
+						"type": "reference",
+						"name": "ReactNode"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.iconAfter"
+					}
+				},
+				{
+					"id": 65,
+					"name": "iconBefore",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Icon Node to display on left-side of button text",
+						"text": "Note: Do not use for an icon-only button, use `IconButton` for that\n"
+					},
+					"type": {
+						"type": "reference",
+						"name": "ReactNode"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.iconBefore"
+					}
+				},
+				{
+					"id": 54,
+					"name": "shape",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Shape of button\n- Rounded -> Medium Border Radius\n- Squared -> (Default) Zero Border Radius\n- Circle -> Maximum Border Radius (FAB Button)"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "rounded"
+							},
+							{
+								"type": "literal",
+								"value": "squared"
+							},
+							{
+								"type": "literal",
+								"value": "circle"
+							},
+							{
+								"type": "literal",
+								"value": "custom"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.shape"
+					}
+				},
+				{
+					"id": 50,
+					"name": "size",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "literal",
+						"value": "small"
+					}
+				},
+				{
+					"id": 36,
+					"name": "state",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Color of toggle button"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "selected"
+							},
+							{
+								"type": "literal",
+								"value": "unselected"
+							}
+						]
+					}
+				},
+				{
+					"id": 55,
+					"name": "type",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "button"
+							},
+							{
+								"type": "literal",
+								"value": "submit"
+							},
+							{
+								"type": "literal",
+								"value": "reset"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.type"
+					}
+				},
+				{
+					"id": 37,
+					"name": "value",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Value of the toggle button"
+					},
+					"type": {
+						"type": "reference",
+						"id": 29,
+						"name": "ToggleValue"
+					}
+				},
+				{
+					"id": 51,
+					"name": "variant",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Variant of button\n- Primary -> (Default) Solid Button w/ Background w/o Borders\n- Secondary -> Outlined Button w/o Background w/ Borders\n- Ghost -> No Background, No Borders"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "secondary"
+							},
+							{
+								"type": "literal",
+								"value": "ghost"
+							},
+							{
+								"type": "literal",
+								"value": "primary"
+							},
+							{
+								"type": "literal",
+								"value": "tertiary"
+							},
+							{
+								"type": "literal",
+								"value": "inverse"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.variant"
+					}
+				},
+				{
+					"id": 38,
+					"name": "onClick",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 39,
+							"name": "onClick",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "onClick trigger function for when toggle button is clicked"
+							},
+							"parameters": [
+								{
+									"id": 40,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											},
+											{
+												"type": "reference",
+												"name": "MouseEvent"
+											}
+										],
+										"name": "MouseEvent"
+									}
+								},
+								{
+									"id": 41,
+									"name": "state",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"id": 29,
+										"name": "ToggleValue"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				},
+				{
+					"id": 46,
+					"name": "onDeselect",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 47,
+							"name": "onDeselect",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "onDeselect trigger function for when toggle button is deselected",
+								"text": "Note: will trigger when a different button is selected when `exclusive`\n option is enabled, because button will be deselected in place of a new one\n"
+							},
+							"parameters": [
+								{
+									"id": 48,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											},
+											{
+												"type": "reference",
+												"name": "MouseEvent"
+											}
+										],
+										"name": "MouseEvent"
+									}
+								},
+								{
+									"id": 49,
+									"name": "value",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"id": 29,
+										"name": "ToggleValue"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				},
+				{
+					"id": 58,
+					"name": "onFocus",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 59,
+							"name": "onFocus",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onFocus` trigger function",
+								"tags": [
+									{
+										"tag": "argument",
+										"text": "{Event} event - DOM event\n"
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 60,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											},
+											{
+												"type": "reference",
+												"name": "Element"
+											}
+										],
+										"name": "FocusEvent"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Omit.onFocus"
+							}
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.onFocus"
+					}
+				},
+				{
+					"id": 61,
+					"name": "onKeyDown",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 62,
+							"name": "onKeyDown",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onKeyDown` trigger function",
+								"tags": [
+									{
+										"tag": "argument",
+										"text": "{Event} event - DOM event\n"
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 63,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											}
+										],
+										"name": "KeyboardEvent"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Omit.onKeyDown"
+							}
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.onKeyDown"
+					}
+				},
+				{
+					"id": 42,
+					"name": "onSelect",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 43,
+							"name": "onSelect",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "onSelect trigger function for when toggle button is selected"
+							},
+							"parameters": [
+								{
+									"id": 44,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											},
+											{
+												"type": "reference",
+												"name": "MouseEvent"
+											}
+										],
+										"name": "MouseEvent"
+									}
+								},
+								{
+									"id": 45,
+									"name": "value",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"id": 29,
+										"name": "ToggleValue"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						34,
+						52,
+						57,
+						56,
+						35,
+						53,
+						67,
+						66,
+						64,
+						65,
+						54,
+						50,
+						36,
+						55,
+						37,
+						51
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						38,
+						46,
+						58,
+						61,
+						42
+					]
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"typeArguments": [
+						{
+							"type": "reference",
+							"name": "ButtonProps"
+						},
+						{
+							"type": "reference",
+							"name": "ToggleButtonOverrideProps"
+						}
+					],
+					"name": "Omit"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"name": "ToggleProps",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 15,
+					"name": "as",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ElementType"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.as"
+					}
+				},
+				{
+					"id": 3,
+					"name": "buttonProps",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Props to define a unselected toggle button"
+					},
+					"type": {
+						"type": "reference",
+						"id": 33,
+						"name": "ToggleButtonProps"
+					}
+				},
+				{
+					"id": 19,
+					"name": "children",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "The buttons passed to the button group"
+					},
+					"type": {
+						"type": "reference",
+						"name": "ReactNode"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.children"
+					}
+				},
+				{
+					"id": 17,
+					"name": "className",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Adds a classname to the button group."
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.className"
+					}
+				},
+				{
+					"id": 18,
+					"name": "color",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Color of the grouped buttons"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "interactive"
+							},
+							{
+								"type": "literal",
+								"value": "neutral"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.color"
+					}
+				},
+				{
+					"id": 5,
+					"name": "defaultValue",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Default value of the `Toggle`",
+						"text": "Can be a single `string` or an array of `string`s\n"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "string"
+								}
+							}
+						]
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.defaultValue"
+					}
+				},
+				{
+					"id": 8,
+					"name": "enforceSelected",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not toggle should enforce at least one toggle\nto be selected at all times",
+						"text": "When enabled, defaults `Toggle` value to value of first `ToggleButton` child\nif `defaultValue` prop is not given\n"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 7,
+					"name": "exclusive",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not toggle buttons are exclusively toggled",
+						"text": "When enabled, `Toggle` values are a single `string`\nWhen disabled, `Toggle` values are an array of `string`s\n"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 4,
+					"name": "selectedButtonProps",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Props to define a selected toggle button"
+					},
+					"type": {
+						"type": "reference",
+						"id": 33,
+						"name": "ToggleButtonProps"
+					}
+				},
+				{
+					"id": 9,
+					"name": "shape",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Shape of the edges of the button group"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "rounded"
+							},
+							{
+								"type": "literal",
+								"value": "squared"
+							}
+						]
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.shape"
+					}
+				},
+				{
+					"id": 16,
+					"name": "size",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "small"
+							},
+							{
+								"type": "literal",
+								"value": "medium"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.size"
+					}
+				},
+				{
+					"id": 6,
+					"name": "value",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Controlled value of the `Toggle`",
+						"text": "Can be a single `string` or an array of `string`s\n"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "string"
+								}
+							}
+						]
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.value"
+					}
+				},
+				{
+					"id": 14,
+					"name": "variant",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Toggle variants"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "secondary"
+							},
+							{
+								"type": "literal",
+								"value": "ghost"
+							}
+						]
+					}
+				},
+				{
+					"id": 10,
+					"name": "onChange",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 11,
+							"name": "onChange",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "onChange trigger function for when toggled state changes"
+							},
+							"parameters": [
+								{
+									"id": 12,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											},
+											{
+												"type": "reference",
+												"name": "MouseEvent"
+											}
+										],
+										"name": "MouseEvent"
+									}
+								},
+								{
+									"id": 13,
+									"name": "state",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"id": 29,
+										"name": "ToggleValue"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						15,
+						3,
+						19,
+						17,
+						18,
+						5,
+						8,
+						7,
+						4,
+						9,
+						16,
+						6,
+						14
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						10
+					]
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"typeArguments": [
+						{
+							"type": "reference",
+							"name": "ButtonGroupProps"
+						},
+						{
+							"type": "reference",
+							"name": "ToggleOverrideProps"
+						}
+					],
+					"name": "Omit"
+				}
+			]
+		},
+		{
+			"id": 30,
+			"name": "ToggleButtonGroupOverrideProps",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"type": {
+				"type": "union",
+				"types": [
+					{
+						"type": "literal",
+						"value": "state"
+					},
+					{
+						"type": "literal",
+						"value": "variant"
+					}
+				]
+			}
+		},
+		{
+			"id": 32,
+			"name": "ToggleButtonRef",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"type": {
+				"type": "reference",
+				"name": "HTMLButtonElement"
+			}
+		},
+		{
+			"id": 21,
+			"name": "ToggleOptions",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"type": {
+				"type": "reflection",
+				"declaration": {
+					"id": 22,
+					"name": "__type",
+					"kind": 65536,
+					"kindString": "Type literal",
+					"flags": {},
+					"children": [
+						{
+							"id": 24,
+							"name": "enforceSelected",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {},
+							"type": {
+								"type": "indexedAccess",
+								"indexType": {
+									"type": "literal",
+									"value": "enforceSelected"
+								},
+								"objectType": {
+									"type": "reference",
+									"id": 2,
+									"name": "ToggleProps"
+								}
+							}
+						},
+						{
+							"id": 23,
+							"name": "exclusive",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {},
+							"type": {
+								"type": "indexedAccess",
+								"indexType": {
+									"type": "literal",
+									"value": "exclusive"
+								},
+								"objectType": {
+									"type": "reference",
+									"id": 2,
+									"name": "ToggleProps"
+								}
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								24,
+								23
+							]
+						}
+					]
+				}
+			}
+		},
+		{
+			"id": 20,
+			"name": "ToggleRef",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"type": {
+				"type": "reference",
+				"name": "ButtonGroupRef"
+			}
+		},
+		{
+			"id": 25,
+			"name": "ToggleState",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"type": {
+				"type": "reflection",
+				"declaration": {
+					"id": 26,
+					"name": "__type",
+					"kind": 65536,
+					"kindString": "Type literal",
+					"flags": {},
+					"children": [
+						{
+							"id": 28,
+							"name": "action",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isOptional": true
+							},
+							"type": {
+								"type": "reference",
+								"name": "ToggleAction"
+							}
+						},
+						{
+							"id": 27,
+							"name": "value",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"id": 29,
+								"name": "ToggleValue"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								28,
+								27
+							]
+						}
+					]
+				}
+			}
+		},
+		{
+			"id": 29,
+			"name": "ToggleValue",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"type": {
+				"type": "union",
+				"types": [
+					{
+						"type": "reference",
+						"name": "ToggleValueTypes"
+					},
+					{
+						"type": "array",
+						"elementType": {
+							"type": "reference",
+							"name": "ToggleValueTypes"
+						}
+					},
+					{
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "reference",
+								"id": 29,
+								"name": "ToggleValue"
+							}
+						],
+						"name": "Set"
+					}
+				]
+			}
+		},
+		{
+			"id": 1,
+			"name": "Toggle",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"comment": {
+				"shortText": "Backyard React Toggle",
+				"text": "Toggle wrapper to manage state of a group of `ToggleButton`s\n\nExamples:\n\n- [Toggle](https://dev.carbon.gcp.lowes.com/bds/documentation/Components/Toggle)\n\nAPI:\n\n- [Toggle API](https://dev.carbon.gcp.lowes.com/bds/documentation/ComponentsAPI/Toggle)\n- inherits [ButtonGroup API](https://dev.carbon.gcp.lowes.com/bds/documentation/ComponentsAPI/ButtonGroup)\n\n- [ToggleButton API](https://dev.carbon.gcp.lowes.com/bds/documentation/ComponentsAPI/ToggleButton)\n"
+			},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"id": 2,
+						"name": "ToggleProps"
+					}
+				],
+				"name": "BDSForwardRef"
+			},
+			"defaultValue": "..."
+		},
+		{
+			"id": 31,
+			"name": "ToggleButton",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"comment": {
+				"shortText": "Backyard React Toggle Button",
+				"text": "Toggle button to be used as a child of `Toggle`\n\nExamples:\n\n- [Toggle](https://dev.carbon.gcp.lowes.com/bds/documentation/Components/Toggle)\n\nAPI:\n\n- [ToggleButton API](https://dev.carbon.gcp.lowes.com/bds/documentation/ComponentsAPI/ToggleButton)\n"
+			},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"id": 33,
+						"name": "ToggleButtonProps"
+					}
+				],
+				"name": "BDSForwardRef"
+			},
+			"defaultValue": "..."
+		}
+	],
+	"groups": [
+		{
+			"title": "References",
+			"kind": 16777216,
+			"children": [
+				68
+			]
+		},
+		{
+			"title": "Interfaces",
+			"kind": 256,
+			"children": [
+				33,
+				2
+			]
+		},
+		{
+			"title": "Type aliases",
+			"kind": 4194304,
+			"children": [
+				30,
+				32,
+				21,
+				20,
+				25,
+				29
+			]
+		},
+		{
+			"title": "Variables",
+			"kind": 32,
+			"children": [
+				1,
+				31
+			]
+		}
+	]
+}

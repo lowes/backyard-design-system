@@ -1,0 +1,220 @@
+{
+	"id": 0,
+	"name": "@lowes-tech/bds-react/FormGroup",
+	"kind": 1,
+	"kindString": "Project",
+	"flags": {},
+	"children": [
+		{
+			"id": 9,
+			"name": "default",
+			"kind": 16777216,
+			"kindString": "Reference",
+			"flags": {},
+			"target": 1
+		},
+		{
+			"id": 2,
+			"name": "FormGroupProps",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 7,
+					"name": "as",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ElementType"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "BackyardBaseProps.as"
+					}
+				},
+				{
+					"id": 3,
+					"name": "children",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Children of FormGroup"
+					},
+					"type": {
+						"type": "reference",
+						"name": "ReactNode"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.children"
+					}
+				},
+				{
+					"id": 4,
+					"name": "className",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "DOM class name"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.className"
+					}
+				},
+				{
+					"id": 5,
+					"name": "direction",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Direction to render children"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "column"
+							},
+							{
+								"type": "literal",
+								"value": "row"
+							}
+						]
+					}
+				},
+				{
+					"id": 6,
+					"name": "spacing",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Spacing token between form inputs"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						7,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"typeArguments": [
+						{
+							"type": "reference",
+							"id": 8,
+							"name": "FormGroupRef"
+						}
+					],
+					"name": "BackyardBaseProps"
+				}
+			]
+		},
+		{
+			"id": 8,
+			"name": "FormGroupRef",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"type": {
+				"type": "reference",
+				"name": "HTMLDivElement"
+			}
+		},
+		{
+			"id": 1,
+			"name": "FormGroup",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"comment": {
+				"shortText": "Backyard React Form Group",
+				"text": "`FormGroup` allows for grouping inputs such as\n`Checkbox` and `Switch` and align them into columns or rows.\n\nFor `Radio` it is recommended to use `RadioGroup` because\nit provides extra functionality for handling `radio` inputs.\n\nThis component is useful when combined with `FormControl` to\norganize the visual structure of the form input. Example:\n\n```\n <FormControl>\n     <FormHeading>Heading Above FormGroup</FormHeading>\n     <FormGroup>\n         <FormControlLabel\n             control={<Checkbox id=\"1\" />}\n             label=\"Label 1\"\n         />\n         <FormControlLabel\n             control={<Checkbox id=\"2\" />}\n             label=\"Label 2\"\n         />\n         <FormControlLabel\n             control={<Checkbox id=\"3\" />}\n             label=\"Label 3\"\n         />\n     </FormGroup>\n     <FormHelperText>Helper Text Below FormGroup</FormHelperText>\n </FormControl>\n```\n"
+			},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"id": 2,
+						"name": "FormGroupProps"
+					}
+				],
+				"name": "BDSForwardRef"
+			},
+			"defaultValue": "..."
+		}
+	],
+	"groups": [
+		{
+			"title": "References",
+			"kind": 16777216,
+			"children": [
+				9
+			]
+		},
+		{
+			"title": "Interfaces",
+			"kind": 256,
+			"children": [
+				2
+			]
+		},
+		{
+			"title": "Type aliases",
+			"kind": 4194304,
+			"children": [
+				8
+			]
+		},
+		{
+			"title": "Variables",
+			"kind": 32,
+			"children": [
+				1
+			]
+		}
+	]
+}

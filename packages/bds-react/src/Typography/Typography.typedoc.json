@@ -1,0 +1,1123 @@
+{
+	"id": 0,
+	"name": "@lowes-tech/bds-react/Typography",
+	"kind": 1,
+	"kindString": "Project",
+	"flags": {},
+	"children": [
+		{
+			"id": 15,
+			"name": "default",
+			"kind": 16777216,
+			"kindString": "Reference",
+			"flags": {},
+			"target": 1
+		},
+		{
+			"id": 2,
+			"name": "TypographyProps",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 3,
+					"name": "align",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Aligns text to one of left, center, or right."
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "left"
+							},
+							{
+								"type": "literal",
+								"value": "center"
+							},
+							{
+								"type": "literal",
+								"value": "right"
+							}
+						]
+					}
+				},
+				{
+					"id": 13,
+					"name": "as",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ElementType"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "BackyardBaseProps.as"
+					}
+				},
+				{
+					"id": 4,
+					"name": "bold",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Makes text bold weight."
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 7,
+					"name": "children",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"shortText": "Children"
+					},
+					"type": {
+						"type": "reference",
+						"name": "ReactNode"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.children"
+					}
+				},
+				{
+					"id": 6,
+					"name": "className",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "DOM Class Name"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.className"
+					}
+				},
+				{
+					"id": 8,
+					"name": "color",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Backyard Color Token\nExample: \"interactive\" or \"primary\""
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "marketing_interactive"
+							},
+							{
+								"type": "literal",
+								"value": "text_interactive"
+							},
+							{
+								"type": "literal",
+								"value": "text_interactive_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "icon_interactive"
+							},
+							{
+								"type": "literal",
+								"value": "icon_interactive_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "border_interactive"
+							},
+							{
+								"type": "literal",
+								"value": "border_interactive_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "focus_interactive"
+							},
+							{
+								"type": "literal",
+								"value": "action_interactive"
+							},
+							{
+								"type": "literal",
+								"value": "action_interactive_hover"
+							},
+							{
+								"type": "literal",
+								"value": "action_interactive_pressed"
+							},
+							{
+								"type": "literal",
+								"value": "action_interactive_subdued"
+							},
+							{
+								"type": "literal",
+								"value": "action_interactive_subdued_hover"
+							},
+							{
+								"type": "literal",
+								"value": "action_interactive_subdued_pressed"
+							},
+							{
+								"type": "literal",
+								"value": "highlight"
+							},
+							{
+								"type": "literal",
+								"value": "marketing_dark_blue"
+							},
+							{
+								"type": "literal",
+								"value": "surface_dark_blue"
+							},
+							{
+								"type": "literal",
+								"value": "surface_dark_blue_subdued"
+							},
+							{
+								"type": "literal",
+								"value": "surface_dark_blue_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "surface_dark_blue_subdued_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "marketing_blue"
+							},
+							{
+								"type": "literal",
+								"value": "surface_blue"
+							},
+							{
+								"type": "literal",
+								"value": "surface_blue_subdued"
+							},
+							{
+								"type": "literal",
+								"value": "surface_blue_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "surface_blue_subdued_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "marketing_light_blue"
+							},
+							{
+								"type": "literal",
+								"value": "surface_light_blue"
+							},
+							{
+								"type": "literal",
+								"value": "surface_light_blue_subdued"
+							},
+							{
+								"type": "literal",
+								"value": "surface_light_blue_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "surface_light_blue_subdued_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "marketing_green"
+							},
+							{
+								"type": "literal",
+								"value": "text_green"
+							},
+							{
+								"type": "literal",
+								"value": "text_green_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "icon_green"
+							},
+							{
+								"type": "literal",
+								"value": "icon_green_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "border_green"
+							},
+							{
+								"type": "literal",
+								"value": "border_green_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "surface_green"
+							},
+							{
+								"type": "literal",
+								"value": "surface_green_subdued"
+							},
+							{
+								"type": "literal",
+								"value": "surface_green_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "surface_green_subdued_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "action_green"
+							},
+							{
+								"type": "literal",
+								"value": "action_green_hover"
+							},
+							{
+								"type": "literal",
+								"value": "action_green_pressed"
+							},
+							{
+								"type": "literal",
+								"value": "action_green_subdued"
+							},
+							{
+								"type": "literal",
+								"value": "action_green_subdued_hover"
+							},
+							{
+								"type": "literal",
+								"value": "action_green_subdued_pressed"
+							},
+							{
+								"type": "literal",
+								"value": "marketing_red"
+							},
+							{
+								"type": "literal",
+								"value": "text_red"
+							},
+							{
+								"type": "literal",
+								"value": "text_red_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "icon_red"
+							},
+							{
+								"type": "literal",
+								"value": "icon_red_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "border_red"
+							},
+							{
+								"type": "literal",
+								"value": "border_red_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "surface_red"
+							},
+							{
+								"type": "literal",
+								"value": "surface_red_subdued"
+							},
+							{
+								"type": "literal",
+								"value": "surface_red_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "surface_red_subdued_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "action_red"
+							},
+							{
+								"type": "literal",
+								"value": "action_red_hover"
+							},
+							{
+								"type": "literal",
+								"value": "action_red_pressed"
+							},
+							{
+								"type": "literal",
+								"value": "action_red_subdued"
+							},
+							{
+								"type": "literal",
+								"value": "action_red_subdued_hover"
+							},
+							{
+								"type": "literal",
+								"value": "action_red_subdued_pressed"
+							},
+							{
+								"type": "literal",
+								"value": "marketing_gold"
+							},
+							{
+								"type": "literal",
+								"value": "surface_gold"
+							},
+							{
+								"type": "literal",
+								"value": "surface_gold_subdued"
+							},
+							{
+								"type": "literal",
+								"value": "surface_gold_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "surface_gold_subdued_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "marketing_lfp_yellow"
+							},
+							{
+								"type": "literal",
+								"value": "text_solid_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "text_primary_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "text_secondary_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "text_tertiary_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "text_disabled_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "icon_solid_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "icon_primary_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "icon_secondary_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "icon_tertiary_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "icon_disabled_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "border_default_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "border_hover_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "border_pressed_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "border_subdued_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "border_contrast_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "border_disabled_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "focus_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "surface_default"
+							},
+							{
+								"type": "literal",
+								"value": "surface_default_inverse"
+							},
+							{
+								"type": "literal",
+								"value": "surface_subdued"
+							},
+							{
+								"type": "literal",
+								"value": "elevation_01"
+							},
+							{
+								"type": "literal",
+								"value": "elevation_02"
+							},
+							{
+								"type": "literal",
+								"value": "elevation_03"
+							},
+							{
+								"type": "literal",
+								"value": "elevation_04"
+							},
+							{
+								"type": "literal",
+								"value": "elevation_05"
+							},
+							{
+								"type": "literal",
+								"value": "elevation_06"
+							},
+							{
+								"type": "literal",
+								"value": "action_neutral"
+							},
+							{
+								"type": "literal",
+								"value": "action_neutral_hover"
+							},
+							{
+								"type": "literal",
+								"value": "action_neutral_pressed"
+							},
+							{
+								"type": "literal",
+								"value": "white"
+							},
+							{
+								"type": "literal",
+								"value": "black"
+							},
+							{
+								"type": "literal",
+								"value": "text_solid"
+							},
+							{
+								"type": "literal",
+								"value": "text_primary"
+							},
+							{
+								"type": "literal",
+								"value": "text_secondary"
+							},
+							{
+								"type": "literal",
+								"value": "text_tertiary"
+							},
+							{
+								"type": "literal",
+								"value": "text_disabled"
+							},
+							{
+								"type": "literal",
+								"value": "icon_solid"
+							},
+							{
+								"type": "literal",
+								"value": "icon_primary"
+							},
+							{
+								"type": "literal",
+								"value": "icon_secondary"
+							},
+							{
+								"type": "literal",
+								"value": "icon_tertiary"
+							},
+							{
+								"type": "literal",
+								"value": "icon_disabled"
+							},
+							{
+								"type": "literal",
+								"value": "border_default"
+							},
+							{
+								"type": "literal",
+								"value": "border_hover"
+							},
+							{
+								"type": "literal",
+								"value": "border_pressed"
+							},
+							{
+								"type": "literal",
+								"value": "border_subdued"
+							},
+							{
+								"type": "literal",
+								"value": "border_contrast"
+							},
+							{
+								"type": "literal",
+								"value": "border_disabled"
+							},
+							{
+								"type": "literal",
+								"value": "focus_default"
+							},
+							{
+								"type": "literal",
+								"value": "neutral_01"
+							},
+							{
+								"type": "literal",
+								"value": "neutral_02"
+							},
+							{
+								"type": "literal",
+								"value": "neutral_03"
+							},
+							{
+								"type": "literal",
+								"value": "neutral_04"
+							},
+							{
+								"type": "literal",
+								"value": "neutral_05"
+							},
+							{
+								"type": "literal",
+								"value": "neutral_06"
+							},
+							{
+								"type": "literal",
+								"value": "neutral_07"
+							},
+							{
+								"type": "literal",
+								"value": "neutral_08"
+							},
+							{
+								"type": "literal",
+								"value": "neutral_09"
+							},
+							{
+								"type": "literal",
+								"value": "neutral_10"
+							},
+							{
+								"type": "literal",
+								"value": "skeleton_01"
+							},
+							{
+								"type": "literal",
+								"value": "skeleton_02"
+							},
+							{
+								"type": "literal",
+								"value": "overlay"
+							},
+							{
+								"type": "literal",
+								"value": "text_visited_link"
+							}
+						]
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.color"
+					}
+				},
+				{
+					"id": 9,
+					"name": "component",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Custom definition for HTML to use with Typography\nExample: \"p\" for paragraph or \"div\" for div"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ElementType"
+					}
+				},
+				{
+					"id": 10,
+					"name": "display",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "CSS Display type of inline or block"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "block"
+							},
+							{
+								"type": "literal",
+								"value": "inline"
+							}
+						]
+					}
+				},
+				{
+					"id": 11,
+					"name": "marginBottom",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Backyard spacing token for margin bottom.\nUseful for when you have a lot of headers and don't want to\nrecreate styles for each variant of header you are using."
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "size_0"
+							},
+							{
+								"type": "literal",
+								"value": "size_1"
+							},
+							{
+								"type": "literal",
+								"value": "size_2"
+							},
+							{
+								"type": "literal",
+								"value": "size_3"
+							},
+							{
+								"type": "literal",
+								"value": "size_4"
+							},
+							{
+								"type": "literal",
+								"value": "size_5"
+							},
+							{
+								"type": "literal",
+								"value": "size_6"
+							},
+							{
+								"type": "literal",
+								"value": "size_7"
+							},
+							{
+								"type": "literal",
+								"value": "size_8"
+							},
+							{
+								"type": "literal",
+								"value": "size_10"
+							},
+							{
+								"type": "literal",
+								"value": "size_12"
+							},
+							{
+								"type": "literal",
+								"value": "size_14"
+							},
+							{
+								"type": "literal",
+								"value": "size_16"
+							},
+							{
+								"type": "literal",
+								"value": "size_18"
+							},
+							{
+								"type": "literal",
+								"value": "size_20"
+							},
+							{
+								"type": "literal",
+								"value": "size_24"
+							},
+							{
+								"type": "literal",
+								"value": "size_28"
+							},
+							{
+								"type": "literal",
+								"value": "size_32"
+							},
+							{
+								"type": "literal",
+								"value": "size_36"
+							},
+							{
+								"type": "literal",
+								"value": "size_40"
+							},
+							{
+								"type": "literal",
+								"value": "size_44"
+							},
+							{
+								"type": "literal",
+								"value": "size_48"
+							},
+							{
+								"type": "literal",
+								"value": "size_52"
+							},
+							{
+								"type": "literal",
+								"value": "size_56"
+							},
+							{
+								"type": "literal",
+								"value": "size_60"
+							},
+							{
+								"type": "literal",
+								"value": "size_64"
+							},
+							{
+								"type": "literal",
+								"value": "size_68"
+							},
+							{
+								"type": "literal",
+								"value": "size_72"
+							},
+							{
+								"type": "literal",
+								"value": "size_76"
+							},
+							{
+								"type": "literal",
+								"value": "size_80"
+							},
+							{
+								"type": "literal",
+								"value": "size_84"
+							},
+							{
+								"type": "literal",
+								"value": "size_88"
+							},
+							{
+								"type": "literal",
+								"value": "size_92"
+							},
+							{
+								"type": "literal",
+								"value": "size_96"
+							},
+							{
+								"type": "literal",
+								"value": "size_100"
+							},
+							{
+								"type": "literal",
+								"value": "size_104"
+							},
+							{
+								"type": "literal",
+								"value": "size_108"
+							},
+							{
+								"type": "literal",
+								"value": "size_112"
+							},
+							{
+								"type": "literal",
+								"value": "size_116"
+							},
+							{
+								"type": "literal",
+								"value": "size_120"
+							},
+							{
+								"type": "literal",
+								"value": "size_124"
+							},
+							{
+								"type": "literal",
+								"value": "size_128"
+							}
+						]
+					}
+				},
+				{
+					"id": 5,
+					"name": "regular",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Makes text regular weight."
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 12,
+					"name": "variant",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Variant of typography as defined in `variants` variable..."
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "label"
+							},
+							{
+								"type": "literal",
+								"value": "article"
+							},
+							{
+								"type": "literal",
+								"value": "caption"
+							},
+							{
+								"type": "literal",
+								"value": "h1"
+							},
+							{
+								"type": "literal",
+								"value": "h2"
+							},
+							{
+								"type": "literal",
+								"value": "h3"
+							},
+							{
+								"type": "literal",
+								"value": "h4"
+							},
+							{
+								"type": "literal",
+								"value": "h5"
+							},
+							{
+								"type": "literal",
+								"value": "h6"
+							},
+							{
+								"type": "literal",
+								"value": "body_1"
+							},
+							{
+								"type": "literal",
+								"value": "body_2"
+							},
+							{
+								"type": "literal",
+								"value": "overline"
+							},
+							{
+								"type": "literal",
+								"value": "footnote"
+							},
+							{
+								"type": "literal",
+								"value": "helper"
+							}
+						]
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						3,
+						13,
+						4,
+						7,
+						6,
+						8,
+						9,
+						10,
+						11,
+						5,
+						12
+					]
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"typeArguments": [
+						{
+							"type": "reference",
+							"id": 14,
+							"name": "TypographyRef"
+						}
+					],
+					"name": "BackyardBaseProps"
+				}
+			]
+		},
+		{
+			"id": 14,
+			"name": "TypographyRef",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"type": {
+				"type": "union",
+				"types": [
+					{
+						"type": "reference",
+						"name": "HeadingRef"
+					},
+					{
+						"type": "reference",
+						"name": "ParagraphRef"
+					},
+					{
+						"type": "reference",
+						"name": "ArticleRef"
+					},
+					{
+						"type": "reference",
+						"name": "CaptionRef"
+					},
+					{
+						"type": "reference",
+						"name": "FootnoteRef"
+					},
+					{
+						"type": "reference",
+						"name": "HTMLSpanElement"
+					}
+				]
+			}
+		},
+		{
+			"id": 1,
+			"name": "Typography",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"comment": {
+				"shortText": "Backyard React Typography",
+				"text": "Combines all typographies into one React API\n\n <Typography variant=\"body_small\">This body text is always small</Typography>\n\n <Typography variant=\"body\">This body text is small on mobile, but medium on desktop</Typography>\n"
+			},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"id": 2,
+						"name": "TypographyProps"
+					}
+				],
+				"name": "BDSForwardRef"
+			},
+			"defaultValue": "..."
+		}
+	],
+	"groups": [
+		{
+			"title": "References",
+			"kind": 16777216,
+			"children": [
+				15
+			]
+		},
+		{
+			"title": "Interfaces",
+			"kind": 256,
+			"children": [
+				2
+			]
+		},
+		{
+			"title": "Type aliases",
+			"kind": 4194304,
+			"children": [
+				14
+			]
+		},
+		{
+			"title": "Variables",
+			"kind": 32,
+			"children": [
+				1
+			]
+		}
+	]
+}

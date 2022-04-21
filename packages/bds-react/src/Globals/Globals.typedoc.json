@@ -1,0 +1,93 @@
+{
+	"id": 0,
+	"name": "@lowes-tech/bds-react/Globals",
+	"kind": 1,
+	"kindString": "Project",
+	"flags": {},
+	"children": [
+		{
+			"id": 2,
+			"name": "Fellix",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"type": {
+				"type": "reference",
+				"name": "FlattenSimpleInterpolation"
+			},
+			"defaultValue": "..."
+		},
+		{
+			"id": 4,
+			"name": "Fonts",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ThemeProps"
+					}
+				],
+				"name": "FlattenInterpolation"
+			},
+			"defaultValue": "..."
+		},
+		{
+			"id": 3,
+			"name": "Gridv3",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ThemeProps"
+					}
+				],
+				"name": "FlattenInterpolation"
+			},
+			"defaultValue": "..."
+		},
+		{
+			"id": 1,
+			"name": "Roboto",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"type": {
+				"type": "reference",
+				"name": "FlattenSimpleInterpolation"
+			},
+			"defaultValue": "..."
+		}
+	],
+	"groups": [
+		{
+			"title": "Variables",
+			"kind": 32,
+			"children": [
+				2,
+				4,
+				3,
+				1
+			]
+		}
+	]
+}

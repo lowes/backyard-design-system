@@ -1,0 +1,1545 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableHeader Snapshots TableHeader default snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0;
+  box-sizing: border-box;
+}
+
+.c0 thead,
+.c0 tbody,
+.c0 tfoot,
+.c0 tr,
+.c0 th,
+.c0 td {
+  box-sizing: border-box;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.variant--outlined th {
+  background-color: var(--bds-color-surface-default);
+}
+
+.c0.right-rule-on tr th:not(:last-child),
+.c0.right-rule-on tr td:not(:last-child) {
+  border-right: 1px solid var(--bds-color-border-subdued);
+}
+
+.c0 h5 {
+  margin: 0;
+}
+
+.c0.shape--rounded > .table-head > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c0.shape--rounded > .table-head > .table-row:first-child > .table-cell:first-child {
+  border-top-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-head > .table-row:first-child > .table-cell:last-child {
+  border-top-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c0.shape--rounded > .table-body:first-child > .table-row:first-child > .table-cell:first-child {
+  border-top-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body:first-child > .table-row:first-child > .table-cell:last-child {
+  border-top-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row:last-child > .table-cell:first-child {
+  border-bottom-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row:last-child > .table-cell:last-child {
+  border-bottom-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--squared > .table-head > .table-row > .table-cell,
+.c0.shape--squared > .table-body > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c1 {
+  border-bottom: 1px solid var(--bds-color-border-subdued);
+}
+
+.c1 h5 {
+  margin: 0;
+}
+
+.c2 {
+  border-bottom: var(--bds-sizes-size-1) solid var(--bds-color-border-subdued);
+}
+
+.c4 {
+  color: hsl(0,0%,0%,.87);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: hsl(0,0%,0%,.87);
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  font-size: var(--bds-font-tag-h5-mobile-font-size);
+  line-height: var(--bds-font-tag-h5-mobile-line-height);
+}
+
+.c4.align--left {
+  text-align: left;
+}
+
+.c4.align--center {
+  text-align: center;
+}
+
+.c4.align--right {
+  text-align: right;
+}
+
+.c4.display--block {
+  display: block;
+}
+
+.c4.display--inline {
+  display: inline;
+}
+
+.c4 b,
+.c4 bold,
+.c4 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c4.bold {
+  font-weight: 500;
+}
+
+.c3 {
+  padding: var(--bds-sizes-size-14) var(--bds-sizes-size-36) var(--bds-sizes-size-14) var(--bds-sizes-size-16);
+  width: auto;
+  font-size: var(--bds-sizes-size-16);
+  background-color: var(--bds-color-surface-subdued);
+}
+
+.c3 svg {
+  vertical-align: middle;
+}
+
+.c3 .td-container,
+.c3 .th-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 .td-container .more-info,
+.c3 .th-container .more-info {
+  margin-left: var(--bds-sizes-size-4);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.c3 h6 {
+  margin: 0;
+}
+
+.c3 .td-container > .cell-content {
+  display: block;
+  display: -webkit-box;
+  max-height: var(--bds-sizes-size-48);
+  margin: 0;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c3 .cell-content .header-content {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c3 .cell-content.overflow {
+  overflow: hidden;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c4 {
+    font-size: var(--bds-font-tag-h5-desktop-font-size);
+    line-height: var(--bds-font-tag-h5-desktop-line-height);
+  }
+}
+
+@media screen and (-ms-high-contrast:active),(-ms-high-contrast:none) {
+  .c3 .td-container > .cell-content * {
+    max-height: var(--bds-sizes-size-40);
+  }
+}
+
+<table
+    class="c0 table shape--rounded variant--filled right-rule-on"
+  >
+    <thead
+      class="c1 table-head"
+    >
+      <tr
+        class="c2 table-row"
+      >
+        <th
+          class="c3 table-header-cell header-cell table-cell shape--rounded"
+        >
+          <div
+            class="th-container"
+          >
+            <div
+              class="cell-content"
+            >
+              <h5
+                class="c4 typography variant--h5 align--left header-content"
+                color="text_primary"
+              >
+                header
+              </h5>
+            </div>
+          </div>
+        </th>
+      </tr>
+    </thead>
+  </table>
+</DocumentFragment>
+`;
+
+exports[`TableHeader Snapshots extra props TableHeader DOM props (id, className) snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0;
+  box-sizing: border-box;
+}
+
+.c0 thead,
+.c0 tbody,
+.c0 tfoot,
+.c0 tr,
+.c0 th,
+.c0 td {
+  box-sizing: border-box;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.variant--outlined th {
+  background-color: var(--bds-color-surface-default);
+}
+
+.c0.right-rule-on tr th:not(:last-child),
+.c0.right-rule-on tr td:not(:last-child) {
+  border-right: 1px solid var(--bds-color-border-subdued);
+}
+
+.c0 h5 {
+  margin: 0;
+}
+
+.c0.shape--rounded > .table-head > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c0.shape--rounded > .table-head > .table-row:first-child > .table-cell:first-child {
+  border-top-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-head > .table-row:first-child > .table-cell:last-child {
+  border-top-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c0.shape--rounded > .table-body:first-child > .table-row:first-child > .table-cell:first-child {
+  border-top-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body:first-child > .table-row:first-child > .table-cell:last-child {
+  border-top-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row:last-child > .table-cell:first-child {
+  border-bottom-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row:last-child > .table-cell:last-child {
+  border-bottom-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--squared > .table-head > .table-row > .table-cell,
+.c0.shape--squared > .table-body > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c1 {
+  border-bottom: 1px solid var(--bds-color-border-subdued);
+}
+
+.c1 h5 {
+  margin: 0;
+}
+
+.c2 {
+  border-bottom: var(--bds-sizes-size-1) solid var(--bds-color-border-subdued);
+}
+
+.c4 {
+  color: hsl(0,0%,0%,.87);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: hsl(0,0%,0%,.87);
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  font-size: var(--bds-font-tag-h5-mobile-font-size);
+  line-height: var(--bds-font-tag-h5-mobile-line-height);
+}
+
+.c4.align--left {
+  text-align: left;
+}
+
+.c4.align--center {
+  text-align: center;
+}
+
+.c4.align--right {
+  text-align: right;
+}
+
+.c4.display--block {
+  display: block;
+}
+
+.c4.display--inline {
+  display: inline;
+}
+
+.c4 b,
+.c4 bold,
+.c4 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c4.bold {
+  font-weight: 500;
+}
+
+.c3 {
+  padding: var(--bds-sizes-size-14) var(--bds-sizes-size-36) var(--bds-sizes-size-14) var(--bds-sizes-size-16);
+  width: auto;
+  font-size: var(--bds-sizes-size-16);
+  background-color: var(--bds-color-surface-subdued);
+}
+
+.c3 svg {
+  vertical-align: middle;
+}
+
+.c3 .td-container,
+.c3 .th-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 .td-container .more-info,
+.c3 .th-container .more-info {
+  margin-left: var(--bds-sizes-size-4);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.c3 h6 {
+  margin: 0;
+}
+
+.c3 .td-container > .cell-content {
+  display: block;
+  display: -webkit-box;
+  max-height: var(--bds-sizes-size-48);
+  margin: 0;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c3 .cell-content .header-content {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c3 .cell-content.overflow {
+  overflow: hidden;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c4 {
+    font-size: var(--bds-font-tag-h5-desktop-font-size);
+    line-height: var(--bds-font-tag-h5-desktop-line-height);
+  }
+}
+
+@media screen and (-ms-high-contrast:active),(-ms-high-contrast:none) {
+  .c3 .td-container > .cell-content * {
+    max-height: var(--bds-sizes-size-40);
+  }
+}
+
+<table
+    class="c0 table shape--rounded variant--filled right-rule-on"
+  >
+    <thead
+      class="c1 table-head"
+    >
+      <tr
+        class="c2 table-row"
+      >
+        <th
+          class="c3 table-header-cell header-cell table-cell shape--rounded classname"
+          id="id"
+        >
+          <div
+            class="th-container"
+          >
+            <div
+              class="cell-content"
+            >
+              <h5
+                class="c4 typography variant--h5 align--left header-content"
+                color="text_primary"
+              >
+                header
+              </h5>
+            </div>
+          </div>
+        </th>
+      </tr>
+    </thead>
+  </table>
+</DocumentFragment>
+`;
+
+exports[`TableHeader Snapshots prop: moreInfo Adds the more info icon to cell 1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0;
+  box-sizing: border-box;
+}
+
+.c0 thead,
+.c0 tbody,
+.c0 tfoot,
+.c0 tr,
+.c0 th,
+.c0 td {
+  box-sizing: border-box;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.variant--outlined th {
+  background-color: var(--bds-color-surface-default);
+}
+
+.c0.right-rule-on tr th:not(:last-child),
+.c0.right-rule-on tr td:not(:last-child) {
+  border-right: 1px solid var(--bds-color-border-subdued);
+}
+
+.c0 h5 {
+  margin: 0;
+}
+
+.c0.shape--rounded > .table-head > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c0.shape--rounded > .table-head > .table-row:first-child > .table-cell:first-child {
+  border-top-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-head > .table-row:first-child > .table-cell:last-child {
+  border-top-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c0.shape--rounded > .table-body:first-child > .table-row:first-child > .table-cell:first-child {
+  border-top-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body:first-child > .table-row:first-child > .table-cell:last-child {
+  border-top-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row:last-child > .table-cell:first-child {
+  border-bottom-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row:last-child > .table-cell:last-child {
+  border-bottom-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--squared > .table-head > .table-row > .table-cell,
+.c0.shape--squared > .table-body > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c1 {
+  border-bottom: 1px solid var(--bds-color-border-subdued);
+}
+
+.c1 h5 {
+  margin: 0;
+}
+
+.c2 {
+  border-bottom: var(--bds-sizes-size-1) solid var(--bds-color-border-subdued);
+}
+
+.c4 {
+  color: hsl(0,0%,0%,.87);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: hsl(0,0%,0%,.87);
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  font-size: var(--bds-font-tag-h5-mobile-font-size);
+  line-height: var(--bds-font-tag-h5-mobile-line-height);
+}
+
+.c4.align--left {
+  text-align: left;
+}
+
+.c4.align--center {
+  text-align: center;
+}
+
+.c4.align--right {
+  text-align: right;
+}
+
+.c4.display--block {
+  display: block;
+}
+
+.c4.display--inline {
+  display: inline;
+}
+
+.c4 b,
+.c4 bold,
+.c4 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c4.bold {
+  font-weight: 500;
+}
+
+.c3 {
+  padding: var(--bds-sizes-size-14) var(--bds-sizes-size-36) var(--bds-sizes-size-14) var(--bds-sizes-size-16);
+  width: auto;
+  font-size: var(--bds-sizes-size-16);
+  background-color: var(--bds-color-surface-subdued);
+}
+
+.c3 svg {
+  vertical-align: middle;
+}
+
+.c3 .td-container,
+.c3 .th-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 .td-container .more-info,
+.c3 .th-container .more-info {
+  margin-left: var(--bds-sizes-size-4);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.c3 h6 {
+  margin: 0;
+}
+
+.c3 .td-container > .cell-content {
+  display: block;
+  display: -webkit-box;
+  max-height: var(--bds-sizes-size-48);
+  margin: 0;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c3 .cell-content .header-content {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c3 .cell-content.overflow {
+  overflow: hidden;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c4 {
+    font-size: var(--bds-font-tag-h5-desktop-font-size);
+    line-height: var(--bds-font-tag-h5-desktop-line-height);
+  }
+}
+
+@media screen and (-ms-high-contrast:active),(-ms-high-contrast:none) {
+  .c3 .td-container > .cell-content * {
+    max-height: var(--bds-sizes-size-40);
+  }
+}
+
+<table
+    class="c0 table shape--rounded variant--filled right-rule-on"
+  >
+    <thead
+      class="c1 table-head"
+    >
+      <tr
+        class="c2 table-row"
+      >
+        <th
+          class="c3 table-header-cell header-cell table-cell shape--rounded"
+        >
+          <div
+            class="th-container"
+          >
+            <div
+              class="cell-content"
+            >
+              <h5
+                class="c4 typography variant--h5 align--left header-content"
+                color="text_primary"
+              >
+                header
+              </h5>
+            </div>
+          </div>
+        </th>
+      </tr>
+    </thead>
+  </table>
+</DocumentFragment>
+`;
+
+exports[`TableHeader Snapshots prop: width Sets width of table 1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0;
+  box-sizing: border-box;
+}
+
+.c0 thead,
+.c0 tbody,
+.c0 tfoot,
+.c0 tr,
+.c0 th,
+.c0 td {
+  box-sizing: border-box;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.variant--outlined th {
+  background-color: var(--bds-color-surface-default);
+}
+
+.c0.right-rule-on tr th:not(:last-child),
+.c0.right-rule-on tr td:not(:last-child) {
+  border-right: 1px solid var(--bds-color-border-subdued);
+}
+
+.c0 h5 {
+  margin: 0;
+}
+
+.c0.shape--rounded > .table-head > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c0.shape--rounded > .table-head > .table-row:first-child > .table-cell:first-child {
+  border-top-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-head > .table-row:first-child > .table-cell:last-child {
+  border-top-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c0.shape--rounded > .table-body:first-child > .table-row:first-child > .table-cell:first-child {
+  border-top-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body:first-child > .table-row:first-child > .table-cell:last-child {
+  border-top-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row:last-child > .table-cell:first-child {
+  border-bottom-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row:last-child > .table-cell:last-child {
+  border-bottom-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--squared > .table-head > .table-row > .table-cell,
+.c0.shape--squared > .table-body > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c1 {
+  border-bottom: 1px solid var(--bds-color-border-subdued);
+}
+
+.c1 h5 {
+  margin: 0;
+}
+
+.c2 {
+  border-bottom: var(--bds-sizes-size-1) solid var(--bds-color-border-subdued);
+}
+
+.c4 {
+  color: hsl(0,0%,0%,.87);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: hsl(0,0%,0%,.87);
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  font-size: var(--bds-font-tag-h5-mobile-font-size);
+  line-height: var(--bds-font-tag-h5-mobile-line-height);
+}
+
+.c4.align--left {
+  text-align: left;
+}
+
+.c4.align--center {
+  text-align: center;
+}
+
+.c4.align--right {
+  text-align: right;
+}
+
+.c4.display--block {
+  display: block;
+}
+
+.c4.display--inline {
+  display: inline;
+}
+
+.c4 b,
+.c4 bold,
+.c4 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c4.bold {
+  font-weight: 500;
+}
+
+.c3 {
+  padding: var(--bds-sizes-size-14) var(--bds-sizes-size-36) var(--bds-sizes-size-14) var(--bds-sizes-size-16);
+  width: 75%;
+  font-size: var(--bds-sizes-size-16);
+  background-color: var(--bds-color-surface-subdued);
+}
+
+.c3 svg {
+  vertical-align: middle;
+}
+
+.c3 .td-container,
+.c3 .th-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 .td-container .more-info,
+.c3 .th-container .more-info {
+  margin-left: var(--bds-sizes-size-4);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.c3 h6 {
+  margin: 0;
+}
+
+.c3 .td-container > .cell-content {
+  display: block;
+  display: -webkit-box;
+  max-height: var(--bds-sizes-size-48);
+  margin: 0;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c3 .cell-content .header-content {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c3 .cell-content.overflow {
+  overflow: hidden;
+}
+
+.c5 {
+  padding: var(--bds-sizes-size-14) var(--bds-sizes-size-36) var(--bds-sizes-size-14) var(--bds-sizes-size-16);
+  width: auto;
+  font-size: var(--bds-sizes-size-16);
+  background-color: var(--bds-color-surface-subdued);
+}
+
+.c5 svg {
+  vertical-align: middle;
+}
+
+.c5 .td-container,
+.c5 .th-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c5 .td-container .more-info,
+.c5 .th-container .more-info {
+  margin-left: var(--bds-sizes-size-4);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.c5 h6 {
+  margin: 0;
+}
+
+.c5 .td-container > .cell-content {
+  display: block;
+  display: -webkit-box;
+  max-height: var(--bds-sizes-size-48);
+  margin: 0;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c5 .cell-content .header-content {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c5 .cell-content.overflow {
+  overflow: hidden;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c4 {
+    font-size: var(--bds-font-tag-h5-desktop-font-size);
+    line-height: var(--bds-font-tag-h5-desktop-line-height);
+  }
+}
+
+@media screen and (-ms-high-contrast:active),(-ms-high-contrast:none) {
+  .c3 .td-container > .cell-content * {
+    max-height: var(--bds-sizes-size-40);
+  }
+}
+
+@media screen and (-ms-high-contrast:active),(-ms-high-contrast:none) {
+  .c5 .td-container > .cell-content * {
+    max-height: var(--bds-sizes-size-40);
+  }
+}
+
+<table
+    class="c0 table shape--rounded variant--filled right-rule-on"
+  >
+    <thead
+      class="c1 table-head"
+    >
+      <tr
+        class="c2 table-row"
+      >
+        <th
+          class="c3 table-header-cell header-cell table-cell shape--rounded"
+          width="75"
+        >
+          <div
+            class="th-container"
+          >
+            <div
+              class="cell-content"
+            >
+              <h5
+                class="c4 typography variant--h5 align--left header-content"
+                color="text_primary"
+              >
+                header1.1
+              </h5>
+            </div>
+          </div>
+        </th>
+        <th
+          class="c5 table-header-cell header-cell table-cell shape--rounded"
+        >
+          <div
+            class="th-container"
+          >
+            <div
+              class="cell-content"
+            >
+              <h5
+                class="c4 typography variant--h5 align--left header-content"
+                color="text_primary"
+              >
+                header1.2
+              </h5>
+            </div>
+          </div>
+        </th>
+      </tr>
+    </thead>
+  </table>
+</DocumentFragment>
+`;
+
+exports[`TableHeader Snapshots themes TableHeader dark theme snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0;
+  box-sizing: border-box;
+}
+
+.c0 thead,
+.c0 tbody,
+.c0 tfoot,
+.c0 tr,
+.c0 th,
+.c0 td {
+  box-sizing: border-box;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.variant--outlined th {
+  background-color: var(--bds-color-surface-default);
+}
+
+.c0.right-rule-on tr th:not(:last-child),
+.c0.right-rule-on tr td:not(:last-child) {
+  border-right: 1px solid var(--bds-color-border-subdued);
+}
+
+.c0 h5 {
+  margin: 0;
+}
+
+.c0.shape--rounded > .table-head > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c0.shape--rounded > .table-head > .table-row:first-child > .table-cell:first-child {
+  border-top-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-head > .table-row:first-child > .table-cell:last-child {
+  border-top-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c0.shape--rounded > .table-body:first-child > .table-row:first-child > .table-cell:first-child {
+  border-top-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body:first-child > .table-row:first-child > .table-cell:last-child {
+  border-top-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row:last-child > .table-cell:first-child {
+  border-bottom-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row:last-child > .table-cell:last-child {
+  border-bottom-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--squared > .table-head > .table-row > .table-cell,
+.c0.shape--squared > .table-body > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c1 {
+  border-bottom: 1px solid var(--bds-color-border-subdued);
+}
+
+.c1 h5 {
+  margin: 0;
+}
+
+.c2 {
+  border-bottom: var(--bds-sizes-size-1) solid var(--bds-color-border-subdued);
+}
+
+.c4 {
+  color: hsl(0,0%,100%,.87);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: hsl(0,0%,100%,.87);
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  font-size: var(--bds-font-tag-h5-mobile-font-size);
+  line-height: var(--bds-font-tag-h5-mobile-line-height);
+}
+
+.c4.align--left {
+  text-align: left;
+}
+
+.c4.align--center {
+  text-align: center;
+}
+
+.c4.align--right {
+  text-align: right;
+}
+
+.c4.display--block {
+  display: block;
+}
+
+.c4.display--inline {
+  display: inline;
+}
+
+.c4 b,
+.c4 bold,
+.c4 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c4.bold {
+  font-weight: 500;
+}
+
+.c3 {
+  padding: var(--bds-sizes-size-14) var(--bds-sizes-size-36) var(--bds-sizes-size-14) var(--bds-sizes-size-16);
+  width: auto;
+  font-size: var(--bds-sizes-size-16);
+  background-color: var(--bds-color-surface-subdued);
+}
+
+.c3 svg {
+  vertical-align: middle;
+}
+
+.c3 .td-container,
+.c3 .th-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 .td-container .more-info,
+.c3 .th-container .more-info {
+  margin-left: var(--bds-sizes-size-4);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.c3 h6 {
+  margin: 0;
+}
+
+.c3 .td-container > .cell-content {
+  display: block;
+  display: -webkit-box;
+  max-height: var(--bds-sizes-size-48);
+  margin: 0;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c3 .cell-content .header-content {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c3 .cell-content.overflow {
+  overflow: hidden;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c4 {
+    font-size: var(--bds-font-tag-h5-desktop-font-size);
+    line-height: var(--bds-font-tag-h5-desktop-line-height);
+  }
+}
+
+@media screen and (-ms-high-contrast:active),(-ms-high-contrast:none) {
+  .c3 .td-container > .cell-content * {
+    max-height: var(--bds-sizes-size-40);
+  }
+}
+
+<table
+    class="c0 table shape--rounded variant--filled right-rule-on"
+  >
+    <thead
+      class="c1 table-head"
+    >
+      <tr
+        class="c2 table-row"
+      >
+        <th
+          class="c3 table-header-cell header-cell table-cell shape--rounded"
+        >
+          <div
+            class="th-container"
+          >
+            <div
+              class="cell-content"
+            >
+              <h5
+                class="c4 typography variant--h5 align--left header-content"
+                color="text_primary"
+              >
+                header
+              </h5>
+            </div>
+          </div>
+        </th>
+      </tr>
+    </thead>
+  </table>
+</DocumentFragment>
+`;
+
+exports[`TableHeader Snapshots themes TableHeader light theme snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0;
+  box-sizing: border-box;
+}
+
+.c0 thead,
+.c0 tbody,
+.c0 tfoot,
+.c0 tr,
+.c0 th,
+.c0 td {
+  box-sizing: border-box;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.variant--outlined th {
+  background-color: var(--bds-color-surface-default);
+}
+
+.c0.right-rule-on tr th:not(:last-child),
+.c0.right-rule-on tr td:not(:last-child) {
+  border-right: 1px solid var(--bds-color-border-subdued);
+}
+
+.c0 h5 {
+  margin: 0;
+}
+
+.c0.shape--rounded > .table-head > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c0.shape--rounded > .table-head > .table-row:first-child > .table-cell:first-child {
+  border-top-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-head > .table-row:first-child > .table-cell:last-child {
+  border-top-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c0.shape--rounded > .table-body:first-child > .table-row:first-child > .table-cell:first-child {
+  border-top-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body:first-child > .table-row:first-child > .table-cell:last-child {
+  border-top-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row:last-child > .table-cell:first-child {
+  border-bottom-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row:last-child > .table-cell:last-child {
+  border-bottom-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--squared > .table-head > .table-row > .table-cell,
+.c0.shape--squared > .table-body > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c1 {
+  border-bottom: 1px solid var(--bds-color-border-subdued);
+}
+
+.c1 h5 {
+  margin: 0;
+}
+
+.c2 {
+  border-bottom: var(--bds-sizes-size-1) solid var(--bds-color-border-subdued);
+}
+
+.c4 {
+  color: hsl(0,0%,0%,.87);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: hsl(0,0%,0%,.87);
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  font-size: var(--bds-font-tag-h5-mobile-font-size);
+  line-height: var(--bds-font-tag-h5-mobile-line-height);
+}
+
+.c4.align--left {
+  text-align: left;
+}
+
+.c4.align--center {
+  text-align: center;
+}
+
+.c4.align--right {
+  text-align: right;
+}
+
+.c4.display--block {
+  display: block;
+}
+
+.c4.display--inline {
+  display: inline;
+}
+
+.c4 b,
+.c4 bold,
+.c4 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c4.bold {
+  font-weight: 500;
+}
+
+.c3 {
+  padding: var(--bds-sizes-size-14) var(--bds-sizes-size-36) var(--bds-sizes-size-14) var(--bds-sizes-size-16);
+  width: auto;
+  font-size: var(--bds-sizes-size-16);
+  background-color: var(--bds-color-surface-subdued);
+}
+
+.c3 svg {
+  vertical-align: middle;
+}
+
+.c3 .td-container,
+.c3 .th-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 .td-container .more-info,
+.c3 .th-container .more-info {
+  margin-left: var(--bds-sizes-size-4);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.c3 h6 {
+  margin: 0;
+}
+
+.c3 .td-container > .cell-content {
+  display: block;
+  display: -webkit-box;
+  max-height: var(--bds-sizes-size-48);
+  margin: 0;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c3 .cell-content .header-content {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c3 .cell-content.overflow {
+  overflow: hidden;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c4 {
+    font-size: var(--bds-font-tag-h5-desktop-font-size);
+    line-height: var(--bds-font-tag-h5-desktop-line-height);
+  }
+}
+
+@media screen and (-ms-high-contrast:active),(-ms-high-contrast:none) {
+  .c3 .td-container > .cell-content * {
+    max-height: var(--bds-sizes-size-40);
+  }
+}
+
+<table
+    class="c0 table shape--rounded variant--filled right-rule-on"
+  >
+    <thead
+      class="c1 table-head"
+    >
+      <tr
+        class="c2 table-row"
+      >
+        <th
+          class="c3 table-header-cell header-cell table-cell shape--rounded"
+        >
+          <div
+            class="th-container"
+          >
+            <div
+              class="cell-content"
+            >
+              <h5
+                class="c4 typography variant--h5 align--left header-content"
+                color="text_primary"
+              >
+                header
+              </h5>
+            </div>
+          </div>
+        </th>
+      </tr>
+    </thead>
+  </table>
+</DocumentFragment>
+`;

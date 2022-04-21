@@ -1,0 +1,1514 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableCell Snapshots TableCell default snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0;
+  box-sizing: border-box;
+}
+
+.c0 thead,
+.c0 tbody,
+.c0 tfoot,
+.c0 tr,
+.c0 th,
+.c0 td {
+  box-sizing: border-box;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.variant--outlined th {
+  background-color: var(--bds-color-surface-default);
+}
+
+.c0.right-rule-on tr th:not(:last-child),
+.c0.right-rule-on tr td:not(:last-child) {
+  border-right: 1px solid var(--bds-color-border-subdued);
+}
+
+.c0 h5 {
+  margin: 0;
+}
+
+.c0.shape--rounded > .table-head > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c0.shape--rounded > .table-head > .table-row:first-child > .table-cell:first-child {
+  border-top-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-head > .table-row:first-child > .table-cell:last-child {
+  border-top-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c0.shape--rounded > .table-body:first-child > .table-row:first-child > .table-cell:first-child {
+  border-top-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body:first-child > .table-row:first-child > .table-cell:last-child {
+  border-top-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row:last-child > .table-cell:first-child {
+  border-bottom-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row:last-child > .table-cell:last-child {
+  border-bottom-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--squared > .table-head > .table-row > .table-cell,
+.c0.shape--squared > .table-body > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c1 {
+  border-bottom: var(--bds-sizes-size-1) solid var(--bds-color-border-subdued);
+}
+
+.c3 {
+  color: hsl(0,0%,0%,.60);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  color: hsl(0,0%,0%,.60);
+}
+
+.c3.align--left {
+  text-align: left;
+}
+
+.c3.align--center {
+  text-align: center;
+}
+
+.c3.align--right {
+  text-align: right;
+}
+
+.c3.display--block {
+  display: block;
+}
+
+.c3.display--inline {
+  display: inline;
+}
+
+.c3 b,
+.c3 bold,
+.c3 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c3.bold {
+  font-weight: 500;
+}
+
+.c3.c3.c3.body_1 {
+  font-size: var(--bds-font-tag-body-1-mobile-font-size);
+  line-height: var(--bds-font-tag-body-1-mobile-line-height);
+}
+
+.c3.c3.c3.body_2 {
+  font-size: var(--bds-font-tag-body-2-mobile-font-size);
+  line-height: var(--bds-font-tag-body-2-mobile-line-height);
+}
+
+.c2 {
+  padding: var(--bds-sizes-size-14) var(--bds-sizes-size-36) var(--bds-sizes-size-14) var(--bds-sizes-size-16);
+  width: auto;
+  font-size: var(--bds-sizes-size-16);
+}
+
+.c2 svg {
+  vertical-align: middle;
+}
+
+.c2 .td-container,
+.c2 .th-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 .td-container .more-info,
+.c2 .th-container .more-info {
+  margin-left: var(--bds-sizes-size-4);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.c2 h6 {
+  margin: 0;
+}
+
+.c2 .td-container > .cell-content {
+  display: block;
+  display: -webkit-box;
+  max-height: var(--bds-sizes-size-48);
+  margin: 0;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c3.c3.c3.body_1 {
+    font-size: var(--bds-font-tag-body-1-desktop-font-size);
+    line-height: var(--bds-font-tag-body-1-desktop-line-height);
+  }
+
+  .c3.c3.c3.body_2 {
+    font-size: var(--bds-font-tag-body-2-desktop-font-size);
+    line-height: var(--bds-font-tag-body-2-desktop-line-height);
+  }
+}
+
+@media screen and (-ms-high-contrast:active),(-ms-high-contrast:none) {
+  .c2 .td-container > .cell-content * {
+    max-height: var(--bds-sizes-size-40);
+  }
+}
+
+<table
+    class="c0 table shape--rounded variant--filled right-rule-on"
+  >
+    <tbody
+      class="table-body"
+    >
+      <tr
+        class="c1 table-row"
+      >
+        <td
+          class="c2 table-body-cell table-cell data-cell shape--rounded"
+        >
+          <div
+            class="td-container"
+          >
+            <div
+              class="cell-content"
+            >
+              <div
+                class="c3 typography variant--body_1 align--left body_1"
+                color="text_tertiary"
+              >
+                cell data
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</DocumentFragment>
+`;
+
+exports[`TableCell Snapshots extra props TableCell DOM props (id, className) snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0;
+  box-sizing: border-box;
+}
+
+.c0 thead,
+.c0 tbody,
+.c0 tfoot,
+.c0 tr,
+.c0 th,
+.c0 td {
+  box-sizing: border-box;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.variant--outlined th {
+  background-color: var(--bds-color-surface-default);
+}
+
+.c0.right-rule-on tr th:not(:last-child),
+.c0.right-rule-on tr td:not(:last-child) {
+  border-right: 1px solid var(--bds-color-border-subdued);
+}
+
+.c0 h5 {
+  margin: 0;
+}
+
+.c0.shape--rounded > .table-head > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c0.shape--rounded > .table-head > .table-row:first-child > .table-cell:first-child {
+  border-top-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-head > .table-row:first-child > .table-cell:last-child {
+  border-top-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c0.shape--rounded > .table-body:first-child > .table-row:first-child > .table-cell:first-child {
+  border-top-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body:first-child > .table-row:first-child > .table-cell:last-child {
+  border-top-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row:last-child > .table-cell:first-child {
+  border-bottom-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row:last-child > .table-cell:last-child {
+  border-bottom-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--squared > .table-head > .table-row > .table-cell,
+.c0.shape--squared > .table-body > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c1 {
+  border-bottom: var(--bds-sizes-size-1) solid var(--bds-color-border-subdued);
+}
+
+.c3 {
+  color: hsl(0,0%,0%,.60);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  color: hsl(0,0%,0%,.60);
+}
+
+.c3.align--left {
+  text-align: left;
+}
+
+.c3.align--center {
+  text-align: center;
+}
+
+.c3.align--right {
+  text-align: right;
+}
+
+.c3.display--block {
+  display: block;
+}
+
+.c3.display--inline {
+  display: inline;
+}
+
+.c3 b,
+.c3 bold,
+.c3 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c3.bold {
+  font-weight: 500;
+}
+
+.c3.c3.c3.body_1 {
+  font-size: var(--bds-font-tag-body-1-mobile-font-size);
+  line-height: var(--bds-font-tag-body-1-mobile-line-height);
+}
+
+.c3.c3.c3.body_2 {
+  font-size: var(--bds-font-tag-body-2-mobile-font-size);
+  line-height: var(--bds-font-tag-body-2-mobile-line-height);
+}
+
+.c2 {
+  padding: var(--bds-sizes-size-14) var(--bds-sizes-size-36) var(--bds-sizes-size-14) var(--bds-sizes-size-16);
+  width: auto;
+  font-size: var(--bds-sizes-size-16);
+}
+
+.c2 svg {
+  vertical-align: middle;
+}
+
+.c2 .td-container,
+.c2 .th-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 .td-container .more-info,
+.c2 .th-container .more-info {
+  margin-left: var(--bds-sizes-size-4);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.c2 h6 {
+  margin: 0;
+}
+
+.c2 .td-container > .cell-content {
+  display: block;
+  display: -webkit-box;
+  max-height: var(--bds-sizes-size-48);
+  margin: 0;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c3.c3.c3.body_1 {
+    font-size: var(--bds-font-tag-body-1-desktop-font-size);
+    line-height: var(--bds-font-tag-body-1-desktop-line-height);
+  }
+
+  .c3.c3.c3.body_2 {
+    font-size: var(--bds-font-tag-body-2-desktop-font-size);
+    line-height: var(--bds-font-tag-body-2-desktop-line-height);
+  }
+}
+
+@media screen and (-ms-high-contrast:active),(-ms-high-contrast:none) {
+  .c2 .td-container > .cell-content * {
+    max-height: var(--bds-sizes-size-40);
+  }
+}
+
+<table
+    class="c0 table shape--rounded variant--filled right-rule-on"
+  >
+    <tbody
+      class="table-body"
+    >
+      <tr
+        class="c1 table-row"
+      >
+        <td
+          class="c2 table-body-cell table-cell data-cell shape--rounded classname"
+          id="id"
+        >
+          <div
+            class="td-container"
+          >
+            <div
+              class="cell-content"
+            >
+              <div
+                class="c3 typography variant--body_1 align--left body_1"
+                color="text_tertiary"
+              >
+                cell data
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</DocumentFragment>
+`;
+
+exports[`TableCell Snapshots prop: moreInfo Adds the more info icon to cell 1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0;
+  box-sizing: border-box;
+}
+
+.c0 thead,
+.c0 tbody,
+.c0 tfoot,
+.c0 tr,
+.c0 th,
+.c0 td {
+  box-sizing: border-box;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.variant--outlined th {
+  background-color: var(--bds-color-surface-default);
+}
+
+.c0.right-rule-on tr th:not(:last-child),
+.c0.right-rule-on tr td:not(:last-child) {
+  border-right: 1px solid var(--bds-color-border-subdued);
+}
+
+.c0 h5 {
+  margin: 0;
+}
+
+.c0.shape--rounded > .table-head > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c0.shape--rounded > .table-head > .table-row:first-child > .table-cell:first-child {
+  border-top-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-head > .table-row:first-child > .table-cell:last-child {
+  border-top-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c0.shape--rounded > .table-body:first-child > .table-row:first-child > .table-cell:first-child {
+  border-top-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body:first-child > .table-row:first-child > .table-cell:last-child {
+  border-top-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row:last-child > .table-cell:first-child {
+  border-bottom-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row:last-child > .table-cell:last-child {
+  border-bottom-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--squared > .table-head > .table-row > .table-cell,
+.c0.shape--squared > .table-body > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c1 {
+  border-bottom: var(--bds-sizes-size-1) solid var(--bds-color-border-subdued);
+}
+
+.c3 {
+  color: hsl(0,0%,0%,.60);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  color: hsl(0,0%,0%,.60);
+}
+
+.c3.align--left {
+  text-align: left;
+}
+
+.c3.align--center {
+  text-align: center;
+}
+
+.c3.align--right {
+  text-align: right;
+}
+
+.c3.display--block {
+  display: block;
+}
+
+.c3.display--inline {
+  display: inline;
+}
+
+.c3 b,
+.c3 bold,
+.c3 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c3.bold {
+  font-weight: 500;
+}
+
+.c3.c3.c3.body_1 {
+  font-size: var(--bds-font-tag-body-1-mobile-font-size);
+  line-height: var(--bds-font-tag-body-1-mobile-line-height);
+}
+
+.c3.c3.c3.body_2 {
+  font-size: var(--bds-font-tag-body-2-mobile-font-size);
+  line-height: var(--bds-font-tag-body-2-mobile-line-height);
+}
+
+.c2 {
+  padding: var(--bds-sizes-size-14) var(--bds-sizes-size-36) var(--bds-sizes-size-14) var(--bds-sizes-size-16);
+  width: auto;
+  font-size: var(--bds-sizes-size-16);
+}
+
+.c2 svg {
+  vertical-align: middle;
+}
+
+.c2 .td-container,
+.c2 .th-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 .td-container .more-info,
+.c2 .th-container .more-info {
+  margin-left: var(--bds-sizes-size-4);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.c2 h6 {
+  margin: 0;
+}
+
+.c2 .td-container > .cell-content {
+  display: block;
+  display: -webkit-box;
+  max-height: var(--bds-sizes-size-48);
+  margin: 0;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c3.c3.c3.body_1 {
+    font-size: var(--bds-font-tag-body-1-desktop-font-size);
+    line-height: var(--bds-font-tag-body-1-desktop-line-height);
+  }
+
+  .c3.c3.c3.body_2 {
+    font-size: var(--bds-font-tag-body-2-desktop-font-size);
+    line-height: var(--bds-font-tag-body-2-desktop-line-height);
+  }
+}
+
+@media screen and (-ms-high-contrast:active),(-ms-high-contrast:none) {
+  .c2 .td-container > .cell-content * {
+    max-height: var(--bds-sizes-size-40);
+  }
+}
+
+<table
+    class="c0 table shape--rounded variant--filled right-rule-on"
+  >
+    <tbody
+      class="table-body"
+    >
+      <tr
+        class="c1 table-row"
+      >
+        <td
+          class="c2 table-body-cell table-cell data-cell shape--rounded"
+        >
+          <div
+            class="td-container"
+          >
+            <div
+              class="cell-content"
+            >
+              <div
+                class="c3 typography variant--body_1 align--left body_1"
+                color="text_tertiary"
+              >
+                cell data
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</DocumentFragment>
+`;
+
+exports[`TableCell Snapshots prop: width Sets width of table 1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0;
+  box-sizing: border-box;
+}
+
+.c0 thead,
+.c0 tbody,
+.c0 tfoot,
+.c0 tr,
+.c0 th,
+.c0 td {
+  box-sizing: border-box;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.variant--outlined th {
+  background-color: var(--bds-color-surface-default);
+}
+
+.c0.right-rule-on tr th:not(:last-child),
+.c0.right-rule-on tr td:not(:last-child) {
+  border-right: 1px solid var(--bds-color-border-subdued);
+}
+
+.c0 h5 {
+  margin: 0;
+}
+
+.c0.shape--rounded > .table-head > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c0.shape--rounded > .table-head > .table-row:first-child > .table-cell:first-child {
+  border-top-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-head > .table-row:first-child > .table-cell:last-child {
+  border-top-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c0.shape--rounded > .table-body:first-child > .table-row:first-child > .table-cell:first-child {
+  border-top-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body:first-child > .table-row:first-child > .table-cell:last-child {
+  border-top-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row:last-child > .table-cell:first-child {
+  border-bottom-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row:last-child > .table-cell:last-child {
+  border-bottom-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--squared > .table-head > .table-row > .table-cell,
+.c0.shape--squared > .table-body > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c1 {
+  border-bottom: var(--bds-sizes-size-1) solid var(--bds-color-border-subdued);
+}
+
+.c3 {
+  color: hsl(0,0%,0%,.60);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  color: hsl(0,0%,0%,.60);
+}
+
+.c3.align--left {
+  text-align: left;
+}
+
+.c3.align--center {
+  text-align: center;
+}
+
+.c3.align--right {
+  text-align: right;
+}
+
+.c3.display--block {
+  display: block;
+}
+
+.c3.display--inline {
+  display: inline;
+}
+
+.c3 b,
+.c3 bold,
+.c3 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c3.bold {
+  font-weight: 500;
+}
+
+.c3.c3.c3.body_1 {
+  font-size: var(--bds-font-tag-body-1-mobile-font-size);
+  line-height: var(--bds-font-tag-body-1-mobile-line-height);
+}
+
+.c3.c3.c3.body_2 {
+  font-size: var(--bds-font-tag-body-2-mobile-font-size);
+  line-height: var(--bds-font-tag-body-2-mobile-line-height);
+}
+
+.c2 {
+  padding: var(--bds-sizes-size-14) var(--bds-sizes-size-36) var(--bds-sizes-size-14) var(--bds-sizes-size-16);
+  width: 75%;
+  font-size: var(--bds-sizes-size-16);
+}
+
+.c2 svg {
+  vertical-align: middle;
+}
+
+.c2 .td-container,
+.c2 .th-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 .td-container .more-info,
+.c2 .th-container .more-info {
+  margin-left: var(--bds-sizes-size-4);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.c2 h6 {
+  margin: 0;
+}
+
+.c2 .td-container > .cell-content {
+  display: block;
+  display: -webkit-box;
+  max-height: var(--bds-sizes-size-48);
+  margin: 0;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c4 {
+  padding: var(--bds-sizes-size-14) var(--bds-sizes-size-36) var(--bds-sizes-size-14) var(--bds-sizes-size-16);
+  width: auto;
+  font-size: var(--bds-sizes-size-16);
+}
+
+.c4 svg {
+  vertical-align: middle;
+}
+
+.c4 .td-container,
+.c4 .th-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c4 .td-container .more-info,
+.c4 .th-container .more-info {
+  margin-left: var(--bds-sizes-size-4);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.c4 h6 {
+  margin: 0;
+}
+
+.c4 .td-container > .cell-content {
+  display: block;
+  display: -webkit-box;
+  max-height: var(--bds-sizes-size-48);
+  margin: 0;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c3.c3.c3.body_1 {
+    font-size: var(--bds-font-tag-body-1-desktop-font-size);
+    line-height: var(--bds-font-tag-body-1-desktop-line-height);
+  }
+
+  .c3.c3.c3.body_2 {
+    font-size: var(--bds-font-tag-body-2-desktop-font-size);
+    line-height: var(--bds-font-tag-body-2-desktop-line-height);
+  }
+}
+
+@media screen and (-ms-high-contrast:active),(-ms-high-contrast:none) {
+  .c2 .td-container > .cell-content * {
+    max-height: var(--bds-sizes-size-40);
+  }
+}
+
+@media screen and (-ms-high-contrast:active),(-ms-high-contrast:none) {
+  .c4 .td-container > .cell-content * {
+    max-height: var(--bds-sizes-size-40);
+  }
+}
+
+<table
+    class="c0 table shape--rounded variant--filled right-rule-on"
+  >
+    <tbody
+      class="table-body"
+    >
+      <tr
+        class="c1 table-row"
+      >
+        <td
+          class="c2 table-body-cell table-cell data-cell shape--rounded"
+          width="75"
+        >
+          <div
+            class="td-container"
+          >
+            <div
+              class="cell-content"
+            >
+              <div
+                class="c3 typography variant--body_1 align--left body_1"
+                color="text_tertiary"
+              >
+                cell data1.1
+              </div>
+            </div>
+          </div>
+        </td>
+        <td
+          class="c4 table-body-cell table-cell data-cell shape--rounded"
+        >
+          <div
+            class="td-container"
+          >
+            <div
+              class="cell-content"
+            >
+              <div
+                class="c3 typography variant--body_1 align--left body_1"
+                color="text_tertiary"
+              >
+                cell data1.2
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr
+        class="c1 table-row"
+      >
+        <td
+          class="c4 table-body-cell table-cell data-cell shape--rounded"
+        >
+          <div
+            class="td-container"
+          >
+            <div
+              class="cell-content"
+            >
+              <div
+                class="c3 typography variant--body_1 align--left body_1"
+                color="text_tertiary"
+              >
+                cell data2.1
+              </div>
+            </div>
+          </div>
+        </td>
+        <td
+          class="c4 table-body-cell table-cell data-cell shape--rounded"
+        >
+          <div
+            class="td-container"
+          >
+            <div
+              class="cell-content"
+            >
+              <div
+                class="c3 typography variant--body_1 align--left body_1"
+                color="text_tertiary"
+              >
+                cell data2.2
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</DocumentFragment>
+`;
+
+exports[`TableCell Snapshots themes TableCell dark theme snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0;
+  box-sizing: border-box;
+}
+
+.c0 thead,
+.c0 tbody,
+.c0 tfoot,
+.c0 tr,
+.c0 th,
+.c0 td {
+  box-sizing: border-box;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.variant--outlined th {
+  background-color: var(--bds-color-surface-default);
+}
+
+.c0.right-rule-on tr th:not(:last-child),
+.c0.right-rule-on tr td:not(:last-child) {
+  border-right: 1px solid var(--bds-color-border-subdued);
+}
+
+.c0 h5 {
+  margin: 0;
+}
+
+.c0.shape--rounded > .table-head > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c0.shape--rounded > .table-head > .table-row:first-child > .table-cell:first-child {
+  border-top-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-head > .table-row:first-child > .table-cell:last-child {
+  border-top-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c0.shape--rounded > .table-body:first-child > .table-row:first-child > .table-cell:first-child {
+  border-top-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body:first-child > .table-row:first-child > .table-cell:last-child {
+  border-top-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row:last-child > .table-cell:first-child {
+  border-bottom-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row:last-child > .table-cell:last-child {
+  border-bottom-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--squared > .table-head > .table-row > .table-cell,
+.c0.shape--squared > .table-body > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c1 {
+  border-bottom: var(--bds-sizes-size-1) solid var(--bds-color-border-subdued);
+}
+
+.c3 {
+  color: hsl(0,0%,100%,.60);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  color: hsl(0,0%,100%,.60);
+}
+
+.c3.align--left {
+  text-align: left;
+}
+
+.c3.align--center {
+  text-align: center;
+}
+
+.c3.align--right {
+  text-align: right;
+}
+
+.c3.display--block {
+  display: block;
+}
+
+.c3.display--inline {
+  display: inline;
+}
+
+.c3 b,
+.c3 bold,
+.c3 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c3.bold {
+  font-weight: 500;
+}
+
+.c3.c3.c3.body_1 {
+  font-size: var(--bds-font-tag-body-1-mobile-font-size);
+  line-height: var(--bds-font-tag-body-1-mobile-line-height);
+}
+
+.c3.c3.c3.body_2 {
+  font-size: var(--bds-font-tag-body-2-mobile-font-size);
+  line-height: var(--bds-font-tag-body-2-mobile-line-height);
+}
+
+.c2 {
+  padding: var(--bds-sizes-size-14) var(--bds-sizes-size-36) var(--bds-sizes-size-14) var(--bds-sizes-size-16);
+  width: auto;
+  font-size: var(--bds-sizes-size-16);
+}
+
+.c2 svg {
+  vertical-align: middle;
+}
+
+.c2 .td-container,
+.c2 .th-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 .td-container .more-info,
+.c2 .th-container .more-info {
+  margin-left: var(--bds-sizes-size-4);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.c2 h6 {
+  margin: 0;
+}
+
+.c2 .td-container > .cell-content {
+  display: block;
+  display: -webkit-box;
+  max-height: var(--bds-sizes-size-48);
+  margin: 0;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c3.c3.c3.body_1 {
+    font-size: var(--bds-font-tag-body-1-desktop-font-size);
+    line-height: var(--bds-font-tag-body-1-desktop-line-height);
+  }
+
+  .c3.c3.c3.body_2 {
+    font-size: var(--bds-font-tag-body-2-desktop-font-size);
+    line-height: var(--bds-font-tag-body-2-desktop-line-height);
+  }
+}
+
+@media screen and (-ms-high-contrast:active),(-ms-high-contrast:none) {
+  .c2 .td-container > .cell-content * {
+    max-height: var(--bds-sizes-size-40);
+  }
+}
+
+<table
+    class="c0 table shape--rounded variant--filled right-rule-on"
+  >
+    <tbody
+      class="table-body"
+    >
+      <tr
+        class="c1 table-row"
+      >
+        <td
+          class="c2 table-body-cell table-cell data-cell shape--rounded"
+        >
+          <div
+            class="td-container"
+          >
+            <div
+              class="cell-content"
+            >
+              <div
+                class="c3 typography variant--body_1 align--left body_1"
+                color="text_tertiary"
+              >
+                cell data
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</DocumentFragment>
+`;
+
+exports[`TableCell Snapshots themes TableCell light theme snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0;
+  box-sizing: border-box;
+}
+
+.c0 thead,
+.c0 tbody,
+.c0 tfoot,
+.c0 tr,
+.c0 th,
+.c0 td {
+  box-sizing: border-box;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.variant--outlined th {
+  background-color: var(--bds-color-surface-default);
+}
+
+.c0.right-rule-on tr th:not(:last-child),
+.c0.right-rule-on tr td:not(:last-child) {
+  border-right: 1px solid var(--bds-color-border-subdued);
+}
+
+.c0 h5 {
+  margin: 0;
+}
+
+.c0.shape--rounded > .table-head > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c0.shape--rounded > .table-head > .table-row:first-child > .table-cell:first-child {
+  border-top-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-head > .table-row:first-child > .table-cell:last-child {
+  border-top-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c0.shape--rounded > .table-body:first-child > .table-row:first-child > .table-cell:first-child {
+  border-top-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body:first-child > .table-row:first-child > .table-cell:last-child {
+  border-top-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row:last-child > .table-cell:first-child {
+  border-bottom-left-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--rounded > .table-body > .table-row:last-child > .table-cell:last-child {
+  border-bottom-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--squared > .table-head > .table-row > .table-cell,
+.c0.shape--squared > .table-body > .table-row > .table-cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c1 {
+  border-bottom: var(--bds-sizes-size-1) solid var(--bds-color-border-subdued);
+}
+
+.c3 {
+  color: hsl(0,0%,0%,.60);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  color: hsl(0,0%,0%,.60);
+}
+
+.c3.align--left {
+  text-align: left;
+}
+
+.c3.align--center {
+  text-align: center;
+}
+
+.c3.align--right {
+  text-align: right;
+}
+
+.c3.display--block {
+  display: block;
+}
+
+.c3.display--inline {
+  display: inline;
+}
+
+.c3 b,
+.c3 bold,
+.c3 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c3.bold {
+  font-weight: 500;
+}
+
+.c3.c3.c3.body_1 {
+  font-size: var(--bds-font-tag-body-1-mobile-font-size);
+  line-height: var(--bds-font-tag-body-1-mobile-line-height);
+}
+
+.c3.c3.c3.body_2 {
+  font-size: var(--bds-font-tag-body-2-mobile-font-size);
+  line-height: var(--bds-font-tag-body-2-mobile-line-height);
+}
+
+.c2 {
+  padding: var(--bds-sizes-size-14) var(--bds-sizes-size-36) var(--bds-sizes-size-14) var(--bds-sizes-size-16);
+  width: auto;
+  font-size: var(--bds-sizes-size-16);
+}
+
+.c2 svg {
+  vertical-align: middle;
+}
+
+.c2 .td-container,
+.c2 .th-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 .td-container .more-info,
+.c2 .th-container .more-info {
+  margin-left: var(--bds-sizes-size-4);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.c2 h6 {
+  margin: 0;
+}
+
+.c2 .td-container > .cell-content {
+  display: block;
+  display: -webkit-box;
+  max-height: var(--bds-sizes-size-48);
+  margin: 0;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c3.c3.c3.body_1 {
+    font-size: var(--bds-font-tag-body-1-desktop-font-size);
+    line-height: var(--bds-font-tag-body-1-desktop-line-height);
+  }
+
+  .c3.c3.c3.body_2 {
+    font-size: var(--bds-font-tag-body-2-desktop-font-size);
+    line-height: var(--bds-font-tag-body-2-desktop-line-height);
+  }
+}
+
+@media screen and (-ms-high-contrast:active),(-ms-high-contrast:none) {
+  .c2 .td-container > .cell-content * {
+    max-height: var(--bds-sizes-size-40);
+  }
+}
+
+<table
+    class="c0 table shape--rounded variant--filled right-rule-on"
+  >
+    <tbody
+      class="table-body"
+    >
+      <tr
+        class="c1 table-row"
+      >
+        <td
+          class="c2 table-body-cell table-cell data-cell shape--rounded"
+        >
+          <div
+            class="td-container"
+          >
+            <div
+              class="cell-content"
+            >
+              <div
+                class="c3 typography variant--body_1 align--left body_1"
+                color="text_tertiary"
+              >
+                cell data
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</DocumentFragment>
+`;

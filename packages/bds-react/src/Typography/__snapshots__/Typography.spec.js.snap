@@ -1,0 +1,2082 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Typography Snapshots Typography default snapshot 1`] = `
+<DocumentFragment>
+  <span
+    class="typography variant--body align--left"
+    color="text_primary"
+  >
+    Test
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Typography Snapshots extra props Typography DOM id snapshot 1`] = `
+<DocumentFragment>
+  <span
+    class="typography variant--body align--left"
+    color="text_primary"
+    id="test"
+  >
+    Test
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Typography Snapshots extra props Typography className snapshot 1`] = `
+<DocumentFragment>
+  <span
+    class="typography variant--body align--left test-class"
+    color="text_primary"
+  >
+    Test
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Typography Snapshots prop: align Typography center align snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  color: hsl(0,0%,0%,.87);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: hsl(0,0%,0%,.87);
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  font-size: var(--bds-font-tag-h2-mobile-font-size);
+  line-height: var(--bds-font-tag-h2-mobile-line-height);
+}
+
+.c0.align--left {
+  text-align: left;
+}
+
+.c0.align--center {
+  text-align: center;
+}
+
+.c0.align--right {
+  text-align: right;
+}
+
+.c0.display--block {
+  display: block;
+}
+
+.c0.display--inline {
+  display: inline;
+}
+
+.c0 b,
+.c0 bold,
+.c0 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.bold {
+  font-weight: 500;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c0 {
+    font-size: var(--bds-font-tag-h2-desktop-font-size);
+    line-height: var(--bds-font-tag-h2-desktop-line-height);
+  }
+}
+
+<h2
+    class="c0 typography variant--h2 align--center"
+    color="text_primary"
+  >
+    The quick brown fox lept over the lazy dog
+  </h2>
+</DocumentFragment>
+`;
+
+exports[`Typography Snapshots prop: align Typography left align snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  color: hsl(0,0%,0%,.87);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: hsl(0,0%,0%,.87);
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  font-size: var(--bds-font-tag-h2-mobile-font-size);
+  line-height: var(--bds-font-tag-h2-mobile-line-height);
+}
+
+.c0.align--left {
+  text-align: left;
+}
+
+.c0.align--center {
+  text-align: center;
+}
+
+.c0.align--right {
+  text-align: right;
+}
+
+.c0.display--block {
+  display: block;
+}
+
+.c0.display--inline {
+  display: inline;
+}
+
+.c0 b,
+.c0 bold,
+.c0 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.bold {
+  font-weight: 500;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c0 {
+    font-size: var(--bds-font-tag-h2-desktop-font-size);
+    line-height: var(--bds-font-tag-h2-desktop-line-height);
+  }
+}
+
+<h2
+    class="c0 typography variant--h2 align--left"
+    color="text_primary"
+  >
+    The quick brown fox lept over the lazy dog
+  </h2>
+</DocumentFragment>
+`;
+
+exports[`Typography Snapshots prop: align Typography right align snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  color: hsl(0,0%,0%,.87);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: hsl(0,0%,0%,.87);
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  font-size: var(--bds-font-tag-h2-mobile-font-size);
+  line-height: var(--bds-font-tag-h2-mobile-line-height);
+}
+
+.c0.align--left {
+  text-align: left;
+}
+
+.c0.align--center {
+  text-align: center;
+}
+
+.c0.align--right {
+  text-align: right;
+}
+
+.c0.display--block {
+  display: block;
+}
+
+.c0.display--inline {
+  display: inline;
+}
+
+.c0 b,
+.c0 bold,
+.c0 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.bold {
+  font-weight: 500;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c0 {
+    font-size: var(--bds-font-tag-h2-desktop-font-size);
+    line-height: var(--bds-font-tag-h2-desktop-line-height);
+  }
+}
+
+<h2
+    class="c0 typography variant--h2 align--right"
+    color="text_primary"
+  >
+    The quick brown fox lept over the lazy dog
+  </h2>
+</DocumentFragment>
+`;
+
+exports[`Typography Snapshots prop: color Typography black color snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  color: hsl(0,0%,0%,1);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: hsl(0,0%,0%,1);
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  font-size: var(--bds-font-tag-h2-mobile-font-size);
+  line-height: var(--bds-font-tag-h2-mobile-line-height);
+}
+
+.c0.align--left {
+  text-align: left;
+}
+
+.c0.align--center {
+  text-align: center;
+}
+
+.c0.align--right {
+  text-align: right;
+}
+
+.c0.display--block {
+  display: block;
+}
+
+.c0.display--inline {
+  display: inline;
+}
+
+.c0 b,
+.c0 bold,
+.c0 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.bold {
+  font-weight: 500;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c0 {
+    font-size: var(--bds-font-tag-h2-desktop-font-size);
+    line-height: var(--bds-font-tag-h2-desktop-line-height);
+  }
+}
+
+<h2
+    class="c0 typography variant--h2 align--left"
+    color="black"
+  >
+    The quick brown fox lept over the lazy dog
+  </h2>
+</DocumentFragment>
+`;
+
+exports[`Typography Snapshots prop: color Typography disabled color snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  color: hsl(0,0%,0%,.87);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: hsl(0,0%,0%,.87);
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  font-size: var(--bds-font-tag-h2-mobile-font-size);
+  line-height: var(--bds-font-tag-h2-mobile-line-height);
+}
+
+.c0.align--left {
+  text-align: left;
+}
+
+.c0.align--center {
+  text-align: center;
+}
+
+.c0.align--right {
+  text-align: right;
+}
+
+.c0.display--block {
+  display: block;
+}
+
+.c0.display--inline {
+  display: inline;
+}
+
+.c0 b,
+.c0 bold,
+.c0 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.bold {
+  font-weight: 500;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c0 {
+    font-size: var(--bds-font-tag-h2-desktop-font-size);
+    line-height: var(--bds-font-tag-h2-desktop-line-height);
+  }
+}
+
+<h2
+    class="c0 typography variant--h2 align--left"
+    color="disabled"
+  >
+    The quick brown fox lept over the lazy dog
+  </h2>
+</DocumentFragment>
+`;
+
+exports[`Typography Snapshots prop: color Typography disabled color snapshot 2`] = `
+<DocumentFragment>
+  .c0 {
+  color: hsl(0,0%,0%,.87);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: hsl(0,0%,0%,.87);
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  font-size: var(--bds-font-tag-h2-mobile-font-size);
+  line-height: var(--bds-font-tag-h2-mobile-line-height);
+}
+
+.c0.align--left {
+  text-align: left;
+}
+
+.c0.align--center {
+  text-align: center;
+}
+
+.c0.align--right {
+  text-align: right;
+}
+
+.c0.display--block {
+  display: block;
+}
+
+.c0.display--inline {
+  display: inline;
+}
+
+.c0 b,
+.c0 bold,
+.c0 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.bold {
+  font-weight: 500;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c0 {
+    font-size: var(--bds-font-tag-h2-desktop-font-size);
+    line-height: var(--bds-font-tag-h2-desktop-line-height);
+  }
+}
+
+<h2
+    class="c0 typography variant--h2 align--left"
+    color="disabled"
+  >
+    The quick brown fox lept over the lazy dog
+  </h2>
+</DocumentFragment>
+`;
+
+exports[`Typography Snapshots prop: color Typography error color snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  color: hsl(0,0%,0%,.87);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: hsl(0,0%,0%,.87);
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  font-size: var(--bds-font-tag-h2-mobile-font-size);
+  line-height: var(--bds-font-tag-h2-mobile-line-height);
+}
+
+.c0.align--left {
+  text-align: left;
+}
+
+.c0.align--center {
+  text-align: center;
+}
+
+.c0.align--right {
+  text-align: right;
+}
+
+.c0.display--block {
+  display: block;
+}
+
+.c0.display--inline {
+  display: inline;
+}
+
+.c0 b,
+.c0 bold,
+.c0 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.bold {
+  font-weight: 500;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c0 {
+    font-size: var(--bds-font-tag-h2-desktop-font-size);
+    line-height: var(--bds-font-tag-h2-desktop-line-height);
+  }
+}
+
+<h2
+    class="c0 typography variant--h2 align--left"
+    color="error"
+  >
+    The quick brown fox lept over the lazy dog
+  </h2>
+</DocumentFragment>
+`;
+
+exports[`Typography Snapshots prop: color Typography error color snapshot 2`] = `
+<DocumentFragment>
+  .c0 {
+  color: hsl(0,0%,0%,.87);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: hsl(0,0%,0%,.87);
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  font-size: var(--bds-font-tag-h2-mobile-font-size);
+  line-height: var(--bds-font-tag-h2-mobile-line-height);
+}
+
+.c0.align--left {
+  text-align: left;
+}
+
+.c0.align--center {
+  text-align: center;
+}
+
+.c0.align--right {
+  text-align: right;
+}
+
+.c0.display--block {
+  display: block;
+}
+
+.c0.display--inline {
+  display: inline;
+}
+
+.c0 b,
+.c0 bold,
+.c0 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.bold {
+  font-weight: 500;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c0 {
+    font-size: var(--bds-font-tag-h2-desktop-font-size);
+    line-height: var(--bds-font-tag-h2-desktop-line-height);
+  }
+}
+
+<h2
+    class="c0 typography variant--h2 align--left"
+    color="error"
+  >
+    The quick brown fox lept over the lazy dog
+  </h2>
+</DocumentFragment>
+`;
+
+exports[`Typography Snapshots prop: color Typography link color snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  color: hsl(0,0%,0%,.87);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: hsl(0,0%,0%,.87);
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  font-size: var(--bds-font-tag-h2-mobile-font-size);
+  line-height: var(--bds-font-tag-h2-mobile-line-height);
+}
+
+.c0.align--left {
+  text-align: left;
+}
+
+.c0.align--center {
+  text-align: center;
+}
+
+.c0.align--right {
+  text-align: right;
+}
+
+.c0.display--block {
+  display: block;
+}
+
+.c0.display--inline {
+  display: inline;
+}
+
+.c0 b,
+.c0 bold,
+.c0 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.bold {
+  font-weight: 500;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c0 {
+    font-size: var(--bds-font-tag-h2-desktop-font-size);
+    line-height: var(--bds-font-tag-h2-desktop-line-height);
+  }
+}
+
+<h2
+    class="c0 typography variant--h2 align--left"
+    color="link"
+  >
+    The quick brown fox lept over the lazy dog
+  </h2>
+</DocumentFragment>
+`;
+
+exports[`Typography Snapshots prop: color Typography link color snapshot 2`] = `
+<DocumentFragment>
+  .c0 {
+  color: hsl(0,0%,0%,.87);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: hsl(0,0%,0%,.87);
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  font-size: var(--bds-font-tag-h2-mobile-font-size);
+  line-height: var(--bds-font-tag-h2-mobile-line-height);
+}
+
+.c0.align--left {
+  text-align: left;
+}
+
+.c0.align--center {
+  text-align: center;
+}
+
+.c0.align--right {
+  text-align: right;
+}
+
+.c0.display--block {
+  display: block;
+}
+
+.c0.display--inline {
+  display: inline;
+}
+
+.c0 b,
+.c0 bold,
+.c0 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.bold {
+  font-weight: 500;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c0 {
+    font-size: var(--bds-font-tag-h2-desktop-font-size);
+    line-height: var(--bds-font-tag-h2-desktop-line-height);
+  }
+}
+
+<h2
+    class="c0 typography variant--h2 align--left"
+    color="link"
+  >
+    The quick brown fox lept over the lazy dog
+  </h2>
+</DocumentFragment>
+`;
+
+exports[`Typography Snapshots prop: color Typography primary color snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  color: hsl(0,0%,0%,.87);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: hsl(0,0%,0%,.87);
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  font-size: var(--bds-font-tag-h2-mobile-font-size);
+  line-height: var(--bds-font-tag-h2-mobile-line-height);
+}
+
+.c0.align--left {
+  text-align: left;
+}
+
+.c0.align--center {
+  text-align: center;
+}
+
+.c0.align--right {
+  text-align: right;
+}
+
+.c0.display--block {
+  display: block;
+}
+
+.c0.display--inline {
+  display: inline;
+}
+
+.c0 b,
+.c0 bold,
+.c0 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.bold {
+  font-weight: 500;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c0 {
+    font-size: var(--bds-font-tag-h2-desktop-font-size);
+    line-height: var(--bds-font-tag-h2-desktop-line-height);
+  }
+}
+
+<h2
+    class="c0 typography variant--h2 align--left"
+    color="text_primary"
+  >
+    The quick brown fox lept over the lazy dog
+  </h2>
+</DocumentFragment>
+`;
+
+exports[`Typography Snapshots prop: color Typography secondary color snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  color: hsl(0,0%,0%,.70);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: hsl(0,0%,0%,.70);
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  font-size: var(--bds-font-tag-h2-mobile-font-size);
+  line-height: var(--bds-font-tag-h2-mobile-line-height);
+}
+
+.c0.align--left {
+  text-align: left;
+}
+
+.c0.align--center {
+  text-align: center;
+}
+
+.c0.align--right {
+  text-align: right;
+}
+
+.c0.display--block {
+  display: block;
+}
+
+.c0.display--inline {
+  display: inline;
+}
+
+.c0 b,
+.c0 bold,
+.c0 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.bold {
+  font-weight: 500;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c0 {
+    font-size: var(--bds-font-tag-h2-desktop-font-size);
+    line-height: var(--bds-font-tag-h2-desktop-line-height);
+  }
+}
+
+<h2
+    class="c0 typography variant--h2 align--left"
+    color="text_secondary"
+  >
+    The quick brown fox lept over the lazy dog
+  </h2>
+</DocumentFragment>
+`;
+
+exports[`Typography Snapshots prop: color Typography success color snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  color: hsl(0,0%,0%,.87);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: hsl(0,0%,0%,.87);
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  font-size: var(--bds-font-tag-h2-mobile-font-size);
+  line-height: var(--bds-font-tag-h2-mobile-line-height);
+}
+
+.c0.align--left {
+  text-align: left;
+}
+
+.c0.align--center {
+  text-align: center;
+}
+
+.c0.align--right {
+  text-align: right;
+}
+
+.c0.display--block {
+  display: block;
+}
+
+.c0.display--inline {
+  display: inline;
+}
+
+.c0 b,
+.c0 bold,
+.c0 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.bold {
+  font-weight: 500;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c0 {
+    font-size: var(--bds-font-tag-h2-desktop-font-size);
+    line-height: var(--bds-font-tag-h2-desktop-line-height);
+  }
+}
+
+<h2
+    class="c0 typography variant--h2 align--left"
+    color="success"
+  >
+    The quick brown fox lept over the lazy dog
+  </h2>
+</DocumentFragment>
+`;
+
+exports[`Typography Snapshots prop: color Typography success color snapshot 2`] = `
+<DocumentFragment>
+  .c0 {
+  color: hsl(0,0%,0%,.87);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: hsl(0,0%,0%,.87);
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  font-size: var(--bds-font-tag-h2-mobile-font-size);
+  line-height: var(--bds-font-tag-h2-mobile-line-height);
+}
+
+.c0.align--left {
+  text-align: left;
+}
+
+.c0.align--center {
+  text-align: center;
+}
+
+.c0.align--right {
+  text-align: right;
+}
+
+.c0.display--block {
+  display: block;
+}
+
+.c0.display--inline {
+  display: inline;
+}
+
+.c0 b,
+.c0 bold,
+.c0 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.bold {
+  font-weight: 500;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c0 {
+    font-size: var(--bds-font-tag-h2-desktop-font-size);
+    line-height: var(--bds-font-tag-h2-desktop-line-height);
+  }
+}
+
+<h2
+    class="c0 typography variant--h2 align--left"
+    color="success"
+  >
+    The quick brown fox lept over the lazy dog
+  </h2>
+</DocumentFragment>
+`;
+
+exports[`Typography Snapshots prop: color Typography tertiary color snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  color: hsl(0,0%,0%,.60);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: hsl(0,0%,0%,.60);
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  font-size: var(--bds-font-tag-h2-mobile-font-size);
+  line-height: var(--bds-font-tag-h2-mobile-line-height);
+}
+
+.c0.align--left {
+  text-align: left;
+}
+
+.c0.align--center {
+  text-align: center;
+}
+
+.c0.align--right {
+  text-align: right;
+}
+
+.c0.display--block {
+  display: block;
+}
+
+.c0.display--inline {
+  display: inline;
+}
+
+.c0 b,
+.c0 bold,
+.c0 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.bold {
+  font-weight: 500;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c0 {
+    font-size: var(--bds-font-tag-h2-desktop-font-size);
+    line-height: var(--bds-font-tag-h2-desktop-line-height);
+  }
+}
+
+<h2
+    class="c0 typography variant--h2 align--left"
+    color="text_tertiary"
+  >
+    The quick brown fox lept over the lazy dog
+  </h2>
+</DocumentFragment>
+`;
+
+exports[`Typography Snapshots prop: color Typography text_primary color snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  color: hsl(0,0%,0%,.87);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: hsl(0,0%,0%,.87);
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  font-size: var(--bds-font-tag-h2-mobile-font-size);
+  line-height: var(--bds-font-tag-h2-mobile-line-height);
+}
+
+.c0.align--left {
+  text-align: left;
+}
+
+.c0.align--center {
+  text-align: center;
+}
+
+.c0.align--right {
+  text-align: right;
+}
+
+.c0.display--block {
+  display: block;
+}
+
+.c0.display--inline {
+  display: inline;
+}
+
+.c0 b,
+.c0 bold,
+.c0 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.bold {
+  font-weight: 500;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c0 {
+    font-size: var(--bds-font-tag-h2-desktop-font-size);
+    line-height: var(--bds-font-tag-h2-desktop-line-height);
+  }
+}
+
+<h2
+    class="c0 typography variant--h2 align--left"
+    color="text_primary"
+  >
+    The quick brown fox lept over the lazy dog
+  </h2>
+</DocumentFragment>
+`;
+
+exports[`Typography Snapshots prop: color Typography text_secondary color snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  color: hsl(0,0%,0%,.70);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: hsl(0,0%,0%,.70);
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  font-size: var(--bds-font-tag-h2-mobile-font-size);
+  line-height: var(--bds-font-tag-h2-mobile-line-height);
+}
+
+.c0.align--left {
+  text-align: left;
+}
+
+.c0.align--center {
+  text-align: center;
+}
+
+.c0.align--right {
+  text-align: right;
+}
+
+.c0.display--block {
+  display: block;
+}
+
+.c0.display--inline {
+  display: inline;
+}
+
+.c0 b,
+.c0 bold,
+.c0 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.bold {
+  font-weight: 500;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c0 {
+    font-size: var(--bds-font-tag-h2-desktop-font-size);
+    line-height: var(--bds-font-tag-h2-desktop-line-height);
+  }
+}
+
+<h2
+    class="c0 typography variant--h2 align--left"
+    color="text_secondary"
+  >
+    The quick brown fox lept over the lazy dog
+  </h2>
+</DocumentFragment>
+`;
+
+exports[`Typography Snapshots prop: color Typography text_tertiary color snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  color: hsl(0,0%,0%,.60);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: hsl(0,0%,0%,.60);
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  font-size: var(--bds-font-tag-h2-mobile-font-size);
+  line-height: var(--bds-font-tag-h2-mobile-line-height);
+}
+
+.c0.align--left {
+  text-align: left;
+}
+
+.c0.align--center {
+  text-align: center;
+}
+
+.c0.align--right {
+  text-align: right;
+}
+
+.c0.display--block {
+  display: block;
+}
+
+.c0.display--inline {
+  display: inline;
+}
+
+.c0 b,
+.c0 bold,
+.c0 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.bold {
+  font-weight: 500;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c0 {
+    font-size: var(--bds-font-tag-h2-desktop-font-size);
+    line-height: var(--bds-font-tag-h2-desktop-line-height);
+  }
+}
+
+<h2
+    class="c0 typography variant--h2 align--left"
+    color="text_tertiary"
+  >
+    The quick brown fox lept over the lazy dog
+  </h2>
+</DocumentFragment>
+`;
+
+exports[`Typography Snapshots prop: color Typography white color snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  color: hsl(0,0%,100%,1);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: hsl(0,0%,100%,1);
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  font-size: var(--bds-font-tag-h2-mobile-font-size);
+  line-height: var(--bds-font-tag-h2-mobile-line-height);
+}
+
+.c0.align--left {
+  text-align: left;
+}
+
+.c0.align--center {
+  text-align: center;
+}
+
+.c0.align--right {
+  text-align: right;
+}
+
+.c0.display--block {
+  display: block;
+}
+
+.c0.display--inline {
+  display: inline;
+}
+
+.c0 b,
+.c0 bold,
+.c0 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.bold {
+  font-weight: 500;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c0 {
+    font-size: var(--bds-font-tag-h2-desktop-font-size);
+    line-height: var(--bds-font-tag-h2-desktop-line-height);
+  }
+}
+
+<h2
+    class="c0 typography variant--h2 align--left"
+    color="white"
+  >
+    The quick brown fox lept over the lazy dog
+  </h2>
+</DocumentFragment>
+`;
+
+exports[`Typography Snapshots prop: display Typography block display snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  color: hsl(0,0%,0%,.87);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: hsl(0,0%,0%,.87);
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  font-size: var(--bds-font-tag-h2-mobile-font-size);
+  line-height: var(--bds-font-tag-h2-mobile-line-height);
+}
+
+.c0.align--left {
+  text-align: left;
+}
+
+.c0.align--center {
+  text-align: center;
+}
+
+.c0.align--right {
+  text-align: right;
+}
+
+.c0.display--block {
+  display: block;
+}
+
+.c0.display--inline {
+  display: inline;
+}
+
+.c0 b,
+.c0 bold,
+.c0 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.bold {
+  font-weight: 500;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c0 {
+    font-size: var(--bds-font-tag-h2-desktop-font-size);
+    line-height: var(--bds-font-tag-h2-desktop-line-height);
+  }
+}
+
+<h2
+    class="c0 typography variant--h2 display--block align--left"
+    color="text_primary"
+  >
+    The quick brown fox lept over the lazy dog
+  </h2>
+</DocumentFragment>
+`;
+
+exports[`Typography Snapshots prop: display Typography inline display snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  color: hsl(0,0%,0%,.87);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: hsl(0,0%,0%,.87);
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  font-size: var(--bds-font-tag-h2-mobile-font-size);
+  line-height: var(--bds-font-tag-h2-mobile-line-height);
+}
+
+.c0.align--left {
+  text-align: left;
+}
+
+.c0.align--center {
+  text-align: center;
+}
+
+.c0.align--right {
+  text-align: right;
+}
+
+.c0.display--block {
+  display: block;
+}
+
+.c0.display--inline {
+  display: inline;
+}
+
+.c0 b,
+.c0 bold,
+.c0 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.bold {
+  font-weight: 500;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c0 {
+    font-size: var(--bds-font-tag-h2-desktop-font-size);
+    line-height: var(--bds-font-tag-h2-desktop-line-height);
+  }
+}
+
+<h2
+    class="c0 typography variant--h2 display--inline align--left"
+    color="text_primary"
+  >
+    The quick brown fox lept over the lazy dog
+  </h2>
+</DocumentFragment>
+`;
+
+exports[`Typography Snapshots prop: variant Typography article variant snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  color: hsl(0,0%,0%,.87);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  color: hsl(0,0%,0%,.87);
+  font-size: var(--bds-font-tag-article-mobile-font-size);
+  line-height: var(--bds-font-tag-article-mobile-line-height);
+}
+
+.c0.align--left {
+  text-align: left;
+}
+
+.c0.align--center {
+  text-align: center;
+}
+
+.c0.align--right {
+  text-align: right;
+}
+
+.c0.display--block {
+  display: block;
+}
+
+.c0.display--inline {
+  display: inline;
+}
+
+.c0 b,
+.c0 bold,
+.c0 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.bold {
+  font-weight: 500;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c0 {
+    font-size: var(--bds-font-tag-article-desktop-font-size);
+    line-height: var(--bds-font-tag-article-desktop-line-height);
+  }
+}
+
+<p
+    class="c0 typography variant--article align--left"
+    color="text_primary"
+  >
+    Test
+  </p>
+</DocumentFragment>
+`;
+
+exports[`Typography Snapshots prop: variant Typography article_medium variant snapshot 1`] = `
+<DocumentFragment>
+  <span
+    class="typography variant--article_medium align--left"
+    color="text_primary"
+  >
+    Test
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Typography Snapshots prop: variant Typography article_small variant snapshot 1`] = `
+<DocumentFragment>
+  <span
+    class="typography variant--article_small align--left"
+    color="text_primary"
+  >
+    Test
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Typography Snapshots prop: variant Typography body variant snapshot 1`] = `
+<DocumentFragment>
+  <span
+    class="typography variant--body align--left"
+    color="text_primary"
+  >
+    Test
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Typography Snapshots prop: variant Typography body_medium variant snapshot 1`] = `
+<DocumentFragment>
+  <span
+    class="typography variant--body_medium align--left"
+    color="text_primary"
+  >
+    Test
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Typography Snapshots prop: variant Typography body_small variant snapshot 1`] = `
+<DocumentFragment>
+  <span
+    class="typography variant--body_small align--left"
+    color="text_primary"
+  >
+    Test
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Typography Snapshots prop: variant Typography caption variant snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  color: hsl(0,0%,0%,.87);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  color: hsl(0,0%,0%,.87);
+  font-size: var(--bds-font-tag-caption-mobile-font-size);
+  line-height: var(--bds-font-tag-caption-mobile-line-height);
+}
+
+.c0.align--left {
+  text-align: left;
+}
+
+.c0.align--center {
+  text-align: center;
+}
+
+.c0.align--right {
+  text-align: right;
+}
+
+.c0.display--block {
+  display: block;
+}
+
+.c0.display--inline {
+  display: inline;
+}
+
+.c0 b,
+.c0 bold,
+.c0 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.bold {
+  font-weight: 500;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c0 {
+    font-size: var(--bds-font-tag-caption-desktop-font-size);
+    line-height: var(--bds-font-tag-caption-desktop-line-height);
+  }
+}
+
+<span
+    class="c0 typography variant--caption align--left"
+    color="text_primary"
+  >
+    Test
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Typography Snapshots prop: variant Typography caption_medium variant snapshot 1`] = `
+<DocumentFragment>
+  <span
+    class="typography variant--caption_medium align--left"
+    color="text_primary"
+  >
+    Test
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Typography Snapshots prop: variant Typography caption_small variant snapshot 1`] = `
+<DocumentFragment>
+  <span
+    class="typography variant--caption_small align--left"
+    color="text_primary"
+  >
+    Test
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Typography Snapshots prop: variant Typography h1 variant snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  color: hsl(0,0%,0%,.87);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: hsl(0,0%,0%,.87);
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  font-size: var(--bds-font-tag-h1-mobile-font-size);
+  line-height: var(--bds-font-tag-h1-mobile-line-height);
+}
+
+.c0.align--left {
+  text-align: left;
+}
+
+.c0.align--center {
+  text-align: center;
+}
+
+.c0.align--right {
+  text-align: right;
+}
+
+.c0.display--block {
+  display: block;
+}
+
+.c0.display--inline {
+  display: inline;
+}
+
+.c0 b,
+.c0 bold,
+.c0 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.bold {
+  font-weight: 500;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c0 {
+    font-size: var(--bds-font-tag-h1-desktop-font-size);
+    line-height: var(--bds-font-tag-h1-desktop-line-height);
+  }
+}
+
+<h1
+    class="c0 typography variant--h1 align--left"
+    color="text_primary"
+  >
+    Test
+  </h1>
+</DocumentFragment>
+`;
+
+exports[`Typography Snapshots prop: variant Typography h2 variant snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  color: hsl(0,0%,0%,.87);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: hsl(0,0%,0%,.87);
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  font-size: var(--bds-font-tag-h2-mobile-font-size);
+  line-height: var(--bds-font-tag-h2-mobile-line-height);
+}
+
+.c0.align--left {
+  text-align: left;
+}
+
+.c0.align--center {
+  text-align: center;
+}
+
+.c0.align--right {
+  text-align: right;
+}
+
+.c0.display--block {
+  display: block;
+}
+
+.c0.display--inline {
+  display: inline;
+}
+
+.c0 b,
+.c0 bold,
+.c0 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.bold {
+  font-weight: 500;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c0 {
+    font-size: var(--bds-font-tag-h2-desktop-font-size);
+    line-height: var(--bds-font-tag-h2-desktop-line-height);
+  }
+}
+
+<h2
+    class="c0 typography variant--h2 align--left"
+    color="text_primary"
+  >
+    Test
+  </h2>
+</DocumentFragment>
+`;
+
+exports[`Typography Snapshots prop: variant Typography h3 variant snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  color: hsl(0,0%,0%,.87);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: hsl(0,0%,0%,.87);
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  font-size: var(--bds-font-tag-h3-mobile-font-size);
+  line-height: var(--bds-font-tag-h3-mobile-line-height);
+}
+
+.c0.align--left {
+  text-align: left;
+}
+
+.c0.align--center {
+  text-align: center;
+}
+
+.c0.align--right {
+  text-align: right;
+}
+
+.c0.display--block {
+  display: block;
+}
+
+.c0.display--inline {
+  display: inline;
+}
+
+.c0 b,
+.c0 bold,
+.c0 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.bold {
+  font-weight: 500;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c0 {
+    font-size: var(--bds-font-tag-h3-desktop-font-size);
+    line-height: var(--bds-font-tag-h3-desktop-line-height);
+  }
+}
+
+<h3
+    class="c0 typography variant--h3 align--left"
+    color="text_primary"
+  >
+    Test
+  </h3>
+</DocumentFragment>
+`;
+
+exports[`Typography Snapshots prop: variant Typography h4 variant snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  color: hsl(0,0%,0%,.87);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: hsl(0,0%,0%,.87);
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  font-size: var(--bds-font-tag-h4-mobile-font-size);
+  line-height: var(--bds-font-tag-h4-mobile-line-height);
+}
+
+.c0.align--left {
+  text-align: left;
+}
+
+.c0.align--center {
+  text-align: center;
+}
+
+.c0.align--right {
+  text-align: right;
+}
+
+.c0.display--block {
+  display: block;
+}
+
+.c0.display--inline {
+  display: inline;
+}
+
+.c0 b,
+.c0 bold,
+.c0 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.bold {
+  font-weight: 500;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c0 {
+    font-size: var(--bds-font-tag-h4-desktop-font-size);
+    line-height: var(--bds-font-tag-h4-desktop-line-height);
+  }
+}
+
+<h4
+    class="c0 typography variant--h4 align--left"
+    color="text_primary"
+  >
+    Test
+  </h4>
+</DocumentFragment>
+`;
+
+exports[`Typography Snapshots prop: variant Typography h5 variant snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  color: hsl(0,0%,0%,.87);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: hsl(0,0%,0%,.87);
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  font-size: var(--bds-font-tag-h5-mobile-font-size);
+  line-height: var(--bds-font-tag-h5-mobile-line-height);
+}
+
+.c0.align--left {
+  text-align: left;
+}
+
+.c0.align--center {
+  text-align: center;
+}
+
+.c0.align--right {
+  text-align: right;
+}
+
+.c0.display--block {
+  display: block;
+}
+
+.c0.display--inline {
+  display: inline;
+}
+
+.c0 b,
+.c0 bold,
+.c0 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.bold {
+  font-weight: 500;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c0 {
+    font-size: var(--bds-font-tag-h5-desktop-font-size);
+    line-height: var(--bds-font-tag-h5-desktop-line-height);
+  }
+}
+
+<h5
+    class="c0 typography variant--h5 align--left"
+    color="text_primary"
+  >
+    Test
+  </h5>
+</DocumentFragment>
+`;
+
+exports[`Typography Snapshots prop: variant Typography h6 variant snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  color: hsl(0,0%,0%,.87);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: hsl(0,0%,0%,.87);
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  font-size: var(--bds-font-tag-h6-mobile-font-size);
+  line-height: var(--bds-font-tag-h6-mobile-line-height);
+}
+
+.c0.align--left {
+  text-align: left;
+}
+
+.c0.align--center {
+  text-align: center;
+}
+
+.c0.align--right {
+  text-align: right;
+}
+
+.c0.display--block {
+  display: block;
+}
+
+.c0.display--inline {
+  display: inline;
+}
+
+.c0 b,
+.c0 bold,
+.c0 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.bold {
+  font-weight: 500;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c0 {
+    font-size: var(--bds-font-tag-h6-desktop-font-size);
+    line-height: var(--bds-font-tag-h6-desktop-line-height);
+  }
+}
+
+<h6
+    class="c0 typography variant--h6 align--left"
+    color="text_primary"
+  >
+    Test
+  </h6>
+</DocumentFragment>
+`;
+
+exports[`Typography Snapshots prop: variant Typography h100 variant snapshot 1`] = `
+<DocumentFragment>
+  <span
+    class="typography variant--h100 align--left"
+    color="text_primary"
+  >
+    Test
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Typography Snapshots prop: variant Typography h200 variant snapshot 1`] = `
+<DocumentFragment>
+  <span
+    class="typography variant--h200 align--left"
+    color="text_primary"
+  >
+    Test
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Typography Snapshots prop: variant Typography h300 variant snapshot 1`] = `
+<DocumentFragment>
+  <span
+    class="typography variant--h300 align--left"
+    color="text_primary"
+  >
+    Test
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Typography Snapshots prop: variant Typography h400 variant snapshot 1`] = `
+<DocumentFragment>
+  <span
+    class="typography variant--h400 align--left"
+    color="text_primary"
+  >
+    Test
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Typography Snapshots prop: variant Typography h500 variant snapshot 1`] = `
+<DocumentFragment>
+  <span
+    class="typography variant--h500 align--left"
+    color="text_primary"
+  >
+    Test
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Typography Snapshots prop: variant Typography h600 variant snapshot 1`] = `
+<DocumentFragment>
+  <span
+    class="typography variant--h600 align--left"
+    color="text_primary"
+  >
+    Test
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Typography Snapshots prop: variant Typography h700 variant snapshot 1`] = `
+<DocumentFragment>
+  <span
+    class="typography variant--h700 align--left"
+    color="text_primary"
+  >
+    Test
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Typography Snapshots prop: variant Typography helper variant snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  color: hsl(0,0%,0%,.87);
+  font-size: var(--bds-font-tag-helper-text-mobile-font-size);
+  line-height: var(--bds-font-tag-helper-text-mobile-line-height);
+}
+
+@media only screen and (min-width:66rem) {
+  .c0 {
+    font-size: var(--bds-font-tag-helper-text-desktop-font-size);
+    line-height: var(--bds-font-tag-helper-text-desktop-line-height);
+  }
+}
+
+<span
+    class="c0 typography variant--helper align--left"
+    color="text_primary"
+  >
+    Test
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Typography Snapshots prop: variant Typography label variant snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  color: hsl(0,0%,0%,.87);
+  font-size: var(--bds-font-tag-label-mobile-font-size);
+  line-height: var(--bds-font-tag-label-mobile-line-height);
+}
+
+@media only screen and (min-width:66rem) {
+  .c0 {
+    font-size: var(--bds-font-tag-label-desktop-font-size);
+    line-height: var(--bds-font-tag-label-desktop-line-height);
+  }
+}
+
+<span
+    class="c0 typography variant--label align--left"
+    color="text_primary"
+  >
+    Test
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Typography Snapshots themes Typography dark theme snapshot 1`] = `
+<DocumentFragment>
+  <span
+    class="typography variant--body align--left"
+    color="text_primary"
+  >
+    Test
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Typography Snapshots themes Typography light theme snapshot 1`] = `
+<DocumentFragment>
+  <span
+    class="typography variant--body align--left"
+    color="text_primary"
+  >
+    Test
+  </span>
+</DocumentFragment>
+`;

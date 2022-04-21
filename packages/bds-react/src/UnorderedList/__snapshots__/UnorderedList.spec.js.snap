@@ -1,0 +1,574 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UnorderedList Snapshots UnorderdList default snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  list-style-type: disc;
+  color: var(--bds-color-text-primary);
+  padding-left: var(--bds-sizes-size-16);
+}
+
+.c0 li {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+}
+
+.c0 ul {
+  padding-left: var(--bds-sizes-size-16);
+}
+
+.c0.density--condensed li {
+  padding-top: var(--bds-sizes-size-4);
+}
+
+.c0.density--normal li {
+  padding-top: var(--bds-sizes-size-8);
+}
+
+.c0.density--comfort li {
+  padding-top: var(--bds-sizes-size-12);
+}
+
+.c1 {
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-20);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+@media only screen and (min-width:82rem) {
+  .c1 {
+    font-size: var(--bds-sizes-size-16);
+    line-height: var(--bds-sizes-size-24);
+  }
+}
+
+<ul
+    class="c0 density--normal"
+  >
+    <li
+      class="c1"
+    >
+      List item
+    </li>
+  </ul>
+</DocumentFragment>
+`;
+
+exports[`UnorderedList Snapshots themes UnorderedList normal spacing dark theme snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  list-style-type: disc;
+  color: var(--bds-color-text-primary);
+  padding-left: var(--bds-sizes-size-16);
+}
+
+.c0 li {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+}
+
+.c0 ul {
+  padding-left: var(--bds-sizes-size-16);
+}
+
+.c0.density--condensed li {
+  padding-top: var(--bds-sizes-size-4);
+}
+
+.c0.density--normal li {
+  padding-top: var(--bds-sizes-size-8);
+}
+
+.c0.density--comfort li {
+  padding-top: var(--bds-sizes-size-12);
+}
+
+.c1 {
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-20);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+@media only screen and (min-width:82rem) {
+  .c1 {
+    font-size: var(--bds-sizes-size-16);
+    line-height: var(--bds-sizes-size-24);
+  }
+}
+
+<ul
+    class="c0 density--condensed"
+  >
+    <li
+      class="c1"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing.
+    </li>
+    <li
+      class="c1"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing.
+    </li>
+    <li
+      class="c1"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing.
+      <ul
+        class="c0"
+      >
+        <li
+          class="c1"
+        >
+          Look at me, I'm nested and a slightly different color.
+        </li>
+        <li
+          class="c1"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing.
+        </li>
+      </ul>
+    </li>
+    <li
+      class="c1"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing.
+    </li>
+  </ul>
+</DocumentFragment>
+`;
+
+exports[`UnorderedList Snapshots themes UnorderedList normal spacing dark theme snapshot 2`] = `
+<DocumentFragment>
+  .c0 {
+  list-style-type: disc;
+  color: var(--bds-color-text-primary);
+  padding-left: var(--bds-sizes-size-16);
+}
+
+.c0 li {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+}
+
+.c0 ul {
+  padding-left: var(--bds-sizes-size-16);
+}
+
+.c0.density--condensed li {
+  padding-top: var(--bds-sizes-size-4);
+}
+
+.c0.density--normal li {
+  padding-top: var(--bds-sizes-size-8);
+}
+
+.c0.density--comfort li {
+  padding-top: var(--bds-sizes-size-12);
+}
+
+.c1 {
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-20);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+@media only screen and (min-width:82rem) {
+  .c1 {
+    font-size: var(--bds-sizes-size-16);
+    line-height: var(--bds-sizes-size-24);
+  }
+}
+
+<ul
+    class="c0 density--normal"
+  >
+    <li
+      class="c1"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing.
+    </li>
+    <li
+      class="c1"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing.
+    </li>
+    <li
+      class="c1"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing.
+      <ul
+        class="c0"
+      >
+        <li
+          class="c1"
+        >
+          Look at me, I'm nested and a slightly different color.
+        </li>
+        <li
+          class="c1"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing.
+        </li>
+      </ul>
+    </li>
+    <li
+      class="c1"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing.
+    </li>
+  </ul>
+</DocumentFragment>
+`;
+
+exports[`UnorderedList Snapshots themes UnorderedList normal spacing dark theme snapshot 3`] = `
+<DocumentFragment>
+  .c0 {
+  list-style-type: disc;
+  color: var(--bds-color-text-primary);
+  padding-left: var(--bds-sizes-size-16);
+}
+
+.c0 li {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+}
+
+.c0 ul {
+  padding-left: var(--bds-sizes-size-16);
+}
+
+.c0.density--condensed li {
+  padding-top: var(--bds-sizes-size-4);
+}
+
+.c0.density--normal li {
+  padding-top: var(--bds-sizes-size-8);
+}
+
+.c0.density--comfort li {
+  padding-top: var(--bds-sizes-size-12);
+}
+
+.c1 {
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-20);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+@media only screen and (min-width:82rem) {
+  .c1 {
+    font-size: var(--bds-sizes-size-16);
+    line-height: var(--bds-sizes-size-24);
+  }
+}
+
+<ul
+    class="c0 density--comfort"
+  >
+    <li
+      class="c1"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing.
+    </li>
+    <li
+      class="c1"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing.
+    </li>
+    <li
+      class="c1"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing.
+      <ul
+        class="c0"
+      >
+        <li
+          class="c1"
+        >
+          Look at me, I'm nested and a slightly different color.
+        </li>
+        <li
+          class="c1"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing.
+        </li>
+      </ul>
+    </li>
+    <li
+      class="c1"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing.
+    </li>
+  </ul>
+</DocumentFragment>
+`;
+
+exports[`UnorderedList Snapshots themes UnorderedList normal spacing light theme snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  list-style-type: disc;
+  color: var(--bds-color-text-primary);
+  padding-left: var(--bds-sizes-size-16);
+}
+
+.c0 li {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+}
+
+.c0 ul {
+  padding-left: var(--bds-sizes-size-16);
+}
+
+.c0.density--condensed li {
+  padding-top: var(--bds-sizes-size-4);
+}
+
+.c0.density--normal li {
+  padding-top: var(--bds-sizes-size-8);
+}
+
+.c0.density--comfort li {
+  padding-top: var(--bds-sizes-size-12);
+}
+
+.c1 {
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-20);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+@media only screen and (min-width:82rem) {
+  .c1 {
+    font-size: var(--bds-sizes-size-16);
+    line-height: var(--bds-sizes-size-24);
+  }
+}
+
+<ul
+    class="c0 density--condensed"
+  >
+    <li
+      class="c1"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing.
+    </li>
+    <li
+      class="c1"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing.
+    </li>
+    <li
+      class="c1"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing.
+      <ul
+        class="c0"
+      >
+        <li
+          class="c1"
+        >
+          Look at me, I'm nested and a slightly different color.
+        </li>
+        <li
+          class="c1"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing.
+        </li>
+      </ul>
+    </li>
+    <li
+      class="c1"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing.
+    </li>
+  </ul>
+</DocumentFragment>
+`;
+
+exports[`UnorderedList Snapshots themes UnorderedList normal spacing light theme snapshot 2`] = `
+<DocumentFragment>
+  .c0 {
+  list-style-type: disc;
+  color: var(--bds-color-text-primary);
+  padding-left: var(--bds-sizes-size-16);
+}
+
+.c0 li {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+}
+
+.c0 ul {
+  padding-left: var(--bds-sizes-size-16);
+}
+
+.c0.density--condensed li {
+  padding-top: var(--bds-sizes-size-4);
+}
+
+.c0.density--normal li {
+  padding-top: var(--bds-sizes-size-8);
+}
+
+.c0.density--comfort li {
+  padding-top: var(--bds-sizes-size-12);
+}
+
+.c1 {
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-20);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+@media only screen and (min-width:82rem) {
+  .c1 {
+    font-size: var(--bds-sizes-size-16);
+    line-height: var(--bds-sizes-size-24);
+  }
+}
+
+<ul
+    class="c0 density--normal"
+  >
+    <li
+      class="c1"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing.
+    </li>
+    <li
+      class="c1"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing.
+    </li>
+    <li
+      class="c1"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing.
+      <ul
+        class="c0"
+      >
+        <li
+          class="c1"
+        >
+          Look at me, I'm nested and a slightly different color.
+        </li>
+        <li
+          class="c1"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing.
+        </li>
+      </ul>
+    </li>
+    <li
+      class="c1"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing.
+    </li>
+  </ul>
+</DocumentFragment>
+`;
+
+exports[`UnorderedList Snapshots themes UnorderedList normal spacing light theme snapshot 3`] = `
+<DocumentFragment>
+  .c0 {
+  list-style-type: disc;
+  color: var(--bds-color-text-primary);
+  padding-left: var(--bds-sizes-size-16);
+}
+
+.c0 li {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+}
+
+.c0 ul {
+  padding-left: var(--bds-sizes-size-16);
+}
+
+.c0.density--condensed li {
+  padding-top: var(--bds-sizes-size-4);
+}
+
+.c0.density--normal li {
+  padding-top: var(--bds-sizes-size-8);
+}
+
+.c0.density--comfort li {
+  padding-top: var(--bds-sizes-size-12);
+}
+
+.c1 {
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-20);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+@media only screen and (min-width:82rem) {
+  .c1 {
+    font-size: var(--bds-sizes-size-16);
+    line-height: var(--bds-sizes-size-24);
+  }
+}
+
+<ul
+    class="c0 density--comfort"
+  >
+    <li
+      class="c1"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing.
+    </li>
+    <li
+      class="c1"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing.
+    </li>
+    <li
+      class="c1"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing.
+      <ul
+        class="c0"
+      >
+        <li
+          class="c1"
+        >
+          Look at me, I'm nested and a slightly different color.
+        </li>
+        <li
+          class="c1"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing.
+        </li>
+      </ul>
+    </li>
+    <li
+      class="c1"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing.
+    </li>
+  </ul>
+</DocumentFragment>
+`;

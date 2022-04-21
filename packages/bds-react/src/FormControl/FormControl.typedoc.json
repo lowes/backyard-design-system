@@ -1,0 +1,1484 @@
+{
+	"id": 0,
+	"name": "@lowes-tech/bds-react/FormControl",
+	"kind": 1,
+	"kindString": "Project",
+	"flags": {},
+	"children": [
+		{
+			"id": 46,
+			"name": "default",
+			"kind": 16777216,
+			"kindString": "Reference",
+			"flags": {},
+			"target": 1
+		},
+		{
+			"id": 37,
+			"name": "FormContextProps",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 38,
+					"name": "disabled",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Controls the disabled state of the child form elements"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 40,
+					"name": "indent",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Controls the indention of the helper text"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "boolean"
+							},
+							{
+								"type": "literal",
+								"value": "size_0"
+							},
+							{
+								"type": "literal",
+								"value": "size_1"
+							},
+							{
+								"type": "literal",
+								"value": "size_2"
+							},
+							{
+								"type": "literal",
+								"value": "size_3"
+							},
+							{
+								"type": "literal",
+								"value": "size_4"
+							},
+							{
+								"type": "literal",
+								"value": "size_5"
+							},
+							{
+								"type": "literal",
+								"value": "size_6"
+							},
+							{
+								"type": "literal",
+								"value": "size_7"
+							},
+							{
+								"type": "literal",
+								"value": "size_8"
+							},
+							{
+								"type": "literal",
+								"value": "size_10"
+							},
+							{
+								"type": "literal",
+								"value": "size_12"
+							},
+							{
+								"type": "literal",
+								"value": "size_14"
+							},
+							{
+								"type": "literal",
+								"value": "size_16"
+							},
+							{
+								"type": "literal",
+								"value": "size_18"
+							},
+							{
+								"type": "literal",
+								"value": "size_20"
+							},
+							{
+								"type": "literal",
+								"value": "size_24"
+							},
+							{
+								"type": "literal",
+								"value": "size_28"
+							},
+							{
+								"type": "literal",
+								"value": "size_32"
+							},
+							{
+								"type": "literal",
+								"value": "size_36"
+							},
+							{
+								"type": "literal",
+								"value": "size_40"
+							},
+							{
+								"type": "literal",
+								"value": "size_44"
+							},
+							{
+								"type": "literal",
+								"value": "size_48"
+							},
+							{
+								"type": "literal",
+								"value": "size_52"
+							},
+							{
+								"type": "literal",
+								"value": "size_56"
+							},
+							{
+								"type": "literal",
+								"value": "size_60"
+							},
+							{
+								"type": "literal",
+								"value": "size_64"
+							},
+							{
+								"type": "literal",
+								"value": "size_68"
+							},
+							{
+								"type": "literal",
+								"value": "size_72"
+							},
+							{
+								"type": "literal",
+								"value": "size_76"
+							},
+							{
+								"type": "literal",
+								"value": "size_80"
+							},
+							{
+								"type": "literal",
+								"value": "size_84"
+							},
+							{
+								"type": "literal",
+								"value": "size_88"
+							},
+							{
+								"type": "literal",
+								"value": "size_92"
+							},
+							{
+								"type": "literal",
+								"value": "size_96"
+							},
+							{
+								"type": "literal",
+								"value": "size_100"
+							},
+							{
+								"type": "literal",
+								"value": "size_104"
+							},
+							{
+								"type": "literal",
+								"value": "size_108"
+							},
+							{
+								"type": "literal",
+								"value": "size_112"
+							},
+							{
+								"type": "literal",
+								"value": "size_116"
+							},
+							{
+								"type": "literal",
+								"value": "size_120"
+							},
+							{
+								"type": "literal",
+								"value": "size_124"
+							},
+							{
+								"type": "literal",
+								"value": "size_128"
+							}
+						]
+					}
+				},
+				{
+					"id": 39,
+					"name": "state",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Controls the possible states to provide to form elements"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "default"
+							},
+							{
+								"type": "literal",
+								"value": "error"
+							},
+							{
+								"type": "literal",
+								"value": "success"
+							},
+							{
+								"type": "literal",
+								"value": "warning"
+							},
+							{
+								"type": "literal",
+								"value": "info"
+							}
+						]
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						38,
+						40,
+						39
+					]
+				}
+			],
+			"extendedBy": [
+				{
+					"type": "reference",
+					"id": 15,
+					"name": "FormControlContextValues"
+				}
+			]
+		},
+		{
+			"id": 15,
+			"name": "FormControlContextValues",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"comment": {
+				"shortText": "Context values that can be passed to children via",
+				"text": "`const context = React.useContext(FormControlContext)`\n"
+			},
+			"children": [
+				{
+					"id": 16,
+					"name": "context",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"shortText": "Context map"
+					},
+					"type": {
+						"type": "reference",
+						"name": "FormContexts"
+					}
+				},
+				{
+					"id": 29,
+					"name": "disabled",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Controls the disabled state of the child form elements"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"id": 38,
+						"name": "FormContextProps.disabled"
+					}
+				},
+				{
+					"id": 31,
+					"name": "indent",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Controls the indention of the helper text"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "boolean"
+							},
+							{
+								"type": "literal",
+								"value": "size_0"
+							},
+							{
+								"type": "literal",
+								"value": "size_1"
+							},
+							{
+								"type": "literal",
+								"value": "size_2"
+							},
+							{
+								"type": "literal",
+								"value": "size_3"
+							},
+							{
+								"type": "literal",
+								"value": "size_4"
+							},
+							{
+								"type": "literal",
+								"value": "size_5"
+							},
+							{
+								"type": "literal",
+								"value": "size_6"
+							},
+							{
+								"type": "literal",
+								"value": "size_7"
+							},
+							{
+								"type": "literal",
+								"value": "size_8"
+							},
+							{
+								"type": "literal",
+								"value": "size_10"
+							},
+							{
+								"type": "literal",
+								"value": "size_12"
+							},
+							{
+								"type": "literal",
+								"value": "size_14"
+							},
+							{
+								"type": "literal",
+								"value": "size_16"
+							},
+							{
+								"type": "literal",
+								"value": "size_18"
+							},
+							{
+								"type": "literal",
+								"value": "size_20"
+							},
+							{
+								"type": "literal",
+								"value": "size_24"
+							},
+							{
+								"type": "literal",
+								"value": "size_28"
+							},
+							{
+								"type": "literal",
+								"value": "size_32"
+							},
+							{
+								"type": "literal",
+								"value": "size_36"
+							},
+							{
+								"type": "literal",
+								"value": "size_40"
+							},
+							{
+								"type": "literal",
+								"value": "size_44"
+							},
+							{
+								"type": "literal",
+								"value": "size_48"
+							},
+							{
+								"type": "literal",
+								"value": "size_52"
+							},
+							{
+								"type": "literal",
+								"value": "size_56"
+							},
+							{
+								"type": "literal",
+								"value": "size_60"
+							},
+							{
+								"type": "literal",
+								"value": "size_64"
+							},
+							{
+								"type": "literal",
+								"value": "size_68"
+							},
+							{
+								"type": "literal",
+								"value": "size_72"
+							},
+							{
+								"type": "literal",
+								"value": "size_76"
+							},
+							{
+								"type": "literal",
+								"value": "size_80"
+							},
+							{
+								"type": "literal",
+								"value": "size_84"
+							},
+							{
+								"type": "literal",
+								"value": "size_88"
+							},
+							{
+								"type": "literal",
+								"value": "size_92"
+							},
+							{
+								"type": "literal",
+								"value": "size_96"
+							},
+							{
+								"type": "literal",
+								"value": "size_100"
+							},
+							{
+								"type": "literal",
+								"value": "size_104"
+							},
+							{
+								"type": "literal",
+								"value": "size_108"
+							},
+							{
+								"type": "literal",
+								"value": "size_112"
+							},
+							{
+								"type": "literal",
+								"value": "size_116"
+							},
+							{
+								"type": "literal",
+								"value": "size_120"
+							},
+							{
+								"type": "literal",
+								"value": "size_124"
+							},
+							{
+								"type": "literal",
+								"value": "size_128"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"id": 40,
+						"name": "FormContextProps.indent"
+					}
+				},
+				{
+					"id": 17,
+					"name": "setContext",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"shortText": "Sets a new form control context from a child"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "reference",
+										"name": "FormContexts"
+									}
+								],
+								"name": "SetStateAction"
+							}
+						],
+						"name": "Dispatch"
+					}
+				},
+				{
+					"id": 30,
+					"name": "state",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Controls the possible states to provide to form elements"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "default"
+							},
+							{
+								"type": "literal",
+								"value": "error"
+							},
+							{
+								"type": "literal",
+								"value": "success"
+							},
+							{
+								"type": "literal",
+								"value": "warning"
+							},
+							{
+								"type": "literal",
+								"value": "info"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"id": 39,
+						"name": "FormContextProps.state"
+					}
+				},
+				{
+					"id": 22,
+					"name": "add",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {},
+					"signatures": [
+						{
+							"id": 23,
+							"name": "add",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 24,
+									"name": "id",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 25,
+									"name": "newContext",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"id": 15,
+												"name": "FormControlContextValues"
+											}
+										],
+										"name": "Partial"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				},
+				{
+					"id": 26,
+					"name": "remove",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {},
+					"signatures": [
+						{
+							"id": 27,
+							"name": "remove",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 28,
+									"name": "id",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				},
+				{
+					"id": 18,
+					"name": "update",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {},
+					"signatures": [
+						{
+							"id": 19,
+							"name": "update",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Updates context with new values"
+							},
+							"parameters": [
+								{
+									"id": 20,
+									"name": "id",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 21,
+									"name": "newContext",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"id": 15,
+												"name": "FormControlContextValues"
+											}
+										],
+										"name": "Partial"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						16,
+						29,
+						31,
+						17,
+						30
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						22,
+						26,
+						18
+					]
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"id": 37,
+					"name": "FormContextProps"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"name": "FormControlProps",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 8,
+					"name": "as",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ElementType"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "BackyardBaseProps.as"
+					}
+				},
+				{
+					"id": 3,
+					"name": "children",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"shortText": "React Children"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									},
+									{
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "intrinsic",
+														"name": "any"
+													}
+												],
+												"name": "JSXElementConstructor"
+											}
+										]
+									}
+								],
+								"name": "ReactElement"
+							},
+							{
+								"type": "array",
+								"elementType": {
+									"type": "reference",
+									"typeArguments": [
+										{
+											"type": "intrinsic",
+											"name": "any"
+										},
+										{
+											"type": "union",
+											"types": [
+												{
+													"type": "intrinsic",
+													"name": "string"
+												},
+												{
+													"type": "reference",
+													"typeArguments": [
+														{
+															"type": "intrinsic",
+															"name": "any"
+														}
+													],
+													"name": "JSXElementConstructor"
+												}
+											]
+										}
+									],
+									"name": "ReactElement"
+								}
+							}
+						]
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.children"
+					}
+				},
+				{
+					"id": 4,
+					"name": "className",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "DOM Class Name"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.className"
+					}
+				},
+				{
+					"id": 5,
+					"name": "component",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Component to render as"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ElementType"
+					}
+				},
+				{
+					"id": 6,
+					"name": "disabled",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Controls the disabled state of children"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.disabled"
+					}
+				},
+				{
+					"id": 7,
+					"name": "state",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Controls state of children"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "error"
+							},
+							{
+								"type": "literal",
+								"value": "success"
+							},
+							{
+								"type": "literal",
+								"value": "warning"
+							},
+							{
+								"type": "literal",
+								"value": "info"
+							}
+						]
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						8,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"typeArguments": [
+						{
+							"type": "reference",
+							"id": 9,
+							"name": "FormControlRef"
+						}
+					],
+					"name": "BackyardBaseProps"
+				}
+			]
+		},
+		{
+			"id": 32,
+			"name": "FormControlProviderProps",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 33,
+					"name": "children",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"shortText": "React Children to provide context to"
+					},
+					"type": {
+						"type": "reference",
+						"name": "ReactNode"
+					}
+				},
+				{
+					"id": 34,
+					"name": "disabled",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Controls the disabled state of the child form elements"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 35,
+					"name": "indent",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Controls the indention of the helper text"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "boolean"
+							},
+							{
+								"type": "literal",
+								"value": "size_0"
+							},
+							{
+								"type": "literal",
+								"value": "size_1"
+							},
+							{
+								"type": "literal",
+								"value": "size_2"
+							},
+							{
+								"type": "literal",
+								"value": "size_3"
+							},
+							{
+								"type": "literal",
+								"value": "size_4"
+							},
+							{
+								"type": "literal",
+								"value": "size_5"
+							},
+							{
+								"type": "literal",
+								"value": "size_6"
+							},
+							{
+								"type": "literal",
+								"value": "size_7"
+							},
+							{
+								"type": "literal",
+								"value": "size_8"
+							},
+							{
+								"type": "literal",
+								"value": "size_10"
+							},
+							{
+								"type": "literal",
+								"value": "size_12"
+							},
+							{
+								"type": "literal",
+								"value": "size_14"
+							},
+							{
+								"type": "literal",
+								"value": "size_16"
+							},
+							{
+								"type": "literal",
+								"value": "size_18"
+							},
+							{
+								"type": "literal",
+								"value": "size_20"
+							},
+							{
+								"type": "literal",
+								"value": "size_24"
+							},
+							{
+								"type": "literal",
+								"value": "size_28"
+							},
+							{
+								"type": "literal",
+								"value": "size_32"
+							},
+							{
+								"type": "literal",
+								"value": "size_36"
+							},
+							{
+								"type": "literal",
+								"value": "size_40"
+							},
+							{
+								"type": "literal",
+								"value": "size_44"
+							},
+							{
+								"type": "literal",
+								"value": "size_48"
+							},
+							{
+								"type": "literal",
+								"value": "size_52"
+							},
+							{
+								"type": "literal",
+								"value": "size_56"
+							},
+							{
+								"type": "literal",
+								"value": "size_60"
+							},
+							{
+								"type": "literal",
+								"value": "size_64"
+							},
+							{
+								"type": "literal",
+								"value": "size_68"
+							},
+							{
+								"type": "literal",
+								"value": "size_72"
+							},
+							{
+								"type": "literal",
+								"value": "size_76"
+							},
+							{
+								"type": "literal",
+								"value": "size_80"
+							},
+							{
+								"type": "literal",
+								"value": "size_84"
+							},
+							{
+								"type": "literal",
+								"value": "size_88"
+							},
+							{
+								"type": "literal",
+								"value": "size_92"
+							},
+							{
+								"type": "literal",
+								"value": "size_96"
+							},
+							{
+								"type": "literal",
+								"value": "size_100"
+							},
+							{
+								"type": "literal",
+								"value": "size_104"
+							},
+							{
+								"type": "literal",
+								"value": "size_108"
+							},
+							{
+								"type": "literal",
+								"value": "size_112"
+							},
+							{
+								"type": "literal",
+								"value": "size_116"
+							},
+							{
+								"type": "literal",
+								"value": "size_120"
+							},
+							{
+								"type": "literal",
+								"value": "size_124"
+							},
+							{
+								"type": "literal",
+								"value": "size_128"
+							}
+						]
+					}
+				},
+				{
+					"id": 36,
+					"name": "state",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Controls the possible states to provide to form elements"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "default"
+							},
+							{
+								"type": "literal",
+								"value": "error"
+							},
+							{
+								"type": "literal",
+								"value": "success"
+							},
+							{
+								"type": "literal",
+								"value": "warning"
+							},
+							{
+								"type": "literal",
+								"value": "info"
+							}
+						]
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						33,
+						34,
+						35,
+						36
+					]
+				}
+			]
+		},
+		{
+			"id": 9,
+			"name": "FormControlRef",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"type": {
+				"type": "reference",
+				"name": "HTMLDivElement"
+			}
+		},
+		{
+			"id": 1,
+			"name": "FormControl",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"comment": {
+				"shortText": "Backyard React Form Control",
+				"text": "Allows control over form components.\nPasses `state` through form components and helper text, to sync visually.\nUses component's 'bdsName' metadata to configure helper text.\n\nCombine with `FormHeading`, `FormGroup` and `FormHelperText` to construct form heirarchy\n\n```\n <FormControl>\n     <FormHeading>What colors were Gandalf's robes in LotR?</FormHeading>\n     <FormGroup>\n         <FormControlLabel\n             control={<Checkbox id=\"check_white\" value=\"white\" />}\n             label=\"White\"\n         />\n         <FormControlLabel\n             control={<Checkbox id=\"check_gray\" value=\"gray\" />}\n             label=\"Gray\"\n         />\n         <FormControlLabel\n             control={<Checkbox id=\"check_black\" value=\"black\" />}\n             label=\"Black\"\n         />\n     </FormGroup>\n     <FormHelperText>Select all that apply</FormHelperText>\n </FormControl>\n```\nor\n```\n <FormControl>\n     <FormHeading>What colors were Gandalf's robes in LotR?</FormHeading>\n     <Multiselect\n         options={[\n             { label: 'White', value: 'white' },\n             { label: 'Gray', value: 'gray' },\n             { label: 'Black', value: 'black' },\n         ]}\n     />\n     <FormHelperText>Select all that apply</FormHelperText>\n </FormControl>\n```\n"
+			},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"id": 2,
+						"name": "FormControlProps"
+					}
+				],
+				"name": "BDSForwardRef"
+			},
+			"defaultValue": "..."
+		},
+		{
+			"id": 14,
+			"name": "FormControlConsumer",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"comment": {
+				"shortText": "Form Control Consumer"
+			},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"id": 15,
+						"name": "FormControlContextValues"
+					}
+				],
+				"name": "React.Consumer"
+			},
+			"defaultValue": "FormControlContext.Consumer"
+		},
+		{
+			"id": 13,
+			"name": "FormControlContext",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"comment": {
+				"shortText": "Form Control Context"
+			},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"id": 15,
+						"name": "FormControlContextValues"
+					}
+				],
+				"name": "React.Context"
+			},
+			"defaultValue": "..."
+		},
+		{
+			"id": 41,
+			"name": "useFormControl",
+			"kind": 64,
+			"kindString": "Function",
+			"flags": {},
+			"signatures": [
+				{
+					"id": 42,
+					"name": "useFormControl",
+					"kind": 4096,
+					"kindString": "Call signature",
+					"flags": {},
+					"comment": {
+						"shortText": "Hook to add"
+					},
+					"parameters": [
+						{
+							"id": 43,
+							"name": "props",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {},
+							"comment": {
+								"shortText": "context props to initialize input with\n"
+							},
+							"type": {
+								"type": "reference",
+								"name": "UseFormControlProps"
+							},
+							"defaultValue": "{}"
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intersection",
+								"types": [
+									{
+										"type": "reference",
+										"id": 15,
+										"name": "FormControlContextValues"
+									},
+									{
+										"type": "reflection",
+										"declaration": {
+											"id": 44,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {},
+											"children": [
+												{
+													"id": 45,
+													"name": "id",
+													"kind": 1024,
+													"kindString": "Property",
+													"flags": {
+														"isOptional": true
+													},
+													"type": {
+														"type": "intrinsic",
+														"name": "string"
+													}
+												}
+											],
+											"groups": [
+												{
+													"title": "Properties",
+													"kind": 1024,
+													"children": [
+														45
+													]
+												}
+											]
+										}
+									}
+								]
+							},
+							{
+								"type": "reference",
+								"id": 37,
+								"name": "FormContextProps"
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"groups": [
+		{
+			"title": "References",
+			"kind": 16777216,
+			"children": [
+				46
+			]
+		},
+		{
+			"title": "Interfaces",
+			"kind": 256,
+			"children": [
+				37,
+				15,
+				2,
+				32
+			]
+		},
+		{
+			"title": "Type aliases",
+			"kind": 4194304,
+			"children": [
+				9
+			]
+		},
+		{
+			"title": "Variables",
+			"kind": 32,
+			"children": [
+				1,
+				14,
+				13
+			]
+		},
+		{
+			"title": "Functions",
+			"kind": 64,
+			"children": [
+				41
+			]
+		}
+	]
+}

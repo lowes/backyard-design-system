@@ -1,0 +1,6 @@
+packages:
+    - 'packages/*'
+    - 'packages/*/src'
+    - 'packages/*/lib'
+    - 'packages/bds-docs/client'
+    - 'packages/bds-docs/server'

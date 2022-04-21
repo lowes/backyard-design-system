@@ -1,0 +1,1171 @@
+{
+	"id": 0,
+	"name": "@lowes-tech/bds-react/Tile",
+	"kind": 1,
+	"kindString": "Project",
+	"flags": {},
+	"children": [
+		{
+			"id": 50,
+			"name": "default",
+			"kind": 16777216,
+			"kindString": "Reference",
+			"flags": {},
+			"target": 1
+		},
+		{
+			"id": 15,
+			"name": "CardTileProps",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 19,
+					"name": "as",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ElementType"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "BackyardBaseProps.as"
+					}
+				},
+				{
+					"id": 17,
+					"name": "color",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Changes card styling to provided variant style"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "surface"
+							},
+							{
+								"type": "literal",
+								"value": "subdued"
+							}
+						]
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.color"
+					}
+				},
+				{
+					"id": 16,
+					"name": "disabled",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Apply disabled styling if 'true'"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.disabled"
+					}
+				},
+				{
+					"id": 18,
+					"name": "shape",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Shape of the edges"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "rounded"
+							},
+							{
+								"type": "literal",
+								"value": "squared"
+							}
+						]
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.shape"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						19,
+						17,
+						16,
+						18
+					]
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"typeArguments": [
+						{
+							"type": "reference",
+							"id": 20,
+							"name": "CardTileRef"
+						}
+					],
+					"name": "BackyardBaseProps"
+				}
+			]
+		},
+		{
+			"id": 22,
+			"name": "LinkTileProps",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 29,
+					"name": "as",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ElementType"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "BackyardBaseProps.as"
+					}
+				},
+				{
+					"id": 25,
+					"name": "color",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Changes card styling to provided variant style"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "surface"
+							},
+							{
+								"type": "literal",
+								"value": "subdued"
+							}
+						]
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.color"
+					}
+				},
+				{
+					"id": 28,
+					"name": "disableIcon",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Removes the default <LinkIcon/> from being displayed"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 24,
+					"name": "disabled",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Apply disabled styling if 'true'"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.disabled"
+					}
+				},
+				{
+					"id": 23,
+					"name": "href",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Sets the link that will be navigated to upon click of tile"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.href"
+					}
+				},
+				{
+					"id": 27,
+					"name": "icon",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Replaces the <LinkIcon/> with the provided @lowes-tech/bds-icons icon"
+					},
+					"type": {
+						"type": "reference",
+						"name": "ReactNode"
+					}
+				},
+				{
+					"id": 26,
+					"name": "shape",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Shape of the edges"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "rounded"
+							},
+							{
+								"type": "literal",
+								"value": "squared"
+							}
+						]
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.shape"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						29,
+						25,
+						28,
+						24,
+						23,
+						27,
+						26
+					]
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"typeArguments": [
+						{
+							"type": "reference",
+							"id": 30,
+							"name": "LinkTileRef"
+						}
+					],
+					"name": "BackyardBaseProps"
+				}
+			]
+		},
+		{
+			"id": 32,
+			"name": "RadioTileProps",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 45,
+					"name": "as",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ElementType"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.as"
+					}
+				},
+				{
+					"id": 37,
+					"name": "checked",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not `RadioTile` is checked"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.checked"
+					}
+				},
+				{
+					"id": 48,
+					"name": "children",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Customize a label for the radio input"
+					},
+					"type": {
+						"type": "reference",
+						"name": "ReactNode"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.children"
+					}
+				},
+				{
+					"id": 46,
+					"name": "className",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "DOM Class Name"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.className"
+					}
+				},
+				{
+					"id": 34,
+					"name": "color",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Changes card styling to provided variant style"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "surface"
+							},
+							{
+								"type": "literal",
+								"value": "subdued"
+							}
+						]
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.color"
+					}
+				},
+				{
+					"id": 38,
+					"name": "defaultChecked",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not the radio is checked by default"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.defaultChecked"
+					}
+				},
+				{
+					"id": 33,
+					"name": "disabled",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Apply disabled styling if 'true'"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.disabled"
+					}
+				},
+				{
+					"id": 47,
+					"name": "id",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "DOM ID of `input`"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.id"
+					}
+				},
+				{
+					"id": 39,
+					"name": "name",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "DOM Name of the internal `input`\nNote: Required when NOT a child of `RadioGroup`"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.name"
+					}
+				},
+				{
+					"id": 40,
+					"name": "onChange",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 41,
+							"name": "__type",
+							"kind": 65536,
+							"kindString": "Type literal",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 42,
+									"name": "__type",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "`onChange` function triggered when value of `input` changes\nChained through `RadioGroup` parent if present"
+									},
+									"parameters": [
+										{
+											"id": 43,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "reference",
+														"name": "Element"
+													}
+												],
+												"name": "FormEvent"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						}
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.onChange"
+					}
+				},
+				{
+					"id": 35,
+					"name": "shape",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Shape of the edges"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "rounded"
+							},
+							{
+								"type": "literal",
+								"value": "squared"
+							}
+						]
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.shape"
+					}
+				},
+				{
+					"id": 36,
+					"name": "value",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Value of the internal `input`"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.value"
+					}
+				},
+				{
+					"id": 44,
+					"name": "wrapperProps",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Used to apply props on the radio wrapper"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "reference",
+								"name": "HTMLLabelElement"
+							},
+							{
+								"type": "literal",
+								"value": ""
+							}
+						],
+						"name": "BackyardBaseProps"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						45,
+						37,
+						48,
+						46,
+						34,
+						38,
+						33,
+						47,
+						39,
+						40,
+						35,
+						36,
+						44
+					]
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"typeArguments": [
+						{
+							"type": "reference",
+							"name": "RadioProps"
+						},
+						{
+							"type": "reference",
+							"name": "RadioTileOverrideProps"
+						}
+					],
+					"name": "Omit"
+				}
+			]
+		},
+		{
+			"id": 4,
+			"name": "TileProps",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 9,
+					"name": "as",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ElementType"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "TileTypeProps.as"
+					}
+				},
+				{
+					"id": 8,
+					"name": "color",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Changes card styling to provided variant style"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "surface"
+							},
+							{
+								"type": "literal",
+								"value": "subdued"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "TileTypeProps.color"
+					}
+				},
+				{
+					"id": 11,
+					"name": "disableIcon",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Removes the default <LinkIcon/> from being displayed"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "TileTypeProps.disableIcon"
+					}
+				},
+				{
+					"id": 7,
+					"name": "disabled",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Apply disabled styling if 'true'"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "TileTypeProps.disabled"
+					}
+				},
+				{
+					"id": 10,
+					"name": "icon",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Replaces the <LinkIcon/> with the provided @lowes-tech/bds-icons icon"
+					},
+					"type": {
+						"type": "reference",
+						"name": "ReactNode"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "TileTypeProps.icon"
+					}
+				},
+				{
+					"id": 6,
+					"name": "shape",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Shape of the edges"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "rounded"
+							},
+							{
+								"type": "literal",
+								"value": "squared"
+							}
+						]
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "TileTypeProps.shape"
+					}
+				},
+				{
+					"id": 5,
+					"name": "variant",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Changes the tile in to the respective tile type."
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "link"
+							},
+							{
+								"type": "literal",
+								"value": "radio"
+							},
+							{
+								"type": "literal",
+								"value": "card"
+							}
+						]
+					}
+				},
+				{
+					"id": 12,
+					"name": "wrapperProps",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Used to apply props on the radio wrapper"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "reference",
+								"name": "HTMLLabelElement"
+							},
+							{
+								"type": "literal",
+								"value": ""
+							}
+						],
+						"name": "BackyardBaseProps"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "TileTypeProps.wrapperProps"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						9,
+						8,
+						11,
+						7,
+						10,
+						6,
+						5,
+						12
+					]
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"name": "TileTypeProps"
+				}
+			]
+		},
+		{
+			"id": 20,
+			"name": "CardTileRef",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"type": {
+				"type": "reference",
+				"name": "HTMLDivElement"
+			}
+		},
+		{
+			"id": 30,
+			"name": "LinkTileRef",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"type": {
+				"type": "reference",
+				"name": "HTMLAnchorElement"
+			}
+		},
+		{
+			"id": 49,
+			"name": "RadioTileRef",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"type": {
+				"type": "reference",
+				"name": "RadioRef"
+			}
+		},
+		{
+			"id": 13,
+			"name": "TileRef",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"type": {
+				"type": "union",
+				"types": [
+					{
+						"type": "reference",
+						"name": "HTMLDivElement"
+					},
+					{
+						"type": "reference",
+						"name": "HTMLAnchorElement"
+					},
+					{
+						"type": "reference",
+						"name": "HTMLInputElement"
+					}
+				]
+			}
+		},
+		{
+			"id": 14,
+			"name": "CardTile",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"comment": {
+				"shortText": "Tiles are surfaces that display content and actions on a single topic.",
+				"text": "They should be easy to scan for relevant and actionable information. Elements, like text and images, should\nbe placed on them in a way that clearly indicates hierarchy.\n\nSince this component is just a wrapper you can place interactive elements within like\nbuttons and links if you so desire.\n\nnote: The white background variation is to be used when there are pictures being included on the tile(s). If it\nis part of a set, all the tiles should be of the same variation.\n\nexample:\n<CardTile>\n    <span>Hello World</span>\n    <Button>Button</Button>\n</CardTile>\n"
+			},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"id": 15,
+						"name": "CardTileProps"
+					}
+				],
+				"name": "BDSForwardRef"
+			},
+			"defaultValue": "..."
+		},
+		{
+			"id": 21,
+			"name": "LinkTile",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"comment": {
+				"shortText": "Tiles are surfaces that display content and actions on a single topic.",
+				"text": "They should be easy to scan for relevant and actionable information. Elements, like text and images, should\nbe placed on them in a way that clearly indicates hierarchy.\n\nThis type of Tile contains links to external sites or sections of the page that are navigated to when selected.\nThe entire surface of the tile is selectable, which prevents additional links from being included within the content.\n\nnote: The 'outlined' variation is to be used when there are pictures being included on the tile(s).\n\nexample:\n<LinkTile href='www.lowes.com'>\n    <span>Hello World</span>\n</LinkTile>\n"
+			},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"id": 22,
+						"name": "LinkTileProps"
+					}
+				],
+				"name": "BDSForwardRef"
+			},
+			"defaultValue": "..."
+		},
+		{
+			"id": 31,
+			"name": "RadioTile",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"comment": {
+				"shortText": "Tiles are surfaces that display content and actions on a single topic.",
+				"text": "They should be easy to scan for relevant and actionable information. Elements, like text and images, should\nbe placed on them in a way that clearly indicates hierarchy.\n\nThis type of Tile is to be used as a static element on the page that functions like a radio button.\nThe entire surface of the tile is selectable, which prevents additional links or call to actions from being\nincluded within the content.\n\nnote: The outlined variation is to be used when there are pictures being included on the tile(s).\nIf it is part of a radio group or set, all the tiles should be of the same variation.\n\nexample:\n <RadioTile\n     value='test1'\n     name='test'\n     checked\n >\n    <span>Hello World</span>\n </RadioTile>\n\nexample 2:\n <RadioGroup\n     name={'test2'}\n     direction={'row'}\n     defaultValue={'2'}\n     onChange={() => {}}\n >\n     <RadioTile\n         inputId={'1'}\n         value={'1'}\n         variant='filled'\n     >\n         <span>Item 1</span>\n     </RadioTile>\n     <RadioTile\n         inputId={'2'}\n         value={'2'}\n         variant='filled'\n     >\n         <span>Item 2</span>\n     </RadioTile>\n     <RadioTile\n         inputId={'3'}\n         value={'3'}\n         variant='filled'\n         disabled\n     >\n         <span>Item 3</span>\n     </RadioTile>\n </RadioGroup>\n"
+			},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"id": 32,
+						"name": "RadioTileProps"
+					}
+				],
+				"name": "BDSForwardRef"
+			},
+			"defaultValue": "..."
+		},
+		{
+			"id": 1,
+			"name": "Tile",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"comment": {
+				"shortText": "Tiles are surfaces that display content and actions on a single topic.",
+				"text": "They should be easy to scan for relevant and actionable information. Elements, like text and images, should be\nplaced on them in a way that clearly indicates hierarchy.\n\nTiles may be links to external sites, if selected, or used as a static element on the page that functions\nlike a radio button.\n\nThe entire surface of the tile is selectable, which prevents additional links from being included within the content.\nUnless however, you make use of the type:'card' tile or CardTile in which case its a simple wrapper that gives you\na styled div with the same Tile styles as link or radio.\n\nThe white background variation is to be used when there are pictures being included on the tile(s).\nIf it is part of a set, all the tiles should be of the same variation.\n\ncard examples:\n<Tile>\n    <span>Hello World</span>\n</Tile>\n<Tile type='card'>\n    <span>Hello World</span>\n</Tile>\n\nradio examples:\n<RadioGroup name={'test2'}\n            direction={'row'}\n            defaultValue={'2'}\n            onChange={() => {}}>\n     <Tile type='radio'\n           inputId={'1'}\n           value={'1'}\n           variant='filled'>\n         <span>Item 1</span>\n     </Tile>\n     <Tile type='radio'\n           inputId={'2'}\n           value={'2'}\n           variant='filled'>\n         <span>Item 2</span>\n     </Tile>\n     <Tile type='radio'\n           inputId={'3'}\n           value={'3'}\n           variant='filled'\n           disabled>\n         <span>Item 3</span>\n     </Tile>\n</RadioGroup>\n\n\n<Tile type='radio'\n      id={'4'}\n      inputId={'input_4'}\n      value={'4'}\n      disabled>\n    <span>Item 4</span>\n</Tile>\n\nlink example:\n<Tile type='link'\n      href='www.lowes.com'>\n    <span>Hello World</span>\n</Tile>\n"
+			},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "intersection",
+						"types": [
+							{
+								"type": "reference",
+								"id": 4,
+								"name": "TileProps"
+							},
+							{
+								"type": "reflection",
+								"declaration": {
+									"id": 2,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {},
+									"children": [
+										{
+											"id": 3,
+											"name": "ref",
+											"kind": 1024,
+											"kindString": "Property",
+											"flags": {
+												"isOptional": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"groups": [
+										{
+											"title": "Properties",
+											"kind": 1024,
+											"children": [
+												3
+											]
+										}
+									]
+								}
+							}
+						]
+					}
+				],
+				"name": "BDSForwardRef"
+			},
+			"defaultValue": "..."
+		}
+	],
+	"groups": [
+		{
+			"title": "References",
+			"kind": 16777216,
+			"children": [
+				50
+			]
+		},
+		{
+			"title": "Interfaces",
+			"kind": 256,
+			"children": [
+				15,
+				22,
+				32,
+				4
+			]
+		},
+		{
+			"title": "Type aliases",
+			"kind": 4194304,
+			"children": [
+				20,
+				30,
+				49,
+				13
+			]
+		},
+		{
+			"title": "Variables",
+			"kind": 32,
+			"children": [
+				14,
+				21,
+				31,
+				1
+			]
+		}
+	]
+}

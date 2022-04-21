@@ -1,0 +1,800 @@
+{
+	"id": 0,
+	"name": "@lowes-tech/bds-react/Chip",
+	"kind": 1,
+	"kindString": "Project",
+	"flags": {},
+	"children": [
+		{
+			"id": 41,
+			"name": "default",
+			"kind": 16777216,
+			"kindString": "Reference",
+			"flags": {},
+			"target": 1
+		},
+		{
+			"id": 2,
+			"name": "ChipProps",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 39,
+					"name": "as",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ElementType"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "BackyardBaseProps.as"
+					}
+				},
+				{
+					"id": 4,
+					"name": "checked",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not `input` is checked\nUses controlled `checked` value if defined"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.checked"
+					}
+				},
+				{
+					"id": 3,
+					"name": "className",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "DOM Class Name of `input`"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.className"
+					}
+				},
+				{
+					"id": 5,
+					"name": "defaultChecked",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not `input` id checked by default\nUses uncontrolled `checked` value if defined"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.defaultChecked"
+					}
+				},
+				{
+					"id": 6,
+					"name": "disabled",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not `input` is disabled"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.disabled"
+					}
+				},
+				{
+					"id": 7,
+					"name": "icon",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Main icon for `input` type `Chip`\nDoes not render on any other type"
+					},
+					"type": {
+						"type": "reference",
+						"name": "ReactNode"
+					}
+				},
+				{
+					"id": 8,
+					"name": "id",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "DOM ID of `input`"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.id"
+					}
+				},
+				{
+					"id": 9,
+					"name": "label",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"shortText": "Required\nLabel text of `Chip`"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.label"
+					}
+				},
+				{
+					"id": 10,
+					"name": "name",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "DOM Name of `input`\nRequired for choice chips to sync"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.name"
+					}
+				},
+				{
+					"id": 38,
+					"name": "subdued",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether to use the subdued interactive color"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 36,
+					"name": "value",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Value of `input`"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.value"
+					}
+				},
+				{
+					"id": 35,
+					"name": "variant",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Type of `Chip` to render\nChoice -> Similar to Radio Input, can only have one selected for a given set of equivalent names\nFilter -> Similar to Checkboxes, can select as many with a given set of names as desired\nInput -> Chip contains a given value, and when activated, will be removed from the form"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "choice"
+							},
+							{
+								"type": "literal",
+								"value": "filter"
+							},
+							{
+								"type": "literal",
+								"value": "input"
+							}
+						]
+					}
+				},
+				{
+					"id": 37,
+					"name": "wrapperProps",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Props to extend `ChipBase` with\nUseful for setting `style` of `ChipBase` instead of `input`"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "reference",
+								"name": "HTMLSpanElement"
+							},
+							{
+								"type": "literal",
+								"value": ""
+							}
+						],
+						"name": "BackyardBaseProps"
+					}
+				},
+				{
+					"id": 11,
+					"name": "onChange",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 12,
+							"name": "onChange",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onChange` trigger function when `input` value is changed",
+								"tags": [
+									{
+										"tag": "argument",
+										"text": "{React.ChangeEvent} event - DOM Event"
+									},
+									{
+										"tag": "argument",
+										"text": "{ChipEventInfo} info - { checked, value } of `event.target`\n"
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 13,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											}
+										],
+										"name": "ChangeEvent"
+									}
+								},
+								{
+									"id": 14,
+									"name": "info",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"name": "ChipEventInfo"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				},
+				{
+					"id": 15,
+					"name": "onClick",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 16,
+							"name": "onClick",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onClick` trigger function when `Chip` is clicked",
+								"tags": [
+									{
+										"tag": "argument",
+										"text": "{React.MouseEvent} event - DOM Event"
+									},
+									{
+										"tag": "argument",
+										"text": "{ChipEventInfo} info - { checked, value } of `event.target`\n"
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 17,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											},
+											{
+												"type": "reference",
+												"name": "MouseEvent"
+											}
+										],
+										"name": "MouseEvent"
+									}
+								},
+								{
+									"id": 18,
+									"name": "info",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"name": "ChipEventInfo"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				},
+				{
+					"id": 19,
+					"name": "onDelete",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 20,
+							"name": "onDelete",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onDelete` trigger function when 'input' type `Chip` is deleted",
+								"tags": [
+									{
+										"tag": "argument",
+										"text": "{ChipEvent} event - DOM Event"
+									},
+									{
+										"tag": "argument",
+										"text": "{ChipEventInfo} info - { checked, value } of `event.target`\n"
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 21,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"name": "ChipEvent"
+									}
+								},
+								{
+									"id": 22,
+									"name": "info",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"name": "ChipEventInfo"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				},
+				{
+					"id": 31,
+					"name": "onFocus",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 32,
+							"name": "onFocus",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onKeyUp` trigger function when key is pressed and released on `Chip`",
+								"tags": [
+									{
+										"tag": "argument",
+										"text": "{React.FocusEvent} event - DOM Event"
+									},
+									{
+										"tag": "argument",
+										"text": "{ChipEventInfo} info - { checked, value } of `event.target`\n"
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 33,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											},
+											{
+												"type": "reference",
+												"name": "Element"
+											}
+										],
+										"name": "FocusEvent"
+									}
+								},
+								{
+									"id": 34,
+									"name": "info",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"name": "ChipEventInfo"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				},
+				{
+					"id": 27,
+					"name": "onKeyDown",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 28,
+							"name": "onKeyDown",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onKeyDown` trigger function when key is pressed and released on `Chip`",
+								"tags": [
+									{
+										"tag": "argument",
+										"text": "{React.KeyboardEvent} event - DOM Event"
+									},
+									{
+										"tag": "argument",
+										"text": "{ChipEventInfo} info - { checked, value } of `event.target`\n"
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 29,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											}
+										],
+										"name": "KeyboardEvent"
+									}
+								},
+								{
+									"id": 30,
+									"name": "info",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"name": "ChipEventInfo"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				},
+				{
+					"id": 23,
+					"name": "onKeyUp",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 24,
+							"name": "onKeyUp",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onKeyUp` trigger function when key is pressed and released on `Chip`",
+								"tags": [
+									{
+										"tag": "argument",
+										"text": "{React.KeyboardEvent} event - DOM Event"
+									},
+									{
+										"tag": "argument",
+										"text": "{ChipEventInfo} info - { checked, value } of `event.target`\n"
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 25,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											}
+										],
+										"name": "KeyboardEvent"
+									}
+								},
+								{
+									"id": 26,
+									"name": "info",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"name": "ChipEventInfo"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						39,
+						4,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						38,
+						36,
+						35,
+						37
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						11,
+						15,
+						19,
+						31,
+						27,
+						23
+					]
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"typeArguments": [
+						{
+							"type": "reference",
+							"id": 40,
+							"name": "ChipRef"
+						},
+						{
+							"type": "reference",
+							"name": "ChipOverrideProps"
+						}
+					],
+					"name": "BackyardBaseProps"
+				}
+			]
+		},
+		{
+			"id": 40,
+			"name": "ChipRef",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"type": {
+				"type": "reference",
+				"name": "HTMLInputElement"
+			}
+		},
+		{
+			"id": 1,
+			"name": "Chip",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"comment": {
+				"shortText": "Backyard React Chip",
+				"text": "Chip is used to interact with two different types of values in a form:\n     1. Boolean\n     2. String Selections\n\n> Note: Requires uniquely assigned `id` prop\n> Note: `label` is always required\n> Note: `name` is required when `type` is `choice`\n\n <Chip type=\"filter\" id=\"filter\" label=\"Filter Chip\" />\n <Chip type=\"choice\" id=\"choice\" name=\"choice\" label=\"Choice Chip\" />\n <Chip type=\"input\" id=\"input\" label=\"Input Chip\" />\n\nTo group `Chip`s horizontally or vertically, use `FormGroup`:\n\n <FormControl>\n     <FormHeading>Here's some Chips</FormHeading>\n     <FormGroup\n         direction=\"row\"\n     >\n         <Chip type=\"filter\" id=\"filter\" label=\"Filter Chip\" />\n         <Chip type=\"choice\" id=\"choice\" name=\"choice\" label=\"Choice Chip\" />\n         <Chip type=\"input\" id=\"input\" label=\"Input Chip\" />\n     </FormGroup>\n     <FormHelperText>Some Helper Text</FormHelperText>\n </FormControl>\n"
+			},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"id": 2,
+						"name": "ChipProps"
+					}
+				],
+				"name": "BDSForwardRef"
+			},
+			"defaultValue": "..."
+		}
+	],
+	"groups": [
+		{
+			"title": "References",
+			"kind": 16777216,
+			"children": [
+				41
+			]
+		},
+		{
+			"title": "Interfaces",
+			"kind": 256,
+			"children": [
+				2
+			]
+		},
+		{
+			"title": "Type aliases",
+			"kind": 4194304,
+			"children": [
+				40
+			]
+		},
+		{
+			"title": "Variables",
+			"kind": 32,
+			"children": [
+				1
+			]
+		}
+	]
+}

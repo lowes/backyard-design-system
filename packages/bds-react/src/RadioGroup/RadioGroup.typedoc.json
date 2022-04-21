@@ -1,0 +1,529 @@
+{
+	"id": 0,
+	"name": "@lowes-tech/bds-react/RadioGroup",
+	"kind": 1,
+	"kindString": "Project",
+	"flags": {},
+	"children": [
+		{
+			"id": 26,
+			"name": "default",
+			"kind": 16777216,
+			"kindString": "Reference",
+			"flags": {},
+			"target": 1
+		},
+		{
+			"id": 2,
+			"name": "RadioGroupProps",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 11,
+					"name": "as",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ElementType"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.as"
+					}
+				},
+				{
+					"id": 3,
+					"name": "children",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Children of `RadioGroup`, which have access to `RadioGroupContext`\nMust contain at least one `Radio` child\nDoes not require `Radio` to be direct children"
+					},
+					"type": {
+						"type": "reference",
+						"name": "ReactNode"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.children"
+					}
+				},
+				{
+					"id": 12,
+					"name": "className",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "DOM class name"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.className"
+					}
+				},
+				{
+					"id": 4,
+					"name": "defaultValue",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Default Value of `RadioGroup`"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.defaultValue"
+					}
+				},
+				{
+					"id": 13,
+					"name": "direction",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Direction to render children"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "column"
+							},
+							{
+								"type": "literal",
+								"value": "row"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.direction"
+					}
+				},
+				{
+					"id": 5,
+					"name": "name",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"shortText": "Required\nDOM field `name` for all `Radio`s in child tree of `RadioGroup`"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.name"
+					}
+				},
+				{
+					"id": 14,
+					"name": "spacing",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Spacing token between form inputs"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.spacing"
+					}
+				},
+				{
+					"id": 10,
+					"name": "value",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Value of `RadioGroupContext`\nSet by current active `Radio` child of `RadioGroup`"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.value"
+					}
+				},
+				{
+					"id": 6,
+					"name": "onChange",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 7,
+							"name": "onChange",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onChange` function to trigger when `value` of `RadioGroupContext` changes",
+								"tags": [
+									{
+										"tag": "argument",
+										"text": "{Event} event - DOM Event of `onChange`"
+									},
+									{
+										"tag": "argument",
+										"text": "{boolean} value -  Value from DOM Event target\n"
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 8,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											}
+										],
+										"name": "ChangeEvent"
+									}
+								},
+								{
+									"id": 9,
+									"name": "value",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						11,
+						3,
+						12,
+						4,
+						13,
+						5,
+						14,
+						10
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						6
+					]
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"typeArguments": [
+						{
+							"type": "reference",
+							"name": "FormGroupProps"
+						},
+						{
+							"type": "reference",
+							"name": "RadioGroupOverrideProps"
+						}
+					],
+					"name": "Omit"
+				}
+			]
+		},
+		{
+			"id": 17,
+			"name": "RadioGroupValue",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"comment": {
+				"shortText": "Value of the `RadioGroupContext` provider"
+			},
+			"children": [
+				{
+					"id": 23,
+					"name": "defaultValue",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"shortText": "Default value of the radio group"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 18,
+					"name": "name",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"shortText": "Name of the radio group"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 22,
+					"name": "value",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"shortText": "Value of the radio group"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 19,
+					"name": "onChange",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {},
+					"signatures": [
+						{
+							"id": 20,
+							"name": "onChange",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onChange` trigger event when `RadioGroup` changes value"
+							},
+							"parameters": [
+								{
+									"id": 21,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											}
+										],
+										"name": "ChangeEvent"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						23,
+						18,
+						22
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						19
+					]
+				}
+			]
+		},
+		{
+			"id": 15,
+			"name": "RadioGroupRef",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"type": {
+				"type": "reference",
+				"name": "FormGroupRef"
+			}
+		},
+		{
+			"id": 1,
+			"name": "RadioGroup",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"comment": {
+				"shortText": "Backyard React Radio Group",
+				"text": "`RadioGroup` allows for grouping radio inputs and syncing them together.\nIt extends from `FormGroup` to provide extra functionality for `Radio` components.\n\nFor `Checkbox` or `Switch` it is recommended to use `FormGroup`.\n\nThis component is useful when combined with `FormControl` to\norganize the visual structure of the form input. Example:\n\n```\n <FormControl>\n     <FormHeading>Heading</FormHeading>\n     <RadioGroup\n         name=\"radios\"\n         defaultValue=\"2\"\n         direction=\"row\"\n     >\n         <FormControlLabel\n             control={<Radio value=\"1\" />}\n             label=\"Label 1\"\n         />\n         <FormControlLabel\n             control={<Radio value=\"2\" />}\n             label=\"Label 2\"\n         />\n         <FormControlLabel\n             control={<Radio value=\"3\" />}\n             label=\"Label 3\"\n         />\n     </FormGroup>\n     <FormHelperText>Helper Text</FormHelperText>\n </FormControl>\n```\n"
+			},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"id": 2,
+						"name": "RadioGroupProps"
+					}
+				],
+				"name": "BDSForwardRef"
+			},
+			"defaultValue": "..."
+		},
+		{
+			"id": 16,
+			"name": "RadioGroupContext",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"id": 17,
+						"name": "RadioGroupValue"
+					}
+				],
+				"name": "Context"
+			},
+			"defaultValue": "..."
+		},
+		{
+			"id": 24,
+			"name": "useRadioGroup",
+			"kind": 64,
+			"kindString": "Function",
+			"flags": {
+				"isConst": true
+			},
+			"signatures": [
+				{
+					"id": 25,
+					"name": "useRadioGroup",
+					"kind": 4096,
+					"kindString": "Call signature",
+					"flags": {},
+					"type": {
+						"type": "reference",
+						"id": 17,
+						"name": "RadioGroupValue"
+					}
+				}
+			]
+		}
+	],
+	"groups": [
+		{
+			"title": "References",
+			"kind": 16777216,
+			"children": [
+				26
+			]
+		},
+		{
+			"title": "Interfaces",
+			"kind": 256,
+			"children": [
+				2,
+				17
+			]
+		},
+		{
+			"title": "Type aliases",
+			"kind": 4194304,
+			"children": [
+				15
+			]
+		},
+		{
+			"title": "Variables",
+			"kind": 32,
+			"children": [
+				1,
+				16
+			]
+		},
+		{
+			"title": "Functions",
+			"kind": 64,
+			"children": [
+				24
+			]
+		}
+	]
+}

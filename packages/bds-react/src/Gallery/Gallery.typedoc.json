@@ -1,0 +1,2053 @@
+{
+	"id": 0,
+	"name": "@lowes-tech/bds-react/Gallery",
+	"kind": 1,
+	"kindString": "Project",
+	"flags": {},
+	"children": [
+		{
+			"id": 100,
+			"name": "default",
+			"kind": 16777216,
+			"kindString": "Reference",
+			"flags": {},
+			"target": 1
+		},
+		{
+			"id": 26,
+			"name": "GalleryProvider",
+			"kind": 4,
+			"kindString": "Namespace",
+			"flags": {},
+			"children": [
+				{
+					"id": 27,
+					"name": "bdsName",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Variables",
+					"kind": 32,
+					"children": [
+						27
+					]
+				}
+			]
+		},
+		{
+			"id": 19,
+			"name": "GalleryBaseProps",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 23,
+					"name": "as",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ElementType"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "BackyardBaseProps.as"
+					}
+				},
+				{
+					"id": 20,
+					"name": "className",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "DOM Class Name"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.className"
+					}
+				},
+				{
+					"id": 21,
+					"name": "disableThumbnails",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 22,
+					"name": "maxThumbnails",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						23,
+						20,
+						21,
+						22
+					]
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"typeArguments": [
+						{
+							"type": "reference",
+							"id": 24,
+							"name": "GalleryBaseRef"
+						}
+					],
+					"name": "BackyardBaseProps"
+				}
+			],
+			"extendedBy": [
+				{
+					"type": "reference",
+					"id": 2,
+					"name": "GalleryProps"
+				}
+			]
+		},
+		{
+			"id": 30,
+			"name": "GalleryContextValues",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"comment": {
+				"shortText": "Context values that can be passed to children via",
+				"text": "`const context = React.useContext(GalleryContext)`\n"
+			},
+			"children": [
+				{
+					"id": 34,
+					"name": "disableNavigation",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"shortText": "Whether or not the navigation buttons are disabled in the `GalleryViewport`"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 31,
+					"name": "item",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"shortText": "Current selected item number\nDefault: 0"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 33,
+					"name": "items",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"shortText": "List of `GalleryItem`s to be rendered/managed"
+					},
+					"type": {
+						"type": "array",
+						"elementType": {
+							"type": "reference",
+							"name": "GalleryItem"
+						}
+					}
+				},
+				{
+					"id": 35,
+					"name": "maxThumbnails",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"shortText": "The maximum number of thumbnails to be displayed",
+						"text": "Any thumbnails more than this are joined into an `excess` thumbnail\n"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 36,
+					"name": "onExcessClick",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 37,
+							"name": "__type",
+							"kind": 65536,
+							"kindString": "Type literal",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 38,
+									"name": "__type",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "`onClick` handler for the excess thumbnail"
+									},
+									"parameters": [
+										{
+											"id": 39,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "reference",
+														"name": "HTMLImageElement"
+													},
+													{
+														"type": "reference",
+														"name": "MouseEvent"
+													}
+												],
+												"name": "MouseEvent"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 32,
+					"name": "setItem",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"shortText": "Set the current selected item number"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "number"
+									}
+								],
+								"name": "SetStateAction"
+							}
+						],
+						"name": "Dispatch"
+					}
+				},
+				{
+					"id": 40,
+					"name": "shape",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"shortText": "Shape of the gallery components"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "rounded"
+							},
+							{
+								"type": "literal",
+								"value": "squared"
+							}
+						]
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						34,
+						31,
+						33,
+						35,
+						36,
+						32,
+						40
+					]
+				}
+			]
+		},
+		{
+			"id": 2,
+			"name": "GalleryProps",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 16,
+					"name": "as",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ElementType"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"id": 23,
+						"name": "GalleryBaseProps.as"
+					}
+				},
+				{
+					"id": 15,
+					"name": "className",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "DOM Class Name"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"id": 20,
+						"name": "GalleryBaseProps.className"
+					}
+				},
+				{
+					"id": 3,
+					"name": "defaultItem",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Default selected item number",
+						"text": "Use this to let `GalleryProvider` handle state\nDefault: 0\n"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 4,
+					"name": "disableNavigation",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not the navigation buttons are rendered\nDefault: false"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 5,
+					"name": "disableThumbnails",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not the thumbnails are rendered\nDefault: false"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"overwrites": {
+						"type": "reference",
+						"id": 21,
+						"name": "GalleryBaseProps.disableThumbnails"
+					}
+				},
+				{
+					"id": 6,
+					"name": "item",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Selected item number",
+						"text": "Use this to control `GalleryProvider`'s `item` state externally\n"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 7,
+					"name": "items",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "List of `GalleryItem`s that are passed to `GalleryProvider`",
+						"text": "These will be automatically rendered out from `Gallery`\n"
+					},
+					"type": {
+						"type": "array",
+						"elementType": {
+							"type": "reference",
+							"name": "GalleryItem"
+						}
+					}
+				},
+				{
+					"id": 8,
+					"name": "maxThumbnails",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "The maximum number of thumbnails that will be displayed",
+						"text": "Any thumbnails in excess of this will be joined into an `excess` thumbnail\nthat displays the number of thumbnails still available (ex. \"+5\")\n"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					},
+					"overwrites": {
+						"type": "reference",
+						"id": 22,
+						"name": "GalleryBaseProps.maxThumbnails"
+					}
+				},
+				{
+					"id": 10,
+					"name": "onExcessClick",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 11,
+							"name": "__type",
+							"kind": 65536,
+							"kindString": "Type literal",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 12,
+									"name": "__type",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "`onClick` handler for the excess thumbnail",
+										"text": "(event: React.MouseEvent<HTMLImageElement, MouseEvent>) => void\n"
+									},
+									"parameters": [
+										{
+											"id": 13,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "reference",
+														"name": "HTMLImageElement"
+													},
+													{
+														"type": "reference",
+														"name": "MouseEvent"
+													}
+												],
+												"name": "MouseEvent"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 9,
+					"name": "override",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Override props for `GalleryProvider` to either override current functionality\nor provide new context to children.",
+						"text": "Useful if your custom `GalleryViewportItem` needs more external data\n"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "object"
+					}
+				},
+				{
+					"id": 14,
+					"name": "shape",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Shape of the gallery components"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "rounded"
+							},
+							{
+								"type": "literal",
+								"value": "squared"
+							}
+						]
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "GalleryBaseProps.shape"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						16,
+						15,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						10,
+						9,
+						14
+					]
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"id": 19,
+					"name": "GalleryBaseProps"
+				}
+			]
+		},
+		{
+			"id": 41,
+			"name": "GalleryProviderProps",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 42,
+					"name": "children",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"shortText": "React Children to provide context to"
+					},
+					"type": {
+						"type": "reference",
+						"name": "ReactNode"
+					}
+				},
+				{
+					"id": 43,
+					"name": "defaultItem",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Default item to be selected"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 44,
+					"name": "disableNavigation",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not the navigation buttons are disabled within the `GalleryViewport`"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 45,
+					"name": "item",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Current selected item"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 46,
+					"name": "items",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "List of `GalleryItem`s to be rendered"
+					},
+					"type": {
+						"type": "array",
+						"elementType": {
+							"type": "reference",
+							"name": "GalleryItem"
+						}
+					}
+				},
+				{
+					"id": 47,
+					"name": "maxThumbnails",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "The maximum number of thumbnails to be displayed",
+						"text": "Any thumbnails more than this are joined into an `excess` thumbnail\n"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 52,
+					"name": "override",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Override props for `GalleryProvider` to either override current functionality\nor provide new context to children.",
+						"text": "Useful if your custom `GalleryViewportItem` needs more external data\n"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "object"
+					}
+				},
+				{
+					"id": 51,
+					"name": "shape",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Shape of the gallery components"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "rounded"
+							},
+							{
+								"type": "literal",
+								"value": "squared"
+							}
+						]
+					}
+				},
+				{
+					"id": 48,
+					"name": "onExcessClick",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 49,
+							"name": "onExcessClick",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onClick` handler for the excess thumbnail"
+							},
+							"parameters": [
+								{
+									"id": 50,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "HTMLImageElement"
+											},
+											{
+												"type": "reference",
+												"name": "MouseEvent"
+											}
+										],
+										"name": "MouseEvent"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						52,
+						51
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						48
+					]
+				}
+			]
+		},
+		{
+			"id": 68,
+			"name": "GalleryThumbnailGroupProps",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 76,
+					"name": "as",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ElementType"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "FormGroupProps.as"
+					}
+				},
+				{
+					"id": 74,
+					"name": "children",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Children of FormGroup"
+					},
+					"type": {
+						"type": "reference",
+						"name": "ReactNode"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "FormGroupProps.children"
+					}
+				},
+				{
+					"id": 69,
+					"name": "className",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "DOM Class Name"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "FormGroupProps.className"
+					}
+				},
+				{
+					"id": 70,
+					"name": "direction",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Direction of the thumbnails to be rendered"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "column"
+							},
+							{
+								"type": "literal",
+								"value": "row"
+							}
+						]
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "FormGroupProps.direction"
+					}
+				},
+				{
+					"id": 71,
+					"name": "disableMobile",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not mobile render of thumbnails will be transitioned to automatically",
+						"text": "Useful if you still need the thumbnails to be images instead of dots in mobile\n"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 72,
+					"name": "hideExcessThumbnails",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not the `excess` thumbnail will be rendered"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 73,
+					"name": "maxThumbnails",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "The maximum number of thumbnails to be displayed",
+						"text": "Any thumbnails more than this are joined into an `excess` thumbnail\n"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 75,
+					"name": "spacing",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Spacing token between form inputs"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "FormGroupProps.spacing"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						76,
+						74,
+						69,
+						70,
+						71,
+						72,
+						73,
+						75
+					]
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"name": "FormGroupProps"
+				}
+			]
+		},
+		{
+			"id": 55,
+			"name": "GalleryThumbnailProps",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 65,
+					"name": "as",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ElementType"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "BackyardBaseProps.as"
+					}
+				},
+				{
+					"id": 56,
+					"name": "className",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "DOM Class Name"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.className"
+					}
+				},
+				{
+					"id": 57,
+					"name": "component",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Custom component to render in place of `img`",
+						"text": "Simpler than `renderThumbnail`\n"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ElementType"
+					}
+				},
+				{
+					"id": 58,
+					"name": "item",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "List of `GalleryItem`s to be rendered"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 63,
+					"name": "variant",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Variant of the thumbnail"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 64,
+					"name": "wrapperProps",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Wrapper props to extend thumbnail button wrapper with"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "reference",
+								"name": "HTMLDivElement"
+							},
+							{
+								"type": "literal",
+								"value": ""
+							}
+						],
+						"name": "BackyardBaseProps"
+					}
+				},
+				{
+					"id": 59,
+					"name": "renderThumbnail",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 60,
+							"name": "renderThumbnail",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Render a custom item inside of `GalleryThumbnail`",
+								"text": "Useful for any needs other than an `img` tag, such as creating a lazyloader,\nor adding an overlay image to the thumbnail `img` tag.\n"
+							},
+							"parameters": [
+								{
+									"id": 61,
+									"name": "props",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"id": 55,
+										"name": "GalleryThumbnailProps"
+									}
+								},
+								{
+									"id": 62,
+									"name": "ref",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "HTMLImageElement"
+											}
+										],
+										"name": "Ref"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "reference",
+										"id": 55,
+										"name": "GalleryThumbnailProps"
+									},
+									{
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "intrinsic",
+														"name": "any"
+													}
+												],
+												"name": "JSXElementConstructor"
+											}
+										]
+									}
+								],
+								"name": "ReactElement"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						65,
+						56,
+						57,
+						58,
+						63,
+						64
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						59
+					]
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"typeArguments": [
+						{
+							"type": "reference",
+							"id": 66,
+							"name": "GalleryThumbnailRef"
+						}
+					],
+					"name": "BackyardBaseProps"
+				}
+			]
+		},
+		{
+			"id": 88,
+			"name": "GalleryViewportItemProps",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 98,
+					"name": "as",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ElementType"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "BackyardBaseProps.as"
+					}
+				},
+				{
+					"id": 89,
+					"name": "className",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "DOM Class Name"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.className"
+					}
+				},
+				{
+					"id": 90,
+					"name": "component",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Custom component to render in place of `img`",
+						"text": "Simpler than `renderThumbnail`\n"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ElementType"
+					}
+				},
+				{
+					"id": 91,
+					"name": "item",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "List of `GalleryItem`s to be rendered"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 96,
+					"name": "variant",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Variant of the thumbnail"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 97,
+					"name": "wrapperProps",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Wrapper props to extend thumbnail button wrapper with"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "reference",
+								"name": "HTMLDivElement"
+							},
+							{
+								"type": "literal",
+								"value": ""
+							}
+						],
+						"name": "BackyardBaseProps"
+					}
+				},
+				{
+					"id": 92,
+					"name": "renderViewportItem",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 93,
+							"name": "renderViewportItem",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Render a custom item inside of `GalleryViewportItem`",
+								"text": "Useful for any needs other than an `img` tag, such as creating a lazyloader,\nor a video viewer, or a 360 spinner, etc.\n"
+							},
+							"parameters": [
+								{
+									"id": 94,
+									"name": "props",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"id": 88,
+										"name": "GalleryViewportItemProps"
+									}
+								},
+								{
+									"id": 95,
+									"name": "ref",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "HTMLImageElement"
+											}
+										],
+										"name": "Ref"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "reference",
+										"id": 88,
+										"name": "GalleryViewportItemProps"
+									},
+									{
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "intrinsic",
+														"name": "any"
+													}
+												],
+												"name": "JSXElementConstructor"
+											}
+										]
+									}
+								],
+								"name": "ReactElement"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						98,
+						89,
+						90,
+						91,
+						96,
+						97
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						92
+					]
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"typeArguments": [
+						{
+							"type": "reference",
+							"id": 99,
+							"name": "GalleryViewportItemRef"
+						}
+					],
+					"name": "BackyardBaseProps"
+				}
+			]
+		},
+		{
+			"id": 79,
+			"name": "GalleryViewportProps",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 84,
+					"name": "as",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ElementType"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "BackyardBaseProps.as"
+					}
+				},
+				{
+					"id": 80,
+					"name": "className",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "DOM Class Name"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.className"
+					}
+				},
+				{
+					"id": 81,
+					"name": "height",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Height of the viewport"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.height"
+					}
+				},
+				{
+					"id": 83,
+					"name": "padding",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Padding inside the viewport"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 82,
+					"name": "width",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Width of the viewport"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.width"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						84,
+						80,
+						81,
+						83,
+						82
+					]
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"typeArguments": [
+						{
+							"type": "reference",
+							"id": 85,
+							"name": "GalleryViewportRef"
+						}
+					],
+					"name": "BackyardBaseProps"
+				}
+			]
+		},
+		{
+			"id": 24,
+			"name": "GalleryBaseRef",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"type": {
+				"type": "reference",
+				"name": "HTMLDivElement"
+			}
+		},
+		{
+			"id": 17,
+			"name": "GalleryRef",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"type": {
+				"type": "reference",
+				"id": 24,
+				"name": "GalleryBaseRef"
+			}
+		},
+		{
+			"id": 77,
+			"name": "GalleryThumbnailGroupRef",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"type": {
+				"type": "reference",
+				"name": "FormGroupRef"
+			}
+		},
+		{
+			"id": 66,
+			"name": "GalleryThumbnailRef",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"type": {
+				"type": "reference",
+				"name": "HTMLImageElement"
+			}
+		},
+		{
+			"id": 99,
+			"name": "GalleryViewportItemRef",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"type": {
+				"type": "reference",
+				"name": "HTMLImageElement"
+			}
+		},
+		{
+			"id": 85,
+			"name": "GalleryViewportRef",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"type": {
+				"type": "reference",
+				"name": "HTMLDivElement"
+			}
+		},
+		{
+			"id": 1,
+			"name": "Gallery",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"comment": {
+				"shortText": "Backyard React Gallery",
+				"text": "Gallery takes a list of items and render thumbnails and original sources as `img` tags.\n\nIt provides functionality to handle clicking on thumbnails and navigation buttons for the\nuser to navigate through the list of gallery items, via the `GalleryProvider`, to all its children.\n\nThink of each `img` with original src as a Viewport Item,\nand each `img` with the thumbnail as a Thumbnail item.\n\nEach Viewport Item and Thumbnail can be customized via\nthe `renderViewportItem` and `renderThumbnail` props in `GalleryItem`.\n\nThis allows the UI/UX of the Gallery itself to be separated from the logic that handles state\nas well as the logic that handles rendering individual viewport items or thumbnails.\n\nIn special use-cases, instead of using Gallery, it is possible to wrap\n`GalleryThumbnailGroup` and `GalleryViewport as children of `GalleryProvider` so that the layout\ncan be customized, such as in a `Modal`.\n\nSee documentation site code examples for more.\n\nExample:\n```\n <Gallery\n     items={[\n         {\n             original: 'https://via.placeholder.com/1500/FFFFFF/000000?text=Original',\n             thumbnail: 'https://via.placeholder.com/150/FFFFFF/000000?text=Thumb',\n         },\n         {\n             original: 'https://via.placeholder.com/1600/0000FF/FFFFFF?text=Original',\n             thumbnail: 'https://via.placeholder.com/150/0000FF/FFFFFF?text=Thumb',\n         },\n         {\n             original: 'https://via.placeholder.com/1500x1000/00FF00/FFFFFF?text=Original',\n             thumbnail: 'https://via.placeholder.com/150/00FF00/FFFFFF?text=Thumb',\n         }\n     ]}\n />\n```\n"
+			},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"id": 2,
+						"name": "GalleryProps"
+					}
+				],
+				"name": "BDSForwardRef"
+			},
+			"defaultValue": "..."
+		},
+		{
+			"id": 29,
+			"name": "GalleryConsumer",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"comment": {
+				"shortText": "GalleryConsumer"
+			},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"id": 30,
+						"name": "GalleryContextValues"
+					}
+				],
+				"name": "React.Consumer"
+			},
+			"defaultValue": "GalleryContext.Consumer"
+		},
+		{
+			"id": 28,
+			"name": "GalleryContext",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"comment": {
+				"shortText": "GalleryContext"
+			},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"id": 30,
+						"name": "GalleryContextValues"
+					}
+				],
+				"name": "React.Context"
+			},
+			"defaultValue": "..."
+		},
+		{
+			"id": 54,
+			"name": "GalleryDefaultThumbnail",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"comment": {
+				"shortText": "Backyard React Gallery Default Thumbnail",
+				"text": "Default thumbnail to be rendered.\nThis can be overridden by the `renderThumbnail` prop.\n"
+			},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"id": 55,
+						"name": "GalleryThumbnailProps"
+					}
+				],
+				"name": "BDSForwardRef"
+			},
+			"defaultValue": "..."
+		},
+		{
+			"id": 87,
+			"name": "GalleryDefaultViewportItem",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"comment": {
+				"shortText": "Backyard React Gallery Default ViewportItem",
+				"text": "Default viewport item to be rendered.\nThis can be overridden by the `renderViewportItem` prop.\n"
+			},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"id": 88,
+						"name": "GalleryViewportItemProps"
+					}
+				],
+				"name": "BDSForwardRef"
+			},
+			"defaultValue": "..."
+		},
+		{
+			"id": 25,
+			"name": "GalleryProvider",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"comment": {
+				"shortText": "Backyard React Gallery Provider",
+				"text": "Provides values to children and handles state management of the `Gallery`.\n\nUse this component to supply your own custom layout.\n\nExample:\n```\n <GalleryProvider\n     items={[\n         {\n             original: 'https://via.placeholder.com/1500/FFFFFF/000000?text=Original',\n             thumbnail: 'https://via.placeholder.com/150/FFFFFF/000000?text=Thumb',\n         },\n         {\n             original: 'https://via.placeholder.com/1600/0000FF/FFFFFF?text=Original',\n             thumbnail: 'https://via.placeholder.com/150/0000FF/FFFFFF?text=Thumb',\n         }\n     ]}\n >\n     <Grid.Row>\n         <Grid.Column\n             style={{\n                 width: '6rem'\n             }}\n         >\n             <GalleryThumbnailGroup\n                 disableMobile\n                 maxThumbnails={20}\n                 direction=\"column\"\n                 style={{ maxHeight: '32rem' }}\n             />\n         </Grid.Column>\n         <Grid.Column />\n         <Grid.Column sm={8}>\n             <GalleryViewport />\n         </Grid.Column>\n     </Grid.Row>\n </GalleryProvider>\n```\n"
+			},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"id": 41,
+						"name": "GalleryProviderProps"
+					}
+				],
+				"name": "BDSFunctional"
+			},
+			"defaultValue": "..."
+		},
+		{
+			"id": 53,
+			"name": "GalleryThumbnail",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"comment": {
+				"shortText": "Backyard React Product Gallery Thumbnail",
+				"text": "Handles the render of the thumbnail, and provides a button for the user to click on\nand set the current selected item with.\n\nExample:\n```\n <GalleryThumbnail\n     src=\"http://some.where/img.jpg\"\n     item={0}\n />\n```\n"
+			},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"id": 55,
+						"name": "GalleryThumbnailProps"
+					}
+				],
+				"name": "BDSForwardRef"
+			},
+			"defaultValue": "..."
+		},
+		{
+			"id": 67,
+			"name": "GalleryThumbnailGroup",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"comment": {
+				"shortText": "Backyard React Product Gallery Thumbnail Group",
+				"text": "This component automatically rendered a group of thumbnails that are provided by the `GalleryProvider`\nCan be placed anywhere within `GalleryProvider` to provide custom layout\n\nExample:\n```\n <GalleryProvider\n     items={[\n         {\n             original: 'https://via.placeholder.com/1500/FFFFFF/000000?text=Original',\n             thumbnail: 'https://via.placeholder.com/150/FFFFFF/000000?text=Thumb',\n         },\n         {\n             original: 'https://via.placeholder.com/1600/0000FF/FFFFFF?text=Original',\n             thumbnail: 'https://via.placeholder.com/150/0000FF/FFFFFF?text=Thumb',\n         }\n     ]}\n >\n     <Grid.Row>\n         <Grid.Column\n             style={{\n                 width: '6rem'\n             }}\n         >\n             <GalleryThumbnailGroup\n                 disableMobile\n                 maxThumbnails={20}\n                 direction=\"column\"\n                 style={{ maxHeight: '32rem' }}\n             />\n         </Grid.Column>\n         <Grid.Column />\n         <Grid.Column sm={8}>\n             <GalleryViewport />\n         </Grid.Column>\n     </Grid.Row>\n </GalleryProvider>\n```\n"
+			},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"id": 68,
+						"name": "GalleryThumbnailGroupProps"
+					}
+				],
+				"name": "BDSForwardRef"
+			},
+			"defaultValue": "..."
+		},
+		{
+			"id": 78,
+			"name": "GalleryViewport",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"comment": {
+				"shortText": "Backyard React Product Gallery Viewport",
+				"text": "This component automatically renders a group of viewport items that are provided by the `GalleryProvider`\nCan be placed anywhere within `GalleryProvider` to provide custom layout\n\nExample:\n```\n <GalleryProvider\n     items={[\n         {\n             original: 'https://via.placeholder.com/1500/FFFFFF/000000?text=Original',\n             thumbnail: 'https://via.placeholder.com/150/FFFFFF/000000?text=Thumb',\n         },\n         {\n             original: 'https://via.placeholder.com/1600/0000FF/FFFFFF?text=Original',\n             thumbnail: 'https://via.placeholder.com/150/0000FF/FFFFFF?text=Thumb',\n         }\n     ]}\n >\n     <Grid.Row>\n         <Grid.Column\n             style={{\n                 width: '6rem'\n             }}\n         >\n             <GalleryThumbnailGroup\n                 disableMobile\n                 maxThumbnails={20}\n                 direction=\"column\"\n                 style={{ maxHeight: '32rem' }}\n             />\n         </Grid.Column>\n         <Grid.Column />\n         <Grid.Column sm={8}>\n             <GalleryViewport />\n         </Grid.Column>\n     </Grid.Row>\n </GalleryProvider>\n```\n"
+			},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"id": 79,
+						"name": "GalleryViewportProps"
+					}
+				],
+				"name": "BDSForwardRef"
+			},
+			"defaultValue": "..."
+		},
+		{
+			"id": 86,
+			"name": "GalleryViewportItem",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"comment": {
+				"shortText": "Backyard React Product Gallery Viewport Item",
+				"text": "Handles the render of the viewport item, and provides navigation buttons\nfor the user to click on and set the current selected item with.\n\nExample:\n```\n <GalleryViewportItem\n     src=\"http://some.where/img.jpg\"\n     item={0}\n />\n```\n"
+			},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"id": 88,
+						"name": "GalleryViewportItemProps"
+					}
+				],
+				"name": "BDSForwardRef"
+			},
+			"defaultValue": "..."
+		}
+	],
+	"groups": [
+		{
+			"title": "References",
+			"kind": 16777216,
+			"children": [
+				100
+			]
+		},
+		{
+			"title": "Namespaces",
+			"kind": 4,
+			"children": [
+				26
+			]
+		},
+		{
+			"title": "Interfaces",
+			"kind": 256,
+			"children": [
+				19,
+				30,
+				2,
+				41,
+				68,
+				55,
+				88,
+				79
+			]
+		},
+		{
+			"title": "Type aliases",
+			"kind": 4194304,
+			"children": [
+				24,
+				17,
+				77,
+				66,
+				99,
+				85
+			]
+		},
+		{
+			"title": "Variables",
+			"kind": 32,
+			"children": [
+				1,
+				29,
+				28,
+				54,
+				87,
+				25,
+				53,
+				67,
+				78,
+				86
+			]
+		}
+	]
+}

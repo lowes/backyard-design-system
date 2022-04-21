@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DrawerController Snapshots DrawerController default snapshot 1`] = `<DocumentFragment />`;
+
+exports[`DrawerController Snapshots extra props DrawerController DOM props (id, className) snapshot 1`] = `<DocumentFragment />`;
+
+exports[`DrawerController Snapshots prop: anchor DrawerController bottom anchor snapshot 1`] = `<DocumentFragment />`;
+
+exports[`DrawerController Snapshots prop: anchor DrawerController left anchor snapshot 1`] = `<DocumentFragment />`;
+
+exports[`DrawerController Snapshots prop: anchor DrawerController right anchor snapshot 1`] = `<DocumentFragment />`;
+
+exports[`DrawerController Snapshots prop: anchor DrawerController top anchor snapshot 1`] = `<DocumentFragment />`;
+
+exports[`DrawerController Snapshots themes DrawerController dark theme snapshot 1`] = `<DocumentFragment />`;
+
+exports[`DrawerController Snapshots themes DrawerController light theme snapshot 1`] = `<DocumentFragment />`;

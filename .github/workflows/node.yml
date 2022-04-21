@@ -1,0 +1,60 @@
+name: Build Agent
+
+on:
+  [push, pull_request]
+  
+jobs:
+  build_check:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: checkout code
+        uses: actions/checkout@v2
+
+      - name: setup node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+          
+      - name: setup pnpm cache
+        uses: actions/cache@v2
+        with:
+          path: ~/.pnpm-store
+          key: ${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-
+          
+      - name: setup pnpm
+        uses: pnpm/action-setup@v2.1.0
+        with:
+          version: 6.32.3
+          
+      - name: pnpm install
+        run: pnpm install
+        
+      - name: lint @lowes-tech/bds-tokens
+        run: pnpm lint:tokens
+
+      - name: build @lowes-tech/bds-tokens
+        run: pnpm build:tokens
+
+      - name: test @lowes-tech/bds-tokens
+        run: pnpm test:tokens
+        
+      - name: lint @lowes-tech/bds-icons
+        run: pnpm lint:icons
+
+      - name: build @lowes-tech/bds-icons
+        run: pnpm build:icons
+
+      - name: test @lowes-tech/bds-icons
+        run: pnpm test:icons
+        
+      - name: lint @lowes-tech/bds-react
+        run: pnpm lint:react
+
+      - name: build @lowes-tech/bds-react
+        run: pnpm build:react
+
+      - name: test @lowes-tech/bds-react
+        run: pnpm test:react

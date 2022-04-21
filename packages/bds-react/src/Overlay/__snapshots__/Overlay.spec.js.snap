@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Overlay Snapshots Overlay default snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  z-index: var(--bds-zIndex-overlay);
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  background-color: var(--bds-color-overlay);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.c0.invisible {
+  background-color: transparent;
+}
+
+<div
+    aria-hidden="true"
+    class="c0 overlay"
+  />
+</DocumentFragment>
+`;
+
+exports[`Overlay Snapshots extra props Overlay DOM props (id, className) snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  z-index: var(--bds-zIndex-overlay);
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  background-color: var(--bds-color-overlay);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.c0.invisible {
+  background-color: transparent;
+}
+
+<div
+    aria-hidden="true"
+    class="c0 overlay overlay-class-test"
+  />
+</DocumentFragment>
+`;
+
+exports[`Overlay Snapshots prop: invisible Overlay invisible snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  z-index: var(--bds-zIndex-overlay);
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  background-color: var(--bds-color-overlay);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.c0.invisible {
+  background-color: transparent;
+}
+
+<div
+    aria-hidden="true"
+    class="c0 overlay invisible"
+  />
+</DocumentFragment>
+`;
+
+exports[`Overlay Snapshots prop: open Overlay not open snapshot 1`] = `<DocumentFragment />`;
+
+exports[`Overlay Snapshots prop: open Overlay open snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  z-index: var(--bds-zIndex-overlay);
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  background-color: var(--bds-color-overlay);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.c0.invisible {
+  background-color: transparent;
+}
+
+<div
+    aria-hidden="true"
+    class="c0 overlay"
+  />
+</DocumentFragment>
+`;
+
+exports[`Overlay Snapshots themes Overlay dark theme snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  z-index: var(--bds-zIndex-overlay);
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  background-color: var(--bds-color-overlay);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.c0.invisible {
+  background-color: transparent;
+}
+
+<div
+    aria-hidden="true"
+    class="c0 overlay"
+  />
+</DocumentFragment>
+`;
+
+exports[`Overlay Snapshots themes Overlay light theme snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  z-index: var(--bds-zIndex-overlay);
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  background-color: var(--bds-color-overlay);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.c0.invisible {
+  background-color: transparent;
+}
+
+<div
+    aria-hidden="true"
+    class="c0 overlay"
+  />
+</DocumentFragment>
+`;

@@ -1,0 +1,3886 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PVS Snapshots PVS default snapshot 1`] = `
+<DocumentFragment>
+  .c2 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c2:not(.color-override) g,
+.c2:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c2:not(.color-override) g[stroke-width],
+.c2:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c2:not(.color-override) g[stroke-width] *,
+.c2:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c2.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c2.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 label {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+  position: relative;
+}
+
+.c1 input {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.c1 input:checked + label::after {
+  opacity: 1;
+}
+
+.c1 input:not(:checked) + label::after {
+  opacity: 0;
+}
+
+.c1 input + label::before {
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  vertical-align: center;
+  top: 0;
+  left: 0;
+  border-width: var(--bds-border-width-sm);
+  border-style: solid;
+  border-radius: var(--bds-border-radius-circle);
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+  -webkit-transition: 0.2s all ease-in-out;
+  transition: 0.2s all ease-in-out;
+}
+
+.c1 input + label::after {
+  content: "";
+  position: absolute;
+  left: var(--bds-sizes-size-3);
+  top: var(--bds-sizes-size-3);
+  opacity: 0;
+  border-width: var(--bds-sizes-size-5);
+  border-style: solid;
+  border-radius: var(--bds-border-radius-circle);
+  -webkit-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.c1 input:not(:checked).enabled + label::before,
+.c1 input:not(:checked):enabled + label::before {
+  border-color: var(--bds-color-border-default);
+}
+
+.c1 input:not(:checked).hover + label::before,
+.c1 input:not(:checked):hover + label::before {
+  border-color: var(--bds-color-action-interactive-hover);
+}
+
+.c1 input:not(:checked).focus + label::before,
+.c1 input:not(:checked):focus + label::before {
+  border-color: var(--bds-color-action-interactive);
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c1 input:not(:checked).disabled,
+.c1 input:not(:checked):disabled,
+.c1 input:not(:checked).disabled + label,
+.c1 input:not(:checked):disabled + label {
+  cursor: not-allowed;
+}
+
+.c1 input:not(:checked).disabled + label::before,
+.c1 input:not(:checked):disabled + label::before {
+  border-color: var(--bds-color-border-disabled);
+}
+
+.c1 input:not(:checked),
+.c1 input:not(:checked) + label {
+  cursor: pointer;
+}
+
+.c1 input:not(:checked) + label::before {
+  background-color: transparent;
+  border-color: var(--bds-color-border-default);
+}
+
+.c1 input:checked.enabled + label::before,
+.c1 input:checked:enabled + label::before {
+  border-color: var(--bds-color-action-interactive);
+}
+
+.c1 input:checked.enabled + label::after,
+.c1 input:checked:enabled + label::after {
+  border-color: var(--bds-color-action-interactive);
+}
+
+.c1 input:checked.hover + label::before,
+.c1 input:checked:hover + label::before,
+.c1 input:checked:focus:hover + label::before {
+  border-color: var(--bds-color-action-interactive-hover);
+}
+
+.c1 input:checked.focus + label::before,
+.c1 input:checked:focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c1 input:checked.disabled,
+.c1 input:checked:disabled,
+.c1 input:checked.disabled + label,
+.c1 input:checked:disabled + label {
+  cursor: not-allowed;
+}
+
+.c1 input:checked.disabled + label::before,
+.c1 input:checked:disabled + label::before {
+  border-color: var(--bds-color-border-disabled);
+}
+
+.c1 input:checked.disabled + label::after,
+.c1 input:checked:disabled + label::after {
+  border-color: var(--bds-color-border-disabled);
+}
+
+.c1 input:checked,
+.c1 input:checked + label {
+  cursor: pointer;
+}
+
+.c0 {
+  height: var(--bds-sizes-size-40);
+  width: var(--bds-sizes-size-40);
+}
+
+.c0 .pvs-input {
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+}
+
+.c0 .pvs-input input {
+  border-radius: 100%;
+}
+
+.c0 .pvs-input input:hover + .radio-indicator,
+.c0 .pvs-input input.hover + .radio-indicator {
+  border-color: var(--bds-color-action-interactive);
+  cursor: pointer;
+}
+
+.c0 .pvs-input input:focus + .radio-indicator,
+.c0 .pvs-input input.focus + .radio-indicator {
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+  border: none;
+  outline: none;
+}
+
+.c0 .pvs-input input:checked + .radio-indicator {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+  border: none;
+}
+
+.c0 .pvs-input input:checked + .radio-indicator .swatch {
+  border: 1px solid var(--bds-color-border-subdued);
+}
+
+.c0 .pvs-input input:checked:focus + .radio-indicator,
+.c0 .pvs-input input:checked.focus + .radio-indicator {
+  border: none;
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+}
+
+.c0 .pvs-input input:checked:focus + .radio-indicator .swatch,
+.c0 .pvs-input input:checked.focus + .radio-indicator .swatch {
+  border: 1px solid var(--bds-color-border-subdued);
+}
+
+.c0 .pvs-input input:not(:checked) + .radio-indicator .selected-badge {
+  display: none;
+}
+
+.c0 .pvs-input .radio-indicator {
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+  border: 1px solid var(--bds-color-text-disabled);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 .pvs-input .radio-indicator:before,
+.c0 .pvs-input .radio-indicator:after {
+  visibility: hidden;
+}
+
+.c0 .pvs-input .radio-indicator .swatch {
+  width: var(--bds-sizes-size-36);
+  height: var(--bds-sizes-size-36);
+  border-radius: 100%;
+  border: none;
+}
+
+.c0 .pvs-input .radio-indicator .swatch img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 100%;
+  display: block;
+}
+
+.c0 .pvs-input .radio-indicator .swatch svg {
+  position: absolute;
+  bottom: -0.25rem;
+  right: -0.25rem;
+  border: 1px solid var(--bds-color-surface-default);
+  border-radius: 100%;
+  background-color: var(--bds-color-surface-default);
+}
+
+.c0 .pvs-input.unavailable .radio-indicator,
+.c0 .pvs-input.unavailable input:focus + .radio-indicator,
+.c0 .pvs-input.unavailable input.focus + .radio-indicator {
+  border: 1px dashed var(--bds-color-text-disabled);
+}
+
+.c0 .pvs-input.unavailable input:hover + .radio-indicator,
+.c0 .pvs-input.unavailable input.hover + .radio-indicator {
+  border-color: var(--bds-color-text-disabled);
+}
+
+.c0 .pvs-input.unavailable input:checked + .radio-indicator {
+  border: none;
+}
+
+.c0 .pvs-input.unavailable input:checked + .radio-indicator .swatch {
+  border: 1px dashed var(--bds-color-text-disabled);
+}
+
+<div
+    class="c0 pvs-wrapper"
+  >
+    <span
+      class="c1 pvs-input"
+    >
+      <input
+        aria-label="pvs--test"
+        class="backyard radio"
+        id="pvs--test"
+        name="pvs--test"
+        type="radio"
+        value="test"
+      />
+      <label
+        class="radio-indicator"
+        for="pvs--test"
+      >
+        <div
+          class="swatch"
+          style="background-color: rgb(17, 34, 51);"
+        >
+          <svg
+            aria-hidden="true"
+            class="c2 icon icon-check-circle-filled selected-badge"
+            role="presentation"
+            style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(213, 84%, 45%, 1);"
+            viewBox="0 0 16 16"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M14 8c0 3.2824-2.7176 6-6 6-3.2765 0-6-2.7176-6-6 0-3.2765 2.7176-6 5.9941-6C11.2765 2 14 4.7235 14 8Zm-8.1464.308 1.212 1.212 3.3736-3.3735a.5001.5001 0 0 1 .7072.707L7.431 10.569a.4557.4557 0 0 1-.031.0285.5.5 0 0 1-.6887-.0175L5.1465 9.0151a.5.5 0 1 1 .707-.7071Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </div>
+      </label>
+    </span>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`PVS Snapshots PVS default snapshot w/img 1`] = `
+<DocumentFragment>
+  .c2 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c2:not(.color-override) g,
+.c2:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c2:not(.color-override) g[stroke-width],
+.c2:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c2:not(.color-override) g[stroke-width] *,
+.c2:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c2.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c2.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 label {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+  position: relative;
+}
+
+.c1 input {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.c1 input:checked + label::after {
+  opacity: 1;
+}
+
+.c1 input:not(:checked) + label::after {
+  opacity: 0;
+}
+
+.c1 input + label::before {
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  vertical-align: center;
+  top: 0;
+  left: 0;
+  border-width: var(--bds-border-width-sm);
+  border-style: solid;
+  border-radius: var(--bds-border-radius-circle);
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+  -webkit-transition: 0.2s all ease-in-out;
+  transition: 0.2s all ease-in-out;
+}
+
+.c1 input + label::after {
+  content: "";
+  position: absolute;
+  left: var(--bds-sizes-size-3);
+  top: var(--bds-sizes-size-3);
+  opacity: 0;
+  border-width: var(--bds-sizes-size-5);
+  border-style: solid;
+  border-radius: var(--bds-border-radius-circle);
+  -webkit-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.c1 input:not(:checked).enabled + label::before,
+.c1 input:not(:checked):enabled + label::before {
+  border-color: var(--bds-color-border-default);
+}
+
+.c1 input:not(:checked).hover + label::before,
+.c1 input:not(:checked):hover + label::before {
+  border-color: var(--bds-color-action-interactive-hover);
+}
+
+.c1 input:not(:checked).focus + label::before,
+.c1 input:not(:checked):focus + label::before {
+  border-color: var(--bds-color-action-interactive);
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c1 input:not(:checked).disabled,
+.c1 input:not(:checked):disabled,
+.c1 input:not(:checked).disabled + label,
+.c1 input:not(:checked):disabled + label {
+  cursor: not-allowed;
+}
+
+.c1 input:not(:checked).disabled + label::before,
+.c1 input:not(:checked):disabled + label::before {
+  border-color: var(--bds-color-border-disabled);
+}
+
+.c1 input:not(:checked),
+.c1 input:not(:checked) + label {
+  cursor: pointer;
+}
+
+.c1 input:not(:checked) + label::before {
+  background-color: transparent;
+  border-color: var(--bds-color-border-default);
+}
+
+.c1 input:checked.enabled + label::before,
+.c1 input:checked:enabled + label::before {
+  border-color: var(--bds-color-action-interactive);
+}
+
+.c1 input:checked.enabled + label::after,
+.c1 input:checked:enabled + label::after {
+  border-color: var(--bds-color-action-interactive);
+}
+
+.c1 input:checked.hover + label::before,
+.c1 input:checked:hover + label::before,
+.c1 input:checked:focus:hover + label::before {
+  border-color: var(--bds-color-action-interactive-hover);
+}
+
+.c1 input:checked.focus + label::before,
+.c1 input:checked:focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c1 input:checked.disabled,
+.c1 input:checked:disabled,
+.c1 input:checked.disabled + label,
+.c1 input:checked:disabled + label {
+  cursor: not-allowed;
+}
+
+.c1 input:checked.disabled + label::before,
+.c1 input:checked:disabled + label::before {
+  border-color: var(--bds-color-border-disabled);
+}
+
+.c1 input:checked.disabled + label::after,
+.c1 input:checked:disabled + label::after {
+  border-color: var(--bds-color-border-disabled);
+}
+
+.c1 input:checked,
+.c1 input:checked + label {
+  cursor: pointer;
+}
+
+.c0 {
+  height: var(--bds-sizes-size-40);
+  width: var(--bds-sizes-size-40);
+}
+
+.c0 .pvs-input {
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+}
+
+.c0 .pvs-input input {
+  border-radius: 100%;
+}
+
+.c0 .pvs-input input:hover + .radio-indicator,
+.c0 .pvs-input input.hover + .radio-indicator {
+  border-color: var(--bds-color-action-interactive);
+  cursor: pointer;
+}
+
+.c0 .pvs-input input:focus + .radio-indicator,
+.c0 .pvs-input input.focus + .radio-indicator {
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+  border: none;
+  outline: none;
+}
+
+.c0 .pvs-input input:checked + .radio-indicator {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+  border: none;
+}
+
+.c0 .pvs-input input:checked + .radio-indicator .swatch {
+  border: 1px solid var(--bds-color-border-subdued);
+}
+
+.c0 .pvs-input input:checked:focus + .radio-indicator,
+.c0 .pvs-input input:checked.focus + .radio-indicator {
+  border: none;
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+}
+
+.c0 .pvs-input input:checked:focus + .radio-indicator .swatch,
+.c0 .pvs-input input:checked.focus + .radio-indicator .swatch {
+  border: 1px solid var(--bds-color-border-subdued);
+}
+
+.c0 .pvs-input input:not(:checked) + .radio-indicator .selected-badge {
+  display: none;
+}
+
+.c0 .pvs-input .radio-indicator {
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+  border: 1px solid var(--bds-color-text-disabled);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 .pvs-input .radio-indicator:before,
+.c0 .pvs-input .radio-indicator:after {
+  visibility: hidden;
+}
+
+.c0 .pvs-input .radio-indicator .swatch {
+  width: var(--bds-sizes-size-36);
+  height: var(--bds-sizes-size-36);
+  border-radius: 100%;
+  border: none;
+}
+
+.c0 .pvs-input .radio-indicator .swatch img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 100%;
+  display: block;
+}
+
+.c0 .pvs-input .radio-indicator .swatch svg {
+  position: absolute;
+  bottom: -0.25rem;
+  right: -0.25rem;
+  border: 1px solid var(--bds-color-surface-default);
+  border-radius: 100%;
+  background-color: var(--bds-color-surface-default);
+}
+
+.c0 .pvs-input.unavailable .radio-indicator,
+.c0 .pvs-input.unavailable input:focus + .radio-indicator,
+.c0 .pvs-input.unavailable input.focus + .radio-indicator {
+  border: 1px dashed var(--bds-color-text-disabled);
+}
+
+.c0 .pvs-input.unavailable input:hover + .radio-indicator,
+.c0 .pvs-input.unavailable input.hover + .radio-indicator {
+  border-color: var(--bds-color-text-disabled);
+}
+
+.c0 .pvs-input.unavailable input:checked + .radio-indicator {
+  border: none;
+}
+
+.c0 .pvs-input.unavailable input:checked + .radio-indicator .swatch {
+  border: 1px dashed var(--bds-color-text-disabled);
+}
+
+<div
+    class="c0 pvs-wrapper"
+  >
+    <span
+      class="c1 pvs-input"
+    >
+      <input
+        aria-label="pvs--test"
+        class="backyard radio"
+        id="pvs--test"
+        name="pvs--test"
+        type="radio"
+        value="test"
+      />
+      <label
+        class="radio-indicator"
+        for="pvs--test"
+      >
+        <div
+          class="swatch"
+          style="background-color: transparent;"
+        >
+          <img
+            alt="img"
+            height="50"
+            src="http://some.where/img.jpg"
+            width="50"
+          />
+          <svg
+            aria-hidden="true"
+            class="c2 icon icon-check-circle-filled selected-badge"
+            role="presentation"
+            style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(213, 84%, 45%, 1);"
+            viewBox="0 0 16 16"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M14 8c0 3.2824-2.7176 6-6 6-3.2765 0-6-2.7176-6-6 0-3.2765 2.7176-6 5.9941-6C11.2765 2 14 4.7235 14 8Zm-8.1464.308 1.212 1.212 3.3736-3.3735a.5001.5001 0 0 1 .7072.707L7.431 10.569a.4557.4557 0 0 1-.031.0285.5.5 0 0 1-.6887-.0175L5.1465 9.0151a.5.5 0 1 1 .707-.7071Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </div>
+      </label>
+    </span>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`PVS Snapshots PVS radioGroup snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c0.direction--column {
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0.direction--column > * {
+  margin: 0.5rem 0;
+}
+
+.c0.direction--row {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-left: -0.5rem;
+}
+
+.c0.direction--row > * {
+  margin: 0.5rem;
+}
+
+.c3 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c3:not(.color-override) g,
+.c3:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c3:not(.color-override) g[stroke-width],
+.c3:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c3:not(.color-override) g[stroke-width] *,
+.c3:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c3.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c3.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c2 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 label {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+  position: relative;
+}
+
+.c2 input {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.c2 input:checked + label::after {
+  opacity: 1;
+}
+
+.c2 input:not(:checked) + label::after {
+  opacity: 0;
+}
+
+.c2 input + label::before {
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  vertical-align: center;
+  top: 0;
+  left: 0;
+  border-width: var(--bds-border-width-sm);
+  border-style: solid;
+  border-radius: var(--bds-border-radius-circle);
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+  -webkit-transition: 0.2s all ease-in-out;
+  transition: 0.2s all ease-in-out;
+}
+
+.c2 input + label::after {
+  content: "";
+  position: absolute;
+  left: var(--bds-sizes-size-3);
+  top: var(--bds-sizes-size-3);
+  opacity: 0;
+  border-width: var(--bds-sizes-size-5);
+  border-style: solid;
+  border-radius: var(--bds-border-radius-circle);
+  -webkit-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.c2 input:not(:checked).enabled + label::before,
+.c2 input:not(:checked):enabled + label::before {
+  border-color: var(--bds-color-border-default);
+}
+
+.c2 input:not(:checked).hover + label::before,
+.c2 input:not(:checked):hover + label::before {
+  border-color: var(--bds-color-action-interactive-hover);
+}
+
+.c2 input:not(:checked).focus + label::before,
+.c2 input:not(:checked):focus + label::before {
+  border-color: var(--bds-color-action-interactive);
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c2 input:not(:checked).disabled,
+.c2 input:not(:checked):disabled,
+.c2 input:not(:checked).disabled + label,
+.c2 input:not(:checked):disabled + label {
+  cursor: not-allowed;
+}
+
+.c2 input:not(:checked).disabled + label::before,
+.c2 input:not(:checked):disabled + label::before {
+  border-color: var(--bds-color-border-disabled);
+}
+
+.c2 input:not(:checked),
+.c2 input:not(:checked) + label {
+  cursor: pointer;
+}
+
+.c2 input:not(:checked) + label::before {
+  background-color: transparent;
+  border-color: var(--bds-color-border-default);
+}
+
+.c2 input:checked.enabled + label::before,
+.c2 input:checked:enabled + label::before {
+  border-color: var(--bds-color-action-interactive);
+}
+
+.c2 input:checked.enabled + label::after,
+.c2 input:checked:enabled + label::after {
+  border-color: var(--bds-color-action-interactive);
+}
+
+.c2 input:checked.hover + label::before,
+.c2 input:checked:hover + label::before,
+.c2 input:checked:focus:hover + label::before {
+  border-color: var(--bds-color-action-interactive-hover);
+}
+
+.c2 input:checked.focus + label::before,
+.c2 input:checked:focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c2 input:checked.disabled,
+.c2 input:checked:disabled,
+.c2 input:checked.disabled + label,
+.c2 input:checked:disabled + label {
+  cursor: not-allowed;
+}
+
+.c2 input:checked.disabled + label::before,
+.c2 input:checked:disabled + label::before {
+  border-color: var(--bds-color-border-disabled);
+}
+
+.c2 input:checked.disabled + label::after,
+.c2 input:checked:disabled + label::after {
+  border-color: var(--bds-color-border-disabled);
+}
+
+.c2 input:checked,
+.c2 input:checked + label {
+  cursor: pointer;
+}
+
+.c1 {
+  height: var(--bds-sizes-size-40);
+  width: var(--bds-sizes-size-40);
+}
+
+.c1 .pvs-input {
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+}
+
+.c1 .pvs-input input {
+  border-radius: 100%;
+}
+
+.c1 .pvs-input input:hover + .radio-indicator,
+.c1 .pvs-input input.hover + .radio-indicator {
+  border-color: var(--bds-color-action-interactive);
+  cursor: pointer;
+}
+
+.c1 .pvs-input input:focus + .radio-indicator,
+.c1 .pvs-input input.focus + .radio-indicator {
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+  border: none;
+  outline: none;
+}
+
+.c1 .pvs-input input:checked + .radio-indicator {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+  border: none;
+}
+
+.c1 .pvs-input input:checked + .radio-indicator .swatch {
+  border: 1px solid var(--bds-color-border-subdued);
+}
+
+.c1 .pvs-input input:checked:focus + .radio-indicator,
+.c1 .pvs-input input:checked.focus + .radio-indicator {
+  border: none;
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+}
+
+.c1 .pvs-input input:checked:focus + .radio-indicator .swatch,
+.c1 .pvs-input input:checked.focus + .radio-indicator .swatch {
+  border: 1px solid var(--bds-color-border-subdued);
+}
+
+.c1 .pvs-input input:not(:checked) + .radio-indicator .selected-badge {
+  display: none;
+}
+
+.c1 .pvs-input .radio-indicator {
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+  border: 1px solid var(--bds-color-text-disabled);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 .pvs-input .radio-indicator:before,
+.c1 .pvs-input .radio-indicator:after {
+  visibility: hidden;
+}
+
+.c1 .pvs-input .radio-indicator .swatch {
+  width: var(--bds-sizes-size-36);
+  height: var(--bds-sizes-size-36);
+  border-radius: 100%;
+  border: none;
+}
+
+.c1 .pvs-input .radio-indicator .swatch img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 100%;
+  display: block;
+}
+
+.c1 .pvs-input .radio-indicator .swatch svg {
+  position: absolute;
+  bottom: -0.25rem;
+  right: -0.25rem;
+  border: 1px solid var(--bds-color-surface-default);
+  border-radius: 100%;
+  background-color: var(--bds-color-surface-default);
+}
+
+.c1 .pvs-input.unavailable .radio-indicator,
+.c1 .pvs-input.unavailable input:focus + .radio-indicator,
+.c1 .pvs-input.unavailable input.focus + .radio-indicator {
+  border: 1px dashed var(--bds-color-text-disabled);
+}
+
+.c1 .pvs-input.unavailable input:hover + .radio-indicator,
+.c1 .pvs-input.unavailable input.hover + .radio-indicator {
+  border-color: var(--bds-color-text-disabled);
+}
+
+.c1 .pvs-input.unavailable input:checked + .radio-indicator {
+  border: none;
+}
+
+.c1 .pvs-input.unavailable input:checked + .radio-indicator .swatch {
+  border: 1px dashed var(--bds-color-text-disabled);
+}
+
+<div
+    class="c0 form-group direction--row"
+    role="radiogroup"
+    spacing="size_8"
+  >
+    <div
+      class="c1 pvs-wrapper"
+    >
+      <span
+        class="c2 pvs-input"
+      >
+        <input
+          aria-label="pvs--color-1"
+          class="backyard radio"
+          id="pvs--color-1"
+          name="pvs--color-1"
+          type="radio"
+          value="color-1"
+        />
+        <label
+          class="radio-indicator"
+          for="pvs--color-1"
+        >
+          <div
+            class="swatch"
+            style="background-color: rgb(0, 0, 0);"
+          >
+            <svg
+              aria-hidden="true"
+              class="c3 icon icon-check-circle-filled selected-badge"
+              role="presentation"
+              style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(213, 84%, 45%, 1);"
+              viewBox="0 0 16 16"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M14 8c0 3.2824-2.7176 6-6 6-3.2765 0-6-2.7176-6-6 0-3.2765 2.7176-6 5.9941-6C11.2765 2 14 4.7235 14 8Zm-8.1464.308 1.212 1.212 3.3736-3.3735a.5001.5001 0 0 1 .7072.707L7.431 10.569a.4557.4557 0 0 1-.031.0285.5.5 0 0 1-.6887-.0175L5.1465 9.0151a.5.5 0 1 1 .707-.7071Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </label>
+      </span>
+    </div>
+    <div
+      class="c1 pvs-wrapper"
+    >
+      <span
+        class="c2 pvs-input"
+      >
+        <input
+          aria-label="pvs--color-2"
+          class="backyard radio"
+          id="pvs--color-2"
+          name="pvs--color-2"
+          type="radio"
+          value="color-2"
+        />
+        <label
+          class="radio-indicator"
+          for="pvs--color-2"
+        >
+          <div
+            class="swatch"
+            style="background-color: rgb(255, 255, 255);"
+          >
+            <svg
+              aria-hidden="true"
+              class="c3 icon icon-check-circle-filled selected-badge"
+              role="presentation"
+              style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(213, 84%, 45%, 1);"
+              viewBox="0 0 16 16"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M14 8c0 3.2824-2.7176 6-6 6-3.2765 0-6-2.7176-6-6 0-3.2765 2.7176-6 5.9941-6C11.2765 2 14 4.7235 14 8Zm-8.1464.308 1.212 1.212 3.3736-3.3735a.5001.5001 0 0 1 .7072.707L7.431 10.569a.4557.4557 0 0 1-.031.0285.5.5 0 0 1-.6887-.0175L5.1465 9.0151a.5.5 0 1 1 .707-.7071Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </label>
+      </span>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`PVS Snapshots color prop PVS green badge snapshot 1`] = `
+<DocumentFragment>
+  .c2 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c2:not(.color-override) g,
+.c2:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c2:not(.color-override) g[stroke-width],
+.c2:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c2:not(.color-override) g[stroke-width] *,
+.c2:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c2.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c2.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 label {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+  position: relative;
+}
+
+.c1 input {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.c1 input:checked + label::after {
+  opacity: 1;
+}
+
+.c1 input:not(:checked) + label::after {
+  opacity: 0;
+}
+
+.c1 input + label::before {
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  vertical-align: center;
+  top: 0;
+  left: 0;
+  border-width: var(--bds-border-width-sm);
+  border-style: solid;
+  border-radius: var(--bds-border-radius-circle);
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+  -webkit-transition: 0.2s all ease-in-out;
+  transition: 0.2s all ease-in-out;
+}
+
+.c1 input + label::after {
+  content: "";
+  position: absolute;
+  left: var(--bds-sizes-size-3);
+  top: var(--bds-sizes-size-3);
+  opacity: 0;
+  border-width: var(--bds-sizes-size-5);
+  border-style: solid;
+  border-radius: var(--bds-border-radius-circle);
+  -webkit-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.c1 input:not(:checked).enabled + label::before,
+.c1 input:not(:checked):enabled + label::before {
+  border-color: var(--bds-color-border-default);
+}
+
+.c1 input:not(:checked).hover + label::before,
+.c1 input:not(:checked):hover + label::before {
+  border-color: var(--bds-color-action-interactive-hover);
+}
+
+.c1 input:not(:checked).focus + label::before,
+.c1 input:not(:checked):focus + label::before {
+  border-color: var(--bds-color-action-interactive);
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c1 input:not(:checked).disabled,
+.c1 input:not(:checked):disabled,
+.c1 input:not(:checked).disabled + label,
+.c1 input:not(:checked):disabled + label {
+  cursor: not-allowed;
+}
+
+.c1 input:not(:checked).disabled + label::before,
+.c1 input:not(:checked):disabled + label::before {
+  border-color: var(--bds-color-border-disabled);
+}
+
+.c1 input:not(:checked),
+.c1 input:not(:checked) + label {
+  cursor: pointer;
+}
+
+.c1 input:not(:checked) + label::before {
+  background-color: transparent;
+  border-color: var(--bds-color-border-default);
+}
+
+.c1 input:checked.enabled + label::before,
+.c1 input:checked:enabled + label::before {
+  border-color: var(--bds-color-action-interactive);
+}
+
+.c1 input:checked.enabled + label::after,
+.c1 input:checked:enabled + label::after {
+  border-color: var(--bds-color-action-interactive);
+}
+
+.c1 input:checked.hover + label::before,
+.c1 input:checked:hover + label::before,
+.c1 input:checked:focus:hover + label::before {
+  border-color: var(--bds-color-action-interactive-hover);
+}
+
+.c1 input:checked.focus + label::before,
+.c1 input:checked:focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c1 input:checked.disabled,
+.c1 input:checked:disabled,
+.c1 input:checked.disabled + label,
+.c1 input:checked:disabled + label {
+  cursor: not-allowed;
+}
+
+.c1 input:checked.disabled + label::before,
+.c1 input:checked:disabled + label::before {
+  border-color: var(--bds-color-border-disabled);
+}
+
+.c1 input:checked.disabled + label::after,
+.c1 input:checked:disabled + label::after {
+  border-color: var(--bds-color-border-disabled);
+}
+
+.c1 input:checked,
+.c1 input:checked + label {
+  cursor: pointer;
+}
+
+.c0 {
+  height: var(--bds-sizes-size-40);
+  width: var(--bds-sizes-size-40);
+}
+
+.c0 .pvs-input {
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+}
+
+.c0 .pvs-input input {
+  border-radius: 100%;
+}
+
+.c0 .pvs-input input:hover + .radio-indicator,
+.c0 .pvs-input input.hover + .radio-indicator {
+  border-color: var(--bds-color-action-interactive);
+  cursor: pointer;
+}
+
+.c0 .pvs-input input:focus + .radio-indicator,
+.c0 .pvs-input input.focus + .radio-indicator {
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+  border: none;
+  outline: none;
+}
+
+.c0 .pvs-input input:checked + .radio-indicator {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+  border: none;
+}
+
+.c0 .pvs-input input:checked + .radio-indicator .swatch {
+  border: 1px solid var(--bds-color-border-subdued);
+}
+
+.c0 .pvs-input input:checked:focus + .radio-indicator,
+.c0 .pvs-input input:checked.focus + .radio-indicator {
+  border: none;
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+}
+
+.c0 .pvs-input input:checked:focus + .radio-indicator .swatch,
+.c0 .pvs-input input:checked.focus + .radio-indicator .swatch {
+  border: 1px solid var(--bds-color-border-subdued);
+}
+
+.c0 .pvs-input input:not(:checked) + .radio-indicator .selected-badge {
+  display: none;
+}
+
+.c0 .pvs-input .radio-indicator {
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+  border: 1px solid var(--bds-color-text-disabled);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 .pvs-input .radio-indicator:before,
+.c0 .pvs-input .radio-indicator:after {
+  visibility: hidden;
+}
+
+.c0 .pvs-input .radio-indicator .swatch {
+  width: var(--bds-sizes-size-36);
+  height: var(--bds-sizes-size-36);
+  border-radius: 100%;
+  border: none;
+}
+
+.c0 .pvs-input .radio-indicator .swatch img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 100%;
+  display: block;
+}
+
+.c0 .pvs-input .radio-indicator .swatch svg {
+  position: absolute;
+  bottom: -0.25rem;
+  right: -0.25rem;
+  border: 1px solid var(--bds-color-surface-default);
+  border-radius: 100%;
+  background-color: var(--bds-color-surface-default);
+}
+
+.c0 .pvs-input.unavailable .radio-indicator,
+.c0 .pvs-input.unavailable input:focus + .radio-indicator,
+.c0 .pvs-input.unavailable input.focus + .radio-indicator {
+  border: 1px dashed var(--bds-color-text-disabled);
+}
+
+.c0 .pvs-input.unavailable input:hover + .radio-indicator,
+.c0 .pvs-input.unavailable input.hover + .radio-indicator {
+  border-color: var(--bds-color-text-disabled);
+}
+
+.c0 .pvs-input.unavailable input:checked + .radio-indicator {
+  border: none;
+}
+
+.c0 .pvs-input.unavailable input:checked + .radio-indicator .swatch {
+  border: 1px dashed var(--bds-color-text-disabled);
+}
+
+<div
+    class="c0 pvs-wrapper"
+  >
+    <span
+      class="c1 pvs-input"
+    >
+      <input
+        aria-label="pvs--test"
+        class="backyard radio"
+        id="pvs--test"
+        name="pvs--test"
+        type="radio"
+        value="test"
+      />
+      <label
+        class="radio-indicator"
+        for="pvs--test"
+      >
+        <div
+          class="swatch"
+          style="background-color: rgb(17, 34, 51);"
+        >
+          <svg
+            aria-hidden="true"
+            class="c2 icon icon-check-circle-filled selected-badge"
+            role="presentation"
+            style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(142, 86%, 28%, 1);"
+            viewBox="0 0 16 16"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M14 8c0 3.2824-2.7176 6-6 6-3.2765 0-6-2.7176-6-6 0-3.2765 2.7176-6 5.9941-6C11.2765 2 14 4.7235 14 8Zm-8.1464.308 1.212 1.212 3.3736-3.3735a.5001.5001 0 0 1 .7072.707L7.431 10.569a.4557.4557 0 0 1-.031.0285.5.5 0 0 1-.6887-.0175L5.1465 9.0151a.5.5 0 1 1 .707-.7071Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </div>
+      </label>
+    </span>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`PVS Snapshots color prop PVS interactive badge snapshot 1`] = `
+<DocumentFragment>
+  .c2 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c2:not(.color-override) g,
+.c2:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c2:not(.color-override) g[stroke-width],
+.c2:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c2:not(.color-override) g[stroke-width] *,
+.c2:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c2.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c2.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 label {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+  position: relative;
+}
+
+.c1 input {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.c1 input:checked + label::after {
+  opacity: 1;
+}
+
+.c1 input:not(:checked) + label::after {
+  opacity: 0;
+}
+
+.c1 input + label::before {
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  vertical-align: center;
+  top: 0;
+  left: 0;
+  border-width: var(--bds-border-width-sm);
+  border-style: solid;
+  border-radius: var(--bds-border-radius-circle);
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+  -webkit-transition: 0.2s all ease-in-out;
+  transition: 0.2s all ease-in-out;
+}
+
+.c1 input + label::after {
+  content: "";
+  position: absolute;
+  left: var(--bds-sizes-size-3);
+  top: var(--bds-sizes-size-3);
+  opacity: 0;
+  border-width: var(--bds-sizes-size-5);
+  border-style: solid;
+  border-radius: var(--bds-border-radius-circle);
+  -webkit-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.c1 input:not(:checked).enabled + label::before,
+.c1 input:not(:checked):enabled + label::before {
+  border-color: var(--bds-color-border-default);
+}
+
+.c1 input:not(:checked).hover + label::before,
+.c1 input:not(:checked):hover + label::before {
+  border-color: var(--bds-color-action-interactive-hover);
+}
+
+.c1 input:not(:checked).focus + label::before,
+.c1 input:not(:checked):focus + label::before {
+  border-color: var(--bds-color-action-interactive);
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c1 input:not(:checked).disabled,
+.c1 input:not(:checked):disabled,
+.c1 input:not(:checked).disabled + label,
+.c1 input:not(:checked):disabled + label {
+  cursor: not-allowed;
+}
+
+.c1 input:not(:checked).disabled + label::before,
+.c1 input:not(:checked):disabled + label::before {
+  border-color: var(--bds-color-border-disabled);
+}
+
+.c1 input:not(:checked),
+.c1 input:not(:checked) + label {
+  cursor: pointer;
+}
+
+.c1 input:not(:checked) + label::before {
+  background-color: transparent;
+  border-color: var(--bds-color-border-default);
+}
+
+.c1 input:checked.enabled + label::before,
+.c1 input:checked:enabled + label::before {
+  border-color: var(--bds-color-action-interactive);
+}
+
+.c1 input:checked.enabled + label::after,
+.c1 input:checked:enabled + label::after {
+  border-color: var(--bds-color-action-interactive);
+}
+
+.c1 input:checked.hover + label::before,
+.c1 input:checked:hover + label::before,
+.c1 input:checked:focus:hover + label::before {
+  border-color: var(--bds-color-action-interactive-hover);
+}
+
+.c1 input:checked.focus + label::before,
+.c1 input:checked:focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c1 input:checked.disabled,
+.c1 input:checked:disabled,
+.c1 input:checked.disabled + label,
+.c1 input:checked:disabled + label {
+  cursor: not-allowed;
+}
+
+.c1 input:checked.disabled + label::before,
+.c1 input:checked:disabled + label::before {
+  border-color: var(--bds-color-border-disabled);
+}
+
+.c1 input:checked.disabled + label::after,
+.c1 input:checked:disabled + label::after {
+  border-color: var(--bds-color-border-disabled);
+}
+
+.c1 input:checked,
+.c1 input:checked + label {
+  cursor: pointer;
+}
+
+.c0 {
+  height: var(--bds-sizes-size-40);
+  width: var(--bds-sizes-size-40);
+}
+
+.c0 .pvs-input {
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+}
+
+.c0 .pvs-input input {
+  border-radius: 100%;
+}
+
+.c0 .pvs-input input:hover + .radio-indicator,
+.c0 .pvs-input input.hover + .radio-indicator {
+  border-color: var(--bds-color-action-interactive);
+  cursor: pointer;
+}
+
+.c0 .pvs-input input:focus + .radio-indicator,
+.c0 .pvs-input input.focus + .radio-indicator {
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+  border: none;
+  outline: none;
+}
+
+.c0 .pvs-input input:checked + .radio-indicator {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+  border: none;
+}
+
+.c0 .pvs-input input:checked + .radio-indicator .swatch {
+  border: 1px solid var(--bds-color-border-subdued);
+}
+
+.c0 .pvs-input input:checked:focus + .radio-indicator,
+.c0 .pvs-input input:checked.focus + .radio-indicator {
+  border: none;
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+}
+
+.c0 .pvs-input input:checked:focus + .radio-indicator .swatch,
+.c0 .pvs-input input:checked.focus + .radio-indicator .swatch {
+  border: 1px solid var(--bds-color-border-subdued);
+}
+
+.c0 .pvs-input input:not(:checked) + .radio-indicator .selected-badge {
+  display: none;
+}
+
+.c0 .pvs-input .radio-indicator {
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+  border: 1px solid var(--bds-color-text-disabled);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 .pvs-input .radio-indicator:before,
+.c0 .pvs-input .radio-indicator:after {
+  visibility: hidden;
+}
+
+.c0 .pvs-input .radio-indicator .swatch {
+  width: var(--bds-sizes-size-36);
+  height: var(--bds-sizes-size-36);
+  border-radius: 100%;
+  border: none;
+}
+
+.c0 .pvs-input .radio-indicator .swatch img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 100%;
+  display: block;
+}
+
+.c0 .pvs-input .radio-indicator .swatch svg {
+  position: absolute;
+  bottom: -0.25rem;
+  right: -0.25rem;
+  border: 1px solid var(--bds-color-surface-default);
+  border-radius: 100%;
+  background-color: var(--bds-color-surface-default);
+}
+
+.c0 .pvs-input.unavailable .radio-indicator,
+.c0 .pvs-input.unavailable input:focus + .radio-indicator,
+.c0 .pvs-input.unavailable input.focus + .radio-indicator {
+  border: 1px dashed var(--bds-color-text-disabled);
+}
+
+.c0 .pvs-input.unavailable input:hover + .radio-indicator,
+.c0 .pvs-input.unavailable input.hover + .radio-indicator {
+  border-color: var(--bds-color-text-disabled);
+}
+
+.c0 .pvs-input.unavailable input:checked + .radio-indicator {
+  border: none;
+}
+
+.c0 .pvs-input.unavailable input:checked + .radio-indicator .swatch {
+  border: 1px dashed var(--bds-color-text-disabled);
+}
+
+<div
+    class="c0 pvs-wrapper"
+  >
+    <span
+      class="c1 pvs-input"
+    >
+      <input
+        aria-label="pvs--test"
+        class="backyard radio"
+        id="pvs--test"
+        name="pvs--test"
+        type="radio"
+        value="test"
+      />
+      <label
+        class="radio-indicator"
+        for="pvs--test"
+      >
+        <div
+          class="swatch"
+          style="background-color: rgb(17, 34, 51);"
+        >
+          <svg
+            aria-hidden="true"
+            class="c2 icon icon-check-circle-filled selected-badge"
+            role="presentation"
+            style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(213, 84%, 45%, 1);"
+            viewBox="0 0 16 16"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M14 8c0 3.2824-2.7176 6-6 6-3.2765 0-6-2.7176-6-6 0-3.2765 2.7176-6 5.9941-6C11.2765 2 14 4.7235 14 8Zm-8.1464.308 1.212 1.212 3.3736-3.3735a.5001.5001 0 0 1 .7072.707L7.431 10.569a.4557.4557 0 0 1-.031.0285.5.5 0 0 1-.6887-.0175L5.1465 9.0151a.5.5 0 1 1 .707-.7071Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </div>
+      </label>
+    </span>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`PVS Snapshots defaultChecked prop snapshot 1`] = `
+<DocumentFragment>
+  .c2 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c2:not(.color-override) g,
+.c2:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c2:not(.color-override) g[stroke-width],
+.c2:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c2:not(.color-override) g[stroke-width] *,
+.c2:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c2.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c2.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 label {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+  position: relative;
+}
+
+.c1 input {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.c1 input:checked + label::after {
+  opacity: 1;
+}
+
+.c1 input:not(:checked) + label::after {
+  opacity: 0;
+}
+
+.c1 input + label::before {
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  vertical-align: center;
+  top: 0;
+  left: 0;
+  border-width: var(--bds-border-width-sm);
+  border-style: solid;
+  border-radius: var(--bds-border-radius-circle);
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+  -webkit-transition: 0.2s all ease-in-out;
+  transition: 0.2s all ease-in-out;
+}
+
+.c1 input + label::after {
+  content: "";
+  position: absolute;
+  left: var(--bds-sizes-size-3);
+  top: var(--bds-sizes-size-3);
+  opacity: 0;
+  border-width: var(--bds-sizes-size-5);
+  border-style: solid;
+  border-radius: var(--bds-border-radius-circle);
+  -webkit-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.c1 input:not(:checked).enabled + label::before,
+.c1 input:not(:checked):enabled + label::before {
+  border-color: var(--bds-color-border-default);
+}
+
+.c1 input:not(:checked).hover + label::before,
+.c1 input:not(:checked):hover + label::before {
+  border-color: var(--bds-color-action-interactive-hover);
+}
+
+.c1 input:not(:checked).focus + label::before,
+.c1 input:not(:checked):focus + label::before {
+  border-color: var(--bds-color-action-interactive);
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c1 input:not(:checked).disabled,
+.c1 input:not(:checked):disabled,
+.c1 input:not(:checked).disabled + label,
+.c1 input:not(:checked):disabled + label {
+  cursor: not-allowed;
+}
+
+.c1 input:not(:checked).disabled + label::before,
+.c1 input:not(:checked):disabled + label::before {
+  border-color: var(--bds-color-border-disabled);
+}
+
+.c1 input:not(:checked),
+.c1 input:not(:checked) + label {
+  cursor: pointer;
+}
+
+.c1 input:not(:checked) + label::before {
+  background-color: transparent;
+  border-color: var(--bds-color-border-default);
+}
+
+.c1 input:checked.enabled + label::before,
+.c1 input:checked:enabled + label::before {
+  border-color: var(--bds-color-action-interactive);
+}
+
+.c1 input:checked.enabled + label::after,
+.c1 input:checked:enabled + label::after {
+  border-color: var(--bds-color-action-interactive);
+}
+
+.c1 input:checked.hover + label::before,
+.c1 input:checked:hover + label::before,
+.c1 input:checked:focus:hover + label::before {
+  border-color: var(--bds-color-action-interactive-hover);
+}
+
+.c1 input:checked.focus + label::before,
+.c1 input:checked:focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c1 input:checked.disabled,
+.c1 input:checked:disabled,
+.c1 input:checked.disabled + label,
+.c1 input:checked:disabled + label {
+  cursor: not-allowed;
+}
+
+.c1 input:checked.disabled + label::before,
+.c1 input:checked:disabled + label::before {
+  border-color: var(--bds-color-border-disabled);
+}
+
+.c1 input:checked.disabled + label::after,
+.c1 input:checked:disabled + label::after {
+  border-color: var(--bds-color-border-disabled);
+}
+
+.c1 input:checked,
+.c1 input:checked + label {
+  cursor: pointer;
+}
+
+.c0 {
+  height: var(--bds-sizes-size-40);
+  width: var(--bds-sizes-size-40);
+}
+
+.c0 .pvs-input {
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+}
+
+.c0 .pvs-input input {
+  border-radius: 100%;
+}
+
+.c0 .pvs-input input:hover + .radio-indicator,
+.c0 .pvs-input input.hover + .radio-indicator {
+  border-color: var(--bds-color-action-interactive);
+  cursor: pointer;
+}
+
+.c0 .pvs-input input:focus + .radio-indicator,
+.c0 .pvs-input input.focus + .radio-indicator {
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+  border: none;
+  outline: none;
+}
+
+.c0 .pvs-input input:checked + .radio-indicator {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+  border: none;
+}
+
+.c0 .pvs-input input:checked + .radio-indicator .swatch {
+  border: 1px solid var(--bds-color-border-subdued);
+}
+
+.c0 .pvs-input input:checked:focus + .radio-indicator,
+.c0 .pvs-input input:checked.focus + .radio-indicator {
+  border: none;
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+}
+
+.c0 .pvs-input input:checked:focus + .radio-indicator .swatch,
+.c0 .pvs-input input:checked.focus + .radio-indicator .swatch {
+  border: 1px solid var(--bds-color-border-subdued);
+}
+
+.c0 .pvs-input input:not(:checked) + .radio-indicator .selected-badge {
+  display: none;
+}
+
+.c0 .pvs-input .radio-indicator {
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+  border: 1px solid var(--bds-color-text-disabled);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 .pvs-input .radio-indicator:before,
+.c0 .pvs-input .radio-indicator:after {
+  visibility: hidden;
+}
+
+.c0 .pvs-input .radio-indicator .swatch {
+  width: var(--bds-sizes-size-36);
+  height: var(--bds-sizes-size-36);
+  border-radius: 100%;
+  border: none;
+}
+
+.c0 .pvs-input .radio-indicator .swatch img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 100%;
+  display: block;
+}
+
+.c0 .pvs-input .radio-indicator .swatch svg {
+  position: absolute;
+  bottom: -0.25rem;
+  right: -0.25rem;
+  border: 1px solid var(--bds-color-surface-default);
+  border-radius: 100%;
+  background-color: var(--bds-color-surface-default);
+}
+
+.c0 .pvs-input.unavailable .radio-indicator,
+.c0 .pvs-input.unavailable input:focus + .radio-indicator,
+.c0 .pvs-input.unavailable input.focus + .radio-indicator {
+  border: 1px dashed var(--bds-color-text-disabled);
+}
+
+.c0 .pvs-input.unavailable input:hover + .radio-indicator,
+.c0 .pvs-input.unavailable input.hover + .radio-indicator {
+  border-color: var(--bds-color-text-disabled);
+}
+
+.c0 .pvs-input.unavailable input:checked + .radio-indicator {
+  border: none;
+}
+
+.c0 .pvs-input.unavailable input:checked + .radio-indicator .swatch {
+  border: 1px dashed var(--bds-color-text-disabled);
+}
+
+<div
+    class="c0 pvs-wrapper"
+  >
+    <span
+      class="c1 pvs-input"
+    >
+      <input
+        aria-label="pvs--test"
+        checked=""
+        class="backyard radio"
+        id="pvs--test"
+        name="pvs--test"
+        type="radio"
+        value="test"
+      />
+      <label
+        class="radio-indicator"
+        for="pvs--test"
+      >
+        <div
+          class="swatch"
+          style="background-color: transparent;"
+        >
+          <img
+            alt="img"
+            height="50"
+            src="http://some.where/img.jpg"
+            width="50"
+          />
+          <svg
+            aria-hidden="true"
+            class="c2 icon icon-check-circle-filled selected-badge"
+            role="presentation"
+            style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(213, 84%, 45%, 1);"
+            viewBox="0 0 16 16"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M14 8c0 3.2824-2.7176 6-6 6-3.2765 0-6-2.7176-6-6 0-3.2765 2.7176-6 5.9941-6C11.2765 2 14 4.7235 14 8Zm-8.1464.308 1.212 1.212 3.3736-3.3735a.5001.5001 0 0 1 .7072.707L7.431 10.569a.4557.4557 0 0 1-.031.0285.5.5 0 0 1-.6887-.0175L5.1465 9.0151a.5.5 0 1 1 .707-.7071Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </div>
+      </label>
+    </span>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`PVS Snapshots extra props PVS DOM props (id, className) snapshot 1`] = `
+<DocumentFragment>
+  .c2 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c2:not(.color-override) g,
+.c2:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c2:not(.color-override) g[stroke-width],
+.c2:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c2:not(.color-override) g[stroke-width] *,
+.c2:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c2.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c2.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 label {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+  position: relative;
+}
+
+.c1 input {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.c1 input:checked + label::after {
+  opacity: 1;
+}
+
+.c1 input:not(:checked) + label::after {
+  opacity: 0;
+}
+
+.c1 input + label::before {
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  vertical-align: center;
+  top: 0;
+  left: 0;
+  border-width: var(--bds-border-width-sm);
+  border-style: solid;
+  border-radius: var(--bds-border-radius-circle);
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+  -webkit-transition: 0.2s all ease-in-out;
+  transition: 0.2s all ease-in-out;
+}
+
+.c1 input + label::after {
+  content: "";
+  position: absolute;
+  left: var(--bds-sizes-size-3);
+  top: var(--bds-sizes-size-3);
+  opacity: 0;
+  border-width: var(--bds-sizes-size-5);
+  border-style: solid;
+  border-radius: var(--bds-border-radius-circle);
+  -webkit-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.c1 input:not(:checked).enabled + label::before,
+.c1 input:not(:checked):enabled + label::before {
+  border-color: var(--bds-color-border-default);
+}
+
+.c1 input:not(:checked).hover + label::before,
+.c1 input:not(:checked):hover + label::before {
+  border-color: var(--bds-color-action-interactive-hover);
+}
+
+.c1 input:not(:checked).focus + label::before,
+.c1 input:not(:checked):focus + label::before {
+  border-color: var(--bds-color-action-interactive);
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c1 input:not(:checked).disabled,
+.c1 input:not(:checked):disabled,
+.c1 input:not(:checked).disabled + label,
+.c1 input:not(:checked):disabled + label {
+  cursor: not-allowed;
+}
+
+.c1 input:not(:checked).disabled + label::before,
+.c1 input:not(:checked):disabled + label::before {
+  border-color: var(--bds-color-border-disabled);
+}
+
+.c1 input:not(:checked),
+.c1 input:not(:checked) + label {
+  cursor: pointer;
+}
+
+.c1 input:not(:checked) + label::before {
+  background-color: transparent;
+  border-color: var(--bds-color-border-default);
+}
+
+.c1 input:checked.enabled + label::before,
+.c1 input:checked:enabled + label::before {
+  border-color: var(--bds-color-action-interactive);
+}
+
+.c1 input:checked.enabled + label::after,
+.c1 input:checked:enabled + label::after {
+  border-color: var(--bds-color-action-interactive);
+}
+
+.c1 input:checked.hover + label::before,
+.c1 input:checked:hover + label::before,
+.c1 input:checked:focus:hover + label::before {
+  border-color: var(--bds-color-action-interactive-hover);
+}
+
+.c1 input:checked.focus + label::before,
+.c1 input:checked:focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c1 input:checked.disabled,
+.c1 input:checked:disabled,
+.c1 input:checked.disabled + label,
+.c1 input:checked:disabled + label {
+  cursor: not-allowed;
+}
+
+.c1 input:checked.disabled + label::before,
+.c1 input:checked:disabled + label::before {
+  border-color: var(--bds-color-border-disabled);
+}
+
+.c1 input:checked.disabled + label::after,
+.c1 input:checked:disabled + label::after {
+  border-color: var(--bds-color-border-disabled);
+}
+
+.c1 input:checked,
+.c1 input:checked + label {
+  cursor: pointer;
+}
+
+.c0 {
+  height: var(--bds-sizes-size-40);
+  width: var(--bds-sizes-size-40);
+}
+
+.c0 .pvs-input {
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+}
+
+.c0 .pvs-input input {
+  border-radius: 100%;
+}
+
+.c0 .pvs-input input:hover + .radio-indicator,
+.c0 .pvs-input input.hover + .radio-indicator {
+  border-color: var(--bds-color-action-interactive);
+  cursor: pointer;
+}
+
+.c0 .pvs-input input:focus + .radio-indicator,
+.c0 .pvs-input input.focus + .radio-indicator {
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+  border: none;
+  outline: none;
+}
+
+.c0 .pvs-input input:checked + .radio-indicator {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+  border: none;
+}
+
+.c0 .pvs-input input:checked + .radio-indicator .swatch {
+  border: 1px solid var(--bds-color-border-subdued);
+}
+
+.c0 .pvs-input input:checked:focus + .radio-indicator,
+.c0 .pvs-input input:checked.focus + .radio-indicator {
+  border: none;
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+}
+
+.c0 .pvs-input input:checked:focus + .radio-indicator .swatch,
+.c0 .pvs-input input:checked.focus + .radio-indicator .swatch {
+  border: 1px solid var(--bds-color-border-subdued);
+}
+
+.c0 .pvs-input input:not(:checked) + .radio-indicator .selected-badge {
+  display: none;
+}
+
+.c0 .pvs-input .radio-indicator {
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+  border: 1px solid var(--bds-color-text-disabled);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 .pvs-input .radio-indicator:before,
+.c0 .pvs-input .radio-indicator:after {
+  visibility: hidden;
+}
+
+.c0 .pvs-input .radio-indicator .swatch {
+  width: var(--bds-sizes-size-36);
+  height: var(--bds-sizes-size-36);
+  border-radius: 100%;
+  border: none;
+}
+
+.c0 .pvs-input .radio-indicator .swatch img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 100%;
+  display: block;
+}
+
+.c0 .pvs-input .radio-indicator .swatch svg {
+  position: absolute;
+  bottom: -0.25rem;
+  right: -0.25rem;
+  border: 1px solid var(--bds-color-surface-default);
+  border-radius: 100%;
+  background-color: var(--bds-color-surface-default);
+}
+
+.c0 .pvs-input.unavailable .radio-indicator,
+.c0 .pvs-input.unavailable input:focus + .radio-indicator,
+.c0 .pvs-input.unavailable input.focus + .radio-indicator {
+  border: 1px dashed var(--bds-color-text-disabled);
+}
+
+.c0 .pvs-input.unavailable input:hover + .radio-indicator,
+.c0 .pvs-input.unavailable input.hover + .radio-indicator {
+  border-color: var(--bds-color-text-disabled);
+}
+
+.c0 .pvs-input.unavailable input:checked + .radio-indicator {
+  border: none;
+}
+
+.c0 .pvs-input.unavailable input:checked + .radio-indicator .swatch {
+  border: 1px dashed var(--bds-color-text-disabled);
+}
+
+<div
+    class="c0 pvs-wrapper classname"
+  >
+    <span
+      class="c1 pvs-input"
+    >
+      <input
+        aria-label="pvs--test"
+        class="backyard radio"
+        id="pvs--test"
+        name="pvs--test"
+        type="radio"
+        value="test"
+      />
+      <label
+        class="radio-indicator"
+        for="pvs--test"
+      >
+        <div
+          class="swatch"
+          style="background-color: rgb(17, 17, 17);"
+        >
+          <svg
+            aria-hidden="true"
+            class="c2 icon icon-check-circle-filled selected-badge"
+            role="presentation"
+            style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(213, 84%, 45%, 1);"
+            viewBox="0 0 16 16"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M14 8c0 3.2824-2.7176 6-6 6-3.2765 0-6-2.7176-6-6 0-3.2765 2.7176-6 5.9941-6C11.2765 2 14 4.7235 14 8Zm-8.1464.308 1.212 1.212 3.3736-3.3735a.5001.5001 0 0 1 .7072.707L7.431 10.569a.4557.4557 0 0 1-.031.0285.5.5 0 0 1-.6887-.0175L5.1465 9.0151a.5.5 0 1 1 .707-.7071Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </div>
+      </label>
+    </span>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`PVS Snapshots inputClassName prop snapshot 1`] = `
+<DocumentFragment>
+  .c2 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c2:not(.color-override) g,
+.c2:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c2:not(.color-override) g[stroke-width],
+.c2:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c2:not(.color-override) g[stroke-width] *,
+.c2:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c2.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c2.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 label {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+  position: relative;
+}
+
+.c1 input {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.c1 input:checked + label::after {
+  opacity: 1;
+}
+
+.c1 input:not(:checked) + label::after {
+  opacity: 0;
+}
+
+.c1 input + label::before {
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  vertical-align: center;
+  top: 0;
+  left: 0;
+  border-width: var(--bds-border-width-sm);
+  border-style: solid;
+  border-radius: var(--bds-border-radius-circle);
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+  -webkit-transition: 0.2s all ease-in-out;
+  transition: 0.2s all ease-in-out;
+}
+
+.c1 input + label::after {
+  content: "";
+  position: absolute;
+  left: var(--bds-sizes-size-3);
+  top: var(--bds-sizes-size-3);
+  opacity: 0;
+  border-width: var(--bds-sizes-size-5);
+  border-style: solid;
+  border-radius: var(--bds-border-radius-circle);
+  -webkit-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.c1 input:not(:checked).enabled + label::before,
+.c1 input:not(:checked):enabled + label::before {
+  border-color: var(--bds-color-border-default);
+}
+
+.c1 input:not(:checked).hover + label::before,
+.c1 input:not(:checked):hover + label::before {
+  border-color: var(--bds-color-action-interactive-hover);
+}
+
+.c1 input:not(:checked).focus + label::before,
+.c1 input:not(:checked):focus + label::before {
+  border-color: var(--bds-color-action-interactive);
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c1 input:not(:checked).disabled,
+.c1 input:not(:checked):disabled,
+.c1 input:not(:checked).disabled + label,
+.c1 input:not(:checked):disabled + label {
+  cursor: not-allowed;
+}
+
+.c1 input:not(:checked).disabled + label::before,
+.c1 input:not(:checked):disabled + label::before {
+  border-color: var(--bds-color-border-disabled);
+}
+
+.c1 input:not(:checked),
+.c1 input:not(:checked) + label {
+  cursor: pointer;
+}
+
+.c1 input:not(:checked) + label::before {
+  background-color: transparent;
+  border-color: var(--bds-color-border-default);
+}
+
+.c1 input:checked.enabled + label::before,
+.c1 input:checked:enabled + label::before {
+  border-color: var(--bds-color-action-interactive);
+}
+
+.c1 input:checked.enabled + label::after,
+.c1 input:checked:enabled + label::after {
+  border-color: var(--bds-color-action-interactive);
+}
+
+.c1 input:checked.hover + label::before,
+.c1 input:checked:hover + label::before,
+.c1 input:checked:focus:hover + label::before {
+  border-color: var(--bds-color-action-interactive-hover);
+}
+
+.c1 input:checked.focus + label::before,
+.c1 input:checked:focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c1 input:checked.disabled,
+.c1 input:checked:disabled,
+.c1 input:checked.disabled + label,
+.c1 input:checked:disabled + label {
+  cursor: not-allowed;
+}
+
+.c1 input:checked.disabled + label::before,
+.c1 input:checked:disabled + label::before {
+  border-color: var(--bds-color-border-disabled);
+}
+
+.c1 input:checked.disabled + label::after,
+.c1 input:checked:disabled + label::after {
+  border-color: var(--bds-color-border-disabled);
+}
+
+.c1 input:checked,
+.c1 input:checked + label {
+  cursor: pointer;
+}
+
+.c0 {
+  height: var(--bds-sizes-size-40);
+  width: var(--bds-sizes-size-40);
+}
+
+.c0 .pvs-input {
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+}
+
+.c0 .pvs-input input {
+  border-radius: 100%;
+}
+
+.c0 .pvs-input input:hover + .radio-indicator,
+.c0 .pvs-input input.hover + .radio-indicator {
+  border-color: var(--bds-color-action-interactive);
+  cursor: pointer;
+}
+
+.c0 .pvs-input input:focus + .radio-indicator,
+.c0 .pvs-input input.focus + .radio-indicator {
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+  border: none;
+  outline: none;
+}
+
+.c0 .pvs-input input:checked + .radio-indicator {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+  border: none;
+}
+
+.c0 .pvs-input input:checked + .radio-indicator .swatch {
+  border: 1px solid var(--bds-color-border-subdued);
+}
+
+.c0 .pvs-input input:checked:focus + .radio-indicator,
+.c0 .pvs-input input:checked.focus + .radio-indicator {
+  border: none;
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+}
+
+.c0 .pvs-input input:checked:focus + .radio-indicator .swatch,
+.c0 .pvs-input input:checked.focus + .radio-indicator .swatch {
+  border: 1px solid var(--bds-color-border-subdued);
+}
+
+.c0 .pvs-input input:not(:checked) + .radio-indicator .selected-badge {
+  display: none;
+}
+
+.c0 .pvs-input .radio-indicator {
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+  border: 1px solid var(--bds-color-text-disabled);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 .pvs-input .radio-indicator:before,
+.c0 .pvs-input .radio-indicator:after {
+  visibility: hidden;
+}
+
+.c0 .pvs-input .radio-indicator .swatch {
+  width: var(--bds-sizes-size-36);
+  height: var(--bds-sizes-size-36);
+  border-radius: 100%;
+  border: none;
+}
+
+.c0 .pvs-input .radio-indicator .swatch img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 100%;
+  display: block;
+}
+
+.c0 .pvs-input .radio-indicator .swatch svg {
+  position: absolute;
+  bottom: -0.25rem;
+  right: -0.25rem;
+  border: 1px solid var(--bds-color-surface-default);
+  border-radius: 100%;
+  background-color: var(--bds-color-surface-default);
+}
+
+.c0 .pvs-input.unavailable .radio-indicator,
+.c0 .pvs-input.unavailable input:focus + .radio-indicator,
+.c0 .pvs-input.unavailable input.focus + .radio-indicator {
+  border: 1px dashed var(--bds-color-text-disabled);
+}
+
+.c0 .pvs-input.unavailable input:hover + .radio-indicator,
+.c0 .pvs-input.unavailable input.hover + .radio-indicator {
+  border-color: var(--bds-color-text-disabled);
+}
+
+.c0 .pvs-input.unavailable input:checked + .radio-indicator {
+  border: none;
+}
+
+.c0 .pvs-input.unavailable input:checked + .radio-indicator .swatch {
+  border: 1px dashed var(--bds-color-text-disabled);
+}
+
+<div
+    class="c0 pvs-wrapper"
+  >
+    <span
+      class="c1 pvs-input"
+    >
+      <input
+        aria-label="pvs--test"
+        class="backyard radio test"
+        id="pvs--test"
+        name="pvs--test"
+        type="radio"
+        value="test"
+      />
+      <label
+        class="radio-indicator"
+        for="pvs--test"
+      >
+        <div
+          class="swatch"
+          style="background-color: transparent;"
+        >
+          <img
+            alt="img"
+            height="50"
+            src="http://some.where/img.jpg"
+            width="50"
+          />
+          <svg
+            aria-hidden="true"
+            class="c2 icon icon-check-circle-filled selected-badge"
+            role="presentation"
+            style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(213, 84%, 45%, 1);"
+            viewBox="0 0 16 16"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M14 8c0 3.2824-2.7176 6-6 6-3.2765 0-6-2.7176-6-6 0-3.2765 2.7176-6 5.9941-6C11.2765 2 14 4.7235 14 8Zm-8.1464.308 1.212 1.212 3.3736-3.3735a.5001.5001 0 0 1 .7072.707L7.431 10.569a.4557.4557 0 0 1-.031.0285.5.5 0 0 1-.6887-.0175L5.1465 9.0151a.5.5 0 1 1 .707-.7071Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </div>
+      </label>
+    </span>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`PVS Snapshots themes PVS dark theme snapshot 1`] = `
+<DocumentFragment>
+  .c2 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c2:not(.color-override) g,
+.c2:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c2:not(.color-override) g[stroke-width],
+.c2:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c2:not(.color-override) g[stroke-width] *,
+.c2:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c2.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c2.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 label {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+  position: relative;
+}
+
+.c1 input {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.c1 input:checked + label::after {
+  opacity: 1;
+}
+
+.c1 input:not(:checked) + label::after {
+  opacity: 0;
+}
+
+.c1 input + label::before {
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  vertical-align: center;
+  top: 0;
+  left: 0;
+  border-width: var(--bds-border-width-sm);
+  border-style: solid;
+  border-radius: var(--bds-border-radius-circle);
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+  -webkit-transition: 0.2s all ease-in-out;
+  transition: 0.2s all ease-in-out;
+}
+
+.c1 input + label::after {
+  content: "";
+  position: absolute;
+  left: var(--bds-sizes-size-3);
+  top: var(--bds-sizes-size-3);
+  opacity: 0;
+  border-width: var(--bds-sizes-size-5);
+  border-style: solid;
+  border-radius: var(--bds-border-radius-circle);
+  -webkit-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.c1 input:not(:checked).enabled + label::before,
+.c1 input:not(:checked):enabled + label::before {
+  border-color: var(--bds-color-border-default);
+}
+
+.c1 input:not(:checked).hover + label::before,
+.c1 input:not(:checked):hover + label::before {
+  border-color: var(--bds-color-action-interactive-hover);
+}
+
+.c1 input:not(:checked).focus + label::before,
+.c1 input:not(:checked):focus + label::before {
+  border-color: var(--bds-color-action-interactive);
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c1 input:not(:checked).disabled,
+.c1 input:not(:checked):disabled,
+.c1 input:not(:checked).disabled + label,
+.c1 input:not(:checked):disabled + label {
+  cursor: not-allowed;
+}
+
+.c1 input:not(:checked).disabled + label::before,
+.c1 input:not(:checked):disabled + label::before {
+  border-color: var(--bds-color-border-disabled);
+}
+
+.c1 input:not(:checked),
+.c1 input:not(:checked) + label {
+  cursor: pointer;
+}
+
+.c1 input:not(:checked) + label::before {
+  background-color: transparent;
+  border-color: var(--bds-color-border-default);
+}
+
+.c1 input:checked.enabled + label::before,
+.c1 input:checked:enabled + label::before {
+  border-color: var(--bds-color-action-interactive);
+}
+
+.c1 input:checked.enabled + label::after,
+.c1 input:checked:enabled + label::after {
+  border-color: var(--bds-color-action-interactive);
+}
+
+.c1 input:checked.hover + label::before,
+.c1 input:checked:hover + label::before,
+.c1 input:checked:focus:hover + label::before {
+  border-color: var(--bds-color-action-interactive-hover);
+}
+
+.c1 input:checked.focus + label::before,
+.c1 input:checked:focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c1 input:checked.disabled,
+.c1 input:checked:disabled,
+.c1 input:checked.disabled + label,
+.c1 input:checked:disabled + label {
+  cursor: not-allowed;
+}
+
+.c1 input:checked.disabled + label::before,
+.c1 input:checked:disabled + label::before {
+  border-color: var(--bds-color-border-disabled);
+}
+
+.c1 input:checked.disabled + label::after,
+.c1 input:checked:disabled + label::after {
+  border-color: var(--bds-color-border-disabled);
+}
+
+.c1 input:checked,
+.c1 input:checked + label {
+  cursor: pointer;
+}
+
+.c0 {
+  height: var(--bds-sizes-size-40);
+  width: var(--bds-sizes-size-40);
+}
+
+.c0 .pvs-input {
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+}
+
+.c0 .pvs-input input {
+  border-radius: 100%;
+}
+
+.c0 .pvs-input input:hover + .radio-indicator,
+.c0 .pvs-input input.hover + .radio-indicator {
+  border-color: var(--bds-color-action-interactive);
+  cursor: pointer;
+}
+
+.c0 .pvs-input input:focus + .radio-indicator,
+.c0 .pvs-input input.focus + .radio-indicator {
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+  border: none;
+  outline: none;
+}
+
+.c0 .pvs-input input:checked + .radio-indicator {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+  border: none;
+}
+
+.c0 .pvs-input input:checked + .radio-indicator .swatch {
+  border: 1px solid var(--bds-color-border-subdued);
+}
+
+.c0 .pvs-input input:checked:focus + .radio-indicator,
+.c0 .pvs-input input:checked.focus + .radio-indicator {
+  border: none;
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+}
+
+.c0 .pvs-input input:checked:focus + .radio-indicator .swatch,
+.c0 .pvs-input input:checked.focus + .radio-indicator .swatch {
+  border: 1px solid var(--bds-color-border-subdued);
+}
+
+.c0 .pvs-input input:not(:checked) + .radio-indicator .selected-badge {
+  display: none;
+}
+
+.c0 .pvs-input .radio-indicator {
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+  border: 1px solid var(--bds-color-text-disabled);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 .pvs-input .radio-indicator:before,
+.c0 .pvs-input .radio-indicator:after {
+  visibility: hidden;
+}
+
+.c0 .pvs-input .radio-indicator .swatch {
+  width: var(--bds-sizes-size-36);
+  height: var(--bds-sizes-size-36);
+  border-radius: 100%;
+  border: none;
+}
+
+.c0 .pvs-input .radio-indicator .swatch img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 100%;
+  display: block;
+}
+
+.c0 .pvs-input .radio-indicator .swatch svg {
+  position: absolute;
+  bottom: -0.25rem;
+  right: -0.25rem;
+  border: 1px solid var(--bds-color-surface-default);
+  border-radius: 100%;
+  background-color: var(--bds-color-surface-default);
+}
+
+.c0 .pvs-input.unavailable .radio-indicator,
+.c0 .pvs-input.unavailable input:focus + .radio-indicator,
+.c0 .pvs-input.unavailable input.focus + .radio-indicator {
+  border: 1px dashed var(--bds-color-text-disabled);
+}
+
+.c0 .pvs-input.unavailable input:hover + .radio-indicator,
+.c0 .pvs-input.unavailable input.hover + .radio-indicator {
+  border-color: var(--bds-color-text-disabled);
+}
+
+.c0 .pvs-input.unavailable input:checked + .radio-indicator {
+  border: none;
+}
+
+.c0 .pvs-input.unavailable input:checked + .radio-indicator .swatch {
+  border: 1px dashed var(--bds-color-text-disabled);
+}
+
+<div
+    class="c0 pvs-wrapper"
+  >
+    <span
+      class="c1 pvs-input"
+    >
+      <input
+        aria-label="pvs--test"
+        class="backyard radio"
+        id="pvs--test"
+        name="pvs--test"
+        type="radio"
+        value="test"
+      />
+      <label
+        class="radio-indicator"
+        for="pvs--test"
+      >
+        <div
+          class="swatch"
+          style="background-color: rgb(17, 34, 51);"
+        >
+          <svg
+            aria-hidden="true"
+            class="c2 icon icon-check-circle-filled selected-badge"
+            role="presentation"
+            style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(213, 73%, 60%, 1);"
+            viewBox="0 0 16 16"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M14 8c0 3.2824-2.7176 6-6 6-3.2765 0-6-2.7176-6-6 0-3.2765 2.7176-6 5.9941-6C11.2765 2 14 4.7235 14 8Zm-8.1464.308 1.212 1.212 3.3736-3.3735a.5001.5001 0 0 1 .7072.707L7.431 10.569a.4557.4557 0 0 1-.031.0285.5.5 0 0 1-.6887-.0175L5.1465 9.0151a.5.5 0 1 1 .707-.7071Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </div>
+      </label>
+    </span>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`PVS Snapshots themes PVS light theme snapshot 1`] = `
+<DocumentFragment>
+  .c2 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c2:not(.color-override) g,
+.c2:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c2:not(.color-override) g[stroke-width],
+.c2:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c2:not(.color-override) g[stroke-width] *,
+.c2:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c2.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c2.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 label {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+  position: relative;
+}
+
+.c1 input {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.c1 input:checked + label::after {
+  opacity: 1;
+}
+
+.c1 input:not(:checked) + label::after {
+  opacity: 0;
+}
+
+.c1 input + label::before {
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  vertical-align: center;
+  top: 0;
+  left: 0;
+  border-width: var(--bds-border-width-sm);
+  border-style: solid;
+  border-radius: var(--bds-border-radius-circle);
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+  -webkit-transition: 0.2s all ease-in-out;
+  transition: 0.2s all ease-in-out;
+}
+
+.c1 input + label::after {
+  content: "";
+  position: absolute;
+  left: var(--bds-sizes-size-3);
+  top: var(--bds-sizes-size-3);
+  opacity: 0;
+  border-width: var(--bds-sizes-size-5);
+  border-style: solid;
+  border-radius: var(--bds-border-radius-circle);
+  -webkit-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.c1 input:not(:checked).enabled + label::before,
+.c1 input:not(:checked):enabled + label::before {
+  border-color: var(--bds-color-border-default);
+}
+
+.c1 input:not(:checked).hover + label::before,
+.c1 input:not(:checked):hover + label::before {
+  border-color: var(--bds-color-action-interactive-hover);
+}
+
+.c1 input:not(:checked).focus + label::before,
+.c1 input:not(:checked):focus + label::before {
+  border-color: var(--bds-color-action-interactive);
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c1 input:not(:checked).disabled,
+.c1 input:not(:checked):disabled,
+.c1 input:not(:checked).disabled + label,
+.c1 input:not(:checked):disabled + label {
+  cursor: not-allowed;
+}
+
+.c1 input:not(:checked).disabled + label::before,
+.c1 input:not(:checked):disabled + label::before {
+  border-color: var(--bds-color-border-disabled);
+}
+
+.c1 input:not(:checked),
+.c1 input:not(:checked) + label {
+  cursor: pointer;
+}
+
+.c1 input:not(:checked) + label::before {
+  background-color: transparent;
+  border-color: var(--bds-color-border-default);
+}
+
+.c1 input:checked.enabled + label::before,
+.c1 input:checked:enabled + label::before {
+  border-color: var(--bds-color-action-interactive);
+}
+
+.c1 input:checked.enabled + label::after,
+.c1 input:checked:enabled + label::after {
+  border-color: var(--bds-color-action-interactive);
+}
+
+.c1 input:checked.hover + label::before,
+.c1 input:checked:hover + label::before,
+.c1 input:checked:focus:hover + label::before {
+  border-color: var(--bds-color-action-interactive-hover);
+}
+
+.c1 input:checked.focus + label::before,
+.c1 input:checked:focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c1 input:checked.disabled,
+.c1 input:checked:disabled,
+.c1 input:checked.disabled + label,
+.c1 input:checked:disabled + label {
+  cursor: not-allowed;
+}
+
+.c1 input:checked.disabled + label::before,
+.c1 input:checked:disabled + label::before {
+  border-color: var(--bds-color-border-disabled);
+}
+
+.c1 input:checked.disabled + label::after,
+.c1 input:checked:disabled + label::after {
+  border-color: var(--bds-color-border-disabled);
+}
+
+.c1 input:checked,
+.c1 input:checked + label {
+  cursor: pointer;
+}
+
+.c0 {
+  height: var(--bds-sizes-size-40);
+  width: var(--bds-sizes-size-40);
+}
+
+.c0 .pvs-input {
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+}
+
+.c0 .pvs-input input {
+  border-radius: 100%;
+}
+
+.c0 .pvs-input input:hover + .radio-indicator,
+.c0 .pvs-input input.hover + .radio-indicator {
+  border-color: var(--bds-color-action-interactive);
+  cursor: pointer;
+}
+
+.c0 .pvs-input input:focus + .radio-indicator,
+.c0 .pvs-input input.focus + .radio-indicator {
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+  border: none;
+  outline: none;
+}
+
+.c0 .pvs-input input:checked + .radio-indicator {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+  border: none;
+}
+
+.c0 .pvs-input input:checked + .radio-indicator .swatch {
+  border: 1px solid var(--bds-color-border-subdued);
+}
+
+.c0 .pvs-input input:checked:focus + .radio-indicator,
+.c0 .pvs-input input:checked.focus + .radio-indicator {
+  border: none;
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+}
+
+.c0 .pvs-input input:checked:focus + .radio-indicator .swatch,
+.c0 .pvs-input input:checked.focus + .radio-indicator .swatch {
+  border: 1px solid var(--bds-color-border-subdued);
+}
+
+.c0 .pvs-input input:not(:checked) + .radio-indicator .selected-badge {
+  display: none;
+}
+
+.c0 .pvs-input .radio-indicator {
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+  border: 1px solid var(--bds-color-text-disabled);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 .pvs-input .radio-indicator:before,
+.c0 .pvs-input .radio-indicator:after {
+  visibility: hidden;
+}
+
+.c0 .pvs-input .radio-indicator .swatch {
+  width: var(--bds-sizes-size-36);
+  height: var(--bds-sizes-size-36);
+  border-radius: 100%;
+  border: none;
+}
+
+.c0 .pvs-input .radio-indicator .swatch img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 100%;
+  display: block;
+}
+
+.c0 .pvs-input .radio-indicator .swatch svg {
+  position: absolute;
+  bottom: -0.25rem;
+  right: -0.25rem;
+  border: 1px solid var(--bds-color-surface-default);
+  border-radius: 100%;
+  background-color: var(--bds-color-surface-default);
+}
+
+.c0 .pvs-input.unavailable .radio-indicator,
+.c0 .pvs-input.unavailable input:focus + .radio-indicator,
+.c0 .pvs-input.unavailable input.focus + .radio-indicator {
+  border: 1px dashed var(--bds-color-text-disabled);
+}
+
+.c0 .pvs-input.unavailable input:hover + .radio-indicator,
+.c0 .pvs-input.unavailable input.hover + .radio-indicator {
+  border-color: var(--bds-color-text-disabled);
+}
+
+.c0 .pvs-input.unavailable input:checked + .radio-indicator {
+  border: none;
+}
+
+.c0 .pvs-input.unavailable input:checked + .radio-indicator .swatch {
+  border: 1px dashed var(--bds-color-text-disabled);
+}
+
+<div
+    class="c0 pvs-wrapper"
+  >
+    <span
+      class="c1 pvs-input"
+    >
+      <input
+        aria-label="pvs--test"
+        class="backyard radio"
+        id="pvs--test"
+        name="pvs--test"
+        type="radio"
+        value="test"
+      />
+      <label
+        class="radio-indicator"
+        for="pvs--test"
+      >
+        <div
+          class="swatch"
+          style="background-color: rgb(17, 34, 51);"
+        >
+          <svg
+            aria-hidden="true"
+            class="c2 icon icon-check-circle-filled selected-badge"
+            role="presentation"
+            style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(213, 84%, 45%, 1);"
+            viewBox="0 0 16 16"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M14 8c0 3.2824-2.7176 6-6 6-3.2765 0-6-2.7176-6-6 0-3.2765 2.7176-6 5.9941-6C11.2765 2 14 4.7235 14 8Zm-8.1464.308 1.212 1.212 3.3736-3.3735a.5001.5001 0 0 1 .7072.707L7.431 10.569a.4557.4557 0 0 1-.031.0285.5.5 0 0 1-.6887-.0175L5.1465 9.0151a.5.5 0 1 1 .707-.7071Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </div>
+      </label>
+    </span>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`PVS Snapshots unavailable prop snapshot 1`] = `
+<DocumentFragment>
+  .c2 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c2:not(.color-override) g,
+.c2:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c2:not(.color-override) g[stroke-width],
+.c2:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c2:not(.color-override) g[stroke-width] *,
+.c2:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c2.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c2.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 label {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+  position: relative;
+}
+
+.c1 input {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.c1 input:checked + label::after {
+  opacity: 1;
+}
+
+.c1 input:not(:checked) + label::after {
+  opacity: 0;
+}
+
+.c1 input + label::before {
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  vertical-align: center;
+  top: 0;
+  left: 0;
+  border-width: var(--bds-border-width-sm);
+  border-style: solid;
+  border-radius: var(--bds-border-radius-circle);
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+  -webkit-transition: 0.2s all ease-in-out;
+  transition: 0.2s all ease-in-out;
+}
+
+.c1 input + label::after {
+  content: "";
+  position: absolute;
+  left: var(--bds-sizes-size-3);
+  top: var(--bds-sizes-size-3);
+  opacity: 0;
+  border-width: var(--bds-sizes-size-5);
+  border-style: solid;
+  border-radius: var(--bds-border-radius-circle);
+  -webkit-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.c1 input:not(:checked).enabled + label::before,
+.c1 input:not(:checked):enabled + label::before {
+  border-color: var(--bds-color-border-default);
+}
+
+.c1 input:not(:checked).hover + label::before,
+.c1 input:not(:checked):hover + label::before {
+  border-color: var(--bds-color-action-interactive-hover);
+}
+
+.c1 input:not(:checked).focus + label::before,
+.c1 input:not(:checked):focus + label::before {
+  border-color: var(--bds-color-action-interactive);
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c1 input:not(:checked).disabled,
+.c1 input:not(:checked):disabled,
+.c1 input:not(:checked).disabled + label,
+.c1 input:not(:checked):disabled + label {
+  cursor: not-allowed;
+}
+
+.c1 input:not(:checked).disabled + label::before,
+.c1 input:not(:checked):disabled + label::before {
+  border-color: var(--bds-color-border-disabled);
+}
+
+.c1 input:not(:checked),
+.c1 input:not(:checked) + label {
+  cursor: pointer;
+}
+
+.c1 input:not(:checked) + label::before {
+  background-color: transparent;
+  border-color: var(--bds-color-border-default);
+}
+
+.c1 input:checked.enabled + label::before,
+.c1 input:checked:enabled + label::before {
+  border-color: var(--bds-color-action-interactive);
+}
+
+.c1 input:checked.enabled + label::after,
+.c1 input:checked:enabled + label::after {
+  border-color: var(--bds-color-action-interactive);
+}
+
+.c1 input:checked.hover + label::before,
+.c1 input:checked:hover + label::before,
+.c1 input:checked:focus:hover + label::before {
+  border-color: var(--bds-color-action-interactive-hover);
+}
+
+.c1 input:checked.focus + label::before,
+.c1 input:checked:focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c1 input:checked.disabled,
+.c1 input:checked:disabled,
+.c1 input:checked.disabled + label,
+.c1 input:checked:disabled + label {
+  cursor: not-allowed;
+}
+
+.c1 input:checked.disabled + label::before,
+.c1 input:checked:disabled + label::before {
+  border-color: var(--bds-color-border-disabled);
+}
+
+.c1 input:checked.disabled + label::after,
+.c1 input:checked:disabled + label::after {
+  border-color: var(--bds-color-border-disabled);
+}
+
+.c1 input:checked,
+.c1 input:checked + label {
+  cursor: pointer;
+}
+
+.c0 {
+  height: var(--bds-sizes-size-40);
+  width: var(--bds-sizes-size-40);
+}
+
+.c0 .pvs-input {
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+}
+
+.c0 .pvs-input input {
+  border-radius: 100%;
+}
+
+.c0 .pvs-input input:hover + .radio-indicator,
+.c0 .pvs-input input.hover + .radio-indicator {
+  border-color: var(--bds-color-action-interactive);
+  cursor: pointer;
+}
+
+.c0 .pvs-input input:focus + .radio-indicator,
+.c0 .pvs-input input.focus + .radio-indicator {
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+  border: none;
+  outline: none;
+}
+
+.c0 .pvs-input input:checked + .radio-indicator {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+  border: none;
+}
+
+.c0 .pvs-input input:checked + .radio-indicator .swatch {
+  border: 1px solid var(--bds-color-border-subdued);
+}
+
+.c0 .pvs-input input:checked:focus + .radio-indicator,
+.c0 .pvs-input input:checked.focus + .radio-indicator {
+  border: none;
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+}
+
+.c0 .pvs-input input:checked:focus + .radio-indicator .swatch,
+.c0 .pvs-input input:checked.focus + .radio-indicator .swatch {
+  border: 1px solid var(--bds-color-border-subdued);
+}
+
+.c0 .pvs-input input:not(:checked) + .radio-indicator .selected-badge {
+  display: none;
+}
+
+.c0 .pvs-input .radio-indicator {
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+  border: 1px solid var(--bds-color-text-disabled);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 .pvs-input .radio-indicator:before,
+.c0 .pvs-input .radio-indicator:after {
+  visibility: hidden;
+}
+
+.c0 .pvs-input .radio-indicator .swatch {
+  width: var(--bds-sizes-size-36);
+  height: var(--bds-sizes-size-36);
+  border-radius: 100%;
+  border: none;
+}
+
+.c0 .pvs-input .radio-indicator .swatch img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 100%;
+  display: block;
+}
+
+.c0 .pvs-input .radio-indicator .swatch svg {
+  position: absolute;
+  bottom: -0.25rem;
+  right: -0.25rem;
+  border: 1px solid var(--bds-color-surface-default);
+  border-radius: 100%;
+  background-color: var(--bds-color-surface-default);
+}
+
+.c0 .pvs-input.unavailable .radio-indicator,
+.c0 .pvs-input.unavailable input:focus + .radio-indicator,
+.c0 .pvs-input.unavailable input.focus + .radio-indicator {
+  border: 1px dashed var(--bds-color-text-disabled);
+}
+
+.c0 .pvs-input.unavailable input:hover + .radio-indicator,
+.c0 .pvs-input.unavailable input.hover + .radio-indicator {
+  border-color: var(--bds-color-text-disabled);
+}
+
+.c0 .pvs-input.unavailable input:checked + .radio-indicator {
+  border: none;
+}
+
+.c0 .pvs-input.unavailable input:checked + .radio-indicator .swatch {
+  border: 1px dashed var(--bds-color-text-disabled);
+}
+
+<div
+    class="c0 pvs-wrapper"
+  >
+    <span
+      class="c1 pvs-input unavailable"
+    >
+      <input
+        aria-label="pvs--test"
+        class="backyard radio"
+        id="pvs--test"
+        name="pvs--test"
+        type="radio"
+        value="test"
+      />
+      <label
+        class="radio-indicator"
+        for="pvs--test"
+      >
+        <div
+          class="swatch"
+          style="background-color: transparent;"
+        >
+          <img
+            alt="img"
+            height="50"
+            src="http://some.where/img.jpg"
+            width="50"
+          />
+          <svg
+            aria-hidden="true"
+            class="c2 icon icon-check-circle-filled selected-badge"
+            role="presentation"
+            style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: disabled;"
+            viewBox="0 0 16 16"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M14 8c0 3.2824-2.7176 6-6 6-3.2765 0-6-2.7176-6-6 0-3.2765 2.7176-6 5.9941-6C11.2765 2 14 4.7235 14 8Zm-8.1464.308 1.212 1.212 3.3736-3.3735a.5001.5001 0 0 1 .7072.707L7.431 10.569a.4557.4557 0 0 1-.031.0285.5.5 0 0 1-.6887-.0175L5.1465 9.0151a.5.5 0 1 1 .707-.7071Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </div>
+      </label>
+    </span>
+  </div>
+</DocumentFragment>
+`;

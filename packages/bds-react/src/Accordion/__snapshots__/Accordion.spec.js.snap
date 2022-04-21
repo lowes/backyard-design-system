@@ -1,0 +1,2555 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordion Snapshots Accordion default snapshot 1`] = `
+<DocumentFragment>
+  .c1 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c1:not(.color-override) g,
+.c1:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c1:not(.color-override) g[stroke-width],
+.c1:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c1:not(.color-override) g[stroke-width] *,
+.c1:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c1.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c1.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c0 {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.c0 h3,
+.c0 h4 {
+  margin: 0;
+}
+
+.c0 .accordion-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  cursor: pointer;
+  border-radius: var(--bds-border-radius-lg);
+  padding: 0 var(--bds-sizes-size-16);
+  box-sizing: border-box;
+}
+
+.c0 .accordion-header:focus {
+  box-shadow: 0 0 0 2px var(--bds-color-border-interactive);
+}
+
+.c0 .accordion-header .accordion-icon svg {
+  display: block;
+  width: var(--bds-sizes-size-20);
+  height: var(--bds-sizes-size-20);
+  margin: auto;
+}
+
+.c0 .accordion-content {
+  display: none;
+  padding: var(--bds-sizes-size-16);
+}
+
+.c0 .accordion-content.opened {
+  display: block;
+}
+
+.c0 .accordion-title {
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .accordion-title-group {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-20);
+}
+
+.c0.size--large .accordion-header {
+  height: var(--bds-sizes-size-56);
+}
+
+.c0.size--medium .accordion-header {
+  height: var(--bds-sizes-size-48);
+}
+
+.c0.size--small .accordion-header {
+  height: var(--bds-sizes-size-40);
+}
+
+.c0.color--transparent .accordion-header {
+  background-color: transparent;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: var(--bds-sizes-size-1) solid var(--bds-color-border-subdued);
+}
+
+.c0.color--transparent .accordion-header:hover {
+  background-color: var(--bds-color-action-interactive-subdued-hover);
+}
+
+.c0.color--interactive .accordion-header {
+  background-color: var(--bds-color-action-interactive-subdued);
+  border-bottom: none;
+}
+
+.c0.color--interactive .accordion-header:hover {
+  background-color: var(--bds-color-action-interactive-subdued-hover);
+}
+
+.c0.color--neutral .accordion-header {
+  background-color: var(--bds-color-action-neutral);
+  border-bottom: none;
+}
+
+.c0.color--neutral .accordion-header:hover {
+  background-color: var(--bds-color-action-neutral-hover);
+}
+
+<div
+    class="c0 backyard accordion variant--triangle color--transparent size--medium closed"
+  >
+    <button
+      class="accordion-header closed"
+      tabindex="0"
+      type="button"
+    >
+      <div
+        class="accordion-title-group"
+      >
+        <span
+          class="accordion-title"
+        >
+          Title
+        </span>
+      </div>
+      <div
+        class="accordion-icon"
+      >
+        <svg
+          aria-hidden="true"
+          class="c1 icon icon-triangle-down"
+          role="presentation"
+          style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(213, 84%, 45%, 1);"
+          viewBox="0 0 16 16"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M13.1865 4.2923c.7132 0 1.046.5626.6339 1.0577l-5.0236 6.0201c-.3486.4613-1.236.4388-1.6006 0l-5.0236-6.02c-.3962-.4614-.0793-1.0578.6339-1.0578h10.38Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </button>
+    <span
+      aria-hidden="true"
+      class="accordion-content closed"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Accordion Snapshots prop: size Accordion large size snapshot 1`] = `
+<DocumentFragment>
+  .c1 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c1:not(.color-override) g,
+.c1:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c1:not(.color-override) g[stroke-width],
+.c1:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c1:not(.color-override) g[stroke-width] *,
+.c1:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c1.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c1.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c0 {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.c0 h3,
+.c0 h4 {
+  margin: 0;
+}
+
+.c0 .accordion-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  cursor: pointer;
+  border-radius: var(--bds-border-radius-lg);
+  padding: 0 var(--bds-sizes-size-16);
+  box-sizing: border-box;
+}
+
+.c0 .accordion-header:focus {
+  box-shadow: 0 0 0 2px var(--bds-color-border-interactive);
+}
+
+.c0 .accordion-header .accordion-icon svg {
+  display: block;
+  width: var(--bds-sizes-size-20);
+  height: var(--bds-sizes-size-20);
+  margin: auto;
+}
+
+.c0 .accordion-content {
+  display: none;
+  padding: var(--bds-sizes-size-16);
+}
+
+.c0 .accordion-content.opened {
+  display: block;
+}
+
+.c0 .accordion-title {
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .accordion-title-group {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-20);
+}
+
+.c0.size--large .accordion-header {
+  height: var(--bds-sizes-size-56);
+}
+
+.c0.size--medium .accordion-header {
+  height: var(--bds-sizes-size-48);
+}
+
+.c0.size--small .accordion-header {
+  height: var(--bds-sizes-size-40);
+}
+
+.c0.color--transparent .accordion-header {
+  background-color: transparent;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: var(--bds-sizes-size-1) solid var(--bds-color-border-subdued);
+}
+
+.c0.color--transparent .accordion-header:hover {
+  background-color: var(--bds-color-action-interactive-subdued-hover);
+}
+
+.c0.color--interactive .accordion-header {
+  background-color: var(--bds-color-action-interactive-subdued);
+  border-bottom: none;
+}
+
+.c0.color--interactive .accordion-header:hover {
+  background-color: var(--bds-color-action-interactive-subdued-hover);
+}
+
+.c0.color--neutral .accordion-header {
+  background-color: var(--bds-color-action-neutral);
+  border-bottom: none;
+}
+
+.c0.color--neutral .accordion-header:hover {
+  background-color: var(--bds-color-action-neutral-hover);
+}
+
+<div
+    class="c0 backyard accordion variant--triangle color--transparent size--large closed"
+  >
+    <button
+      class="accordion-header closed"
+      tabindex="0"
+      type="button"
+    >
+      <div
+        class="accordion-title-group"
+      >
+        <span
+          class="accordion-title"
+        >
+          Title
+        </span>
+        <span
+          class="accordion-subtitle"
+        />
+      </div>
+      <div
+        class="accordion-icon"
+      >
+        <svg
+          aria-hidden="true"
+          class="c1 icon icon-triangle-down"
+          role="presentation"
+          style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(213, 84%, 45%, 1);"
+          viewBox="0 0 16 16"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M13.1865 4.2923c.7132 0 1.046.5626.6339 1.0577l-5.0236 6.0201c-.3486.4613-1.236.4388-1.6006 0l-5.0236-6.02c-.3962-.4614-.0793-1.0578.6339-1.0578h10.38Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </button>
+    <span
+      aria-hidden="true"
+      class="accordion-content closed"
+    >
+      Children
+    </span>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Accordion Snapshots prop: size Accordion medium size snapshot 1`] = `
+<DocumentFragment>
+  .c1 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c1:not(.color-override) g,
+.c1:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c1:not(.color-override) g[stroke-width],
+.c1:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c1:not(.color-override) g[stroke-width] *,
+.c1:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c1.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c1.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c0 {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.c0 h3,
+.c0 h4 {
+  margin: 0;
+}
+
+.c0 .accordion-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  cursor: pointer;
+  border-radius: var(--bds-border-radius-lg);
+  padding: 0 var(--bds-sizes-size-16);
+  box-sizing: border-box;
+}
+
+.c0 .accordion-header:focus {
+  box-shadow: 0 0 0 2px var(--bds-color-border-interactive);
+}
+
+.c0 .accordion-header .accordion-icon svg {
+  display: block;
+  width: var(--bds-sizes-size-20);
+  height: var(--bds-sizes-size-20);
+  margin: auto;
+}
+
+.c0 .accordion-content {
+  display: none;
+  padding: var(--bds-sizes-size-16);
+}
+
+.c0 .accordion-content.opened {
+  display: block;
+}
+
+.c0 .accordion-title {
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .accordion-title-group {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-20);
+}
+
+.c0.size--large .accordion-header {
+  height: var(--bds-sizes-size-56);
+}
+
+.c0.size--medium .accordion-header {
+  height: var(--bds-sizes-size-48);
+}
+
+.c0.size--small .accordion-header {
+  height: var(--bds-sizes-size-40);
+}
+
+.c0.color--transparent .accordion-header {
+  background-color: transparent;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: var(--bds-sizes-size-1) solid var(--bds-color-border-subdued);
+}
+
+.c0.color--transparent .accordion-header:hover {
+  background-color: var(--bds-color-action-interactive-subdued-hover);
+}
+
+.c0.color--interactive .accordion-header {
+  background-color: var(--bds-color-action-interactive-subdued);
+  border-bottom: none;
+}
+
+.c0.color--interactive .accordion-header:hover {
+  background-color: var(--bds-color-action-interactive-subdued-hover);
+}
+
+.c0.color--neutral .accordion-header {
+  background-color: var(--bds-color-action-neutral);
+  border-bottom: none;
+}
+
+.c0.color--neutral .accordion-header:hover {
+  background-color: var(--bds-color-action-neutral-hover);
+}
+
+<div
+    class="c0 backyard accordion variant--triangle color--transparent size--medium closed"
+  >
+    <button
+      class="accordion-header closed"
+      tabindex="0"
+      type="button"
+    >
+      <div
+        class="accordion-title-group"
+      >
+        <span
+          class="accordion-title"
+        >
+          Title
+        </span>
+      </div>
+      <div
+        class="accordion-icon"
+      >
+        <svg
+          aria-hidden="true"
+          class="c1 icon icon-triangle-down"
+          role="presentation"
+          style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(213, 84%, 45%, 1);"
+          viewBox="0 0 16 16"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M13.1865 4.2923c.7132 0 1.046.5626.6339 1.0577l-5.0236 6.0201c-.3486.4613-1.236.4388-1.6006 0l-5.0236-6.02c-.3962-.4614-.0793-1.0578.6339-1.0578h10.38Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </button>
+    <span
+      aria-hidden="true"
+      class="accordion-content closed"
+    >
+      Children
+    </span>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Accordion Snapshots prop: size Accordion small size snapshot 1`] = `
+<DocumentFragment>
+  .c1 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c1:not(.color-override) g,
+.c1:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c1:not(.color-override) g[stroke-width],
+.c1:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c1:not(.color-override) g[stroke-width] *,
+.c1:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c1.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c1.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c0 {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.c0 h3,
+.c0 h4 {
+  margin: 0;
+}
+
+.c0 .accordion-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  cursor: pointer;
+  border-radius: var(--bds-border-radius-lg);
+  padding: 0 var(--bds-sizes-size-16);
+  box-sizing: border-box;
+}
+
+.c0 .accordion-header:focus {
+  box-shadow: 0 0 0 2px var(--bds-color-border-interactive);
+}
+
+.c0 .accordion-header .accordion-icon svg {
+  display: block;
+  width: var(--bds-sizes-size-20);
+  height: var(--bds-sizes-size-20);
+  margin: auto;
+}
+
+.c0 .accordion-content {
+  display: none;
+  padding: var(--bds-sizes-size-16);
+}
+
+.c0 .accordion-content.opened {
+  display: block;
+}
+
+.c0 .accordion-title {
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .accordion-title-group {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-20);
+}
+
+.c0.size--large .accordion-header {
+  height: var(--bds-sizes-size-56);
+}
+
+.c0.size--medium .accordion-header {
+  height: var(--bds-sizes-size-48);
+}
+
+.c0.size--small .accordion-header {
+  height: var(--bds-sizes-size-40);
+}
+
+.c0.color--transparent .accordion-header {
+  background-color: transparent;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: var(--bds-sizes-size-1) solid var(--bds-color-border-subdued);
+}
+
+.c0.color--transparent .accordion-header:hover {
+  background-color: var(--bds-color-action-interactive-subdued-hover);
+}
+
+.c0.color--interactive .accordion-header {
+  background-color: var(--bds-color-action-interactive-subdued);
+  border-bottom: none;
+}
+
+.c0.color--interactive .accordion-header:hover {
+  background-color: var(--bds-color-action-interactive-subdued-hover);
+}
+
+.c0.color--neutral .accordion-header {
+  background-color: var(--bds-color-action-neutral);
+  border-bottom: none;
+}
+
+.c0.color--neutral .accordion-header:hover {
+  background-color: var(--bds-color-action-neutral-hover);
+}
+
+<div
+    class="c0 backyard accordion variant--triangle color--transparent size--small closed"
+  >
+    <button
+      class="accordion-header closed"
+      tabindex="0"
+      type="button"
+    >
+      <div
+        class="accordion-title-group"
+      >
+        <span
+          class="accordion-title"
+        >
+          Title
+        </span>
+      </div>
+      <div
+        class="accordion-icon"
+      >
+        <svg
+          aria-hidden="true"
+          class="c1 icon icon-triangle-down"
+          role="presentation"
+          style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(213, 84%, 45%, 1);"
+          viewBox="0 0 16 16"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M13.1865 4.2923c.7132 0 1.046.5626.6339 1.0577l-5.0236 6.0201c-.3486.4613-1.236.4388-1.6006 0l-5.0236-6.02c-.3962-.4614-.0793-1.0578.6339-1.0578h10.38Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </button>
+    <span
+      aria-hidden="true"
+      class="accordion-content closed"
+    >
+      Children
+    </span>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Accordion Snapshots prop: subtitle Accordion subtitle snapshot 1`] = `
+<DocumentFragment>
+  .c1 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c1:not(.color-override) g,
+.c1:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c1:not(.color-override) g[stroke-width],
+.c1:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c1:not(.color-override) g[stroke-width] *,
+.c1:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c1.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c1.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c0 {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.c0 h3,
+.c0 h4 {
+  margin: 0;
+}
+
+.c0 .accordion-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  cursor: pointer;
+  border-radius: var(--bds-border-radius-lg);
+  padding: 0 var(--bds-sizes-size-16);
+  box-sizing: border-box;
+}
+
+.c0 .accordion-header:focus {
+  box-shadow: 0 0 0 2px var(--bds-color-border-interactive);
+}
+
+.c0 .accordion-header .accordion-icon svg {
+  display: block;
+  width: var(--bds-sizes-size-20);
+  height: var(--bds-sizes-size-20);
+  margin: auto;
+}
+
+.c0 .accordion-content {
+  display: none;
+  padding: var(--bds-sizes-size-16);
+}
+
+.c0 .accordion-content.opened {
+  display: block;
+}
+
+.c0 .accordion-title {
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .accordion-title-group {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-20);
+}
+
+.c0.size--large .accordion-header {
+  height: var(--bds-sizes-size-56);
+}
+
+.c0.size--medium .accordion-header {
+  height: var(--bds-sizes-size-48);
+}
+
+.c0.size--small .accordion-header {
+  height: var(--bds-sizes-size-40);
+}
+
+.c0.color--transparent .accordion-header {
+  background-color: transparent;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: var(--bds-sizes-size-1) solid var(--bds-color-border-subdued);
+}
+
+.c0.color--transparent .accordion-header:hover {
+  background-color: var(--bds-color-action-interactive-subdued-hover);
+}
+
+.c0.color--interactive .accordion-header {
+  background-color: var(--bds-color-action-interactive-subdued);
+  border-bottom: none;
+}
+
+.c0.color--interactive .accordion-header:hover {
+  background-color: var(--bds-color-action-interactive-subdued-hover);
+}
+
+.c0.color--neutral .accordion-header {
+  background-color: var(--bds-color-action-neutral);
+  border-bottom: none;
+}
+
+.c0.color--neutral .accordion-header:hover {
+  background-color: var(--bds-color-action-neutral-hover);
+}
+
+<div
+    class="c0 backyard accordion variant--triangle color--transparent size--large closed"
+  >
+    <button
+      class="accordion-header closed"
+      tabindex="0"
+      type="button"
+    >
+      <div
+        class="accordion-title-group"
+      >
+        <span
+          class="accordion-title"
+        >
+          Title
+        </span>
+        <span
+          class="accordion-subtitle"
+        >
+          Subtitle
+        </span>
+      </div>
+      <div
+        class="accordion-icon"
+      >
+        <svg
+          aria-hidden="true"
+          class="c1 icon icon-triangle-down"
+          role="presentation"
+          style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(213, 84%, 45%, 1);"
+          viewBox="0 0 16 16"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M13.1865 4.2923c.7132 0 1.046.5626.6339 1.0577l-5.0236 6.0201c-.3486.4613-1.236.4388-1.6006 0l-5.0236-6.02c-.3962-.4614-.0793-1.0578.6339-1.0578h10.38Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </button>
+    <span
+      aria-hidden="true"
+      class="accordion-content closed"
+    >
+      Children
+    </span>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Accordion Snapshots props: closeIcon Accordion plus variant closed icon snapshot 1`] = `
+<DocumentFragment>
+  .c1 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c1:not(.color-override) g,
+.c1:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c1:not(.color-override) g[stroke-width],
+.c1:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c1:not(.color-override) g[stroke-width] *,
+.c1:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c1.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c1.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c0 {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.c0 h3,
+.c0 h4 {
+  margin: 0;
+}
+
+.c0 .accordion-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  cursor: pointer;
+  border-radius: var(--bds-border-radius-lg);
+  padding: 0 var(--bds-sizes-size-16);
+  box-sizing: border-box;
+}
+
+.c0 .accordion-header:focus {
+  box-shadow: 0 0 0 2px var(--bds-color-border-interactive);
+}
+
+.c0 .accordion-header .accordion-icon svg {
+  display: block;
+  width: var(--bds-sizes-size-20);
+  height: var(--bds-sizes-size-20);
+  margin: auto;
+}
+
+.c0 .accordion-content {
+  display: none;
+  padding: var(--bds-sizes-size-16);
+}
+
+.c0 .accordion-content.opened {
+  display: block;
+}
+
+.c0 .accordion-title {
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .accordion-title-group {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-20);
+}
+
+.c0.size--large .accordion-header {
+  height: var(--bds-sizes-size-56);
+}
+
+.c0.size--medium .accordion-header {
+  height: var(--bds-sizes-size-48);
+}
+
+.c0.size--small .accordion-header {
+  height: var(--bds-sizes-size-40);
+}
+
+.c0.color--transparent .accordion-header {
+  background-color: transparent;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: var(--bds-sizes-size-1) solid var(--bds-color-border-subdued);
+}
+
+.c0.color--transparent .accordion-header:hover {
+  background-color: var(--bds-color-action-interactive-subdued-hover);
+}
+
+.c0.color--interactive .accordion-header {
+  background-color: var(--bds-color-action-interactive-subdued);
+  border-bottom: none;
+}
+
+.c0.color--interactive .accordion-header:hover {
+  background-color: var(--bds-color-action-interactive-subdued-hover);
+}
+
+.c0.color--neutral .accordion-header {
+  background-color: var(--bds-color-action-neutral);
+  border-bottom: none;
+}
+
+.c0.color--neutral .accordion-header:hover {
+  background-color: var(--bds-color-action-neutral-hover);
+}
+
+<div
+    class="c0 backyard accordion variant--triangle color--transparent size--medium closed"
+  >
+    <button
+      class="accordion-header closed"
+      tabindex="0"
+      type="button"
+    >
+      <div
+        class="accordion-title-group"
+      >
+        <span
+          class="accordion-title"
+        >
+          Title
+        </span>
+      </div>
+      <div
+        class="accordion-icon"
+      >
+        <svg
+          aria-hidden="true"
+          class="c1 icon icon-triangle-down"
+          role="presentation"
+          style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(213, 84%, 45%, 1);"
+          viewBox="0 0 16 16"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M13.1865 4.2923c.7132 0 1.046.5626.6339 1.0577l-5.0236 6.0201c-.3486.4613-1.236.4388-1.6006 0l-5.0236-6.02c-.3962-.4614-.0793-1.0578.6339-1.0578h10.38Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </button>
+    <span
+      aria-hidden="true"
+      class="accordion-content closed"
+    >
+      Children
+    </span>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Accordion Snapshots props: closeIcon Accordion triangle variant closed icon snapshot 1`] = `
+<DocumentFragment>
+  .c1 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c1:not(.color-override) g,
+.c1:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c1:not(.color-override) g[stroke-width],
+.c1:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c1:not(.color-override) g[stroke-width] *,
+.c1:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c1.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c1.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c0 {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.c0 h3,
+.c0 h4 {
+  margin: 0;
+}
+
+.c0 .accordion-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  cursor: pointer;
+  border-radius: var(--bds-border-radius-lg);
+  padding: 0 var(--bds-sizes-size-16);
+  box-sizing: border-box;
+}
+
+.c0 .accordion-header:focus {
+  box-shadow: 0 0 0 2px var(--bds-color-border-interactive);
+}
+
+.c0 .accordion-header .accordion-icon svg {
+  display: block;
+  width: var(--bds-sizes-size-20);
+  height: var(--bds-sizes-size-20);
+  margin: auto;
+}
+
+.c0 .accordion-content {
+  display: none;
+  padding: var(--bds-sizes-size-16);
+}
+
+.c0 .accordion-content.opened {
+  display: block;
+}
+
+.c0 .accordion-title {
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .accordion-title-group {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-20);
+}
+
+.c0.size--large .accordion-header {
+  height: var(--bds-sizes-size-56);
+}
+
+.c0.size--medium .accordion-header {
+  height: var(--bds-sizes-size-48);
+}
+
+.c0.size--small .accordion-header {
+  height: var(--bds-sizes-size-40);
+}
+
+.c0.color--transparent .accordion-header {
+  background-color: transparent;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: var(--bds-sizes-size-1) solid var(--bds-color-border-subdued);
+}
+
+.c0.color--transparent .accordion-header:hover {
+  background-color: var(--bds-color-action-interactive-subdued-hover);
+}
+
+.c0.color--interactive .accordion-header {
+  background-color: var(--bds-color-action-interactive-subdued);
+  border-bottom: none;
+}
+
+.c0.color--interactive .accordion-header:hover {
+  background-color: var(--bds-color-action-interactive-subdued-hover);
+}
+
+.c0.color--neutral .accordion-header {
+  background-color: var(--bds-color-action-neutral);
+  border-bottom: none;
+}
+
+.c0.color--neutral .accordion-header:hover {
+  background-color: var(--bds-color-action-neutral-hover);
+}
+
+<div
+    class="c0 backyard accordion variant--triangle color--transparent size--medium closed"
+  >
+    <button
+      class="accordion-header closed"
+      tabindex="0"
+      type="button"
+    >
+      <div
+        class="accordion-title-group"
+      >
+        <span
+          class="accordion-title"
+        >
+          Title
+        </span>
+      </div>
+      <div
+        class="accordion-icon"
+      >
+        <svg
+          aria-hidden="true"
+          class="c1 icon icon-triangle-down"
+          role="presentation"
+          style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(213, 84%, 45%, 1);"
+          viewBox="0 0 16 16"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M13.1865 4.2923c.7132 0 1.046.5626.6339 1.0577l-5.0236 6.0201c-.3486.4613-1.236.4388-1.6006 0l-5.0236-6.02c-.3962-.4614-.0793-1.0578.6339-1.0578h10.38Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </button>
+    <span
+      aria-hidden="true"
+      class="accordion-content closed"
+    >
+      Children
+    </span>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Accordion Snapshots props: defaultOpen Accordion false defaultOpen snapshot 1`] = `
+<DocumentFragment>
+  .c1 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c1:not(.color-override) g,
+.c1:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c1:not(.color-override) g[stroke-width],
+.c1:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c1:not(.color-override) g[stroke-width] *,
+.c1:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c1.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c1.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c0 {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.c0 h3,
+.c0 h4 {
+  margin: 0;
+}
+
+.c0 .accordion-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  cursor: pointer;
+  border-radius: var(--bds-border-radius-lg);
+  padding: 0 var(--bds-sizes-size-16);
+  box-sizing: border-box;
+}
+
+.c0 .accordion-header:focus {
+  box-shadow: 0 0 0 2px var(--bds-color-border-interactive);
+}
+
+.c0 .accordion-header .accordion-icon svg {
+  display: block;
+  width: var(--bds-sizes-size-20);
+  height: var(--bds-sizes-size-20);
+  margin: auto;
+}
+
+.c0 .accordion-content {
+  display: none;
+  padding: var(--bds-sizes-size-16);
+}
+
+.c0 .accordion-content.opened {
+  display: block;
+}
+
+.c0 .accordion-title {
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .accordion-title-group {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-20);
+}
+
+.c0.size--large .accordion-header {
+  height: var(--bds-sizes-size-56);
+}
+
+.c0.size--medium .accordion-header {
+  height: var(--bds-sizes-size-48);
+}
+
+.c0.size--small .accordion-header {
+  height: var(--bds-sizes-size-40);
+}
+
+.c0.color--transparent .accordion-header {
+  background-color: transparent;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: var(--bds-sizes-size-1) solid var(--bds-color-border-subdued);
+}
+
+.c0.color--transparent .accordion-header:hover {
+  background-color: var(--bds-color-action-interactive-subdued-hover);
+}
+
+.c0.color--interactive .accordion-header {
+  background-color: var(--bds-color-action-interactive-subdued);
+  border-bottom: none;
+}
+
+.c0.color--interactive .accordion-header:hover {
+  background-color: var(--bds-color-action-interactive-subdued-hover);
+}
+
+.c0.color--neutral .accordion-header {
+  background-color: var(--bds-color-action-neutral);
+  border-bottom: none;
+}
+
+.c0.color--neutral .accordion-header:hover {
+  background-color: var(--bds-color-action-neutral-hover);
+}
+
+<div
+    class="c0 backyard accordion variant--triangle color--transparent size--medium closed"
+  >
+    <button
+      class="accordion-header closed"
+      tabindex="0"
+      type="button"
+    >
+      <div
+        class="accordion-title-group"
+      >
+        <span
+          class="accordion-title"
+        >
+          Title
+        </span>
+      </div>
+      <div
+        class="accordion-icon"
+      >
+        <svg
+          aria-hidden="true"
+          class="c1 icon icon-triangle-down"
+          role="presentation"
+          style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(213, 84%, 45%, 1);"
+          viewBox="0 0 16 16"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M13.1865 4.2923c.7132 0 1.046.5626.6339 1.0577l-5.0236 6.0201c-.3486.4613-1.236.4388-1.6006 0l-5.0236-6.02c-.3962-.4614-.0793-1.0578.6339-1.0578h10.38Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </button>
+    <span
+      aria-hidden="true"
+      class="accordion-content closed"
+    >
+      Children
+    </span>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Accordion Snapshots props: defaultOpen Accordion true defaultOpen snapshot 1`] = `
+<DocumentFragment>
+  .c1 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c1:not(.color-override) g,
+.c1:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c1:not(.color-override) g[stroke-width],
+.c1:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c1:not(.color-override) g[stroke-width] *,
+.c1:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c1.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c1.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c0 {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.c0 h3,
+.c0 h4 {
+  margin: 0;
+}
+
+.c0 .accordion-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  cursor: pointer;
+  border-radius: var(--bds-border-radius-lg);
+  padding: 0 var(--bds-sizes-size-16);
+  box-sizing: border-box;
+}
+
+.c0 .accordion-header:focus {
+  box-shadow: 0 0 0 2px var(--bds-color-border-interactive);
+}
+
+.c0 .accordion-header .accordion-icon svg {
+  display: block;
+  width: var(--bds-sizes-size-20);
+  height: var(--bds-sizes-size-20);
+  margin: auto;
+}
+
+.c0 .accordion-content {
+  display: none;
+  padding: var(--bds-sizes-size-16);
+}
+
+.c0 .accordion-content.opened {
+  display: block;
+}
+
+.c0 .accordion-title {
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .accordion-title-group {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-20);
+}
+
+.c0.size--large .accordion-header {
+  height: var(--bds-sizes-size-56);
+}
+
+.c0.size--medium .accordion-header {
+  height: var(--bds-sizes-size-48);
+}
+
+.c0.size--small .accordion-header {
+  height: var(--bds-sizes-size-40);
+}
+
+.c0.color--transparent .accordion-header {
+  background-color: transparent;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: var(--bds-sizes-size-1) solid var(--bds-color-border-subdued);
+}
+
+.c0.color--transparent .accordion-header:hover {
+  background-color: var(--bds-color-action-interactive-subdued-hover);
+}
+
+.c0.color--interactive .accordion-header {
+  background-color: var(--bds-color-action-interactive-subdued);
+  border-bottom: none;
+}
+
+.c0.color--interactive .accordion-header:hover {
+  background-color: var(--bds-color-action-interactive-subdued-hover);
+}
+
+.c0.color--neutral .accordion-header {
+  background-color: var(--bds-color-action-neutral);
+  border-bottom: none;
+}
+
+.c0.color--neutral .accordion-header:hover {
+  background-color: var(--bds-color-action-neutral-hover);
+}
+
+<div
+    class="c0 backyard accordion variant--triangle color--transparent size--medium closed"
+  >
+    <button
+      class="accordion-header closed"
+      tabindex="0"
+      type="button"
+    >
+      <div
+        class="accordion-title-group"
+      >
+        <span
+          class="accordion-title"
+        >
+          Title
+        </span>
+      </div>
+      <div
+        class="accordion-icon"
+      >
+        <svg
+          aria-hidden="true"
+          class="c1 icon icon-triangle-down"
+          role="presentation"
+          style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(213, 84%, 45%, 1);"
+          viewBox="0 0 16 16"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M13.1865 4.2923c.7132 0 1.046.5626.6339 1.0577l-5.0236 6.0201c-.3486.4613-1.236.4388-1.6006 0l-5.0236-6.02c-.3962-.4614-.0793-1.0578.6339-1.0578h10.38Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </button>
+    <span
+      aria-hidden="true"
+      class="accordion-content closed"
+    >
+      Children
+    </span>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Accordion Snapshots props: openIcon Accordion plus variant open icon snapshot 1`] = `
+<DocumentFragment>
+  .c1 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c1:not(.color-override) g,
+.c1:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c1:not(.color-override) g[stroke-width],
+.c1:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c1:not(.color-override) g[stroke-width] *,
+.c1:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c1.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c1.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c0 {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.c0 h3,
+.c0 h4 {
+  margin: 0;
+}
+
+.c0 .accordion-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  cursor: pointer;
+  border-radius: var(--bds-border-radius-lg);
+  padding: 0 var(--bds-sizes-size-16);
+  box-sizing: border-box;
+}
+
+.c0 .accordion-header:focus {
+  box-shadow: 0 0 0 2px var(--bds-color-border-interactive);
+}
+
+.c0 .accordion-header .accordion-icon svg {
+  display: block;
+  width: var(--bds-sizes-size-20);
+  height: var(--bds-sizes-size-20);
+  margin: auto;
+}
+
+.c0 .accordion-content {
+  display: none;
+  padding: var(--bds-sizes-size-16);
+}
+
+.c0 .accordion-content.opened {
+  display: block;
+}
+
+.c0 .accordion-title {
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .accordion-title-group {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-20);
+}
+
+.c0.size--large .accordion-header {
+  height: var(--bds-sizes-size-56);
+}
+
+.c0.size--medium .accordion-header {
+  height: var(--bds-sizes-size-48);
+}
+
+.c0.size--small .accordion-header {
+  height: var(--bds-sizes-size-40);
+}
+
+.c0.color--transparent .accordion-header {
+  background-color: transparent;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: var(--bds-sizes-size-1) solid var(--bds-color-border-subdued);
+}
+
+.c0.color--transparent .accordion-header:hover {
+  background-color: var(--bds-color-action-interactive-subdued-hover);
+}
+
+.c0.color--interactive .accordion-header {
+  background-color: var(--bds-color-action-interactive-subdued);
+  border-bottom: none;
+}
+
+.c0.color--interactive .accordion-header:hover {
+  background-color: var(--bds-color-action-interactive-subdued-hover);
+}
+
+.c0.color--neutral .accordion-header {
+  background-color: var(--bds-color-action-neutral);
+  border-bottom: none;
+}
+
+.c0.color--neutral .accordion-header:hover {
+  background-color: var(--bds-color-action-neutral-hover);
+}
+
+<div
+    class="c0 backyard accordion variant--plus color--transparent size--medium closed"
+  >
+    <button
+      class="accordion-header closed"
+      tabindex="0"
+      type="button"
+    >
+      <div
+        class="accordion-title-group"
+      >
+        <span
+          class="accordion-title"
+        >
+          Title
+        </span>
+      </div>
+      <div
+        class="accordion-icon"
+      >
+        <svg
+          aria-hidden="true"
+          class="c1 icon icon-plus-filled"
+          role="presentation"
+          style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(213, 84%, 45%, 1);"
+          viewBox="0 0 16 16"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M8 14c3.3137 0 6-2.6863 6-6s-2.6863-6-6-6-6 2.6863-6 6 2.6863 6 6 6Zm.5-2.9737c0 .2315-.3036.3487-.5.3487-.1964 0-.5-.1563-.5-.3487V8.5H5.0499c-.1924 0-.3568-.3036-.3568-.5 0-.1964.1644-.5.3568-.5H7.5V4.9737c0-.1924.3036-.3487.5-.3487.1964 0 .5.1563.5.3487V7.5h2.4501c.1924 0 .3568.3036.3568.5 0 .1964-.1644.5-.3568.5H8.5v2.5263Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </button>
+    <span
+      aria-hidden="true"
+      class="accordion-content closed"
+    >
+      Children
+    </span>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Accordion Snapshots props: openIcon Accordion triangle variant open icon snapshot 1`] = `
+<DocumentFragment>
+  .c1 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c1:not(.color-override) g,
+.c1:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c1:not(.color-override) g[stroke-width],
+.c1:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c1:not(.color-override) g[stroke-width] *,
+.c1:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c1.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c1.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c0 {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.c0 h3,
+.c0 h4 {
+  margin: 0;
+}
+
+.c0 .accordion-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  cursor: pointer;
+  border-radius: var(--bds-border-radius-lg);
+  padding: 0 var(--bds-sizes-size-16);
+  box-sizing: border-box;
+}
+
+.c0 .accordion-header:focus {
+  box-shadow: 0 0 0 2px var(--bds-color-border-interactive);
+}
+
+.c0 .accordion-header .accordion-icon svg {
+  display: block;
+  width: var(--bds-sizes-size-20);
+  height: var(--bds-sizes-size-20);
+  margin: auto;
+}
+
+.c0 .accordion-content {
+  display: none;
+  padding: var(--bds-sizes-size-16);
+}
+
+.c0 .accordion-content.opened {
+  display: block;
+}
+
+.c0 .accordion-title {
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .accordion-title-group {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-20);
+}
+
+.c0.size--large .accordion-header {
+  height: var(--bds-sizes-size-56);
+}
+
+.c0.size--medium .accordion-header {
+  height: var(--bds-sizes-size-48);
+}
+
+.c0.size--small .accordion-header {
+  height: var(--bds-sizes-size-40);
+}
+
+.c0.color--transparent .accordion-header {
+  background-color: transparent;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: var(--bds-sizes-size-1) solid var(--bds-color-border-subdued);
+}
+
+.c0.color--transparent .accordion-header:hover {
+  background-color: var(--bds-color-action-interactive-subdued-hover);
+}
+
+.c0.color--interactive .accordion-header {
+  background-color: var(--bds-color-action-interactive-subdued);
+  border-bottom: none;
+}
+
+.c0.color--interactive .accordion-header:hover {
+  background-color: var(--bds-color-action-interactive-subdued-hover);
+}
+
+.c0.color--neutral .accordion-header {
+  background-color: var(--bds-color-action-neutral);
+  border-bottom: none;
+}
+
+.c0.color--neutral .accordion-header:hover {
+  background-color: var(--bds-color-action-neutral-hover);
+}
+
+<div
+    class="c0 backyard accordion variant--triangle color--transparent size--medium closed"
+  >
+    <button
+      class="accordion-header closed"
+      tabindex="0"
+      type="button"
+    >
+      <div
+        class="accordion-title-group"
+      >
+        <span
+          class="accordion-title"
+        >
+          Title
+        </span>
+      </div>
+      <div
+        class="accordion-icon"
+      >
+        <svg
+          aria-hidden="true"
+          class="c1 icon icon-triangle-down"
+          role="presentation"
+          style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(213, 84%, 45%, 1);"
+          viewBox="0 0 16 16"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M13.1865 4.2923c.7132 0 1.046.5626.6339 1.0577l-5.0236 6.0201c-.3486.4613-1.236.4388-1.6006 0l-5.0236-6.02c-.3962-.4614-.0793-1.0578.6339-1.0578h10.38Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </button>
+    <span
+      aria-hidden="true"
+      class="accordion-content closed"
+    >
+      Children
+    </span>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Accordion Snapshots themes Accordion dark theme snapshot 1`] = `
+<DocumentFragment>
+  .c1 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c1:not(.color-override) g,
+.c1:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c1:not(.color-override) g[stroke-width],
+.c1:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c1:not(.color-override) g[stroke-width] *,
+.c1:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c1.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c1.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c0 {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.c0 h3,
+.c0 h4 {
+  margin: 0;
+}
+
+.c0 .accordion-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  cursor: pointer;
+  border-radius: var(--bds-border-radius-lg);
+  padding: 0 var(--bds-sizes-size-16);
+  box-sizing: border-box;
+}
+
+.c0 .accordion-header:focus {
+  box-shadow: 0 0 0 2px var(--bds-color-border-interactive);
+}
+
+.c0 .accordion-header .accordion-icon svg {
+  display: block;
+  width: var(--bds-sizes-size-20);
+  height: var(--bds-sizes-size-20);
+  margin: auto;
+}
+
+.c0 .accordion-content {
+  display: none;
+  padding: var(--bds-sizes-size-16);
+}
+
+.c0 .accordion-content.opened {
+  display: block;
+}
+
+.c0 .accordion-title {
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .accordion-title-group {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-20);
+}
+
+.c0.size--large .accordion-header {
+  height: var(--bds-sizes-size-56);
+}
+
+.c0.size--medium .accordion-header {
+  height: var(--bds-sizes-size-48);
+}
+
+.c0.size--small .accordion-header {
+  height: var(--bds-sizes-size-40);
+}
+
+.c0.color--transparent .accordion-header {
+  background-color: transparent;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: var(--bds-sizes-size-1) solid var(--bds-color-border-subdued);
+}
+
+.c0.color--transparent .accordion-header:hover {
+  background-color: var(--bds-color-action-interactive-subdued-hover);
+}
+
+.c0.color--interactive .accordion-header {
+  background-color: var(--bds-color-action-interactive-subdued);
+  border-bottom: none;
+}
+
+.c0.color--interactive .accordion-header:hover {
+  background-color: var(--bds-color-action-interactive-subdued-hover);
+}
+
+.c0.color--neutral .accordion-header {
+  background-color: var(--bds-color-action-neutral);
+  border-bottom: none;
+}
+
+.c0.color--neutral .accordion-header:hover {
+  background-color: var(--bds-color-action-neutral-hover);
+}
+
+<div
+    class="c0 backyard accordion variant--triangle color--transparent size--medium closed"
+  >
+    <button
+      class="accordion-header closed"
+      tabindex="0"
+      type="button"
+    >
+      <div
+        class="accordion-title-group"
+      >
+        <span
+          class="accordion-title"
+        >
+          Title
+        </span>
+      </div>
+      <div
+        class="accordion-icon"
+      >
+        <svg
+          aria-hidden="true"
+          class="c1 icon icon-triangle-down"
+          role="presentation"
+          style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(213, 73%, 60%, 1);"
+          viewBox="0 0 16 16"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M13.1865 4.2923c.7132 0 1.046.5626.6339 1.0577l-5.0236 6.0201c-.3486.4613-1.236.4388-1.6006 0l-5.0236-6.02c-.3962-.4614-.0793-1.0578.6339-1.0578h10.38Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </button>
+    <span
+      aria-hidden="true"
+      class="accordion-content closed"
+    >
+      Children
+    </span>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Accordion Snapshots themes Accordion light theme snapshot 1`] = `
+<DocumentFragment>
+  .c1 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c1:not(.color-override) g,
+.c1:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c1:not(.color-override) g[stroke-width],
+.c1:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c1:not(.color-override) g[stroke-width] *,
+.c1:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c1.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c1.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c0 {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.c0 h3,
+.c0 h4 {
+  margin: 0;
+}
+
+.c0 .accordion-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  cursor: pointer;
+  border-radius: var(--bds-border-radius-lg);
+  padding: 0 var(--bds-sizes-size-16);
+  box-sizing: border-box;
+}
+
+.c0 .accordion-header:focus {
+  box-shadow: 0 0 0 2px var(--bds-color-border-interactive);
+}
+
+.c0 .accordion-header .accordion-icon svg {
+  display: block;
+  width: var(--bds-sizes-size-20);
+  height: var(--bds-sizes-size-20);
+  margin: auto;
+}
+
+.c0 .accordion-content {
+  display: none;
+  padding: var(--bds-sizes-size-16);
+}
+
+.c0 .accordion-content.opened {
+  display: block;
+}
+
+.c0 .accordion-title {
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: var(--bds-color-text-primary);
+}
+
+.c0 .accordion-title-group {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-20);
+}
+
+.c0.size--large .accordion-header {
+  height: var(--bds-sizes-size-56);
+}
+
+.c0.size--medium .accordion-header {
+  height: var(--bds-sizes-size-48);
+}
+
+.c0.size--small .accordion-header {
+  height: var(--bds-sizes-size-40);
+}
+
+.c0.color--transparent .accordion-header {
+  background-color: transparent;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: var(--bds-sizes-size-1) solid var(--bds-color-border-subdued);
+}
+
+.c0.color--transparent .accordion-header:hover {
+  background-color: var(--bds-color-action-interactive-subdued-hover);
+}
+
+.c0.color--interactive .accordion-header {
+  background-color: var(--bds-color-action-interactive-subdued);
+  border-bottom: none;
+}
+
+.c0.color--interactive .accordion-header:hover {
+  background-color: var(--bds-color-action-interactive-subdued-hover);
+}
+
+.c0.color--neutral .accordion-header {
+  background-color: var(--bds-color-action-neutral);
+  border-bottom: none;
+}
+
+.c0.color--neutral .accordion-header:hover {
+  background-color: var(--bds-color-action-neutral-hover);
+}
+
+<div
+    class="c0 backyard accordion variant--triangle color--transparent size--medium closed"
+  >
+    <button
+      class="accordion-header closed"
+      tabindex="0"
+      type="button"
+    >
+      <div
+        class="accordion-title-group"
+      >
+        <span
+          class="accordion-title"
+        >
+          Title
+        </span>
+      </div>
+      <div
+        class="accordion-icon"
+      >
+        <svg
+          aria-hidden="true"
+          class="c1 icon icon-triangle-down"
+          role="presentation"
+          style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(213, 84%, 45%, 1);"
+          viewBox="0 0 16 16"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M13.1865 4.2923c.7132 0 1.046.5626.6339 1.0577l-5.0236 6.0201c-.3486.4613-1.236.4388-1.6006 0l-5.0236-6.02c-.3962-.4614-.0793-1.0578.6339-1.0578h10.38Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </button>
+    <span
+      aria-hidden="true"
+      class="accordion-content closed"
+    >
+      Children
+    </span>
+  </div>
+</DocumentFragment>
+`;

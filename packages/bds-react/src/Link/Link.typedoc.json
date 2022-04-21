@@ -1,0 +1,454 @@
+{
+	"id": 0,
+	"name": "@lowes-tech/bds-react/Link",
+	"kind": 1,
+	"kindString": "Project",
+	"flags": {},
+	"children": [
+		{
+			"id": 20,
+			"name": "default",
+			"kind": 16777216,
+			"kindString": "Reference",
+			"flags": {},
+			"target": 1
+		},
+		{
+			"id": 2,
+			"name": "LinkProps",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 18,
+					"name": "as",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ElementType"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "BackyardBaseProps.as"
+					}
+				},
+				{
+					"id": 5,
+					"name": "bold",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not text in link is bold"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 3,
+					"name": "children",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Children"
+					},
+					"type": {
+						"type": "reference",
+						"name": "ReactNode"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.children"
+					}
+				},
+				{
+					"id": 4,
+					"name": "className",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "DOM Class Name"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.className"
+					}
+				},
+				{
+					"id": 6,
+					"name": "color",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Color of link text and icon"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.color"
+					}
+				},
+				{
+					"id": 7,
+					"name": "iconAfter",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Icon Node to display on right-side of link text"
+					},
+					"type": {
+						"type": "reference",
+						"name": "ReactNode"
+					}
+				},
+				{
+					"id": 8,
+					"name": "iconBefore",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Icon Node to display on left-side of link text"
+					},
+					"type": {
+						"type": "reference",
+						"name": "ReactNode"
+					}
+				},
+				{
+					"id": 9,
+					"name": "size",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Size of Link\nSmall -> Small Height/Spacing Link\nMedium -> (Default) Medium Height/Spacing Link"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "small"
+							},
+							{
+								"type": "literal",
+								"value": "medium"
+							}
+						]
+					}
+				},
+				{
+					"id": 10,
+					"name": "to",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Page to link to"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 11,
+					"name": "underline",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Controls when the link should have an underline"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "never"
+							},
+							{
+								"type": "literal",
+								"value": "hover"
+							},
+							{
+								"type": "literal",
+								"value": "always"
+							}
+						]
+					}
+				},
+				{
+					"id": 12,
+					"name": "onClick",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 13,
+							"name": "onClick",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onClick` trigger function",
+								"tags": [
+									{
+										"tag": "argument",
+										"text": "{Event} event - DOM event\n"
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 14,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											},
+											{
+												"type": "reference",
+												"name": "MouseEvent"
+											}
+										],
+										"name": "MouseEvent"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"overwrites": {
+								"type": "reference",
+								"name": "BackyardBaseProps.onClick"
+							}
+						}
+					],
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.onClick"
+					}
+				},
+				{
+					"id": 15,
+					"name": "onKeyDown",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 16,
+							"name": "onKeyDown",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onKeyDown` trigger function",
+								"tags": [
+									{
+										"tag": "argument",
+										"text": "{Event} event - DOM event\n"
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 17,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											}
+										],
+										"name": "KeyboardEvent"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"overwrites": {
+								"type": "reference",
+								"name": "BackyardBaseProps.onKeyDown"
+							}
+						}
+					],
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.onKeyDown"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						18,
+						5,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						12,
+						15
+					]
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"typeArguments": [
+						{
+							"type": "reference",
+							"id": 19,
+							"name": "LinkRef"
+						},
+						{
+							"type": "reference",
+							"name": "LinkOverrideProps"
+						}
+					],
+					"name": "BackyardBaseProps"
+				}
+			]
+		},
+		{
+			"id": 19,
+			"name": "LinkRef",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"type": {
+				"type": "reference",
+				"name": "HTMLAnchorElement"
+			}
+		},
+		{
+			"id": 1,
+			"name": "Link",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"comment": {
+				"shortText": "Backyard React Link",
+				"text": "Link for interacting via html links\n\nIf you want a button, see the `ghost` variant of the Button component\n\n <Link\n     to=\"https://lowes.com\"\n     type=\"commerce\"\n     iconAfter={<Bookmark />}\n >\n     Bookmark\n </Link>\n"
+			},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"id": 2,
+						"name": "LinkProps"
+					}
+				],
+				"name": "BDSForwardRef"
+			},
+			"defaultValue": "..."
+		}
+	],
+	"groups": [
+		{
+			"title": "References",
+			"kind": 16777216,
+			"children": [
+				20
+			]
+		},
+		{
+			"title": "Interfaces",
+			"kind": 256,
+			"children": [
+				2
+			]
+		},
+		{
+			"title": "Type aliases",
+			"kind": 4194304,
+			"children": [
+				19
+			]
+		},
+		{
+			"title": "Variables",
+			"kind": 32,
+			"children": [
+				1
+			]
+		}
+	]
+}

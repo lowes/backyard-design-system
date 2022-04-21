@@ -1,0 +1,314 @@
+{
+  "Accordion": {
+    "parsed": 69188,
+    "gzip": 10951
+  },
+  "Alert": {
+    "parsed": 61537,
+    "gzip": 12706
+  },
+  "Autocomplete": {
+    "parsed": 161801,
+    "gzip": 44386
+  },
+  "Badge": {
+    "parsed": 37125,
+    "gzip": 7164
+  },
+  "Breadcrumb": {
+    "parsed": 40934,
+    "gzip": 7878
+  },
+  "Button": {
+    "parsed": 43281,
+    "gzip": 8156
+  },
+  "ButtonGroup": {
+    "parsed": 35206,
+    "gzip": 6788
+  },
+  "Callout": {
+    "parsed": 38476,
+    "gzip": 7212
+  },
+  "Carousel": {
+    "parsed": 145113,
+    "gzip": 32112
+  },
+  "Checkbox": {
+    "parsed": 115393,
+    "gzip": 27597
+  },
+  "Chip": {
+    "parsed": 53315,
+    "gzip": 11334
+  },
+  "ClickAwayListener": {
+    "parsed": 6316,
+    "gzip": 1737
+  },
+  "DataTable": {
+    "parsed": 544707,
+    "gzip": 119559
+  },
+  "DatePicker": {
+    "parsed": 393826,
+    "gzip": 92740
+  },
+  "DatePickerNative": {
+    "parsed": 244862,
+    "gzip": 54018
+  },
+  "Drawer": {
+    "parsed": 97642,
+    "gzip": 14254
+  },
+  "DrawerController": {
+    "parsed": 53694,
+    "gzip": 10637
+  },
+  "Dropdown": {
+    "parsed": 292120,
+    "gzip": 71658
+  },
+  "FileUpload": {
+    "parsed": 147683,
+    "gzip": 27458
+  },
+  "FormControl": {
+    "parsed": 114557,
+    "gzip": 27201
+  },
+  "FormControlLabel": {
+    "parsed": 141191,
+    "gzip": 29874
+  },
+  "FormGroup": {
+    "parsed": 34446,
+    "gzip": 6593
+  },
+  "FormHeading": {
+    "parsed": 60121,
+    "gzip": 8855
+  },
+  "FormHelperText": {
+    "parsed": 146368,
+    "gzip": 30381
+  },
+  "Gallery": {
+    "parsed": 106052,
+    "gzip": 16050
+  },
+  "Globals": {
+    "parsed": 11317,
+    "gzip": 2337
+  },
+  "Grid": {
+    "parsed": 43921,
+    "gzip": 7502
+  },
+  "IconButton": {
+    "parsed": 47165,
+    "gzip": 8593
+  },
+  "Link": {
+    "parsed": 37528,
+    "gzip": 7355
+  },
+  "ListItem": {
+    "parsed": 4455,
+    "gzip": 1466
+  },
+  "ListOption": {
+    "parsed": 52130,
+    "gzip": 9826
+  },
+  "ListSelector": {
+    "parsed": 171193,
+    "gzip": 36433
+  },
+  "MaskedInput": {
+    "parsed": 571845,
+    "gzip": 159546
+  },
+  "Menu": {
+    "parsed": 51958,
+    "gzip": 9475
+  },
+  "MenuItem": {
+    "parsed": 47877,
+    "gzip": 8904
+  },
+  "MenuPopover": {
+    "parsed": 194360,
+    "gzip": 49104
+  },
+  "Modal": {
+    "parsed": 87734,
+    "gzip": 13209
+  },
+  "ModalController": {
+    "parsed": 54188,
+    "gzip": 10660
+  },
+  "Multiselect": {
+    "parsed": 292762,
+    "gzip": 71527
+  },
+  "OrderedList": {
+    "parsed": 34124,
+    "gzip": 6538
+  },
+  "Overlay": {
+    "parsed": 33647,
+    "gzip": 6513
+  },
+  "Pagination": {
+    "parsed": 81705,
+    "gzip": 17760
+  },
+  "Password": {
+    "parsed": 134089,
+    "gzip": 31346
+  },
+  "Pickers": {
+    "parsed": 342837,
+    "gzip": 68985
+  },
+  "Pill": {
+    "parsed": 39389,
+    "gzip": 7512
+  },
+  "Pin": {
+    "parsed": 77882,
+    "gzip": 12648
+  },
+  "Popover": {
+    "parsed": 151318,
+    "gzip": 42374
+  },
+  "Portal": {
+    "parsed": 5793,
+    "gzip": 1900
+  },
+  "ProgressStepper": {
+    "parsed": 98760,
+    "gzip": 14905
+  },
+  "PVS": {
+    "parsed": 190181,
+    "gzip": 49882
+  },
+  "Radio": {
+    "parsed": 38806,
+    "gzip": 7439
+  },
+  "RadioGroup": {
+    "parsed": 41060,
+    "gzip": 7298
+  },
+  "Rating": {
+    "parsed": 51335,
+    "gzip": 10659
+  },
+  "Scrollbar": {
+    "parsed": 115407,
+    "gzip": 27582
+  },
+  "ScrollToTop": {
+    "parsed": 63459,
+    "gzip": 11569
+  },
+  "Search": {
+    "parsed": 133760,
+    "gzip": 31038
+  },
+  "Select": {
+    "parsed": 132503,
+    "gzip": 30991
+  },
+  "Skeleton": {
+    "parsed": 35508,
+    "gzip": 6923
+  },
+  "Slider": {
+    "parsed": 254398,
+    "gzip": 58785
+  },
+  "Spinner": {
+    "parsed": 42219,
+    "gzip": 8214
+  },
+  "Stepper": {
+    "parsed": 68367,
+    "gzip": 13620
+  },
+  "Switch": {
+    "parsed": 38786,
+    "gzip": 7407
+  },
+  "Table": {
+    "parsed": 223123,
+    "gzip": 51310
+  },
+  "Tabs": {
+    "parsed": 185368,
+    "gzip": 36926
+  },
+  "TextArea": {
+    "parsed": 165560,
+    "gzip": 33584
+  },
+  "TextField": {
+    "parsed": 132411,
+    "gzip": 30671
+  },
+  "TextInput": {
+    "parsed": 125168,
+    "gzip": 29330
+  },
+  "ThemeProvider": {
+    "parsed": 30378,
+    "gzip": 5858
+  },
+  "Tile": {
+    "parsed": 58488,
+    "gzip": 10362
+  },
+  "TimePicker": {
+    "parsed": 362285,
+    "gzip": 83513
+  },
+  "TimePickerNative": {
+    "parsed": 244852,
+    "gzip": 54100
+  },
+  "Toast": {
+    "parsed": 56069,
+    "gzip": 12156
+  },
+  "Toggle": {
+    "parsed": 62460,
+    "gzip": 10872
+  },
+  "Tooltip": {
+    "parsed": 40332,
+    "gzip": 7675
+  },
+  "TooltipPopper": {
+    "parsed": 166976,
+    "gzip": 45351
+  },
+  "TrapFocus": {
+    "parsed": 4688,
+    "gzip": 1500
+  },
+  "Typography": {
+    "parsed": 57961,
+    "gzip": 8679
+  },
+  "UnorderedList": {
+    "parsed": 33952,
+    "gzip": 6517
+  }
+}

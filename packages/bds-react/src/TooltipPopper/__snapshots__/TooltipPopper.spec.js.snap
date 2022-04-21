@@ -1,0 +1,364 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TooltipPopper Snapshots TooltipPopper default snapshot 1`] = `
+<DocumentFragment>
+  <span>
+    Child
+  </span>
+</DocumentFragment>
+`;
+
+exports[`TooltipPopper Snapshots TooltipPopper keepMounteded default snapshot 1`] = `
+<DocumentFragment>
+  <span>
+    Child
+  </span>
+</DocumentFragment>
+`;
+
+exports[`TooltipPopper Snapshots prop: disablePortal TooltipPopper disabledPortal snapshot 1`] = `
+<DocumentFragment>
+  <span>
+    Child
+  </span>
+  .c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  width: var(--style-tooltip-width);
+  max-width: calc(var(--bds-sizes-size-128) * 2);
+  z-index: var(--bds-z-index-tooltip);
+  padding: var(--bds-sizes-size-12) var(--bds-sizes-size-16);
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,-webkit-transform 0s;
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+  transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+}
+
+.c0.shape--rounded .tooltip-background {
+  border-top-left-radius: var(--bds-border-radius-lg);
+  border-top-right-radius: var(--bds-border-radius-lg);
+  border-bottom-left-radius: var(--bds-border-radius-lg);
+  border-bottom-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--squared .tooltip-background {
+  border-radius: 0;
+}
+
+.c0.invisible {
+  display: none;
+}
+
+.c0 .tooltip-background {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -webkit-filter: var(--style-tooltip-drop-shadow);
+  filter: var(--style-tooltip-drop-shadow);
+}
+
+.c0 .tooltip-icon {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: var(--bds-sizes-size-2);
+  z-index: 1;
+}
+
+.c0 .tooltip-body {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  z-index: 1;
+}
+
+.c0 .tooltip-body .tooltip-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: var(--style-tooltip-font-family);
+  font-weight: var(--style-tooltip-font-weight);
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-24);
+}
+
+.c0 .tooltip-body .tooltip-subtitle {
+  display: block;
+  font-family: var(--style-tooltip-font-family);
+  font-weight: var(--bds-font-weight-regular);
+  font-size: var(--bds-sizes-size-12);
+  line-height: var(--bds-sizes-size-16);
+  padding-bottom: var(--bds-sizes-size-1);
+  padding-left: var(--bds-sizes-size-1);
+}
+
+.c0 .tooltip-arrow {
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,-webkit-transform 0s;
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+  transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+}
+
+.c0 .tooltip-arrow,
+.c0 .tooltip-arrow::before {
+  position: absolute;
+  width: var(--bds-sizes-size-14);
+  height: var(--bds-sizes-size-14);
+  z-index: var(--bds-z-index-tooltip);
+}
+
+.c0 .tooltip-arrow::before {
+  content: '';
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.c0 .tooltip-arrow.placement--top,
+.c0 .tooltip-arrow.placement--top-start,
+.c0 .tooltip-arrow.placement--top-end {
+  top: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--top-start {
+  left: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--top {
+  left: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--top-end {
+  left: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--left,
+.c0 .tooltip-arrow.placement--left-start,
+.c0 .tooltip-arrow.placement--left-end {
+  left: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--left-start {
+  top: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--left {
+  top: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--left-end {
+  top: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--right,
+.c0 .tooltip-arrow.placement--right-start,
+.c0 .tooltip-arrow.placement--right-end {
+  right: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--right-start {
+  top: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--right {
+  top: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--right-end {
+  top: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--bottom,
+.c0 .tooltip-arrow.placement--bottom-start,
+.c0 .tooltip-arrow.placement--bottom-end {
+  bottom: calc(-1 * var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--bottom-start {
+  left: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--bottom {
+  left: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--bottom-end {
+  left: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0.variant--low_contrast .tooltip-background {
+  background: var(--bds-color-elevation-04);
+}
+
+.c0.variant--low_contrast .tooltip-icon svg path {
+  fill: var(--bds-color-icon-primary);
+}
+
+.c0.variant--low_contrast .tooltip-title {
+  color: var(--bds-color-text-primary);
+}
+
+.c0.variant--low_contrast .tooltip-subtitle {
+  color: var(--bds-color-text-primary);
+}
+
+.c0.variant--low_contrast .tooltip-arrow::before {
+  background: var(--bds-color-elevation-04);
+}
+
+.c0.variant--high_contrast .tooltip-background {
+  background: var(--bds-color-surface-default-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-icon svg path {
+  fill: var(--bds-color-icon-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-title {
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-subtitle {
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-arrow::before {
+  background: var(--bds-color-surface-default-inverse);
+}
+
+<div
+    class="c0 tooltip variant--low_contrast shape--rounded"
+    data-popper-escaped="true"
+    data-popper-placement="bottom"
+    data-popper-reference-hidden="true"
+    id="test-popper"
+    style="--style-tooltip-drop-shadow: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.2)) drop-shadow(0px 8px 10px rgba(0, 0, 0, 0.14)) drop-shadow(0px 3px 14px rgba(0, 0, 0, 0.12)); --style-tooltip-width: auto; --style-tooltip-font-family: Roboto, Helvetica, Arial, sans-serif; --style-tooltip-font-weight: 500; position: absolute; left: 0px; top: 0px; z-index: 1500; opacity: 1; transform: translate(0px, 16px);"
+  >
+    <span
+      class="tooltip-body"
+    >
+      <div
+        class="tooltip-title"
+      />
+      <div
+        class="tooltip-subtitle"
+      >
+        Subtitle
+      </div>
+    </span>
+    <div
+      class="tooltip-background"
+    >
+      <span
+        class="tooltip-arrow placement--top"
+        style="position: absolute; left: 0px; transform: translate(8px, 0px);"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`TooltipPopper Snapshots prop: keepMounted TooltipPopper keepMounted snapshot 1`] = `
+<DocumentFragment>
+  <span>
+    Child
+  </span>
+</DocumentFragment>
+`;
+
+exports[`TooltipPopper Snapshots prop: placement TooltipPopper bottom placement snapshot 1`] = `
+<DocumentFragment>
+  <span>
+    Child
+  </span>
+</DocumentFragment>
+`;
+
+exports[`TooltipPopper Snapshots prop: placement TooltipPopper bottom-end placement snapshot 1`] = `
+<DocumentFragment>
+  <span>
+    Child
+  </span>
+</DocumentFragment>
+`;
+
+exports[`TooltipPopper Snapshots prop: placement TooltipPopper bottom-start placement snapshot 1`] = `
+<DocumentFragment>
+  <span>
+    Child
+  </span>
+</DocumentFragment>
+`;
+
+exports[`TooltipPopper Snapshots prop: placement TooltipPopper left placement snapshot 1`] = `
+<DocumentFragment>
+  <span>
+    Child
+  </span>
+</DocumentFragment>
+`;
+
+exports[`TooltipPopper Snapshots prop: placement TooltipPopper right placement snapshot 1`] = `
+<DocumentFragment>
+  <span>
+    Child
+  </span>
+</DocumentFragment>
+`;
+
+exports[`TooltipPopper Snapshots prop: placement TooltipPopper top placement snapshot 1`] = `
+<DocumentFragment>
+  <span>
+    Child
+  </span>
+</DocumentFragment>
+`;
+
+exports[`TooltipPopper Snapshots prop: placement TooltipPopper top-end placement snapshot 1`] = `
+<DocumentFragment>
+  <span>
+    Child
+  </span>
+</DocumentFragment>
+`;
+
+exports[`TooltipPopper Snapshots prop: placement TooltipPopper top-start placement snapshot 1`] = `
+<DocumentFragment>
+  <span>
+    Child
+  </span>
+</DocumentFragment>
+`;
+
+exports[`TooltipPopper Snapshots themes TooltipPopper dark theme snapshot 1`] = `
+<DocumentFragment>
+  <span>
+    Child
+  </span>
+</DocumentFragment>
+`;
+
+exports[`TooltipPopper Snapshots themes TooltipPopper light theme snapshot 1`] = `
+<DocumentFragment>
+  <span>
+    Child
+  </span>
+</DocumentFragment>
+`;

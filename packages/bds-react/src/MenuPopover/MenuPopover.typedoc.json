@@ -1,0 +1,4394 @@
+{
+	"id": 0,
+	"name": "@lowes-tech/bds-react/MenuPopover",
+	"kind": 1,
+	"kindString": "Project",
+	"flags": {},
+	"children": [
+		{
+			"id": 57,
+			"name": "default",
+			"kind": 16777216,
+			"kindString": "Reference",
+			"flags": {},
+			"target": 1
+		},
+		{
+			"id": 3,
+			"name": "MenuPopoverProps",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 21,
+					"name": "anchorEl",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Anchor ref of the element to reference for the popover\nRequired if `children` is not defined"
+					},
+					"type": {
+						"type": "reference",
+						"name": "HTMLElement"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.anchorEl"
+					}
+				},
+				{
+					"id": 20,
+					"name": "as",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ElementType"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.as"
+					}
+				},
+				{
+					"id": 4,
+					"name": "children",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Element to anchor popover\nWill use default `IconButton` with `Dots` if not defined"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							},
+							{
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									},
+									{
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "JSXElementConstructor"
+									}
+								]
+							}
+						],
+						"name": "ReactElement"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.children"
+					}
+				},
+				{
+					"id": 8,
+					"name": "closeDelay",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Number in milliseconds to delay closing the menu popover\nso that it doesn't close on the user inconveniently.",
+						"text": "Set to `false` to make it so that the popover never closes\nwhen the user's mouse exits the popover menu.\n"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "number"
+							},
+							{
+								"type": "literal",
+								"value": false
+							}
+						]
+					}
+				},
+				{
+					"id": 22,
+					"name": "container",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Portal Container"
+					},
+					"type": {
+						"type": "reference",
+						"name": "ReactInstance"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.container"
+					}
+				},
+				{
+					"id": 23,
+					"name": "defaultOpen",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not the tooltip is open by default"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.defaultOpen"
+					}
+				},
+				{
+					"id": 6,
+					"name": "disableClick",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Disable click listener on popover"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 24,
+					"name": "disablePortal",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not portal will be disabled"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.disablePortal"
+					}
+				},
+				{
+					"id": 7,
+					"name": "enablePortal",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not portal is enabled, which is disabled by default"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 27,
+					"name": "hideOverlay",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not the invisible overlay renders"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.hideOverlay"
+					}
+				},
+				{
+					"id": 9,
+					"name": "icon",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Icon to use in default `IconButton` if `children` is not given\nDefaults to `Dots` icon"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							},
+							{
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									},
+									{
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "JSXElementConstructor"
+									}
+								]
+							}
+						],
+						"name": "ReactElement"
+					}
+				},
+				{
+					"id": 28,
+					"name": "keepMounted",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not the tooltip/portal will remain mounted when closed\nThis is useful for SSR/SEO situations where you want the Tooltip to remain on the page when closed"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.keepMounted"
+					}
+				},
+				{
+					"id": 10,
+					"name": "listenHover",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Listen for hover events for popover"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 11,
+					"name": "menu",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"shortText": "Menu element to pop over"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							},
+							{
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									},
+									{
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "JSXElementConstructor"
+									}
+								]
+							}
+						],
+						"name": "ReactElement"
+					}
+				},
+				{
+					"id": 12,
+					"name": "mergeEffect",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Enables a merging effect between the reference and the popover content"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 29,
+					"name": "offset",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Offset too apply to the popover\n[0, 16]\n  /|\\\nFirst element is the offset along the edge of the anchor, in pixels\nSecond element is the offset away from the anchor, in pixels"
+					},
+					"type": {
+						"type": "array",
+						"elementType": {
+							"type": "intrinsic",
+							"name": "number"
+						}
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.offset"
+					}
+				},
+				{
+					"id": 13,
+					"name": "open",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not popover is open controlled"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.open"
+					}
+				},
+				{
+					"id": 25,
+					"name": "openDelay",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "The number of milliseconds to wait before showing the tooltip.\nThis prop won't impact the enter touch delay (`enterTouchDelay`)."
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.openDelay"
+					}
+				},
+				{
+					"id": 26,
+					"name": "openNextDelay",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "The number of milliseconds to wait before showing the tooltip when one was already recently opened."
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.openNextDelay"
+					}
+				},
+				{
+					"id": 18,
+					"name": "placement",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Position of the tooltip from the reference element (child)\nNote: This is opposite of `Tooltip`'s `arrow` prop, which positions the tooltip from the reference\n For example, a `bottom` placed `Popover` will have the `arrow` be on top\n [Some Element]\n      /|\\\n     [Pop]"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "bottom-end"
+							},
+							{
+								"type": "literal",
+								"value": "bottom-start"
+							},
+							{
+								"type": "literal",
+								"value": "bottom"
+							},
+							{
+								"type": "literal",
+								"value": "left-end"
+							},
+							{
+								"type": "literal",
+								"value": "left-start"
+							},
+							{
+								"type": "literal",
+								"value": "left"
+							},
+							{
+								"type": "literal",
+								"value": "right-end"
+							},
+							{
+								"type": "literal",
+								"value": "right-start"
+							},
+							{
+								"type": "literal",
+								"value": "right"
+							},
+							{
+								"type": "literal",
+								"value": "top-end"
+							},
+							{
+								"type": "literal",
+								"value": "top-start"
+							},
+							{
+								"type": "literal",
+								"value": "top"
+							}
+						]
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.placement"
+					}
+				},
+				{
+					"id": 30,
+					"name": "popperModifiers",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "PopperJS Modifiers to extend/override default modifiers in `Popover`"
+					},
+					"type": {
+						"type": "array",
+						"elementType": {
+							"type": "reference",
+							"typeArguments": [
+								{
+									"type": "intrinsic",
+									"name": "string"
+								},
+								{
+									"type": "intrinsic",
+									"name": "object"
+								}
+							],
+							"name": "Modifier"
+						}
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.popperModifiers"
+					}
+				},
+				{
+					"id": 31,
+					"name": "popperOptions",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "PopperJS Options to extends/override default options in `TooltipOptions`"
+					},
+					"type": {
+						"type": "reference",
+						"name": "Options"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.popperOptions"
+					}
+				},
+				{
+					"id": 19,
+					"name": "shadow",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Shadow token to use, or none",
+						"tags": [
+							{
+								"tag": "default",
+								"text": "'shadow_03'\n"
+							}
+						]
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "string"
+							},
+							{
+								"type": "literal",
+								"value": "none"
+							},
+							{
+								"type": "literal",
+								"value": "shadow_01"
+							},
+							{
+								"type": "literal",
+								"value": "shadow_02"
+							},
+							{
+								"type": "literal",
+								"value": "shadow_03"
+							},
+							{
+								"type": "literal",
+								"value": "shadow_04"
+							},
+							{
+								"type": "literal",
+								"value": "shadow_05"
+							},
+							{
+								"type": "literal",
+								"value": "shadow_06"
+							}
+						]
+					}
+				},
+				{
+					"id": 5,
+					"name": "shape",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Shape of the button and popover"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "rounded"
+							},
+							{
+								"type": "literal",
+								"value": "squared"
+							}
+						]
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.shape"
+					}
+				},
+				{
+					"id": 16,
+					"name": "onClose",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 17,
+							"name": "onClose",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onClose` trigger function for when the calendar popover closes"
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"overwrites": {
+								"type": "reference",
+								"name": "Omit.onClose"
+							}
+						}
+					],
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.onClose"
+					}
+				},
+				{
+					"id": 14,
+					"name": "onOpen",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 15,
+							"name": "onOpen",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onOpen` trigger function for when the calendar popover opens"
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"overwrites": {
+								"type": "reference",
+								"name": "Omit.onOpen"
+							}
+						}
+					],
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.onOpen"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						21,
+						20,
+						4,
+						8,
+						22,
+						23,
+						6,
+						24,
+						7,
+						27,
+						9,
+						28,
+						10,
+						11,
+						12,
+						29,
+						13,
+						25,
+						26,
+						18,
+						30,
+						31,
+						19,
+						5
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						16,
+						14
+					]
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"typeArguments": [
+						{
+							"type": "intersection",
+							"types": [
+								{
+									"type": "reference",
+									"typeArguments": [
+										{
+											"type": "reference",
+											"id": 2,
+											"name": "MenuPopoverRef"
+										}
+									],
+									"name": "BackyardBaseProps"
+								},
+								{
+									"type": "reference",
+									"name": "PopoverProps"
+								}
+							]
+						},
+						{
+							"type": "reference",
+							"name": "MenuPopoverPropsOverride"
+						}
+					],
+					"name": "Omit"
+				}
+			]
+		},
+		{
+			"id": 33,
+			"name": "SubMenuProps",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 55,
+					"name": "as",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ElementType"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "MenuProps.as"
+					}
+				},
+				{
+					"id": 47,
+					"name": "children",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Children of menu\nOptionally, `items` can be given a list data structure instead"
+					},
+					"type": {
+						"type": "reference",
+						"name": "ReactNode"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "MenuProps.children"
+					}
+				},
+				{
+					"id": 49,
+					"name": "items",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Menu Items to use if data list is provided instead of declarative children"
+					},
+					"type": {
+						"type": "array",
+						"elementType": {
+							"type": "reference",
+							"name": "MenuItemProps"
+						}
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "MenuProps.items"
+					}
+				},
+				{
+					"id": 34,
+					"name": "label",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"shortText": "Label to display in main menu for the sub menu"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "MenuProps.label"
+					}
+				},
+				{
+					"id": 39,
+					"name": "listenHover",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not submenu will listen to hover events"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 35,
+					"name": "menuItemProps",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Menu Item Props to extend menu item with if needed"
+					},
+					"type": {
+						"type": "intersection",
+						"types": [
+							{
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "reference",
+										"name": "MenuItemProps"
+									},
+									{
+										"type": "union",
+										"types": [
+											{
+												"type": "literal",
+												"value": "as"
+											},
+											{
+												"type": "literal",
+												"value": "accept"
+											},
+											{
+												"type": "literal",
+												"value": "acceptCharset"
+											},
+											{
+												"type": "literal",
+												"value": "action"
+											},
+											{
+												"type": "literal",
+												"value": "allowFullScreen"
+											},
+											{
+												"type": "literal",
+												"value": "allowTransparency"
+											},
+											{
+												"type": "literal",
+												"value": "alt"
+											},
+											{
+												"type": "literal",
+												"value": "async"
+											},
+											{
+												"type": "literal",
+												"value": "autoComplete"
+											},
+											{
+												"type": "literal",
+												"value": "autoFocus"
+											},
+											{
+												"type": "literal",
+												"value": "autoPlay"
+											},
+											{
+												"type": "literal",
+												"value": "capture"
+											},
+											{
+												"type": "literal",
+												"value": "cellPadding"
+											},
+											{
+												"type": "literal",
+												"value": "cellSpacing"
+											},
+											{
+												"type": "literal",
+												"value": "charSet"
+											},
+											{
+												"type": "literal",
+												"value": "challenge"
+											},
+											{
+												"type": "literal",
+												"value": "checked"
+											},
+											{
+												"type": "literal",
+												"value": "cite"
+											},
+											{
+												"type": "literal",
+												"value": "classID"
+											},
+											{
+												"type": "literal",
+												"value": "cols"
+											},
+											{
+												"type": "literal",
+												"value": "colSpan"
+											},
+											{
+												"type": "literal",
+												"value": "content"
+											},
+											{
+												"type": "literal",
+												"value": "controls"
+											},
+											{
+												"type": "literal",
+												"value": "coords"
+											},
+											{
+												"type": "literal",
+												"value": "crossOrigin"
+											},
+											{
+												"type": "literal",
+												"value": "data"
+											},
+											{
+												"type": "literal",
+												"value": "dateTime"
+											},
+											{
+												"type": "literal",
+												"value": "default"
+											},
+											{
+												"type": "literal",
+												"value": "defer"
+											},
+											{
+												"type": "literal",
+												"value": "disabled"
+											},
+											{
+												"type": "literal",
+												"value": "download"
+											},
+											{
+												"type": "literal",
+												"value": "encType"
+											},
+											{
+												"type": "literal",
+												"value": "form"
+											},
+											{
+												"type": "literal",
+												"value": "formAction"
+											},
+											{
+												"type": "literal",
+												"value": "formEncType"
+											},
+											{
+												"type": "literal",
+												"value": "formMethod"
+											},
+											{
+												"type": "literal",
+												"value": "formNoValidate"
+											},
+											{
+												"type": "literal",
+												"value": "formTarget"
+											},
+											{
+												"type": "literal",
+												"value": "frameBorder"
+											},
+											{
+												"type": "literal",
+												"value": "headers"
+											},
+											{
+												"type": "literal",
+												"value": "height"
+											},
+											{
+												"type": "literal",
+												"value": "high"
+											},
+											{
+												"type": "literal",
+												"value": "href"
+											},
+											{
+												"type": "literal",
+												"value": "hrefLang"
+											},
+											{
+												"type": "literal",
+												"value": "htmlFor"
+											},
+											{
+												"type": "literal",
+												"value": "httpEquiv"
+											},
+											{
+												"type": "literal",
+												"value": "integrity"
+											},
+											{
+												"type": "literal",
+												"value": "keyParams"
+											},
+											{
+												"type": "literal",
+												"value": "keyType"
+											},
+											{
+												"type": "literal",
+												"value": "kind"
+											},
+											{
+												"type": "literal",
+												"value": "label"
+											},
+											{
+												"type": "literal",
+												"value": "list"
+											},
+											{
+												"type": "literal",
+												"value": "loop"
+											},
+											{
+												"type": "literal",
+												"value": "low"
+											},
+											{
+												"type": "literal",
+												"value": "manifest"
+											},
+											{
+												"type": "literal",
+												"value": "marginHeight"
+											},
+											{
+												"type": "literal",
+												"value": "marginWidth"
+											},
+											{
+												"type": "literal",
+												"value": "max"
+											},
+											{
+												"type": "literal",
+												"value": "maxLength"
+											},
+											{
+												"type": "literal",
+												"value": "media"
+											},
+											{
+												"type": "literal",
+												"value": "mediaGroup"
+											},
+											{
+												"type": "literal",
+												"value": "method"
+											},
+											{
+												"type": "literal",
+												"value": "min"
+											},
+											{
+												"type": "literal",
+												"value": "minLength"
+											},
+											{
+												"type": "literal",
+												"value": "multiple"
+											},
+											{
+												"type": "literal",
+												"value": "muted"
+											},
+											{
+												"type": "literal",
+												"value": "name"
+											},
+											{
+												"type": "literal",
+												"value": "nonce"
+											},
+											{
+												"type": "literal",
+												"value": "noValidate"
+											},
+											{
+												"type": "literal",
+												"value": "open"
+											},
+											{
+												"type": "literal",
+												"value": "optimum"
+											},
+											{
+												"type": "literal",
+												"value": "pattern"
+											},
+											{
+												"type": "literal",
+												"value": "placeholder"
+											},
+											{
+												"type": "literal",
+												"value": "playsInline"
+											},
+											{
+												"type": "literal",
+												"value": "poster"
+											},
+											{
+												"type": "literal",
+												"value": "preload"
+											},
+											{
+												"type": "literal",
+												"value": "readOnly"
+											},
+											{
+												"type": "literal",
+												"value": "rel"
+											},
+											{
+												"type": "literal",
+												"value": "required"
+											},
+											{
+												"type": "literal",
+												"value": "reversed"
+											},
+											{
+												"type": "literal",
+												"value": "rows"
+											},
+											{
+												"type": "literal",
+												"value": "rowSpan"
+											},
+											{
+												"type": "literal",
+												"value": "sandbox"
+											},
+											{
+												"type": "literal",
+												"value": "scope"
+											},
+											{
+												"type": "literal",
+												"value": "scoped"
+											},
+											{
+												"type": "literal",
+												"value": "scrolling"
+											},
+											{
+												"type": "literal",
+												"value": "seamless"
+											},
+											{
+												"type": "literal",
+												"value": "selected"
+											},
+											{
+												"type": "literal",
+												"value": "shape"
+											},
+											{
+												"type": "literal",
+												"value": "size"
+											},
+											{
+												"type": "literal",
+												"value": "sizes"
+											},
+											{
+												"type": "literal",
+												"value": "span"
+											},
+											{
+												"type": "literal",
+												"value": "src"
+											},
+											{
+												"type": "literal",
+												"value": "srcDoc"
+											},
+											{
+												"type": "literal",
+												"value": "srcLang"
+											},
+											{
+												"type": "literal",
+												"value": "srcSet"
+											},
+											{
+												"type": "literal",
+												"value": "start"
+											},
+											{
+												"type": "literal",
+												"value": "step"
+											},
+											{
+												"type": "literal",
+												"value": "summary"
+											},
+											{
+												"type": "literal",
+												"value": "target"
+											},
+											{
+												"type": "literal",
+												"value": "type"
+											},
+											{
+												"type": "literal",
+												"value": "useMap"
+											},
+											{
+												"type": "literal",
+												"value": "value"
+											},
+											{
+												"type": "literal",
+												"value": "width"
+											},
+											{
+												"type": "literal",
+												"value": "wmode"
+											},
+											{
+												"type": "literal",
+												"value": "wrap"
+											},
+											{
+												"type": "literal",
+												"value": "defaultChecked"
+											},
+											{
+												"type": "literal",
+												"value": "defaultValue"
+											},
+											{
+												"type": "literal",
+												"value": "suppressContentEditableWarning"
+											},
+											{
+												"type": "literal",
+												"value": "suppressHydrationWarning"
+											},
+											{
+												"type": "literal",
+												"value": "accessKey"
+											},
+											{
+												"type": "literal",
+												"value": "className"
+											},
+											{
+												"type": "literal",
+												"value": "contentEditable"
+											},
+											{
+												"type": "literal",
+												"value": "contextMenu"
+											},
+											{
+												"type": "literal",
+												"value": "dir"
+											},
+											{
+												"type": "literal",
+												"value": "draggable"
+											},
+											{
+												"type": "literal",
+												"value": "hidden"
+											},
+											{
+												"type": "literal",
+												"value": "id"
+											},
+											{
+												"type": "literal",
+												"value": "lang"
+											},
+											{
+												"type": "literal",
+												"value": "slot"
+											},
+											{
+												"type": "literal",
+												"value": "spellCheck"
+											},
+											{
+												"type": "literal",
+												"value": "style"
+											},
+											{
+												"type": "literal",
+												"value": "tabIndex"
+											},
+											{
+												"type": "literal",
+												"value": "title"
+											},
+											{
+												"type": "literal",
+												"value": "translate"
+											},
+											{
+												"type": "literal",
+												"value": "radioGroup"
+											},
+											{
+												"type": "literal",
+												"value": "role"
+											},
+											{
+												"type": "literal",
+												"value": "about"
+											},
+											{
+												"type": "literal",
+												"value": "datatype"
+											},
+											{
+												"type": "literal",
+												"value": "inlist"
+											},
+											{
+												"type": "literal",
+												"value": "prefix"
+											},
+											{
+												"type": "literal",
+												"value": "property"
+											},
+											{
+												"type": "literal",
+												"value": "resource"
+											},
+											{
+												"type": "literal",
+												"value": "typeof"
+											},
+											{
+												"type": "literal",
+												"value": "vocab"
+											},
+											{
+												"type": "literal",
+												"value": "autoCapitalize"
+											},
+											{
+												"type": "literal",
+												"value": "autoCorrect"
+											},
+											{
+												"type": "literal",
+												"value": "autoSave"
+											},
+											{
+												"type": "literal",
+												"value": "color"
+											},
+											{
+												"type": "literal",
+												"value": "itemProp"
+											},
+											{
+												"type": "literal",
+												"value": "itemScope"
+											},
+											{
+												"type": "literal",
+												"value": "itemType"
+											},
+											{
+												"type": "literal",
+												"value": "itemID"
+											},
+											{
+												"type": "literal",
+												"value": "itemRef"
+											},
+											{
+												"type": "literal",
+												"value": "results"
+											},
+											{
+												"type": "literal",
+												"value": "security"
+											},
+											{
+												"type": "literal",
+												"value": "unselectable"
+											},
+											{
+												"type": "literal",
+												"value": "inputMode"
+											},
+											{
+												"type": "literal",
+												"value": "is"
+											},
+											{
+												"type": "literal",
+												"value": "aria-activedescendant"
+											},
+											{
+												"type": "literal",
+												"value": "aria-atomic"
+											},
+											{
+												"type": "literal",
+												"value": "aria-autocomplete"
+											},
+											{
+												"type": "literal",
+												"value": "aria-busy"
+											},
+											{
+												"type": "literal",
+												"value": "aria-checked"
+											},
+											{
+												"type": "literal",
+												"value": "aria-colcount"
+											},
+											{
+												"type": "literal",
+												"value": "aria-colindex"
+											},
+											{
+												"type": "literal",
+												"value": "aria-colspan"
+											},
+											{
+												"type": "literal",
+												"value": "aria-controls"
+											},
+											{
+												"type": "literal",
+												"value": "aria-current"
+											},
+											{
+												"type": "literal",
+												"value": "aria-describedby"
+											},
+											{
+												"type": "literal",
+												"value": "aria-details"
+											},
+											{
+												"type": "literal",
+												"value": "aria-disabled"
+											},
+											{
+												"type": "literal",
+												"value": "aria-dropeffect"
+											},
+											{
+												"type": "literal",
+												"value": "aria-errormessage"
+											},
+											{
+												"type": "literal",
+												"value": "aria-expanded"
+											},
+											{
+												"type": "literal",
+												"value": "aria-flowto"
+											},
+											{
+												"type": "literal",
+												"value": "aria-grabbed"
+											},
+											{
+												"type": "literal",
+												"value": "aria-haspopup"
+											},
+											{
+												"type": "literal",
+												"value": "aria-hidden"
+											},
+											{
+												"type": "literal",
+												"value": "aria-invalid"
+											},
+											{
+												"type": "literal",
+												"value": "aria-keyshortcuts"
+											},
+											{
+												"type": "literal",
+												"value": "aria-label"
+											},
+											{
+												"type": "literal",
+												"value": "aria-labelledby"
+											},
+											{
+												"type": "literal",
+												"value": "aria-level"
+											},
+											{
+												"type": "literal",
+												"value": "aria-live"
+											},
+											{
+												"type": "literal",
+												"value": "aria-modal"
+											},
+											{
+												"type": "literal",
+												"value": "aria-multiline"
+											},
+											{
+												"type": "literal",
+												"value": "aria-multiselectable"
+											},
+											{
+												"type": "literal",
+												"value": "aria-orientation"
+											},
+											{
+												"type": "literal",
+												"value": "aria-owns"
+											},
+											{
+												"type": "literal",
+												"value": "aria-placeholder"
+											},
+											{
+												"type": "literal",
+												"value": "aria-posinset"
+											},
+											{
+												"type": "literal",
+												"value": "aria-pressed"
+											},
+											{
+												"type": "literal",
+												"value": "aria-readonly"
+											},
+											{
+												"type": "literal",
+												"value": "aria-relevant"
+											},
+											{
+												"type": "literal",
+												"value": "aria-required"
+											},
+											{
+												"type": "literal",
+												"value": "aria-roledescription"
+											},
+											{
+												"type": "literal",
+												"value": "aria-rowcount"
+											},
+											{
+												"type": "literal",
+												"value": "aria-rowindex"
+											},
+											{
+												"type": "literal",
+												"value": "aria-rowspan"
+											},
+											{
+												"type": "literal",
+												"value": "aria-selected"
+											},
+											{
+												"type": "literal",
+												"value": "aria-setsize"
+											},
+											{
+												"type": "literal",
+												"value": "aria-sort"
+											},
+											{
+												"type": "literal",
+												"value": "aria-valuemax"
+											},
+											{
+												"type": "literal",
+												"value": "aria-valuemin"
+											},
+											{
+												"type": "literal",
+												"value": "aria-valuenow"
+											},
+											{
+												"type": "literal",
+												"value": "aria-valuetext"
+											},
+											{
+												"type": "literal",
+												"value": "children"
+											},
+											{
+												"type": "literal",
+												"value": "dangerouslySetInnerHTML"
+											},
+											{
+												"type": "literal",
+												"value": "onCopy"
+											},
+											{
+												"type": "literal",
+												"value": "onCopyCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onCut"
+											},
+											{
+												"type": "literal",
+												"value": "onCutCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onPaste"
+											},
+											{
+												"type": "literal",
+												"value": "onPasteCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onCompositionEnd"
+											},
+											{
+												"type": "literal",
+												"value": "onCompositionEndCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onCompositionStart"
+											},
+											{
+												"type": "literal",
+												"value": "onCompositionStartCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onCompositionUpdate"
+											},
+											{
+												"type": "literal",
+												"value": "onCompositionUpdateCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onFocus"
+											},
+											{
+												"type": "literal",
+												"value": "onFocusCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onBlur"
+											},
+											{
+												"type": "literal",
+												"value": "onBlurCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onChange"
+											},
+											{
+												"type": "literal",
+												"value": "onChangeCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onBeforeInput"
+											},
+											{
+												"type": "literal",
+												"value": "onBeforeInputCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onInput"
+											},
+											{
+												"type": "literal",
+												"value": "onInputCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onReset"
+											},
+											{
+												"type": "literal",
+												"value": "onResetCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onSubmit"
+											},
+											{
+												"type": "literal",
+												"value": "onSubmitCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onInvalid"
+											},
+											{
+												"type": "literal",
+												"value": "onInvalidCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onLoad"
+											},
+											{
+												"type": "literal",
+												"value": "onLoadCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onError"
+											},
+											{
+												"type": "literal",
+												"value": "onErrorCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onKeyDown"
+											},
+											{
+												"type": "literal",
+												"value": "onKeyDownCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onKeyPress"
+											},
+											{
+												"type": "literal",
+												"value": "onKeyPressCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onKeyUp"
+											},
+											{
+												"type": "literal",
+												"value": "onKeyUpCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onAbort"
+											},
+											{
+												"type": "literal",
+												"value": "onAbortCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onCanPlay"
+											},
+											{
+												"type": "literal",
+												"value": "onCanPlayCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onCanPlayThrough"
+											},
+											{
+												"type": "literal",
+												"value": "onCanPlayThroughCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onDurationChange"
+											},
+											{
+												"type": "literal",
+												"value": "onDurationChangeCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onEmptied"
+											},
+											{
+												"type": "literal",
+												"value": "onEmptiedCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onEncrypted"
+											},
+											{
+												"type": "literal",
+												"value": "onEncryptedCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onEnded"
+											},
+											{
+												"type": "literal",
+												"value": "onEndedCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onLoadedData"
+											},
+											{
+												"type": "literal",
+												"value": "onLoadedDataCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onLoadedMetadata"
+											},
+											{
+												"type": "literal",
+												"value": "onLoadedMetadataCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onLoadStart"
+											},
+											{
+												"type": "literal",
+												"value": "onLoadStartCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onPause"
+											},
+											{
+												"type": "literal",
+												"value": "onPauseCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onPlay"
+											},
+											{
+												"type": "literal",
+												"value": "onPlayCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onPlaying"
+											},
+											{
+												"type": "literal",
+												"value": "onPlayingCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onProgress"
+											},
+											{
+												"type": "literal",
+												"value": "onProgressCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onRateChange"
+											},
+											{
+												"type": "literal",
+												"value": "onRateChangeCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onSeeked"
+											},
+											{
+												"type": "literal",
+												"value": "onSeekedCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onSeeking"
+											},
+											{
+												"type": "literal",
+												"value": "onSeekingCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onStalled"
+											},
+											{
+												"type": "literal",
+												"value": "onStalledCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onSuspend"
+											},
+											{
+												"type": "literal",
+												"value": "onSuspendCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onTimeUpdate"
+											},
+											{
+												"type": "literal",
+												"value": "onTimeUpdateCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onVolumeChange"
+											},
+											{
+												"type": "literal",
+												"value": "onVolumeChangeCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onWaiting"
+											},
+											{
+												"type": "literal",
+												"value": "onWaitingCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onAuxClick"
+											},
+											{
+												"type": "literal",
+												"value": "onAuxClickCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onClick"
+											},
+											{
+												"type": "literal",
+												"value": "onClickCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onContextMenu"
+											},
+											{
+												"type": "literal",
+												"value": "onContextMenuCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onDoubleClick"
+											},
+											{
+												"type": "literal",
+												"value": "onDoubleClickCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onDrag"
+											},
+											{
+												"type": "literal",
+												"value": "onDragCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onDragEnd"
+											},
+											{
+												"type": "literal",
+												"value": "onDragEndCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onDragEnter"
+											},
+											{
+												"type": "literal",
+												"value": "onDragEnterCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onDragExit"
+											},
+											{
+												"type": "literal",
+												"value": "onDragExitCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onDragLeave"
+											},
+											{
+												"type": "literal",
+												"value": "onDragLeaveCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onDragOver"
+											},
+											{
+												"type": "literal",
+												"value": "onDragOverCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onDragStart"
+											},
+											{
+												"type": "literal",
+												"value": "onDragStartCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onDrop"
+											},
+											{
+												"type": "literal",
+												"value": "onDropCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onMouseDown"
+											},
+											{
+												"type": "literal",
+												"value": "onMouseDownCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onMouseEnter"
+											},
+											{
+												"type": "literal",
+												"value": "onMouseLeave"
+											},
+											{
+												"type": "literal",
+												"value": "onMouseMove"
+											},
+											{
+												"type": "literal",
+												"value": "onMouseMoveCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onMouseOut"
+											},
+											{
+												"type": "literal",
+												"value": "onMouseOutCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onMouseOver"
+											},
+											{
+												"type": "literal",
+												"value": "onMouseOverCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onMouseUp"
+											},
+											{
+												"type": "literal",
+												"value": "onMouseUpCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onSelect"
+											},
+											{
+												"type": "literal",
+												"value": "onSelectCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onTouchCancel"
+											},
+											{
+												"type": "literal",
+												"value": "onTouchCancelCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onTouchEnd"
+											},
+											{
+												"type": "literal",
+												"value": "onTouchEndCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onTouchMove"
+											},
+											{
+												"type": "literal",
+												"value": "onTouchMoveCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onTouchStart"
+											},
+											{
+												"type": "literal",
+												"value": "onTouchStartCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerDown"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerDownCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerMove"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerMoveCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerUp"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerUpCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerCancel"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerCancelCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerEnter"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerEnterCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerLeave"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerLeaveCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerOver"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerOverCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerOut"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerOutCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onGotPointerCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onGotPointerCaptureCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onLostPointerCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onLostPointerCaptureCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onScroll"
+											},
+											{
+												"type": "literal",
+												"value": "onScrollCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onWheel"
+											},
+											{
+												"type": "literal",
+												"value": "onWheelCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onAnimationStart"
+											},
+											{
+												"type": "literal",
+												"value": "onAnimationStartCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onAnimationEnd"
+											},
+											{
+												"type": "literal",
+												"value": "onAnimationEndCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onAnimationIteration"
+											},
+											{
+												"type": "literal",
+												"value": "onAnimationIterationCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onTransitionEnd"
+											},
+											{
+												"type": "literal",
+												"value": "onTransitionEndCapture"
+											},
+											{
+												"type": "literal",
+												"value": "css"
+											},
+											{
+												"type": "literal",
+												"value": "key"
+											},
+											{
+												"type": "literal",
+												"value": "component"
+											},
+											{
+												"type": "literal",
+												"value": "iconBefore"
+											},
+											{
+												"type": "literal",
+												"value": "iconAfter"
+											},
+											{
+												"type": "literal",
+												"value": "variant"
+											},
+											{
+												"type": "literal",
+												"value": "fullWidth"
+											},
+											{
+												"type": "literal",
+												"value": "elevation"
+											}
+										]
+									}
+								],
+								"name": "Pick"
+							},
+							{
+								"type": "reflection",
+								"declaration": {
+									"id": 36,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {}
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": 37,
+					"name": "menuPopoverProps",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Menu Popover props"
+					},
+					"type": {
+						"type": "intersection",
+						"types": [
+							{
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "reference",
+										"id": 3,
+										"name": "MenuPopoverProps"
+									},
+									{
+										"type": "union",
+										"types": [
+											{
+												"type": "literal",
+												"value": "as"
+											},
+											{
+												"type": "literal",
+												"value": "accept"
+											},
+											{
+												"type": "literal",
+												"value": "acceptCharset"
+											},
+											{
+												"type": "literal",
+												"value": "action"
+											},
+											{
+												"type": "literal",
+												"value": "allowFullScreen"
+											},
+											{
+												"type": "literal",
+												"value": "allowTransparency"
+											},
+											{
+												"type": "literal",
+												"value": "alt"
+											},
+											{
+												"type": "literal",
+												"value": "async"
+											},
+											{
+												"type": "literal",
+												"value": "autoComplete"
+											},
+											{
+												"type": "literal",
+												"value": "autoFocus"
+											},
+											{
+												"type": "literal",
+												"value": "autoPlay"
+											},
+											{
+												"type": "literal",
+												"value": "capture"
+											},
+											{
+												"type": "literal",
+												"value": "cellPadding"
+											},
+											{
+												"type": "literal",
+												"value": "cellSpacing"
+											},
+											{
+												"type": "literal",
+												"value": "charSet"
+											},
+											{
+												"type": "literal",
+												"value": "challenge"
+											},
+											{
+												"type": "literal",
+												"value": "checked"
+											},
+											{
+												"type": "literal",
+												"value": "cite"
+											},
+											{
+												"type": "literal",
+												"value": "classID"
+											},
+											{
+												"type": "literal",
+												"value": "cols"
+											},
+											{
+												"type": "literal",
+												"value": "colSpan"
+											},
+											{
+												"type": "literal",
+												"value": "content"
+											},
+											{
+												"type": "literal",
+												"value": "controls"
+											},
+											{
+												"type": "literal",
+												"value": "coords"
+											},
+											{
+												"type": "literal",
+												"value": "crossOrigin"
+											},
+											{
+												"type": "literal",
+												"value": "data"
+											},
+											{
+												"type": "literal",
+												"value": "dateTime"
+											},
+											{
+												"type": "literal",
+												"value": "default"
+											},
+											{
+												"type": "literal",
+												"value": "defer"
+											},
+											{
+												"type": "literal",
+												"value": "disabled"
+											},
+											{
+												"type": "literal",
+												"value": "download"
+											},
+											{
+												"type": "literal",
+												"value": "encType"
+											},
+											{
+												"type": "literal",
+												"value": "form"
+											},
+											{
+												"type": "literal",
+												"value": "formAction"
+											},
+											{
+												"type": "literal",
+												"value": "formEncType"
+											},
+											{
+												"type": "literal",
+												"value": "formMethod"
+											},
+											{
+												"type": "literal",
+												"value": "formNoValidate"
+											},
+											{
+												"type": "literal",
+												"value": "formTarget"
+											},
+											{
+												"type": "literal",
+												"value": "frameBorder"
+											},
+											{
+												"type": "literal",
+												"value": "headers"
+											},
+											{
+												"type": "literal",
+												"value": "height"
+											},
+											{
+												"type": "literal",
+												"value": "high"
+											},
+											{
+												"type": "literal",
+												"value": "href"
+											},
+											{
+												"type": "literal",
+												"value": "hrefLang"
+											},
+											{
+												"type": "literal",
+												"value": "htmlFor"
+											},
+											{
+												"type": "literal",
+												"value": "httpEquiv"
+											},
+											{
+												"type": "literal",
+												"value": "integrity"
+											},
+											{
+												"type": "literal",
+												"value": "keyParams"
+											},
+											{
+												"type": "literal",
+												"value": "keyType"
+											},
+											{
+												"type": "literal",
+												"value": "kind"
+											},
+											{
+												"type": "literal",
+												"value": "label"
+											},
+											{
+												"type": "literal",
+												"value": "list"
+											},
+											{
+												"type": "literal",
+												"value": "loop"
+											},
+											{
+												"type": "literal",
+												"value": "low"
+											},
+											{
+												"type": "literal",
+												"value": "manifest"
+											},
+											{
+												"type": "literal",
+												"value": "marginHeight"
+											},
+											{
+												"type": "literal",
+												"value": "marginWidth"
+											},
+											{
+												"type": "literal",
+												"value": "max"
+											},
+											{
+												"type": "literal",
+												"value": "maxLength"
+											},
+											{
+												"type": "literal",
+												"value": "media"
+											},
+											{
+												"type": "literal",
+												"value": "mediaGroup"
+											},
+											{
+												"type": "literal",
+												"value": "method"
+											},
+											{
+												"type": "literal",
+												"value": "min"
+											},
+											{
+												"type": "literal",
+												"value": "minLength"
+											},
+											{
+												"type": "literal",
+												"value": "multiple"
+											},
+											{
+												"type": "literal",
+												"value": "muted"
+											},
+											{
+												"type": "literal",
+												"value": "name"
+											},
+											{
+												"type": "literal",
+												"value": "nonce"
+											},
+											{
+												"type": "literal",
+												"value": "noValidate"
+											},
+											{
+												"type": "literal",
+												"value": "open"
+											},
+											{
+												"type": "literal",
+												"value": "optimum"
+											},
+											{
+												"type": "literal",
+												"value": "pattern"
+											},
+											{
+												"type": "literal",
+												"value": "placeholder"
+											},
+											{
+												"type": "literal",
+												"value": "playsInline"
+											},
+											{
+												"type": "literal",
+												"value": "poster"
+											},
+											{
+												"type": "literal",
+												"value": "preload"
+											},
+											{
+												"type": "literal",
+												"value": "readOnly"
+											},
+											{
+												"type": "literal",
+												"value": "rel"
+											},
+											{
+												"type": "literal",
+												"value": "required"
+											},
+											{
+												"type": "literal",
+												"value": "reversed"
+											},
+											{
+												"type": "literal",
+												"value": "rows"
+											},
+											{
+												"type": "literal",
+												"value": "rowSpan"
+											},
+											{
+												"type": "literal",
+												"value": "sandbox"
+											},
+											{
+												"type": "literal",
+												"value": "scope"
+											},
+											{
+												"type": "literal",
+												"value": "scoped"
+											},
+											{
+												"type": "literal",
+												"value": "scrolling"
+											},
+											{
+												"type": "literal",
+												"value": "seamless"
+											},
+											{
+												"type": "literal",
+												"value": "selected"
+											},
+											{
+												"type": "literal",
+												"value": "shape"
+											},
+											{
+												"type": "literal",
+												"value": "size"
+											},
+											{
+												"type": "literal",
+												"value": "sizes"
+											},
+											{
+												"type": "literal",
+												"value": "span"
+											},
+											{
+												"type": "literal",
+												"value": "src"
+											},
+											{
+												"type": "literal",
+												"value": "srcDoc"
+											},
+											{
+												"type": "literal",
+												"value": "srcLang"
+											},
+											{
+												"type": "literal",
+												"value": "srcSet"
+											},
+											{
+												"type": "literal",
+												"value": "start"
+											},
+											{
+												"type": "literal",
+												"value": "step"
+											},
+											{
+												"type": "literal",
+												"value": "summary"
+											},
+											{
+												"type": "literal",
+												"value": "target"
+											},
+											{
+												"type": "literal",
+												"value": "type"
+											},
+											{
+												"type": "literal",
+												"value": "useMap"
+											},
+											{
+												"type": "literal",
+												"value": "value"
+											},
+											{
+												"type": "literal",
+												"value": "width"
+											},
+											{
+												"type": "literal",
+												"value": "wmode"
+											},
+											{
+												"type": "literal",
+												"value": "wrap"
+											},
+											{
+												"type": "literal",
+												"value": "defaultChecked"
+											},
+											{
+												"type": "literal",
+												"value": "defaultValue"
+											},
+											{
+												"type": "literal",
+												"value": "suppressContentEditableWarning"
+											},
+											{
+												"type": "literal",
+												"value": "suppressHydrationWarning"
+											},
+											{
+												"type": "literal",
+												"value": "accessKey"
+											},
+											{
+												"type": "literal",
+												"value": "className"
+											},
+											{
+												"type": "literal",
+												"value": "contentEditable"
+											},
+											{
+												"type": "literal",
+												"value": "contextMenu"
+											},
+											{
+												"type": "literal",
+												"value": "dir"
+											},
+											{
+												"type": "literal",
+												"value": "draggable"
+											},
+											{
+												"type": "literal",
+												"value": "hidden"
+											},
+											{
+												"type": "literal",
+												"value": "id"
+											},
+											{
+												"type": "literal",
+												"value": "lang"
+											},
+											{
+												"type": "literal",
+												"value": "slot"
+											},
+											{
+												"type": "literal",
+												"value": "spellCheck"
+											},
+											{
+												"type": "literal",
+												"value": "style"
+											},
+											{
+												"type": "literal",
+												"value": "tabIndex"
+											},
+											{
+												"type": "literal",
+												"value": "title"
+											},
+											{
+												"type": "literal",
+												"value": "translate"
+											},
+											{
+												"type": "literal",
+												"value": "radioGroup"
+											},
+											{
+												"type": "literal",
+												"value": "role"
+											},
+											{
+												"type": "literal",
+												"value": "about"
+											},
+											{
+												"type": "literal",
+												"value": "datatype"
+											},
+											{
+												"type": "literal",
+												"value": "inlist"
+											},
+											{
+												"type": "literal",
+												"value": "prefix"
+											},
+											{
+												"type": "literal",
+												"value": "property"
+											},
+											{
+												"type": "literal",
+												"value": "resource"
+											},
+											{
+												"type": "literal",
+												"value": "typeof"
+											},
+											{
+												"type": "literal",
+												"value": "vocab"
+											},
+											{
+												"type": "literal",
+												"value": "autoCapitalize"
+											},
+											{
+												"type": "literal",
+												"value": "autoCorrect"
+											},
+											{
+												"type": "literal",
+												"value": "autoSave"
+											},
+											{
+												"type": "literal",
+												"value": "color"
+											},
+											{
+												"type": "literal",
+												"value": "itemProp"
+											},
+											{
+												"type": "literal",
+												"value": "itemScope"
+											},
+											{
+												"type": "literal",
+												"value": "itemType"
+											},
+											{
+												"type": "literal",
+												"value": "itemID"
+											},
+											{
+												"type": "literal",
+												"value": "itemRef"
+											},
+											{
+												"type": "literal",
+												"value": "results"
+											},
+											{
+												"type": "literal",
+												"value": "security"
+											},
+											{
+												"type": "literal",
+												"value": "unselectable"
+											},
+											{
+												"type": "literal",
+												"value": "inputMode"
+											},
+											{
+												"type": "literal",
+												"value": "is"
+											},
+											{
+												"type": "literal",
+												"value": "aria-activedescendant"
+											},
+											{
+												"type": "literal",
+												"value": "aria-atomic"
+											},
+											{
+												"type": "literal",
+												"value": "aria-autocomplete"
+											},
+											{
+												"type": "literal",
+												"value": "aria-busy"
+											},
+											{
+												"type": "literal",
+												"value": "aria-checked"
+											},
+											{
+												"type": "literal",
+												"value": "aria-colcount"
+											},
+											{
+												"type": "literal",
+												"value": "aria-colindex"
+											},
+											{
+												"type": "literal",
+												"value": "aria-colspan"
+											},
+											{
+												"type": "literal",
+												"value": "aria-controls"
+											},
+											{
+												"type": "literal",
+												"value": "aria-current"
+											},
+											{
+												"type": "literal",
+												"value": "aria-describedby"
+											},
+											{
+												"type": "literal",
+												"value": "aria-details"
+											},
+											{
+												"type": "literal",
+												"value": "aria-disabled"
+											},
+											{
+												"type": "literal",
+												"value": "aria-dropeffect"
+											},
+											{
+												"type": "literal",
+												"value": "aria-errormessage"
+											},
+											{
+												"type": "literal",
+												"value": "aria-expanded"
+											},
+											{
+												"type": "literal",
+												"value": "aria-flowto"
+											},
+											{
+												"type": "literal",
+												"value": "aria-grabbed"
+											},
+											{
+												"type": "literal",
+												"value": "aria-haspopup"
+											},
+											{
+												"type": "literal",
+												"value": "aria-hidden"
+											},
+											{
+												"type": "literal",
+												"value": "aria-invalid"
+											},
+											{
+												"type": "literal",
+												"value": "aria-keyshortcuts"
+											},
+											{
+												"type": "literal",
+												"value": "aria-label"
+											},
+											{
+												"type": "literal",
+												"value": "aria-labelledby"
+											},
+											{
+												"type": "literal",
+												"value": "aria-level"
+											},
+											{
+												"type": "literal",
+												"value": "aria-live"
+											},
+											{
+												"type": "literal",
+												"value": "aria-modal"
+											},
+											{
+												"type": "literal",
+												"value": "aria-multiline"
+											},
+											{
+												"type": "literal",
+												"value": "aria-multiselectable"
+											},
+											{
+												"type": "literal",
+												"value": "aria-orientation"
+											},
+											{
+												"type": "literal",
+												"value": "aria-owns"
+											},
+											{
+												"type": "literal",
+												"value": "aria-placeholder"
+											},
+											{
+												"type": "literal",
+												"value": "aria-posinset"
+											},
+											{
+												"type": "literal",
+												"value": "aria-pressed"
+											},
+											{
+												"type": "literal",
+												"value": "aria-readonly"
+											},
+											{
+												"type": "literal",
+												"value": "aria-relevant"
+											},
+											{
+												"type": "literal",
+												"value": "aria-required"
+											},
+											{
+												"type": "literal",
+												"value": "aria-roledescription"
+											},
+											{
+												"type": "literal",
+												"value": "aria-rowcount"
+											},
+											{
+												"type": "literal",
+												"value": "aria-rowindex"
+											},
+											{
+												"type": "literal",
+												"value": "aria-rowspan"
+											},
+											{
+												"type": "literal",
+												"value": "aria-selected"
+											},
+											{
+												"type": "literal",
+												"value": "aria-setsize"
+											},
+											{
+												"type": "literal",
+												"value": "aria-sort"
+											},
+											{
+												"type": "literal",
+												"value": "aria-valuemax"
+											},
+											{
+												"type": "literal",
+												"value": "aria-valuemin"
+											},
+											{
+												"type": "literal",
+												"value": "aria-valuenow"
+											},
+											{
+												"type": "literal",
+												"value": "aria-valuetext"
+											},
+											{
+												"type": "literal",
+												"value": "children"
+											},
+											{
+												"type": "literal",
+												"value": "dangerouslySetInnerHTML"
+											},
+											{
+												"type": "literal",
+												"value": "onCopy"
+											},
+											{
+												"type": "literal",
+												"value": "onCopyCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onCut"
+											},
+											{
+												"type": "literal",
+												"value": "onCutCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onPaste"
+											},
+											{
+												"type": "literal",
+												"value": "onPasteCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onCompositionEnd"
+											},
+											{
+												"type": "literal",
+												"value": "onCompositionEndCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onCompositionStart"
+											},
+											{
+												"type": "literal",
+												"value": "onCompositionStartCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onCompositionUpdate"
+											},
+											{
+												"type": "literal",
+												"value": "onCompositionUpdateCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onFocus"
+											},
+											{
+												"type": "literal",
+												"value": "onFocusCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onBlur"
+											},
+											{
+												"type": "literal",
+												"value": "onBlurCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onChange"
+											},
+											{
+												"type": "literal",
+												"value": "onChangeCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onBeforeInput"
+											},
+											{
+												"type": "literal",
+												"value": "onBeforeInputCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onInput"
+											},
+											{
+												"type": "literal",
+												"value": "onInputCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onReset"
+											},
+											{
+												"type": "literal",
+												"value": "onResetCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onSubmit"
+											},
+											{
+												"type": "literal",
+												"value": "onSubmitCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onInvalid"
+											},
+											{
+												"type": "literal",
+												"value": "onInvalidCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onLoad"
+											},
+											{
+												"type": "literal",
+												"value": "onLoadCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onError"
+											},
+											{
+												"type": "literal",
+												"value": "onErrorCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onKeyDown"
+											},
+											{
+												"type": "literal",
+												"value": "onKeyDownCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onKeyPress"
+											},
+											{
+												"type": "literal",
+												"value": "onKeyPressCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onKeyUp"
+											},
+											{
+												"type": "literal",
+												"value": "onKeyUpCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onAbort"
+											},
+											{
+												"type": "literal",
+												"value": "onAbortCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onCanPlay"
+											},
+											{
+												"type": "literal",
+												"value": "onCanPlayCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onCanPlayThrough"
+											},
+											{
+												"type": "literal",
+												"value": "onCanPlayThroughCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onDurationChange"
+											},
+											{
+												"type": "literal",
+												"value": "onDurationChangeCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onEmptied"
+											},
+											{
+												"type": "literal",
+												"value": "onEmptiedCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onEncrypted"
+											},
+											{
+												"type": "literal",
+												"value": "onEncryptedCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onEnded"
+											},
+											{
+												"type": "literal",
+												"value": "onEndedCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onLoadedData"
+											},
+											{
+												"type": "literal",
+												"value": "onLoadedDataCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onLoadedMetadata"
+											},
+											{
+												"type": "literal",
+												"value": "onLoadedMetadataCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onLoadStart"
+											},
+											{
+												"type": "literal",
+												"value": "onLoadStartCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onPause"
+											},
+											{
+												"type": "literal",
+												"value": "onPauseCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onPlay"
+											},
+											{
+												"type": "literal",
+												"value": "onPlayCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onPlaying"
+											},
+											{
+												"type": "literal",
+												"value": "onPlayingCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onProgress"
+											},
+											{
+												"type": "literal",
+												"value": "onProgressCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onRateChange"
+											},
+											{
+												"type": "literal",
+												"value": "onRateChangeCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onSeeked"
+											},
+											{
+												"type": "literal",
+												"value": "onSeekedCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onSeeking"
+											},
+											{
+												"type": "literal",
+												"value": "onSeekingCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onStalled"
+											},
+											{
+												"type": "literal",
+												"value": "onStalledCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onSuspend"
+											},
+											{
+												"type": "literal",
+												"value": "onSuspendCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onTimeUpdate"
+											},
+											{
+												"type": "literal",
+												"value": "onTimeUpdateCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onVolumeChange"
+											},
+											{
+												"type": "literal",
+												"value": "onVolumeChangeCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onWaiting"
+											},
+											{
+												"type": "literal",
+												"value": "onWaitingCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onAuxClick"
+											},
+											{
+												"type": "literal",
+												"value": "onAuxClickCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onClick"
+											},
+											{
+												"type": "literal",
+												"value": "onClickCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onContextMenu"
+											},
+											{
+												"type": "literal",
+												"value": "onContextMenuCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onDoubleClick"
+											},
+											{
+												"type": "literal",
+												"value": "onDoubleClickCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onDrag"
+											},
+											{
+												"type": "literal",
+												"value": "onDragCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onDragEnd"
+											},
+											{
+												"type": "literal",
+												"value": "onDragEndCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onDragEnter"
+											},
+											{
+												"type": "literal",
+												"value": "onDragEnterCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onDragExit"
+											},
+											{
+												"type": "literal",
+												"value": "onDragExitCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onDragLeave"
+											},
+											{
+												"type": "literal",
+												"value": "onDragLeaveCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onDragOver"
+											},
+											{
+												"type": "literal",
+												"value": "onDragOverCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onDragStart"
+											},
+											{
+												"type": "literal",
+												"value": "onDragStartCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onDrop"
+											},
+											{
+												"type": "literal",
+												"value": "onDropCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onMouseDown"
+											},
+											{
+												"type": "literal",
+												"value": "onMouseDownCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onMouseEnter"
+											},
+											{
+												"type": "literal",
+												"value": "onMouseLeave"
+											},
+											{
+												"type": "literal",
+												"value": "onMouseMove"
+											},
+											{
+												"type": "literal",
+												"value": "onMouseMoveCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onMouseOut"
+											},
+											{
+												"type": "literal",
+												"value": "onMouseOutCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onMouseOver"
+											},
+											{
+												"type": "literal",
+												"value": "onMouseOverCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onMouseUp"
+											},
+											{
+												"type": "literal",
+												"value": "onMouseUpCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onSelect"
+											},
+											{
+												"type": "literal",
+												"value": "onSelectCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onTouchCancel"
+											},
+											{
+												"type": "literal",
+												"value": "onTouchCancelCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onTouchEnd"
+											},
+											{
+												"type": "literal",
+												"value": "onTouchEndCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onTouchMove"
+											},
+											{
+												"type": "literal",
+												"value": "onTouchMoveCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onTouchStart"
+											},
+											{
+												"type": "literal",
+												"value": "onTouchStartCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerDown"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerDownCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerMove"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerMoveCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerUp"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerUpCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerCancel"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerCancelCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerEnter"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerEnterCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerLeave"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerLeaveCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerOver"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerOverCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerOut"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerOutCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onGotPointerCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onGotPointerCaptureCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onLostPointerCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onLostPointerCaptureCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onScroll"
+											},
+											{
+												"type": "literal",
+												"value": "onScrollCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onWheel"
+											},
+											{
+												"type": "literal",
+												"value": "onWheelCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onAnimationStart"
+											},
+											{
+												"type": "literal",
+												"value": "onAnimationStartCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onAnimationEnd"
+											},
+											{
+												"type": "literal",
+												"value": "onAnimationEndCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onAnimationIteration"
+											},
+											{
+												"type": "literal",
+												"value": "onAnimationIterationCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onTransitionEnd"
+											},
+											{
+												"type": "literal",
+												"value": "onTransitionEndCapture"
+											},
+											{
+												"type": "literal",
+												"value": "css"
+											},
+											{
+												"type": "literal",
+												"value": "key"
+											},
+											{
+												"type": "literal",
+												"value": "closeDelay"
+											},
+											{
+												"type": "literal",
+												"value": "anchorEl"
+											},
+											{
+												"type": "literal",
+												"value": "container"
+											},
+											{
+												"type": "literal",
+												"value": "defaultOpen"
+											},
+											{
+												"type": "literal",
+												"value": "disablePortal"
+											},
+											{
+												"type": "literal",
+												"value": "openDelay"
+											},
+											{
+												"type": "literal",
+												"value": "openNextDelay"
+											},
+											{
+												"type": "literal",
+												"value": "hideOverlay"
+											},
+											{
+												"type": "literal",
+												"value": "keepMounted"
+											},
+											{
+												"type": "literal",
+												"value": "onClose"
+											},
+											{
+												"type": "literal",
+												"value": "onOpen"
+											},
+											{
+												"type": "literal",
+												"value": "offset"
+											},
+											{
+												"type": "literal",
+												"value": "placement"
+											},
+											{
+												"type": "literal",
+												"value": "popperModifiers"
+											},
+											{
+												"type": "literal",
+												"value": "popperOptions"
+											},
+											{
+												"type": "literal",
+												"value": "menu"
+											},
+											{
+												"type": "literal",
+												"value": "disableClick"
+											},
+											{
+												"type": "literal",
+												"value": "enablePortal"
+											},
+											{
+												"type": "literal",
+												"value": "icon"
+											},
+											{
+												"type": "literal",
+												"value": "listenHover"
+											},
+											{
+												"type": "literal",
+												"value": "mergeEffect"
+											},
+											{
+												"type": "literal",
+												"value": "shadow"
+											}
+										]
+									}
+								],
+								"name": "Pick"
+							},
+							{
+								"type": "reflection",
+								"declaration": {
+									"id": 38,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {}
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": 43,
+					"name": "onClose",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 44,
+							"name": "__type",
+							"kind": 65536,
+							"kindString": "Type literal",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 45,
+									"name": "__type",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "`onClose` trigger function for when the calendar popover closes"
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 40,
+					"name": "onOpen",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 41,
+							"name": "__type",
+							"kind": 65536,
+							"kindString": "Type literal",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 42,
+									"name": "__type",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "`onOpen` trigger function for when the calendar popover opens"
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 46,
+					"name": "placement",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Placement of the sub menu"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "bottom-end"
+							},
+							{
+								"type": "literal",
+								"value": "bottom-start"
+							},
+							{
+								"type": "literal",
+								"value": "bottom"
+							},
+							{
+								"type": "literal",
+								"value": "left-end"
+							},
+							{
+								"type": "literal",
+								"value": "left-start"
+							},
+							{
+								"type": "literal",
+								"value": "left"
+							},
+							{
+								"type": "literal",
+								"value": "right-end"
+							},
+							{
+								"type": "literal",
+								"value": "right-start"
+							},
+							{
+								"type": "literal",
+								"value": "right"
+							},
+							{
+								"type": "literal",
+								"value": "top-end"
+							},
+							{
+								"type": "literal",
+								"value": "top-start"
+							},
+							{
+								"type": "literal",
+								"value": "top"
+							}
+						]
+					}
+				},
+				{
+					"id": 48,
+					"name": "shape",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Shape of the component"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "rounded"
+							},
+							{
+								"type": "literal",
+								"value": "squared"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "MenuProps.shape"
+					}
+				},
+				{
+					"id": 54,
+					"name": "width",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Width override for ListWrapper\nCan be given a token (such as `size_128`) or other value (like `15rem`)"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "MenuProps.width"
+					}
+				},
+				{
+					"id": 50,
+					"name": "renderItem",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 51,
+							"name": "renderItem",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "List item to render"
+							},
+							"parameters": [
+								{
+									"id": 52,
+									"name": "props",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"name": "MenuItemProps"
+									}
+								},
+								{
+									"id": 53,
+									"name": "ref",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "Ref"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "reference",
+										"name": "MenuItemProps"
+									}
+								],
+								"name": "ForwardRefExoticComponent"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "MenuProps.renderItem"
+							}
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "MenuProps.renderItem"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						55,
+						47,
+						49,
+						34,
+						39,
+						35,
+						37,
+						43,
+						40,
+						46,
+						48,
+						54
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						50
+					]
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"name": "MenuProps"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"name": "MenuPopoverRef",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"type": {
+				"type": "reference",
+				"name": "PopoverRef"
+			}
+		},
+		{
+			"id": 56,
+			"name": "SubMenuRef",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"type": {
+				"type": "reference",
+				"name": "MenuRef"
+			}
+		},
+		{
+			"id": 1,
+			"name": "MenuPopover",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"comment": {
+				"shortText": "Backyard React Menu Popover",
+				"text": "`MenuPopover` provides the developer a simple way to anchor a `Menu` to a child and\nlisten for the user to click or hover over the anchor for the `Menu` to popover.\n\nPut the `Menu` in the required `menu` prop that you want to pop over.\n\nBy default the portal of a menu is disabled for SEO considerations. If the portal needs\nto be enabled for the menu to get portaled to the root DOM, use the `enablePortal` flag.\n\nThe opened or closed states can be controlled remotely from the anchor through the `open` prop.\n\nFor many sub menus to pop over within menus, a `SubMenu` that extends `MenuPopover` is provided to make\ndeep menus even simpler to handle. You only need one root `MenuPopover` that all child `SubMenu`s listen to.\n\nExample:\n```\n <Grid.Column sm={12} md={8} lg={6} xl={6}>\n     <MenuPopover\n         onOpen={action('onOpen')}\n         onClose={action('onClose')}\n         menu={(\n             <Menu>\n                 <MenuItem\n                     iconBefore={<Home />}\n                 >\n                     Home\n                 </MenuItem>\n                 <SubMenu label=\"Options\">\n                     <MenuItem>Level Two - One</MenuItem>\n                     <SubMenu label=\"Level Two - Next\">\n                         <MenuItem>Item 3-1</MenuItem>\n                         <MenuItem>Item 3-2</MenuItem>\n                         <SubMenu label=\"Item 3-3\">\n                             <MenuItem>Item 4-1</MenuItem>\n                             <MenuItem>Item 4-2</MenuItem>\n                         </SubMenu>\n                         <SubMenu label=\"Item 3-4\">\n                             <MenuItem>Item 4-1</MenuItem>\n                             <MenuItem>Item 4-2</MenuItem>\n                             <MenuItem>Item 4-3</MenuItem>\n                             <MenuItem>Item 4-4</MenuItem>\n                             <MenuItem>Item 4-5</MenuItem>\n                             <MenuItem>Item 4-6</MenuItem>\n                         </SubMenu>\n                         <MenuItem>Item 3-5</MenuItem>\n                     </SubMenu>\n                     <MenuItem>Level Two - Three</MenuItem>\n                     <MenuItem>Level Two - Four</MenuItem>\n                 </SubMenu>\n                 <MenuItem\n                     disabled\n                     iconBefore={<Download />}\n                 >\n                     Download\n                 </MenuItem>\n                 <MenuItem\n                     variant=\"primary\"\n                     color=\"error\"\n                     onClick={() => alert('You clicked me!')}\n                 >\n                     Alert\n                 </MenuItem>\n             </Menu>\n         )}\n     >\n         <IconButton\n             variant=\"ghost\"\n             color=\"subtle\"\n             size=\"small\"\n         >\n             <Dots />\n         </IconButton>\n     </MenuPopover>\n </Grid.Column>\n```\n"
+			},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"id": 3,
+						"name": "MenuPopoverProps"
+					}
+				],
+				"name": "BDSForwardRef"
+			},
+			"defaultValue": "..."
+		},
+		{
+			"id": 32,
+			"name": "SubMenu",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"comment": {
+				"shortText": "Backyard React Sub Menu",
+				"text": "`SubMenu` extends both `Menu` and `MenuPopover` to provide a simple way to make a\nfunctional deep menu for a user to navigate.\n\n`SubMenu` will use `disableClick` and `listenHover` from the outer most `MenuPopover` ancestor.\n\nExample:\n```\n <Grid.Column sm={12} md={8} lg={6} xl={6}>\n     <MenuPopover\n         onOpen={action('onOpen')}\n         onClose={action('onClose')}\n         menu={(\n             <Menu>\n                 <MenuItem\n                     iconBefore={<Home />}\n                 >\n                     Home\n                 </MenuItem>\n                 <SubMenu label=\"Options\">\n                     <MenuItem>Level Two - One</MenuItem>\n                     <SubMenu label=\"Level Two - Next\">\n                         <MenuItem>Item 3-1</MenuItem>\n                         <MenuItem>Item 3-2</MenuItem>\n                         <SubMenu label=\"Item 3-3\">\n                             <MenuItem>Item 4-1</MenuItem>\n                             <MenuItem>Item 4-2</MenuItem>\n                         </SubMenu>\n                         <SubMenu label=\"Item 3-4\">\n                             <MenuItem>Item 4-1</MenuItem>\n                             <MenuItem>Item 4-2</MenuItem>\n                             <MenuItem>Item 4-3</MenuItem>\n                             <MenuItem>Item 4-4</MenuItem>\n                             <MenuItem>Item 4-5</MenuItem>\n                             <MenuItem>Item 4-6</MenuItem>\n                         </SubMenu>\n                         <MenuItem>Item 3-5</MenuItem>\n                     </SubMenu>\n                     <MenuItem>Level Two - Three</MenuItem>\n                     <MenuItem>Level Two - Four</MenuItem>\n                 </SubMenu>\n                 <MenuItem\n                     disabled\n                     iconBefore={<Download />}\n                 >\n                     Download\n                 </MenuItem>\n                 <MenuItem\n                     variant=\"primary\"\n                     color=\"error\"\n                     onClick={() => alert('You clicked me!')}\n                 >\n                     Alert\n                 </MenuItem>\n             </Menu>\n         )}\n     >\n         <IconButton\n             variant=\"ghost\"\n             color=\"subtle\"\n             size=\"small\"\n         >\n             <Dots />\n         </IconButton>\n     </MenuPopover>\n </Grid.Column>\n```\n"
+			},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"id": 33,
+						"name": "SubMenuProps"
+					}
+				],
+				"name": "BDSForwardRef"
+			},
+			"defaultValue": "..."
+		}
+	],
+	"groups": [
+		{
+			"title": "References",
+			"kind": 16777216,
+			"children": [
+				57
+			]
+		},
+		{
+			"title": "Interfaces",
+			"kind": 256,
+			"children": [
+				3,
+				33
+			]
+		},
+		{
+			"title": "Type aliases",
+			"kind": 4194304,
+			"children": [
+				2,
+				56
+			]
+		},
+		{
+			"title": "Variables",
+			"kind": 32,
+			"children": [
+				1,
+				32
+			]
+		}
+	]
+}

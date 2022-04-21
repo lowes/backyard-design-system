@@ -1,0 +1,3182 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown Snapshots render children 1`] = `
+<DocumentFragment>
+  .c4 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c4:not(.color-override) g,
+.c4:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c4:not(.color-override) g[stroke-width],
+.c4:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c4:not(.color-override) g[stroke-width] *,
+.c4:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c4.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c4.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c1 {
+  border: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  vertical-align: top;
+  padding: 0;
+  position: relative;
+}
+
+.c1 select,
+.c1 legend,
+.c1 label,
+.c1 span,
+.c1 .suffix {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+  color: var(--bds-color-text-primary);
+}
+
+.c1 svg {
+  box-sizing: border-box;
+}
+
+.c1 select {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  padding-left: var(--bds-sizes-size-16);
+  padding-right: var(--bds-sizes-size-40);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+}
+
+.c1.item--before select {
+  padding-left: var(--bds-sizes-size-40);
+}
+
+.c1 .item--before {
+  position: absolute;
+  top: var(--bds-sizes-size-16);
+  left: var(--bds-sizes-size-16);
+}
+
+.c1 .item--after {
+  position: absolute;
+  top: var(--bds-sizes-size-16);
+  right: var(--bds-sizes-size-16);
+}
+
+.c1.size--small .item--after,
+.c1.size--small .item--before {
+  top: var(--bds-sizes-size-14);
+}
+
+.c1.size--large .item--after,
+.c1.size--large .item--before {
+  top: var(--bds-sizes-size-20);
+}
+
+.c1.size--jumbo .item--after,
+.c1.size--jumbo .item--before {
+  top: 1.375rem;
+}
+
+.c1.state--error svg.item--after path {
+  fill: var(--bds-color-icon-red);
+}
+
+.c1.has--placeholder label {
+  display: none;
+}
+
+.c1.has--placeholder legend {
+  display: none;
+}
+
+.c1.stacked label.input-label.incomplete,
+.c1.stacked label.input-label.interaction--completed,
+.c1.stacked label.input-label.interaction--active,
+.c1.stacked label.input-label.completed,
+.c1.stacked label.input-label.interaction--focused {
+  top: var(--bds-sizes-size-12);
+  left: var(--bds-sizes-size-16);
+  font-size: var(--bds-sizes-size-16);
+}
+
+.c1.stacked label.input-label.incomplete.size--small,
+.c1.stacked label.input-label.interaction--completed.size--small,
+.c1.stacked label.input-label.interaction--active.size--small,
+.c1.stacked label.input-label.completed.size--small,
+.c1.stacked label.input-label.interaction--focused.size--small {
+  top: var(--bds-sizes-size-8);
+}
+
+.c1.stacked label.input-label.incomplete.size--large,
+.c1.stacked label.input-label.interaction--completed.size--large,
+.c1.stacked label.input-label.interaction--active.size--large,
+.c1.stacked label.input-label.completed.size--large,
+.c1.stacked label.input-label.interaction--focused.size--large {
+  top: var(--bds-sizes-size-16);
+}
+
+.c1.stacked label.input-label.incomplete.size--jumbo,
+.c1.stacked label.input-label.interaction--completed.size--jumbo,
+.c1.stacked label.input-label.interaction--active.size--jumbo,
+.c1.stacked label.input-label.completed.size--jumbo,
+.c1.stacked label.input-label.interaction--focused.size--jumbo {
+  top: var(--bds-sizes-size-20);
+  font-size: var(--bds-sizes-size-20);
+}
+
+.c1.stacked .text-input-fieldset legend {
+  max-width: 0.01px;
+  padding: 0;
+}
+
+.c1.stacked select {
+  opacity: 0;
+}
+
+.c1.stacked .input-label {
+  font-weight: var(--bds-font-weight-semibold);
+  color: var(--bds-color-text-primary);
+}
+
+.c1.stacked .input-label .select--value {
+  margin-left: var(--bds-sizes-size-8);
+  color: var(--bds-color-text-primary);
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c1.stacked .input-label.state--error {
+  color: var(--bds-color-text-red);
+}
+
+.c5 {
+  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  position: absolute;
+  height: var(--bds-sizes-size-48);
+  border-style: solid;
+  border-width: var(--bds-border-width-sm);
+  border-radius: var(--bds-border-radius-lg);
+  border-color: var(--bds-color-border-default);
+  pointer-events: none;
+  box-sizing: border-box;
+}
+
+.c5 legend {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  box-sizing: border-box;
+  width: auto;
+  height: var(--bds-sizes-size-1);
+  display: block;
+  max-width: 0.01px;
+  visibility: hidden;
+  font-size: var(--bds-sizes-size-14);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c5 legend span {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c5.interaction--focused legend,
+.c5.interaction--active legend,
+.c5.interaction--completed legend,
+.c5.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-8);
+}
+
+.c5.interaction--focused legend span,
+.c5.interaction--active legend span,
+.c5.interaction--completed legend span,
+.c5.completed legend span {
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c5.interaction--focused,
+.c5.interaction--active {
+  border-color: var(--bds-color-border-interactive);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c5.interaction--completed,
+.c5.completed {
+  border-color: var(--bds-color-border-default);
+}
+
+.c5.interaction--active.completed {
+  border-color: var(--bds-color-border-interactive);
+}
+
+.c5.size--medium {
+  height: var(--bds-sizes-size-48);
+}
+
+.c5.size--medium.interaction--focused legend,
+.c5.size--medium.interaction--active legend,
+.c5.size--medium.interaction--completed legend,
+.c5.size--medium.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c5.size--medium.interaction--focused legend span,
+.c5.size--medium.interaction--active legend span,
+.c5.size--medium.interaction--completed legend span,
+.c5.size--medium.completed legend span {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c5.size--small {
+  height: var(--bds-sizes-size-40);
+}
+
+.c5.size--small.interaction--focused legend,
+.c5.size--small.interaction--active legend,
+.c5.size--small.interaction--completed legend,
+.c5.size--small.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c5.size--small.interaction--focused legend span,
+.c5.size--small.interaction--active legend span,
+.c5.size--small.interaction--completed legend span,
+.c5.size--small.completed legend span {
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c5.size--large {
+  height: var(--bds-sizes-size-56);
+}
+
+.c5.size--large.interaction--focused legend,
+.c5.size--large.interaction--active legend,
+.c5.size--large.interaction--completed legend,
+.c5.size--large.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c5.size--large.interaction--focused legend span,
+.c5.size--large.interaction--active legend span,
+.c5.size--large.interaction--completed legend span,
+.c5.size--large.completed legend span {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c5.size--jumbo {
+  height: var(--bds-sizes-size-64);
+}
+
+.c5.size--jumbo.interaction--focused legend,
+.c5.size--jumbo.interaction--active legend,
+.c5.size--jumbo.interaction--completed legend,
+.c5.size--jumbo.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c5.size--jumbo.interaction--focused legend span,
+.c5.size--jumbo.interaction--active legend span,
+.c5.size--jumbo.interaction--completed legend span,
+.c5.size--jumbo.completed legend span {
+  font-size: var(--bds-sizes-size-20);
+}
+
+.c3 {
+  position: relative;
+  height: 48px;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3:hover fieldset {
+  border-color: var(--bds-color-border-interactive);
+}
+
+.c3:focus fieldset {
+  border-color: var(--bds-color-border-interactive);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c3.state--error fieldset {
+  border-color: var(--bds-color-border-red);
+}
+
+.c3.state--error svg.icon--before path,
+.c3.state--error svg.icon--before circle {
+  fill: var(--bds-color-icon-red);
+}
+
+.c3.state--error:focus fieldset {
+  border-color: var(--bds-color-border-red);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c3 svg.icon {
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+}
+
+.c3 svg.icon path,
+.c3 svg.icon circle {
+  fill: var(--bds-color-icon-tertiary);
+}
+
+.c3 svg.icon.icon--success path,
+.c3 svg.icon.icon--success circle {
+  fill: var(--bds-color-icon-green);
+}
+
+.c3 svg.icon.icon--error path,
+.c3 svg.icon.icon--error circle {
+  fill: var(--bds-color-icon-red);
+}
+
+.c3.size--small {
+  height: var(--bds-sizes-size-40);
+}
+
+.c3.size--small svg.icon {
+  height: 14px;
+  width: 14px;
+}
+
+.c3.size--small .suffix {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c3.size--large {
+  height: var(--bds-sizes-size-56);
+}
+
+.c3.size--jumbo {
+  height: var(--bds-sizes-size-64);
+}
+
+.c3.size--jumbo svg.icon {
+  height: 20px;
+  width: 20px;
+}
+
+.c3.size--jumbo .suffix {
+  font-size: var(--bds-sizes-size-24);
+}
+
+.c3.size--jumbo input,
+.c3.size--jumbo textarea {
+  font-size: var(--bds-sizes-size-24);
+  line-height: var(--bds-sizes-size-32);
+}
+
+.c3 svg.icon--error + .suffix,
+.c3 svg.icon--success + .suffix {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c2 {
+  z-index: 1;
+  pointer-events: none;
+  top: 12px;
+  left: 16px;
+  position: absolute;
+  display: block;
+  color: var(--bds-color-text-tertiary);
+  padding: 0;
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+  font-weight: var(--bds-font-weight-regular);
+  -webkit-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+
+.c2.with-icon-before {
+  left: 40px;
+}
+
+.c2.interaction--focused,
+.c2.interaction--active,
+.c2.interaction--completed {
+  top: -12px;
+  left: 16px;
+  font-size: var(--bds-sizes-size-14);
+  color: var(--bds-color-text-interactive);
+}
+
+.c2.interaction--completed {
+  color: var(--bds-color-text-tertiary);
+}
+
+.c2.size--small {
+  top: 8px;
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c2.size--small.interaction--focused,
+.c2.size--small.interaction--active,
+.c2.size--small.interaction--completed {
+  top: -12px;
+  left: 16px;
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c2.size--large {
+  top: 16px;
+}
+
+.c2.size--large.interaction--focused,
+.c2.size--large.interaction--active,
+.c2.size--large.interaction--completed {
+  top: -12px;
+}
+
+.c2.size--jumbo {
+  font-size: var(--bds-sizes-size-24);
+  top: 20px;
+}
+
+.c2.size--jumbo.interaction--focused,
+.c2.size--jumbo.interaction--active,
+.c2.size--jumbo.interaction--completed {
+  font-size: var(--bds-sizes-size-20);
+  top: -12px;
+}
+
+.c2.state--error {
+  color: var(--bds-color-text-red);
+}
+
+.c0 {
+  position: relative;
+}
+
+.c0 label.completed {
+  top: -12px;
+  left: 16px;
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c0 label.completed.size--small {
+  top: -12px;
+  left: 16px;
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c0 label.completed.size--large {
+  top: -12px;
+}
+
+.c0 label.completed.size--jumbo {
+  font-size: var(--bds-sizes-size-20);
+  top: -12px;
+}
+
+.c0 fieldset.open {
+  border-color: var(--bds-color-border-interactive);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c0 .list-selector {
+  padding-left: 0;
+}
+
+.c0 .popover--wrapper {
+  padding: var(--bds-sizes-size-8) 0;
+  width: 100%;
+  max-height: calc(var(--bds-sizes-size-16) * 16.5);
+  border: 1px solid var(--bds-color-border-subdued);
+  background-color: var(--bds-color-elevation-04);
+  box-shadow: var(--bds-shadows-shadow-04);
+  overflow: auto;
+  -webkit-transform: translate(0px,50px);
+  -ms-transform: translate(0px,50px);
+  transform: translate(0px,50px);
+}
+
+.c0 .popover--wrapper.shape--rounded {
+  border-radius: var(--bds-border-radius-lg);
+}
+
+.c0 .popover--wrapper.shape--squared {
+  border-radius: 0;
+}
+
+<div
+    class="c0 dropdown--wrapper shape--rounded"
+  >
+    <div
+      class="c1 backyard select--wrapper shape--rounded size--medium"
+    >
+      <label
+        class="c2 input-label size--medium state--default incomplete interaction--completed"
+        for="1"
+      />
+      <div
+        class="c3 form-control shape--rounded size--medium interaction--completed"
+      >
+        <select
+          aria-label="1"
+          class="select--input completed"
+          data-testid="dropdown"
+          id="1"
+        >
+          <option
+            class="select-option"
+            disabled=""
+            value=""
+          />
+          <option
+            class="select-option"
+            tabindex="-1"
+            value="1"
+          >
+            Option 1
+          </option>
+          <option
+            class="select-option"
+            tabindex="-1"
+            value="2"
+          >
+            Option 2
+          </option>
+          <option
+            class="select-option"
+            tabindex="-1"
+            value="3"
+          >
+            Option 3
+          </option>
+          <option
+            class="select-option"
+            tabindex="-1"
+            value="4"
+          >
+            Option 4
+          </option>
+        </select>
+        <svg
+          aria-hidden="true"
+          class="c4 icon icon-triangle-down select--arrow item--after"
+          role="presentation"
+          style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(0, 0%, 0%, 1);"
+          viewBox="0 0 16 16"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M13.1865 4.2923c.7132 0 1.046.5626.6339 1.0577l-5.0236 6.0201c-.3486.4613-1.236.4388-1.6006 0l-5.0236-6.02c-.3962-.4614-.0793-1.0578.6339-1.0578h10.38Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <fieldset
+          aria-hidden="true"
+          class="c5 text-input-fieldset size--medium closed incomplete interaction--completed"
+        >
+          <legend>
+            <span />
+          </legend>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Dropdown Snapshots render no options 1`] = `
+<DocumentFragment>
+  .c4 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c4:not(.color-override) g,
+.c4:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c4:not(.color-override) g[stroke-width],
+.c4:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c4:not(.color-override) g[stroke-width] *,
+.c4:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c4.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c4.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c1 {
+  border: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  vertical-align: top;
+  padding: 0;
+  position: relative;
+}
+
+.c1 select,
+.c1 legend,
+.c1 label,
+.c1 span,
+.c1 .suffix {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+  color: var(--bds-color-text-primary);
+}
+
+.c1 svg {
+  box-sizing: border-box;
+}
+
+.c1 select {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  padding-left: var(--bds-sizes-size-16);
+  padding-right: var(--bds-sizes-size-40);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+}
+
+.c1.item--before select {
+  padding-left: var(--bds-sizes-size-40);
+}
+
+.c1 .item--before {
+  position: absolute;
+  top: var(--bds-sizes-size-16);
+  left: var(--bds-sizes-size-16);
+}
+
+.c1 .item--after {
+  position: absolute;
+  top: var(--bds-sizes-size-16);
+  right: var(--bds-sizes-size-16);
+}
+
+.c1.size--small .item--after,
+.c1.size--small .item--before {
+  top: var(--bds-sizes-size-14);
+}
+
+.c1.size--large .item--after,
+.c1.size--large .item--before {
+  top: var(--bds-sizes-size-20);
+}
+
+.c1.size--jumbo .item--after,
+.c1.size--jumbo .item--before {
+  top: 1.375rem;
+}
+
+.c1.state--error svg.item--after path {
+  fill: var(--bds-color-icon-red);
+}
+
+.c1.has--placeholder label {
+  display: none;
+}
+
+.c1.has--placeholder legend {
+  display: none;
+}
+
+.c1.stacked label.input-label.incomplete,
+.c1.stacked label.input-label.interaction--completed,
+.c1.stacked label.input-label.interaction--active,
+.c1.stacked label.input-label.completed,
+.c1.stacked label.input-label.interaction--focused {
+  top: var(--bds-sizes-size-12);
+  left: var(--bds-sizes-size-16);
+  font-size: var(--bds-sizes-size-16);
+}
+
+.c1.stacked label.input-label.incomplete.size--small,
+.c1.stacked label.input-label.interaction--completed.size--small,
+.c1.stacked label.input-label.interaction--active.size--small,
+.c1.stacked label.input-label.completed.size--small,
+.c1.stacked label.input-label.interaction--focused.size--small {
+  top: var(--bds-sizes-size-8);
+}
+
+.c1.stacked label.input-label.incomplete.size--large,
+.c1.stacked label.input-label.interaction--completed.size--large,
+.c1.stacked label.input-label.interaction--active.size--large,
+.c1.stacked label.input-label.completed.size--large,
+.c1.stacked label.input-label.interaction--focused.size--large {
+  top: var(--bds-sizes-size-16);
+}
+
+.c1.stacked label.input-label.incomplete.size--jumbo,
+.c1.stacked label.input-label.interaction--completed.size--jumbo,
+.c1.stacked label.input-label.interaction--active.size--jumbo,
+.c1.stacked label.input-label.completed.size--jumbo,
+.c1.stacked label.input-label.interaction--focused.size--jumbo {
+  top: var(--bds-sizes-size-20);
+  font-size: var(--bds-sizes-size-20);
+}
+
+.c1.stacked .text-input-fieldset legend {
+  max-width: 0.01px;
+  padding: 0;
+}
+
+.c1.stacked select {
+  opacity: 0;
+}
+
+.c1.stacked .input-label {
+  font-weight: var(--bds-font-weight-semibold);
+  color: var(--bds-color-text-primary);
+}
+
+.c1.stacked .input-label .select--value {
+  margin-left: var(--bds-sizes-size-8);
+  color: var(--bds-color-text-primary);
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c1.stacked .input-label.state--error {
+  color: var(--bds-color-text-red);
+}
+
+.c5 {
+  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  position: absolute;
+  height: var(--bds-sizes-size-48);
+  border-style: solid;
+  border-width: var(--bds-border-width-sm);
+  border-radius: var(--bds-border-radius-lg);
+  border-color: var(--bds-color-border-default);
+  pointer-events: none;
+  box-sizing: border-box;
+}
+
+.c5 legend {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  box-sizing: border-box;
+  width: auto;
+  height: var(--bds-sizes-size-1);
+  display: block;
+  max-width: 0.01px;
+  visibility: hidden;
+  font-size: var(--bds-sizes-size-14);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c5 legend span {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c5.interaction--focused legend,
+.c5.interaction--active legend,
+.c5.interaction--completed legend,
+.c5.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-8);
+}
+
+.c5.interaction--focused legend span,
+.c5.interaction--active legend span,
+.c5.interaction--completed legend span,
+.c5.completed legend span {
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c5.interaction--focused,
+.c5.interaction--active {
+  border-color: var(--bds-color-border-interactive);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c5.interaction--completed,
+.c5.completed {
+  border-color: var(--bds-color-border-default);
+}
+
+.c5.interaction--active.completed {
+  border-color: var(--bds-color-border-interactive);
+}
+
+.c5.size--medium {
+  height: var(--bds-sizes-size-48);
+}
+
+.c5.size--medium.interaction--focused legend,
+.c5.size--medium.interaction--active legend,
+.c5.size--medium.interaction--completed legend,
+.c5.size--medium.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c5.size--medium.interaction--focused legend span,
+.c5.size--medium.interaction--active legend span,
+.c5.size--medium.interaction--completed legend span,
+.c5.size--medium.completed legend span {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c5.size--small {
+  height: var(--bds-sizes-size-40);
+}
+
+.c5.size--small.interaction--focused legend,
+.c5.size--small.interaction--active legend,
+.c5.size--small.interaction--completed legend,
+.c5.size--small.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c5.size--small.interaction--focused legend span,
+.c5.size--small.interaction--active legend span,
+.c5.size--small.interaction--completed legend span,
+.c5.size--small.completed legend span {
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c5.size--large {
+  height: var(--bds-sizes-size-56);
+}
+
+.c5.size--large.interaction--focused legend,
+.c5.size--large.interaction--active legend,
+.c5.size--large.interaction--completed legend,
+.c5.size--large.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c5.size--large.interaction--focused legend span,
+.c5.size--large.interaction--active legend span,
+.c5.size--large.interaction--completed legend span,
+.c5.size--large.completed legend span {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c5.size--jumbo {
+  height: var(--bds-sizes-size-64);
+}
+
+.c5.size--jumbo.interaction--focused legend,
+.c5.size--jumbo.interaction--active legend,
+.c5.size--jumbo.interaction--completed legend,
+.c5.size--jumbo.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c5.size--jumbo.interaction--focused legend span,
+.c5.size--jumbo.interaction--active legend span,
+.c5.size--jumbo.interaction--completed legend span,
+.c5.size--jumbo.completed legend span {
+  font-size: var(--bds-sizes-size-20);
+}
+
+.c3 {
+  position: relative;
+  height: 48px;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3:hover fieldset {
+  border-color: var(--bds-color-border-interactive);
+}
+
+.c3:focus fieldset {
+  border-color: var(--bds-color-border-interactive);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c3.state--error fieldset {
+  border-color: var(--bds-color-border-red);
+}
+
+.c3.state--error svg.icon--before path,
+.c3.state--error svg.icon--before circle {
+  fill: var(--bds-color-icon-red);
+}
+
+.c3.state--error:focus fieldset {
+  border-color: var(--bds-color-border-red);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c3 svg.icon {
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+}
+
+.c3 svg.icon path,
+.c3 svg.icon circle {
+  fill: var(--bds-color-icon-tertiary);
+}
+
+.c3 svg.icon.icon--success path,
+.c3 svg.icon.icon--success circle {
+  fill: var(--bds-color-icon-green);
+}
+
+.c3 svg.icon.icon--error path,
+.c3 svg.icon.icon--error circle {
+  fill: var(--bds-color-icon-red);
+}
+
+.c3.size--small {
+  height: var(--bds-sizes-size-40);
+}
+
+.c3.size--small svg.icon {
+  height: 14px;
+  width: 14px;
+}
+
+.c3.size--small .suffix {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c3.size--large {
+  height: var(--bds-sizes-size-56);
+}
+
+.c3.size--jumbo {
+  height: var(--bds-sizes-size-64);
+}
+
+.c3.size--jumbo svg.icon {
+  height: 20px;
+  width: 20px;
+}
+
+.c3.size--jumbo .suffix {
+  font-size: var(--bds-sizes-size-24);
+}
+
+.c3.size--jumbo input,
+.c3.size--jumbo textarea {
+  font-size: var(--bds-sizes-size-24);
+  line-height: var(--bds-sizes-size-32);
+}
+
+.c3 svg.icon--error + .suffix,
+.c3 svg.icon--success + .suffix {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c2 {
+  z-index: 1;
+  pointer-events: none;
+  top: 12px;
+  left: 16px;
+  position: absolute;
+  display: block;
+  color: var(--bds-color-text-tertiary);
+  padding: 0;
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+  font-weight: var(--bds-font-weight-regular);
+  -webkit-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+
+.c2.with-icon-before {
+  left: 40px;
+}
+
+.c2.interaction--focused,
+.c2.interaction--active,
+.c2.interaction--completed {
+  top: -12px;
+  left: 16px;
+  font-size: var(--bds-sizes-size-14);
+  color: var(--bds-color-text-interactive);
+}
+
+.c2.interaction--completed {
+  color: var(--bds-color-text-tertiary);
+}
+
+.c2.size--small {
+  top: 8px;
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c2.size--small.interaction--focused,
+.c2.size--small.interaction--active,
+.c2.size--small.interaction--completed {
+  top: -12px;
+  left: 16px;
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c2.size--large {
+  top: 16px;
+}
+
+.c2.size--large.interaction--focused,
+.c2.size--large.interaction--active,
+.c2.size--large.interaction--completed {
+  top: -12px;
+}
+
+.c2.size--jumbo {
+  font-size: var(--bds-sizes-size-24);
+  top: 20px;
+}
+
+.c2.size--jumbo.interaction--focused,
+.c2.size--jumbo.interaction--active,
+.c2.size--jumbo.interaction--completed {
+  font-size: var(--bds-sizes-size-20);
+  top: -12px;
+}
+
+.c2.state--error {
+  color: var(--bds-color-text-red);
+}
+
+.c0 {
+  position: relative;
+}
+
+.c0 label.completed {
+  top: -12px;
+  left: 16px;
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c0 label.completed.size--small {
+  top: -12px;
+  left: 16px;
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c0 label.completed.size--large {
+  top: -12px;
+}
+
+.c0 label.completed.size--jumbo {
+  font-size: var(--bds-sizes-size-20);
+  top: -12px;
+}
+
+.c0 fieldset.open {
+  border-color: var(--bds-color-border-interactive);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c0 .list-selector {
+  padding-left: 0;
+}
+
+.c0 .popover--wrapper {
+  padding: var(--bds-sizes-size-8) 0;
+  width: 100%;
+  max-height: calc(var(--bds-sizes-size-16) * 16.5);
+  border: 1px solid var(--bds-color-border-subdued);
+  background-color: var(--bds-color-elevation-04);
+  box-shadow: var(--bds-shadows-shadow-04);
+  overflow: auto;
+  -webkit-transform: translate(0px,50px);
+  -ms-transform: translate(0px,50px);
+  transform: translate(0px,50px);
+}
+
+.c0 .popover--wrapper.shape--rounded {
+  border-radius: var(--bds-border-radius-lg);
+}
+
+.c0 .popover--wrapper.shape--squared {
+  border-radius: 0;
+}
+
+<div
+    class="c0 dropdown--wrapper shape--rounded"
+  >
+    <div
+      class="c1 backyard select--wrapper shape--rounded size--medium"
+    >
+      <label
+        class="c2 input-label size--medium state--default incomplete interaction--completed"
+        for="1"
+      />
+      <div
+        class="c3 form-control shape--rounded size--medium interaction--completed"
+      >
+        <select
+          aria-label="1"
+          class="select--input completed"
+          data-testid="dropdown"
+          id="1"
+        >
+          <option
+            class="select-option"
+            disabled=""
+            value=""
+          />
+        </select>
+        <svg
+          aria-hidden="true"
+          class="c4 icon icon-triangle-down select--arrow item--after"
+          role="presentation"
+          style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(0, 0%, 0%, 1);"
+          viewBox="0 0 16 16"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M13.1865 4.2923c.7132 0 1.046.5626.6339 1.0577l-5.0236 6.0201c-.3486.4613-1.236.4388-1.6006 0l-5.0236-6.02c-.3962-.4614-.0793-1.0578.6339-1.0578h10.38Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <fieldset
+          aria-hidden="true"
+          class="c5 text-input-fieldset size--medium closed incomplete interaction--completed"
+        >
+          <legend>
+            <span />
+          </legend>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Dropdown Snapshots render on desktop 1`] = `
+<DocumentFragment>
+  .c4 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c4:not(.color-override) g,
+.c4:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c4:not(.color-override) g[stroke-width],
+.c4:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c4:not(.color-override) g[stroke-width] *,
+.c4:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c4.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c4.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c9 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  cursor: pointer;
+  box-sizing: border-box;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  border-style: solid;
+  border-width: var(--bds-border-width-sm);
+  height: 100%;
+}
+
+.c9 .btn-label {
+  display: inherit;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  -webkit-letter-spacing: .015rem;
+  -moz-letter-spacing: .015rem;
+  -ms-letter-spacing: .015rem;
+  letter-spacing: .015rem;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c9 .btn-label > .btn-start-icon {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c9 .btn-label > .btn-end-icon {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c9 .btn-label > .btn-end-icon svg {
+  width: var(--bds-sizes-size-16);
+  height: var(--bds-sizes-size-16);
+}
+
+.c9 .btn-label > .btn-start-icon,
+.c9 .btn-label > .btn-end-icon,
+.c9 .btn-label > .icon {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c9.full-width {
+  width: 100%;
+  padding: var(--bds-sizes-size-12) var(--bds-sizes-size-32);
+}
+
+.c9.elevation {
+  box-shadow: var(--bds-shadows-shadow-03);
+}
+
+.c9.variant--primary:enabled,
+.c9.variant--primary.enabled {
+  background-color: var(--btn-base);
+  border-color: var(--btn-base);
+}
+
+.c9.variant--primary:enabled .btn-label,
+.c9.variant--primary.enabled .btn-label {
+  color: var(--btn-text);
+}
+
+.c9.variant--primary:enabled .btn-label .icon path,
+.c9.variant--primary.enabled .btn-label .icon path {
+  fill: var(--btn-icon);
+}
+
+.c9.variant--primary:hover,
+.c9.variant--primary.hover {
+  background-color: var(--btn-hover);
+  border-color: var(--btn-hover);
+}
+
+.c9.variant--primary:focus,
+.c9.variant--primary.focus {
+  box-shadow: inset 0 0 0 1px var(--btn-base),inset 0px 0 0 2px var(--btn-focus);
+}
+
+.c9.variant--primary:focus:hover,
+.c9.variant--primary.focus:hover {
+  box-shadow: inset 0 0 0 1px var(--btn-hover),inset 0px 0 0 2px var(--btn-focus);
+}
+
+.c9.variant--primary:active,
+.c9.variant--primary.active {
+  background-color: var(--btn-pressed);
+  border-color: var(--btn-pressed);
+}
+
+.c9.variant--primary:disabled,
+.c9.variant--primary.disabled {
+  background-color: var(--btn-disabled);
+  border-color: transparent;
+}
+
+.c9.variant--primary:disabled .btn-label,
+.c9.variant--primary.disabled .btn-label {
+  color: var(--btn-disabled);
+}
+
+.c9.variant--primary:disabled .btn-label .icon path,
+.c9.variant--primary.disabled .btn-label .icon path {
+  fill: var(--btn-disabled);
+}
+
+.c9.variant--primary.c8.variant--primary.size--jumbo:focus,
+.c9.variant--primary.c9.variant--primary.size--jumbo.focus {
+  box-shadow: inset 0 0 0 2px var(--btn-base),inset 0px 0 0 4px var(--btn-focus);
+}
+
+.c9.variant--secondary:enabled,
+.c9.variant--secondary.enabled {
+  background-color: transparent;
+  border-color: var(--btn-base);
+}
+
+.c9.variant--secondary:enabled .btn-label,
+.c9.variant--secondary.enabled .btn-label {
+  color: var(--btn-text);
+}
+
+.c9.variant--secondary:enabled .btn-label .icon path,
+.c9.variant--secondary.enabled .btn-label .icon path {
+  fill: var(--btn-icon);
+}
+
+.c9.variant--secondary:hover,
+.c9.variant--secondary.hover {
+  background-color: var(--btn-hover);
+  border-color: var(--btn-base);
+}
+
+.c9.variant--secondary:focus,
+.c9.variant--secondary.focus {
+  background-color: transparent;
+  box-shadow: 0px 0 0 2px var(--btn-focus);
+}
+
+.c9.variant--secondary:active,
+.c9.variant--secondary:focus:active,
+.c9.variant--secondary.active {
+  background-color: var(--btn-pressed);
+  border-color: var(--btn-focus);
+}
+
+.c9.variant--secondary:disabled,
+.c9.variant--secondary.disabled {
+  background-color: transparent;
+  border-color: var(--btn-disabled);
+}
+
+.c9.variant--secondary:disabled .btn-label,
+.c9.variant--secondary.disabled .btn-label {
+  color: var(--btn-disabled);
+}
+
+.c9.variant--secondary:disabled .btn-label .icon path,
+.c9.variant--secondary.disabled .btn-label .icon path {
+  fill: var(--btn-disabled);
+}
+
+.c9.variant--tertiary:enabled,
+.c9.variant--tertiary.enabled {
+  background-color: var(--btn-base-subdued);
+  border-color: var(--btn-base-subdued);
+}
+
+.c9.variant--tertiary:enabled .btn-label,
+.c9.variant--tertiary.enabled .btn-label {
+  color: var(--btn-text);
+}
+
+.c9.variant--tertiary:enabled .btn-label .icon path,
+.c9.variant--tertiary.enabled .btn-label .icon path {
+  fill: var(--btn-icon);
+}
+
+.c9.variant--tertiary:hover,
+.c9.variant--tertiary.hover {
+  background-color: var(--btn-hover);
+  border-color: var(--btn-hover);
+}
+
+.c9.variant--tertiary:focus,
+.c9.variant--tertiary.focus {
+  box-shadow: 0px 0 0 2px var(--btn-focus);
+}
+
+.c9.variant--tertiary:focus:hover,
+.c9.variant--tertiary.focus:hover {
+  box-shadow: 0px 0 0 2px var(--btn-focus);
+}
+
+.c9.variant--tertiary:active,
+.c9.variant--tertiary.active {
+  background-color: var(--btn-pressed);
+  border-color: var(--btn-pressed);
+}
+
+.c9.variant--tertiary:disabled,
+.c9.variant--tertiary.disabled {
+  background-color: var(--btn-disabled-subdued);
+  border-color: var(--btn-disabled-subdued);
+}
+
+.c9.variant--tertiary:disabled .btn-label,
+.c9.variant--tertiary.disabled .btn-label {
+  color: var(--btn-disabled);
+}
+
+.c9.variant--tertiary:disabled .btn-label .icon path,
+.c9.variant--tertiary.disabled .btn-label .icon path {
+  fill: var(--btn-disabled);
+}
+
+.c9.variant--ghost:enabled,
+.c9.variant--ghost.enabled {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.c9.variant--ghost:enabled .btn-label,
+.c9.variant--ghost.enabled .btn-label {
+  color: var(--btn-text);
+}
+
+.c9.variant--ghost:enabled .btn-label .icon path,
+.c9.variant--ghost.enabled .btn-label .icon path {
+  fill: var(--btn-icon);
+}
+
+.c9.variant--ghost:hover,
+.c9.variant--ghost.hover {
+  background-color: var(--btn-hover);
+  border-color: transparent;
+}
+
+.c9.variant--ghost:focus,
+.c9.variant--ghost.focus {
+  background-color: transparent;
+  border-color: transparent;
+  box-shadow: 0px 0 0 2px var(--btn-focus);
+}
+
+.c9.variant--ghost:focus:hover,
+.c9.variant--ghost.focus:hover {
+  background-color: var(--btn-hover);
+  border-color: transparent;
+}
+
+.c9.variant--ghost:active,
+.c9.variant--ghost:focus:active,
+.c9.variant--ghost.active {
+  background-color: var(--btn-pressed);
+  border-color: transparent;
+}
+
+.c9.variant--ghost:disabled,
+.c9.variant--ghost.disabled {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.c9.variant--ghost:disabled .btn-label,
+.c9.variant--ghost.disabled .btn-label {
+  color: var(--btn-disabled);
+}
+
+.c9.variant--ghost:disabled .btn-label .icon path,
+.c9.variant--ghost.disabled .btn-label .icon path {
+  fill: var(--btn-disabled);
+}
+
+.c9.variant--inverse:enabled,
+.c9.variant--inverse.enabled {
+  background-color: var(--btn-base-subdued);
+  border-color: var(--btn-base-subdued);
+}
+
+.c9.variant--inverse:enabled .btn-label,
+.c9.variant--inverse.enabled .btn-label {
+  color: var(--btn-text);
+}
+
+.c9.variant--inverse:enabled .btn-label .icon path,
+.c9.variant--inverse.enabled .btn-label .icon path {
+  fill: var(--btn-icon);
+}
+
+.c9.variant--inverse:hover,
+.c9.variant--inverse.hover {
+  background-color: var(--btn-hover);
+  border-color: var(--btn-hover);
+}
+
+.c9.variant--inverse:focus,
+.c9.variant--inverse.focus {
+  background-color: var(--btn-base-subdued);
+  box-shadow: 0px 0 0 2px var(--btn-focus);
+}
+
+.c9.variant--inverse:focus:hover,
+.c9.variant--inverse.focus:hover {
+  background-color: var(--btn-hover);
+  border-color: var(--btn-focus);
+}
+
+.c9.variant--inverse:active,
+.c9.variant--inverse.active {
+  background-color: var(--btn-pressed);
+  border-color: var(--btn-pressed);
+}
+
+.c9.variant--inverse:disabled,
+.c9.variant--inverse.disabled {
+  background-color: var(--btn-base-subdued);
+  border-color: var(--btn-base-subdued);
+}
+
+.c9.variant--inverse:disabled .btn-label,
+.c9.variant--inverse.disabled .btn-label {
+  color: var(--btn-disabled);
+}
+
+.c9.variant--inverse:disabled .btn-label .icon path,
+.c9.variant--inverse.disabled .btn-label .icon path {
+  fill: var(--btn-disabled);
+}
+
+.c9.shape--rounded {
+  border-radius: var(--bds-border-radius-lg);
+}
+
+.c9.shape--squared {
+  border-radius: 0;
+}
+
+.c9.shape--circle {
+  border-radius: var(--bds-border-radius-circle);
+}
+
+.c9.size--small {
+  min-height: var(--bds-sizes-size-40);
+  padding: 0 var(--bds-sizes-size-20);
+}
+
+.c9.size--small .btn-label {
+  font-size: var(--bds-sizes-size-12);
+  line-height: var(--bds-sizes-size-16);
+}
+
+.c9.size--small .btn-label .btn-start-icon,
+.c9.size--small .btn-label .btn-end-icon,
+.c9.size--small .btn-label .icon {
+  width: var(--bds-sizes-size-12);
+  height: var(--bds-sizes-size-12);
+}
+
+.c9.size--medium {
+  min-height: var(--bds-sizes-size-48);
+  padding: 0 var(--bds-sizes-size-32);
+}
+
+.c9.size--medium .btn-label {
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-24);
+}
+
+.c9.size--medium .btn-label .btn-start-icon,
+.c9.size--medium .btn-label .btn-end-icon,
+.c9.size--medium .btn-label .icon {
+  width: var(--bds-sizes-size-14);
+  height: var(--bds-sizes-size-14);
+}
+
+.c9.size--large {
+  min-height: var(--bds-sizes-size-56);
+  padding: 0 var(--bds-sizes-size-32);
+}
+
+.c9.size--large .btn-label {
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+}
+
+.c9.size--large .btn-label .btn-start-icon,
+.c9.size--large .btn-label .btn-end-icon,
+.c9.size--large .btn-label .icon {
+  width: var(--bds-sizes-size-16);
+  height: var(--bds-sizes-size-16);
+}
+
+.c9.size--jumbo {
+  min-height: var(--bds-sizes-size-96);
+  padding: 0 var(--bds-sizes-size-56);
+}
+
+.c9.size--jumbo .btn-label {
+  font-size: var(--bds-sizes-size-24);
+  line-height: var(--bds-sizes-size-40);
+}
+
+.c9.size--jumbo .btn-label .btn-start-icon,
+.c9.size--jumbo .btn-label .btn-end-icon,
+.c9.size--jumbo .btn-label .icon {
+  width: var(--bds-sizes-size-24);
+  height: var(--bds-sizes-size-24);
+}
+
+.c9.disabled {
+  cursor: not-allowed;
+}
+
+.c9.disabled:active {
+  pointer-events: none;
+}
+
+.c9.c9.c9 {
+  outline: none;
+  vertical-align: bottom;
+  height: auto;
+}
+
+.c9.c9.c9::-moz-focus-inner {
+  border: 0;
+}
+
+.c7 {
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: stretch;
+  -webkit-justify-content: stretch;
+  -ms-flex-pack: stretch;
+  justify-content: stretch;
+  box-sizing: border-box;
+}
+
+.c7.c7.c7 > .button {
+  width: 100%;
+  padding-left: var(--bds-sizes-size-16);
+  padding-right: var(--bds-sizes-size-48);
+}
+
+.c7.c7.c7 > .button.size--normal {
+  padding-top: var(--bds-sizes-size-8);
+  padding-bottom: var(--bds-sizes-size-8);
+}
+
+.c7.c7.c7 > .button.size--condensed {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.c7.c7.c7 > .button.focus,
+.c7.c7.c7 > .button:focus {
+  z-index: 1;
+}
+
+.c7.c7.c7 > .button .label {
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  height: calc(var(--bds-sizes-size-24) - var(--bds-sizes-size-2));
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-24);
+}
+
+.c7.c7.c7 > .button .label .list-label {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c7.c7.c7 > .button .icon {
+  margin-right: var(--bds-sizes-size-8);
+  width: var(--bds-sizes-size-20);
+  height: var(--bds-sizes-size-20);
+}
+
+.c7.c7.c7 > .button.selected {
+  z-index: 0;
+}
+
+.c7.c7.c7 > .button.selected .btn-label {
+  font-weight: 500;
+  color: var(--bds-color-text-primary) !important;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: stretch;
+  -webkit-justify-content: stretch;
+  -ms-flex-pack: stretch;
+  justify-content: stretch;
+  width: auto;
+  padding: 0;
+  list-style: none;
+}
+
+.c6.shape li > button {
+  border-radius: 0;
+}
+
+.c1 {
+  border: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  vertical-align: top;
+  padding: 0;
+  position: relative;
+}
+
+.c1 select,
+.c1 legend,
+.c1 label,
+.c1 span,
+.c1 .suffix {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+  color: var(--bds-color-text-primary);
+}
+
+.c1 svg {
+  box-sizing: border-box;
+}
+
+.c1 select {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  padding-left: var(--bds-sizes-size-16);
+  padding-right: var(--bds-sizes-size-40);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+}
+
+.c1.item--before select {
+  padding-left: var(--bds-sizes-size-40);
+}
+
+.c1 .item--before {
+  position: absolute;
+  top: var(--bds-sizes-size-16);
+  left: var(--bds-sizes-size-16);
+}
+
+.c1 .item--after {
+  position: absolute;
+  top: var(--bds-sizes-size-16);
+  right: var(--bds-sizes-size-16);
+}
+
+.c1.size--small .item--after,
+.c1.size--small .item--before {
+  top: var(--bds-sizes-size-14);
+}
+
+.c1.size--large .item--after,
+.c1.size--large .item--before {
+  top: var(--bds-sizes-size-20);
+}
+
+.c1.size--jumbo .item--after,
+.c1.size--jumbo .item--before {
+  top: 1.375rem;
+}
+
+.c1.state--error svg.item--after path {
+  fill: var(--bds-color-icon-red);
+}
+
+.c1.has--placeholder label {
+  display: none;
+}
+
+.c1.has--placeholder legend {
+  display: none;
+}
+
+.c1.stacked label.input-label.incomplete,
+.c1.stacked label.input-label.interaction--completed,
+.c1.stacked label.input-label.interaction--active,
+.c1.stacked label.input-label.completed,
+.c1.stacked label.input-label.interaction--focused {
+  top: var(--bds-sizes-size-12);
+  left: var(--bds-sizes-size-16);
+  font-size: var(--bds-sizes-size-16);
+}
+
+.c1.stacked label.input-label.incomplete.size--small,
+.c1.stacked label.input-label.interaction--completed.size--small,
+.c1.stacked label.input-label.interaction--active.size--small,
+.c1.stacked label.input-label.completed.size--small,
+.c1.stacked label.input-label.interaction--focused.size--small {
+  top: var(--bds-sizes-size-8);
+}
+
+.c1.stacked label.input-label.incomplete.size--large,
+.c1.stacked label.input-label.interaction--completed.size--large,
+.c1.stacked label.input-label.interaction--active.size--large,
+.c1.stacked label.input-label.completed.size--large,
+.c1.stacked label.input-label.interaction--focused.size--large {
+  top: var(--bds-sizes-size-16);
+}
+
+.c1.stacked label.input-label.incomplete.size--jumbo,
+.c1.stacked label.input-label.interaction--completed.size--jumbo,
+.c1.stacked label.input-label.interaction--active.size--jumbo,
+.c1.stacked label.input-label.completed.size--jumbo,
+.c1.stacked label.input-label.interaction--focused.size--jumbo {
+  top: var(--bds-sizes-size-20);
+  font-size: var(--bds-sizes-size-20);
+}
+
+.c1.stacked .text-input-fieldset legend {
+  max-width: 0.01px;
+  padding: 0;
+}
+
+.c1.stacked select {
+  opacity: 0;
+}
+
+.c1.stacked .input-label {
+  font-weight: var(--bds-font-weight-semibold);
+  color: var(--bds-color-text-primary);
+}
+
+.c1.stacked .input-label .select--value {
+  margin-left: var(--bds-sizes-size-8);
+  color: var(--bds-color-text-primary);
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c1.stacked .input-label.state--error {
+  color: var(--bds-color-text-red);
+}
+
+.c5 {
+  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  position: absolute;
+  height: var(--bds-sizes-size-48);
+  border-style: solid;
+  border-width: var(--bds-border-width-sm);
+  border-radius: var(--bds-border-radius-lg);
+  border-color: var(--bds-color-border-default);
+  pointer-events: none;
+  box-sizing: border-box;
+}
+
+.c5 legend {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  box-sizing: border-box;
+  width: auto;
+  height: var(--bds-sizes-size-1);
+  display: block;
+  max-width: 0.01px;
+  visibility: hidden;
+  font-size: var(--bds-sizes-size-14);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c5 legend span {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c5.interaction--focused legend,
+.c5.interaction--active legend,
+.c5.interaction--completed legend,
+.c5.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-8);
+}
+
+.c5.interaction--focused legend span,
+.c5.interaction--active legend span,
+.c5.interaction--completed legend span,
+.c5.completed legend span {
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c5.interaction--focused,
+.c5.interaction--active {
+  border-color: var(--bds-color-border-interactive);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c5.interaction--completed,
+.c5.completed {
+  border-color: var(--bds-color-border-default);
+}
+
+.c5.interaction--active.completed {
+  border-color: var(--bds-color-border-interactive);
+}
+
+.c5.size--medium {
+  height: var(--bds-sizes-size-48);
+}
+
+.c5.size--medium.interaction--focused legend,
+.c5.size--medium.interaction--active legend,
+.c5.size--medium.interaction--completed legend,
+.c5.size--medium.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c5.size--medium.interaction--focused legend span,
+.c5.size--medium.interaction--active legend span,
+.c5.size--medium.interaction--completed legend span,
+.c5.size--medium.completed legend span {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c5.size--small {
+  height: var(--bds-sizes-size-40);
+}
+
+.c5.size--small.interaction--focused legend,
+.c5.size--small.interaction--active legend,
+.c5.size--small.interaction--completed legend,
+.c5.size--small.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c5.size--small.interaction--focused legend span,
+.c5.size--small.interaction--active legend span,
+.c5.size--small.interaction--completed legend span,
+.c5.size--small.completed legend span {
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c5.size--large {
+  height: var(--bds-sizes-size-56);
+}
+
+.c5.size--large.interaction--focused legend,
+.c5.size--large.interaction--active legend,
+.c5.size--large.interaction--completed legend,
+.c5.size--large.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c5.size--large.interaction--focused legend span,
+.c5.size--large.interaction--active legend span,
+.c5.size--large.interaction--completed legend span,
+.c5.size--large.completed legend span {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c5.size--jumbo {
+  height: var(--bds-sizes-size-64);
+}
+
+.c5.size--jumbo.interaction--focused legend,
+.c5.size--jumbo.interaction--active legend,
+.c5.size--jumbo.interaction--completed legend,
+.c5.size--jumbo.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c5.size--jumbo.interaction--focused legend span,
+.c5.size--jumbo.interaction--active legend span,
+.c5.size--jumbo.interaction--completed legend span,
+.c5.size--jumbo.completed legend span {
+  font-size: var(--bds-sizes-size-20);
+}
+
+.c3 {
+  position: relative;
+  height: 48px;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3:hover fieldset {
+  border-color: var(--bds-color-border-interactive);
+}
+
+.c3:focus fieldset {
+  border-color: var(--bds-color-border-interactive);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c3.state--error fieldset {
+  border-color: var(--bds-color-border-red);
+}
+
+.c3.state--error svg.icon--before path,
+.c3.state--error svg.icon--before circle {
+  fill: var(--bds-color-icon-red);
+}
+
+.c3.state--error:focus fieldset {
+  border-color: var(--bds-color-border-red);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c3 svg.icon {
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+}
+
+.c3 svg.icon path,
+.c3 svg.icon circle {
+  fill: var(--bds-color-icon-tertiary);
+}
+
+.c3 svg.icon.icon--success path,
+.c3 svg.icon.icon--success circle {
+  fill: var(--bds-color-icon-green);
+}
+
+.c3 svg.icon.icon--error path,
+.c3 svg.icon.icon--error circle {
+  fill: var(--bds-color-icon-red);
+}
+
+.c3.size--small {
+  height: var(--bds-sizes-size-40);
+}
+
+.c3.size--small svg.icon {
+  height: 14px;
+  width: 14px;
+}
+
+.c3.size--small .suffix {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c3.size--large {
+  height: var(--bds-sizes-size-56);
+}
+
+.c3.size--jumbo {
+  height: var(--bds-sizes-size-64);
+}
+
+.c3.size--jumbo svg.icon {
+  height: 20px;
+  width: 20px;
+}
+
+.c3.size--jumbo .suffix {
+  font-size: var(--bds-sizes-size-24);
+}
+
+.c3.size--jumbo input,
+.c3.size--jumbo textarea {
+  font-size: var(--bds-sizes-size-24);
+  line-height: var(--bds-sizes-size-32);
+}
+
+.c3 svg.icon--error + .suffix,
+.c3 svg.icon--success + .suffix {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c2 {
+  z-index: 1;
+  pointer-events: none;
+  top: 12px;
+  left: 16px;
+  position: absolute;
+  display: block;
+  color: var(--bds-color-text-tertiary);
+  padding: 0;
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+  font-weight: var(--bds-font-weight-regular);
+  -webkit-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+
+.c2.with-icon-before {
+  left: 40px;
+}
+
+.c2.interaction--focused,
+.c2.interaction--active,
+.c2.interaction--completed {
+  top: -12px;
+  left: 16px;
+  font-size: var(--bds-sizes-size-14);
+  color: var(--bds-color-text-interactive);
+}
+
+.c2.interaction--completed {
+  color: var(--bds-color-text-tertiary);
+}
+
+.c2.size--small {
+  top: 8px;
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c2.size--small.interaction--focused,
+.c2.size--small.interaction--active,
+.c2.size--small.interaction--completed {
+  top: -12px;
+  left: 16px;
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c2.size--large {
+  top: 16px;
+}
+
+.c2.size--large.interaction--focused,
+.c2.size--large.interaction--active,
+.c2.size--large.interaction--completed {
+  top: -12px;
+}
+
+.c2.size--jumbo {
+  font-size: var(--bds-sizes-size-24);
+  top: 20px;
+}
+
+.c2.size--jumbo.interaction--focused,
+.c2.size--jumbo.interaction--active,
+.c2.size--jumbo.interaction--completed {
+  font-size: var(--bds-sizes-size-20);
+  top: -12px;
+}
+
+.c2.state--error {
+  color: var(--bds-color-text-red);
+}
+
+.c0 {
+  position: relative;
+}
+
+.c0 label.completed {
+  top: -12px;
+  left: 16px;
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c0 label.completed.size--small {
+  top: -12px;
+  left: 16px;
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c0 label.completed.size--large {
+  top: -12px;
+}
+
+.c0 label.completed.size--jumbo {
+  font-size: var(--bds-sizes-size-20);
+  top: -12px;
+}
+
+.c0 fieldset.open {
+  border-color: var(--bds-color-border-interactive);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c0 .list-selector {
+  padding-left: 0;
+}
+
+.c0 .popover--wrapper {
+  padding: var(--bds-sizes-size-8) 0;
+  width: 100%;
+  max-height: calc(var(--bds-sizes-size-16) * 16.5);
+  border: 1px solid var(--bds-color-border-subdued);
+  background-color: var(--bds-color-elevation-04);
+  box-shadow: var(--bds-shadows-shadow-04);
+  overflow: auto;
+  -webkit-transform: translate(0px,50px);
+  -ms-transform: translate(0px,50px);
+  transform: translate(0px,50px);
+}
+
+.c0 .popover--wrapper.shape--rounded {
+  border-radius: var(--bds-border-radius-lg);
+}
+
+.c0 .popover--wrapper.shape--squared {
+  border-radius: 0;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c9.size--small .btn-label {
+    font-size: var(--bds-sizes-size-14);
+  }
+
+  .c9.size--small .btn-label .btn-start-icon,
+  .c9.size--small .btn-label .btn-end-icon,
+  .c9.size--small .btn-label .icon {
+    width: var(--bds-sizes-size-14);
+    height: var(--bds-sizes-size-14);
+  }
+
+  .c9.size--medium .btn-label {
+    font-size: var(--bds-sizes-size-16);
+  }
+
+  .c9.size--medium .btn-label .btn-start-icon,
+  .c9.size--medium .btn-label .btn-end-icon,
+  .c9.size--medium .btn-label .icon {
+    width: var(--bds-sizes-size-16);
+    height: var(--bds-sizes-size-16);
+  }
+
+  .c9.size--large .btn-label {
+    font-size: var(--bds-sizes-size-18);
+  }
+
+  .c9.size--large .btn-label .btn-start-icon,
+  .c9.size--large .btn-label .btn-end-icon,
+  .c9.size--large .btn-label .icon {
+    width: var(--bds-sizes-size-18);
+    height: var(--bds-sizes-size-18);
+  }
+
+  .c9.size--jumbo .btn-label {
+    font-size: var(--bds-sizes-size-28);
+  }
+
+  .c9.size--jumbo .btn-label .btn-start-icon,
+  .c9.size--jumbo .btn-label .btn-end-icon,
+  .c9.size--jumbo .btn-label .icon {
+    width: var(--bds-sizes-size-28);
+    height: var(--bds-sizes-size-28);
+  }
+}
+
+@media only screen and (min-width:82rem) {
+  .c7.c7.c7 > .button .label {
+    font-size: var(--bds-sizes-size-14);
+    line-height: var(--bds-sizes-size-24);
+  }
+}
+
+<div
+    class="c0 dropdown--wrapper shape--rounded"
+  >
+    <div
+      class="c1 backyard select--wrapper shape--rounded size--medium"
+      readonly=""
+    >
+      <label
+        class="c2 input-label size--medium state--default incomplete interaction--active"
+        for="1"
+      />
+      <div
+        class="c3 form-control shape--rounded size--medium interaction--active"
+      >
+        <select
+          aria-label="1"
+          class="select--input focus active"
+          data-testid="dropdown"
+          id="1"
+        >
+          <option
+            class="select-option"
+            disabled=""
+            hidden=""
+            value=""
+          />
+          <option
+            class="select-option"
+            hidden=""
+            tabindex="-1"
+            value="1"
+          >
+            Option 1
+          </option>
+          <option
+            class="select-option"
+            hidden=""
+            tabindex="-1"
+            value="2"
+          >
+            Option 2
+          </option>
+          <option
+            class="select-option"
+            hidden=""
+            tabindex="-1"
+            value="3"
+          >
+            Option 3
+          </option>
+          <option
+            class="select-option"
+            hidden=""
+            tabindex="-1"
+            value="4"
+          >
+            Option 4
+          </option>
+        </select>
+        <svg
+          aria-hidden="true"
+          class="c4 icon icon-triangle-up select--arrow item--after"
+          role="presentation"
+          style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(0, 0%, 0%, 1);"
+          viewBox="0 0 16 16"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M13.1865 11.7077c.7132 0 1.046-.5626.6339-1.0577L8.7968 4.63c-.3486-.4614-1.236-.439-1.6006 0l-5.0236 6.02c-.3962.4613-.0793 1.0577.6339 1.0577h10.38Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <fieldset
+          aria-hidden="true"
+          class="c5 text-input-fieldset size--medium open incomplete interaction--active"
+        >
+          <legend>
+            <span />
+          </legend>
+        </fieldset>
+      </div>
+    </div>
+    <div
+      class="popover--wrapper shape--rounded"
+      data-popper-escaped="true"
+      data-popper-placement="bottom"
+      data-popper-reference-hidden="true"
+      style="position: absolute; left: 0px; top: 0px; z-index: 2; opacity: 1; pointer-events: all; transform: translate(0px, 2px);"
+    >
+      <ul
+        class="c6 list list-selector single-selector shape--squared"
+        width="auto"
+      >
+        <li
+          class="c7"
+        >
+          <button
+            class="c8 c9 backyard button size--medium variant--ghost color--neutral shape--squared list-option size--normal"
+            color="neutral"
+            style="--btn-base: hsl(0, 0%, 44%, 1); --btn-focus: hsl(0, 0%, 44%, 1); --btn-text: hsl(0, 0%, 0%, .87); --btn-icon: hsl(0, 0%, 0%, .87); --btn-disabled: hsl(0, 0%, 0%, .30); --btn-disabled-subdued: hsl(0, 0%, 96%, 1);"
+            tabindex="-1"
+            type="button"
+          >
+            <span
+              class="label btn-label"
+            >
+              <span
+                class="list-label"
+              >
+                Option 1
+              </span>
+            </span>
+          </button>
+        </li>
+        <li
+          class="c7"
+        >
+          <button
+            class="c8 c9 backyard button size--medium variant--ghost color--neutral shape--squared list-option size--normal"
+            color="neutral"
+            style="--btn-base: hsl(0, 0%, 44%, 1); --btn-focus: hsl(0, 0%, 44%, 1); --btn-text: hsl(0, 0%, 0%, .87); --btn-icon: hsl(0, 0%, 0%, .87); --btn-disabled: hsl(0, 0%, 0%, .30); --btn-disabled-subdued: hsl(0, 0%, 96%, 1);"
+            tabindex="-1"
+            type="button"
+          >
+            <span
+              class="label btn-label"
+            >
+              <span
+                class="list-label"
+              >
+                Option 2
+              </span>
+            </span>
+          </button>
+        </li>
+        <li
+          class="c7"
+        >
+          <button
+            class="c8 c9 backyard button size--medium variant--ghost color--neutral shape--squared list-option size--normal"
+            color="neutral"
+            style="--btn-base: hsl(0, 0%, 44%, 1); --btn-focus: hsl(0, 0%, 44%, 1); --btn-text: hsl(0, 0%, 0%, .87); --btn-icon: hsl(0, 0%, 0%, .87); --btn-disabled: hsl(0, 0%, 0%, .30); --btn-disabled-subdued: hsl(0, 0%, 96%, 1);"
+            tabindex="-1"
+            type="button"
+          >
+            <span
+              class="label btn-label"
+            >
+              <span
+                class="list-label"
+              >
+                Option 3
+              </span>
+            </span>
+          </button>
+        </li>
+        <li
+          class="c7"
+        >
+          <button
+            class="c8 c9 backyard button size--medium variant--ghost color--neutral shape--squared list-option size--normal"
+            color="neutral"
+            style="--btn-base: hsl(0, 0%, 44%, 1); --btn-focus: hsl(0, 0%, 44%, 1); --btn-text: hsl(0, 0%, 0%, .87); --btn-icon: hsl(0, 0%, 0%, .87); --btn-disabled: hsl(0, 0%, 0%, .30); --btn-disabled-subdued: hsl(0, 0%, 96%, 1);"
+            tabindex="-1"
+            type="button"
+          >
+            <span
+              class="label btn-label"
+            >
+              <span
+                class="list-label"
+              >
+                Option 4
+              </span>
+            </span>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Dropdown Snapshots render on mobile 1`] = `
+<DocumentFragment>
+  .c4 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c4:not(.color-override) g,
+.c4:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c4:not(.color-override) g[stroke-width],
+.c4:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c4:not(.color-override) g[stroke-width] *,
+.c4:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c4.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c4.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c1 {
+  border: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  vertical-align: top;
+  padding: 0;
+  position: relative;
+}
+
+.c1 select,
+.c1 legend,
+.c1 label,
+.c1 span,
+.c1 .suffix {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+  color: var(--bds-color-text-primary);
+}
+
+.c1 svg {
+  box-sizing: border-box;
+}
+
+.c1 select {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  padding-left: var(--bds-sizes-size-16);
+  padding-right: var(--bds-sizes-size-40);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+}
+
+.c1.item--before select {
+  padding-left: var(--bds-sizes-size-40);
+}
+
+.c1 .item--before {
+  position: absolute;
+  top: var(--bds-sizes-size-16);
+  left: var(--bds-sizes-size-16);
+}
+
+.c1 .item--after {
+  position: absolute;
+  top: var(--bds-sizes-size-16);
+  right: var(--bds-sizes-size-16);
+}
+
+.c1.size--small .item--after,
+.c1.size--small .item--before {
+  top: var(--bds-sizes-size-14);
+}
+
+.c1.size--large .item--after,
+.c1.size--large .item--before {
+  top: var(--bds-sizes-size-20);
+}
+
+.c1.size--jumbo .item--after,
+.c1.size--jumbo .item--before {
+  top: 1.375rem;
+}
+
+.c1.state--error svg.item--after path {
+  fill: var(--bds-color-icon-red);
+}
+
+.c1.has--placeholder label {
+  display: none;
+}
+
+.c1.has--placeholder legend {
+  display: none;
+}
+
+.c1.stacked label.input-label.incomplete,
+.c1.stacked label.input-label.interaction--completed,
+.c1.stacked label.input-label.interaction--active,
+.c1.stacked label.input-label.completed,
+.c1.stacked label.input-label.interaction--focused {
+  top: var(--bds-sizes-size-12);
+  left: var(--bds-sizes-size-16);
+  font-size: var(--bds-sizes-size-16);
+}
+
+.c1.stacked label.input-label.incomplete.size--small,
+.c1.stacked label.input-label.interaction--completed.size--small,
+.c1.stacked label.input-label.interaction--active.size--small,
+.c1.stacked label.input-label.completed.size--small,
+.c1.stacked label.input-label.interaction--focused.size--small {
+  top: var(--bds-sizes-size-8);
+}
+
+.c1.stacked label.input-label.incomplete.size--large,
+.c1.stacked label.input-label.interaction--completed.size--large,
+.c1.stacked label.input-label.interaction--active.size--large,
+.c1.stacked label.input-label.completed.size--large,
+.c1.stacked label.input-label.interaction--focused.size--large {
+  top: var(--bds-sizes-size-16);
+}
+
+.c1.stacked label.input-label.incomplete.size--jumbo,
+.c1.stacked label.input-label.interaction--completed.size--jumbo,
+.c1.stacked label.input-label.interaction--active.size--jumbo,
+.c1.stacked label.input-label.completed.size--jumbo,
+.c1.stacked label.input-label.interaction--focused.size--jumbo {
+  top: var(--bds-sizes-size-20);
+  font-size: var(--bds-sizes-size-20);
+}
+
+.c1.stacked .text-input-fieldset legend {
+  max-width: 0.01px;
+  padding: 0;
+}
+
+.c1.stacked select {
+  opacity: 0;
+}
+
+.c1.stacked .input-label {
+  font-weight: var(--bds-font-weight-semibold);
+  color: var(--bds-color-text-primary);
+}
+
+.c1.stacked .input-label .select--value {
+  margin-left: var(--bds-sizes-size-8);
+  color: var(--bds-color-text-primary);
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c1.stacked .input-label.state--error {
+  color: var(--bds-color-text-red);
+}
+
+.c5 {
+  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  position: absolute;
+  height: var(--bds-sizes-size-48);
+  border-style: solid;
+  border-width: var(--bds-border-width-sm);
+  border-radius: var(--bds-border-radius-lg);
+  border-color: var(--bds-color-border-default);
+  pointer-events: none;
+  box-sizing: border-box;
+}
+
+.c5 legend {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  box-sizing: border-box;
+  width: auto;
+  height: var(--bds-sizes-size-1);
+  display: block;
+  max-width: 0.01px;
+  visibility: hidden;
+  font-size: var(--bds-sizes-size-14);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c5 legend span {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c5.interaction--focused legend,
+.c5.interaction--active legend,
+.c5.interaction--completed legend,
+.c5.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-8);
+}
+
+.c5.interaction--focused legend span,
+.c5.interaction--active legend span,
+.c5.interaction--completed legend span,
+.c5.completed legend span {
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c5.interaction--focused,
+.c5.interaction--active {
+  border-color: var(--bds-color-border-interactive);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c5.interaction--completed,
+.c5.completed {
+  border-color: var(--bds-color-border-default);
+}
+
+.c5.interaction--active.completed {
+  border-color: var(--bds-color-border-interactive);
+}
+
+.c5.size--medium {
+  height: var(--bds-sizes-size-48);
+}
+
+.c5.size--medium.interaction--focused legend,
+.c5.size--medium.interaction--active legend,
+.c5.size--medium.interaction--completed legend,
+.c5.size--medium.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c5.size--medium.interaction--focused legend span,
+.c5.size--medium.interaction--active legend span,
+.c5.size--medium.interaction--completed legend span,
+.c5.size--medium.completed legend span {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c5.size--small {
+  height: var(--bds-sizes-size-40);
+}
+
+.c5.size--small.interaction--focused legend,
+.c5.size--small.interaction--active legend,
+.c5.size--small.interaction--completed legend,
+.c5.size--small.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c5.size--small.interaction--focused legend span,
+.c5.size--small.interaction--active legend span,
+.c5.size--small.interaction--completed legend span,
+.c5.size--small.completed legend span {
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c5.size--large {
+  height: var(--bds-sizes-size-56);
+}
+
+.c5.size--large.interaction--focused legend,
+.c5.size--large.interaction--active legend,
+.c5.size--large.interaction--completed legend,
+.c5.size--large.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c5.size--large.interaction--focused legend span,
+.c5.size--large.interaction--active legend span,
+.c5.size--large.interaction--completed legend span,
+.c5.size--large.completed legend span {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c5.size--jumbo {
+  height: var(--bds-sizes-size-64);
+}
+
+.c5.size--jumbo.interaction--focused legend,
+.c5.size--jumbo.interaction--active legend,
+.c5.size--jumbo.interaction--completed legend,
+.c5.size--jumbo.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c5.size--jumbo.interaction--focused legend span,
+.c5.size--jumbo.interaction--active legend span,
+.c5.size--jumbo.interaction--completed legend span,
+.c5.size--jumbo.completed legend span {
+  font-size: var(--bds-sizes-size-20);
+}
+
+.c3 {
+  position: relative;
+  height: 48px;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3:hover fieldset {
+  border-color: var(--bds-color-border-interactive);
+}
+
+.c3:focus fieldset {
+  border-color: var(--bds-color-border-interactive);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c3.state--error fieldset {
+  border-color: var(--bds-color-border-red);
+}
+
+.c3.state--error svg.icon--before path,
+.c3.state--error svg.icon--before circle {
+  fill: var(--bds-color-icon-red);
+}
+
+.c3.state--error:focus fieldset {
+  border-color: var(--bds-color-border-red);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c3 svg.icon {
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+}
+
+.c3 svg.icon path,
+.c3 svg.icon circle {
+  fill: var(--bds-color-icon-tertiary);
+}
+
+.c3 svg.icon.icon--success path,
+.c3 svg.icon.icon--success circle {
+  fill: var(--bds-color-icon-green);
+}
+
+.c3 svg.icon.icon--error path,
+.c3 svg.icon.icon--error circle {
+  fill: var(--bds-color-icon-red);
+}
+
+.c3.size--small {
+  height: var(--bds-sizes-size-40);
+}
+
+.c3.size--small svg.icon {
+  height: 14px;
+  width: 14px;
+}
+
+.c3.size--small .suffix {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c3.size--large {
+  height: var(--bds-sizes-size-56);
+}
+
+.c3.size--jumbo {
+  height: var(--bds-sizes-size-64);
+}
+
+.c3.size--jumbo svg.icon {
+  height: 20px;
+  width: 20px;
+}
+
+.c3.size--jumbo .suffix {
+  font-size: var(--bds-sizes-size-24);
+}
+
+.c3.size--jumbo input,
+.c3.size--jumbo textarea {
+  font-size: var(--bds-sizes-size-24);
+  line-height: var(--bds-sizes-size-32);
+}
+
+.c3 svg.icon--error + .suffix,
+.c3 svg.icon--success + .suffix {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c2 {
+  z-index: 1;
+  pointer-events: none;
+  top: 12px;
+  left: 16px;
+  position: absolute;
+  display: block;
+  color: var(--bds-color-text-tertiary);
+  padding: 0;
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+  font-weight: var(--bds-font-weight-regular);
+  -webkit-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+
+.c2.with-icon-before {
+  left: 40px;
+}
+
+.c2.interaction--focused,
+.c2.interaction--active,
+.c2.interaction--completed {
+  top: -12px;
+  left: 16px;
+  font-size: var(--bds-sizes-size-14);
+  color: var(--bds-color-text-interactive);
+}
+
+.c2.interaction--completed {
+  color: var(--bds-color-text-tertiary);
+}
+
+.c2.size--small {
+  top: 8px;
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c2.size--small.interaction--focused,
+.c2.size--small.interaction--active,
+.c2.size--small.interaction--completed {
+  top: -12px;
+  left: 16px;
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c2.size--large {
+  top: 16px;
+}
+
+.c2.size--large.interaction--focused,
+.c2.size--large.interaction--active,
+.c2.size--large.interaction--completed {
+  top: -12px;
+}
+
+.c2.size--jumbo {
+  font-size: var(--bds-sizes-size-24);
+  top: 20px;
+}
+
+.c2.size--jumbo.interaction--focused,
+.c2.size--jumbo.interaction--active,
+.c2.size--jumbo.interaction--completed {
+  font-size: var(--bds-sizes-size-20);
+  top: -12px;
+}
+
+.c2.state--error {
+  color: var(--bds-color-text-red);
+}
+
+.c0 {
+  position: relative;
+}
+
+.c0 label.completed {
+  top: -12px;
+  left: 16px;
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c0 label.completed.size--small {
+  top: -12px;
+  left: 16px;
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c0 label.completed.size--large {
+  top: -12px;
+}
+
+.c0 label.completed.size--jumbo {
+  font-size: var(--bds-sizes-size-20);
+  top: -12px;
+}
+
+.c0 fieldset.open {
+  border-color: var(--bds-color-border-interactive);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c0 .list-selector {
+  padding-left: 0;
+}
+
+.c0 .popover--wrapper {
+  padding: var(--bds-sizes-size-8) 0;
+  width: 100%;
+  max-height: calc(var(--bds-sizes-size-16) * 16.5);
+  border: 1px solid var(--bds-color-border-subdued);
+  background-color: var(--bds-color-elevation-04);
+  box-shadow: var(--bds-shadows-shadow-04);
+  overflow: auto;
+  -webkit-transform: translate(0px,50px);
+  -ms-transform: translate(0px,50px);
+  transform: translate(0px,50px);
+}
+
+.c0 .popover--wrapper.shape--rounded {
+  border-radius: var(--bds-border-radius-lg);
+}
+
+.c0 .popover--wrapper.shape--squared {
+  border-radius: 0;
+}
+
+<div
+    class="c0 dropdown--wrapper shape--rounded"
+  >
+    <div
+      class="c1 backyard select--wrapper shape--rounded size--medium"
+    >
+      <label
+        class="c2 input-label size--medium state--default incomplete interaction--active"
+        for="1"
+      />
+      <div
+        class="c3 form-control shape--rounded size--medium interaction--active"
+      >
+        <select
+          aria-label="1"
+          class="select--input focus active"
+          data-testid="dropdown"
+          id="1"
+        >
+          <option
+            class="select-option"
+            disabled=""
+            value=""
+          />
+          <option
+            class="select-option"
+            tabindex="-1"
+            value="1"
+          >
+            Option 1
+          </option>
+          <option
+            class="select-option"
+            tabindex="-1"
+            value="2"
+          >
+            Option 2
+          </option>
+          <option
+            class="select-option"
+            tabindex="-1"
+            value="3"
+          >
+            Option 3
+          </option>
+          <option
+            class="select-option"
+            tabindex="-1"
+            value="4"
+          >
+            Option 4
+          </option>
+        </select>
+        <svg
+          aria-hidden="true"
+          class="c4 icon icon-triangle-up select--arrow item--after"
+          role="presentation"
+          style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(0, 0%, 0%, 1);"
+          viewBox="0 0 16 16"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M13.1865 11.7077c.7132 0 1.046-.5626.6339-1.0577L8.7968 4.63c-.3486-.4614-1.236-.439-1.6006 0l-5.0236 6.02c-.3962.4613-.0793 1.0577.6339 1.0577h10.38Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <fieldset
+          aria-hidden="true"
+          class="c5 text-input-fieldset size--medium open incomplete interaction--active"
+        >
+          <legend>
+            <span />
+          </legend>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

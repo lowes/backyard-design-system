@@ -1,0 +1,7102 @@
+{
+	"id": 0,
+	"name": "@lowes-tech/bds-react/Pickers",
+	"kind": 1,
+	"kindString": "Project",
+	"flags": {},
+	"children": [
+		{
+			"id": 2,
+			"name": "CalendarPickerProps",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 5,
+					"name": "as",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ElementType"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "BackyardBaseProps.as"
+					}
+				},
+				{
+					"id": 3,
+					"name": "date",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"name": "ParsableDate"
+					}
+				},
+				{
+					"id": 9,
+					"name": "dates",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "array",
+								"elementType": {
+									"type": "reference",
+									"name": "ParsableDate"
+								}
+							},
+							{
+								"type": "array",
+								"elementType": {
+									"type": "reference",
+									"name": "ParsableDateObject"
+								}
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.dates"
+					}
+				},
+				{
+					"id": 8,
+					"name": "disableDates",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "array",
+						"elementType": {
+							"type": "reference",
+							"name": "ParsableDate"
+						}
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.disableDates"
+					}
+				},
+				{
+					"id": 17,
+					"name": "disableDaysOutsideCurrentMonth",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Disables days outside current month"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.disableDaysOutsideCurrentMonth"
+					}
+				},
+				{
+					"id": 14,
+					"name": "disableFuture",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Disable future dates.",
+						"tags": [
+							{
+								"tag": "default",
+								"text": "false\n"
+							}
+						]
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.disableFuture"
+					}
+				},
+				{
+					"id": 15,
+					"name": "disableHighlightToday",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Disable highlighting today date with a circle.",
+						"tags": [
+							{
+								"tag": "default",
+								"text": "false\n"
+							}
+						]
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.disableHighlightToday"
+					}
+				},
+				{
+					"id": 34,
+					"name": "disableKeyboardControl",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Disables keyboard listener for moving between days in calendar"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.disableKeyboardControl"
+					}
+				},
+				{
+					"id": 13,
+					"name": "disablePast",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Disable past dates.",
+						"tags": [
+							{
+								"tag": "default",
+								"text": "false\n"
+							}
+						]
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.disablePast"
+					}
+				},
+				{
+					"id": 20,
+					"name": "leftArrowButtonProps",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Props to pass to left arrow button"
+					},
+					"type": {
+						"type": "intersection",
+						"types": [
+							{
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "reference",
+										"name": "IconButtonProps"
+									},
+									{
+										"type": "union",
+										"types": [
+											{
+												"type": "literal",
+												"value": "onChange"
+											},
+											{
+												"type": "literal",
+												"value": "value"
+											},
+											{
+												"type": "literal",
+												"value": "as"
+											},
+											{
+												"type": "literal",
+												"value": "accept"
+											},
+											{
+												"type": "literal",
+												"value": "acceptCharset"
+											},
+											{
+												"type": "literal",
+												"value": "action"
+											},
+											{
+												"type": "literal",
+												"value": "allowFullScreen"
+											},
+											{
+												"type": "literal",
+												"value": "allowTransparency"
+											},
+											{
+												"type": "literal",
+												"value": "alt"
+											},
+											{
+												"type": "literal",
+												"value": "async"
+											},
+											{
+												"type": "literal",
+												"value": "autoComplete"
+											},
+											{
+												"type": "literal",
+												"value": "autoFocus"
+											},
+											{
+												"type": "literal",
+												"value": "autoPlay"
+											},
+											{
+												"type": "literal",
+												"value": "capture"
+											},
+											{
+												"type": "literal",
+												"value": "cellPadding"
+											},
+											{
+												"type": "literal",
+												"value": "cellSpacing"
+											},
+											{
+												"type": "literal",
+												"value": "charSet"
+											},
+											{
+												"type": "literal",
+												"value": "challenge"
+											},
+											{
+												"type": "literal",
+												"value": "checked"
+											},
+											{
+												"type": "literal",
+												"value": "cite"
+											},
+											{
+												"type": "literal",
+												"value": "classID"
+											},
+											{
+												"type": "literal",
+												"value": "cols"
+											},
+											{
+												"type": "literal",
+												"value": "colSpan"
+											},
+											{
+												"type": "literal",
+												"value": "content"
+											},
+											{
+												"type": "literal",
+												"value": "controls"
+											},
+											{
+												"type": "literal",
+												"value": "coords"
+											},
+											{
+												"type": "literal",
+												"value": "crossOrigin"
+											},
+											{
+												"type": "literal",
+												"value": "data"
+											},
+											{
+												"type": "literal",
+												"value": "dateTime"
+											},
+											{
+												"type": "literal",
+												"value": "default"
+											},
+											{
+												"type": "literal",
+												"value": "defer"
+											},
+											{
+												"type": "literal",
+												"value": "disabled"
+											},
+											{
+												"type": "literal",
+												"value": "download"
+											},
+											{
+												"type": "literal",
+												"value": "encType"
+											},
+											{
+												"type": "literal",
+												"value": "form"
+											},
+											{
+												"type": "literal",
+												"value": "formAction"
+											},
+											{
+												"type": "literal",
+												"value": "formEncType"
+											},
+											{
+												"type": "literal",
+												"value": "formMethod"
+											},
+											{
+												"type": "literal",
+												"value": "formNoValidate"
+											},
+											{
+												"type": "literal",
+												"value": "formTarget"
+											},
+											{
+												"type": "literal",
+												"value": "frameBorder"
+											},
+											{
+												"type": "literal",
+												"value": "headers"
+											},
+											{
+												"type": "literal",
+												"value": "height"
+											},
+											{
+												"type": "literal",
+												"value": "high"
+											},
+											{
+												"type": "literal",
+												"value": "href"
+											},
+											{
+												"type": "literal",
+												"value": "hrefLang"
+											},
+											{
+												"type": "literal",
+												"value": "htmlFor"
+											},
+											{
+												"type": "literal",
+												"value": "httpEquiv"
+											},
+											{
+												"type": "literal",
+												"value": "integrity"
+											},
+											{
+												"type": "literal",
+												"value": "keyParams"
+											},
+											{
+												"type": "literal",
+												"value": "keyType"
+											},
+											{
+												"type": "literal",
+												"value": "kind"
+											},
+											{
+												"type": "literal",
+												"value": "label"
+											},
+											{
+												"type": "literal",
+												"value": "list"
+											},
+											{
+												"type": "literal",
+												"value": "loop"
+											},
+											{
+												"type": "literal",
+												"value": "low"
+											},
+											{
+												"type": "literal",
+												"value": "manifest"
+											},
+											{
+												"type": "literal",
+												"value": "marginHeight"
+											},
+											{
+												"type": "literal",
+												"value": "marginWidth"
+											},
+											{
+												"type": "literal",
+												"value": "max"
+											},
+											{
+												"type": "literal",
+												"value": "maxLength"
+											},
+											{
+												"type": "literal",
+												"value": "media"
+											},
+											{
+												"type": "literal",
+												"value": "mediaGroup"
+											},
+											{
+												"type": "literal",
+												"value": "method"
+											},
+											{
+												"type": "literal",
+												"value": "min"
+											},
+											{
+												"type": "literal",
+												"value": "minLength"
+											},
+											{
+												"type": "literal",
+												"value": "multiple"
+											},
+											{
+												"type": "literal",
+												"value": "muted"
+											},
+											{
+												"type": "literal",
+												"value": "name"
+											},
+											{
+												"type": "literal",
+												"value": "nonce"
+											},
+											{
+												"type": "literal",
+												"value": "noValidate"
+											},
+											{
+												"type": "literal",
+												"value": "open"
+											},
+											{
+												"type": "literal",
+												"value": "optimum"
+											},
+											{
+												"type": "literal",
+												"value": "pattern"
+											},
+											{
+												"type": "literal",
+												"value": "placeholder"
+											},
+											{
+												"type": "literal",
+												"value": "playsInline"
+											},
+											{
+												"type": "literal",
+												"value": "poster"
+											},
+											{
+												"type": "literal",
+												"value": "preload"
+											},
+											{
+												"type": "literal",
+												"value": "readOnly"
+											},
+											{
+												"type": "literal",
+												"value": "rel"
+											},
+											{
+												"type": "literal",
+												"value": "required"
+											},
+											{
+												"type": "literal",
+												"value": "reversed"
+											},
+											{
+												"type": "literal",
+												"value": "rows"
+											},
+											{
+												"type": "literal",
+												"value": "rowSpan"
+											},
+											{
+												"type": "literal",
+												"value": "sandbox"
+											},
+											{
+												"type": "literal",
+												"value": "scope"
+											},
+											{
+												"type": "literal",
+												"value": "scoped"
+											},
+											{
+												"type": "literal",
+												"value": "scrolling"
+											},
+											{
+												"type": "literal",
+												"value": "seamless"
+											},
+											{
+												"type": "literal",
+												"value": "selected"
+											},
+											{
+												"type": "literal",
+												"value": "shape"
+											},
+											{
+												"type": "literal",
+												"value": "size"
+											},
+											{
+												"type": "literal",
+												"value": "sizes"
+											},
+											{
+												"type": "literal",
+												"value": "span"
+											},
+											{
+												"type": "literal",
+												"value": "src"
+											},
+											{
+												"type": "literal",
+												"value": "srcDoc"
+											},
+											{
+												"type": "literal",
+												"value": "srcLang"
+											},
+											{
+												"type": "literal",
+												"value": "srcSet"
+											},
+											{
+												"type": "literal",
+												"value": "start"
+											},
+											{
+												"type": "literal",
+												"value": "step"
+											},
+											{
+												"type": "literal",
+												"value": "summary"
+											},
+											{
+												"type": "literal",
+												"value": "target"
+											},
+											{
+												"type": "literal",
+												"value": "type"
+											},
+											{
+												"type": "literal",
+												"value": "useMap"
+											},
+											{
+												"type": "literal",
+												"value": "width"
+											},
+											{
+												"type": "literal",
+												"value": "wmode"
+											},
+											{
+												"type": "literal",
+												"value": "wrap"
+											},
+											{
+												"type": "literal",
+												"value": "defaultChecked"
+											},
+											{
+												"type": "literal",
+												"value": "defaultValue"
+											},
+											{
+												"type": "literal",
+												"value": "suppressContentEditableWarning"
+											},
+											{
+												"type": "literal",
+												"value": "suppressHydrationWarning"
+											},
+											{
+												"type": "literal",
+												"value": "accessKey"
+											},
+											{
+												"type": "literal",
+												"value": "className"
+											},
+											{
+												"type": "literal",
+												"value": "contentEditable"
+											},
+											{
+												"type": "literal",
+												"value": "contextMenu"
+											},
+											{
+												"type": "literal",
+												"value": "dir"
+											},
+											{
+												"type": "literal",
+												"value": "draggable"
+											},
+											{
+												"type": "literal",
+												"value": "hidden"
+											},
+											{
+												"type": "literal",
+												"value": "id"
+											},
+											{
+												"type": "literal",
+												"value": "lang"
+											},
+											{
+												"type": "literal",
+												"value": "slot"
+											},
+											{
+												"type": "literal",
+												"value": "spellCheck"
+											},
+											{
+												"type": "literal",
+												"value": "style"
+											},
+											{
+												"type": "literal",
+												"value": "tabIndex"
+											},
+											{
+												"type": "literal",
+												"value": "title"
+											},
+											{
+												"type": "literal",
+												"value": "translate"
+											},
+											{
+												"type": "literal",
+												"value": "radioGroup"
+											},
+											{
+												"type": "literal",
+												"value": "role"
+											},
+											{
+												"type": "literal",
+												"value": "about"
+											},
+											{
+												"type": "literal",
+												"value": "datatype"
+											},
+											{
+												"type": "literal",
+												"value": "inlist"
+											},
+											{
+												"type": "literal",
+												"value": "prefix"
+											},
+											{
+												"type": "literal",
+												"value": "property"
+											},
+											{
+												"type": "literal",
+												"value": "resource"
+											},
+											{
+												"type": "literal",
+												"value": "typeof"
+											},
+											{
+												"type": "literal",
+												"value": "vocab"
+											},
+											{
+												"type": "literal",
+												"value": "autoCapitalize"
+											},
+											{
+												"type": "literal",
+												"value": "autoCorrect"
+											},
+											{
+												"type": "literal",
+												"value": "autoSave"
+											},
+											{
+												"type": "literal",
+												"value": "color"
+											},
+											{
+												"type": "literal",
+												"value": "itemProp"
+											},
+											{
+												"type": "literal",
+												"value": "itemScope"
+											},
+											{
+												"type": "literal",
+												"value": "itemType"
+											},
+											{
+												"type": "literal",
+												"value": "itemID"
+											},
+											{
+												"type": "literal",
+												"value": "itemRef"
+											},
+											{
+												"type": "literal",
+												"value": "results"
+											},
+											{
+												"type": "literal",
+												"value": "security"
+											},
+											{
+												"type": "literal",
+												"value": "unselectable"
+											},
+											{
+												"type": "literal",
+												"value": "inputMode"
+											},
+											{
+												"type": "literal",
+												"value": "is"
+											},
+											{
+												"type": "literal",
+												"value": "aria-activedescendant"
+											},
+											{
+												"type": "literal",
+												"value": "aria-atomic"
+											},
+											{
+												"type": "literal",
+												"value": "aria-autocomplete"
+											},
+											{
+												"type": "literal",
+												"value": "aria-busy"
+											},
+											{
+												"type": "literal",
+												"value": "aria-checked"
+											},
+											{
+												"type": "literal",
+												"value": "aria-colcount"
+											},
+											{
+												"type": "literal",
+												"value": "aria-colindex"
+											},
+											{
+												"type": "literal",
+												"value": "aria-colspan"
+											},
+											{
+												"type": "literal",
+												"value": "aria-controls"
+											},
+											{
+												"type": "literal",
+												"value": "aria-current"
+											},
+											{
+												"type": "literal",
+												"value": "aria-describedby"
+											},
+											{
+												"type": "literal",
+												"value": "aria-details"
+											},
+											{
+												"type": "literal",
+												"value": "aria-disabled"
+											},
+											{
+												"type": "literal",
+												"value": "aria-dropeffect"
+											},
+											{
+												"type": "literal",
+												"value": "aria-errormessage"
+											},
+											{
+												"type": "literal",
+												"value": "aria-expanded"
+											},
+											{
+												"type": "literal",
+												"value": "aria-flowto"
+											},
+											{
+												"type": "literal",
+												"value": "aria-grabbed"
+											},
+											{
+												"type": "literal",
+												"value": "aria-haspopup"
+											},
+											{
+												"type": "literal",
+												"value": "aria-hidden"
+											},
+											{
+												"type": "literal",
+												"value": "aria-invalid"
+											},
+											{
+												"type": "literal",
+												"value": "aria-keyshortcuts"
+											},
+											{
+												"type": "literal",
+												"value": "aria-label"
+											},
+											{
+												"type": "literal",
+												"value": "aria-labelledby"
+											},
+											{
+												"type": "literal",
+												"value": "aria-level"
+											},
+											{
+												"type": "literal",
+												"value": "aria-live"
+											},
+											{
+												"type": "literal",
+												"value": "aria-modal"
+											},
+											{
+												"type": "literal",
+												"value": "aria-multiline"
+											},
+											{
+												"type": "literal",
+												"value": "aria-multiselectable"
+											},
+											{
+												"type": "literal",
+												"value": "aria-orientation"
+											},
+											{
+												"type": "literal",
+												"value": "aria-owns"
+											},
+											{
+												"type": "literal",
+												"value": "aria-placeholder"
+											},
+											{
+												"type": "literal",
+												"value": "aria-posinset"
+											},
+											{
+												"type": "literal",
+												"value": "aria-pressed"
+											},
+											{
+												"type": "literal",
+												"value": "aria-readonly"
+											},
+											{
+												"type": "literal",
+												"value": "aria-relevant"
+											},
+											{
+												"type": "literal",
+												"value": "aria-required"
+											},
+											{
+												"type": "literal",
+												"value": "aria-roledescription"
+											},
+											{
+												"type": "literal",
+												"value": "aria-rowcount"
+											},
+											{
+												"type": "literal",
+												"value": "aria-rowindex"
+											},
+											{
+												"type": "literal",
+												"value": "aria-rowspan"
+											},
+											{
+												"type": "literal",
+												"value": "aria-selected"
+											},
+											{
+												"type": "literal",
+												"value": "aria-setsize"
+											},
+											{
+												"type": "literal",
+												"value": "aria-sort"
+											},
+											{
+												"type": "literal",
+												"value": "aria-valuemax"
+											},
+											{
+												"type": "literal",
+												"value": "aria-valuemin"
+											},
+											{
+												"type": "literal",
+												"value": "aria-valuenow"
+											},
+											{
+												"type": "literal",
+												"value": "aria-valuetext"
+											},
+											{
+												"type": "literal",
+												"value": "children"
+											},
+											{
+												"type": "literal",
+												"value": "dangerouslySetInnerHTML"
+											},
+											{
+												"type": "literal",
+												"value": "onCopy"
+											},
+											{
+												"type": "literal",
+												"value": "onCopyCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onCut"
+											},
+											{
+												"type": "literal",
+												"value": "onCutCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onPaste"
+											},
+											{
+												"type": "literal",
+												"value": "onPasteCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onCompositionEnd"
+											},
+											{
+												"type": "literal",
+												"value": "onCompositionEndCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onCompositionStart"
+											},
+											{
+												"type": "literal",
+												"value": "onCompositionStartCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onCompositionUpdate"
+											},
+											{
+												"type": "literal",
+												"value": "onCompositionUpdateCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onFocus"
+											},
+											{
+												"type": "literal",
+												"value": "onFocusCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onBlur"
+											},
+											{
+												"type": "literal",
+												"value": "onBlurCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onChangeCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onBeforeInput"
+											},
+											{
+												"type": "literal",
+												"value": "onBeforeInputCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onInput"
+											},
+											{
+												"type": "literal",
+												"value": "onInputCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onReset"
+											},
+											{
+												"type": "literal",
+												"value": "onResetCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onSubmit"
+											},
+											{
+												"type": "literal",
+												"value": "onSubmitCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onInvalid"
+											},
+											{
+												"type": "literal",
+												"value": "onInvalidCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onLoad"
+											},
+											{
+												"type": "literal",
+												"value": "onLoadCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onError"
+											},
+											{
+												"type": "literal",
+												"value": "onErrorCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onKeyDown"
+											},
+											{
+												"type": "literal",
+												"value": "onKeyDownCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onKeyPress"
+											},
+											{
+												"type": "literal",
+												"value": "onKeyPressCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onKeyUp"
+											},
+											{
+												"type": "literal",
+												"value": "onKeyUpCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onAbort"
+											},
+											{
+												"type": "literal",
+												"value": "onAbortCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onCanPlay"
+											},
+											{
+												"type": "literal",
+												"value": "onCanPlayCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onCanPlayThrough"
+											},
+											{
+												"type": "literal",
+												"value": "onCanPlayThroughCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onDurationChange"
+											},
+											{
+												"type": "literal",
+												"value": "onDurationChangeCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onEmptied"
+											},
+											{
+												"type": "literal",
+												"value": "onEmptiedCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onEncrypted"
+											},
+											{
+												"type": "literal",
+												"value": "onEncryptedCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onEnded"
+											},
+											{
+												"type": "literal",
+												"value": "onEndedCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onLoadedData"
+											},
+											{
+												"type": "literal",
+												"value": "onLoadedDataCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onLoadedMetadata"
+											},
+											{
+												"type": "literal",
+												"value": "onLoadedMetadataCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onLoadStart"
+											},
+											{
+												"type": "literal",
+												"value": "onLoadStartCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onPause"
+											},
+											{
+												"type": "literal",
+												"value": "onPauseCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onPlay"
+											},
+											{
+												"type": "literal",
+												"value": "onPlayCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onPlaying"
+											},
+											{
+												"type": "literal",
+												"value": "onPlayingCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onProgress"
+											},
+											{
+												"type": "literal",
+												"value": "onProgressCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onRateChange"
+											},
+											{
+												"type": "literal",
+												"value": "onRateChangeCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onSeeked"
+											},
+											{
+												"type": "literal",
+												"value": "onSeekedCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onSeeking"
+											},
+											{
+												"type": "literal",
+												"value": "onSeekingCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onStalled"
+											},
+											{
+												"type": "literal",
+												"value": "onStalledCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onSuspend"
+											},
+											{
+												"type": "literal",
+												"value": "onSuspendCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onTimeUpdate"
+											},
+											{
+												"type": "literal",
+												"value": "onTimeUpdateCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onVolumeChange"
+											},
+											{
+												"type": "literal",
+												"value": "onVolumeChangeCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onWaiting"
+											},
+											{
+												"type": "literal",
+												"value": "onWaitingCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onAuxClick"
+											},
+											{
+												"type": "literal",
+												"value": "onAuxClickCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onClick"
+											},
+											{
+												"type": "literal",
+												"value": "onClickCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onContextMenu"
+											},
+											{
+												"type": "literal",
+												"value": "onContextMenuCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onDoubleClick"
+											},
+											{
+												"type": "literal",
+												"value": "onDoubleClickCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onDrag"
+											},
+											{
+												"type": "literal",
+												"value": "onDragCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onDragEnd"
+											},
+											{
+												"type": "literal",
+												"value": "onDragEndCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onDragEnter"
+											},
+											{
+												"type": "literal",
+												"value": "onDragEnterCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onDragExit"
+											},
+											{
+												"type": "literal",
+												"value": "onDragExitCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onDragLeave"
+											},
+											{
+												"type": "literal",
+												"value": "onDragLeaveCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onDragOver"
+											},
+											{
+												"type": "literal",
+												"value": "onDragOverCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onDragStart"
+											},
+											{
+												"type": "literal",
+												"value": "onDragStartCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onDrop"
+											},
+											{
+												"type": "literal",
+												"value": "onDropCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onMouseDown"
+											},
+											{
+												"type": "literal",
+												"value": "onMouseDownCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onMouseEnter"
+											},
+											{
+												"type": "literal",
+												"value": "onMouseLeave"
+											},
+											{
+												"type": "literal",
+												"value": "onMouseMove"
+											},
+											{
+												"type": "literal",
+												"value": "onMouseMoveCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onMouseOut"
+											},
+											{
+												"type": "literal",
+												"value": "onMouseOutCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onMouseOver"
+											},
+											{
+												"type": "literal",
+												"value": "onMouseOverCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onMouseUp"
+											},
+											{
+												"type": "literal",
+												"value": "onMouseUpCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onSelect"
+											},
+											{
+												"type": "literal",
+												"value": "onSelectCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onTouchCancel"
+											},
+											{
+												"type": "literal",
+												"value": "onTouchCancelCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onTouchEnd"
+											},
+											{
+												"type": "literal",
+												"value": "onTouchEndCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onTouchMove"
+											},
+											{
+												"type": "literal",
+												"value": "onTouchMoveCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onTouchStart"
+											},
+											{
+												"type": "literal",
+												"value": "onTouchStartCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerDown"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerDownCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerMove"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerMoveCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerUp"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerUpCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerCancel"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerCancelCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerEnter"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerEnterCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerLeave"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerLeaveCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerOver"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerOverCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerOut"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerOutCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onGotPointerCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onGotPointerCaptureCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onLostPointerCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onLostPointerCaptureCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onScroll"
+											},
+											{
+												"type": "literal",
+												"value": "onScrollCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onWheel"
+											},
+											{
+												"type": "literal",
+												"value": "onWheelCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onAnimationStart"
+											},
+											{
+												"type": "literal",
+												"value": "onAnimationStartCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onAnimationEnd"
+											},
+											{
+												"type": "literal",
+												"value": "onAnimationEndCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onAnimationIteration"
+											},
+											{
+												"type": "literal",
+												"value": "onAnimationIterationCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onTransitionEnd"
+											},
+											{
+												"type": "literal",
+												"value": "onTransitionEndCapture"
+											},
+											{
+												"type": "literal",
+												"value": "css"
+											},
+											{
+												"type": "literal",
+												"value": "key"
+											},
+											{
+												"type": "literal",
+												"value": "ariaTitle"
+											},
+											{
+												"type": "literal",
+												"value": "variant"
+											},
+											{
+												"type": "literal",
+												"value": "iconAfter"
+											},
+											{
+												"type": "literal",
+												"value": "iconBefore"
+											},
+											{
+												"type": "literal",
+												"value": "fullWidth"
+											},
+											{
+												"type": "literal",
+												"value": "elevation"
+											}
+										]
+									}
+								],
+								"name": "Pick"
+							},
+							{
+								"type": "reflection",
+								"declaration": {
+									"id": 21,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {}
+								}
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.leftArrowButtonProps"
+					}
+				},
+				{
+					"id": 24,
+					"name": "leftArrowButtonText",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.leftArrowButtonText"
+					}
+				},
+				{
+					"id": 18,
+					"name": "leftArrowIcon",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"name": "ReactNode"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.leftArrowIcon"
+					}
+				},
+				{
+					"id": 35,
+					"name": "loading",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "If `true` renders `LoadingComponent` in calendar instead of calendar view.\nCan be used to preload information and show it in calendar.",
+						"tags": [
+							{
+								"tag": "default",
+								"text": "false\n"
+							}
+						]
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.loading"
+					}
+				},
+				{
+					"id": 7,
+					"name": "maxDate",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"name": "ParsableDate"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.maxDate"
+					}
+				},
+				{
+					"id": 6,
+					"name": "minDate",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"name": "ParsableDate"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.minDate"
+					}
+				},
+				{
+					"id": 22,
+					"name": "rightArrowButtonProps",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Props to pass to right arrow button"
+					},
+					"type": {
+						"type": "intersection",
+						"types": [
+							{
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "reference",
+										"name": "IconButtonProps"
+									},
+									{
+										"type": "union",
+										"types": [
+											{
+												"type": "literal",
+												"value": "onChange"
+											},
+											{
+												"type": "literal",
+												"value": "value"
+											},
+											{
+												"type": "literal",
+												"value": "as"
+											},
+											{
+												"type": "literal",
+												"value": "accept"
+											},
+											{
+												"type": "literal",
+												"value": "acceptCharset"
+											},
+											{
+												"type": "literal",
+												"value": "action"
+											},
+											{
+												"type": "literal",
+												"value": "allowFullScreen"
+											},
+											{
+												"type": "literal",
+												"value": "allowTransparency"
+											},
+											{
+												"type": "literal",
+												"value": "alt"
+											},
+											{
+												"type": "literal",
+												"value": "async"
+											},
+											{
+												"type": "literal",
+												"value": "autoComplete"
+											},
+											{
+												"type": "literal",
+												"value": "autoFocus"
+											},
+											{
+												"type": "literal",
+												"value": "autoPlay"
+											},
+											{
+												"type": "literal",
+												"value": "capture"
+											},
+											{
+												"type": "literal",
+												"value": "cellPadding"
+											},
+											{
+												"type": "literal",
+												"value": "cellSpacing"
+											},
+											{
+												"type": "literal",
+												"value": "charSet"
+											},
+											{
+												"type": "literal",
+												"value": "challenge"
+											},
+											{
+												"type": "literal",
+												"value": "checked"
+											},
+											{
+												"type": "literal",
+												"value": "cite"
+											},
+											{
+												"type": "literal",
+												"value": "classID"
+											},
+											{
+												"type": "literal",
+												"value": "cols"
+											},
+											{
+												"type": "literal",
+												"value": "colSpan"
+											},
+											{
+												"type": "literal",
+												"value": "content"
+											},
+											{
+												"type": "literal",
+												"value": "controls"
+											},
+											{
+												"type": "literal",
+												"value": "coords"
+											},
+											{
+												"type": "literal",
+												"value": "crossOrigin"
+											},
+											{
+												"type": "literal",
+												"value": "data"
+											},
+											{
+												"type": "literal",
+												"value": "dateTime"
+											},
+											{
+												"type": "literal",
+												"value": "default"
+											},
+											{
+												"type": "literal",
+												"value": "defer"
+											},
+											{
+												"type": "literal",
+												"value": "disabled"
+											},
+											{
+												"type": "literal",
+												"value": "download"
+											},
+											{
+												"type": "literal",
+												"value": "encType"
+											},
+											{
+												"type": "literal",
+												"value": "form"
+											},
+											{
+												"type": "literal",
+												"value": "formAction"
+											},
+											{
+												"type": "literal",
+												"value": "formEncType"
+											},
+											{
+												"type": "literal",
+												"value": "formMethod"
+											},
+											{
+												"type": "literal",
+												"value": "formNoValidate"
+											},
+											{
+												"type": "literal",
+												"value": "formTarget"
+											},
+											{
+												"type": "literal",
+												"value": "frameBorder"
+											},
+											{
+												"type": "literal",
+												"value": "headers"
+											},
+											{
+												"type": "literal",
+												"value": "height"
+											},
+											{
+												"type": "literal",
+												"value": "high"
+											},
+											{
+												"type": "literal",
+												"value": "href"
+											},
+											{
+												"type": "literal",
+												"value": "hrefLang"
+											},
+											{
+												"type": "literal",
+												"value": "htmlFor"
+											},
+											{
+												"type": "literal",
+												"value": "httpEquiv"
+											},
+											{
+												"type": "literal",
+												"value": "integrity"
+											},
+											{
+												"type": "literal",
+												"value": "keyParams"
+											},
+											{
+												"type": "literal",
+												"value": "keyType"
+											},
+											{
+												"type": "literal",
+												"value": "kind"
+											},
+											{
+												"type": "literal",
+												"value": "label"
+											},
+											{
+												"type": "literal",
+												"value": "list"
+											},
+											{
+												"type": "literal",
+												"value": "loop"
+											},
+											{
+												"type": "literal",
+												"value": "low"
+											},
+											{
+												"type": "literal",
+												"value": "manifest"
+											},
+											{
+												"type": "literal",
+												"value": "marginHeight"
+											},
+											{
+												"type": "literal",
+												"value": "marginWidth"
+											},
+											{
+												"type": "literal",
+												"value": "max"
+											},
+											{
+												"type": "literal",
+												"value": "maxLength"
+											},
+											{
+												"type": "literal",
+												"value": "media"
+											},
+											{
+												"type": "literal",
+												"value": "mediaGroup"
+											},
+											{
+												"type": "literal",
+												"value": "method"
+											},
+											{
+												"type": "literal",
+												"value": "min"
+											},
+											{
+												"type": "literal",
+												"value": "minLength"
+											},
+											{
+												"type": "literal",
+												"value": "multiple"
+											},
+											{
+												"type": "literal",
+												"value": "muted"
+											},
+											{
+												"type": "literal",
+												"value": "name"
+											},
+											{
+												"type": "literal",
+												"value": "nonce"
+											},
+											{
+												"type": "literal",
+												"value": "noValidate"
+											},
+											{
+												"type": "literal",
+												"value": "open"
+											},
+											{
+												"type": "literal",
+												"value": "optimum"
+											},
+											{
+												"type": "literal",
+												"value": "pattern"
+											},
+											{
+												"type": "literal",
+												"value": "placeholder"
+											},
+											{
+												"type": "literal",
+												"value": "playsInline"
+											},
+											{
+												"type": "literal",
+												"value": "poster"
+											},
+											{
+												"type": "literal",
+												"value": "preload"
+											},
+											{
+												"type": "literal",
+												"value": "readOnly"
+											},
+											{
+												"type": "literal",
+												"value": "rel"
+											},
+											{
+												"type": "literal",
+												"value": "required"
+											},
+											{
+												"type": "literal",
+												"value": "reversed"
+											},
+											{
+												"type": "literal",
+												"value": "rows"
+											},
+											{
+												"type": "literal",
+												"value": "rowSpan"
+											},
+											{
+												"type": "literal",
+												"value": "sandbox"
+											},
+											{
+												"type": "literal",
+												"value": "scope"
+											},
+											{
+												"type": "literal",
+												"value": "scoped"
+											},
+											{
+												"type": "literal",
+												"value": "scrolling"
+											},
+											{
+												"type": "literal",
+												"value": "seamless"
+											},
+											{
+												"type": "literal",
+												"value": "selected"
+											},
+											{
+												"type": "literal",
+												"value": "shape"
+											},
+											{
+												"type": "literal",
+												"value": "size"
+											},
+											{
+												"type": "literal",
+												"value": "sizes"
+											},
+											{
+												"type": "literal",
+												"value": "span"
+											},
+											{
+												"type": "literal",
+												"value": "src"
+											},
+											{
+												"type": "literal",
+												"value": "srcDoc"
+											},
+											{
+												"type": "literal",
+												"value": "srcLang"
+											},
+											{
+												"type": "literal",
+												"value": "srcSet"
+											},
+											{
+												"type": "literal",
+												"value": "start"
+											},
+											{
+												"type": "literal",
+												"value": "step"
+											},
+											{
+												"type": "literal",
+												"value": "summary"
+											},
+											{
+												"type": "literal",
+												"value": "target"
+											},
+											{
+												"type": "literal",
+												"value": "type"
+											},
+											{
+												"type": "literal",
+												"value": "useMap"
+											},
+											{
+												"type": "literal",
+												"value": "width"
+											},
+											{
+												"type": "literal",
+												"value": "wmode"
+											},
+											{
+												"type": "literal",
+												"value": "wrap"
+											},
+											{
+												"type": "literal",
+												"value": "defaultChecked"
+											},
+											{
+												"type": "literal",
+												"value": "defaultValue"
+											},
+											{
+												"type": "literal",
+												"value": "suppressContentEditableWarning"
+											},
+											{
+												"type": "literal",
+												"value": "suppressHydrationWarning"
+											},
+											{
+												"type": "literal",
+												"value": "accessKey"
+											},
+											{
+												"type": "literal",
+												"value": "className"
+											},
+											{
+												"type": "literal",
+												"value": "contentEditable"
+											},
+											{
+												"type": "literal",
+												"value": "contextMenu"
+											},
+											{
+												"type": "literal",
+												"value": "dir"
+											},
+											{
+												"type": "literal",
+												"value": "draggable"
+											},
+											{
+												"type": "literal",
+												"value": "hidden"
+											},
+											{
+												"type": "literal",
+												"value": "id"
+											},
+											{
+												"type": "literal",
+												"value": "lang"
+											},
+											{
+												"type": "literal",
+												"value": "slot"
+											},
+											{
+												"type": "literal",
+												"value": "spellCheck"
+											},
+											{
+												"type": "literal",
+												"value": "style"
+											},
+											{
+												"type": "literal",
+												"value": "tabIndex"
+											},
+											{
+												"type": "literal",
+												"value": "title"
+											},
+											{
+												"type": "literal",
+												"value": "translate"
+											},
+											{
+												"type": "literal",
+												"value": "radioGroup"
+											},
+											{
+												"type": "literal",
+												"value": "role"
+											},
+											{
+												"type": "literal",
+												"value": "about"
+											},
+											{
+												"type": "literal",
+												"value": "datatype"
+											},
+											{
+												"type": "literal",
+												"value": "inlist"
+											},
+											{
+												"type": "literal",
+												"value": "prefix"
+											},
+											{
+												"type": "literal",
+												"value": "property"
+											},
+											{
+												"type": "literal",
+												"value": "resource"
+											},
+											{
+												"type": "literal",
+												"value": "typeof"
+											},
+											{
+												"type": "literal",
+												"value": "vocab"
+											},
+											{
+												"type": "literal",
+												"value": "autoCapitalize"
+											},
+											{
+												"type": "literal",
+												"value": "autoCorrect"
+											},
+											{
+												"type": "literal",
+												"value": "autoSave"
+											},
+											{
+												"type": "literal",
+												"value": "color"
+											},
+											{
+												"type": "literal",
+												"value": "itemProp"
+											},
+											{
+												"type": "literal",
+												"value": "itemScope"
+											},
+											{
+												"type": "literal",
+												"value": "itemType"
+											},
+											{
+												"type": "literal",
+												"value": "itemID"
+											},
+											{
+												"type": "literal",
+												"value": "itemRef"
+											},
+											{
+												"type": "literal",
+												"value": "results"
+											},
+											{
+												"type": "literal",
+												"value": "security"
+											},
+											{
+												"type": "literal",
+												"value": "unselectable"
+											},
+											{
+												"type": "literal",
+												"value": "inputMode"
+											},
+											{
+												"type": "literal",
+												"value": "is"
+											},
+											{
+												"type": "literal",
+												"value": "aria-activedescendant"
+											},
+											{
+												"type": "literal",
+												"value": "aria-atomic"
+											},
+											{
+												"type": "literal",
+												"value": "aria-autocomplete"
+											},
+											{
+												"type": "literal",
+												"value": "aria-busy"
+											},
+											{
+												"type": "literal",
+												"value": "aria-checked"
+											},
+											{
+												"type": "literal",
+												"value": "aria-colcount"
+											},
+											{
+												"type": "literal",
+												"value": "aria-colindex"
+											},
+											{
+												"type": "literal",
+												"value": "aria-colspan"
+											},
+											{
+												"type": "literal",
+												"value": "aria-controls"
+											},
+											{
+												"type": "literal",
+												"value": "aria-current"
+											},
+											{
+												"type": "literal",
+												"value": "aria-describedby"
+											},
+											{
+												"type": "literal",
+												"value": "aria-details"
+											},
+											{
+												"type": "literal",
+												"value": "aria-disabled"
+											},
+											{
+												"type": "literal",
+												"value": "aria-dropeffect"
+											},
+											{
+												"type": "literal",
+												"value": "aria-errormessage"
+											},
+											{
+												"type": "literal",
+												"value": "aria-expanded"
+											},
+											{
+												"type": "literal",
+												"value": "aria-flowto"
+											},
+											{
+												"type": "literal",
+												"value": "aria-grabbed"
+											},
+											{
+												"type": "literal",
+												"value": "aria-haspopup"
+											},
+											{
+												"type": "literal",
+												"value": "aria-hidden"
+											},
+											{
+												"type": "literal",
+												"value": "aria-invalid"
+											},
+											{
+												"type": "literal",
+												"value": "aria-keyshortcuts"
+											},
+											{
+												"type": "literal",
+												"value": "aria-label"
+											},
+											{
+												"type": "literal",
+												"value": "aria-labelledby"
+											},
+											{
+												"type": "literal",
+												"value": "aria-level"
+											},
+											{
+												"type": "literal",
+												"value": "aria-live"
+											},
+											{
+												"type": "literal",
+												"value": "aria-modal"
+											},
+											{
+												"type": "literal",
+												"value": "aria-multiline"
+											},
+											{
+												"type": "literal",
+												"value": "aria-multiselectable"
+											},
+											{
+												"type": "literal",
+												"value": "aria-orientation"
+											},
+											{
+												"type": "literal",
+												"value": "aria-owns"
+											},
+											{
+												"type": "literal",
+												"value": "aria-placeholder"
+											},
+											{
+												"type": "literal",
+												"value": "aria-posinset"
+											},
+											{
+												"type": "literal",
+												"value": "aria-pressed"
+											},
+											{
+												"type": "literal",
+												"value": "aria-readonly"
+											},
+											{
+												"type": "literal",
+												"value": "aria-relevant"
+											},
+											{
+												"type": "literal",
+												"value": "aria-required"
+											},
+											{
+												"type": "literal",
+												"value": "aria-roledescription"
+											},
+											{
+												"type": "literal",
+												"value": "aria-rowcount"
+											},
+											{
+												"type": "literal",
+												"value": "aria-rowindex"
+											},
+											{
+												"type": "literal",
+												"value": "aria-rowspan"
+											},
+											{
+												"type": "literal",
+												"value": "aria-selected"
+											},
+											{
+												"type": "literal",
+												"value": "aria-setsize"
+											},
+											{
+												"type": "literal",
+												"value": "aria-sort"
+											},
+											{
+												"type": "literal",
+												"value": "aria-valuemax"
+											},
+											{
+												"type": "literal",
+												"value": "aria-valuemin"
+											},
+											{
+												"type": "literal",
+												"value": "aria-valuenow"
+											},
+											{
+												"type": "literal",
+												"value": "aria-valuetext"
+											},
+											{
+												"type": "literal",
+												"value": "children"
+											},
+											{
+												"type": "literal",
+												"value": "dangerouslySetInnerHTML"
+											},
+											{
+												"type": "literal",
+												"value": "onCopy"
+											},
+											{
+												"type": "literal",
+												"value": "onCopyCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onCut"
+											},
+											{
+												"type": "literal",
+												"value": "onCutCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onPaste"
+											},
+											{
+												"type": "literal",
+												"value": "onPasteCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onCompositionEnd"
+											},
+											{
+												"type": "literal",
+												"value": "onCompositionEndCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onCompositionStart"
+											},
+											{
+												"type": "literal",
+												"value": "onCompositionStartCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onCompositionUpdate"
+											},
+											{
+												"type": "literal",
+												"value": "onCompositionUpdateCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onFocus"
+											},
+											{
+												"type": "literal",
+												"value": "onFocusCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onBlur"
+											},
+											{
+												"type": "literal",
+												"value": "onBlurCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onChangeCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onBeforeInput"
+											},
+											{
+												"type": "literal",
+												"value": "onBeforeInputCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onInput"
+											},
+											{
+												"type": "literal",
+												"value": "onInputCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onReset"
+											},
+											{
+												"type": "literal",
+												"value": "onResetCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onSubmit"
+											},
+											{
+												"type": "literal",
+												"value": "onSubmitCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onInvalid"
+											},
+											{
+												"type": "literal",
+												"value": "onInvalidCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onLoad"
+											},
+											{
+												"type": "literal",
+												"value": "onLoadCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onError"
+											},
+											{
+												"type": "literal",
+												"value": "onErrorCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onKeyDown"
+											},
+											{
+												"type": "literal",
+												"value": "onKeyDownCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onKeyPress"
+											},
+											{
+												"type": "literal",
+												"value": "onKeyPressCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onKeyUp"
+											},
+											{
+												"type": "literal",
+												"value": "onKeyUpCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onAbort"
+											},
+											{
+												"type": "literal",
+												"value": "onAbortCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onCanPlay"
+											},
+											{
+												"type": "literal",
+												"value": "onCanPlayCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onCanPlayThrough"
+											},
+											{
+												"type": "literal",
+												"value": "onCanPlayThroughCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onDurationChange"
+											},
+											{
+												"type": "literal",
+												"value": "onDurationChangeCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onEmptied"
+											},
+											{
+												"type": "literal",
+												"value": "onEmptiedCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onEncrypted"
+											},
+											{
+												"type": "literal",
+												"value": "onEncryptedCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onEnded"
+											},
+											{
+												"type": "literal",
+												"value": "onEndedCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onLoadedData"
+											},
+											{
+												"type": "literal",
+												"value": "onLoadedDataCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onLoadedMetadata"
+											},
+											{
+												"type": "literal",
+												"value": "onLoadedMetadataCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onLoadStart"
+											},
+											{
+												"type": "literal",
+												"value": "onLoadStartCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onPause"
+											},
+											{
+												"type": "literal",
+												"value": "onPauseCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onPlay"
+											},
+											{
+												"type": "literal",
+												"value": "onPlayCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onPlaying"
+											},
+											{
+												"type": "literal",
+												"value": "onPlayingCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onProgress"
+											},
+											{
+												"type": "literal",
+												"value": "onProgressCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onRateChange"
+											},
+											{
+												"type": "literal",
+												"value": "onRateChangeCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onSeeked"
+											},
+											{
+												"type": "literal",
+												"value": "onSeekedCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onSeeking"
+											},
+											{
+												"type": "literal",
+												"value": "onSeekingCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onStalled"
+											},
+											{
+												"type": "literal",
+												"value": "onStalledCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onSuspend"
+											},
+											{
+												"type": "literal",
+												"value": "onSuspendCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onTimeUpdate"
+											},
+											{
+												"type": "literal",
+												"value": "onTimeUpdateCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onVolumeChange"
+											},
+											{
+												"type": "literal",
+												"value": "onVolumeChangeCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onWaiting"
+											},
+											{
+												"type": "literal",
+												"value": "onWaitingCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onAuxClick"
+											},
+											{
+												"type": "literal",
+												"value": "onAuxClickCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onClick"
+											},
+											{
+												"type": "literal",
+												"value": "onClickCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onContextMenu"
+											},
+											{
+												"type": "literal",
+												"value": "onContextMenuCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onDoubleClick"
+											},
+											{
+												"type": "literal",
+												"value": "onDoubleClickCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onDrag"
+											},
+											{
+												"type": "literal",
+												"value": "onDragCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onDragEnd"
+											},
+											{
+												"type": "literal",
+												"value": "onDragEndCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onDragEnter"
+											},
+											{
+												"type": "literal",
+												"value": "onDragEnterCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onDragExit"
+											},
+											{
+												"type": "literal",
+												"value": "onDragExitCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onDragLeave"
+											},
+											{
+												"type": "literal",
+												"value": "onDragLeaveCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onDragOver"
+											},
+											{
+												"type": "literal",
+												"value": "onDragOverCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onDragStart"
+											},
+											{
+												"type": "literal",
+												"value": "onDragStartCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onDrop"
+											},
+											{
+												"type": "literal",
+												"value": "onDropCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onMouseDown"
+											},
+											{
+												"type": "literal",
+												"value": "onMouseDownCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onMouseEnter"
+											},
+											{
+												"type": "literal",
+												"value": "onMouseLeave"
+											},
+											{
+												"type": "literal",
+												"value": "onMouseMove"
+											},
+											{
+												"type": "literal",
+												"value": "onMouseMoveCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onMouseOut"
+											},
+											{
+												"type": "literal",
+												"value": "onMouseOutCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onMouseOver"
+											},
+											{
+												"type": "literal",
+												"value": "onMouseOverCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onMouseUp"
+											},
+											{
+												"type": "literal",
+												"value": "onMouseUpCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onSelect"
+											},
+											{
+												"type": "literal",
+												"value": "onSelectCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onTouchCancel"
+											},
+											{
+												"type": "literal",
+												"value": "onTouchCancelCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onTouchEnd"
+											},
+											{
+												"type": "literal",
+												"value": "onTouchEndCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onTouchMove"
+											},
+											{
+												"type": "literal",
+												"value": "onTouchMoveCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onTouchStart"
+											},
+											{
+												"type": "literal",
+												"value": "onTouchStartCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerDown"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerDownCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerMove"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerMoveCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerUp"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerUpCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerCancel"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerCancelCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerEnter"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerEnterCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerLeave"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerLeaveCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerOver"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerOverCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerOut"
+											},
+											{
+												"type": "literal",
+												"value": "onPointerOutCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onGotPointerCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onGotPointerCaptureCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onLostPointerCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onLostPointerCaptureCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onScroll"
+											},
+											{
+												"type": "literal",
+												"value": "onScrollCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onWheel"
+											},
+											{
+												"type": "literal",
+												"value": "onWheelCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onAnimationStart"
+											},
+											{
+												"type": "literal",
+												"value": "onAnimationStartCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onAnimationEnd"
+											},
+											{
+												"type": "literal",
+												"value": "onAnimationEndCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onAnimationIteration"
+											},
+											{
+												"type": "literal",
+												"value": "onAnimationIterationCapture"
+											},
+											{
+												"type": "literal",
+												"value": "onTransitionEnd"
+											},
+											{
+												"type": "literal",
+												"value": "onTransitionEndCapture"
+											},
+											{
+												"type": "literal",
+												"value": "css"
+											},
+											{
+												"type": "literal",
+												"value": "key"
+											},
+											{
+												"type": "literal",
+												"value": "ariaTitle"
+											},
+											{
+												"type": "literal",
+												"value": "variant"
+											},
+											{
+												"type": "literal",
+												"value": "iconAfter"
+											},
+											{
+												"type": "literal",
+												"value": "iconBefore"
+											},
+											{
+												"type": "literal",
+												"value": "fullWidth"
+											},
+											{
+												"type": "literal",
+												"value": "elevation"
+											}
+										]
+									}
+								],
+								"name": "Pick"
+							},
+							{
+								"type": "reflection",
+								"declaration": {
+									"id": 23,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {}
+								}
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.rightArrowButtonProps"
+					}
+				},
+				{
+					"id": 25,
+					"name": "rightArrowButtonText",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.rightArrowButtonText"
+					}
+				},
+				{
+					"id": 19,
+					"name": "rightArrowIcon",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"name": "ReactNode"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.rightArrowIcon"
+					}
+				},
+				{
+					"id": 46,
+					"name": "shadow",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Shadow to apply to picker base"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "BasePickerProps.shadow"
+					}
+				},
+				{
+					"id": 4,
+					"name": "shape",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "rounded"
+							},
+							{
+								"type": "literal",
+								"value": "squared"
+							}
+						]
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.shape"
+					}
+				},
+				{
+					"id": 16,
+					"name": "showDaysOutsideCurrentMonth",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Display disabled dates outside the current month.",
+						"tags": [
+							{
+								"tag": "default",
+								"text": "false\n"
+							}
+						]
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.showDaysOutsideCurrentMonth"
+					}
+				},
+				{
+					"id": 38,
+					"name": "value",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Picker value"
+					},
+					"type": {
+						"type": "reference",
+						"name": "ParsableDate"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "BasePickerProps.value"
+					}
+				},
+				{
+					"id": 39,
+					"name": "onChange",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 40,
+							"name": "onChange",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "onChange callback"
+							},
+							"parameters": [
+								{
+									"id": 41,
+									"name": "date",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"name": "Date"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "BasePickerProps.onChange"
+							}
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "BasePickerProps.onChange"
+					}
+				},
+				{
+					"id": 44,
+					"name": "onClose",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 45,
+							"name": "onClose",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "On close callback."
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "BasePickerProps.onClose"
+							}
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "BasePickerProps.onClose"
+					}
+				},
+				{
+					"id": 26,
+					"name": "onMonthChange",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 27,
+							"name": "onMonthChange",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Callback firing on month change."
+							},
+							"parameters": [
+								{
+									"id": 28,
+									"name": "date",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"name": "Date"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Omit.onMonthChange"
+							}
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.onMonthChange"
+					}
+				},
+				{
+					"id": 42,
+					"name": "onOpen",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 43,
+							"name": "onOpen",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "On open callback."
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "BasePickerProps.onOpen"
+							}
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "BasePickerProps.onOpen"
+					}
+				},
+				{
+					"id": 29,
+					"name": "renderDay",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 30,
+							"name": "renderDay",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Custom renderer for day. Check [DayComponentProps api](https://material-ui-pickers.dev/api/Day) @DateIOType."
+							},
+							"parameters": [
+								{
+									"id": 31,
+									"name": "day",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"name": "Date"
+									}
+								},
+								{
+									"id": 32,
+									"name": "selectedDates",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "reference",
+											"name": "Date"
+										}
+									}
+								},
+								{
+									"id": 33,
+									"name": "DayComponentProps",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"name": "DayProps"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "Element"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Omit.renderDay"
+							}
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.renderDay"
+					}
+				},
+				{
+					"id": 36,
+					"name": "renderLoading",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 37,
+							"name": "renderLoading",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Component displaying when passed `loading` true.",
+								"tags": [
+									{
+										"tag": "default",
+										"text": "() => \"...\"\n"
+									}
+								]
+							},
+							"type": {
+								"type": "reference",
+								"name": "ReactNode"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Omit.renderLoading"
+							}
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.renderLoading"
+					}
+				},
+				{
+					"id": 10,
+					"name": "shouldDisableDate",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 11,
+							"name": "shouldDisableDate",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Disable specific date @DateIOType."
+							},
+							"parameters": [
+								{
+									"id": 12,
+									"name": "day",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"name": "Date"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Omit.shouldDisableDate"
+							}
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.shouldDisableDate"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						5,
+						3,
+						9,
+						8,
+						17,
+						14,
+						15,
+						34,
+						13,
+						20,
+						24,
+						18,
+						35,
+						7,
+						6,
+						22,
+						25,
+						19,
+						46,
+						4,
+						16,
+						38
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						39,
+						44,
+						26,
+						42,
+						29,
+						36,
+						10
+					]
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"typeArguments": [
+						{
+							"type": "reference",
+							"id": 47,
+							"name": "CalendarPickerRef"
+						},
+						{
+							"type": "reference",
+							"name": "CalendarPickerOverrideProps"
+						}
+					],
+					"name": "BackyardBaseProps"
+				},
+				{
+					"type": "reference",
+					"typeArguments": [
+						{
+							"type": "reference",
+							"name": "CalendarProps"
+						},
+						{
+							"type": "reference",
+							"name": "CalendarPickerOverrideProps"
+						}
+					],
+					"name": "Omit"
+				},
+				{
+					"type": "reference",
+					"name": "BasePickerProps"
+				}
+			]
+		},
+		{
+			"id": 72,
+			"name": "ListPickerItemInfo",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 75,
+					"name": "container",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"type": {
+						"type": "reference",
+						"name": "HTMLUListElement"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "ListOptionInfo.container"
+					}
+				},
+				{
+					"id": 73,
+					"name": "date",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "reference",
+								"name": "Date"
+							},
+							{
+								"type": "array",
+								"elementType": {
+									"type": "reference",
+									"name": "Date"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": 81,
+					"name": "disabled",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "ListOptionInfo.disabled"
+					}
+				},
+				{
+					"id": 77,
+					"name": "index",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "ListOptionInfo.index"
+					}
+				},
+				{
+					"id": 76,
+					"name": "item",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"type": {
+						"type": "reference",
+						"name": "HTMLButtonElement"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "ListOptionInfo.item"
+					}
+				},
+				{
+					"id": 78,
+					"name": "label",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "ListOptionInfo.label"
+					}
+				},
+				{
+					"id": 80,
+					"name": "text",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "ListOptionInfo.text"
+					}
+				},
+				{
+					"id": 74,
+					"name": "time",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "string"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": 79,
+					"name": "value",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "ListOptionInfo.value"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						75,
+						73,
+						81,
+						77,
+						76,
+						78,
+						80,
+						74,
+						79
+					]
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"name": "ListOptionInfo"
+				}
+			]
+		},
+		{
+			"id": 49,
+			"name": "ListPickerProps",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 62,
+					"name": "as",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ElementType"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.as"
+					}
+				},
+				{
+					"id": 65,
+					"name": "children",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Children to define options from",
+						"text": "Required is `options` not defined,\nIs overridden by `options` if defined\n"
+					},
+					"type": {
+						"type": "array",
+						"elementType": {
+							"type": "reference",
+							"typeArguments": [
+								{
+									"type": "reference",
+									"name": "OptionProps"
+								},
+								{
+									"type": "union",
+									"types": [
+										{
+											"type": "intrinsic",
+											"name": "string"
+										},
+										{
+											"type": "reference",
+											"typeArguments": [
+												{
+													"type": "intrinsic",
+													"name": "any"
+												}
+											],
+											"name": "JSXElementConstructor"
+										}
+									]
+								}
+							],
+							"name": "ReactElement"
+						}
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.children"
+					}
+				},
+				{
+					"id": 60,
+					"name": "defaultValue",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 66,
+					"name": "enableGlobalKeyDown",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Enables the global key down listener to listen for arrow key interactions"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.enableGlobalKeyDown"
+					}
+				},
+				{
+					"id": 61,
+					"name": "format",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 63,
+					"name": "multiple",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not list selector is multiple selection or single selection"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.multiple"
+					}
+				},
+				{
+					"id": 50,
+					"name": "options",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "array",
+								"elementType": {
+									"type": "reference",
+									"name": "ParsableDate"
+								}
+							},
+							{
+								"type": "array",
+								"elementType": {
+									"type": "reference",
+									"name": "ParsableDateObject"
+								}
+							},
+							{
+								"type": "array",
+								"elementType": {
+									"type": "reference",
+									"name": "ParsableDateRange"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": 55,
+					"name": "optionsLabel",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 58,
+					"name": "shape",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "rounded"
+							},
+							{
+								"type": "literal",
+								"value": "squared"
+							}
+						]
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.shape"
+					}
+				},
+				{
+					"id": 57,
+					"name": "type",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "date"
+							},
+							{
+								"type": "literal",
+								"value": "time"
+							}
+						]
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.type"
+					}
+				},
+				{
+					"id": 59,
+					"name": "value",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 64,
+					"name": "width",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Width override for ListWrapper\nCan be given a token (such as `size_128`) or other value (like `15rem`)"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.width"
+					}
+				},
+				{
+					"id": 56,
+					"name": "wrapperProps",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "reference",
+								"name": "HTMLDivElement"
+							},
+							{
+								"type": "literal",
+								"value": ""
+							}
+						],
+						"name": "BackyardBaseProps"
+					}
+				},
+				{
+					"id": 51,
+					"name": "onChange",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 52,
+							"name": "onChange",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 53,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											}
+										],
+										"name": "ChangeEvent"
+									}
+								},
+								{
+									"id": 54,
+									"name": "info",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"id": 72,
+										"name": "ListPickerItemInfo"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				},
+				{
+					"id": 67,
+					"name": "renderItem",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 68,
+							"name": "renderItem",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "List item to render"
+							},
+							"parameters": [
+								{
+									"id": 69,
+									"name": "props",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"name": "ListOptionProps"
+									}
+								},
+								{
+									"id": 70,
+									"name": "ref",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "Ref"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									},
+									{
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "intrinsic",
+														"name": "any"
+													}
+												],
+												"name": "JSXElementConstructor"
+											}
+										]
+									}
+								],
+								"name": "ReactElement"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Omit.renderItem"
+							}
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.renderItem"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						62,
+						65,
+						60,
+						66,
+						61,
+						63,
+						50,
+						55,
+						58,
+						57,
+						59,
+						64,
+						56
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						51,
+						67
+					]
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"typeArguments": [
+						{
+							"type": "reference",
+							"name": "ListSelectorProps"
+						},
+						{
+							"type": "reference",
+							"name": "ListPickerOverrideProps"
+						}
+					],
+					"name": "Omit"
+				}
+			]
+		},
+		{
+			"id": 186,
+			"name": "SelectPickerOptionInfo",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 187,
+					"name": "date",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "reference",
+								"name": "Date"
+							},
+							{
+								"type": "array",
+								"elementType": {
+									"type": "reference",
+									"name": "Date"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": 192,
+					"name": "disabled",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "SelectOptionInfo.disabled"
+					}
+				},
+				{
+					"id": 189,
+					"name": "index",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "SelectOptionInfo.index"
+					}
+				},
+				{
+					"id": 193,
+					"name": "label",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"type": {
+						"type": "reference",
+						"name": "ReactNode"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "SelectOptionInfo.label"
+					}
+				},
+				{
+					"id": 191,
+					"name": "text",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"type": {
+						"type": "reference",
+						"name": "ReactNode"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "SelectOptionInfo.text"
+					}
+				},
+				{
+					"id": 188,
+					"name": "time",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "string"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": 190,
+					"name": "value",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "intrinsic",
+								"name": "number"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "SelectOptionInfo.value"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						187,
+						192,
+						189,
+						193,
+						191,
+						188,
+						190
+					]
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"name": "SelectOptionInfo"
+				}
+			]
+		},
+		{
+			"id": 136,
+			"name": "SelectPickerProps",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 157,
+					"name": "as",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ElementType"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.as"
+					}
+				},
+				{
+					"id": 162,
+					"name": "children",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "List of options in declarative `Option` or `OptionGroup` elements",
+						"text": "Is required if `options` is not defined,\nWill be overridden by `options` if both defined.\n"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "array",
+								"elementType": {
+									"type": "reference",
+									"typeArguments": [
+										{
+											"type": "reference",
+											"name": "OptionProps"
+										},
+										{
+											"type": "union",
+											"types": [
+												{
+													"type": "intrinsic",
+													"name": "string"
+												},
+												{
+													"type": "reference",
+													"typeArguments": [
+														{
+															"type": "intrinsic",
+															"name": "any"
+														}
+													],
+													"name": "JSXElementConstructor"
+												}
+											]
+										}
+									],
+									"name": "ReactElement"
+								}
+							},
+							{
+								"type": "array",
+								"elementType": {
+									"type": "reference",
+									"typeArguments": [
+										{
+											"type": "reference",
+											"name": "OptionGroupProps"
+										},
+										{
+											"type": "union",
+											"types": [
+												{
+													"type": "intrinsic",
+													"name": "string"
+												},
+												{
+													"type": "reference",
+													"typeArguments": [
+														{
+															"type": "intrinsic",
+															"name": "any"
+														}
+													],
+													"name": "JSXElementConstructor"
+												}
+											]
+										}
+									],
+									"name": "ReactElement"
+								}
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.children"
+					}
+				},
+				{
+					"id": 161,
+					"name": "className",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "DOM Class Name"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.className"
+					}
+				},
+				{
+					"id": 156,
+					"name": "clearButtonProps",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"name": "IconButtonProps"
+					}
+				},
+				{
+					"id": 150,
+					"name": "defaultValue",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 153,
+					"name": "disableNative",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 158,
+					"name": "disabled",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not input is disabled"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.disabled"
+					}
+				},
+				{
+					"id": 152,
+					"name": "format",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 183,
+					"name": "iconClosed",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Icon displayed when closed"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							},
+							{
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									},
+									{
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "JSXElementConstructor"
+									}
+								]
+							}
+						],
+						"name": "ReactElement"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.iconClosed"
+					}
+				},
+				{
+					"id": 182,
+					"name": "iconOpened",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Icon displayed when opened"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							},
+							{
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									},
+									{
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "JSXElementConstructor"
+									}
+								]
+							}
+						],
+						"name": "ReactElement"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.iconOpened"
+					}
+				},
+				{
+					"id": 180,
+					"name": "interaction",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Initial interaction given to component"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.interaction"
+					}
+				},
+				{
+					"id": 179,
+					"name": "itemBefore",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							},
+							{
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									},
+									{
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "JSXElementConstructor"
+									}
+								]
+							}
+						],
+						"name": "ReactElement"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.itemBefore"
+					}
+				},
+				{
+					"id": 159,
+					"name": "label",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Label of the `Select` component"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									},
+									{
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "intrinsic",
+														"name": "any"
+													}
+												],
+												"name": "JSXElementConstructor"
+											}
+										]
+									}
+								],
+								"name": "ReactElement"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.label"
+					}
+				},
+				{
+					"id": 144,
+					"name": "options",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "array",
+								"elementType": {
+									"type": "reference",
+									"name": "ParsableDate"
+								}
+							},
+							{
+								"type": "array",
+								"elementType": {
+									"type": "reference",
+									"name": "ParsableDateObject"
+								}
+							},
+							{
+								"type": "array",
+								"elementType": {
+									"type": "reference",
+									"name": "ParsableDateRange"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": 145,
+					"name": "optionsLabel",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 151,
+					"name": "readOnly",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.readOnly"
+					}
+				},
+				{
+					"id": 155,
+					"name": "selectWrapperProps",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "object"
+					}
+				},
+				{
+					"id": 148,
+					"name": "shape",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "rounded"
+							},
+							{
+								"type": "literal",
+								"value": "squared"
+							}
+						]
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.shape"
+					}
+				},
+				{
+					"id": 160,
+					"name": "size",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Size of component"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "small"
+							},
+							{
+								"type": "literal",
+								"value": "medium"
+							},
+							{
+								"type": "literal",
+								"value": "large"
+							},
+							{
+								"type": "literal",
+								"value": "jumbo"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.size"
+					}
+				},
+				{
+					"id": 184,
+					"name": "stacked",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.stacked"
+					}
+				},
+				{
+					"id": 181,
+					"name": "state",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Visual state of component"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "default"
+							},
+							{
+								"type": "literal",
+								"value": "error"
+							},
+							{
+								"type": "literal",
+								"value": "success"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.state"
+					}
+				},
+				{
+					"id": 154,
+					"name": "textWrapperProps",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "object"
+					}
+				},
+				{
+					"id": 147,
+					"name": "type",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "date"
+							},
+							{
+								"type": "literal",
+								"value": "time"
+							}
+						]
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.type"
+					}
+				},
+				{
+					"id": 149,
+					"name": "value",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 146,
+					"name": "wrapperProps",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "reference",
+								"name": "HTMLDivElement"
+							},
+							{
+								"type": "literal",
+								"value": ""
+							}
+						],
+						"name": "BackyardBaseProps"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.wrapperProps"
+					}
+				},
+				{
+					"id": 167,
+					"name": "onBlur",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 168,
+							"name": "onBlur",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onBlur` trigger event"
+							},
+							"parameters": [
+								{
+									"id": 169,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"shortText": "DOM Event"
+									},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "HTMLSelectElement"
+											},
+											{
+												"type": "reference",
+												"name": "Element"
+											}
+										],
+										"name": "FocusEvent"
+									}
+								},
+								{
+									"id": 170,
+									"name": "option",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"shortText": "option info object\n"
+									},
+									"type": {
+										"type": "reference",
+										"name": "SelectOptionInfo"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Omit.onBlur"
+							}
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.onBlur"
+					}
+				},
+				{
+					"id": 137,
+					"name": "onChange",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 138,
+							"name": "onChange",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 139,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											}
+										],
+										"name": "ChangeEvent"
+									}
+								},
+								{
+									"id": 140,
+									"name": "option",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"id": 186,
+										"name": "SelectPickerOptionInfo"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				},
+				{
+					"id": 141,
+					"name": "onClear",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 142,
+							"name": "onClear",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onClear` trigger function for when\nthe clear button is clicked"
+							},
+							"parameters": [
+								{
+									"id": 143,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											},
+											{
+												"type": "reference",
+												"name": "MouseEvent"
+											}
+										],
+										"name": "MouseEvent"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				},
+				{
+					"id": 175,
+					"name": "onClick",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 176,
+							"name": "onClick",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onClick` trigger event"
+							},
+							"parameters": [
+								{
+									"id": 177,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"shortText": "DOM Event"
+									},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "HTMLSelectElement"
+											},
+											{
+												"type": "reference",
+												"name": "MouseEvent"
+											}
+										],
+										"name": "MouseEvent"
+									}
+								},
+								{
+									"id": 178,
+									"name": "option",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"shortText": "option info object\n"
+									},
+									"type": {
+										"type": "reference",
+										"name": "SelectOptionInfo"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Omit.onClick"
+							}
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.onClick"
+					}
+				},
+				{
+					"id": 163,
+					"name": "onFocus",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 164,
+							"name": "onFocus",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onFocus` trigger event"
+							},
+							"parameters": [
+								{
+									"id": 165,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"shortText": "DOM Event"
+									},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "HTMLSelectElement"
+											},
+											{
+												"type": "reference",
+												"name": "Element"
+											}
+										],
+										"name": "FocusEvent"
+									}
+								},
+								{
+									"id": 166,
+									"name": "option",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"shortText": "option info object\n"
+									},
+									"type": {
+										"type": "reference",
+										"name": "SelectOptionInfo"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Omit.onFocus"
+							}
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.onFocus"
+					}
+				},
+				{
+					"id": 171,
+					"name": "onKeyDown",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 172,
+							"name": "onKeyDown",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onKeyDown` trigger event"
+							},
+							"parameters": [
+								{
+									"id": 173,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"shortText": "DOM Event"
+									},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "HTMLSelectElement"
+											}
+										],
+										"name": "KeyboardEvent"
+									}
+								},
+								{
+									"id": 174,
+									"name": "option",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"shortText": "option info object\n"
+									},
+									"type": {
+										"type": "reference",
+										"name": "SelectOptionInfo"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Omit.onKeyDown"
+							}
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.onKeyDown"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						157,
+						162,
+						161,
+						156,
+						150,
+						153,
+						158,
+						152,
+						183,
+						182,
+						180,
+						179,
+						159,
+						144,
+						145,
+						151,
+						155,
+						148,
+						160,
+						184,
+						181,
+						154,
+						147,
+						149,
+						146
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						167,
+						137,
+						141,
+						175,
+						163,
+						171
+					]
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"typeArguments": [
+						{
+							"type": "reference",
+							"name": "SelectProps"
+						},
+						{
+							"type": "reference",
+							"name": "SelectPickerOverrideProps"
+						}
+					],
+					"name": "Omit"
+				}
+			]
+		},
+		{
+			"id": 83,
+			"name": "TextPickerProps",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 111,
+					"name": "as",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ElementType"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.as"
+					}
+				},
+				{
+					"id": 110,
+					"name": "clearButtonProps",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"name": "IconButtonProps"
+					}
+				},
+				{
+					"id": 126,
+					"name": "component",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Component to render text input with"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									},
+									{
+										"type": "intrinsic",
+										"name": "any"
+									}
+								],
+								"name": "ComponentClass"
+							},
+							{
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									}
+								],
+								"name": "FunctionComponent"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.component"
+					}
+				},
+				{
+					"id": 132,
+					"name": "customIcon",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Boolean prop to have custom icons show correct coloring"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.customIcon"
+					}
+				},
+				{
+					"id": 86,
+					"name": "defaultValue",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.defaultValue"
+					}
+				},
+				{
+					"id": 84,
+					"name": "disableNative",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not native browser functionality is disabled"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 112,
+					"name": "disabled",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not input is disabled"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.disabled"
+					}
+				},
+				{
+					"id": 133,
+					"name": "hiddenLabel",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.hiddenLabel"
+					}
+				},
+				{
+					"id": 129,
+					"name": "interaction",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Initial interaction of component"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.interaction"
+					}
+				},
+				{
+					"id": 128,
+					"name": "itemAfter",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Icon displayed after text input"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							},
+							{
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									},
+									{
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "JSXElementConstructor"
+									}
+								]
+							}
+						],
+						"name": "ReactElement"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.itemAfter"
+					}
+				},
+				{
+					"id": 127,
+					"name": "itemBefore",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Icon displayed before text input"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							},
+							{
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									},
+									{
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "JSXElementConstructor"
+									}
+								]
+							}
+						],
+						"name": "ReactElement"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.itemBefore"
+					}
+				},
+				{
+					"id": 87,
+					"name": "mask",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "array",
+								"elementType": {
+									"type": "union",
+									"types": [
+										{
+											"type": "intrinsic",
+											"name": "string"
+										},
+										{
+											"type": "reference",
+											"name": "RegExp"
+										}
+									]
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": 88,
+					"name": "maskPlaceholder",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 93,
+					"name": "max",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 92,
+					"name": "min",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 109,
+					"name": "selectWrapperProps",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "object"
+					}
+				},
+				{
+					"id": 106,
+					"name": "shape",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "rounded"
+							},
+							{
+								"type": "literal",
+								"value": "squared"
+							}
+						]
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.shape"
+					}
+				},
+				{
+					"id": 113,
+					"name": "size",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Size of component."
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "small"
+							},
+							{
+								"type": "literal",
+								"value": "medium"
+							},
+							{
+								"type": "literal",
+								"value": "large"
+							},
+							{
+								"type": "literal",
+								"value": "jumbo"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.size"
+					}
+				},
+				{
+					"id": 130,
+					"name": "state",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Visual state of component"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "default"
+							},
+							{
+								"type": "literal",
+								"value": "error"
+							},
+							{
+								"type": "literal",
+								"value": "success"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.state"
+					}
+				},
+				{
+					"id": 131,
+					"name": "suffix",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Adding a suffix abbreviation to the end of the field"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.suffix"
+					}
+				},
+				{
+					"id": 108,
+					"name": "textWrapperProps",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "reference",
+								"name": "HTMLDivElement"
+							},
+							{
+								"type": "literal",
+								"value": ""
+							}
+						],
+						"name": "BackyardBaseProps"
+					}
+				},
+				{
+					"id": 105,
+					"name": "type",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "date"
+							},
+							{
+								"type": "literal",
+								"value": "time"
+							},
+							{
+								"type": "literal",
+								"value": "datetime-local"
+							},
+							{
+								"type": "literal",
+								"value": "week"
+							},
+							{
+								"type": "literal",
+								"value": "month"
+							}
+						]
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.type"
+					}
+				},
+				{
+					"id": 85,
+					"name": "value",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.value"
+					}
+				},
+				{
+					"id": 107,
+					"name": "wrapperProps",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "reference",
+								"name": "HTMLDivElement"
+							},
+							{
+								"type": "literal",
+								"value": ""
+							}
+						],
+						"name": "BackyardBaseProps"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.wrapperProps"
+					}
+				},
+				{
+					"id": 89,
+					"name": "beforeMaskedStateChange",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 90,
+							"name": "beforeMaskedStateChange",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 91,
+									"name": "nextState",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"type": {
+										"type": "reference",
+										"name": "InputState"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "InputState"
+							}
+						}
+					]
+				},
+				{
+					"id": 118,
+					"name": "onBlur",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 119,
+							"name": "onBlur",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onBlur` trigger event"
+							},
+							"parameters": [
+								{
+									"id": 120,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											},
+											{
+												"type": "reference",
+												"name": "Element"
+											}
+										],
+										"name": "FocusEvent"
+									}
+								},
+								{
+									"id": 121,
+									"name": "value",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Omit.onBlur"
+							}
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.onBlur"
+					}
+				},
+				{
+					"id": 94,
+					"name": "onChange",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 95,
+							"name": "onChange",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 96,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											}
+										],
+										"name": "ChangeEvent"
+									}
+								},
+								{
+									"id": 97,
+									"name": "value",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"overwrites": {
+								"type": "reference",
+								"name": "Omit.onChange"
+							}
+						}
+					],
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.onChange"
+					}
+				},
+				{
+					"id": 98,
+					"name": "onClear",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 99,
+							"name": "onClear",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onClear` trigger function for when\nthe clear button is clicked"
+							},
+							"parameters": [
+								{
+									"id": 100,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											},
+											{
+												"type": "reference",
+												"name": "MouseEvent"
+											}
+										],
+										"name": "MouseEvent"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				},
+				{
+					"id": 122,
+					"name": "onClick",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 123,
+							"name": "onClick",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onChange` trigger event"
+							},
+							"parameters": [
+								{
+									"id": 124,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											},
+											{
+												"type": "reference",
+												"name": "MouseEvent"
+											}
+										],
+										"name": "MouseEvent"
+									}
+								},
+								{
+									"id": 125,
+									"name": "value",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Omit.onClick"
+							}
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.onClick"
+					}
+				},
+				{
+					"id": 101,
+					"name": "onDateChange",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 102,
+							"name": "onDateChange",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 103,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											}
+										],
+										"name": "ChangeEvent"
+									}
+								},
+								{
+									"id": 104,
+									"name": "info",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"name": "TextPickerInfo"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				},
+				{
+					"id": 114,
+					"name": "onFocus",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 115,
+							"name": "onFocus",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onFocus` trigger event"
+							},
+							"parameters": [
+								{
+									"id": 116,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											},
+											{
+												"type": "reference",
+												"name": "Element"
+											}
+										],
+										"name": "FocusEvent"
+									}
+								},
+								{
+									"id": 117,
+									"name": "value",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Omit.onFocus"
+							}
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.onFocus"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						111,
+						110,
+						126,
+						132,
+						86,
+						84,
+						112,
+						133,
+						129,
+						128,
+						127,
+						87,
+						88,
+						93,
+						92,
+						109,
+						106,
+						113,
+						130,
+						131,
+						108,
+						105,
+						85,
+						107
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						89,
+						118,
+						94,
+						98,
+						122,
+						101,
+						114
+					]
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"typeArguments": [
+						{
+							"type": "reference",
+							"name": "TextInputProps"
+						},
+						{
+							"type": "reference",
+							"name": "TextPickerOverrideProps"
+						}
+					],
+					"name": "Omit"
+				}
+			]
+		},
+		{
+			"id": 47,
+			"name": "CalendarPickerRef",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"type": {
+				"type": "reference",
+				"name": "CalendarRef"
+			}
+		},
+		{
+			"id": 71,
+			"name": "ListPickerRef",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"type": {
+				"type": "reference",
+				"name": "ListSelectorRef"
+			}
+		},
+		{
+			"id": 185,
+			"name": "SelectPickerRef",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"type": {
+				"type": "reference",
+				"name": "SelectRef"
+			}
+		},
+		{
+			"id": 134,
+			"name": "TextPickerRef",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"type": {
+				"type": "reference",
+				"name": "TextInputRef"
+			}
+		},
+		{
+			"id": 1,
+			"name": "CalendarPicker",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"comment": {
+				"shortText": "Backyard React Calendar Picker",
+				"tags": [
+					{
+						"tag": "todo",
+						"text": "Comments\n"
+					}
+				]
+			},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"id": 2,
+						"name": "CalendarPickerProps"
+					}
+				],
+				"name": "BDSForwardRef"
+			},
+			"defaultValue": "..."
+		},
+		{
+			"id": 48,
+			"name": "ListPicker",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"comment": {
+				"shortText": "Backyard React List Picker",
+				"tags": [
+					{
+						"tag": "todo",
+						"text": "Comments\n"
+					}
+				]
+			},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"id": 49,
+						"name": "ListPickerProps"
+					}
+				],
+				"name": "BDSForwardRef"
+			},
+			"defaultValue": "..."
+		},
+		{
+			"id": 135,
+			"name": "SelectPicker",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"comment": {
+				"shortText": "Backyard React Select Picker",
+				"tags": [
+					{
+						"tag": "todo",
+						"text": "Comments\n"
+					}
+				]
+			},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"id": 136,
+						"name": "SelectPickerProps"
+					}
+				],
+				"name": "BDSForwardRef"
+			},
+			"defaultValue": "..."
+		},
+		{
+			"id": 82,
+			"name": "TextPicker",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"comment": {
+				"shortText": "Backyard React Text Picker",
+				"tags": [
+					{
+						"tag": "todo",
+						"text": "Comments\n"
+					}
+				]
+			},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"id": 83,
+						"name": "TextPickerProps"
+					}
+				],
+				"name": "BDSForwardRef"
+			},
+			"defaultValue": "..."
+		}
+	],
+	"groups": [
+		{
+			"title": "Interfaces",
+			"kind": 256,
+			"children": [
+				2,
+				72,
+				49,
+				186,
+				136,
+				83
+			]
+		},
+		{
+			"title": "Type aliases",
+			"kind": 4194304,
+			"children": [
+				47,
+				71,
+				185,
+				134
+			]
+		},
+		{
+			"title": "Variables",
+			"kind": 32,
+			"children": [
+				1,
+				48,
+				135,
+				82
+			]
+		}
+	]
+}

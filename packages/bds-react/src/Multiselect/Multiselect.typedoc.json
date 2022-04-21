@@ -1,0 +1,1290 @@
+{
+	"id": 0,
+	"name": "@lowes-tech/bds-react/Multiselect",
+	"kind": 1,
+	"kindString": "Project",
+	"flags": {},
+	"children": [
+		{
+			"id": 58,
+			"name": "default",
+			"kind": 16777216,
+			"kindString": "Reference",
+			"flags": {},
+			"target": 1
+		},
+		{
+			"id": 3,
+			"name": "MultiselectProps",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 41,
+					"name": "as",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ElementType"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.as"
+					}
+				},
+				{
+					"id": 50,
+					"name": "buttonProps",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Props to define a unselected toggle button"
+					},
+					"type": {
+						"type": "reference",
+						"name": "ToggleButtonProps"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.buttonProps"
+					}
+				},
+				{
+					"id": 4,
+					"name": "children",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Children to define options from",
+						"text": "Required is `options` not defined,\nIs overridden by `options` if defined\n"
+					},
+					"type": {
+						"type": "array",
+						"elementType": {
+							"type": "reference",
+							"typeArguments": [
+								{
+									"type": "reference",
+									"name": "OptionProps"
+								},
+								{
+									"type": "union",
+									"types": [
+										{
+											"type": "intrinsic",
+											"name": "string"
+										},
+										{
+											"type": "reference",
+											"typeArguments": [
+												{
+													"type": "intrinsic",
+													"name": "any"
+												}
+											],
+											"name": "JSXElementConstructor"
+										}
+									]
+								}
+							],
+							"name": "ReactElement"
+						}
+					}
+				},
+				{
+					"id": 42,
+					"name": "className",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "DOM Class Name"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.className"
+					}
+				},
+				{
+					"id": 5,
+					"name": "closeKeys",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Event keys that will trigger a close when focused on"
+					},
+					"type": {
+						"type": "array",
+						"elementType": {
+							"type": "intrinsic",
+							"name": "string"
+						}
+					}
+				},
+				{
+					"id": 7,
+					"name": "defaultValue",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Default value of the multiselect"
+					},
+					"type": {
+						"type": "array",
+						"elementType": {
+							"type": "intrinsic",
+							"name": "string"
+						}
+					}
+				},
+				{
+					"id": 8,
+					"name": "delayClose",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Amount in milliseconds to delay closing the popover"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 9,
+					"name": "delayOpen",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Amount in milliseconds to delay opening the popover"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 10,
+					"name": "disableCloseOnSelect",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not popover will automatically close when\nuser selected a value from the list"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 53,
+					"name": "enforceSelected",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not toggle should enforce at least one toggle\nto be selected at all times",
+						"text": "When enabled, defaults `Toggle` value to value of first `ToggleButton` child\nif `defaultValue` prop is not given\n"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.enforceSelected"
+					}
+				},
+				{
+					"id": 52,
+					"name": "exclusive",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not toggle buttons are exclusively toggled",
+						"text": "When enabled, `Toggle` values are a single `string`\nWhen disabled, `Toggle` values are an array of `string`s\n"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.exclusive"
+					}
+				},
+				{
+					"id": 45,
+					"name": "iconClosed",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Icon displayed when closed"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							},
+							{
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									},
+									{
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "JSXElementConstructor"
+									}
+								]
+							}
+						],
+						"name": "ReactElement"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.iconClosed"
+					}
+				},
+				{
+					"id": 44,
+					"name": "iconOpened",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Icon displayed when opened"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							},
+							{
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									},
+									{
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "JSXElementConstructor"
+									}
+								]
+							}
+						],
+						"name": "ReactElement"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.iconOpened"
+					}
+				},
+				{
+					"id": 38,
+					"name": "id",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "`id` of the select input"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.id"
+					}
+				},
+				{
+					"id": 46,
+					"name": "interaction",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Initial interaction given to component"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.interaction"
+					}
+				},
+				{
+					"id": 49,
+					"name": "itemBefore",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							},
+							{
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									},
+									{
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "JSXElementConstructor"
+									}
+								]
+							}
+						],
+						"name": "ReactElement"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.itemBefore"
+					}
+				},
+				{
+					"id": 36,
+					"name": "label",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Label of the multiselect"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.label"
+					}
+				},
+				{
+					"id": 11,
+					"name": "listSelectorProps",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "List Selector props to override list selector with"
+					},
+					"type": {
+						"type": "reference",
+						"name": "ListSelectorMultipleProps"
+					}
+				},
+				{
+					"id": 14,
+					"name": "maxHeight",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Set maximum popover height in `rem`",
+						"text": "Defaults to showing five and a half options\n"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 40,
+					"name": "noSelectAll",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not to display the select all toggle",
+						"text": "Enabled by default\n"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 37,
+					"name": "open",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not the multiselect popover is open"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.open"
+					}
+				},
+				{
+					"id": 6,
+					"name": "openKeys",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Event keys that will trigger open when focused on"
+					},
+					"type": {
+						"type": "array",
+						"elementType": {
+							"type": "intrinsic",
+							"name": "string"
+						}
+					}
+				},
+				{
+					"id": 33,
+					"name": "options",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Options to define dropdown children from",
+						"text": "Required if `children` not defined.\nOverrides `children` if defined.\n"
+					},
+					"type": {
+						"type": "array",
+						"elementType": {
+							"type": "reference",
+							"name": "MultiselectOption"
+						}
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.options"
+					}
+				},
+				{
+					"id": 39,
+					"name": "popoverContent",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Content above and/or below the `ListSelector` in the Popover"
+					},
+					"type": {
+						"type": "reference",
+						"id": 54,
+						"name": "MultiselectPopoverContent"
+					}
+				},
+				{
+					"id": 12,
+					"name": "popoverProps",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Popper props to override popover with"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "reference",
+								"name": "PopoverProps"
+							}
+						],
+						"name": "Partial"
+					}
+				},
+				{
+					"id": 13,
+					"name": "popperProps",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Popper props to override popover with",
+						"text": "Alias of `popoverProps`\n"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "reference",
+								"name": "PopoverProps"
+							}
+						],
+						"name": "Partial"
+					}
+				},
+				{
+					"id": 51,
+					"name": "selectedButtonProps",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Props to define a selected toggle button"
+					},
+					"type": {
+						"type": "reference",
+						"name": "ToggleButtonProps"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.selectedButtonProps"
+					}
+				},
+				{
+					"id": 32,
+					"name": "shape",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Shape of the input and popover"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "rounded"
+							},
+							{
+								"type": "literal",
+								"value": "squared"
+							}
+						]
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.shape"
+					}
+				},
+				{
+					"id": 34,
+					"name": "size",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Size of component"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "jumbo"
+							},
+							{
+								"type": "literal",
+								"value": "large"
+							},
+							{
+								"type": "literal",
+								"value": "medium"
+							},
+							{
+								"type": "literal",
+								"value": "small"
+							}
+						]
+					}
+				},
+				{
+					"id": 47,
+					"name": "stacked",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.stacked"
+					}
+				},
+				{
+					"id": 31,
+					"name": "state",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "State of the native date picker\nEither 'error' or 'default'"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "default"
+							},
+							{
+								"type": "literal",
+								"value": "error"
+							},
+							{
+								"type": "literal",
+								"value": "success"
+							}
+						]
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.state"
+					}
+				},
+				{
+					"id": 35,
+					"name": "value",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Controlled value for dropdown"
+					},
+					"type": {
+						"type": "array",
+						"elementType": {
+							"type": "intrinsic",
+							"name": "string"
+						}
+					}
+				},
+				{
+					"id": 43,
+					"name": "variant",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Toggle variants"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "secondary"
+							},
+							{
+								"type": "literal",
+								"value": "ghost"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.variant"
+					}
+				},
+				{
+					"id": 48,
+					"name": "wrapperProps",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Wrapper props object for text input.\nUseful for setting the style of text input\nvisual container instead of input directly"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "reference",
+								"name": "HTMLDivElement"
+							},
+							{
+								"type": "literal",
+								"value": ""
+							}
+						],
+						"name": "BackyardBaseProps"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.wrapperProps"
+					}
+				},
+				{
+					"id": 22,
+					"name": "onBlur",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 23,
+							"name": "onBlur",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onBlur` trigger event for when the\nuser blurs focus on the `select`"
+							},
+							"parameters": [
+								{
+									"id": 24,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "HTMLSelectElement"
+											},
+											{
+												"type": "reference",
+												"name": "Element"
+											}
+										],
+										"name": "FocusEvent"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				},
+				{
+					"id": 15,
+					"name": "onChange",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 16,
+							"name": "onChange",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onChange` trigger function for when either\nthe native component or the custom calendar change interaction occurs"
+							},
+							"parameters": [
+								{
+									"id": 17,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											},
+											{
+												"type": "reference",
+												"name": "MouseEvent"
+											}
+										],
+										"name": "MouseEvent"
+									}
+								},
+								{
+									"id": 18,
+									"name": "value",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "string"
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				},
+				{
+					"id": 27,
+					"name": "onClose",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 28,
+							"name": "onClose",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onClose` trigger function for when the calendar popover closes"
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				},
+				{
+					"id": 19,
+					"name": "onKeyDown",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 20,
+							"name": "onKeyDown",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onKeyDown` trigger event for\nwhen the user presses a key on the `select`"
+							},
+							"parameters": [
+								{
+									"id": 21,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "HTMLSelectElement"
+											}
+										],
+										"name": "KeyboardEvent"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				},
+				{
+					"id": 29,
+					"name": "onMouseDown",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 30,
+							"name": "onMouseDown",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onMouseDown` trigger function"
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"overwrites": {
+								"type": "reference",
+								"name": "Omit.onMouseDown"
+							}
+						}
+					],
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.onMouseDown"
+					}
+				},
+				{
+					"id": 25,
+					"name": "onOpen",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 26,
+							"name": "onOpen",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onOpen` trigger function for when the calendar popover opens"
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						41,
+						50,
+						4,
+						42,
+						5,
+						7,
+						8,
+						9,
+						10,
+						53,
+						52,
+						45,
+						44,
+						38,
+						46,
+						49,
+						36,
+						11,
+						14,
+						40,
+						37,
+						6,
+						33,
+						39,
+						12,
+						13,
+						51,
+						32,
+						34,
+						47,
+						31,
+						35,
+						43,
+						48
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						22,
+						15,
+						27,
+						19,
+						29,
+						25
+					]
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"typeArguments": [
+						{
+							"type": "intersection",
+							"types": [
+								{
+									"type": "reference",
+									"name": "SelectProps"
+								},
+								{
+									"type": "reference",
+									"name": "ToggleProps"
+								}
+							]
+						},
+						{
+							"type": "reference",
+							"name": "MultiselectOverrideProps"
+						}
+					],
+					"name": "Omit"
+				}
+			]
+		},
+		{
+			"id": 54,
+			"name": "MultiselectPopoverContent",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"type": {
+				"type": "reflection",
+				"declaration": {
+					"id": 55,
+					"name": "__type",
+					"kind": 65536,
+					"kindString": "Type literal",
+					"flags": {},
+					"children": [
+						{
+							"id": 56,
+							"name": "above",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isOptional": true
+							},
+							"comment": {
+								"shortText": "Content above the `ListSelector`"
+							},
+							"type": {
+								"type": "reference",
+								"name": "React.ReactElement"
+							}
+						},
+						{
+							"id": 57,
+							"name": "below",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isOptional": true
+							},
+							"comment": {
+								"shortText": "Content below the `ListSelector`"
+							},
+							"type": {
+								"type": "reference",
+								"name": "React.ReactElement"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								56,
+								57
+							]
+						}
+					]
+				}
+			}
+		},
+		{
+			"id": 2,
+			"name": "MultiselectRef",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"type": {
+				"type": "reference",
+				"name": "SelectRef"
+			}
+		},
+		{
+			"id": 1,
+			"name": "Multiselect",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"comment": {
+				"shortText": "Backyard React Multiselect",
+				"text": "Customized popover for multiple variant of `Select`\n\nExamples:\n\n- [Multiselect](https://dev.carbon.gcp.lowes.com/bds/documentation/Components/Multiselect)\n\nAPI:\n\n- [Multiselect API](https://dev.carbon.gcp.lowes.com/bds/documentation/ComponentsAPI/Multiselect)\n\n- [Option API](https://dev.carbon.gcp.lowes.com/bds/documentation/ComponentsAPI/Option)\n"
+			},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"id": 3,
+						"name": "MultiselectProps"
+					}
+				],
+				"name": "BDSForwardRef"
+			},
+			"defaultValue": "..."
+		}
+	],
+	"groups": [
+		{
+			"title": "References",
+			"kind": 16777216,
+			"children": [
+				58
+			]
+		},
+		{
+			"title": "Interfaces",
+			"kind": 256,
+			"children": [
+				3
+			]
+		},
+		{
+			"title": "Type aliases",
+			"kind": 4194304,
+			"children": [
+				54,
+				2
+			]
+		},
+		{
+			"title": "Variables",
+			"kind": 32,
+			"children": [
+				1
+			]
+		}
+	]
+}

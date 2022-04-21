@@ -1,0 +1,7064 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select Snapshots Select default snapshot 1`] = `
+<DocumentFragment>
+  .c3 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c3:not(.color-override) g,
+.c3:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c3:not(.color-override) g[stroke-width],
+.c3:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c3:not(.color-override) g[stroke-width] *,
+.c3:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c3.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c3.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c0 {
+  border: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  vertical-align: top;
+  padding: 0;
+  position: relative;
+}
+
+.c0 select,
+.c0 legend,
+.c0 label,
+.c0 span,
+.c0 .suffix {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 svg {
+  box-sizing: border-box;
+}
+
+.c0 select {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  padding-left: var(--bds-sizes-size-16);
+  padding-right: var(--bds-sizes-size-40);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+}
+
+.c0.item--before select {
+  padding-left: var(--bds-sizes-size-40);
+}
+
+.c0 .item--before {
+  position: absolute;
+  top: var(--bds-sizes-size-16);
+  left: var(--bds-sizes-size-16);
+}
+
+.c0 .item--after {
+  position: absolute;
+  top: var(--bds-sizes-size-16);
+  right: var(--bds-sizes-size-16);
+}
+
+.c0.size--small .item--after,
+.c0.size--small .item--before {
+  top: var(--bds-sizes-size-14);
+}
+
+.c0.size--large .item--after,
+.c0.size--large .item--before {
+  top: var(--bds-sizes-size-20);
+}
+
+.c0.size--jumbo .item--after,
+.c0.size--jumbo .item--before {
+  top: 1.375rem;
+}
+
+.c0.state--error svg.item--after path {
+  fill: var(--bds-color-icon-red);
+}
+
+.c0.has--placeholder label {
+  display: none;
+}
+
+.c0.has--placeholder legend {
+  display: none;
+}
+
+.c0.stacked label.input-label.incomplete,
+.c0.stacked label.input-label.interaction--completed,
+.c0.stacked label.input-label.interaction--active,
+.c0.stacked label.input-label.completed,
+.c0.stacked label.input-label.interaction--focused {
+  top: var(--bds-sizes-size-12);
+  left: var(--bds-sizes-size-16);
+  font-size: var(--bds-sizes-size-16);
+}
+
+.c0.stacked label.input-label.incomplete.size--small,
+.c0.stacked label.input-label.interaction--completed.size--small,
+.c0.stacked label.input-label.interaction--active.size--small,
+.c0.stacked label.input-label.completed.size--small,
+.c0.stacked label.input-label.interaction--focused.size--small {
+  top: var(--bds-sizes-size-8);
+}
+
+.c0.stacked label.input-label.incomplete.size--large,
+.c0.stacked label.input-label.interaction--completed.size--large,
+.c0.stacked label.input-label.interaction--active.size--large,
+.c0.stacked label.input-label.completed.size--large,
+.c0.stacked label.input-label.interaction--focused.size--large {
+  top: var(--bds-sizes-size-16);
+}
+
+.c0.stacked label.input-label.incomplete.size--jumbo,
+.c0.stacked label.input-label.interaction--completed.size--jumbo,
+.c0.stacked label.input-label.interaction--active.size--jumbo,
+.c0.stacked label.input-label.completed.size--jumbo,
+.c0.stacked label.input-label.interaction--focused.size--jumbo {
+  top: var(--bds-sizes-size-20);
+  font-size: var(--bds-sizes-size-20);
+}
+
+.c0.stacked .text-input-fieldset legend {
+  max-width: 0.01px;
+  padding: 0;
+}
+
+.c0.stacked select {
+  opacity: 0;
+}
+
+.c0.stacked .input-label {
+  font-weight: var(--bds-font-weight-semibold);
+  color: var(--bds-color-text-primary);
+}
+
+.c0.stacked .input-label .select--value {
+  margin-left: var(--bds-sizes-size-8);
+  color: var(--bds-color-text-primary);
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c0.stacked .input-label.state--error {
+  color: var(--bds-color-text-red);
+}
+
+.c4 {
+  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  position: absolute;
+  height: var(--bds-sizes-size-48);
+  border-style: solid;
+  border-width: var(--bds-border-width-sm);
+  border-radius: var(--bds-border-radius-lg);
+  border-color: var(--bds-color-border-default);
+  pointer-events: none;
+  box-sizing: border-box;
+}
+
+.c4 legend {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  box-sizing: border-box;
+  width: auto;
+  height: var(--bds-sizes-size-1);
+  display: block;
+  max-width: 0.01px;
+  visibility: hidden;
+  font-size: var(--bds-sizes-size-14);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c4 legend span {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c4.interaction--focused legend,
+.c4.interaction--active legend,
+.c4.interaction--completed legend,
+.c4.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-8);
+}
+
+.c4.interaction--focused legend span,
+.c4.interaction--active legend span,
+.c4.interaction--completed legend span,
+.c4.completed legend span {
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c4.interaction--focused,
+.c4.interaction--active {
+  border-color: var(--bds-color-border-interactive);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c4.interaction--completed,
+.c4.completed {
+  border-color: var(--bds-color-border-default);
+}
+
+.c4.interaction--active.completed {
+  border-color: var(--bds-color-border-interactive);
+}
+
+.c4.size--medium {
+  height: var(--bds-sizes-size-48);
+}
+
+.c4.size--medium.interaction--focused legend,
+.c4.size--medium.interaction--active legend,
+.c4.size--medium.interaction--completed legend,
+.c4.size--medium.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--medium.interaction--focused legend span,
+.c4.size--medium.interaction--active legend span,
+.c4.size--medium.interaction--completed legend span,
+.c4.size--medium.completed legend span {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c4.size--small {
+  height: var(--bds-sizes-size-40);
+}
+
+.c4.size--small.interaction--focused legend,
+.c4.size--small.interaction--active legend,
+.c4.size--small.interaction--completed legend,
+.c4.size--small.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--small.interaction--focused legend span,
+.c4.size--small.interaction--active legend span,
+.c4.size--small.interaction--completed legend span,
+.c4.size--small.completed legend span {
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c4.size--large {
+  height: var(--bds-sizes-size-56);
+}
+
+.c4.size--large.interaction--focused legend,
+.c4.size--large.interaction--active legend,
+.c4.size--large.interaction--completed legend,
+.c4.size--large.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--large.interaction--focused legend span,
+.c4.size--large.interaction--active legend span,
+.c4.size--large.interaction--completed legend span,
+.c4.size--large.completed legend span {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c4.size--jumbo {
+  height: var(--bds-sizes-size-64);
+}
+
+.c4.size--jumbo.interaction--focused legend,
+.c4.size--jumbo.interaction--active legend,
+.c4.size--jumbo.interaction--completed legend,
+.c4.size--jumbo.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--jumbo.interaction--focused legend span,
+.c4.size--jumbo.interaction--active legend span,
+.c4.size--jumbo.interaction--completed legend span,
+.c4.size--jumbo.completed legend span {
+  font-size: var(--bds-sizes-size-20);
+}
+
+.c2 {
+  position: relative;
+  height: 48px;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2:hover fieldset {
+  border-color: var(--bds-color-border-interactive);
+}
+
+.c2:focus fieldset {
+  border-color: var(--bds-color-border-interactive);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c2.state--error fieldset {
+  border-color: var(--bds-color-border-red);
+}
+
+.c2.state--error svg.icon--before path,
+.c2.state--error svg.icon--before circle {
+  fill: var(--bds-color-icon-red);
+}
+
+.c2.state--error:focus fieldset {
+  border-color: var(--bds-color-border-red);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c2 svg.icon {
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+}
+
+.c2 svg.icon path,
+.c2 svg.icon circle {
+  fill: var(--bds-color-icon-tertiary);
+}
+
+.c2 svg.icon.icon--success path,
+.c2 svg.icon.icon--success circle {
+  fill: var(--bds-color-icon-green);
+}
+
+.c2 svg.icon.icon--error path,
+.c2 svg.icon.icon--error circle {
+  fill: var(--bds-color-icon-red);
+}
+
+.c2.size--small {
+  height: var(--bds-sizes-size-40);
+}
+
+.c2.size--small svg.icon {
+  height: 14px;
+  width: 14px;
+}
+
+.c2.size--small .suffix {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c2.size--large {
+  height: var(--bds-sizes-size-56);
+}
+
+.c2.size--jumbo {
+  height: var(--bds-sizes-size-64);
+}
+
+.c2.size--jumbo svg.icon {
+  height: 20px;
+  width: 20px;
+}
+
+.c2.size--jumbo .suffix {
+  font-size: var(--bds-sizes-size-24);
+}
+
+.c2.size--jumbo input,
+.c2.size--jumbo textarea {
+  font-size: var(--bds-sizes-size-24);
+  line-height: var(--bds-sizes-size-32);
+}
+
+.c2 svg.icon--error + .suffix,
+.c2 svg.icon--success + .suffix {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c1 {
+  z-index: 1;
+  pointer-events: none;
+  top: 12px;
+  left: 16px;
+  position: absolute;
+  display: block;
+  color: var(--bds-color-text-tertiary);
+  padding: 0;
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+  font-weight: var(--bds-font-weight-regular);
+  -webkit-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+
+.c1.with-icon-before {
+  left: 40px;
+}
+
+.c1.interaction--focused,
+.c1.interaction--active,
+.c1.interaction--completed {
+  top: -12px;
+  left: 16px;
+  font-size: var(--bds-sizes-size-14);
+  color: var(--bds-color-text-interactive);
+}
+
+.c1.interaction--completed {
+  color: var(--bds-color-text-tertiary);
+}
+
+.c1.size--small {
+  top: 8px;
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c1.size--small.interaction--focused,
+.c1.size--small.interaction--active,
+.c1.size--small.interaction--completed {
+  top: -12px;
+  left: 16px;
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c1.size--large {
+  top: 16px;
+}
+
+.c1.size--large.interaction--focused,
+.c1.size--large.interaction--active,
+.c1.size--large.interaction--completed {
+  top: -12px;
+}
+
+.c1.size--jumbo {
+  font-size: var(--bds-sizes-size-24);
+  top: 20px;
+}
+
+.c1.size--jumbo.interaction--focused,
+.c1.size--jumbo.interaction--active,
+.c1.size--jumbo.interaction--completed {
+  font-size: var(--bds-sizes-size-20);
+  top: -12px;
+}
+
+.c1.state--error {
+  color: var(--bds-color-text-red);
+}
+
+<div
+    class="c0 backyard select--wrapper shape--rounded size--medium"
+  >
+    <label
+      class="c1 input-label size--medium state--default completed interaction--completed"
+      for="id"
+    />
+    <div
+      class="c2 form-control shape--rounded size--medium interaction--completed"
+    >
+      <select
+        aria-label="id"
+        class="select--input className completed"
+        id="id"
+      >
+        <option
+          class="select-option"
+          selected=""
+          value="1"
+        >
+          One
+        </option>
+      </select>
+      <svg
+        aria-hidden="true"
+        class="c3 icon icon-triangle-down select--arrow item--after"
+        role="presentation"
+        style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(0, 0%, 0%, 1);"
+        viewBox="0 0 16 16"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M13.1865 4.2923c.7132 0 1.046.5626.6339 1.0577l-5.0236 6.0201c-.3486.4613-1.236.4388-1.6006 0l-5.0236-6.02c-.3962-.4614-.0793-1.0578.6339-1.0578h10.38Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+      <fieldset
+        aria-hidden="true"
+        class="c4 text-input-fieldset size--medium closed completed interaction--completed"
+      >
+        <legend>
+          <span />
+        </legend>
+      </fieldset>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Select Snapshots prop: shape Select rounded shape snapshot 1`] = `
+<DocumentFragment>
+  .c3 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c3:not(.color-override) g,
+.c3:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c3:not(.color-override) g[stroke-width],
+.c3:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c3:not(.color-override) g[stroke-width] *,
+.c3:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c3.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c3.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c0 {
+  border: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  vertical-align: top;
+  padding: 0;
+  position: relative;
+}
+
+.c0 select,
+.c0 legend,
+.c0 label,
+.c0 span,
+.c0 .suffix {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 svg {
+  box-sizing: border-box;
+}
+
+.c0 select {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  padding-left: var(--bds-sizes-size-16);
+  padding-right: var(--bds-sizes-size-40);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+}
+
+.c0.item--before select {
+  padding-left: var(--bds-sizes-size-40);
+}
+
+.c0 .item--before {
+  position: absolute;
+  top: var(--bds-sizes-size-16);
+  left: var(--bds-sizes-size-16);
+}
+
+.c0 .item--after {
+  position: absolute;
+  top: var(--bds-sizes-size-16);
+  right: var(--bds-sizes-size-16);
+}
+
+.c0.size--small .item--after,
+.c0.size--small .item--before {
+  top: var(--bds-sizes-size-14);
+}
+
+.c0.size--large .item--after,
+.c0.size--large .item--before {
+  top: var(--bds-sizes-size-20);
+}
+
+.c0.size--jumbo .item--after,
+.c0.size--jumbo .item--before {
+  top: 1.375rem;
+}
+
+.c0.state--error svg.item--after path {
+  fill: var(--bds-color-icon-red);
+}
+
+.c0.has--placeholder label {
+  display: none;
+}
+
+.c0.has--placeholder legend {
+  display: none;
+}
+
+.c0.stacked label.input-label.incomplete,
+.c0.stacked label.input-label.interaction--completed,
+.c0.stacked label.input-label.interaction--active,
+.c0.stacked label.input-label.completed,
+.c0.stacked label.input-label.interaction--focused {
+  top: var(--bds-sizes-size-12);
+  left: var(--bds-sizes-size-16);
+  font-size: var(--bds-sizes-size-16);
+}
+
+.c0.stacked label.input-label.incomplete.size--small,
+.c0.stacked label.input-label.interaction--completed.size--small,
+.c0.stacked label.input-label.interaction--active.size--small,
+.c0.stacked label.input-label.completed.size--small,
+.c0.stacked label.input-label.interaction--focused.size--small {
+  top: var(--bds-sizes-size-8);
+}
+
+.c0.stacked label.input-label.incomplete.size--large,
+.c0.stacked label.input-label.interaction--completed.size--large,
+.c0.stacked label.input-label.interaction--active.size--large,
+.c0.stacked label.input-label.completed.size--large,
+.c0.stacked label.input-label.interaction--focused.size--large {
+  top: var(--bds-sizes-size-16);
+}
+
+.c0.stacked label.input-label.incomplete.size--jumbo,
+.c0.stacked label.input-label.interaction--completed.size--jumbo,
+.c0.stacked label.input-label.interaction--active.size--jumbo,
+.c0.stacked label.input-label.completed.size--jumbo,
+.c0.stacked label.input-label.interaction--focused.size--jumbo {
+  top: var(--bds-sizes-size-20);
+  font-size: var(--bds-sizes-size-20);
+}
+
+.c0.stacked .text-input-fieldset legend {
+  max-width: 0.01px;
+  padding: 0;
+}
+
+.c0.stacked select {
+  opacity: 0;
+}
+
+.c0.stacked .input-label {
+  font-weight: var(--bds-font-weight-semibold);
+  color: var(--bds-color-text-primary);
+}
+
+.c0.stacked .input-label .select--value {
+  margin-left: var(--bds-sizes-size-8);
+  color: var(--bds-color-text-primary);
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c0.stacked .input-label.state--error {
+  color: var(--bds-color-text-red);
+}
+
+.c4 {
+  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  position: absolute;
+  height: var(--bds-sizes-size-48);
+  border-style: solid;
+  border-width: var(--bds-border-width-sm);
+  border-radius: var(--bds-border-radius-lg);
+  border-color: var(--bds-color-border-default);
+  pointer-events: none;
+  box-sizing: border-box;
+}
+
+.c4 legend {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  box-sizing: border-box;
+  width: auto;
+  height: var(--bds-sizes-size-1);
+  display: block;
+  max-width: 0.01px;
+  visibility: hidden;
+  font-size: var(--bds-sizes-size-14);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c4 legend span {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c4.interaction--focused legend,
+.c4.interaction--active legend,
+.c4.interaction--completed legend,
+.c4.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-8);
+}
+
+.c4.interaction--focused legend span,
+.c4.interaction--active legend span,
+.c4.interaction--completed legend span,
+.c4.completed legend span {
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c4.interaction--focused,
+.c4.interaction--active {
+  border-color: var(--bds-color-border-interactive);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c4.interaction--completed,
+.c4.completed {
+  border-color: var(--bds-color-border-default);
+}
+
+.c4.interaction--active.completed {
+  border-color: var(--bds-color-border-interactive);
+}
+
+.c4.size--medium {
+  height: var(--bds-sizes-size-48);
+}
+
+.c4.size--medium.interaction--focused legend,
+.c4.size--medium.interaction--active legend,
+.c4.size--medium.interaction--completed legend,
+.c4.size--medium.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--medium.interaction--focused legend span,
+.c4.size--medium.interaction--active legend span,
+.c4.size--medium.interaction--completed legend span,
+.c4.size--medium.completed legend span {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c4.size--small {
+  height: var(--bds-sizes-size-40);
+}
+
+.c4.size--small.interaction--focused legend,
+.c4.size--small.interaction--active legend,
+.c4.size--small.interaction--completed legend,
+.c4.size--small.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--small.interaction--focused legend span,
+.c4.size--small.interaction--active legend span,
+.c4.size--small.interaction--completed legend span,
+.c4.size--small.completed legend span {
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c4.size--large {
+  height: var(--bds-sizes-size-56);
+}
+
+.c4.size--large.interaction--focused legend,
+.c4.size--large.interaction--active legend,
+.c4.size--large.interaction--completed legend,
+.c4.size--large.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--large.interaction--focused legend span,
+.c4.size--large.interaction--active legend span,
+.c4.size--large.interaction--completed legend span,
+.c4.size--large.completed legend span {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c4.size--jumbo {
+  height: var(--bds-sizes-size-64);
+}
+
+.c4.size--jumbo.interaction--focused legend,
+.c4.size--jumbo.interaction--active legend,
+.c4.size--jumbo.interaction--completed legend,
+.c4.size--jumbo.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--jumbo.interaction--focused legend span,
+.c4.size--jumbo.interaction--active legend span,
+.c4.size--jumbo.interaction--completed legend span,
+.c4.size--jumbo.completed legend span {
+  font-size: var(--bds-sizes-size-20);
+}
+
+.c2 {
+  position: relative;
+  height: 48px;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2:hover fieldset {
+  border-color: var(--bds-color-border-interactive);
+}
+
+.c2:focus fieldset {
+  border-color: var(--bds-color-border-interactive);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c2.state--error fieldset {
+  border-color: var(--bds-color-border-red);
+}
+
+.c2.state--error svg.icon--before path,
+.c2.state--error svg.icon--before circle {
+  fill: var(--bds-color-icon-red);
+}
+
+.c2.state--error:focus fieldset {
+  border-color: var(--bds-color-border-red);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c2 svg.icon {
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+}
+
+.c2 svg.icon path,
+.c2 svg.icon circle {
+  fill: var(--bds-color-icon-tertiary);
+}
+
+.c2 svg.icon.icon--success path,
+.c2 svg.icon.icon--success circle {
+  fill: var(--bds-color-icon-green);
+}
+
+.c2 svg.icon.icon--error path,
+.c2 svg.icon.icon--error circle {
+  fill: var(--bds-color-icon-red);
+}
+
+.c2.size--small {
+  height: var(--bds-sizes-size-40);
+}
+
+.c2.size--small svg.icon {
+  height: 14px;
+  width: 14px;
+}
+
+.c2.size--small .suffix {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c2.size--large {
+  height: var(--bds-sizes-size-56);
+}
+
+.c2.size--jumbo {
+  height: var(--bds-sizes-size-64);
+}
+
+.c2.size--jumbo svg.icon {
+  height: 20px;
+  width: 20px;
+}
+
+.c2.size--jumbo .suffix {
+  font-size: var(--bds-sizes-size-24);
+}
+
+.c2.size--jumbo input,
+.c2.size--jumbo textarea {
+  font-size: var(--bds-sizes-size-24);
+  line-height: var(--bds-sizes-size-32);
+}
+
+.c2 svg.icon--error + .suffix,
+.c2 svg.icon--success + .suffix {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c1 {
+  z-index: 1;
+  pointer-events: none;
+  top: 12px;
+  left: 16px;
+  position: absolute;
+  display: block;
+  color: var(--bds-color-text-tertiary);
+  padding: 0;
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+  font-weight: var(--bds-font-weight-regular);
+  -webkit-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+
+.c1.with-icon-before {
+  left: 40px;
+}
+
+.c1.interaction--focused,
+.c1.interaction--active,
+.c1.interaction--completed {
+  top: -12px;
+  left: 16px;
+  font-size: var(--bds-sizes-size-14);
+  color: var(--bds-color-text-interactive);
+}
+
+.c1.interaction--completed {
+  color: var(--bds-color-text-tertiary);
+}
+
+.c1.size--small {
+  top: 8px;
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c1.size--small.interaction--focused,
+.c1.size--small.interaction--active,
+.c1.size--small.interaction--completed {
+  top: -12px;
+  left: 16px;
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c1.size--large {
+  top: 16px;
+}
+
+.c1.size--large.interaction--focused,
+.c1.size--large.interaction--active,
+.c1.size--large.interaction--completed {
+  top: -12px;
+}
+
+.c1.size--jumbo {
+  font-size: var(--bds-sizes-size-24);
+  top: 20px;
+}
+
+.c1.size--jumbo.interaction--focused,
+.c1.size--jumbo.interaction--active,
+.c1.size--jumbo.interaction--completed {
+  font-size: var(--bds-sizes-size-20);
+  top: -12px;
+}
+
+.c1.state--error {
+  color: var(--bds-color-text-red);
+}
+
+<div
+    class="c0 backyard select--wrapper shape--rounded size--medium"
+  >
+    <label
+      class="c1 input-label size--medium state--default completed interaction--completed"
+      for="id"
+    />
+    <div
+      class="c2 form-control shape--rounded size--medium interaction--completed"
+    >
+      <select
+        aria-label="id"
+        class="select--input className completed"
+        id="id"
+      >
+        <option
+          class="select-option"
+          selected=""
+          value="1"
+        >
+          One
+        </option>
+      </select>
+      <svg
+        aria-hidden="true"
+        class="c3 icon icon-triangle-down select--arrow item--after"
+        role="presentation"
+        style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(0, 0%, 0%, 1);"
+        viewBox="0 0 16 16"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M13.1865 4.2923c.7132 0 1.046.5626.6339 1.0577l-5.0236 6.0201c-.3486.4613-1.236.4388-1.6006 0l-5.0236-6.02c-.3962-.4614-.0793-1.0578.6339-1.0578h10.38Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+      <fieldset
+        aria-hidden="true"
+        class="c4 text-input-fieldset size--medium closed completed interaction--completed"
+      >
+        <legend>
+          <span />
+        </legend>
+      </fieldset>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Select Snapshots prop: shape Select squared shape snapshot 1`] = `
+<DocumentFragment>
+  .c3 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c3:not(.color-override) g,
+.c3:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c3:not(.color-override) g[stroke-width],
+.c3:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c3:not(.color-override) g[stroke-width] *,
+.c3:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c3.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c3.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c0 {
+  border: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  vertical-align: top;
+  padding: 0;
+  position: relative;
+}
+
+.c0 select,
+.c0 legend,
+.c0 label,
+.c0 span,
+.c0 .suffix {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 svg {
+  box-sizing: border-box;
+}
+
+.c0 select {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  padding-left: var(--bds-sizes-size-16);
+  padding-right: var(--bds-sizes-size-40);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+}
+
+.c0.item--before select {
+  padding-left: var(--bds-sizes-size-40);
+}
+
+.c0 .item--before {
+  position: absolute;
+  top: var(--bds-sizes-size-16);
+  left: var(--bds-sizes-size-16);
+}
+
+.c0 .item--after {
+  position: absolute;
+  top: var(--bds-sizes-size-16);
+  right: var(--bds-sizes-size-16);
+}
+
+.c0.size--small .item--after,
+.c0.size--small .item--before {
+  top: var(--bds-sizes-size-14);
+}
+
+.c0.size--large .item--after,
+.c0.size--large .item--before {
+  top: var(--bds-sizes-size-20);
+}
+
+.c0.size--jumbo .item--after,
+.c0.size--jumbo .item--before {
+  top: 1.375rem;
+}
+
+.c0.state--error svg.item--after path {
+  fill: var(--bds-color-icon-red);
+}
+
+.c0.has--placeholder label {
+  display: none;
+}
+
+.c0.has--placeholder legend {
+  display: none;
+}
+
+.c0.stacked label.input-label.incomplete,
+.c0.stacked label.input-label.interaction--completed,
+.c0.stacked label.input-label.interaction--active,
+.c0.stacked label.input-label.completed,
+.c0.stacked label.input-label.interaction--focused {
+  top: var(--bds-sizes-size-12);
+  left: var(--bds-sizes-size-16);
+  font-size: var(--bds-sizes-size-16);
+}
+
+.c0.stacked label.input-label.incomplete.size--small,
+.c0.stacked label.input-label.interaction--completed.size--small,
+.c0.stacked label.input-label.interaction--active.size--small,
+.c0.stacked label.input-label.completed.size--small,
+.c0.stacked label.input-label.interaction--focused.size--small {
+  top: var(--bds-sizes-size-8);
+}
+
+.c0.stacked label.input-label.incomplete.size--large,
+.c0.stacked label.input-label.interaction--completed.size--large,
+.c0.stacked label.input-label.interaction--active.size--large,
+.c0.stacked label.input-label.completed.size--large,
+.c0.stacked label.input-label.interaction--focused.size--large {
+  top: var(--bds-sizes-size-16);
+}
+
+.c0.stacked label.input-label.incomplete.size--jumbo,
+.c0.stacked label.input-label.interaction--completed.size--jumbo,
+.c0.stacked label.input-label.interaction--active.size--jumbo,
+.c0.stacked label.input-label.completed.size--jumbo,
+.c0.stacked label.input-label.interaction--focused.size--jumbo {
+  top: var(--bds-sizes-size-20);
+  font-size: var(--bds-sizes-size-20);
+}
+
+.c0.stacked .text-input-fieldset legend {
+  max-width: 0.01px;
+  padding: 0;
+}
+
+.c0.stacked select {
+  opacity: 0;
+}
+
+.c0.stacked .input-label {
+  font-weight: var(--bds-font-weight-semibold);
+  color: var(--bds-color-text-primary);
+}
+
+.c0.stacked .input-label .select--value {
+  margin-left: var(--bds-sizes-size-8);
+  color: var(--bds-color-text-primary);
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c0.stacked .input-label.state--error {
+  color: var(--bds-color-text-red);
+}
+
+.c4 {
+  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  position: absolute;
+  height: var(--bds-sizes-size-48);
+  border-style: solid;
+  border-width: var(--bds-border-width-sm);
+  border-radius: var(--bds-border-radius-lg);
+  border-color: var(--bds-color-border-default);
+  pointer-events: none;
+  box-sizing: border-box;
+}
+
+.c4 legend {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  box-sizing: border-box;
+  width: auto;
+  height: var(--bds-sizes-size-1);
+  display: block;
+  max-width: 0.01px;
+  visibility: hidden;
+  font-size: var(--bds-sizes-size-14);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c4 legend span {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c4.interaction--focused legend,
+.c4.interaction--active legend,
+.c4.interaction--completed legend,
+.c4.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-8);
+}
+
+.c4.interaction--focused legend span,
+.c4.interaction--active legend span,
+.c4.interaction--completed legend span,
+.c4.completed legend span {
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c4.interaction--focused,
+.c4.interaction--active {
+  border-color: var(--bds-color-border-interactive);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c4.interaction--completed,
+.c4.completed {
+  border-color: var(--bds-color-border-default);
+}
+
+.c4.interaction--active.completed {
+  border-color: var(--bds-color-border-interactive);
+}
+
+.c4.size--medium {
+  height: var(--bds-sizes-size-48);
+}
+
+.c4.size--medium.interaction--focused legend,
+.c4.size--medium.interaction--active legend,
+.c4.size--medium.interaction--completed legend,
+.c4.size--medium.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--medium.interaction--focused legend span,
+.c4.size--medium.interaction--active legend span,
+.c4.size--medium.interaction--completed legend span,
+.c4.size--medium.completed legend span {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c4.size--small {
+  height: var(--bds-sizes-size-40);
+}
+
+.c4.size--small.interaction--focused legend,
+.c4.size--small.interaction--active legend,
+.c4.size--small.interaction--completed legend,
+.c4.size--small.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--small.interaction--focused legend span,
+.c4.size--small.interaction--active legend span,
+.c4.size--small.interaction--completed legend span,
+.c4.size--small.completed legend span {
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c4.size--large {
+  height: var(--bds-sizes-size-56);
+}
+
+.c4.size--large.interaction--focused legend,
+.c4.size--large.interaction--active legend,
+.c4.size--large.interaction--completed legend,
+.c4.size--large.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--large.interaction--focused legend span,
+.c4.size--large.interaction--active legend span,
+.c4.size--large.interaction--completed legend span,
+.c4.size--large.completed legend span {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c4.size--jumbo {
+  height: var(--bds-sizes-size-64);
+}
+
+.c4.size--jumbo.interaction--focused legend,
+.c4.size--jumbo.interaction--active legend,
+.c4.size--jumbo.interaction--completed legend,
+.c4.size--jumbo.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--jumbo.interaction--focused legend span,
+.c4.size--jumbo.interaction--active legend span,
+.c4.size--jumbo.interaction--completed legend span,
+.c4.size--jumbo.completed legend span {
+  font-size: var(--bds-sizes-size-20);
+}
+
+.c2 {
+  position: relative;
+  height: 48px;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2:hover fieldset {
+  border-color: var(--bds-color-border-interactive);
+}
+
+.c2:focus fieldset {
+  border-color: var(--bds-color-border-interactive);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c2.state--error fieldset {
+  border-color: var(--bds-color-border-red);
+}
+
+.c2.state--error svg.icon--before path,
+.c2.state--error svg.icon--before circle {
+  fill: var(--bds-color-icon-red);
+}
+
+.c2.state--error:focus fieldset {
+  border-color: var(--bds-color-border-red);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c2 svg.icon {
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+}
+
+.c2 svg.icon path,
+.c2 svg.icon circle {
+  fill: var(--bds-color-icon-tertiary);
+}
+
+.c2 svg.icon.icon--success path,
+.c2 svg.icon.icon--success circle {
+  fill: var(--bds-color-icon-green);
+}
+
+.c2 svg.icon.icon--error path,
+.c2 svg.icon.icon--error circle {
+  fill: var(--bds-color-icon-red);
+}
+
+.c2.size--small {
+  height: var(--bds-sizes-size-40);
+}
+
+.c2.size--small svg.icon {
+  height: 14px;
+  width: 14px;
+}
+
+.c2.size--small .suffix {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c2.size--large {
+  height: var(--bds-sizes-size-56);
+}
+
+.c2.size--jumbo {
+  height: var(--bds-sizes-size-64);
+}
+
+.c2.size--jumbo svg.icon {
+  height: 20px;
+  width: 20px;
+}
+
+.c2.size--jumbo .suffix {
+  font-size: var(--bds-sizes-size-24);
+}
+
+.c2.size--jumbo input,
+.c2.size--jumbo textarea {
+  font-size: var(--bds-sizes-size-24);
+  line-height: var(--bds-sizes-size-32);
+}
+
+.c2 svg.icon--error + .suffix,
+.c2 svg.icon--success + .suffix {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c1 {
+  z-index: 1;
+  pointer-events: none;
+  top: 12px;
+  left: 16px;
+  position: absolute;
+  display: block;
+  color: var(--bds-color-text-tertiary);
+  padding: 0;
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+  font-weight: var(--bds-font-weight-regular);
+  -webkit-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+
+.c1.with-icon-before {
+  left: 40px;
+}
+
+.c1.interaction--focused,
+.c1.interaction--active,
+.c1.interaction--completed {
+  top: -12px;
+  left: 16px;
+  font-size: var(--bds-sizes-size-14);
+  color: var(--bds-color-text-interactive);
+}
+
+.c1.interaction--completed {
+  color: var(--bds-color-text-tertiary);
+}
+
+.c1.size--small {
+  top: 8px;
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c1.size--small.interaction--focused,
+.c1.size--small.interaction--active,
+.c1.size--small.interaction--completed {
+  top: -12px;
+  left: 16px;
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c1.size--large {
+  top: 16px;
+}
+
+.c1.size--large.interaction--focused,
+.c1.size--large.interaction--active,
+.c1.size--large.interaction--completed {
+  top: -12px;
+}
+
+.c1.size--jumbo {
+  font-size: var(--bds-sizes-size-24);
+  top: 20px;
+}
+
+.c1.size--jumbo.interaction--focused,
+.c1.size--jumbo.interaction--active,
+.c1.size--jumbo.interaction--completed {
+  font-size: var(--bds-sizes-size-20);
+  top: -12px;
+}
+
+.c1.state--error {
+  color: var(--bds-color-text-red);
+}
+
+<div
+    class="c0 backyard select--wrapper shape--squared size--medium"
+  >
+    <label
+      class="c1 input-label size--medium state--default completed interaction--completed"
+      for="id"
+    />
+    <div
+      class="c2 form-control shape--squared size--medium interaction--completed"
+    >
+      <select
+        aria-label="id"
+        class="select--input className completed"
+        id="id"
+      >
+        <option
+          class="select-option"
+          selected=""
+          value="1"
+        >
+          One
+        </option>
+      </select>
+      <svg
+        aria-hidden="true"
+        class="c3 icon icon-triangle-down select--arrow item--after"
+        role="presentation"
+        style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(0, 0%, 0%, 1);"
+        viewBox="0 0 16 16"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M13.1865 4.2923c.7132 0 1.046.5626.6339 1.0577l-5.0236 6.0201c-.3486.4613-1.236.4388-1.6006 0l-5.0236-6.02c-.3962-.4614-.0793-1.0578.6339-1.0578h10.38Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+      <fieldset
+        aria-hidden="true"
+        class="c4 text-input-fieldset size--medium closed completed interaction--completed"
+      >
+        <legend>
+          <span />
+        </legend>
+      </fieldset>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Select Snapshots prop: size Select large size snapshot 1`] = `
+<DocumentFragment>
+  .c3 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c3:not(.color-override) g,
+.c3:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c3:not(.color-override) g[stroke-width],
+.c3:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c3:not(.color-override) g[stroke-width] *,
+.c3:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c3.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c3.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c0 {
+  border: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  vertical-align: top;
+  padding: 0;
+  position: relative;
+}
+
+.c0 select,
+.c0 legend,
+.c0 label,
+.c0 span,
+.c0 .suffix {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 svg {
+  box-sizing: border-box;
+}
+
+.c0 select {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  padding-left: var(--bds-sizes-size-16);
+  padding-right: var(--bds-sizes-size-40);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+}
+
+.c0.item--before select {
+  padding-left: var(--bds-sizes-size-40);
+}
+
+.c0 .item--before {
+  position: absolute;
+  top: var(--bds-sizes-size-16);
+  left: var(--bds-sizes-size-16);
+}
+
+.c0 .item--after {
+  position: absolute;
+  top: var(--bds-sizes-size-16);
+  right: var(--bds-sizes-size-16);
+}
+
+.c0.size--small .item--after,
+.c0.size--small .item--before {
+  top: var(--bds-sizes-size-14);
+}
+
+.c0.size--large .item--after,
+.c0.size--large .item--before {
+  top: var(--bds-sizes-size-20);
+}
+
+.c0.size--jumbo .item--after,
+.c0.size--jumbo .item--before {
+  top: 1.375rem;
+}
+
+.c0.state--error svg.item--after path {
+  fill: var(--bds-color-icon-red);
+}
+
+.c0.has--placeholder label {
+  display: none;
+}
+
+.c0.has--placeholder legend {
+  display: none;
+}
+
+.c0.stacked label.input-label.incomplete,
+.c0.stacked label.input-label.interaction--completed,
+.c0.stacked label.input-label.interaction--active,
+.c0.stacked label.input-label.completed,
+.c0.stacked label.input-label.interaction--focused {
+  top: var(--bds-sizes-size-12);
+  left: var(--bds-sizes-size-16);
+  font-size: var(--bds-sizes-size-16);
+}
+
+.c0.stacked label.input-label.incomplete.size--small,
+.c0.stacked label.input-label.interaction--completed.size--small,
+.c0.stacked label.input-label.interaction--active.size--small,
+.c0.stacked label.input-label.completed.size--small,
+.c0.stacked label.input-label.interaction--focused.size--small {
+  top: var(--bds-sizes-size-8);
+}
+
+.c0.stacked label.input-label.incomplete.size--large,
+.c0.stacked label.input-label.interaction--completed.size--large,
+.c0.stacked label.input-label.interaction--active.size--large,
+.c0.stacked label.input-label.completed.size--large,
+.c0.stacked label.input-label.interaction--focused.size--large {
+  top: var(--bds-sizes-size-16);
+}
+
+.c0.stacked label.input-label.incomplete.size--jumbo,
+.c0.stacked label.input-label.interaction--completed.size--jumbo,
+.c0.stacked label.input-label.interaction--active.size--jumbo,
+.c0.stacked label.input-label.completed.size--jumbo,
+.c0.stacked label.input-label.interaction--focused.size--jumbo {
+  top: var(--bds-sizes-size-20);
+  font-size: var(--bds-sizes-size-20);
+}
+
+.c0.stacked .text-input-fieldset legend {
+  max-width: 0.01px;
+  padding: 0;
+}
+
+.c0.stacked select {
+  opacity: 0;
+}
+
+.c0.stacked .input-label {
+  font-weight: var(--bds-font-weight-semibold);
+  color: var(--bds-color-text-primary);
+}
+
+.c0.stacked .input-label .select--value {
+  margin-left: var(--bds-sizes-size-8);
+  color: var(--bds-color-text-primary);
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c0.stacked .input-label.state--error {
+  color: var(--bds-color-text-red);
+}
+
+.c4 {
+  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  position: absolute;
+  height: var(--bds-sizes-size-48);
+  border-style: solid;
+  border-width: var(--bds-border-width-sm);
+  border-radius: var(--bds-border-radius-lg);
+  border-color: var(--bds-color-border-default);
+  pointer-events: none;
+  box-sizing: border-box;
+}
+
+.c4 legend {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  box-sizing: border-box;
+  width: auto;
+  height: var(--bds-sizes-size-1);
+  display: block;
+  max-width: 0.01px;
+  visibility: hidden;
+  font-size: var(--bds-sizes-size-14);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c4 legend span {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c4.interaction--focused legend,
+.c4.interaction--active legend,
+.c4.interaction--completed legend,
+.c4.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-8);
+}
+
+.c4.interaction--focused legend span,
+.c4.interaction--active legend span,
+.c4.interaction--completed legend span,
+.c4.completed legend span {
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c4.interaction--focused,
+.c4.interaction--active {
+  border-color: var(--bds-color-border-interactive);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c4.interaction--completed,
+.c4.completed {
+  border-color: var(--bds-color-border-default);
+}
+
+.c4.interaction--active.completed {
+  border-color: var(--bds-color-border-interactive);
+}
+
+.c4.size--medium {
+  height: var(--bds-sizes-size-48);
+}
+
+.c4.size--medium.interaction--focused legend,
+.c4.size--medium.interaction--active legend,
+.c4.size--medium.interaction--completed legend,
+.c4.size--medium.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--medium.interaction--focused legend span,
+.c4.size--medium.interaction--active legend span,
+.c4.size--medium.interaction--completed legend span,
+.c4.size--medium.completed legend span {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c4.size--small {
+  height: var(--bds-sizes-size-40);
+}
+
+.c4.size--small.interaction--focused legend,
+.c4.size--small.interaction--active legend,
+.c4.size--small.interaction--completed legend,
+.c4.size--small.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--small.interaction--focused legend span,
+.c4.size--small.interaction--active legend span,
+.c4.size--small.interaction--completed legend span,
+.c4.size--small.completed legend span {
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c4.size--large {
+  height: var(--bds-sizes-size-56);
+}
+
+.c4.size--large.interaction--focused legend,
+.c4.size--large.interaction--active legend,
+.c4.size--large.interaction--completed legend,
+.c4.size--large.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--large.interaction--focused legend span,
+.c4.size--large.interaction--active legend span,
+.c4.size--large.interaction--completed legend span,
+.c4.size--large.completed legend span {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c4.size--jumbo {
+  height: var(--bds-sizes-size-64);
+}
+
+.c4.size--jumbo.interaction--focused legend,
+.c4.size--jumbo.interaction--active legend,
+.c4.size--jumbo.interaction--completed legend,
+.c4.size--jumbo.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--jumbo.interaction--focused legend span,
+.c4.size--jumbo.interaction--active legend span,
+.c4.size--jumbo.interaction--completed legend span,
+.c4.size--jumbo.completed legend span {
+  font-size: var(--bds-sizes-size-20);
+}
+
+.c2 {
+  position: relative;
+  height: 48px;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2:hover fieldset {
+  border-color: var(--bds-color-border-interactive);
+}
+
+.c2:focus fieldset {
+  border-color: var(--bds-color-border-interactive);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c2.state--error fieldset {
+  border-color: var(--bds-color-border-red);
+}
+
+.c2.state--error svg.icon--before path,
+.c2.state--error svg.icon--before circle {
+  fill: var(--bds-color-icon-red);
+}
+
+.c2.state--error:focus fieldset {
+  border-color: var(--bds-color-border-red);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c2 svg.icon {
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+}
+
+.c2 svg.icon path,
+.c2 svg.icon circle {
+  fill: var(--bds-color-icon-tertiary);
+}
+
+.c2 svg.icon.icon--success path,
+.c2 svg.icon.icon--success circle {
+  fill: var(--bds-color-icon-green);
+}
+
+.c2 svg.icon.icon--error path,
+.c2 svg.icon.icon--error circle {
+  fill: var(--bds-color-icon-red);
+}
+
+.c2.size--small {
+  height: var(--bds-sizes-size-40);
+}
+
+.c2.size--small svg.icon {
+  height: 14px;
+  width: 14px;
+}
+
+.c2.size--small .suffix {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c2.size--large {
+  height: var(--bds-sizes-size-56);
+}
+
+.c2.size--jumbo {
+  height: var(--bds-sizes-size-64);
+}
+
+.c2.size--jumbo svg.icon {
+  height: 20px;
+  width: 20px;
+}
+
+.c2.size--jumbo .suffix {
+  font-size: var(--bds-sizes-size-24);
+}
+
+.c2.size--jumbo input,
+.c2.size--jumbo textarea {
+  font-size: var(--bds-sizes-size-24);
+  line-height: var(--bds-sizes-size-32);
+}
+
+.c2 svg.icon--error + .suffix,
+.c2 svg.icon--success + .suffix {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c1 {
+  z-index: 1;
+  pointer-events: none;
+  top: 12px;
+  left: 16px;
+  position: absolute;
+  display: block;
+  color: var(--bds-color-text-tertiary);
+  padding: 0;
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+  font-weight: var(--bds-font-weight-regular);
+  -webkit-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+
+.c1.with-icon-before {
+  left: 40px;
+}
+
+.c1.interaction--focused,
+.c1.interaction--active,
+.c1.interaction--completed {
+  top: -12px;
+  left: 16px;
+  font-size: var(--bds-sizes-size-14);
+  color: var(--bds-color-text-interactive);
+}
+
+.c1.interaction--completed {
+  color: var(--bds-color-text-tertiary);
+}
+
+.c1.size--small {
+  top: 8px;
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c1.size--small.interaction--focused,
+.c1.size--small.interaction--active,
+.c1.size--small.interaction--completed {
+  top: -12px;
+  left: 16px;
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c1.size--large {
+  top: 16px;
+}
+
+.c1.size--large.interaction--focused,
+.c1.size--large.interaction--active,
+.c1.size--large.interaction--completed {
+  top: -12px;
+}
+
+.c1.size--jumbo {
+  font-size: var(--bds-sizes-size-24);
+  top: 20px;
+}
+
+.c1.size--jumbo.interaction--focused,
+.c1.size--jumbo.interaction--active,
+.c1.size--jumbo.interaction--completed {
+  font-size: var(--bds-sizes-size-20);
+  top: -12px;
+}
+
+.c1.state--error {
+  color: var(--bds-color-text-red);
+}
+
+<div
+    class="c0 backyard select--wrapper shape--rounded size--large"
+  >
+    <label
+      class="c1 input-label size--large state--default completed interaction--completed"
+      for="id"
+    />
+    <div
+      class="c2 form-control shape--rounded size--large interaction--completed"
+    >
+      <select
+        aria-label="id"
+        class="select--input className completed"
+        id="id"
+      >
+        <option
+          class="select-option"
+          selected=""
+          value="1"
+        >
+          One
+        </option>
+      </select>
+      <svg
+        aria-hidden="true"
+        class="c3 icon icon-triangle-down select--arrow item--after"
+        role="presentation"
+        style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(0, 0%, 0%, 1);"
+        viewBox="0 0 16 16"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M13.1865 4.2923c.7132 0 1.046.5626.6339 1.0577l-5.0236 6.0201c-.3486.4613-1.236.4388-1.6006 0l-5.0236-6.02c-.3962-.4614-.0793-1.0578.6339-1.0578h10.38Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+      <fieldset
+        aria-hidden="true"
+        class="c4 text-input-fieldset size--large closed completed interaction--completed"
+      >
+        <legend>
+          <span />
+        </legend>
+      </fieldset>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Select Snapshots prop: size Select medium size snapshot 1`] = `
+<DocumentFragment>
+  .c3 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c3:not(.color-override) g,
+.c3:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c3:not(.color-override) g[stroke-width],
+.c3:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c3:not(.color-override) g[stroke-width] *,
+.c3:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c3.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c3.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c0 {
+  border: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  vertical-align: top;
+  padding: 0;
+  position: relative;
+}
+
+.c0 select,
+.c0 legend,
+.c0 label,
+.c0 span,
+.c0 .suffix {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 svg {
+  box-sizing: border-box;
+}
+
+.c0 select {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  padding-left: var(--bds-sizes-size-16);
+  padding-right: var(--bds-sizes-size-40);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+}
+
+.c0.item--before select {
+  padding-left: var(--bds-sizes-size-40);
+}
+
+.c0 .item--before {
+  position: absolute;
+  top: var(--bds-sizes-size-16);
+  left: var(--bds-sizes-size-16);
+}
+
+.c0 .item--after {
+  position: absolute;
+  top: var(--bds-sizes-size-16);
+  right: var(--bds-sizes-size-16);
+}
+
+.c0.size--small .item--after,
+.c0.size--small .item--before {
+  top: var(--bds-sizes-size-14);
+}
+
+.c0.size--large .item--after,
+.c0.size--large .item--before {
+  top: var(--bds-sizes-size-20);
+}
+
+.c0.size--jumbo .item--after,
+.c0.size--jumbo .item--before {
+  top: 1.375rem;
+}
+
+.c0.state--error svg.item--after path {
+  fill: var(--bds-color-icon-red);
+}
+
+.c0.has--placeholder label {
+  display: none;
+}
+
+.c0.has--placeholder legend {
+  display: none;
+}
+
+.c0.stacked label.input-label.incomplete,
+.c0.stacked label.input-label.interaction--completed,
+.c0.stacked label.input-label.interaction--active,
+.c0.stacked label.input-label.completed,
+.c0.stacked label.input-label.interaction--focused {
+  top: var(--bds-sizes-size-12);
+  left: var(--bds-sizes-size-16);
+  font-size: var(--bds-sizes-size-16);
+}
+
+.c0.stacked label.input-label.incomplete.size--small,
+.c0.stacked label.input-label.interaction--completed.size--small,
+.c0.stacked label.input-label.interaction--active.size--small,
+.c0.stacked label.input-label.completed.size--small,
+.c0.stacked label.input-label.interaction--focused.size--small {
+  top: var(--bds-sizes-size-8);
+}
+
+.c0.stacked label.input-label.incomplete.size--large,
+.c0.stacked label.input-label.interaction--completed.size--large,
+.c0.stacked label.input-label.interaction--active.size--large,
+.c0.stacked label.input-label.completed.size--large,
+.c0.stacked label.input-label.interaction--focused.size--large {
+  top: var(--bds-sizes-size-16);
+}
+
+.c0.stacked label.input-label.incomplete.size--jumbo,
+.c0.stacked label.input-label.interaction--completed.size--jumbo,
+.c0.stacked label.input-label.interaction--active.size--jumbo,
+.c0.stacked label.input-label.completed.size--jumbo,
+.c0.stacked label.input-label.interaction--focused.size--jumbo {
+  top: var(--bds-sizes-size-20);
+  font-size: var(--bds-sizes-size-20);
+}
+
+.c0.stacked .text-input-fieldset legend {
+  max-width: 0.01px;
+  padding: 0;
+}
+
+.c0.stacked select {
+  opacity: 0;
+}
+
+.c0.stacked .input-label {
+  font-weight: var(--bds-font-weight-semibold);
+  color: var(--bds-color-text-primary);
+}
+
+.c0.stacked .input-label .select--value {
+  margin-left: var(--bds-sizes-size-8);
+  color: var(--bds-color-text-primary);
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c0.stacked .input-label.state--error {
+  color: var(--bds-color-text-red);
+}
+
+.c4 {
+  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  position: absolute;
+  height: var(--bds-sizes-size-48);
+  border-style: solid;
+  border-width: var(--bds-border-width-sm);
+  border-radius: var(--bds-border-radius-lg);
+  border-color: var(--bds-color-border-default);
+  pointer-events: none;
+  box-sizing: border-box;
+}
+
+.c4 legend {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  box-sizing: border-box;
+  width: auto;
+  height: var(--bds-sizes-size-1);
+  display: block;
+  max-width: 0.01px;
+  visibility: hidden;
+  font-size: var(--bds-sizes-size-14);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c4 legend span {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c4.interaction--focused legend,
+.c4.interaction--active legend,
+.c4.interaction--completed legend,
+.c4.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-8);
+}
+
+.c4.interaction--focused legend span,
+.c4.interaction--active legend span,
+.c4.interaction--completed legend span,
+.c4.completed legend span {
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c4.interaction--focused,
+.c4.interaction--active {
+  border-color: var(--bds-color-border-interactive);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c4.interaction--completed,
+.c4.completed {
+  border-color: var(--bds-color-border-default);
+}
+
+.c4.interaction--active.completed {
+  border-color: var(--bds-color-border-interactive);
+}
+
+.c4.size--medium {
+  height: var(--bds-sizes-size-48);
+}
+
+.c4.size--medium.interaction--focused legend,
+.c4.size--medium.interaction--active legend,
+.c4.size--medium.interaction--completed legend,
+.c4.size--medium.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--medium.interaction--focused legend span,
+.c4.size--medium.interaction--active legend span,
+.c4.size--medium.interaction--completed legend span,
+.c4.size--medium.completed legend span {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c4.size--small {
+  height: var(--bds-sizes-size-40);
+}
+
+.c4.size--small.interaction--focused legend,
+.c4.size--small.interaction--active legend,
+.c4.size--small.interaction--completed legend,
+.c4.size--small.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--small.interaction--focused legend span,
+.c4.size--small.interaction--active legend span,
+.c4.size--small.interaction--completed legend span,
+.c4.size--small.completed legend span {
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c4.size--large {
+  height: var(--bds-sizes-size-56);
+}
+
+.c4.size--large.interaction--focused legend,
+.c4.size--large.interaction--active legend,
+.c4.size--large.interaction--completed legend,
+.c4.size--large.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--large.interaction--focused legend span,
+.c4.size--large.interaction--active legend span,
+.c4.size--large.interaction--completed legend span,
+.c4.size--large.completed legend span {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c4.size--jumbo {
+  height: var(--bds-sizes-size-64);
+}
+
+.c4.size--jumbo.interaction--focused legend,
+.c4.size--jumbo.interaction--active legend,
+.c4.size--jumbo.interaction--completed legend,
+.c4.size--jumbo.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--jumbo.interaction--focused legend span,
+.c4.size--jumbo.interaction--active legend span,
+.c4.size--jumbo.interaction--completed legend span,
+.c4.size--jumbo.completed legend span {
+  font-size: var(--bds-sizes-size-20);
+}
+
+.c2 {
+  position: relative;
+  height: 48px;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2:hover fieldset {
+  border-color: var(--bds-color-border-interactive);
+}
+
+.c2:focus fieldset {
+  border-color: var(--bds-color-border-interactive);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c2.state--error fieldset {
+  border-color: var(--bds-color-border-red);
+}
+
+.c2.state--error svg.icon--before path,
+.c2.state--error svg.icon--before circle {
+  fill: var(--bds-color-icon-red);
+}
+
+.c2.state--error:focus fieldset {
+  border-color: var(--bds-color-border-red);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c2 svg.icon {
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+}
+
+.c2 svg.icon path,
+.c2 svg.icon circle {
+  fill: var(--bds-color-icon-tertiary);
+}
+
+.c2 svg.icon.icon--success path,
+.c2 svg.icon.icon--success circle {
+  fill: var(--bds-color-icon-green);
+}
+
+.c2 svg.icon.icon--error path,
+.c2 svg.icon.icon--error circle {
+  fill: var(--bds-color-icon-red);
+}
+
+.c2.size--small {
+  height: var(--bds-sizes-size-40);
+}
+
+.c2.size--small svg.icon {
+  height: 14px;
+  width: 14px;
+}
+
+.c2.size--small .suffix {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c2.size--large {
+  height: var(--bds-sizes-size-56);
+}
+
+.c2.size--jumbo {
+  height: var(--bds-sizes-size-64);
+}
+
+.c2.size--jumbo svg.icon {
+  height: 20px;
+  width: 20px;
+}
+
+.c2.size--jumbo .suffix {
+  font-size: var(--bds-sizes-size-24);
+}
+
+.c2.size--jumbo input,
+.c2.size--jumbo textarea {
+  font-size: var(--bds-sizes-size-24);
+  line-height: var(--bds-sizes-size-32);
+}
+
+.c2 svg.icon--error + .suffix,
+.c2 svg.icon--success + .suffix {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c1 {
+  z-index: 1;
+  pointer-events: none;
+  top: 12px;
+  left: 16px;
+  position: absolute;
+  display: block;
+  color: var(--bds-color-text-tertiary);
+  padding: 0;
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+  font-weight: var(--bds-font-weight-regular);
+  -webkit-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+
+.c1.with-icon-before {
+  left: 40px;
+}
+
+.c1.interaction--focused,
+.c1.interaction--active,
+.c1.interaction--completed {
+  top: -12px;
+  left: 16px;
+  font-size: var(--bds-sizes-size-14);
+  color: var(--bds-color-text-interactive);
+}
+
+.c1.interaction--completed {
+  color: var(--bds-color-text-tertiary);
+}
+
+.c1.size--small {
+  top: 8px;
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c1.size--small.interaction--focused,
+.c1.size--small.interaction--active,
+.c1.size--small.interaction--completed {
+  top: -12px;
+  left: 16px;
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c1.size--large {
+  top: 16px;
+}
+
+.c1.size--large.interaction--focused,
+.c1.size--large.interaction--active,
+.c1.size--large.interaction--completed {
+  top: -12px;
+}
+
+.c1.size--jumbo {
+  font-size: var(--bds-sizes-size-24);
+  top: 20px;
+}
+
+.c1.size--jumbo.interaction--focused,
+.c1.size--jumbo.interaction--active,
+.c1.size--jumbo.interaction--completed {
+  font-size: var(--bds-sizes-size-20);
+  top: -12px;
+}
+
+.c1.state--error {
+  color: var(--bds-color-text-red);
+}
+
+<div
+    class="c0 backyard select--wrapper shape--rounded size--medium"
+  >
+    <label
+      class="c1 input-label size--medium state--default completed interaction--completed"
+      for="id"
+    />
+    <div
+      class="c2 form-control shape--rounded size--medium interaction--completed"
+    >
+      <select
+        aria-label="id"
+        class="select--input className completed"
+        id="id"
+      >
+        <option
+          class="select-option"
+          selected=""
+          value="1"
+        >
+          One
+        </option>
+      </select>
+      <svg
+        aria-hidden="true"
+        class="c3 icon icon-triangle-down select--arrow item--after"
+        role="presentation"
+        style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(0, 0%, 0%, 1);"
+        viewBox="0 0 16 16"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M13.1865 4.2923c.7132 0 1.046.5626.6339 1.0577l-5.0236 6.0201c-.3486.4613-1.236.4388-1.6006 0l-5.0236-6.02c-.3962-.4614-.0793-1.0578.6339-1.0578h10.38Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+      <fieldset
+        aria-hidden="true"
+        class="c4 text-input-fieldset size--medium closed completed interaction--completed"
+      >
+        <legend>
+          <span />
+        </legend>
+      </fieldset>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Select Snapshots prop: size Select small size snapshot 1`] = `
+<DocumentFragment>
+  .c3 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c3:not(.color-override) g,
+.c3:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c3:not(.color-override) g[stroke-width],
+.c3:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c3:not(.color-override) g[stroke-width] *,
+.c3:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c3.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c3.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c0 {
+  border: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  vertical-align: top;
+  padding: 0;
+  position: relative;
+}
+
+.c0 select,
+.c0 legend,
+.c0 label,
+.c0 span,
+.c0 .suffix {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 svg {
+  box-sizing: border-box;
+}
+
+.c0 select {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  padding-left: var(--bds-sizes-size-16);
+  padding-right: var(--bds-sizes-size-40);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+}
+
+.c0.item--before select {
+  padding-left: var(--bds-sizes-size-40);
+}
+
+.c0 .item--before {
+  position: absolute;
+  top: var(--bds-sizes-size-16);
+  left: var(--bds-sizes-size-16);
+}
+
+.c0 .item--after {
+  position: absolute;
+  top: var(--bds-sizes-size-16);
+  right: var(--bds-sizes-size-16);
+}
+
+.c0.size--small .item--after,
+.c0.size--small .item--before {
+  top: var(--bds-sizes-size-14);
+}
+
+.c0.size--large .item--after,
+.c0.size--large .item--before {
+  top: var(--bds-sizes-size-20);
+}
+
+.c0.size--jumbo .item--after,
+.c0.size--jumbo .item--before {
+  top: 1.375rem;
+}
+
+.c0.state--error svg.item--after path {
+  fill: var(--bds-color-icon-red);
+}
+
+.c0.has--placeholder label {
+  display: none;
+}
+
+.c0.has--placeholder legend {
+  display: none;
+}
+
+.c0.stacked label.input-label.incomplete,
+.c0.stacked label.input-label.interaction--completed,
+.c0.stacked label.input-label.interaction--active,
+.c0.stacked label.input-label.completed,
+.c0.stacked label.input-label.interaction--focused {
+  top: var(--bds-sizes-size-12);
+  left: var(--bds-sizes-size-16);
+  font-size: var(--bds-sizes-size-16);
+}
+
+.c0.stacked label.input-label.incomplete.size--small,
+.c0.stacked label.input-label.interaction--completed.size--small,
+.c0.stacked label.input-label.interaction--active.size--small,
+.c0.stacked label.input-label.completed.size--small,
+.c0.stacked label.input-label.interaction--focused.size--small {
+  top: var(--bds-sizes-size-8);
+}
+
+.c0.stacked label.input-label.incomplete.size--large,
+.c0.stacked label.input-label.interaction--completed.size--large,
+.c0.stacked label.input-label.interaction--active.size--large,
+.c0.stacked label.input-label.completed.size--large,
+.c0.stacked label.input-label.interaction--focused.size--large {
+  top: var(--bds-sizes-size-16);
+}
+
+.c0.stacked label.input-label.incomplete.size--jumbo,
+.c0.stacked label.input-label.interaction--completed.size--jumbo,
+.c0.stacked label.input-label.interaction--active.size--jumbo,
+.c0.stacked label.input-label.completed.size--jumbo,
+.c0.stacked label.input-label.interaction--focused.size--jumbo {
+  top: var(--bds-sizes-size-20);
+  font-size: var(--bds-sizes-size-20);
+}
+
+.c0.stacked .text-input-fieldset legend {
+  max-width: 0.01px;
+  padding: 0;
+}
+
+.c0.stacked select {
+  opacity: 0;
+}
+
+.c0.stacked .input-label {
+  font-weight: var(--bds-font-weight-semibold);
+  color: var(--bds-color-text-primary);
+}
+
+.c0.stacked .input-label .select--value {
+  margin-left: var(--bds-sizes-size-8);
+  color: var(--bds-color-text-primary);
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c0.stacked .input-label.state--error {
+  color: var(--bds-color-text-red);
+}
+
+.c4 {
+  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  position: absolute;
+  height: var(--bds-sizes-size-48);
+  border-style: solid;
+  border-width: var(--bds-border-width-sm);
+  border-radius: var(--bds-border-radius-lg);
+  border-color: var(--bds-color-border-default);
+  pointer-events: none;
+  box-sizing: border-box;
+}
+
+.c4 legend {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  box-sizing: border-box;
+  width: auto;
+  height: var(--bds-sizes-size-1);
+  display: block;
+  max-width: 0.01px;
+  visibility: hidden;
+  font-size: var(--bds-sizes-size-14);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c4 legend span {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c4.interaction--focused legend,
+.c4.interaction--active legend,
+.c4.interaction--completed legend,
+.c4.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-8);
+}
+
+.c4.interaction--focused legend span,
+.c4.interaction--active legend span,
+.c4.interaction--completed legend span,
+.c4.completed legend span {
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c4.interaction--focused,
+.c4.interaction--active {
+  border-color: var(--bds-color-border-interactive);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c4.interaction--completed,
+.c4.completed {
+  border-color: var(--bds-color-border-default);
+}
+
+.c4.interaction--active.completed {
+  border-color: var(--bds-color-border-interactive);
+}
+
+.c4.size--medium {
+  height: var(--bds-sizes-size-48);
+}
+
+.c4.size--medium.interaction--focused legend,
+.c4.size--medium.interaction--active legend,
+.c4.size--medium.interaction--completed legend,
+.c4.size--medium.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--medium.interaction--focused legend span,
+.c4.size--medium.interaction--active legend span,
+.c4.size--medium.interaction--completed legend span,
+.c4.size--medium.completed legend span {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c4.size--small {
+  height: var(--bds-sizes-size-40);
+}
+
+.c4.size--small.interaction--focused legend,
+.c4.size--small.interaction--active legend,
+.c4.size--small.interaction--completed legend,
+.c4.size--small.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--small.interaction--focused legend span,
+.c4.size--small.interaction--active legend span,
+.c4.size--small.interaction--completed legend span,
+.c4.size--small.completed legend span {
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c4.size--large {
+  height: var(--bds-sizes-size-56);
+}
+
+.c4.size--large.interaction--focused legend,
+.c4.size--large.interaction--active legend,
+.c4.size--large.interaction--completed legend,
+.c4.size--large.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--large.interaction--focused legend span,
+.c4.size--large.interaction--active legend span,
+.c4.size--large.interaction--completed legend span,
+.c4.size--large.completed legend span {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c4.size--jumbo {
+  height: var(--bds-sizes-size-64);
+}
+
+.c4.size--jumbo.interaction--focused legend,
+.c4.size--jumbo.interaction--active legend,
+.c4.size--jumbo.interaction--completed legend,
+.c4.size--jumbo.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--jumbo.interaction--focused legend span,
+.c4.size--jumbo.interaction--active legend span,
+.c4.size--jumbo.interaction--completed legend span,
+.c4.size--jumbo.completed legend span {
+  font-size: var(--bds-sizes-size-20);
+}
+
+.c2 {
+  position: relative;
+  height: 48px;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2:hover fieldset {
+  border-color: var(--bds-color-border-interactive);
+}
+
+.c2:focus fieldset {
+  border-color: var(--bds-color-border-interactive);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c2.state--error fieldset {
+  border-color: var(--bds-color-border-red);
+}
+
+.c2.state--error svg.icon--before path,
+.c2.state--error svg.icon--before circle {
+  fill: var(--bds-color-icon-red);
+}
+
+.c2.state--error:focus fieldset {
+  border-color: var(--bds-color-border-red);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c2 svg.icon {
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+}
+
+.c2 svg.icon path,
+.c2 svg.icon circle {
+  fill: var(--bds-color-icon-tertiary);
+}
+
+.c2 svg.icon.icon--success path,
+.c2 svg.icon.icon--success circle {
+  fill: var(--bds-color-icon-green);
+}
+
+.c2 svg.icon.icon--error path,
+.c2 svg.icon.icon--error circle {
+  fill: var(--bds-color-icon-red);
+}
+
+.c2.size--small {
+  height: var(--bds-sizes-size-40);
+}
+
+.c2.size--small svg.icon {
+  height: 14px;
+  width: 14px;
+}
+
+.c2.size--small .suffix {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c2.size--large {
+  height: var(--bds-sizes-size-56);
+}
+
+.c2.size--jumbo {
+  height: var(--bds-sizes-size-64);
+}
+
+.c2.size--jumbo svg.icon {
+  height: 20px;
+  width: 20px;
+}
+
+.c2.size--jumbo .suffix {
+  font-size: var(--bds-sizes-size-24);
+}
+
+.c2.size--jumbo input,
+.c2.size--jumbo textarea {
+  font-size: var(--bds-sizes-size-24);
+  line-height: var(--bds-sizes-size-32);
+}
+
+.c2 svg.icon--error + .suffix,
+.c2 svg.icon--success + .suffix {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c1 {
+  z-index: 1;
+  pointer-events: none;
+  top: 12px;
+  left: 16px;
+  position: absolute;
+  display: block;
+  color: var(--bds-color-text-tertiary);
+  padding: 0;
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+  font-weight: var(--bds-font-weight-regular);
+  -webkit-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+
+.c1.with-icon-before {
+  left: 40px;
+}
+
+.c1.interaction--focused,
+.c1.interaction--active,
+.c1.interaction--completed {
+  top: -12px;
+  left: 16px;
+  font-size: var(--bds-sizes-size-14);
+  color: var(--bds-color-text-interactive);
+}
+
+.c1.interaction--completed {
+  color: var(--bds-color-text-tertiary);
+}
+
+.c1.size--small {
+  top: 8px;
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c1.size--small.interaction--focused,
+.c1.size--small.interaction--active,
+.c1.size--small.interaction--completed {
+  top: -12px;
+  left: 16px;
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c1.size--large {
+  top: 16px;
+}
+
+.c1.size--large.interaction--focused,
+.c1.size--large.interaction--active,
+.c1.size--large.interaction--completed {
+  top: -12px;
+}
+
+.c1.size--jumbo {
+  font-size: var(--bds-sizes-size-24);
+  top: 20px;
+}
+
+.c1.size--jumbo.interaction--focused,
+.c1.size--jumbo.interaction--active,
+.c1.size--jumbo.interaction--completed {
+  font-size: var(--bds-sizes-size-20);
+  top: -12px;
+}
+
+.c1.state--error {
+  color: var(--bds-color-text-red);
+}
+
+<div
+    class="c0 backyard select--wrapper shape--rounded size--small"
+  >
+    <label
+      class="c1 input-label size--small state--default completed interaction--completed"
+      for="id"
+    />
+    <div
+      class="c2 form-control shape--rounded size--small interaction--completed"
+    >
+      <select
+        aria-label="id"
+        class="select--input className completed"
+        id="id"
+      >
+        <option
+          class="select-option"
+          selected=""
+          value="1"
+        >
+          One
+        </option>
+      </select>
+      <svg
+        aria-hidden="true"
+        class="c3 icon icon-triangle-down select--arrow item--after"
+        role="presentation"
+        style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(0, 0%, 0%, 1);"
+        viewBox="0 0 16 16"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M13.1865 4.2923c.7132 0 1.046.5626.6339 1.0577l-5.0236 6.0201c-.3486.4613-1.236.4388-1.6006 0l-5.0236-6.02c-.3962-.4614-.0793-1.0578.6339-1.0578h10.38Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+      <fieldset
+        aria-hidden="true"
+        class="c4 text-input-fieldset size--small closed completed interaction--completed"
+      >
+        <legend>
+          <span />
+        </legend>
+      </fieldset>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Select Snapshots prop: state Select default state snapshot 1`] = `
+<DocumentFragment>
+  .c3 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c3:not(.color-override) g,
+.c3:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c3:not(.color-override) g[stroke-width],
+.c3:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c3:not(.color-override) g[stroke-width] *,
+.c3:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c3.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c3.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c0 {
+  border: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  vertical-align: top;
+  padding: 0;
+  position: relative;
+}
+
+.c0 select,
+.c0 legend,
+.c0 label,
+.c0 span,
+.c0 .suffix {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 svg {
+  box-sizing: border-box;
+}
+
+.c0 select {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  padding-left: var(--bds-sizes-size-16);
+  padding-right: var(--bds-sizes-size-40);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+}
+
+.c0.item--before select {
+  padding-left: var(--bds-sizes-size-40);
+}
+
+.c0 .item--before {
+  position: absolute;
+  top: var(--bds-sizes-size-16);
+  left: var(--bds-sizes-size-16);
+}
+
+.c0 .item--after {
+  position: absolute;
+  top: var(--bds-sizes-size-16);
+  right: var(--bds-sizes-size-16);
+}
+
+.c0.size--small .item--after,
+.c0.size--small .item--before {
+  top: var(--bds-sizes-size-14);
+}
+
+.c0.size--large .item--after,
+.c0.size--large .item--before {
+  top: var(--bds-sizes-size-20);
+}
+
+.c0.size--jumbo .item--after,
+.c0.size--jumbo .item--before {
+  top: 1.375rem;
+}
+
+.c0.state--error svg.item--after path {
+  fill: var(--bds-color-icon-red);
+}
+
+.c0.has--placeholder label {
+  display: none;
+}
+
+.c0.has--placeholder legend {
+  display: none;
+}
+
+.c0.stacked label.input-label.incomplete,
+.c0.stacked label.input-label.interaction--completed,
+.c0.stacked label.input-label.interaction--active,
+.c0.stacked label.input-label.completed,
+.c0.stacked label.input-label.interaction--focused {
+  top: var(--bds-sizes-size-12);
+  left: var(--bds-sizes-size-16);
+  font-size: var(--bds-sizes-size-16);
+}
+
+.c0.stacked label.input-label.incomplete.size--small,
+.c0.stacked label.input-label.interaction--completed.size--small,
+.c0.stacked label.input-label.interaction--active.size--small,
+.c0.stacked label.input-label.completed.size--small,
+.c0.stacked label.input-label.interaction--focused.size--small {
+  top: var(--bds-sizes-size-8);
+}
+
+.c0.stacked label.input-label.incomplete.size--large,
+.c0.stacked label.input-label.interaction--completed.size--large,
+.c0.stacked label.input-label.interaction--active.size--large,
+.c0.stacked label.input-label.completed.size--large,
+.c0.stacked label.input-label.interaction--focused.size--large {
+  top: var(--bds-sizes-size-16);
+}
+
+.c0.stacked label.input-label.incomplete.size--jumbo,
+.c0.stacked label.input-label.interaction--completed.size--jumbo,
+.c0.stacked label.input-label.interaction--active.size--jumbo,
+.c0.stacked label.input-label.completed.size--jumbo,
+.c0.stacked label.input-label.interaction--focused.size--jumbo {
+  top: var(--bds-sizes-size-20);
+  font-size: var(--bds-sizes-size-20);
+}
+
+.c0.stacked .text-input-fieldset legend {
+  max-width: 0.01px;
+  padding: 0;
+}
+
+.c0.stacked select {
+  opacity: 0;
+}
+
+.c0.stacked .input-label {
+  font-weight: var(--bds-font-weight-semibold);
+  color: var(--bds-color-text-primary);
+}
+
+.c0.stacked .input-label .select--value {
+  margin-left: var(--bds-sizes-size-8);
+  color: var(--bds-color-text-primary);
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c0.stacked .input-label.state--error {
+  color: var(--bds-color-text-red);
+}
+
+.c4 {
+  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  position: absolute;
+  height: var(--bds-sizes-size-48);
+  border-style: solid;
+  border-width: var(--bds-border-width-sm);
+  border-radius: var(--bds-border-radius-lg);
+  border-color: var(--bds-color-border-default);
+  pointer-events: none;
+  box-sizing: border-box;
+}
+
+.c4 legend {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  box-sizing: border-box;
+  width: auto;
+  height: var(--bds-sizes-size-1);
+  display: block;
+  max-width: 0.01px;
+  visibility: hidden;
+  font-size: var(--bds-sizes-size-14);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c4 legend span {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c4.interaction--focused legend,
+.c4.interaction--active legend,
+.c4.interaction--completed legend,
+.c4.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-8);
+}
+
+.c4.interaction--focused legend span,
+.c4.interaction--active legend span,
+.c4.interaction--completed legend span,
+.c4.completed legend span {
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c4.interaction--focused,
+.c4.interaction--active {
+  border-color: var(--bds-color-border-interactive);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c4.interaction--completed,
+.c4.completed {
+  border-color: var(--bds-color-border-default);
+}
+
+.c4.interaction--active.completed {
+  border-color: var(--bds-color-border-interactive);
+}
+
+.c4.size--medium {
+  height: var(--bds-sizes-size-48);
+}
+
+.c4.size--medium.interaction--focused legend,
+.c4.size--medium.interaction--active legend,
+.c4.size--medium.interaction--completed legend,
+.c4.size--medium.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--medium.interaction--focused legend span,
+.c4.size--medium.interaction--active legend span,
+.c4.size--medium.interaction--completed legend span,
+.c4.size--medium.completed legend span {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c4.size--small {
+  height: var(--bds-sizes-size-40);
+}
+
+.c4.size--small.interaction--focused legend,
+.c4.size--small.interaction--active legend,
+.c4.size--small.interaction--completed legend,
+.c4.size--small.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--small.interaction--focused legend span,
+.c4.size--small.interaction--active legend span,
+.c4.size--small.interaction--completed legend span,
+.c4.size--small.completed legend span {
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c4.size--large {
+  height: var(--bds-sizes-size-56);
+}
+
+.c4.size--large.interaction--focused legend,
+.c4.size--large.interaction--active legend,
+.c4.size--large.interaction--completed legend,
+.c4.size--large.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--large.interaction--focused legend span,
+.c4.size--large.interaction--active legend span,
+.c4.size--large.interaction--completed legend span,
+.c4.size--large.completed legend span {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c4.size--jumbo {
+  height: var(--bds-sizes-size-64);
+}
+
+.c4.size--jumbo.interaction--focused legend,
+.c4.size--jumbo.interaction--active legend,
+.c4.size--jumbo.interaction--completed legend,
+.c4.size--jumbo.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--jumbo.interaction--focused legend span,
+.c4.size--jumbo.interaction--active legend span,
+.c4.size--jumbo.interaction--completed legend span,
+.c4.size--jumbo.completed legend span {
+  font-size: var(--bds-sizes-size-20);
+}
+
+.c2 {
+  position: relative;
+  height: 48px;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2:hover fieldset {
+  border-color: var(--bds-color-border-interactive);
+}
+
+.c2:focus fieldset {
+  border-color: var(--bds-color-border-interactive);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c2.state--error fieldset {
+  border-color: var(--bds-color-border-red);
+}
+
+.c2.state--error svg.icon--before path,
+.c2.state--error svg.icon--before circle {
+  fill: var(--bds-color-icon-red);
+}
+
+.c2.state--error:focus fieldset {
+  border-color: var(--bds-color-border-red);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c2 svg.icon {
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+}
+
+.c2 svg.icon path,
+.c2 svg.icon circle {
+  fill: var(--bds-color-icon-tertiary);
+}
+
+.c2 svg.icon.icon--success path,
+.c2 svg.icon.icon--success circle {
+  fill: var(--bds-color-icon-green);
+}
+
+.c2 svg.icon.icon--error path,
+.c2 svg.icon.icon--error circle {
+  fill: var(--bds-color-icon-red);
+}
+
+.c2.size--small {
+  height: var(--bds-sizes-size-40);
+}
+
+.c2.size--small svg.icon {
+  height: 14px;
+  width: 14px;
+}
+
+.c2.size--small .suffix {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c2.size--large {
+  height: var(--bds-sizes-size-56);
+}
+
+.c2.size--jumbo {
+  height: var(--bds-sizes-size-64);
+}
+
+.c2.size--jumbo svg.icon {
+  height: 20px;
+  width: 20px;
+}
+
+.c2.size--jumbo .suffix {
+  font-size: var(--bds-sizes-size-24);
+}
+
+.c2.size--jumbo input,
+.c2.size--jumbo textarea {
+  font-size: var(--bds-sizes-size-24);
+  line-height: var(--bds-sizes-size-32);
+}
+
+.c2 svg.icon--error + .suffix,
+.c2 svg.icon--success + .suffix {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c1 {
+  z-index: 1;
+  pointer-events: none;
+  top: 12px;
+  left: 16px;
+  position: absolute;
+  display: block;
+  color: var(--bds-color-text-tertiary);
+  padding: 0;
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+  font-weight: var(--bds-font-weight-regular);
+  -webkit-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+
+.c1.with-icon-before {
+  left: 40px;
+}
+
+.c1.interaction--focused,
+.c1.interaction--active,
+.c1.interaction--completed {
+  top: -12px;
+  left: 16px;
+  font-size: var(--bds-sizes-size-14);
+  color: var(--bds-color-text-interactive);
+}
+
+.c1.interaction--completed {
+  color: var(--bds-color-text-tertiary);
+}
+
+.c1.size--small {
+  top: 8px;
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c1.size--small.interaction--focused,
+.c1.size--small.interaction--active,
+.c1.size--small.interaction--completed {
+  top: -12px;
+  left: 16px;
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c1.size--large {
+  top: 16px;
+}
+
+.c1.size--large.interaction--focused,
+.c1.size--large.interaction--active,
+.c1.size--large.interaction--completed {
+  top: -12px;
+}
+
+.c1.size--jumbo {
+  font-size: var(--bds-sizes-size-24);
+  top: 20px;
+}
+
+.c1.size--jumbo.interaction--focused,
+.c1.size--jumbo.interaction--active,
+.c1.size--jumbo.interaction--completed {
+  font-size: var(--bds-sizes-size-20);
+  top: -12px;
+}
+
+.c1.state--error {
+  color: var(--bds-color-text-red);
+}
+
+<div
+    class="c0 backyard select--wrapper shape--rounded size--medium"
+  >
+    <label
+      class="c1 input-label size--medium state--default completed interaction--completed"
+      for="id"
+    />
+    <div
+      class="c2 form-control shape--rounded size--medium interaction--completed"
+    >
+      <select
+        aria-label="id"
+        class="select--input className completed"
+        id="id"
+      >
+        <option
+          class="select-option"
+          selected=""
+          value="1"
+        >
+          One
+        </option>
+      </select>
+      <svg
+        aria-hidden="true"
+        class="c3 icon icon-triangle-down select--arrow item--after"
+        role="presentation"
+        style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(0, 0%, 0%, 1);"
+        viewBox="0 0 16 16"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M13.1865 4.2923c.7132 0 1.046.5626.6339 1.0577l-5.0236 6.0201c-.3486.4613-1.236.4388-1.6006 0l-5.0236-6.02c-.3962-.4614-.0793-1.0578.6339-1.0578h10.38Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+      <fieldset
+        aria-hidden="true"
+        class="c4 text-input-fieldset size--medium closed completed interaction--completed"
+      >
+        <legend>
+          <span />
+        </legend>
+      </fieldset>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Select Snapshots prop: state Select error state snapshot 1`] = `
+<DocumentFragment>
+  .c3 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c3:not(.color-override) g,
+.c3:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c3:not(.color-override) g[stroke-width],
+.c3:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c3:not(.color-override) g[stroke-width] *,
+.c3:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c3.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c3.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c0 {
+  border: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  vertical-align: top;
+  padding: 0;
+  position: relative;
+}
+
+.c0 select,
+.c0 legend,
+.c0 label,
+.c0 span,
+.c0 .suffix {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 svg {
+  box-sizing: border-box;
+}
+
+.c0 select {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  padding-left: var(--bds-sizes-size-16);
+  padding-right: var(--bds-sizes-size-40);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+}
+
+.c0.item--before select {
+  padding-left: var(--bds-sizes-size-40);
+}
+
+.c0 .item--before {
+  position: absolute;
+  top: var(--bds-sizes-size-16);
+  left: var(--bds-sizes-size-16);
+}
+
+.c0 .item--after {
+  position: absolute;
+  top: var(--bds-sizes-size-16);
+  right: var(--bds-sizes-size-16);
+}
+
+.c0.size--small .item--after,
+.c0.size--small .item--before {
+  top: var(--bds-sizes-size-14);
+}
+
+.c0.size--large .item--after,
+.c0.size--large .item--before {
+  top: var(--bds-sizes-size-20);
+}
+
+.c0.size--jumbo .item--after,
+.c0.size--jumbo .item--before {
+  top: 1.375rem;
+}
+
+.c0.state--error svg.item--after path {
+  fill: var(--bds-color-icon-red);
+}
+
+.c0.has--placeholder label {
+  display: none;
+}
+
+.c0.has--placeholder legend {
+  display: none;
+}
+
+.c0.stacked label.input-label.incomplete,
+.c0.stacked label.input-label.interaction--completed,
+.c0.stacked label.input-label.interaction--active,
+.c0.stacked label.input-label.completed,
+.c0.stacked label.input-label.interaction--focused {
+  top: var(--bds-sizes-size-12);
+  left: var(--bds-sizes-size-16);
+  font-size: var(--bds-sizes-size-16);
+}
+
+.c0.stacked label.input-label.incomplete.size--small,
+.c0.stacked label.input-label.interaction--completed.size--small,
+.c0.stacked label.input-label.interaction--active.size--small,
+.c0.stacked label.input-label.completed.size--small,
+.c0.stacked label.input-label.interaction--focused.size--small {
+  top: var(--bds-sizes-size-8);
+}
+
+.c0.stacked label.input-label.incomplete.size--large,
+.c0.stacked label.input-label.interaction--completed.size--large,
+.c0.stacked label.input-label.interaction--active.size--large,
+.c0.stacked label.input-label.completed.size--large,
+.c0.stacked label.input-label.interaction--focused.size--large {
+  top: var(--bds-sizes-size-16);
+}
+
+.c0.stacked label.input-label.incomplete.size--jumbo,
+.c0.stacked label.input-label.interaction--completed.size--jumbo,
+.c0.stacked label.input-label.interaction--active.size--jumbo,
+.c0.stacked label.input-label.completed.size--jumbo,
+.c0.stacked label.input-label.interaction--focused.size--jumbo {
+  top: var(--bds-sizes-size-20);
+  font-size: var(--bds-sizes-size-20);
+}
+
+.c0.stacked .text-input-fieldset legend {
+  max-width: 0.01px;
+  padding: 0;
+}
+
+.c0.stacked select {
+  opacity: 0;
+}
+
+.c0.stacked .input-label {
+  font-weight: var(--bds-font-weight-semibold);
+  color: var(--bds-color-text-primary);
+}
+
+.c0.stacked .input-label .select--value {
+  margin-left: var(--bds-sizes-size-8);
+  color: var(--bds-color-text-primary);
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c0.stacked .input-label.state--error {
+  color: var(--bds-color-text-red);
+}
+
+.c4 {
+  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  position: absolute;
+  height: var(--bds-sizes-size-48);
+  border-style: solid;
+  border-width: var(--bds-border-width-sm);
+  border-radius: var(--bds-border-radius-lg);
+  border-color: var(--bds-color-border-default);
+  pointer-events: none;
+  box-sizing: border-box;
+}
+
+.c4 legend {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  box-sizing: border-box;
+  width: auto;
+  height: var(--bds-sizes-size-1);
+  display: block;
+  max-width: 0.01px;
+  visibility: hidden;
+  font-size: var(--bds-sizes-size-14);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c4 legend span {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c4.interaction--focused legend,
+.c4.interaction--active legend,
+.c4.interaction--completed legend,
+.c4.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-8);
+}
+
+.c4.interaction--focused legend span,
+.c4.interaction--active legend span,
+.c4.interaction--completed legend span,
+.c4.completed legend span {
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c4.interaction--focused,
+.c4.interaction--active {
+  border-color: var(--bds-color-border-interactive);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c4.interaction--completed,
+.c4.completed {
+  border-color: var(--bds-color-border-default);
+}
+
+.c4.interaction--active.completed {
+  border-color: var(--bds-color-border-interactive);
+}
+
+.c4.size--medium {
+  height: var(--bds-sizes-size-48);
+}
+
+.c4.size--medium.interaction--focused legend,
+.c4.size--medium.interaction--active legend,
+.c4.size--medium.interaction--completed legend,
+.c4.size--medium.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--medium.interaction--focused legend span,
+.c4.size--medium.interaction--active legend span,
+.c4.size--medium.interaction--completed legend span,
+.c4.size--medium.completed legend span {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c4.size--small {
+  height: var(--bds-sizes-size-40);
+}
+
+.c4.size--small.interaction--focused legend,
+.c4.size--small.interaction--active legend,
+.c4.size--small.interaction--completed legend,
+.c4.size--small.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--small.interaction--focused legend span,
+.c4.size--small.interaction--active legend span,
+.c4.size--small.interaction--completed legend span,
+.c4.size--small.completed legend span {
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c4.size--large {
+  height: var(--bds-sizes-size-56);
+}
+
+.c4.size--large.interaction--focused legend,
+.c4.size--large.interaction--active legend,
+.c4.size--large.interaction--completed legend,
+.c4.size--large.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--large.interaction--focused legend span,
+.c4.size--large.interaction--active legend span,
+.c4.size--large.interaction--completed legend span,
+.c4.size--large.completed legend span {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c4.size--jumbo {
+  height: var(--bds-sizes-size-64);
+}
+
+.c4.size--jumbo.interaction--focused legend,
+.c4.size--jumbo.interaction--active legend,
+.c4.size--jumbo.interaction--completed legend,
+.c4.size--jumbo.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--jumbo.interaction--focused legend span,
+.c4.size--jumbo.interaction--active legend span,
+.c4.size--jumbo.interaction--completed legend span,
+.c4.size--jumbo.completed legend span {
+  font-size: var(--bds-sizes-size-20);
+}
+
+.c2 {
+  position: relative;
+  height: 48px;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2:hover fieldset {
+  border-color: var(--bds-color-border-interactive);
+}
+
+.c2:focus fieldset {
+  border-color: var(--bds-color-border-interactive);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c2.state--error fieldset {
+  border-color: var(--bds-color-border-red);
+}
+
+.c2.state--error svg.icon--before path,
+.c2.state--error svg.icon--before circle {
+  fill: var(--bds-color-icon-red);
+}
+
+.c2.state--error:focus fieldset {
+  border-color: var(--bds-color-border-red);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c2 svg.icon {
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+}
+
+.c2 svg.icon path,
+.c2 svg.icon circle {
+  fill: var(--bds-color-icon-tertiary);
+}
+
+.c2 svg.icon.icon--success path,
+.c2 svg.icon.icon--success circle {
+  fill: var(--bds-color-icon-green);
+}
+
+.c2 svg.icon.icon--error path,
+.c2 svg.icon.icon--error circle {
+  fill: var(--bds-color-icon-red);
+}
+
+.c2.size--small {
+  height: var(--bds-sizes-size-40);
+}
+
+.c2.size--small svg.icon {
+  height: 14px;
+  width: 14px;
+}
+
+.c2.size--small .suffix {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c2.size--large {
+  height: var(--bds-sizes-size-56);
+}
+
+.c2.size--jumbo {
+  height: var(--bds-sizes-size-64);
+}
+
+.c2.size--jumbo svg.icon {
+  height: 20px;
+  width: 20px;
+}
+
+.c2.size--jumbo .suffix {
+  font-size: var(--bds-sizes-size-24);
+}
+
+.c2.size--jumbo input,
+.c2.size--jumbo textarea {
+  font-size: var(--bds-sizes-size-24);
+  line-height: var(--bds-sizes-size-32);
+}
+
+.c2 svg.icon--error + .suffix,
+.c2 svg.icon--success + .suffix {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c1 {
+  z-index: 1;
+  pointer-events: none;
+  top: 12px;
+  left: 16px;
+  position: absolute;
+  display: block;
+  color: var(--bds-color-text-tertiary);
+  padding: 0;
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+  font-weight: var(--bds-font-weight-regular);
+  -webkit-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+
+.c1.with-icon-before {
+  left: 40px;
+}
+
+.c1.interaction--focused,
+.c1.interaction--active,
+.c1.interaction--completed {
+  top: -12px;
+  left: 16px;
+  font-size: var(--bds-sizes-size-14);
+  color: var(--bds-color-text-interactive);
+}
+
+.c1.interaction--completed {
+  color: var(--bds-color-text-tertiary);
+}
+
+.c1.size--small {
+  top: 8px;
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c1.size--small.interaction--focused,
+.c1.size--small.interaction--active,
+.c1.size--small.interaction--completed {
+  top: -12px;
+  left: 16px;
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c1.size--large {
+  top: 16px;
+}
+
+.c1.size--large.interaction--focused,
+.c1.size--large.interaction--active,
+.c1.size--large.interaction--completed {
+  top: -12px;
+}
+
+.c1.size--jumbo {
+  font-size: var(--bds-sizes-size-24);
+  top: 20px;
+}
+
+.c1.size--jumbo.interaction--focused,
+.c1.size--jumbo.interaction--active,
+.c1.size--jumbo.interaction--completed {
+  font-size: var(--bds-sizes-size-20);
+  top: -12px;
+}
+
+.c1.state--error {
+  color: var(--bds-color-text-red);
+}
+
+<div
+    class="c0 backyard select--wrapper shape--rounded size--medium state--error"
+  >
+    <label
+      class="c1 input-label size--medium state--error completed interaction--completed"
+      for="id"
+    />
+    <div
+      class="c2 form-control shape--rounded size--medium state--error interaction--completed"
+    >
+      <select
+        aria-invalid="true"
+        aria-label="id"
+        class="select--input className completed"
+        data-invalid="true"
+        id="id"
+      >
+        <option
+          class="select-option"
+          selected=""
+          value="1"
+        >
+          One
+        </option>
+      </select>
+      <svg
+        aria-hidden="true"
+        class="c3 icon icon-triangle-down select--arrow item--after"
+        role="presentation"
+        style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(0, 0%, 0%, 1);"
+        viewBox="0 0 16 16"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M13.1865 4.2923c.7132 0 1.046.5626.6339 1.0577l-5.0236 6.0201c-.3486.4613-1.236.4388-1.6006 0l-5.0236-6.02c-.3962-.4614-.0793-1.0578.6339-1.0578h10.38Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+      <fieldset
+        aria-hidden="true"
+        class="c4 text-input-fieldset size--medium closed completed interaction--completed state--error"
+      >
+        <legend>
+          <span />
+        </legend>
+      </fieldset>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Select Snapshots prop: state Select success state snapshot 1`] = `
+<DocumentFragment>
+  .c3 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c3:not(.color-override) g,
+.c3:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c3:not(.color-override) g[stroke-width],
+.c3:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c3:not(.color-override) g[stroke-width] *,
+.c3:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c3.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c3.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c0 {
+  border: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  vertical-align: top;
+  padding: 0;
+  position: relative;
+}
+
+.c0 select,
+.c0 legend,
+.c0 label,
+.c0 span,
+.c0 .suffix {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 svg {
+  box-sizing: border-box;
+}
+
+.c0 select {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  padding-left: var(--bds-sizes-size-16);
+  padding-right: var(--bds-sizes-size-40);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+}
+
+.c0.item--before select {
+  padding-left: var(--bds-sizes-size-40);
+}
+
+.c0 .item--before {
+  position: absolute;
+  top: var(--bds-sizes-size-16);
+  left: var(--bds-sizes-size-16);
+}
+
+.c0 .item--after {
+  position: absolute;
+  top: var(--bds-sizes-size-16);
+  right: var(--bds-sizes-size-16);
+}
+
+.c0.size--small .item--after,
+.c0.size--small .item--before {
+  top: var(--bds-sizes-size-14);
+}
+
+.c0.size--large .item--after,
+.c0.size--large .item--before {
+  top: var(--bds-sizes-size-20);
+}
+
+.c0.size--jumbo .item--after,
+.c0.size--jumbo .item--before {
+  top: 1.375rem;
+}
+
+.c0.state--error svg.item--after path {
+  fill: var(--bds-color-icon-red);
+}
+
+.c0.has--placeholder label {
+  display: none;
+}
+
+.c0.has--placeholder legend {
+  display: none;
+}
+
+.c0.stacked label.input-label.incomplete,
+.c0.stacked label.input-label.interaction--completed,
+.c0.stacked label.input-label.interaction--active,
+.c0.stacked label.input-label.completed,
+.c0.stacked label.input-label.interaction--focused {
+  top: var(--bds-sizes-size-12);
+  left: var(--bds-sizes-size-16);
+  font-size: var(--bds-sizes-size-16);
+}
+
+.c0.stacked label.input-label.incomplete.size--small,
+.c0.stacked label.input-label.interaction--completed.size--small,
+.c0.stacked label.input-label.interaction--active.size--small,
+.c0.stacked label.input-label.completed.size--small,
+.c0.stacked label.input-label.interaction--focused.size--small {
+  top: var(--bds-sizes-size-8);
+}
+
+.c0.stacked label.input-label.incomplete.size--large,
+.c0.stacked label.input-label.interaction--completed.size--large,
+.c0.stacked label.input-label.interaction--active.size--large,
+.c0.stacked label.input-label.completed.size--large,
+.c0.stacked label.input-label.interaction--focused.size--large {
+  top: var(--bds-sizes-size-16);
+}
+
+.c0.stacked label.input-label.incomplete.size--jumbo,
+.c0.stacked label.input-label.interaction--completed.size--jumbo,
+.c0.stacked label.input-label.interaction--active.size--jumbo,
+.c0.stacked label.input-label.completed.size--jumbo,
+.c0.stacked label.input-label.interaction--focused.size--jumbo {
+  top: var(--bds-sizes-size-20);
+  font-size: var(--bds-sizes-size-20);
+}
+
+.c0.stacked .text-input-fieldset legend {
+  max-width: 0.01px;
+  padding: 0;
+}
+
+.c0.stacked select {
+  opacity: 0;
+}
+
+.c0.stacked .input-label {
+  font-weight: var(--bds-font-weight-semibold);
+  color: var(--bds-color-text-primary);
+}
+
+.c0.stacked .input-label .select--value {
+  margin-left: var(--bds-sizes-size-8);
+  color: var(--bds-color-text-primary);
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c0.stacked .input-label.state--error {
+  color: var(--bds-color-text-red);
+}
+
+.c4 {
+  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  position: absolute;
+  height: var(--bds-sizes-size-48);
+  border-style: solid;
+  border-width: var(--bds-border-width-sm);
+  border-radius: var(--bds-border-radius-lg);
+  border-color: var(--bds-color-border-default);
+  pointer-events: none;
+  box-sizing: border-box;
+}
+
+.c4 legend {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  box-sizing: border-box;
+  width: auto;
+  height: var(--bds-sizes-size-1);
+  display: block;
+  max-width: 0.01px;
+  visibility: hidden;
+  font-size: var(--bds-sizes-size-14);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c4 legend span {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c4.interaction--focused legend,
+.c4.interaction--active legend,
+.c4.interaction--completed legend,
+.c4.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-8);
+}
+
+.c4.interaction--focused legend span,
+.c4.interaction--active legend span,
+.c4.interaction--completed legend span,
+.c4.completed legend span {
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c4.interaction--focused,
+.c4.interaction--active {
+  border-color: var(--bds-color-border-interactive);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c4.interaction--completed,
+.c4.completed {
+  border-color: var(--bds-color-border-default);
+}
+
+.c4.interaction--active.completed {
+  border-color: var(--bds-color-border-interactive);
+}
+
+.c4.size--medium {
+  height: var(--bds-sizes-size-48);
+}
+
+.c4.size--medium.interaction--focused legend,
+.c4.size--medium.interaction--active legend,
+.c4.size--medium.interaction--completed legend,
+.c4.size--medium.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--medium.interaction--focused legend span,
+.c4.size--medium.interaction--active legend span,
+.c4.size--medium.interaction--completed legend span,
+.c4.size--medium.completed legend span {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c4.size--small {
+  height: var(--bds-sizes-size-40);
+}
+
+.c4.size--small.interaction--focused legend,
+.c4.size--small.interaction--active legend,
+.c4.size--small.interaction--completed legend,
+.c4.size--small.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--small.interaction--focused legend span,
+.c4.size--small.interaction--active legend span,
+.c4.size--small.interaction--completed legend span,
+.c4.size--small.completed legend span {
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c4.size--large {
+  height: var(--bds-sizes-size-56);
+}
+
+.c4.size--large.interaction--focused legend,
+.c4.size--large.interaction--active legend,
+.c4.size--large.interaction--completed legend,
+.c4.size--large.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--large.interaction--focused legend span,
+.c4.size--large.interaction--active legend span,
+.c4.size--large.interaction--completed legend span,
+.c4.size--large.completed legend span {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c4.size--jumbo {
+  height: var(--bds-sizes-size-64);
+}
+
+.c4.size--jumbo.interaction--focused legend,
+.c4.size--jumbo.interaction--active legend,
+.c4.size--jumbo.interaction--completed legend,
+.c4.size--jumbo.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--jumbo.interaction--focused legend span,
+.c4.size--jumbo.interaction--active legend span,
+.c4.size--jumbo.interaction--completed legend span,
+.c4.size--jumbo.completed legend span {
+  font-size: var(--bds-sizes-size-20);
+}
+
+.c2 {
+  position: relative;
+  height: 48px;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2:hover fieldset {
+  border-color: var(--bds-color-border-interactive);
+}
+
+.c2:focus fieldset {
+  border-color: var(--bds-color-border-interactive);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c2.state--error fieldset {
+  border-color: var(--bds-color-border-red);
+}
+
+.c2.state--error svg.icon--before path,
+.c2.state--error svg.icon--before circle {
+  fill: var(--bds-color-icon-red);
+}
+
+.c2.state--error:focus fieldset {
+  border-color: var(--bds-color-border-red);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c2 svg.icon {
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+}
+
+.c2 svg.icon path,
+.c2 svg.icon circle {
+  fill: var(--bds-color-icon-tertiary);
+}
+
+.c2 svg.icon.icon--success path,
+.c2 svg.icon.icon--success circle {
+  fill: var(--bds-color-icon-green);
+}
+
+.c2 svg.icon.icon--error path,
+.c2 svg.icon.icon--error circle {
+  fill: var(--bds-color-icon-red);
+}
+
+.c2.size--small {
+  height: var(--bds-sizes-size-40);
+}
+
+.c2.size--small svg.icon {
+  height: 14px;
+  width: 14px;
+}
+
+.c2.size--small .suffix {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c2.size--large {
+  height: var(--bds-sizes-size-56);
+}
+
+.c2.size--jumbo {
+  height: var(--bds-sizes-size-64);
+}
+
+.c2.size--jumbo svg.icon {
+  height: 20px;
+  width: 20px;
+}
+
+.c2.size--jumbo .suffix {
+  font-size: var(--bds-sizes-size-24);
+}
+
+.c2.size--jumbo input,
+.c2.size--jumbo textarea {
+  font-size: var(--bds-sizes-size-24);
+  line-height: var(--bds-sizes-size-32);
+}
+
+.c2 svg.icon--error + .suffix,
+.c2 svg.icon--success + .suffix {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c1 {
+  z-index: 1;
+  pointer-events: none;
+  top: 12px;
+  left: 16px;
+  position: absolute;
+  display: block;
+  color: var(--bds-color-text-tertiary);
+  padding: 0;
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+  font-weight: var(--bds-font-weight-regular);
+  -webkit-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+
+.c1.with-icon-before {
+  left: 40px;
+}
+
+.c1.interaction--focused,
+.c1.interaction--active,
+.c1.interaction--completed {
+  top: -12px;
+  left: 16px;
+  font-size: var(--bds-sizes-size-14);
+  color: var(--bds-color-text-interactive);
+}
+
+.c1.interaction--completed {
+  color: var(--bds-color-text-tertiary);
+}
+
+.c1.size--small {
+  top: 8px;
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c1.size--small.interaction--focused,
+.c1.size--small.interaction--active,
+.c1.size--small.interaction--completed {
+  top: -12px;
+  left: 16px;
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c1.size--large {
+  top: 16px;
+}
+
+.c1.size--large.interaction--focused,
+.c1.size--large.interaction--active,
+.c1.size--large.interaction--completed {
+  top: -12px;
+}
+
+.c1.size--jumbo {
+  font-size: var(--bds-sizes-size-24);
+  top: 20px;
+}
+
+.c1.size--jumbo.interaction--focused,
+.c1.size--jumbo.interaction--active,
+.c1.size--jumbo.interaction--completed {
+  font-size: var(--bds-sizes-size-20);
+  top: -12px;
+}
+
+.c1.state--error {
+  color: var(--bds-color-text-red);
+}
+
+<div
+    class="c0 backyard select--wrapper shape--rounded size--medium state--success"
+  >
+    <label
+      class="c1 input-label size--medium state--success completed interaction--completed"
+      for="id"
+    />
+    <div
+      class="c2 form-control shape--rounded size--medium state--success interaction--completed"
+    >
+      <select
+        aria-label="id"
+        class="select--input className completed"
+        id="id"
+      >
+        <option
+          class="select-option"
+          selected=""
+          value="1"
+        >
+          One
+        </option>
+      </select>
+      <svg
+        aria-hidden="true"
+        class="c3 icon icon-triangle-down select--arrow item--after"
+        role="presentation"
+        style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(0, 0%, 0%, 1);"
+        viewBox="0 0 16 16"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M13.1865 4.2923c.7132 0 1.046.5626.6339 1.0577l-5.0236 6.0201c-.3486.4613-1.236.4388-1.6006 0l-5.0236-6.02c-.3962-.4614-.0793-1.0578.6339-1.0578h10.38Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+      <fieldset
+        aria-hidden="true"
+        class="c4 text-input-fieldset size--medium closed completed interaction--completed state--success"
+      >
+        <legend>
+          <span />
+        </legend>
+      </fieldset>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Select Snapshots prop: variant Select filled variant snapshot 1`] = `
+<DocumentFragment>
+  .c3 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c3:not(.color-override) g,
+.c3:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c3:not(.color-override) g[stroke-width],
+.c3:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c3:not(.color-override) g[stroke-width] *,
+.c3:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c3.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c3.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c0 {
+  border: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  vertical-align: top;
+  padding: 0;
+  position: relative;
+}
+
+.c0 select,
+.c0 legend,
+.c0 label,
+.c0 span,
+.c0 .suffix {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 svg {
+  box-sizing: border-box;
+}
+
+.c0 select {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  padding-left: var(--bds-sizes-size-16);
+  padding-right: var(--bds-sizes-size-40);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+}
+
+.c0.item--before select {
+  padding-left: var(--bds-sizes-size-40);
+}
+
+.c0 .item--before {
+  position: absolute;
+  top: var(--bds-sizes-size-16);
+  left: var(--bds-sizes-size-16);
+}
+
+.c0 .item--after {
+  position: absolute;
+  top: var(--bds-sizes-size-16);
+  right: var(--bds-sizes-size-16);
+}
+
+.c0.size--small .item--after,
+.c0.size--small .item--before {
+  top: var(--bds-sizes-size-14);
+}
+
+.c0.size--large .item--after,
+.c0.size--large .item--before {
+  top: var(--bds-sizes-size-20);
+}
+
+.c0.size--jumbo .item--after,
+.c0.size--jumbo .item--before {
+  top: 1.375rem;
+}
+
+.c0.state--error svg.item--after path {
+  fill: var(--bds-color-icon-red);
+}
+
+.c0.has--placeholder label {
+  display: none;
+}
+
+.c0.has--placeholder legend {
+  display: none;
+}
+
+.c0.stacked label.input-label.incomplete,
+.c0.stacked label.input-label.interaction--completed,
+.c0.stacked label.input-label.interaction--active,
+.c0.stacked label.input-label.completed,
+.c0.stacked label.input-label.interaction--focused {
+  top: var(--bds-sizes-size-12);
+  left: var(--bds-sizes-size-16);
+  font-size: var(--bds-sizes-size-16);
+}
+
+.c0.stacked label.input-label.incomplete.size--small,
+.c0.stacked label.input-label.interaction--completed.size--small,
+.c0.stacked label.input-label.interaction--active.size--small,
+.c0.stacked label.input-label.completed.size--small,
+.c0.stacked label.input-label.interaction--focused.size--small {
+  top: var(--bds-sizes-size-8);
+}
+
+.c0.stacked label.input-label.incomplete.size--large,
+.c0.stacked label.input-label.interaction--completed.size--large,
+.c0.stacked label.input-label.interaction--active.size--large,
+.c0.stacked label.input-label.completed.size--large,
+.c0.stacked label.input-label.interaction--focused.size--large {
+  top: var(--bds-sizes-size-16);
+}
+
+.c0.stacked label.input-label.incomplete.size--jumbo,
+.c0.stacked label.input-label.interaction--completed.size--jumbo,
+.c0.stacked label.input-label.interaction--active.size--jumbo,
+.c0.stacked label.input-label.completed.size--jumbo,
+.c0.stacked label.input-label.interaction--focused.size--jumbo {
+  top: var(--bds-sizes-size-20);
+  font-size: var(--bds-sizes-size-20);
+}
+
+.c0.stacked .text-input-fieldset legend {
+  max-width: 0.01px;
+  padding: 0;
+}
+
+.c0.stacked select {
+  opacity: 0;
+}
+
+.c0.stacked .input-label {
+  font-weight: var(--bds-font-weight-semibold);
+  color: var(--bds-color-text-primary);
+}
+
+.c0.stacked .input-label .select--value {
+  margin-left: var(--bds-sizes-size-8);
+  color: var(--bds-color-text-primary);
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c0.stacked .input-label.state--error {
+  color: var(--bds-color-text-red);
+}
+
+.c4 {
+  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  position: absolute;
+  height: var(--bds-sizes-size-48);
+  border-style: solid;
+  border-width: var(--bds-border-width-sm);
+  border-radius: var(--bds-border-radius-lg);
+  border-color: var(--bds-color-border-default);
+  pointer-events: none;
+  box-sizing: border-box;
+}
+
+.c4 legend {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  box-sizing: border-box;
+  width: auto;
+  height: var(--bds-sizes-size-1);
+  display: block;
+  max-width: 0.01px;
+  visibility: hidden;
+  font-size: var(--bds-sizes-size-14);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c4 legend span {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c4.interaction--focused legend,
+.c4.interaction--active legend,
+.c4.interaction--completed legend,
+.c4.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-8);
+}
+
+.c4.interaction--focused legend span,
+.c4.interaction--active legend span,
+.c4.interaction--completed legend span,
+.c4.completed legend span {
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c4.interaction--focused,
+.c4.interaction--active {
+  border-color: var(--bds-color-border-interactive);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c4.interaction--completed,
+.c4.completed {
+  border-color: var(--bds-color-border-default);
+}
+
+.c4.interaction--active.completed {
+  border-color: var(--bds-color-border-interactive);
+}
+
+.c4.size--medium {
+  height: var(--bds-sizes-size-48);
+}
+
+.c4.size--medium.interaction--focused legend,
+.c4.size--medium.interaction--active legend,
+.c4.size--medium.interaction--completed legend,
+.c4.size--medium.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--medium.interaction--focused legend span,
+.c4.size--medium.interaction--active legend span,
+.c4.size--medium.interaction--completed legend span,
+.c4.size--medium.completed legend span {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c4.size--small {
+  height: var(--bds-sizes-size-40);
+}
+
+.c4.size--small.interaction--focused legend,
+.c4.size--small.interaction--active legend,
+.c4.size--small.interaction--completed legend,
+.c4.size--small.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--small.interaction--focused legend span,
+.c4.size--small.interaction--active legend span,
+.c4.size--small.interaction--completed legend span,
+.c4.size--small.completed legend span {
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c4.size--large {
+  height: var(--bds-sizes-size-56);
+}
+
+.c4.size--large.interaction--focused legend,
+.c4.size--large.interaction--active legend,
+.c4.size--large.interaction--completed legend,
+.c4.size--large.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--large.interaction--focused legend span,
+.c4.size--large.interaction--active legend span,
+.c4.size--large.interaction--completed legend span,
+.c4.size--large.completed legend span {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c4.size--jumbo {
+  height: var(--bds-sizes-size-64);
+}
+
+.c4.size--jumbo.interaction--focused legend,
+.c4.size--jumbo.interaction--active legend,
+.c4.size--jumbo.interaction--completed legend,
+.c4.size--jumbo.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--jumbo.interaction--focused legend span,
+.c4.size--jumbo.interaction--active legend span,
+.c4.size--jumbo.interaction--completed legend span,
+.c4.size--jumbo.completed legend span {
+  font-size: var(--bds-sizes-size-20);
+}
+
+.c2 {
+  position: relative;
+  height: 48px;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2:hover fieldset {
+  border-color: var(--bds-color-border-interactive);
+}
+
+.c2:focus fieldset {
+  border-color: var(--bds-color-border-interactive);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c2.state--error fieldset {
+  border-color: var(--bds-color-border-red);
+}
+
+.c2.state--error svg.icon--before path,
+.c2.state--error svg.icon--before circle {
+  fill: var(--bds-color-icon-red);
+}
+
+.c2.state--error:focus fieldset {
+  border-color: var(--bds-color-border-red);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c2 svg.icon {
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+}
+
+.c2 svg.icon path,
+.c2 svg.icon circle {
+  fill: var(--bds-color-icon-tertiary);
+}
+
+.c2 svg.icon.icon--success path,
+.c2 svg.icon.icon--success circle {
+  fill: var(--bds-color-icon-green);
+}
+
+.c2 svg.icon.icon--error path,
+.c2 svg.icon.icon--error circle {
+  fill: var(--bds-color-icon-red);
+}
+
+.c2.size--small {
+  height: var(--bds-sizes-size-40);
+}
+
+.c2.size--small svg.icon {
+  height: 14px;
+  width: 14px;
+}
+
+.c2.size--small .suffix {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c2.size--large {
+  height: var(--bds-sizes-size-56);
+}
+
+.c2.size--jumbo {
+  height: var(--bds-sizes-size-64);
+}
+
+.c2.size--jumbo svg.icon {
+  height: 20px;
+  width: 20px;
+}
+
+.c2.size--jumbo .suffix {
+  font-size: var(--bds-sizes-size-24);
+}
+
+.c2.size--jumbo input,
+.c2.size--jumbo textarea {
+  font-size: var(--bds-sizes-size-24);
+  line-height: var(--bds-sizes-size-32);
+}
+
+.c2 svg.icon--error + .suffix,
+.c2 svg.icon--success + .suffix {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c1 {
+  z-index: 1;
+  pointer-events: none;
+  top: 12px;
+  left: 16px;
+  position: absolute;
+  display: block;
+  color: var(--bds-color-text-tertiary);
+  padding: 0;
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+  font-weight: var(--bds-font-weight-regular);
+  -webkit-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+
+.c1.with-icon-before {
+  left: 40px;
+}
+
+.c1.interaction--focused,
+.c1.interaction--active,
+.c1.interaction--completed {
+  top: -12px;
+  left: 16px;
+  font-size: var(--bds-sizes-size-14);
+  color: var(--bds-color-text-interactive);
+}
+
+.c1.interaction--completed {
+  color: var(--bds-color-text-tertiary);
+}
+
+.c1.size--small {
+  top: 8px;
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c1.size--small.interaction--focused,
+.c1.size--small.interaction--active,
+.c1.size--small.interaction--completed {
+  top: -12px;
+  left: 16px;
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c1.size--large {
+  top: 16px;
+}
+
+.c1.size--large.interaction--focused,
+.c1.size--large.interaction--active,
+.c1.size--large.interaction--completed {
+  top: -12px;
+}
+
+.c1.size--jumbo {
+  font-size: var(--bds-sizes-size-24);
+  top: 20px;
+}
+
+.c1.size--jumbo.interaction--focused,
+.c1.size--jumbo.interaction--active,
+.c1.size--jumbo.interaction--completed {
+  font-size: var(--bds-sizes-size-20);
+  top: -12px;
+}
+
+.c1.state--error {
+  color: var(--bds-color-text-red);
+}
+
+<div
+    class="c0 backyard select--wrapper shape--rounded size--medium"
+  >
+    <label
+      class="c1 input-label size--medium state--default completed interaction--completed"
+      for="id"
+    />
+    <div
+      class="c2 form-control shape--rounded size--medium interaction--completed"
+    >
+      <select
+        aria-label="id"
+        class="select--input className completed"
+        id="id"
+        variant="filled"
+      >
+        <option
+          class="select-option"
+          selected=""
+          value="1"
+        >
+          One
+        </option>
+      </select>
+      <svg
+        aria-hidden="true"
+        class="c3 icon icon-triangle-down select--arrow item--after"
+        role="presentation"
+        style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(0, 0%, 0%, 1);"
+        viewBox="0 0 16 16"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M13.1865 4.2923c.7132 0 1.046.5626.6339 1.0577l-5.0236 6.0201c-.3486.4613-1.236.4388-1.6006 0l-5.0236-6.02c-.3962-.4614-.0793-1.0578.6339-1.0578h10.38Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+      <fieldset
+        aria-hidden="true"
+        class="c4 text-input-fieldset size--medium closed completed interaction--completed"
+      >
+        <legend>
+          <span />
+        </legend>
+      </fieldset>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Select Snapshots prop: variant Select outlined variant snapshot 1`] = `
+<DocumentFragment>
+  .c3 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c3:not(.color-override) g,
+.c3:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c3:not(.color-override) g[stroke-width],
+.c3:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c3:not(.color-override) g[stroke-width] *,
+.c3:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c3.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c3.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c0 {
+  border: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  vertical-align: top;
+  padding: 0;
+  position: relative;
+}
+
+.c0 select,
+.c0 legend,
+.c0 label,
+.c0 span,
+.c0 .suffix {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 svg {
+  box-sizing: border-box;
+}
+
+.c0 select {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  padding-left: var(--bds-sizes-size-16);
+  padding-right: var(--bds-sizes-size-40);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+}
+
+.c0.item--before select {
+  padding-left: var(--bds-sizes-size-40);
+}
+
+.c0 .item--before {
+  position: absolute;
+  top: var(--bds-sizes-size-16);
+  left: var(--bds-sizes-size-16);
+}
+
+.c0 .item--after {
+  position: absolute;
+  top: var(--bds-sizes-size-16);
+  right: var(--bds-sizes-size-16);
+}
+
+.c0.size--small .item--after,
+.c0.size--small .item--before {
+  top: var(--bds-sizes-size-14);
+}
+
+.c0.size--large .item--after,
+.c0.size--large .item--before {
+  top: var(--bds-sizes-size-20);
+}
+
+.c0.size--jumbo .item--after,
+.c0.size--jumbo .item--before {
+  top: 1.375rem;
+}
+
+.c0.state--error svg.item--after path {
+  fill: var(--bds-color-icon-red);
+}
+
+.c0.has--placeholder label {
+  display: none;
+}
+
+.c0.has--placeholder legend {
+  display: none;
+}
+
+.c0.stacked label.input-label.incomplete,
+.c0.stacked label.input-label.interaction--completed,
+.c0.stacked label.input-label.interaction--active,
+.c0.stacked label.input-label.completed,
+.c0.stacked label.input-label.interaction--focused {
+  top: var(--bds-sizes-size-12);
+  left: var(--bds-sizes-size-16);
+  font-size: var(--bds-sizes-size-16);
+}
+
+.c0.stacked label.input-label.incomplete.size--small,
+.c0.stacked label.input-label.interaction--completed.size--small,
+.c0.stacked label.input-label.interaction--active.size--small,
+.c0.stacked label.input-label.completed.size--small,
+.c0.stacked label.input-label.interaction--focused.size--small {
+  top: var(--bds-sizes-size-8);
+}
+
+.c0.stacked label.input-label.incomplete.size--large,
+.c0.stacked label.input-label.interaction--completed.size--large,
+.c0.stacked label.input-label.interaction--active.size--large,
+.c0.stacked label.input-label.completed.size--large,
+.c0.stacked label.input-label.interaction--focused.size--large {
+  top: var(--bds-sizes-size-16);
+}
+
+.c0.stacked label.input-label.incomplete.size--jumbo,
+.c0.stacked label.input-label.interaction--completed.size--jumbo,
+.c0.stacked label.input-label.interaction--active.size--jumbo,
+.c0.stacked label.input-label.completed.size--jumbo,
+.c0.stacked label.input-label.interaction--focused.size--jumbo {
+  top: var(--bds-sizes-size-20);
+  font-size: var(--bds-sizes-size-20);
+}
+
+.c0.stacked .text-input-fieldset legend {
+  max-width: 0.01px;
+  padding: 0;
+}
+
+.c0.stacked select {
+  opacity: 0;
+}
+
+.c0.stacked .input-label {
+  font-weight: var(--bds-font-weight-semibold);
+  color: var(--bds-color-text-primary);
+}
+
+.c0.stacked .input-label .select--value {
+  margin-left: var(--bds-sizes-size-8);
+  color: var(--bds-color-text-primary);
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c0.stacked .input-label.state--error {
+  color: var(--bds-color-text-red);
+}
+
+.c4 {
+  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  position: absolute;
+  height: var(--bds-sizes-size-48);
+  border-style: solid;
+  border-width: var(--bds-border-width-sm);
+  border-radius: var(--bds-border-radius-lg);
+  border-color: var(--bds-color-border-default);
+  pointer-events: none;
+  box-sizing: border-box;
+}
+
+.c4 legend {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  box-sizing: border-box;
+  width: auto;
+  height: var(--bds-sizes-size-1);
+  display: block;
+  max-width: 0.01px;
+  visibility: hidden;
+  font-size: var(--bds-sizes-size-14);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c4 legend span {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c4.interaction--focused legend,
+.c4.interaction--active legend,
+.c4.interaction--completed legend,
+.c4.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-8);
+}
+
+.c4.interaction--focused legend span,
+.c4.interaction--active legend span,
+.c4.interaction--completed legend span,
+.c4.completed legend span {
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c4.interaction--focused,
+.c4.interaction--active {
+  border-color: var(--bds-color-border-interactive);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c4.interaction--completed,
+.c4.completed {
+  border-color: var(--bds-color-border-default);
+}
+
+.c4.interaction--active.completed {
+  border-color: var(--bds-color-border-interactive);
+}
+
+.c4.size--medium {
+  height: var(--bds-sizes-size-48);
+}
+
+.c4.size--medium.interaction--focused legend,
+.c4.size--medium.interaction--active legend,
+.c4.size--medium.interaction--completed legend,
+.c4.size--medium.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--medium.interaction--focused legend span,
+.c4.size--medium.interaction--active legend span,
+.c4.size--medium.interaction--completed legend span,
+.c4.size--medium.completed legend span {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c4.size--small {
+  height: var(--bds-sizes-size-40);
+}
+
+.c4.size--small.interaction--focused legend,
+.c4.size--small.interaction--active legend,
+.c4.size--small.interaction--completed legend,
+.c4.size--small.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--small.interaction--focused legend span,
+.c4.size--small.interaction--active legend span,
+.c4.size--small.interaction--completed legend span,
+.c4.size--small.completed legend span {
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c4.size--large {
+  height: var(--bds-sizes-size-56);
+}
+
+.c4.size--large.interaction--focused legend,
+.c4.size--large.interaction--active legend,
+.c4.size--large.interaction--completed legend,
+.c4.size--large.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--large.interaction--focused legend span,
+.c4.size--large.interaction--active legend span,
+.c4.size--large.interaction--completed legend span,
+.c4.size--large.completed legend span {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c4.size--jumbo {
+  height: var(--bds-sizes-size-64);
+}
+
+.c4.size--jumbo.interaction--focused legend,
+.c4.size--jumbo.interaction--active legend,
+.c4.size--jumbo.interaction--completed legend,
+.c4.size--jumbo.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--jumbo.interaction--focused legend span,
+.c4.size--jumbo.interaction--active legend span,
+.c4.size--jumbo.interaction--completed legend span,
+.c4.size--jumbo.completed legend span {
+  font-size: var(--bds-sizes-size-20);
+}
+
+.c2 {
+  position: relative;
+  height: 48px;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2:hover fieldset {
+  border-color: var(--bds-color-border-interactive);
+}
+
+.c2:focus fieldset {
+  border-color: var(--bds-color-border-interactive);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c2.state--error fieldset {
+  border-color: var(--bds-color-border-red);
+}
+
+.c2.state--error svg.icon--before path,
+.c2.state--error svg.icon--before circle {
+  fill: var(--bds-color-icon-red);
+}
+
+.c2.state--error:focus fieldset {
+  border-color: var(--bds-color-border-red);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c2 svg.icon {
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+}
+
+.c2 svg.icon path,
+.c2 svg.icon circle {
+  fill: var(--bds-color-icon-tertiary);
+}
+
+.c2 svg.icon.icon--success path,
+.c2 svg.icon.icon--success circle {
+  fill: var(--bds-color-icon-green);
+}
+
+.c2 svg.icon.icon--error path,
+.c2 svg.icon.icon--error circle {
+  fill: var(--bds-color-icon-red);
+}
+
+.c2.size--small {
+  height: var(--bds-sizes-size-40);
+}
+
+.c2.size--small svg.icon {
+  height: 14px;
+  width: 14px;
+}
+
+.c2.size--small .suffix {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c2.size--large {
+  height: var(--bds-sizes-size-56);
+}
+
+.c2.size--jumbo {
+  height: var(--bds-sizes-size-64);
+}
+
+.c2.size--jumbo svg.icon {
+  height: 20px;
+  width: 20px;
+}
+
+.c2.size--jumbo .suffix {
+  font-size: var(--bds-sizes-size-24);
+}
+
+.c2.size--jumbo input,
+.c2.size--jumbo textarea {
+  font-size: var(--bds-sizes-size-24);
+  line-height: var(--bds-sizes-size-32);
+}
+
+.c2 svg.icon--error + .suffix,
+.c2 svg.icon--success + .suffix {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c1 {
+  z-index: 1;
+  pointer-events: none;
+  top: 12px;
+  left: 16px;
+  position: absolute;
+  display: block;
+  color: var(--bds-color-text-tertiary);
+  padding: 0;
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+  font-weight: var(--bds-font-weight-regular);
+  -webkit-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+
+.c1.with-icon-before {
+  left: 40px;
+}
+
+.c1.interaction--focused,
+.c1.interaction--active,
+.c1.interaction--completed {
+  top: -12px;
+  left: 16px;
+  font-size: var(--bds-sizes-size-14);
+  color: var(--bds-color-text-interactive);
+}
+
+.c1.interaction--completed {
+  color: var(--bds-color-text-tertiary);
+}
+
+.c1.size--small {
+  top: 8px;
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c1.size--small.interaction--focused,
+.c1.size--small.interaction--active,
+.c1.size--small.interaction--completed {
+  top: -12px;
+  left: 16px;
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c1.size--large {
+  top: 16px;
+}
+
+.c1.size--large.interaction--focused,
+.c1.size--large.interaction--active,
+.c1.size--large.interaction--completed {
+  top: -12px;
+}
+
+.c1.size--jumbo {
+  font-size: var(--bds-sizes-size-24);
+  top: 20px;
+}
+
+.c1.size--jumbo.interaction--focused,
+.c1.size--jumbo.interaction--active,
+.c1.size--jumbo.interaction--completed {
+  font-size: var(--bds-sizes-size-20);
+  top: -12px;
+}
+
+.c1.state--error {
+  color: var(--bds-color-text-red);
+}
+
+<div
+    class="c0 backyard select--wrapper shape--rounded size--medium"
+  >
+    <label
+      class="c1 input-label size--medium state--default completed interaction--completed"
+      for="id"
+    />
+    <div
+      class="c2 form-control shape--rounded size--medium interaction--completed"
+    >
+      <select
+        aria-label="id"
+        class="select--input className completed"
+        id="id"
+        variant="outlined"
+      >
+        <option
+          class="select-option"
+          selected=""
+          value="1"
+        >
+          One
+        </option>
+      </select>
+      <svg
+        aria-hidden="true"
+        class="c3 icon icon-triangle-down select--arrow item--after"
+        role="presentation"
+        style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(0, 0%, 0%, 1);"
+        viewBox="0 0 16 16"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M13.1865 4.2923c.7132 0 1.046.5626.6339 1.0577l-5.0236 6.0201c-.3486.4613-1.236.4388-1.6006 0l-5.0236-6.02c-.3962-.4614-.0793-1.0578.6339-1.0578h10.38Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+      <fieldset
+        aria-hidden="true"
+        class="c4 text-input-fieldset size--medium closed completed interaction--completed"
+      >
+        <legend>
+          <span />
+        </legend>
+      </fieldset>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Select Snapshots themes Select dark theme snapshot 1`] = `
+<DocumentFragment>
+  .c3 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c3:not(.color-override) g,
+.c3:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c3:not(.color-override) g[stroke-width],
+.c3:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c3:not(.color-override) g[stroke-width] *,
+.c3:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c3.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c3.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c0 {
+  border: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  vertical-align: top;
+  padding: 0;
+  position: relative;
+}
+
+.c0 select,
+.c0 legend,
+.c0 label,
+.c0 span,
+.c0 .suffix {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 svg {
+  box-sizing: border-box;
+}
+
+.c0 select {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  padding-left: var(--bds-sizes-size-16);
+  padding-right: var(--bds-sizes-size-40);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+}
+
+.c0.item--before select {
+  padding-left: var(--bds-sizes-size-40);
+}
+
+.c0 .item--before {
+  position: absolute;
+  top: var(--bds-sizes-size-16);
+  left: var(--bds-sizes-size-16);
+}
+
+.c0 .item--after {
+  position: absolute;
+  top: var(--bds-sizes-size-16);
+  right: var(--bds-sizes-size-16);
+}
+
+.c0.size--small .item--after,
+.c0.size--small .item--before {
+  top: var(--bds-sizes-size-14);
+}
+
+.c0.size--large .item--after,
+.c0.size--large .item--before {
+  top: var(--bds-sizes-size-20);
+}
+
+.c0.size--jumbo .item--after,
+.c0.size--jumbo .item--before {
+  top: 1.375rem;
+}
+
+.c0.state--error svg.item--after path {
+  fill: var(--bds-color-icon-red);
+}
+
+.c0.has--placeholder label {
+  display: none;
+}
+
+.c0.has--placeholder legend {
+  display: none;
+}
+
+.c0.stacked label.input-label.incomplete,
+.c0.stacked label.input-label.interaction--completed,
+.c0.stacked label.input-label.interaction--active,
+.c0.stacked label.input-label.completed,
+.c0.stacked label.input-label.interaction--focused {
+  top: var(--bds-sizes-size-12);
+  left: var(--bds-sizes-size-16);
+  font-size: var(--bds-sizes-size-16);
+}
+
+.c0.stacked label.input-label.incomplete.size--small,
+.c0.stacked label.input-label.interaction--completed.size--small,
+.c0.stacked label.input-label.interaction--active.size--small,
+.c0.stacked label.input-label.completed.size--small,
+.c0.stacked label.input-label.interaction--focused.size--small {
+  top: var(--bds-sizes-size-8);
+}
+
+.c0.stacked label.input-label.incomplete.size--large,
+.c0.stacked label.input-label.interaction--completed.size--large,
+.c0.stacked label.input-label.interaction--active.size--large,
+.c0.stacked label.input-label.completed.size--large,
+.c0.stacked label.input-label.interaction--focused.size--large {
+  top: var(--bds-sizes-size-16);
+}
+
+.c0.stacked label.input-label.incomplete.size--jumbo,
+.c0.stacked label.input-label.interaction--completed.size--jumbo,
+.c0.stacked label.input-label.interaction--active.size--jumbo,
+.c0.stacked label.input-label.completed.size--jumbo,
+.c0.stacked label.input-label.interaction--focused.size--jumbo {
+  top: var(--bds-sizes-size-20);
+  font-size: var(--bds-sizes-size-20);
+}
+
+.c0.stacked .text-input-fieldset legend {
+  max-width: 0.01px;
+  padding: 0;
+}
+
+.c0.stacked select {
+  opacity: 0;
+}
+
+.c0.stacked .input-label {
+  font-weight: var(--bds-font-weight-semibold);
+  color: var(--bds-color-text-primary);
+}
+
+.c0.stacked .input-label .select--value {
+  margin-left: var(--bds-sizes-size-8);
+  color: var(--bds-color-text-primary);
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c0.stacked .input-label.state--error {
+  color: var(--bds-color-text-red);
+}
+
+.c4 {
+  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  position: absolute;
+  height: var(--bds-sizes-size-48);
+  border-style: solid;
+  border-width: var(--bds-border-width-sm);
+  border-radius: var(--bds-border-radius-lg);
+  border-color: var(--bds-color-border-default);
+  pointer-events: none;
+  box-sizing: border-box;
+}
+
+.c4 legend {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  box-sizing: border-box;
+  width: auto;
+  height: var(--bds-sizes-size-1);
+  display: block;
+  max-width: 0.01px;
+  visibility: hidden;
+  font-size: var(--bds-sizes-size-14);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c4 legend span {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c4.interaction--focused legend,
+.c4.interaction--active legend,
+.c4.interaction--completed legend,
+.c4.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-8);
+}
+
+.c4.interaction--focused legend span,
+.c4.interaction--active legend span,
+.c4.interaction--completed legend span,
+.c4.completed legend span {
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c4.interaction--focused,
+.c4.interaction--active {
+  border-color: var(--bds-color-border-interactive);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c4.interaction--completed,
+.c4.completed {
+  border-color: var(--bds-color-border-default);
+}
+
+.c4.interaction--active.completed {
+  border-color: var(--bds-color-border-interactive);
+}
+
+.c4.size--medium {
+  height: var(--bds-sizes-size-48);
+}
+
+.c4.size--medium.interaction--focused legend,
+.c4.size--medium.interaction--active legend,
+.c4.size--medium.interaction--completed legend,
+.c4.size--medium.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--medium.interaction--focused legend span,
+.c4.size--medium.interaction--active legend span,
+.c4.size--medium.interaction--completed legend span,
+.c4.size--medium.completed legend span {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c4.size--small {
+  height: var(--bds-sizes-size-40);
+}
+
+.c4.size--small.interaction--focused legend,
+.c4.size--small.interaction--active legend,
+.c4.size--small.interaction--completed legend,
+.c4.size--small.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--small.interaction--focused legend span,
+.c4.size--small.interaction--active legend span,
+.c4.size--small.interaction--completed legend span,
+.c4.size--small.completed legend span {
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c4.size--large {
+  height: var(--bds-sizes-size-56);
+}
+
+.c4.size--large.interaction--focused legend,
+.c4.size--large.interaction--active legend,
+.c4.size--large.interaction--completed legend,
+.c4.size--large.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--large.interaction--focused legend span,
+.c4.size--large.interaction--active legend span,
+.c4.size--large.interaction--completed legend span,
+.c4.size--large.completed legend span {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c4.size--jumbo {
+  height: var(--bds-sizes-size-64);
+}
+
+.c4.size--jumbo.interaction--focused legend,
+.c4.size--jumbo.interaction--active legend,
+.c4.size--jumbo.interaction--completed legend,
+.c4.size--jumbo.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--jumbo.interaction--focused legend span,
+.c4.size--jumbo.interaction--active legend span,
+.c4.size--jumbo.interaction--completed legend span,
+.c4.size--jumbo.completed legend span {
+  font-size: var(--bds-sizes-size-20);
+}
+
+.c2 {
+  position: relative;
+  height: 48px;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2:hover fieldset {
+  border-color: var(--bds-color-border-interactive);
+}
+
+.c2:focus fieldset {
+  border-color: var(--bds-color-border-interactive);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c2.state--error fieldset {
+  border-color: var(--bds-color-border-red);
+}
+
+.c2.state--error svg.icon--before path,
+.c2.state--error svg.icon--before circle {
+  fill: var(--bds-color-icon-red);
+}
+
+.c2.state--error:focus fieldset {
+  border-color: var(--bds-color-border-red);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c2 svg.icon {
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+}
+
+.c2 svg.icon path,
+.c2 svg.icon circle {
+  fill: var(--bds-color-icon-tertiary);
+}
+
+.c2 svg.icon.icon--success path,
+.c2 svg.icon.icon--success circle {
+  fill: var(--bds-color-icon-green);
+}
+
+.c2 svg.icon.icon--error path,
+.c2 svg.icon.icon--error circle {
+  fill: var(--bds-color-icon-red);
+}
+
+.c2.size--small {
+  height: var(--bds-sizes-size-40);
+}
+
+.c2.size--small svg.icon {
+  height: 14px;
+  width: 14px;
+}
+
+.c2.size--small .suffix {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c2.size--large {
+  height: var(--bds-sizes-size-56);
+}
+
+.c2.size--jumbo {
+  height: var(--bds-sizes-size-64);
+}
+
+.c2.size--jumbo svg.icon {
+  height: 20px;
+  width: 20px;
+}
+
+.c2.size--jumbo .suffix {
+  font-size: var(--bds-sizes-size-24);
+}
+
+.c2.size--jumbo input,
+.c2.size--jumbo textarea {
+  font-size: var(--bds-sizes-size-24);
+  line-height: var(--bds-sizes-size-32);
+}
+
+.c2 svg.icon--error + .suffix,
+.c2 svg.icon--success + .suffix {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c1 {
+  z-index: 1;
+  pointer-events: none;
+  top: 12px;
+  left: 16px;
+  position: absolute;
+  display: block;
+  color: var(--bds-color-text-tertiary);
+  padding: 0;
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+  font-weight: var(--bds-font-weight-regular);
+  -webkit-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+
+.c1.with-icon-before {
+  left: 40px;
+}
+
+.c1.interaction--focused,
+.c1.interaction--active,
+.c1.interaction--completed {
+  top: -12px;
+  left: 16px;
+  font-size: var(--bds-sizes-size-14);
+  color: var(--bds-color-text-interactive);
+}
+
+.c1.interaction--completed {
+  color: var(--bds-color-text-tertiary);
+}
+
+.c1.size--small {
+  top: 8px;
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c1.size--small.interaction--focused,
+.c1.size--small.interaction--active,
+.c1.size--small.interaction--completed {
+  top: -12px;
+  left: 16px;
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c1.size--large {
+  top: 16px;
+}
+
+.c1.size--large.interaction--focused,
+.c1.size--large.interaction--active,
+.c1.size--large.interaction--completed {
+  top: -12px;
+}
+
+.c1.size--jumbo {
+  font-size: var(--bds-sizes-size-24);
+  top: 20px;
+}
+
+.c1.size--jumbo.interaction--focused,
+.c1.size--jumbo.interaction--active,
+.c1.size--jumbo.interaction--completed {
+  font-size: var(--bds-sizes-size-20);
+  top: -12px;
+}
+
+.c1.state--error {
+  color: var(--bds-color-text-red);
+}
+
+<div
+    class="c0 backyard select--wrapper shape--rounded size--medium"
+  >
+    <label
+      class="c1 input-label size--medium state--default completed interaction--completed"
+      for="id"
+    />
+    <div
+      class="c2 form-control shape--rounded size--medium interaction--completed"
+    >
+      <select
+        aria-label="id"
+        class="select--input className completed"
+        id="id"
+      >
+        <option
+          class="select-option"
+          selected=""
+          value="1"
+        >
+          One
+        </option>
+      </select>
+      <svg
+        aria-hidden="true"
+        class="c3 icon icon-triangle-down select--arrow item--after"
+        role="presentation"
+        style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(0, 0%, 100%, 1);"
+        viewBox="0 0 16 16"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M13.1865 4.2923c.7132 0 1.046.5626.6339 1.0577l-5.0236 6.0201c-.3486.4613-1.236.4388-1.6006 0l-5.0236-6.02c-.3962-.4614-.0793-1.0578.6339-1.0578h10.38Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+      <fieldset
+        aria-hidden="true"
+        class="c4 text-input-fieldset size--medium closed completed interaction--completed"
+      >
+        <legend>
+          <span />
+        </legend>
+      </fieldset>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Select Snapshots themes Select light theme snapshot 1`] = `
+<DocumentFragment>
+  .c3 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c3:not(.color-override) g,
+.c3:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c3:not(.color-override) g[stroke-width],
+.c3:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c3:not(.color-override) g[stroke-width] *,
+.c3:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c3.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c3.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c0 {
+  border: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  vertical-align: top;
+  padding: 0;
+  position: relative;
+}
+
+.c0 select,
+.c0 legend,
+.c0 label,
+.c0 span,
+.c0 .suffix {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+  color: var(--bds-color-text-primary);
+}
+
+.c0 svg {
+  box-sizing: border-box;
+}
+
+.c0 select {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  padding-left: var(--bds-sizes-size-16);
+  padding-right: var(--bds-sizes-size-40);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+}
+
+.c0.item--before select {
+  padding-left: var(--bds-sizes-size-40);
+}
+
+.c0 .item--before {
+  position: absolute;
+  top: var(--bds-sizes-size-16);
+  left: var(--bds-sizes-size-16);
+}
+
+.c0 .item--after {
+  position: absolute;
+  top: var(--bds-sizes-size-16);
+  right: var(--bds-sizes-size-16);
+}
+
+.c0.size--small .item--after,
+.c0.size--small .item--before {
+  top: var(--bds-sizes-size-14);
+}
+
+.c0.size--large .item--after,
+.c0.size--large .item--before {
+  top: var(--bds-sizes-size-20);
+}
+
+.c0.size--jumbo .item--after,
+.c0.size--jumbo .item--before {
+  top: 1.375rem;
+}
+
+.c0.state--error svg.item--after path {
+  fill: var(--bds-color-icon-red);
+}
+
+.c0.has--placeholder label {
+  display: none;
+}
+
+.c0.has--placeholder legend {
+  display: none;
+}
+
+.c0.stacked label.input-label.incomplete,
+.c0.stacked label.input-label.interaction--completed,
+.c0.stacked label.input-label.interaction--active,
+.c0.stacked label.input-label.completed,
+.c0.stacked label.input-label.interaction--focused {
+  top: var(--bds-sizes-size-12);
+  left: var(--bds-sizes-size-16);
+  font-size: var(--bds-sizes-size-16);
+}
+
+.c0.stacked label.input-label.incomplete.size--small,
+.c0.stacked label.input-label.interaction--completed.size--small,
+.c0.stacked label.input-label.interaction--active.size--small,
+.c0.stacked label.input-label.completed.size--small,
+.c0.stacked label.input-label.interaction--focused.size--small {
+  top: var(--bds-sizes-size-8);
+}
+
+.c0.stacked label.input-label.incomplete.size--large,
+.c0.stacked label.input-label.interaction--completed.size--large,
+.c0.stacked label.input-label.interaction--active.size--large,
+.c0.stacked label.input-label.completed.size--large,
+.c0.stacked label.input-label.interaction--focused.size--large {
+  top: var(--bds-sizes-size-16);
+}
+
+.c0.stacked label.input-label.incomplete.size--jumbo,
+.c0.stacked label.input-label.interaction--completed.size--jumbo,
+.c0.stacked label.input-label.interaction--active.size--jumbo,
+.c0.stacked label.input-label.completed.size--jumbo,
+.c0.stacked label.input-label.interaction--focused.size--jumbo {
+  top: var(--bds-sizes-size-20);
+  font-size: var(--bds-sizes-size-20);
+}
+
+.c0.stacked .text-input-fieldset legend {
+  max-width: 0.01px;
+  padding: 0;
+}
+
+.c0.stacked select {
+  opacity: 0;
+}
+
+.c0.stacked .input-label {
+  font-weight: var(--bds-font-weight-semibold);
+  color: var(--bds-color-text-primary);
+}
+
+.c0.stacked .input-label .select--value {
+  margin-left: var(--bds-sizes-size-8);
+  color: var(--bds-color-text-primary);
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c0.stacked .input-label.state--error {
+  color: var(--bds-color-text-red);
+}
+
+.c4 {
+  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  position: absolute;
+  height: var(--bds-sizes-size-48);
+  border-style: solid;
+  border-width: var(--bds-border-width-sm);
+  border-radius: var(--bds-border-radius-lg);
+  border-color: var(--bds-color-border-default);
+  pointer-events: none;
+  box-sizing: border-box;
+}
+
+.c4 legend {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  box-sizing: border-box;
+  width: auto;
+  height: var(--bds-sizes-size-1);
+  display: block;
+  max-width: 0.01px;
+  visibility: hidden;
+  font-size: var(--bds-sizes-size-14);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c4 legend span {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c4.interaction--focused legend,
+.c4.interaction--active legend,
+.c4.interaction--completed legend,
+.c4.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-8);
+}
+
+.c4.interaction--focused legend span,
+.c4.interaction--active legend span,
+.c4.interaction--completed legend span,
+.c4.completed legend span {
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c4.interaction--focused,
+.c4.interaction--active {
+  border-color: var(--bds-color-border-interactive);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c4.interaction--completed,
+.c4.completed {
+  border-color: var(--bds-color-border-default);
+}
+
+.c4.interaction--active.completed {
+  border-color: var(--bds-color-border-interactive);
+}
+
+.c4.size--medium {
+  height: var(--bds-sizes-size-48);
+}
+
+.c4.size--medium.interaction--focused legend,
+.c4.size--medium.interaction--active legend,
+.c4.size--medium.interaction--completed legend,
+.c4.size--medium.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--medium.interaction--focused legend span,
+.c4.size--medium.interaction--active legend span,
+.c4.size--medium.interaction--completed legend span,
+.c4.size--medium.completed legend span {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c4.size--small {
+  height: var(--bds-sizes-size-40);
+}
+
+.c4.size--small.interaction--focused legend,
+.c4.size--small.interaction--active legend,
+.c4.size--small.interaction--completed legend,
+.c4.size--small.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--small.interaction--focused legend span,
+.c4.size--small.interaction--active legend span,
+.c4.size--small.interaction--completed legend span,
+.c4.size--small.completed legend span {
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c4.size--large {
+  height: var(--bds-sizes-size-56);
+}
+
+.c4.size--large.interaction--focused legend,
+.c4.size--large.interaction--active legend,
+.c4.size--large.interaction--completed legend,
+.c4.size--large.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--large.interaction--focused legend span,
+.c4.size--large.interaction--active legend span,
+.c4.size--large.interaction--completed legend span,
+.c4.size--large.completed legend span {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c4.size--jumbo {
+  height: var(--bds-sizes-size-64);
+}
+
+.c4.size--jumbo.interaction--focused legend,
+.c4.size--jumbo.interaction--active legend,
+.c4.size--jumbo.interaction--completed legend,
+.c4.size--jumbo.completed legend {
+  max-width: 500px;
+  padding: 0 var(--bds-sizes-size-4);
+}
+
+.c4.size--jumbo.interaction--focused legend span,
+.c4.size--jumbo.interaction--active legend span,
+.c4.size--jumbo.interaction--completed legend span,
+.c4.size--jumbo.completed legend span {
+  font-size: var(--bds-sizes-size-20);
+}
+
+.c2 {
+  position: relative;
+  height: 48px;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2:hover fieldset {
+  border-color: var(--bds-color-border-interactive);
+}
+
+.c2:focus fieldset {
+  border-color: var(--bds-color-border-interactive);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c2.state--error fieldset {
+  border-color: var(--bds-color-border-red);
+}
+
+.c2.state--error svg.icon--before path,
+.c2.state--error svg.icon--before circle {
+  fill: var(--bds-color-icon-red);
+}
+
+.c2.state--error:focus fieldset {
+  border-color: var(--bds-color-border-red);
+  border-width: var(--bds-sizes-size-2);
+}
+
+.c2 svg.icon {
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+}
+
+.c2 svg.icon path,
+.c2 svg.icon circle {
+  fill: var(--bds-color-icon-tertiary);
+}
+
+.c2 svg.icon.icon--success path,
+.c2 svg.icon.icon--success circle {
+  fill: var(--bds-color-icon-green);
+}
+
+.c2 svg.icon.icon--error path,
+.c2 svg.icon.icon--error circle {
+  fill: var(--bds-color-icon-red);
+}
+
+.c2.size--small {
+  height: var(--bds-sizes-size-40);
+}
+
+.c2.size--small svg.icon {
+  height: 14px;
+  width: 14px;
+}
+
+.c2.size--small .suffix {
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c2.size--large {
+  height: var(--bds-sizes-size-56);
+}
+
+.c2.size--jumbo {
+  height: var(--bds-sizes-size-64);
+}
+
+.c2.size--jumbo svg.icon {
+  height: 20px;
+  width: 20px;
+}
+
+.c2.size--jumbo .suffix {
+  font-size: var(--bds-sizes-size-24);
+}
+
+.c2.size--jumbo input,
+.c2.size--jumbo textarea {
+  font-size: var(--bds-sizes-size-24);
+  line-height: var(--bds-sizes-size-32);
+}
+
+.c2 svg.icon--error + .suffix,
+.c2 svg.icon--success + .suffix {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c1 {
+  z-index: 1;
+  pointer-events: none;
+  top: 12px;
+  left: 16px;
+  position: absolute;
+  display: block;
+  color: var(--bds-color-text-tertiary);
+  padding: 0;
+  font-size: var(--bds-sizes-size-16);
+  line-height: var(--bds-sizes-size-24);
+  font-weight: var(--bds-font-weight-regular);
+  -webkit-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+
+.c1.with-icon-before {
+  left: 40px;
+}
+
+.c1.interaction--focused,
+.c1.interaction--active,
+.c1.interaction--completed {
+  top: -12px;
+  left: 16px;
+  font-size: var(--bds-sizes-size-14);
+  color: var(--bds-color-text-interactive);
+}
+
+.c1.interaction--completed {
+  color: var(--bds-color-text-tertiary);
+}
+
+.c1.size--small {
+  top: 8px;
+  font-size: var(--bds-sizes-size-14);
+}
+
+.c1.size--small.interaction--focused,
+.c1.size--small.interaction--active,
+.c1.size--small.interaction--completed {
+  top: -12px;
+  left: 16px;
+  font-size: var(--bds-sizes-size-12);
+}
+
+.c1.size--large {
+  top: 16px;
+}
+
+.c1.size--large.interaction--focused,
+.c1.size--large.interaction--active,
+.c1.size--large.interaction--completed {
+  top: -12px;
+}
+
+.c1.size--jumbo {
+  font-size: var(--bds-sizes-size-24);
+  top: 20px;
+}
+
+.c1.size--jumbo.interaction--focused,
+.c1.size--jumbo.interaction--active,
+.c1.size--jumbo.interaction--completed {
+  font-size: var(--bds-sizes-size-20);
+  top: -12px;
+}
+
+.c1.state--error {
+  color: var(--bds-color-text-red);
+}
+
+<div
+    class="c0 backyard select--wrapper shape--rounded size--medium"
+  >
+    <label
+      class="c1 input-label size--medium state--default completed interaction--completed"
+      for="id"
+    />
+    <div
+      class="c2 form-control shape--rounded size--medium interaction--completed"
+    >
+      <select
+        aria-label="id"
+        class="select--input className completed"
+        id="id"
+      >
+        <option
+          class="select-option"
+          selected=""
+          value="1"
+        >
+          One
+        </option>
+      </select>
+      <svg
+        aria-hidden="true"
+        class="c3 icon icon-triangle-down select--arrow item--after"
+        role="presentation"
+        style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(0, 0%, 0%, 1);"
+        viewBox="0 0 16 16"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M13.1865 4.2923c.7132 0 1.046.5626.6339 1.0577l-5.0236 6.0201c-.3486.4613-1.236.4388-1.6006 0l-5.0236-6.02c-.3962-.4614-.0793-1.0578.6339-1.0578h10.38Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+      <fieldset
+        aria-hidden="true"
+        class="c4 text-input-fieldset size--medium closed completed interaction--completed"
+      >
+        <legend>
+          <span />
+        </legend>
+      </fieldset>
+    </div>
+  </div>
+</DocumentFragment>
+`;
