@@ -19,16 +19,9 @@ on:
         description: Release tag
         options:
           - alpha
-<<<<<<< HEAD
-          - next
-          - open
-          - latest
-          - lts
-=======
           - beta
           - rc
           - latest
->>>>>>> 36d8ce30cec35dd960068924d9032fe1e955497a
 
 jobs:
   deploy:
@@ -81,13 +74,6 @@ jobs:
 
       - name: update package version
         run: npm version ${{ github.event.inputs.release_type }} --preid=${{ github.event.inputs.release_tag }}
-<<<<<<< HEAD
-        working-directory: ./packages/bds-react  
-
-      - name: push to npm
-        run: npm publish --tag ${{github.event.inputs.release_tag}} --ignore-scripts
-        working-directory: ./packages/bds-react
-=======
         working-directory: ./packages/bds-react
       
       - name: update package version
@@ -97,7 +83,6 @@ jobs:
       - name: push to npm
         run: npm publish --tag ${{github.event.inputs.release_tag}} --ignore-scripts
         working-directory: ./packages/bds-react/dist
->>>>>>> 36d8ce30cec35dd960068924d9032fe1e955497a
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           NPM_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
@@ -110,10 +95,7 @@ jobs:
           
       - name: push commit and tag to repo
         run: |
-<<<<<<< HEAD
-=======
           git pull
->>>>>>> 36d8ce30cec35dd960068924d9032fe1e955497a
           git add --all
           git commit -m "@lowes-tech/bds-react -> ${{ steps.package-version.outputs.current-version }}"
           git tag "bds-react@${{ steps.package-version.outputs.current-version }}"
