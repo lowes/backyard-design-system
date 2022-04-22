@@ -1,0 +1,3376 @@
+{
+	"id": 0,
+	"name": "@lowes-tech/bds-react/ModalController",
+	"kind": 1,
+	"kindString": "Project",
+	"flags": {},
+	"children": [
+		{
+			"id": 155,
+			"name": "default",
+			"kind": 16777216,
+			"kindString": "Reference",
+			"flags": {},
+			"target": 1
+		},
+		{
+			"id": 79,
+			"name": "ModalControllerContextValues",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 86,
+					"name": "OverlayComponent",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Overlay component to display behind modal"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ElementType"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"id": 123,
+						"name": "ModalControllerProviderProps.OverlayComponent"
+					}
+				},
+				{
+					"id": 82,
+					"name": "as",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ElementType"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"id": 119,
+						"name": "ModalControllerProviderProps.as"
+					}
+				},
+				{
+					"id": 85,
+					"name": "children",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Children"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							},
+							{
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									},
+									{
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "JSXElementConstructor"
+									}
+								]
+							}
+						],
+						"name": "ReactElement"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"id": 122,
+						"name": "ModalControllerProviderProps.children"
+					}
+				},
+				{
+					"id": 83,
+					"name": "className",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "DOM Class Name"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"id": 120,
+						"name": "ModalControllerProviderProps.className"
+					}
+				},
+				{
+					"id": 88,
+					"name": "container",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Container object or function of modal to display"
+					},
+					"type": {
+						"type": "reference",
+						"name": "ReactInstance"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"id": 125,
+						"name": "ModalControllerProviderProps.container"
+					}
+				},
+				{
+					"id": 115,
+					"name": "context",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Props to provide context for"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "Record"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"id": 152,
+						"name": "ModalControllerProviderProps.context"
+					}
+				},
+				{
+					"id": 89,
+					"name": "disableAutoFocus",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not browser will auto focus on modal"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"id": 126,
+						"name": "ModalControllerProviderProps.disableAutoFocus"
+					}
+				},
+				{
+					"id": 91,
+					"name": "disableEnforceFocus",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not modal enforces focus (traps)"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"id": 128,
+						"name": "ModalControllerProviderProps.disableEnforceFocus"
+					}
+				},
+				{
+					"id": 92,
+					"name": "disableEscapeKeyDown",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not escape key listener is active"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"id": 129,
+						"name": "ModalControllerProviderProps.disableEscapeKeyDown"
+					}
+				},
+				{
+					"id": 90,
+					"name": "disableOverlayClick",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not overlay click listener is active"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"id": 127,
+						"name": "ModalControllerProviderProps.disableOverlayClick"
+					}
+				},
+				{
+					"id": 93,
+					"name": "disablePortal",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not portal is used to bring modal to root DOM"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"id": 130,
+						"name": "ModalControllerProviderProps.disablePortal"
+					}
+				},
+				{
+					"id": 94,
+					"name": "disableRestoreFocus",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not modal restores focus"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"id": 131,
+						"name": "ModalControllerProviderProps.disableRestoreFocus"
+					}
+				},
+				{
+					"id": 95,
+					"name": "disableScrollLock",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not scroll lock is disabled"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"id": 132,
+						"name": "ModalControllerProviderProps.disableScrollLock"
+					}
+				},
+				{
+					"id": 96,
+					"name": "hideOverlay",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not overlay is hidden"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"id": 133,
+						"name": "ModalControllerProviderProps.hideOverlay"
+					}
+				},
+				{
+					"id": 97,
+					"name": "keepMounted",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not modal continues to be mounted when closed\nUseful for certain SEO conditions"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"id": 134,
+						"name": "ModalControllerProviderProps.keepMounted"
+					}
+				},
+				{
+					"id": 98,
+					"name": "manager",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Class that manages modal state and properties"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"id": 135,
+						"name": "ModalControllerProviderProps.manager"
+					}
+				},
+				{
+					"id": 113,
+					"name": "modalStyle",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Style of the modal"
+					},
+					"type": {
+						"type": "reference",
+						"name": "CSSProperties"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"id": 150,
+						"name": "ModalControllerProviderProps.modalStyle"
+					}
+				},
+				{
+					"id": 81,
+					"name": "open",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not modal is open"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"id": 118,
+						"name": "ModalControllerProviderProps.open"
+					}
+				},
+				{
+					"id": 87,
+					"name": "overlayProps",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Props to extend overlay component with\nUseful if the `style` prop needs to be different"
+					},
+					"type": {
+						"type": "reference",
+						"name": "OverlayProps"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"id": 124,
+						"name": "ModalControllerProviderProps.overlayProps"
+					}
+				},
+				{
+					"id": 80,
+					"name": "override",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Props to override children with"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "Record"
+					},
+					"overwrites": {
+						"type": "reference",
+						"id": 117,
+						"name": "ModalControllerProviderProps.override"
+					}
+				},
+				{
+					"id": 114,
+					"name": "position",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Position of modal on page",
+						"tags": [
+							{
+								"tag": "default",
+								"text": "'center of page'\n"
+							}
+						]
+					},
+					"type": {
+						"type": "reference",
+						"name": "CSSProperties"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"id": 151,
+						"name": "ModalControllerProviderProps.position"
+					}
+				},
+				{
+					"id": 84,
+					"name": "style",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Style of modal controller"
+					},
+					"type": {
+						"type": "reference",
+						"name": "CSSProperties"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"id": 121,
+						"name": "ModalControllerProviderProps.style"
+					}
+				},
+				{
+					"id": 102,
+					"name": "onClose",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 103,
+							"name": "onClose",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onClose` trigger function, when modal is closed",
+								"tags": [
+									{
+										"tag": "argument",
+										"text": "{Event} event - DOM event"
+									},
+									{
+										"tag": "argument",
+										"text": "{string} name - Name of event fired that caused modal to close\n"
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 104,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"type": {
+										"type": "reference",
+										"name": "ModalHandlerEvent"
+									}
+								},
+								{
+									"id": 105,
+									"name": "name",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 140,
+								"name": "ModalControllerProviderProps.onClose"
+							}
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"id": 139,
+						"name": "ModalControllerProviderProps.onClose"
+					}
+				},
+				{
+					"id": 108,
+					"name": "onEscapeKeyDown",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 109,
+							"name": "onEscapeKeyDown",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onEscapeKeyDown` trigger function, when escape key is pressed while modal is active",
+								"tags": [
+									{
+										"tag": "argument",
+										"text": "{Event} event - DOM event\n"
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 110,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											}
+										],
+										"name": "KeyboardEvent"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 146,
+								"name": "ModalControllerProviderProps.onEscapeKeyDown"
+							}
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"id": 145,
+						"name": "ModalControllerProviderProps.onEscapeKeyDown"
+					}
+				},
+				{
+					"id": 106,
+					"name": "onOpen",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 107,
+							"name": "onOpen",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onOpen` trigger function, when modal is closed"
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 144,
+								"name": "ModalControllerProviderProps.onOpen"
+							}
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"id": 143,
+						"name": "ModalControllerProviderProps.onOpen"
+					}
+				},
+				{
+					"id": 99,
+					"name": "onOverlayClick",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 100,
+							"name": "onOverlayClick",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onOverlayClick` trigger function, when overlay is clicked",
+								"tags": [
+									{
+										"tag": "argument",
+										"text": "{Event} event - DOM event\n"
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 101,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											},
+											{
+												"type": "reference",
+												"name": "MouseEvent"
+											}
+										],
+										"name": "MouseEvent"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 137,
+								"name": "ModalControllerProviderProps.onOverlayClick"
+							}
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"id": 136,
+						"name": "ModalControllerProviderProps.onOverlayClick"
+					}
+				},
+				{
+					"id": 111,
+					"name": "onRendered",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 112,
+							"name": "onRendered",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onRendered` trigger function, when modal is closed"
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 149,
+								"name": "ModalControllerProviderProps.onRendered"
+							}
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"id": 148,
+						"name": "ModalControllerProviderProps.onRendered"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						86,
+						82,
+						85,
+						83,
+						88,
+						115,
+						89,
+						91,
+						92,
+						90,
+						93,
+						94,
+						95,
+						96,
+						97,
+						98,
+						113,
+						81,
+						87,
+						80,
+						114,
+						84
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						102,
+						108,
+						106,
+						99,
+						111
+					]
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"id": 116,
+					"name": "ModalControllerProviderProps"
+				},
+				{
+					"type": "reference",
+					"typeArguments": [
+						{
+							"type": "intrinsic",
+							"name": "string"
+						},
+						{
+							"type": "intrinsic",
+							"name": "any"
+						}
+					],
+					"name": "Record"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"name": "ModalControllerProps",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 13,
+					"name": "OverlayComponent",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Overlay component to display behind modal"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ElementType"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.OverlayComponent"
+					}
+				},
+				{
+					"id": 11,
+					"name": "as",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ElementType"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.as"
+					}
+				},
+				{
+					"id": 12,
+					"name": "children",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Children"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							},
+							{
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									},
+									{
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "JSXElementConstructor"
+									}
+								]
+							}
+						],
+						"name": "ReactElement"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.children"
+					}
+				},
+				{
+					"id": 3,
+					"name": "className",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "DOM Class Name"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.className"
+					}
+				},
+				{
+					"id": 15,
+					"name": "container",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Container object or function of modal to display"
+					},
+					"type": {
+						"type": "reference",
+						"name": "ReactInstance"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.container"
+					}
+				},
+				{
+					"id": 9,
+					"name": "context",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Props to provide context for"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "Record"
+					}
+				},
+				{
+					"id": 16,
+					"name": "disableAutoFocus",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not browser will auto focus on modal"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.disableAutoFocus"
+					}
+				},
+				{
+					"id": 18,
+					"name": "disableEnforceFocus",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not modal enforces focus (traps)"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.disableEnforceFocus"
+					}
+				},
+				{
+					"id": 19,
+					"name": "disableEscapeKeyDown",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not escape key listener is active"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.disableEscapeKeyDown"
+					}
+				},
+				{
+					"id": 17,
+					"name": "disableOverlayClick",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not overlay click listener is active"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.disableOverlayClick"
+					}
+				},
+				{
+					"id": 20,
+					"name": "disablePortal",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not portal is used to bring modal to root DOM"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.disablePortal"
+					}
+				},
+				{
+					"id": 21,
+					"name": "disableRestoreFocus",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not modal restores focus"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.disableRestoreFocus"
+					}
+				},
+				{
+					"id": 22,
+					"name": "disableScrollLock",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not scroll lock is disabled"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.disableScrollLock"
+					}
+				},
+				{
+					"id": 23,
+					"name": "hideOverlay",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not overlay is hidden"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.hideOverlay"
+					}
+				},
+				{
+					"id": 24,
+					"name": "keepMounted",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not modal continues to be mounted when closed\nUseful for certain SEO conditions"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.keepMounted"
+					}
+				},
+				{
+					"id": 25,
+					"name": "manager",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Class that manages modal state and properties"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.manager"
+					}
+				},
+				{
+					"id": 4,
+					"name": "modal",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"shortText": "Modal component to control"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							},
+							{
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									},
+									{
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "JSXElementConstructor"
+									}
+								]
+							}
+						],
+						"name": "ReactElement"
+					}
+				},
+				{
+					"id": 7,
+					"name": "modalStyle",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Style of the modal"
+					},
+					"type": {
+						"type": "reference",
+						"name": "CSSProperties"
+					}
+				},
+				{
+					"id": 5,
+					"name": "open",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not modal is open"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 14,
+					"name": "overlayProps",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Props to extend overlay component with\nUseful if the `style` prop needs to be different"
+					},
+					"type": {
+						"type": "reference",
+						"name": "OverlayProps"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.overlayProps"
+					}
+				},
+				{
+					"id": 10,
+					"name": "override",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Props to override children with"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "Record"
+					}
+				},
+				{
+					"id": 8,
+					"name": "position",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Position of modal on page",
+						"tags": [
+							{
+								"tag": "default",
+								"text": "'center of page'\n"
+							}
+						]
+					},
+					"type": {
+						"type": "reference",
+						"name": "CSSProperties"
+					}
+				},
+				{
+					"id": 6,
+					"name": "style",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Style of modal controller"
+					},
+					"type": {
+						"type": "reference",
+						"name": "CSSProperties"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.style"
+					}
+				},
+				{
+					"id": 29,
+					"name": "onClose",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 30,
+							"name": "onClose",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onClose` trigger function, when modal is closed",
+								"tags": [
+									{
+										"tag": "argument",
+										"text": "{Event} event - DOM event"
+									},
+									{
+										"tag": "argument",
+										"text": "{string} name - Name of event fired that caused modal to close\n"
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 31,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"type": {
+										"type": "reference",
+										"name": "ModalHandlerEvent"
+									}
+								},
+								{
+									"id": 32,
+									"name": "name",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Omit.onClose"
+							}
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.onClose"
+					}
+				},
+				{
+					"id": 35,
+					"name": "onEscapeKeyDown",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 36,
+							"name": "onEscapeKeyDown",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onEscapeKeyDown` trigger function, when escape key is pressed while modal is active",
+								"tags": [
+									{
+										"tag": "argument",
+										"text": "{Event} event - DOM event\n"
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 37,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											}
+										],
+										"name": "KeyboardEvent"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Omit.onEscapeKeyDown"
+							}
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.onEscapeKeyDown"
+					}
+				},
+				{
+					"id": 33,
+					"name": "onOpen",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 34,
+							"name": "onOpen",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onOpen` trigger function, when modal is closed"
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Omit.onOpen"
+							}
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.onOpen"
+					}
+				},
+				{
+					"id": 26,
+					"name": "onOverlayClick",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 27,
+							"name": "onOverlayClick",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onOverlayClick` trigger function, when overlay is clicked",
+								"tags": [
+									{
+										"tag": "argument",
+										"text": "{Event} event - DOM event\n"
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 28,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											},
+											{
+												"type": "reference",
+												"name": "MouseEvent"
+											}
+										],
+										"name": "MouseEvent"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Omit.onOverlayClick"
+							}
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.onOverlayClick"
+					}
+				},
+				{
+					"id": 38,
+					"name": "onRendered",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 39,
+							"name": "onRendered",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onRendered` trigger function, when modal is closed"
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Omit.onRendered"
+							}
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.onRendered"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						13,
+						11,
+						12,
+						3,
+						15,
+						9,
+						16,
+						18,
+						19,
+						17,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						4,
+						7,
+						5,
+						14,
+						10,
+						8,
+						6
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						29,
+						35,
+						33,
+						26,
+						38
+					]
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"typeArguments": [
+						{
+							"type": "reference",
+							"id": 42,
+							"name": "ModalHandlerProps"
+						},
+						{
+							"type": "reference",
+							"name": "ModalControllerOverrideProps"
+						}
+					],
+					"name": "Omit"
+				}
+			]
+		},
+		{
+			"id": 116,
+			"name": "ModalControllerProviderProps",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 123,
+					"name": "OverlayComponent",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Overlay component to display behind modal"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ElementType"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.OverlayComponent"
+					}
+				},
+				{
+					"id": 119,
+					"name": "as",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ElementType"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.as"
+					}
+				},
+				{
+					"id": 122,
+					"name": "children",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Children"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							},
+							{
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									},
+									{
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "JSXElementConstructor"
+									}
+								]
+							}
+						],
+						"name": "ReactElement"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.children"
+					}
+				},
+				{
+					"id": 120,
+					"name": "className",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "DOM Class Name"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.className"
+					}
+				},
+				{
+					"id": 125,
+					"name": "container",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Container object or function of modal to display"
+					},
+					"type": {
+						"type": "reference",
+						"name": "ReactInstance"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.container"
+					}
+				},
+				{
+					"id": 152,
+					"name": "context",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Props to provide context for"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "Record"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.context"
+					}
+				},
+				{
+					"id": 126,
+					"name": "disableAutoFocus",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not browser will auto focus on modal"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.disableAutoFocus"
+					}
+				},
+				{
+					"id": 128,
+					"name": "disableEnforceFocus",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not modal enforces focus (traps)"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.disableEnforceFocus"
+					}
+				},
+				{
+					"id": 129,
+					"name": "disableEscapeKeyDown",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not escape key listener is active"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.disableEscapeKeyDown"
+					}
+				},
+				{
+					"id": 127,
+					"name": "disableOverlayClick",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not overlay click listener is active"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.disableOverlayClick"
+					}
+				},
+				{
+					"id": 130,
+					"name": "disablePortal",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not portal is used to bring modal to root DOM"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.disablePortal"
+					}
+				},
+				{
+					"id": 131,
+					"name": "disableRestoreFocus",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not modal restores focus"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.disableRestoreFocus"
+					}
+				},
+				{
+					"id": 132,
+					"name": "disableScrollLock",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not scroll lock is disabled"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.disableScrollLock"
+					}
+				},
+				{
+					"id": 133,
+					"name": "hideOverlay",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not overlay is hidden"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.hideOverlay"
+					}
+				},
+				{
+					"id": 134,
+					"name": "keepMounted",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not modal continues to be mounted when closed\nUseful for certain SEO conditions"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.keepMounted"
+					}
+				},
+				{
+					"id": 135,
+					"name": "manager",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Class that manages modal state and properties"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.manager"
+					}
+				},
+				{
+					"id": 150,
+					"name": "modalStyle",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Style of the modal"
+					},
+					"type": {
+						"type": "reference",
+						"name": "CSSProperties"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.modalStyle"
+					}
+				},
+				{
+					"id": 118,
+					"name": "open",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not modal is open"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.open"
+					}
+				},
+				{
+					"id": 124,
+					"name": "overlayProps",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Props to extend overlay component with\nUseful if the `style` prop needs to be different"
+					},
+					"type": {
+						"type": "reference",
+						"name": "OverlayProps"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.overlayProps"
+					}
+				},
+				{
+					"id": 117,
+					"name": "override",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Props to override children with"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "Record"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.override"
+					}
+				},
+				{
+					"id": 151,
+					"name": "position",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Position of modal on page",
+						"tags": [
+							{
+								"tag": "default",
+								"text": "'center of page'\n"
+							}
+						]
+					},
+					"type": {
+						"type": "reference",
+						"name": "CSSProperties"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.position"
+					}
+				},
+				{
+					"id": 121,
+					"name": "style",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Style of modal controller"
+					},
+					"type": {
+						"type": "reference",
+						"name": "CSSProperties"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.style"
+					}
+				},
+				{
+					"id": 139,
+					"name": "onClose",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 140,
+							"name": "onClose",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onClose` trigger function, when modal is closed",
+								"tags": [
+									{
+										"tag": "argument",
+										"text": "{Event} event - DOM event"
+									},
+									{
+										"tag": "argument",
+										"text": "{string} name - Name of event fired that caused modal to close\n"
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 141,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"type": {
+										"type": "reference",
+										"name": "ModalHandlerEvent"
+									}
+								},
+								{
+									"id": 142,
+									"name": "name",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Omit.onClose"
+							}
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.onClose"
+					}
+				},
+				{
+					"id": 145,
+					"name": "onEscapeKeyDown",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 146,
+							"name": "onEscapeKeyDown",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onEscapeKeyDown` trigger function, when escape key is pressed while modal is active",
+								"tags": [
+									{
+										"tag": "argument",
+										"text": "{Event} event - DOM event\n"
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 147,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											}
+										],
+										"name": "KeyboardEvent"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Omit.onEscapeKeyDown"
+							}
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.onEscapeKeyDown"
+					}
+				},
+				{
+					"id": 143,
+					"name": "onOpen",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 144,
+							"name": "onOpen",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onOpen` trigger function, when modal is closed"
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Omit.onOpen"
+							}
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.onOpen"
+					}
+				},
+				{
+					"id": 136,
+					"name": "onOverlayClick",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 137,
+							"name": "onOverlayClick",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onOverlayClick` trigger function, when overlay is clicked",
+								"tags": [
+									{
+										"tag": "argument",
+										"text": "{Event} event - DOM event\n"
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 138,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											},
+											{
+												"type": "reference",
+												"name": "MouseEvent"
+											}
+										],
+										"name": "MouseEvent"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Omit.onOverlayClick"
+							}
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.onOverlayClick"
+					}
+				},
+				{
+					"id": 148,
+					"name": "onRendered",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 149,
+							"name": "onRendered",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onRendered` trigger function, when modal is closed"
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Omit.onRendered"
+							}
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.onRendered"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						123,
+						119,
+						122,
+						120,
+						125,
+						152,
+						126,
+						128,
+						129,
+						127,
+						130,
+						131,
+						132,
+						133,
+						134,
+						135,
+						150,
+						118,
+						124,
+						117,
+						151,
+						121
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						139,
+						145,
+						143,
+						136,
+						148
+					]
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"typeArguments": [
+						{
+							"type": "reference",
+							"id": 2,
+							"name": "ModalControllerProps"
+						},
+						{
+							"type": "literal",
+							"value": "modal"
+						}
+					],
+					"name": "Omit"
+				}
+			],
+			"extendedBy": [
+				{
+					"type": "reference",
+					"id": 79,
+					"name": "ModalControllerContextValues"
+				}
+			]
+		},
+		{
+			"id": 42,
+			"name": "ModalHandlerProps",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 43,
+					"name": "OverlayComponent",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Overlay component to display behind modal"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ElementType"
+					}
+				},
+				{
+					"id": 72,
+					"name": "as",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ElementType"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "BackyardBaseProps.as"
+					}
+				},
+				{
+					"id": 45,
+					"name": "children",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Children"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							},
+							{
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									},
+									{
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "JSXElementConstructor"
+									}
+								]
+							}
+						],
+						"name": "ReactElement"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.children"
+					}
+				},
+				{
+					"id": 46,
+					"name": "container",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Container object or function of modal to display"
+					},
+					"type": {
+						"type": "reference",
+						"name": "ReactInstance"
+					}
+				},
+				{
+					"id": 47,
+					"name": "disableAutoFocus",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not browser will auto focus on modal"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 49,
+					"name": "disableEnforceFocus",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not modal enforces focus (traps)"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 50,
+					"name": "disableEscapeKeyDown",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not escape key listener is active"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 48,
+					"name": "disableOverlayClick",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not overlay click listener is active"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 51,
+					"name": "disablePortal",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not portal is used to bring modal to root DOM"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 52,
+					"name": "disableRestoreFocus",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not modal restores focus"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 53,
+					"name": "disableScrollLock",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not scroll lock is disabled"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 54,
+					"name": "hideOverlay",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not overlay is hidden"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 55,
+					"name": "keepMounted",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not modal continues to be mounted when closed\nUseful for certain SEO conditions"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 56,
+					"name": "manager",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Class that manages modal state and properties"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					}
+				},
+				{
+					"id": 71,
+					"name": "open",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"shortText": "Whether or not modal is open"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.open"
+					}
+				},
+				{
+					"id": 44,
+					"name": "overlayProps",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Props to extend overlay component with\nUseful if the `style` prop needs to be different"
+					},
+					"type": {
+						"type": "reference",
+						"name": "OverlayProps"
+					}
+				},
+				{
+					"id": 60,
+					"name": "onClose",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 61,
+							"name": "onClose",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onClose` trigger function, when modal is closed",
+								"tags": [
+									{
+										"tag": "argument",
+										"text": "{Event} event - DOM event"
+									},
+									{
+										"tag": "argument",
+										"text": "{string} name - Name of event fired that caused modal to close\n"
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 62,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"type": {
+										"type": "reference",
+										"name": "ModalHandlerEvent"
+									}
+								},
+								{
+									"id": 63,
+									"name": "name",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				},
+				{
+					"id": 66,
+					"name": "onEscapeKeyDown",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 67,
+							"name": "onEscapeKeyDown",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onEscapeKeyDown` trigger function, when escape key is pressed while modal is active",
+								"tags": [
+									{
+										"tag": "argument",
+										"text": "{Event} event - DOM event\n"
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 68,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											}
+										],
+										"name": "KeyboardEvent"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				},
+				{
+					"id": 64,
+					"name": "onOpen",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 65,
+							"name": "onOpen",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onOpen` trigger function, when modal is closed"
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				},
+				{
+					"id": 57,
+					"name": "onOverlayClick",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 58,
+							"name": "onOverlayClick",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onOverlayClick` trigger function, when overlay is clicked",
+								"tags": [
+									{
+										"tag": "argument",
+										"text": "{Event} event - DOM event\n"
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 59,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											},
+											{
+												"type": "reference",
+												"name": "MouseEvent"
+											}
+										],
+										"name": "MouseEvent"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				},
+				{
+					"id": 69,
+					"name": "onRendered",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 70,
+							"name": "onRendered",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onRendered` trigger function, when modal is closed"
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						43,
+						72,
+						45,
+						46,
+						47,
+						49,
+						50,
+						48,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						71,
+						44
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						60,
+						66,
+						64,
+						57,
+						69
+					]
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"typeArguments": [
+						{
+							"type": "reference",
+							"id": 73,
+							"name": "ModalHandlerRef"
+						}
+					],
+					"name": "BackyardBaseProps"
+				}
+			]
+		},
+		{
+			"id": 40,
+			"name": "ModalControllerRef",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"type": {
+				"type": "reference",
+				"id": 73,
+				"name": "ModalHandlerRef"
+			}
+		},
+		{
+			"id": 73,
+			"name": "ModalHandlerRef",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"type": {
+				"type": "reference",
+				"name": "HTMLDivElement"
+			}
+		},
+		{
+			"id": 1,
+			"name": "ModalController",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"comment": {
+				"shortText": "Backyard React Modal Controller",
+				"text": "Extends from `ModalHandler` to offer and cleaner API to work with\n\nControls modal defined in `modal` prop with basic closing/opening handling\n\nFor more API controls integrated with this HOC, see `ModalHandler`\n\nExample:\n <ModalController\n     modal={(\n         <Modal>\n             <ModalHeader ... />\n             <ModalBody ... />\n             <ModalFooter ... />\n         </Modal>\n     )}\n />\n"
+			},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"id": 2,
+						"name": "ModalControllerProps"
+					}
+				],
+				"name": "BDSForwardRef"
+			},
+			"defaultValue": "..."
+		},
+		{
+			"id": 75,
+			"name": "ModalControllerConsumer",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"id": 79,
+						"name": "ModalControllerContextValues"
+					}
+				],
+				"name": "Consumer"
+			},
+			"defaultValue": "ModalControllerContext.Consumer"
+		},
+		{
+			"id": 74,
+			"name": "ModalControllerContext",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"id": 79,
+						"name": "ModalControllerContextValues"
+					}
+				],
+				"name": "Context"
+			},
+			"defaultValue": "..."
+		},
+		{
+			"id": 41,
+			"name": "ModalHandler",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"comment": {
+				"shortText": "Backyard React Modal Handler",
+				"text": "This component is used to extend the higher ordered component `ModalController`\nAbstracts some of the complexity for future extending, if needed\n\nHeavily influenced by Material UI's Modal Component",
+				"tags": [
+					{
+						"tag": "see",
+						"text": "https://github.com/mui-org/material-ui/blob/master/packages/material-ui/src/Modal/Modal.js\n"
+					}
+				]
+			},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"id": 42,
+						"name": "ModalHandlerProps"
+					}
+				],
+				"name": "BDSForwardRef"
+			},
+			"defaultValue": "..."
+		},
+		{
+			"id": 76,
+			"name": "ModalControllerProvider",
+			"kind": 64,
+			"kindString": "Function",
+			"flags": {
+				"isConst": true
+			},
+			"signatures": [
+				{
+					"id": 77,
+					"name": "ModalControllerProvider",
+					"kind": 4096,
+					"kindString": "Call signature",
+					"flags": {},
+					"comment": {
+						"shortText": "`ModalControllerProvider` Backyard React"
+					},
+					"parameters": [
+						{
+							"id": 78,
+							"name": "props",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {},
+							"comment": {
+								"shortText": "Modal props\n"
+							},
+							"originalName": "__namedParameters",
+							"type": {
+								"type": "reference",
+								"id": 116,
+								"name": "ModalControllerProviderProps"
+							}
+						}
+					],
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "reference",
+								"id": 116,
+								"name": "ModalControllerProviderProps"
+							},
+							{
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									},
+									{
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "JSXElementConstructor"
+									}
+								]
+							}
+						],
+						"name": "ReactElement"
+					}
+				}
+			]
+		},
+		{
+			"id": 153,
+			"name": "useModalController",
+			"kind": 64,
+			"kindString": "Function",
+			"flags": {
+				"isConst": true
+			},
+			"signatures": [
+				{
+					"id": 154,
+					"name": "useModalController",
+					"kind": 4096,
+					"kindString": "Call signature",
+					"flags": {},
+					"type": {
+						"type": "reference",
+						"id": 79,
+						"name": "ModalControllerContextValues"
+					}
+				}
+			]
+		}
+	],
+	"groups": [
+		{
+			"title": "References",
+			"kind": 16777216,
+			"children": [
+				155
+			]
+		},
+		{
+			"title": "Interfaces",
+			"kind": 256,
+			"children": [
+				79,
+				2,
+				116,
+				42
+			]
+		},
+		{
+			"title": "Type aliases",
+			"kind": 4194304,
+			"children": [
+				40,
+				73
+			]
+		},
+		{
+			"title": "Variables",
+			"kind": 32,
+			"children": [
+				1,
+				75,
+				74,
+				41
+			]
+		},
+		{
+			"title": "Functions",
+			"kind": 64,
+			"children": [
+				76,
+				153
+			]
+		}
+	]
+}

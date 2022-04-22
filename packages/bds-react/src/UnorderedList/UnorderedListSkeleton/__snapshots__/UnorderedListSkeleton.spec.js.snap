@@ -1,0 +1,738 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UnorderedListSkeleton Snapshots UnorderedListSkeleton animate snapshot 1`] = `
+<DocumentFragment>
+  .c1 {
+  background: var(--bds-color-skeleton-01);
+  position: relative;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.c1.style--animated::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--bds-color-skeleton-01);
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+  animation-direction: normal;
+  -webkit-animation-fill-mode: none;
+  animation-fill-mode: none;
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+}
+
+.c1.variant--circle {
+  width: 100%;
+  height: 1.5rem;
+  border-radius: var(--bds-border-radius-circle);
+}
+
+.c1.variant--rect {
+  width: 100%;
+  height: 1.5rem;
+}
+
+.c1.variant--rect.shape--rounded {
+  border-radius: var(--bds-border-radius-lg);
+}
+
+.c1.variant--rect.shape--squared {
+  border-radius: 0;
+}
+
+.c1.variant--text {
+  width: 100%;
+  height: 16px;
+  margin-bottom: var(--bds-sizes-size-6);
+}
+
+.c1.variant--text.shape--rounded {
+  border-radius: var(--bds-border-radius-lg);
+}
+
+.c1.variant--text.shape--squared {
+  border-radius: 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 18.75rem;
+}
+
+.c0.density--normal .variant--rect {
+  margin-top: 0.5rem;
+}
+
+.c0.density--comfort .variant--rect {
+  margin-top: 0.75rem;
+}
+
+.c0.density--condensed .variant--rect {
+  margin-top: 0.25rem;
+}
+
+<div
+    class="c0 Unordered-list--skeleton density--normal"
+    width="18.75rem"
+  >
+    <div
+      class="c1 variant--rect shape--rounded list-item--skeleton style--animated"
+      height="size_24"
+      width="100%"
+    />
+    <div
+      class="c1 variant--rect shape--rounded list-item--skeleton style--animated"
+      height="size_24"
+      width="100%"
+    />
+    <div
+      class="c1 variant--rect shape--rounded list-item--skeleton style--animated"
+      height="size_24"
+      width="100%"
+    />
+    <div
+      class="c1 variant--rect shape--rounded list-item--skeleton style--animated"
+      height="size_24"
+      width="100%"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`UnorderedListSkeleton Snapshots UnorderedListSkeleton comfort density snapshot 1`] = `
+<DocumentFragment>
+  .c1 {
+  background: var(--bds-color-skeleton-01);
+  position: relative;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.c1.style--animated::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--bds-color-skeleton-01);
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+  animation-direction: normal;
+  -webkit-animation-fill-mode: none;
+  animation-fill-mode: none;
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+}
+
+.c1.variant--circle {
+  width: 100%;
+  height: 1.5rem;
+  border-radius: var(--bds-border-radius-circle);
+}
+
+.c1.variant--rect {
+  width: 100%;
+  height: 1.5rem;
+}
+
+.c1.variant--rect.shape--rounded {
+  border-radius: var(--bds-border-radius-lg);
+}
+
+.c1.variant--rect.shape--squared {
+  border-radius: 0;
+}
+
+.c1.variant--text {
+  width: 100%;
+  height: 16px;
+  margin-bottom: var(--bds-sizes-size-6);
+}
+
+.c1.variant--text.shape--rounded {
+  border-radius: var(--bds-border-radius-lg);
+}
+
+.c1.variant--text.shape--squared {
+  border-radius: 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 18.75rem;
+}
+
+.c0.density--normal .variant--rect {
+  margin-top: 0.5rem;
+}
+
+.c0.density--comfort .variant--rect {
+  margin-top: 0.75rem;
+}
+
+.c0.density--condensed .variant--rect {
+  margin-top: 0.25rem;
+}
+
+<div
+    class="c0 Unordered-list--skeleton density--comfort"
+    width="18.75rem"
+  >
+    <div
+      class="c1 variant--rect shape--rounded list-item--skeleton style--default"
+      height="size_24"
+      width="100%"
+    />
+    <div
+      class="c1 variant--rect shape--rounded list-item--skeleton style--default"
+      height="size_24"
+      width="100%"
+    />
+    <div
+      class="c1 variant--rect shape--rounded list-item--skeleton style--default"
+      height="size_24"
+      width="100%"
+    />
+    <div
+      class="c1 variant--rect shape--rounded list-item--skeleton style--default"
+      height="size_24"
+      width="100%"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`UnorderedListSkeleton Snapshots UnorderedListSkeleton condensed density snapshot 1`] = `
+<DocumentFragment>
+  .c1 {
+  background: var(--bds-color-skeleton-01);
+  position: relative;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.c1.style--animated::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--bds-color-skeleton-01);
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+  animation-direction: normal;
+  -webkit-animation-fill-mode: none;
+  animation-fill-mode: none;
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+}
+
+.c1.variant--circle {
+  width: 100%;
+  height: 1.5rem;
+  border-radius: var(--bds-border-radius-circle);
+}
+
+.c1.variant--rect {
+  width: 100%;
+  height: 1.5rem;
+}
+
+.c1.variant--rect.shape--rounded {
+  border-radius: var(--bds-border-radius-lg);
+}
+
+.c1.variant--rect.shape--squared {
+  border-radius: 0;
+}
+
+.c1.variant--text {
+  width: 100%;
+  height: 16px;
+  margin-bottom: var(--bds-sizes-size-6);
+}
+
+.c1.variant--text.shape--rounded {
+  border-radius: var(--bds-border-radius-lg);
+}
+
+.c1.variant--text.shape--squared {
+  border-radius: 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 18.75rem;
+}
+
+.c0.density--normal .variant--rect {
+  margin-top: 0.5rem;
+}
+
+.c0.density--comfort .variant--rect {
+  margin-top: 0.75rem;
+}
+
+.c0.density--condensed .variant--rect {
+  margin-top: 0.25rem;
+}
+
+<div
+    class="c0 Unordered-list--skeleton density--condensed"
+    width="18.75rem"
+  >
+    <div
+      class="c1 variant--rect shape--rounded list-item--skeleton style--default"
+      height="size_24"
+      width="100%"
+    />
+    <div
+      class="c1 variant--rect shape--rounded list-item--skeleton style--default"
+      height="size_24"
+      width="100%"
+    />
+    <div
+      class="c1 variant--rect shape--rounded list-item--skeleton style--default"
+      height="size_24"
+      width="100%"
+    />
+    <div
+      class="c1 variant--rect shape--rounded list-item--skeleton style--default"
+      height="size_24"
+      width="100%"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`UnorderedListSkeleton Snapshots UnorderedListSkeleton custom width snapshot 1`] = `
+<DocumentFragment>
+  .c1 {
+  background: var(--bds-color-skeleton-01);
+  position: relative;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.c1.style--animated::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--bds-color-skeleton-01);
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+  animation-direction: normal;
+  -webkit-animation-fill-mode: none;
+  animation-fill-mode: none;
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+}
+
+.c1.variant--circle {
+  width: 100%;
+  height: 1.5rem;
+  border-radius: var(--bds-border-radius-circle);
+}
+
+.c1.variant--rect {
+  width: 100%;
+  height: 1.5rem;
+}
+
+.c1.variant--rect.shape--rounded {
+  border-radius: var(--bds-border-radius-lg);
+}
+
+.c1.variant--rect.shape--squared {
+  border-radius: 0;
+}
+
+.c1.variant--text {
+  width: 100%;
+  height: 16px;
+  margin-bottom: var(--bds-sizes-size-6);
+}
+
+.c1.variant--text.shape--rounded {
+  border-radius: var(--bds-border-radius-lg);
+}
+
+.c1.variant--text.shape--squared {
+  border-radius: 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 30rem;
+}
+
+.c0.density--normal .variant--rect {
+  margin-top: 0.5rem;
+}
+
+.c0.density--comfort .variant--rect {
+  margin-top: 0.75rem;
+}
+
+.c0.density--condensed .variant--rect {
+  margin-top: 0.25rem;
+}
+
+<div
+    class="c0 Unordered-list--skeleton density--normal"
+    width="30rem"
+  >
+    <div
+      class="c1 variant--rect shape--rounded list-item--skeleton style--default"
+      height="size_24"
+      width="100%"
+    />
+    <div
+      class="c1 variant--rect shape--rounded list-item--skeleton style--default"
+      height="size_24"
+      width="100%"
+    />
+    <div
+      class="c1 variant--rect shape--rounded list-item--skeleton style--default"
+      height="size_24"
+      width="100%"
+    />
+    <div
+      class="c1 variant--rect shape--rounded list-item--skeleton style--default"
+      height="size_24"
+      width="100%"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`UnorderedListSkeleton Snapshots UnorderedListSkeleton default snapshot 1`] = `
+<DocumentFragment>
+  .c1 {
+  background: var(--bds-color-skeleton-01);
+  position: relative;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.c1.style--animated::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--bds-color-skeleton-01);
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+  animation-direction: normal;
+  -webkit-animation-fill-mode: none;
+  animation-fill-mode: none;
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+}
+
+.c1.variant--circle {
+  width: 100%;
+  height: 1.5rem;
+  border-radius: var(--bds-border-radius-circle);
+}
+
+.c1.variant--rect {
+  width: 100%;
+  height: 1.5rem;
+}
+
+.c1.variant--rect.shape--rounded {
+  border-radius: var(--bds-border-radius-lg);
+}
+
+.c1.variant--rect.shape--squared {
+  border-radius: 0;
+}
+
+.c1.variant--text {
+  width: 100%;
+  height: 16px;
+  margin-bottom: var(--bds-sizes-size-6);
+}
+
+.c1.variant--text.shape--rounded {
+  border-radius: var(--bds-border-radius-lg);
+}
+
+.c1.variant--text.shape--squared {
+  border-radius: 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 18.75rem;
+}
+
+.c0.density--normal .variant--rect {
+  margin-top: 0.5rem;
+}
+
+.c0.density--comfort .variant--rect {
+  margin-top: 0.75rem;
+}
+
+.c0.density--condensed .variant--rect {
+  margin-top: 0.25rem;
+}
+
+<div
+    class="c0 Unordered-list--skeleton density--normal"
+    width="18.75rem"
+  >
+    <div
+      class="c1 variant--rect shape--rounded list-item--skeleton style--default"
+      height="size_24"
+      width="100%"
+    />
+    <div
+      class="c1 variant--rect shape--rounded list-item--skeleton style--default"
+      height="size_24"
+      width="100%"
+    />
+    <div
+      class="c1 variant--rect shape--rounded list-item--skeleton style--default"
+      height="size_24"
+      width="100%"
+    />
+    <div
+      class="c1 variant--rect shape--rounded list-item--skeleton style--default"
+      height="size_24"
+      width="100%"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`UnorderedListSkeleton Snapshots UnorderedListSkeleton multiple options snapshot 1`] = `
+<DocumentFragment>
+  .c1 {
+  background: var(--bds-color-skeleton-01);
+  position: relative;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.c1.style--animated::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--bds-color-skeleton-01);
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+  animation-direction: normal;
+  -webkit-animation-fill-mode: none;
+  animation-fill-mode: none;
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+}
+
+.c1.variant--circle {
+  width: 100%;
+  height: 1.5rem;
+  border-radius: var(--bds-border-radius-circle);
+}
+
+.c1.variant--rect {
+  width: 100%;
+  height: 1.5rem;
+}
+
+.c1.variant--rect.shape--rounded {
+  border-radius: var(--bds-border-radius-lg);
+}
+
+.c1.variant--rect.shape--squared {
+  border-radius: 0;
+}
+
+.c1.variant--text {
+  width: 100%;
+  height: 16px;
+  margin-bottom: var(--bds-sizes-size-6);
+}
+
+.c1.variant--text.shape--rounded {
+  border-radius: var(--bds-border-radius-lg);
+}
+
+.c1.variant--text.shape--squared {
+  border-radius: 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 18.75rem;
+}
+
+.c0.density--normal .variant--rect {
+  margin-top: 0.5rem;
+}
+
+.c0.density--comfort .variant--rect {
+  margin-top: 0.75rem;
+}
+
+.c0.density--condensed .variant--rect {
+  margin-top: 0.25rem;
+}
+
+<div
+    class="c0 Unordered-list--skeleton density--normal"
+    width="18.75rem"
+  >
+    <div
+      class="c1 variant--rect shape--rounded list-item--skeleton style--default"
+      height="size_24"
+      width="100%"
+    />
+    <div
+      class="c1 variant--rect shape--rounded list-item--skeleton style--default"
+      height="size_24"
+      width="100%"
+    />
+    <div
+      class="c1 variant--rect shape--rounded list-item--skeleton style--default"
+      height="size_24"
+      width="100%"
+    />
+    <div
+      class="c1 variant--rect shape--rounded list-item--skeleton style--default"
+      height="size_24"
+      width="100%"
+    />
+    <div
+      class="c1 variant--rect shape--rounded list-item--skeleton style--default"
+      height="size_24"
+      width="100%"
+    />
+  </div>
+</DocumentFragment>
+`;

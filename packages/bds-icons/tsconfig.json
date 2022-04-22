@@ -1,0 +1,16 @@
+{
+    "extends": "../../tsconfig",
+    "compilerOptions": {
+        "rootDir": "src",
+        "outDir": "./types",
+        "composite": true,
+    },
+    "include": [
+        ".src",
+        "src",
+        "styled.d.ts"
+    ],
+    "exclude": [
+        "dist"
+    ],
+}

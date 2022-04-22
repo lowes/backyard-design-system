@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalController Snapshots ModalController default snapshot 1`] = `<DocumentFragment />`;
+
+exports[`ModalController Snapshots extra props ModalController DOM props (id, className) snapshot 1`] = `<DocumentFragment />`;
+
+exports[`ModalController Snapshots themes ModalController dark theme snapshot 1`] = `<DocumentFragment />`;
+
+exports[`ModalController Snapshots themes ModalController light theme snapshot 1`] = `<DocumentFragment />`;

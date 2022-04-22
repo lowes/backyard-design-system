@@ -1,0 +1,1828 @@
+{
+	"id": 0,
+	"name": "@lowes-tech/bds-react/DatePickerNative",
+	"kind": 1,
+	"kindString": "Project",
+	"flags": {},
+	"children": [
+		{
+			"id": 85,
+			"name": "default",
+			"kind": 16777216,
+			"kindString": "Reference",
+			"flags": {},
+			"target": 1
+		},
+		{
+			"id": 5,
+			"name": "DatePickerNativeProps",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 19,
+					"name": "as",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ElementType"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.as"
+					}
+				},
+				{
+					"id": 77,
+					"name": "clearButtonProps",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"name": "IconButtonProps"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.clearButtonProps"
+					}
+				},
+				{
+					"id": 52,
+					"name": "component",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Component to render text input with"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									},
+									{
+										"type": "intrinsic",
+										"name": "any"
+									}
+								],
+								"name": "ComponentClass"
+							},
+							{
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									}
+								],
+								"name": "FunctionComponent"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.component"
+					}
+				},
+				{
+					"id": 59,
+					"name": "customIcon",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Boolean prop to have custom icons show correct coloring"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.customIcon"
+					}
+				},
+				{
+					"id": 6,
+					"name": "date",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Parsable date for the current date\nCan be updated externally and given as a default date",
+						"text": "It can accept the following values\n JS Date instance => `new Date(2020, 06, 19)`\n String date => `'2020-07-19'`\n Number timestamp => `1595116800`\n"
+					},
+					"type": {
+						"type": "reference",
+						"name": "ParsableDate"
+					}
+				},
+				{
+					"id": 7,
+					"name": "dates",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "List of parsable dates to only allow the user to select from",
+						"text": "It can accept the following values\n JS Date instance => `new Date(2020, 06, 19)`\n String date => `'2020-07-19'`\n Number timestamp => `1595116800`\n ParsableDateObject => {\n     label: 'Today, July 19, 2020',\n     value: '2020-07-19' // Can be any `ParsableDate`\n }\n ParsableDateRange => {\n     label: 'Today, July 19, 2020',\n     start: '2020-07-19' // Can be any `ParsableDate`\n     end: '2020-07-20' // Can be any `ParsableDate`\n }\n"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "array",
+								"elementType": {
+									"type": "reference",
+									"name": "ParsableDate"
+								}
+							},
+							{
+								"type": "array",
+								"elementType": {
+									"type": "reference",
+									"name": "ParsableDateObject"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": 24,
+					"name": "defaultValue",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.defaultValue"
+					}
+				},
+				{
+					"id": 66,
+					"name": "disableNative",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not native browser functionality is disabled"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.disableNative"
+					}
+				},
+				{
+					"id": 20,
+					"name": "disabled",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not input is disabled"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.disabled"
+					}
+				},
+				{
+					"id": 79,
+					"name": "format",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.format"
+					}
+				},
+				{
+					"id": 60,
+					"name": "hiddenLabel",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.hiddenLabel"
+					}
+				},
+				{
+					"id": 63,
+					"name": "iconClosed",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Icon displayed when closed"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							},
+							{
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									},
+									{
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "JSXElementConstructor"
+									}
+								]
+							}
+						],
+						"name": "ReactElement"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.iconClosed"
+					}
+				},
+				{
+					"id": 62,
+					"name": "iconOpened",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Icon displayed when opened"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							},
+							{
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									},
+									{
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "JSXElementConstructor"
+									}
+								]
+							}
+						],
+						"name": "ReactElement"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.iconOpened"
+					}
+				},
+				{
+					"id": 55,
+					"name": "interaction",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Initial interaction of component"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.interaction"
+					}
+				},
+				{
+					"id": 54,
+					"name": "itemAfter",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Icon displayed after text input"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							},
+							{
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									},
+									{
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "JSXElementConstructor"
+									}
+								]
+							}
+						],
+						"name": "ReactElement"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.itemAfter"
+					}
+				},
+				{
+					"id": 53,
+					"name": "itemBefore",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Icon displayed before text input"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							},
+							{
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									},
+									{
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "JSXElementConstructor"
+									}
+								]
+							}
+						],
+						"name": "ReactElement"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.itemBefore"
+					}
+				},
+				{
+					"id": 65,
+					"name": "mask",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "array",
+								"elementType": {
+									"type": "union",
+									"types": [
+										{
+											"type": "intrinsic",
+											"name": "string"
+										},
+										{
+											"type": "reference",
+											"name": "RegExp"
+										}
+									]
+								}
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.mask"
+					}
+				},
+				{
+					"id": 67,
+					"name": "maskPlaceholder",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.maskPlaceholder"
+					}
+				},
+				{
+					"id": 9,
+					"name": "maxDate",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Parsable date to disable all dates after given date"
+					},
+					"type": {
+						"type": "reference",
+						"name": "ParsableDate"
+					}
+				},
+				{
+					"id": 8,
+					"name": "minDate",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Parsable date to disable all dates before given date"
+					},
+					"type": {
+						"type": "reference",
+						"name": "ParsableDate"
+					}
+				},
+				{
+					"id": 34,
+					"name": "onBlur",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "`onBlur` trigger event"
+					},
+					"type": {
+						"type": "intersection",
+						"types": [
+							{
+								"type": "reflection",
+								"declaration": {
+									"id": 35,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {},
+									"signatures": [
+										{
+											"id": 36,
+											"name": "__type",
+											"kind": 4096,
+											"kindString": "Call signature",
+											"flags": {},
+											"comment": {
+												"shortText": "`onBlur` trigger event"
+											},
+											"parameters": [
+												{
+													"id": 37,
+													"name": "event",
+													"kind": 32768,
+													"kindString": "Parameter",
+													"flags": {},
+													"type": {
+														"type": "reference",
+														"typeArguments": [
+															{
+																"type": "reference",
+																"name": "Element"
+															},
+															{
+																"type": "reference",
+																"name": "Element"
+															}
+														],
+														"name": "FocusEvent"
+													}
+												},
+												{
+													"id": 38,
+													"name": "value",
+													"kind": 32768,
+													"kindString": "Parameter",
+													"flags": {},
+													"type": {
+														"type": "intrinsic",
+														"name": "any"
+													}
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "void"
+											}
+										}
+									]
+								}
+							},
+							{
+								"type": "reflection",
+								"declaration": {
+									"id": 39,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {},
+									"signatures": [
+										{
+											"id": 40,
+											"name": "__type",
+											"kind": 4096,
+											"kindString": "Call signature",
+											"flags": {},
+											"comment": {
+												"shortText": "`onBlur` trigger event"
+											},
+											"parameters": [
+												{
+													"id": 41,
+													"name": "event",
+													"kind": 32768,
+													"kindString": "Parameter",
+													"flags": {},
+													"comment": {
+														"shortText": "DOM Event"
+													},
+													"type": {
+														"type": "reference",
+														"typeArguments": [
+															{
+																"type": "reference",
+																"name": "HTMLSelectElement"
+															},
+															{
+																"type": "reference",
+																"name": "Element"
+															}
+														],
+														"name": "FocusEvent"
+													}
+												},
+												{
+													"id": 42,
+													"name": "option",
+													"kind": 32768,
+													"kindString": "Parameter",
+													"flags": {},
+													"comment": {
+														"shortText": "option info object\n"
+													},
+													"type": {
+														"type": "reference",
+														"name": "SelectOptionInfo"
+													}
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "void"
+											}
+										}
+									]
+								}
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.onBlur"
+					}
+				},
+				{
+					"id": 43,
+					"name": "onClick",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "`onChange` trigger event"
+					},
+					"type": {
+						"type": "intersection",
+						"types": [
+							{
+								"type": "reflection",
+								"declaration": {
+									"id": 44,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {},
+									"signatures": [
+										{
+											"id": 45,
+											"name": "__type",
+											"kind": 4096,
+											"kindString": "Call signature",
+											"flags": {},
+											"comment": {
+												"shortText": "`onChange` trigger event"
+											},
+											"parameters": [
+												{
+													"id": 46,
+													"name": "event",
+													"kind": 32768,
+													"kindString": "Parameter",
+													"flags": {},
+													"type": {
+														"type": "reference",
+														"typeArguments": [
+															{
+																"type": "reference",
+																"name": "Element"
+															},
+															{
+																"type": "reference",
+																"name": "MouseEvent"
+															}
+														],
+														"name": "MouseEvent"
+													}
+												},
+												{
+													"id": 47,
+													"name": "value",
+													"kind": 32768,
+													"kindString": "Parameter",
+													"flags": {},
+													"type": {
+														"type": "intrinsic",
+														"name": "any"
+													}
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "void"
+											}
+										}
+									]
+								}
+							},
+							{
+								"type": "reflection",
+								"declaration": {
+									"id": 48,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {},
+									"signatures": [
+										{
+											"id": 49,
+											"name": "__type",
+											"kind": 4096,
+											"kindString": "Call signature",
+											"flags": {},
+											"comment": {
+												"shortText": "`onClick` trigger event"
+											},
+											"parameters": [
+												{
+													"id": 50,
+													"name": "event",
+													"kind": 32768,
+													"kindString": "Parameter",
+													"flags": {},
+													"comment": {
+														"shortText": "DOM Event"
+													},
+													"type": {
+														"type": "reference",
+														"typeArguments": [
+															{
+																"type": "reference",
+																"name": "HTMLSelectElement"
+															},
+															{
+																"type": "reference",
+																"name": "MouseEvent"
+															}
+														],
+														"name": "MouseEvent"
+													}
+												},
+												{
+													"id": 51,
+													"name": "option",
+													"kind": 32768,
+													"kindString": "Parameter",
+													"flags": {},
+													"comment": {
+														"shortText": "option info object\n"
+													},
+													"type": {
+														"type": "reference",
+														"name": "SelectOptionInfo"
+													}
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "void"
+											}
+										}
+									]
+								}
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.onClick"
+					}
+				},
+				{
+					"id": 25,
+					"name": "onFocus",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "`onFocus` trigger event"
+					},
+					"type": {
+						"type": "intersection",
+						"types": [
+							{
+								"type": "reflection",
+								"declaration": {
+									"id": 26,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {},
+									"signatures": [
+										{
+											"id": 27,
+											"name": "__type",
+											"kind": 4096,
+											"kindString": "Call signature",
+											"flags": {},
+											"comment": {
+												"shortText": "`onFocus` trigger event"
+											},
+											"parameters": [
+												{
+													"id": 28,
+													"name": "event",
+													"kind": 32768,
+													"kindString": "Parameter",
+													"flags": {},
+													"type": {
+														"type": "reference",
+														"typeArguments": [
+															{
+																"type": "reference",
+																"name": "Element"
+															},
+															{
+																"type": "reference",
+																"name": "Element"
+															}
+														],
+														"name": "FocusEvent"
+													}
+												},
+												{
+													"id": 29,
+													"name": "value",
+													"kind": 32768,
+													"kindString": "Parameter",
+													"flags": {},
+													"type": {
+														"type": "intrinsic",
+														"name": "any"
+													}
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "void"
+											}
+										}
+									]
+								}
+							},
+							{
+								"type": "reflection",
+								"declaration": {
+									"id": 30,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {},
+									"signatures": [
+										{
+											"id": 31,
+											"name": "__type",
+											"kind": 4096,
+											"kindString": "Call signature",
+											"flags": {},
+											"comment": {
+												"shortText": "`onFocus` trigger event"
+											},
+											"parameters": [
+												{
+													"id": 32,
+													"name": "event",
+													"kind": 32768,
+													"kindString": "Parameter",
+													"flags": {},
+													"comment": {
+														"shortText": "DOM Event"
+													},
+													"type": {
+														"type": "reference",
+														"typeArguments": [
+															{
+																"type": "reference",
+																"name": "HTMLSelectElement"
+															},
+															{
+																"type": "reference",
+																"name": "Element"
+															}
+														],
+														"name": "FocusEvent"
+													}
+												},
+												{
+													"id": 33,
+													"name": "option",
+													"kind": 32768,
+													"kindString": "Parameter",
+													"flags": {},
+													"comment": {
+														"shortText": "option info object\n"
+													},
+													"type": {
+														"type": "reference",
+														"name": "SelectOptionInfo"
+													}
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "void"
+											}
+										}
+									]
+								}
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.onFocus"
+					}
+				},
+				{
+					"id": 61,
+					"name": "options",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "array",
+								"elementType": {
+									"type": "reference",
+									"name": "ParsableDate"
+								}
+							},
+							{
+								"type": "array",
+								"elementType": {
+									"type": "reference",
+									"name": "ParsableDateObject"
+								}
+							},
+							{
+								"type": "array",
+								"elementType": {
+									"type": "reference",
+									"name": "ParsableDateRange"
+								}
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.options"
+					}
+				},
+				{
+					"id": 78,
+					"name": "optionsLabel",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.optionsLabel"
+					}
+				},
+				{
+					"id": 76,
+					"name": "selectWrapperProps",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "object"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.selectWrapperProps"
+					}
+				},
+				{
+					"id": 18,
+					"name": "shape",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Shape of the input"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "rounded"
+							},
+							{
+								"type": "literal",
+								"value": "squared"
+							}
+						]
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.shape"
+					}
+				},
+				{
+					"id": 21,
+					"name": "size",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Size of component."
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "small"
+							},
+							{
+								"type": "literal",
+								"value": "large"
+							},
+							{
+								"type": "literal",
+								"value": "medium"
+							},
+							{
+								"type": "literal",
+								"value": "jumbo"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.size"
+					}
+				},
+				{
+					"id": 64,
+					"name": "stacked",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.stacked"
+					}
+				},
+				{
+					"id": 56,
+					"name": "state",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Visual state of component"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "default"
+							},
+							{
+								"type": "literal",
+								"value": "error"
+							},
+							{
+								"type": "literal",
+								"value": "success"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.state"
+					}
+				},
+				{
+					"id": 58,
+					"name": "suffix",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Adding a suffix abbreviation to the end of the field"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.suffix"
+					}
+				},
+				{
+					"id": 75,
+					"name": "textWrapperProps",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "intersection",
+						"types": [
+							{
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "reference",
+										"name": "HTMLDivElement"
+									},
+									{
+										"type": "literal",
+										"value": ""
+									}
+								],
+								"name": "BackyardBaseProps"
+							},
+							{
+								"type": "intrinsic",
+								"name": "object"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.textWrapperProps"
+					}
+				},
+				{
+					"id": 22,
+					"name": "type",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "date"
+							},
+							{
+								"type": "literal",
+								"value": "time"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.type"
+					}
+				},
+				{
+					"id": 23,
+					"name": "value",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.value"
+					}
+				},
+				{
+					"id": 57,
+					"name": "wrapperProps",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "reference",
+								"name": "HTMLDivElement"
+							},
+							{
+								"type": "literal",
+								"value": ""
+							}
+						],
+						"name": "BackyardBaseProps"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.wrapperProps"
+					}
+				},
+				{
+					"id": 68,
+					"name": "beforeMaskedStateChange",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 69,
+							"name": "beforeMaskedStateChange",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 70,
+									"name": "nextState",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"type": {
+										"type": "reference",
+										"name": "InputState"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "InputState"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Omit.beforeMaskedStateChange"
+							}
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.beforeMaskedStateChange"
+					}
+				},
+				{
+					"id": 10,
+					"name": "onChange",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 11,
+							"name": "onChange",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onChange` trigger function for when either\nthe native component or the custom calendar change interaction occurs"
+							},
+							"parameters": [
+								{
+									"id": 12,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											}
+										],
+										"name": "ChangeEvent"
+									}
+								},
+								{
+									"id": 13,
+									"name": "value",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"id": 80,
+										"name": "DatePickerNativeChangeInfo"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				},
+				{
+					"id": 14,
+					"name": "onClear",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 15,
+							"name": "onClear",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onClear` trigger function for when\nthe clear button is clicked"
+							},
+							"parameters": [
+								{
+									"id": 16,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											},
+											{
+												"type": "reference",
+												"name": "MouseEvent"
+											}
+										],
+										"name": "MouseEvent"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"overwrites": {
+								"type": "reference",
+								"name": "Omit.onClear"
+							}
+						}
+					],
+					"overwrites": {
+						"type": "reference",
+						"name": "Omit.onClear"
+					}
+				},
+				{
+					"id": 71,
+					"name": "onDateChange",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 72,
+							"name": "onDateChange",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 73,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											}
+										],
+										"name": "ChangeEvent"
+									}
+								},
+								{
+									"id": 74,
+									"name": "info",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"name": "TextPickerInfo"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Omit.onDateChange"
+							}
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.onDateChange"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						19,
+						77,
+						52,
+						59,
+						6,
+						7,
+						24,
+						66,
+						20,
+						79,
+						60,
+						63,
+						62,
+						55,
+						54,
+						53,
+						65,
+						67,
+						9,
+						8,
+						34,
+						43,
+						25,
+						61,
+						78,
+						76,
+						18,
+						21,
+						64,
+						56,
+						58,
+						75,
+						22,
+						23,
+						57
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						68,
+						10,
+						14,
+						71
+					]
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"typeArguments": [
+						{
+							"type": "reference",
+							"name": "SelectAndTextPickerProps"
+						},
+						{
+							"type": "reference",
+							"name": "DatePickerNativeOverrideProps"
+						}
+					],
+					"name": "Omit"
+				}
+			]
+		},
+		{
+			"id": 80,
+			"name": "DatePickerNativeChangeInfo",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"type": {
+				"type": "reflection",
+				"declaration": {
+					"id": 81,
+					"name": "__type",
+					"kind": 65536,
+					"kindString": "Type literal",
+					"flags": {},
+					"children": [
+						{
+							"id": 84,
+							"name": "date",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {},
+							"comment": {
+								"shortText": "Parsed date or range of dates"
+							},
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "reference",
+										"name": "Date"
+									},
+									{
+										"type": "array",
+										"elementType": {
+											"type": "reference",
+											"name": "Date"
+										}
+									}
+								]
+							}
+						},
+						{
+							"id": 82,
+							"name": "from",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {},
+							"comment": {
+								"shortText": "Info from either `TextPicker` or `SelectPicker`"
+							},
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "literal",
+										"value": "TextPicker"
+									},
+									{
+										"type": "literal",
+										"value": "SelectPicker"
+									}
+								]
+							}
+						},
+						{
+							"id": 83,
+							"name": "value",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {},
+							"comment": {
+								"shortText": "Value is always a string"
+							},
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									},
+									{
+										"type": "intrinsic",
+										"name": "number"
+									}
+								]
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								84,
+								82,
+								83
+							]
+						}
+					]
+				}
+			}
+		},
+		{
+			"id": 4,
+			"name": "DatePickerNativeRef",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"type": {
+				"type": "union",
+				"types": [
+					{
+						"type": "reference",
+						"name": "TextPickerRef"
+					},
+					{
+						"type": "reference",
+						"name": "SelectPickerRef"
+					}
+				]
+			}
+		},
+		{
+			"id": 1,
+			"name": "DatePickerNative",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"comment": {
+				"shortText": "Backyard React Date Picker Native",
+				"text": "`DatePickerNative` is used for selecting dates from a calendar through the native browser.\nIt is only intended to be used in mobile-only environments to save data size.\n\nThe text input of the picker uses `type` === 'date'.\n\nThis component has many variants dependending on the props given.\n\nFor a regular Date Picker with all dates selectable, use the default:\n```\n <DatePickerNative />\n```\n> This Date Picker gives the user a text `input` with `type` === 'date'\n> For browsers that don't support `type` === 'date', this will gracefully default to `type` === 'text'\n> Does not include masking\n\nFor a date picker that only allows the user to select certain dates, use the `dates` prop:\n```\n <DatePickerNative\n     label=\"Record Date\"\n     dates={[\n         { label: 'Yesterday 8:00 AM', value: '2020-07-18' },\n         { label: 'Today 9:15 AM', value: '2020-07-19' },\n         { label: 'Tomorrow 9:45 AM', value: '2020-07-20' }\n     ]}\n />\n // Or...\n <DatePickerNative\n     label=\"Record Date\"\n     dates={[\n         '2020-07-18',\n         '2020-07-19',\n         '2020-07-20'\n     ]}\n />\n // Or...\n <DatePickerNative\n     label=\"Record Date\"\n     dates={[\n         new Date(2020, 06, 18),\n         new Date(2020, 06, 19),\n         new Date(2020, 06, 20)\n     ]}\n />\n```\n> This Date Picker gives the user a `select`\n> `dates` can take a list of `Date`s, date strings ('yyyy-MM-dd'), or an option object for custom labels with the value\n\nFor a less defined date picker that has a min, max, and some disabled dates in between, you can also use:\n```\n <DatePickerNative\n     label=\"Record Date\"\n     minDate=\"2020-07-10\"\n     maxDate=\"2020-07-27\"\n />\n```\n> This Date Picker gives the user a text `input`\n> On mobile displays, uses the native `date` input\n >> NOTE: mobile browsers will utilize `minDate` and `maxDate`\n\nThe props `date`, `minDate`, `maxDate`, and `disabledDates` all use the `ParsableDate` type\nThey can accept the following values as inputs:\n JS Date instance => `new Date(2020, 06, 19)`\n String date => `'2020-07-19'`\n Number timestamp => `1595116800`\n\nThe prop `dates` can accept the `ParsableDateObject` or the `ParsableDateRange` types in addition to `ParsableDate`\nIt can accept the following values\n JS Date instance => `new Date(2020, 06, 19)`\n String date => `'2020-07-19'`\n Number timestamp => `1595116800`\n ParsableDateObject => {\n     label: 'Today, July 19, 2020',\n     value: '2020-07-19' // Can be any `ParsableDate`\n }\n ParsableDateRange => {\n     label: 'Today, July 19, 2020',\n     start: '2020-07-19' // Can be any `ParsableDate`\n     end: '2020-07-20' // Can be any `ParsableDate`\n }\n"
+			},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "intersection",
+						"types": [
+							{
+								"type": "reference",
+								"id": 5,
+								"name": "DatePickerNativeProps"
+							},
+							{
+								"type": "reflection",
+								"declaration": {
+									"id": 2,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {},
+									"children": [
+										{
+											"id": 3,
+											"name": "ref",
+											"kind": 1024,
+											"kindString": "Property",
+											"flags": {
+												"isOptional": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"groups": [
+										{
+											"title": "Properties",
+											"kind": 1024,
+											"children": [
+												3
+											]
+										}
+									]
+								}
+							}
+						]
+					}
+				],
+				"name": "BDSForwardRef"
+			},
+			"defaultValue": "..."
+		}
+	],
+	"groups": [
+		{
+			"title": "References",
+			"kind": 16777216,
+			"children": [
+				85
+			]
+		},
+		{
+			"title": "Interfaces",
+			"kind": 256,
+			"children": [
+				5
+			]
+		},
+		{
+			"title": "Type aliases",
+			"kind": 4194304,
+			"children": [
+				80,
+				4
+			]
+		},
+		{
+			"title": "Variables",
+			"kind": 32,
+			"children": [
+				1
+			]
+		}
+	]
+}

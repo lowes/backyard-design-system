@@ -1,0 +1,838 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BreadcrumbDesktop Snapshots BreadcrumbDesktop default snapshot 1`] = `
+<DocumentFragment>
+  .c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-text-decoration: var(--bds-link-style-underline);
+  text-decoration: var(--bds-link-style-underline);
+}
+
+.c2 .link-label {
+  display: inherit;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  font-family: var(--bds-link-style-font-family);
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c2 .link-label.bold,
+.c2 .link-label b,
+.c2 .link-label bold,
+.c2 .link-label strong {
+  font-family: var(--bds-link-style-font-family);
+  font-weight: var(--bds-link-style-font-weight);
+}
+
+.c2 .link-label .link-start-icon,
+.c2 .link-label .link-end-icon {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 .link-label .link-start-icon {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c2 .link-label .link-end-icon {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c2,
+.c2:visited,
+.c2:hover,
+.c2:active {
+  color: var(--bds-link-style-color);
+  -webkit-text-decoration-color: var(--bds-link-style-color);
+  text-decoration-color: var(--bds-link-style-color);
+}
+
+.c2 .icon path,
+.c2:visited .icon path,
+.c2:hover .icon path,
+.c2:active .icon path,
+.c2 .link-start-icon path,
+.c2:visited .link-start-icon path,
+.c2:hover .link-start-icon path,
+.c2:active .link-start-icon path,
+.c2 .link-end-icon path,
+.c2:visited .link-end-icon path,
+.c2:hover .link-end-icon path,
+.c2:active .link-end-icon path {
+  fill: var(--bds-link-style-color);
+}
+
+.c2.size--small .link-label {
+  font-size: var(--bds-sizes-size-12);
+  line-height: var(--bds-sizes-size-16);
+}
+
+.c2.size--small .link-start-icon,
+.c2.size--small .link-end-icon {
+  width: var(--bds-sizes-size-12);
+  height: var(--bds-sizes-size-12);
+}
+
+.c2.size--medium .link-label {
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-24);
+}
+
+.c2.size--medium .link-start-icon,
+.c2.size--medium .link-end-icon {
+  width: var(--bds-sizes-size-14);
+  height: var(--bds-sizes-size-14);
+}
+
+.c2:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c2:focus {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c2.c2.c2 {
+  outline: none;
+  vertical-align: bottom;
+  white-space: nowrap;
+}
+
+.c2.c2.c2::-moz-focus-inner {
+  border: 0;
+}
+
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+}
+
+.c0 ol {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 li {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 li + li::before {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0 0.5rem;
+  -webkit-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  transform: rotate(15deg);
+  border-right: 0.1rem solid var(--bds-color-text-primary);
+  height: 0.8rem;
+  content: '';
+}
+
+.c0 a {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0 [aria-current='page'] {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+@media only screen and (min-width:82rem) {
+  .c2.size--small.c1.size--small .link-label {
+    font-size: var(--bds-sizes-size-14);
+    line-height: var(--bds-sizes-size-24);
+  }
+
+  .c2.size--small.c1.size--small .link-start-icon,
+  .c2.size--small.c2.size--small .link-end-icon {
+    width: var(--bds-sizes-size-14);
+    height: var(--bds-sizes-size-14);
+  }
+}
+
+@media only screen and (min-width:82rem) {
+  .c2.size--medium.c1.size--medium .link-label {
+    font-size: var(--bds-sizes-size-16);
+    line-height: var(--bds-sizes-size-24);
+  }
+
+  .c2.size--medium.c1.size--medium .link-start-icon,
+  .c2.size--medium.c2.size--medium .link-end-icon {
+    width: var(--bds-sizes-size-16);
+    height: var(--bds-sizes-size-16);
+  }
+}
+
+<nav
+    aria-label="Breadcrumb"
+    class="c0 breadcrumb-desktop custom-class-name"
+  >
+    <ol>
+      <li>
+        <a
+          class="c1 c2 backyard link size--medium color--interactive crumb crumb-desktop crumb-1"
+          href="/"
+          style="--bds-link-style-color: hsl(213, 84%, 45%, 1); --bds-link-style-breakpoint: 82rem; --bds-link-style-font-family: Roboto, Helvetica, Arial, sans-serif; --bds-link-style-font-weight: 500; --bds-link-style-underline: none;"
+        >
+          <span
+            class="label link-label bold"
+          >
+            Appliances
+          </span>
+        </a>
+      </li>
+      <li>
+        <a
+          class="c1 c2 backyard link size--medium color--interactive crumb crumb-desktop crumb-2"
+          href="/"
+          style="--bds-link-style-color: hsl(213, 84%, 45%, 1); --bds-link-style-breakpoint: 82rem; --bds-link-style-font-family: Roboto, Helvetica, Arial, sans-serif; --bds-link-style-font-weight: 500; --bds-link-style-underline: none;"
+        >
+          <span
+            class="label link-label bold"
+          >
+            Refrigerators
+          </span>
+        </a>
+      </li>
+      <li>
+        <a
+          aria-current="page"
+          class="c1 c2 backyard link size--medium color--primary crumb crumb-desktop crumb-3 currentPage"
+          href="/"
+          style="--bds-link-style-color: hsl(0, 0%, 0%, 1); --bds-link-style-breakpoint: 82rem; --bds-link-style-font-family: Roboto, Helvetica, Arial, sans-serif; --bds-link-style-font-weight: 500; --bds-link-style-underline: none;"
+        >
+          <span
+            class="label link-label"
+          >
+            French Door Refrigerators
+          </span>
+        </a>
+      </li>
+    </ol>
+  </nav>
+</DocumentFragment>
+`;
+
+exports[`BreadcrumbDesktop Snapshots themes BreadcrumbDesktop dark theme snapshot 1`] = `
+<DocumentFragment>
+  .c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-text-decoration: var(--bds-link-style-underline);
+  text-decoration: var(--bds-link-style-underline);
+}
+
+.c2 .link-label {
+  display: inherit;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  font-family: var(--bds-link-style-font-family);
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c2 .link-label.bold,
+.c2 .link-label b,
+.c2 .link-label bold,
+.c2 .link-label strong {
+  font-family: var(--bds-link-style-font-family);
+  font-weight: var(--bds-link-style-font-weight);
+}
+
+.c2 .link-label .link-start-icon,
+.c2 .link-label .link-end-icon {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 .link-label .link-start-icon {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c2 .link-label .link-end-icon {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c2,
+.c2:visited,
+.c2:hover,
+.c2:active {
+  color: var(--bds-link-style-color);
+  -webkit-text-decoration-color: var(--bds-link-style-color);
+  text-decoration-color: var(--bds-link-style-color);
+}
+
+.c2 .icon path,
+.c2:visited .icon path,
+.c2:hover .icon path,
+.c2:active .icon path,
+.c2 .link-start-icon path,
+.c2:visited .link-start-icon path,
+.c2:hover .link-start-icon path,
+.c2:active .link-start-icon path,
+.c2 .link-end-icon path,
+.c2:visited .link-end-icon path,
+.c2:hover .link-end-icon path,
+.c2:active .link-end-icon path {
+  fill: var(--bds-link-style-color);
+}
+
+.c2.size--small .link-label {
+  font-size: var(--bds-sizes-size-12);
+  line-height: var(--bds-sizes-size-16);
+}
+
+.c2.size--small .link-start-icon,
+.c2.size--small .link-end-icon {
+  width: var(--bds-sizes-size-12);
+  height: var(--bds-sizes-size-12);
+}
+
+.c2.size--medium .link-label {
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-24);
+}
+
+.c2.size--medium .link-start-icon,
+.c2.size--medium .link-end-icon {
+  width: var(--bds-sizes-size-14);
+  height: var(--bds-sizes-size-14);
+}
+
+.c2:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c2:focus {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c2.c2.c2 {
+  outline: none;
+  vertical-align: bottom;
+  white-space: nowrap;
+}
+
+.c2.c2.c2::-moz-focus-inner {
+  border: 0;
+}
+
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+}
+
+.c0 ol {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 li {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 li + li::before {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0 0.5rem;
+  -webkit-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  transform: rotate(15deg);
+  border-right: 0.1rem solid var(--bds-color-text-primary);
+  height: 0.8rem;
+  content: '';
+}
+
+.c0 a {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0 [aria-current='page'] {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+@media only screen and (min-width:82rem) {
+  .c2.size--small.c1.size--small .link-label {
+    font-size: var(--bds-sizes-size-14);
+    line-height: var(--bds-sizes-size-24);
+  }
+
+  .c2.size--small.c1.size--small .link-start-icon,
+  .c2.size--small.c2.size--small .link-end-icon {
+    width: var(--bds-sizes-size-14);
+    height: var(--bds-sizes-size-14);
+  }
+}
+
+@media only screen and (min-width:82rem) {
+  .c2.size--medium.c1.size--medium .link-label {
+    font-size: var(--bds-sizes-size-16);
+    line-height: var(--bds-sizes-size-24);
+  }
+
+  .c2.size--medium.c1.size--medium .link-start-icon,
+  .c2.size--medium.c2.size--medium .link-end-icon {
+    width: var(--bds-sizes-size-16);
+    height: var(--bds-sizes-size-16);
+  }
+}
+
+<nav
+    aria-label="Breadcrumb"
+    class="c0 breadcrumb-desktop custom-class-name"
+  >
+    <ol>
+      <li>
+        <a
+          class="c1 c2 backyard link size--medium color--interactive crumb crumb-desktop crumb-1"
+          href="/"
+          style="--bds-link-style-color: hsl(213, 73%, 68%, 1); --bds-link-style-breakpoint: 82rem; --bds-link-style-font-family: Roboto, Helvetica, Arial, sans-serif; --bds-link-style-font-weight: 500; --bds-link-style-underline: none;"
+        >
+          <span
+            class="label link-label bold"
+          >
+            Appliances
+          </span>
+        </a>
+      </li>
+      <li>
+        <a
+          class="c1 c2 backyard link size--medium color--interactive crumb crumb-desktop crumb-2"
+          href="/"
+          style="--bds-link-style-color: hsl(213, 73%, 68%, 1); --bds-link-style-breakpoint: 82rem; --bds-link-style-font-family: Roboto, Helvetica, Arial, sans-serif; --bds-link-style-font-weight: 500; --bds-link-style-underline: none;"
+        >
+          <span
+            class="label link-label bold"
+          >
+            Refrigerators
+          </span>
+        </a>
+      </li>
+      <li>
+        <a
+          aria-current="page"
+          class="c1 c2 backyard link size--medium color--primary crumb crumb-desktop crumb-3 currentPage"
+          href="/"
+          style="--bds-link-style-color: hsl(0, 0%, 100%, 1); --bds-link-style-breakpoint: 82rem; --bds-link-style-font-family: Roboto, Helvetica, Arial, sans-serif; --bds-link-style-font-weight: 500; --bds-link-style-underline: none;"
+        >
+          <span
+            class="label link-label"
+          >
+            French Door Refrigerators
+          </span>
+        </a>
+      </li>
+    </ol>
+  </nav>
+</DocumentFragment>
+`;
+
+exports[`BreadcrumbDesktop Snapshots themes BreadcrumbDesktop light theme snapshot 1`] = `
+<DocumentFragment>
+  .c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-text-decoration: var(--bds-link-style-underline);
+  text-decoration: var(--bds-link-style-underline);
+}
+
+.c2 .link-label {
+  display: inherit;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  font-family: var(--bds-link-style-font-family);
+  font-weight: var(--bds-font-weight-regular);
+}
+
+.c2 .link-label.bold,
+.c2 .link-label b,
+.c2 .link-label bold,
+.c2 .link-label strong {
+  font-family: var(--bds-link-style-font-family);
+  font-weight: var(--bds-link-style-font-weight);
+}
+
+.c2 .link-label .link-start-icon,
+.c2 .link-label .link-end-icon {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 .link-label .link-start-icon {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c2 .link-label .link-end-icon {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c2,
+.c2:visited,
+.c2:hover,
+.c2:active {
+  color: var(--bds-link-style-color);
+  -webkit-text-decoration-color: var(--bds-link-style-color);
+  text-decoration-color: var(--bds-link-style-color);
+}
+
+.c2 .icon path,
+.c2:visited .icon path,
+.c2:hover .icon path,
+.c2:active .icon path,
+.c2 .link-start-icon path,
+.c2:visited .link-start-icon path,
+.c2:hover .link-start-icon path,
+.c2:active .link-start-icon path,
+.c2 .link-end-icon path,
+.c2:visited .link-end-icon path,
+.c2:hover .link-end-icon path,
+.c2:active .link-end-icon path {
+  fill: var(--bds-link-style-color);
+}
+
+.c2.size--small .link-label {
+  font-size: var(--bds-sizes-size-12);
+  line-height: var(--bds-sizes-size-16);
+}
+
+.c2.size--small .link-start-icon,
+.c2.size--small .link-end-icon {
+  width: var(--bds-sizes-size-12);
+  height: var(--bds-sizes-size-12);
+}
+
+.c2.size--medium .link-label {
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-24);
+}
+
+.c2.size--medium .link-start-icon,
+.c2.size--medium .link-end-icon {
+  width: var(--bds-sizes-size-14);
+  height: var(--bds-sizes-size-14);
+}
+
+.c2:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c2:focus {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c2.c2.c2 {
+  outline: none;
+  vertical-align: bottom;
+  white-space: nowrap;
+}
+
+.c2.c2.c2::-moz-focus-inner {
+  border: 0;
+}
+
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+}
+
+.c0 ol {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 li {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 li + li::before {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0 0.5rem;
+  -webkit-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  transform: rotate(15deg);
+  border-right: 0.1rem solid var(--bds-color-text-primary);
+  height: 0.8rem;
+  content: '';
+}
+
+.c0 a {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0 [aria-current='page'] {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+@media only screen and (min-width:82rem) {
+  .c2.size--small.c1.size--small .link-label {
+    font-size: var(--bds-sizes-size-14);
+    line-height: var(--bds-sizes-size-24);
+  }
+
+  .c2.size--small.c1.size--small .link-start-icon,
+  .c2.size--small.c2.size--small .link-end-icon {
+    width: var(--bds-sizes-size-14);
+    height: var(--bds-sizes-size-14);
+  }
+}
+
+@media only screen and (min-width:82rem) {
+  .c2.size--medium.c1.size--medium .link-label {
+    font-size: var(--bds-sizes-size-16);
+    line-height: var(--bds-sizes-size-24);
+  }
+
+  .c2.size--medium.c1.size--medium .link-start-icon,
+  .c2.size--medium.c2.size--medium .link-end-icon {
+    width: var(--bds-sizes-size-16);
+    height: var(--bds-sizes-size-16);
+  }
+}
+
+<nav
+    aria-label="Breadcrumb"
+    class="c0 breadcrumb-desktop custom-class-name"
+  >
+    <ol>
+      <li>
+        <a
+          class="c1 c2 backyard link size--medium color--interactive crumb crumb-desktop crumb-1"
+          href="/"
+          style="--bds-link-style-color: hsl(213, 84%, 45%, 1); --bds-link-style-breakpoint: 82rem; --bds-link-style-font-family: Roboto, Helvetica, Arial, sans-serif; --bds-link-style-font-weight: 500; --bds-link-style-underline: none;"
+        >
+          <span
+            class="label link-label bold"
+          >
+            Appliances
+          </span>
+        </a>
+      </li>
+      <li>
+        <a
+          class="c1 c2 backyard link size--medium color--interactive crumb crumb-desktop crumb-2"
+          href="/"
+          style="--bds-link-style-color: hsl(213, 84%, 45%, 1); --bds-link-style-breakpoint: 82rem; --bds-link-style-font-family: Roboto, Helvetica, Arial, sans-serif; --bds-link-style-font-weight: 500; --bds-link-style-underline: none;"
+        >
+          <span
+            class="label link-label bold"
+          >
+            Refrigerators
+          </span>
+        </a>
+      </li>
+      <li>
+        <a
+          aria-current="page"
+          class="c1 c2 backyard link size--medium color--primary crumb crumb-desktop crumb-3 currentPage"
+          href="/"
+          style="--bds-link-style-color: hsl(0, 0%, 0%, 1); --bds-link-style-breakpoint: 82rem; --bds-link-style-font-family: Roboto, Helvetica, Arial, sans-serif; --bds-link-style-font-weight: 500; --bds-link-style-underline: none;"
+        >
+          <span
+            class="label link-label"
+          >
+            French Door Refrigerators
+          </span>
+        </a>
+      </li>
+    </ol>
+  </nav>
+</DocumentFragment>
+`;

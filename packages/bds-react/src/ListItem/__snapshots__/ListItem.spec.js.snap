@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListItem Snapshots ListItem default snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-20);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+@media only screen and (min-width:82rem) {
+  .c0 {
+    font-size: var(--bds-sizes-size-16);
+    line-height: var(--bds-sizes-size-24);
+  }
+}
+
+<li
+    class="c0"
+  >
+    List item
+  </li>
+</DocumentFragment>
+`;
+
+exports[`ListItem Snapshots themes ListItem dark theme snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-20);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+@media only screen and (min-width:82rem) {
+  .c0 {
+    font-size: var(--bds-sizes-size-16);
+    line-height: var(--bds-sizes-size-24);
+  }
+}
+
+<li
+    class="c0"
+  >
+    Item one
+  </li>
+</DocumentFragment>
+`;
+
+exports[`ListItem Snapshots themes ListItem light theme snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-20);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+@media only screen and (min-width:82rem) {
+  .c0 {
+    font-size: var(--bds-sizes-size-16);
+    line-height: var(--bds-sizes-size-24);
+  }
+}
+
+<li
+    class="c0"
+  >
+    Item one
+  </li>
+</DocumentFragment>
+`;

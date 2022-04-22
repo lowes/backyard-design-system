@@ -1,0 +1,297 @@
+{
+	"id": 0,
+	"name": "@lowes-tech/bds-react/Menu",
+	"kind": 1,
+	"kindString": "Project",
+	"flags": {},
+	"children": [
+		{
+			"id": 13,
+			"name": "default",
+			"kind": 16777216,
+			"kindString": "Reference",
+			"flags": {},
+			"target": 1
+		},
+		{
+			"id": 2,
+			"name": "MenuProps",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 11,
+					"name": "as",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ElementType"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "BackyardBaseProps.as"
+					}
+				},
+				{
+					"id": 3,
+					"name": "children",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Children of menu\nOptionally, `items` can be given a list data structure instead"
+					},
+					"type": {
+						"type": "reference",
+						"name": "ReactNode"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.children"
+					}
+				},
+				{
+					"id": 5,
+					"name": "items",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Menu Items to use if data list is provided instead of declarative children"
+					},
+					"type": {
+						"type": "array",
+						"elementType": {
+							"type": "reference",
+							"name": "MenuItemProps"
+						}
+					}
+				},
+				{
+					"id": 4,
+					"name": "shape",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Shape of the component"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "rounded"
+							},
+							{
+								"type": "literal",
+								"value": "squared"
+							}
+						]
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.shape"
+					}
+				},
+				{
+					"id": 10,
+					"name": "width",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Width override for ListWrapper\nCan be given a token (such as `size_128`) or other value (like `15rem`)"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "BackyardBaseProps.width"
+					}
+				},
+				{
+					"id": 6,
+					"name": "renderItem",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 7,
+							"name": "renderItem",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "List item to render"
+							},
+							"parameters": [
+								{
+									"id": 8,
+									"name": "props",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"name": "MenuItemProps"
+									}
+								},
+								{
+									"id": 9,
+									"name": "ref",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "Ref"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "reference",
+										"name": "MenuItemProps"
+									}
+								],
+								"name": "ForwardRefExoticComponent"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						11,
+						3,
+						5,
+						4,
+						10
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						6
+					]
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"typeArguments": [
+						{
+							"type": "reference",
+							"id": 12,
+							"name": "MenuRef"
+						}
+					],
+					"name": "BackyardBaseProps"
+				}
+			]
+		},
+		{
+			"id": 12,
+			"name": "MenuRef",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"type": {
+				"type": "reference",
+				"name": "HTMLUListElement"
+			}
+		},
+		{
+			"id": 1,
+			"name": "Menu",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"comment": {
+				"shortText": "Backyard React Menu",
+				"text": "`Menu` provides a customized component for triggering actions from a list of items (aka. `MenuItem`s).\n\nThis component does not trigger a popover from an action on another component.\nFor that functionality, please see `MenuPopover`.\n\nFor a list that provides the user the ability to select from a list of options, please use `List`.\n\nExample:\n```\n <Menu>\n     <MenuItem\n         iconBefore={<Home />}\n     >\n         Home\n     </MenuItem>\n     <MenuItem\n         iconBefore={<CreditCard />}\n     >\n         Payment Methods\n     </MenuItem>\n     <MenuItem>\n         No Icon Needed\n     </MenuItem>\n     <MenuItem\n         disabled\n         iconBefore={<Download />}\n     >\n         Download\n     </MenuItem>\n     <MenuItem\n         variant=\"primary\"\n         color=\"error\"\n         iconBefore={<Home />}\n         onClick={() => alert('You clicked on me!')}\n     >\n         Alert\n     </MenuItem>\n </Menu>\n```\n"
+			},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"id": 2,
+						"name": "MenuProps"
+					}
+				],
+				"name": "BDSForwardRef"
+			},
+			"defaultValue": "..."
+		}
+	],
+	"groups": [
+		{
+			"title": "References",
+			"kind": 16777216,
+			"children": [
+				13
+			]
+		},
+		{
+			"title": "Interfaces",
+			"kind": 256,
+			"children": [
+				2
+			]
+		},
+		{
+			"title": "Type aliases",
+			"kind": 4194304,
+			"children": [
+				12
+			]
+		},
+		{
+			"title": "Variables",
+			"kind": 32,
+			"children": [
+				1
+			]
+		}
+	]
+}

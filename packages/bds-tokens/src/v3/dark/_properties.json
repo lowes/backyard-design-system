@@ -1,0 +1,5059 @@
+[
+    {
+        "value": "0.125rem",
+        "filePath": "tokens/border.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_2.value}"
+        },
+        "name": "bds-border-radius-sm",
+        "attributes": {
+            "category": "border",
+            "type": "radius",
+            "item": "sm"
+        },
+        "path": [
+            "border",
+            "radius",
+            "sm"
+        ]
+    },
+    {
+        "value": "0.25rem",
+        "filePath": "tokens/border.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_4.value}"
+        },
+        "name": "bds-border-radius-md",
+        "attributes": {
+            "category": "border",
+            "type": "radius",
+            "item": "md"
+        },
+        "path": [
+            "border",
+            "radius",
+            "md"
+        ]
+    },
+    {
+        "value": "0.5rem",
+        "filePath": "tokens/border.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_8.value}"
+        },
+        "name": "bds-border-radius-lg",
+        "attributes": {
+            "category": "border",
+            "type": "radius",
+            "item": "lg"
+        },
+        "path": [
+            "border",
+            "radius",
+            "lg"
+        ]
+    },
+    {
+        "value": "8rem",
+        "filePath": "tokens/border.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_128.value}"
+        },
+        "name": "bds-border-radius-circle",
+        "attributes": {
+            "category": "border",
+            "type": "radius",
+            "item": "circle"
+        },
+        "path": [
+            "border",
+            "radius",
+            "circle"
+        ]
+    },
+    {
+        "value": "0.0625rem",
+        "filePath": "tokens/border.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_1.value}"
+        },
+        "name": "bds-border-width-sm",
+        "attributes": {
+            "category": "border",
+            "type": "width",
+            "item": "sm"
+        },
+        "path": [
+            "border",
+            "width",
+            "sm"
+        ]
+    },
+    {
+        "value": "0.125rem",
+        "filePath": "tokens/border.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_2.value}"
+        },
+        "name": "bds-border-width-md",
+        "attributes": {
+            "category": "border",
+            "type": "width",
+            "item": "md"
+        },
+        "path": [
+            "border",
+            "width",
+            "md"
+        ]
+    },
+    {
+        "value": "0.1875rem",
+        "filePath": "tokens/border.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_3.value}"
+        },
+        "name": "bds-border-width-lg",
+        "attributes": {
+            "category": "border",
+            "type": "width",
+            "item": "lg"
+        },
+        "path": [
+            "border",
+            "width",
+            "lg"
+        ]
+    },
+    {
+        "value": "0.5rem",
+        "filePath": "tokens/border.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_8.value}"
+        },
+        "name": "bds-border-width-xl",
+        "attributes": {
+            "category": "border",
+            "type": "width",
+            "item": "xl"
+        },
+        "path": [
+            "border",
+            "width",
+            "xl"
+        ]
+    },
+    {
+        "value": "0rem",
+        "filePath": "tokens/grid.json",
+        "isSource": true,
+        "original": {
+            "value": "0"
+        },
+        "name": "bds-grid-breakpoint-xs-min",
+        "attributes": {
+            "category": "grid",
+            "type": "breakpoint",
+            "item": "xs",
+            "subitem": "min"
+        },
+        "path": [
+            "grid",
+            "breakpoint",
+            "xs",
+            "min"
+        ]
+    },
+    {
+        "value": "20rem",
+        "filePath": "tokens/grid.json",
+        "isSource": true,
+        "original": {
+            "value": "20"
+        },
+        "name": "bds-grid-breakpoint-xs-max",
+        "attributes": {
+            "category": "grid",
+            "type": "breakpoint",
+            "item": "xs",
+            "subitem": "max"
+        },
+        "path": [
+            "grid",
+            "breakpoint",
+            "xs",
+            "max"
+        ]
+    },
+    {
+        "value": "20.0625rem",
+        "filePath": "tokens/grid.json",
+        "isSource": true,
+        "original": {
+            "value": "20.0625"
+        },
+        "name": "bds-grid-breakpoint-sm-min",
+        "attributes": {
+            "category": "grid",
+            "type": "breakpoint",
+            "item": "sm",
+            "subitem": "min"
+        },
+        "path": [
+            "grid",
+            "breakpoint",
+            "sm",
+            "min"
+        ]
+    },
+    {
+        "value": "42rem",
+        "filePath": "tokens/grid.json",
+        "isSource": true,
+        "original": {
+            "value": "42"
+        },
+        "name": "bds-grid-breakpoint-sm-max",
+        "attributes": {
+            "category": "grid",
+            "type": "breakpoint",
+            "item": "sm",
+            "subitem": "max"
+        },
+        "path": [
+            "grid",
+            "breakpoint",
+            "sm",
+            "max"
+        ]
+    },
+    {
+        "value": "42.0625rem",
+        "filePath": "tokens/grid.json",
+        "isSource": true,
+        "original": {
+            "value": "42.0625"
+        },
+        "name": "bds-grid-breakpoint-md-min",
+        "attributes": {
+            "category": "grid",
+            "type": "breakpoint",
+            "item": "md",
+            "subitem": "min"
+        },
+        "path": [
+            "grid",
+            "breakpoint",
+            "md",
+            "min"
+        ]
+    },
+    {
+        "value": "66rem",
+        "filePath": "tokens/grid.json",
+        "isSource": true,
+        "original": {
+            "value": "66"
+        },
+        "name": "bds-grid-breakpoint-md-max",
+        "attributes": {
+            "category": "grid",
+            "type": "breakpoint",
+            "item": "md",
+            "subitem": "max"
+        },
+        "path": [
+            "grid",
+            "breakpoint",
+            "md",
+            "max"
+        ]
+    },
+    {
+        "value": "66.0625rem",
+        "filePath": "tokens/grid.json",
+        "isSource": true,
+        "original": {
+            "value": "66.0625"
+        },
+        "name": "bds-grid-breakpoint-lg-min",
+        "attributes": {
+            "category": "grid",
+            "type": "breakpoint",
+            "item": "lg",
+            "subitem": "min"
+        },
+        "path": [
+            "grid",
+            "breakpoint",
+            "lg",
+            "min"
+        ]
+    },
+    {
+        "value": "82rem",
+        "filePath": "tokens/grid.json",
+        "isSource": true,
+        "original": {
+            "value": "82"
+        },
+        "name": "bds-grid-breakpoint-lg-max",
+        "attributes": {
+            "category": "grid",
+            "type": "breakpoint",
+            "item": "lg",
+            "subitem": "max"
+        },
+        "path": [
+            "grid",
+            "breakpoint",
+            "lg",
+            "max"
+        ]
+    },
+    {
+        "value": "82.0625rem",
+        "filePath": "tokens/grid.json",
+        "isSource": true,
+        "original": {
+            "value": "82.0625"
+        },
+        "name": "bds-grid-breakpoint-xl-min",
+        "attributes": {
+            "category": "grid",
+            "type": "breakpoint",
+            "item": "xl",
+            "subitem": "min"
+        },
+        "path": [
+            "grid",
+            "breakpoint",
+            "xl",
+            "min"
+        ]
+    },
+    {
+        "value": "99rem",
+        "filePath": "tokens/grid.json",
+        "isSource": true,
+        "original": {
+            "value": "99"
+        },
+        "name": "bds-grid-breakpoint-xl-max",
+        "attributes": {
+            "category": "grid",
+            "type": "breakpoint",
+            "item": "xl",
+            "subitem": "max"
+        },
+        "path": [
+            "grid",
+            "breakpoint",
+            "xl",
+            "max"
+        ]
+    },
+    {
+        "value": "99.0625rem",
+        "filePath": "tokens/grid.json",
+        "isSource": true,
+        "original": {
+            "value": "99.0625"
+        },
+        "name": "bds-grid-breakpoint-xxl-min",
+        "attributes": {
+            "category": "grid",
+            "type": "breakpoint",
+            "item": "xxl",
+            "subitem": "min"
+        },
+        "path": [
+            "grid",
+            "breakpoint",
+            "xxl",
+            "min"
+        ]
+    },
+    {
+        "value": "117rem",
+        "filePath": "tokens/grid.json",
+        "isSource": true,
+        "original": {
+            "value": "117"
+        },
+        "name": "bds-grid-breakpoint-xxl-max",
+        "attributes": {
+            "category": "grid",
+            "type": "breakpoint",
+            "item": "xxl",
+            "subitem": "max"
+        },
+        "path": [
+            "grid",
+            "breakpoint",
+            "xxl",
+            "max"
+        ]
+    },
+    {
+        "value": "1rem",
+        "filePath": "tokens/grid.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_16.value}"
+        },
+        "name": "bds-grid-padding",
+        "attributes": {
+            "category": "grid",
+            "type": "padding"
+        },
+        "path": [
+            "grid",
+            "padding"
+        ]
+    },
+    {
+        "value": "0rem",
+        "filePath": "tokens/grid.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_0.value}"
+        },
+        "name": "bds-grid-margin-none",
+        "attributes": {
+            "category": "grid",
+            "type": "margin",
+            "item": "none"
+        },
+        "path": [
+            "grid",
+            "margin",
+            "none"
+        ]
+    },
+    {
+        "value": "1rem",
+        "filePath": "tokens/grid.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_16.value}"
+        },
+        "name": "bds-grid-margin-sm",
+        "attributes": {
+            "category": "grid",
+            "type": "margin",
+            "item": "sm"
+        },
+        "path": [
+            "grid",
+            "margin",
+            "sm"
+        ]
+    },
+    {
+        "value": "1.5rem",
+        "filePath": "tokens/grid.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_24.value}"
+        },
+        "name": "bds-grid-margin-md",
+        "attributes": {
+            "category": "grid",
+            "type": "margin",
+            "item": "md"
+        },
+        "path": [
+            "grid",
+            "margin",
+            "md"
+        ]
+    },
+    {
+        "value": "2.5rem",
+        "filePath": "tokens/grid.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_40.value}"
+        },
+        "name": "bds-grid-margin-lg",
+        "attributes": {
+            "category": "grid",
+            "type": "margin",
+            "item": "lg"
+        },
+        "path": [
+            "grid",
+            "margin",
+            "lg"
+        ]
+    },
+    {
+        "value": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+        "filePath": "tokens/shadows.json",
+        "isSource": true,
+        "original": {
+            "value": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)"
+        },
+        "name": "bds-shadows-shadow-01",
+        "attributes": {
+            "category": "shadows",
+            "type": "shadow_01"
+        },
+        "path": [
+            "shadows",
+            "shadow_01"
+        ]
+    },
+    {
+        "value": "0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 2px rgba(0, 0, 0, 0.14), 0px 3px 1px rgba(0, 0, 0, 0.2)",
+        "filePath": "tokens/shadows.json",
+        "isSource": true,
+        "original": {
+            "value": "0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 2px rgba(0, 0, 0, 0.14), 0px 3px 1px rgba(0, 0, 0, 0.2)"
+        },
+        "name": "bds-shadows-shadow-02",
+        "attributes": {
+            "category": "shadows",
+            "type": "shadow_02"
+        },
+        "path": [
+            "shadows",
+            "shadow_02"
+        ]
+    },
+    {
+        "value": "0px 2px 4px rgba(0, 0, 0, 0.2), 0px 4px 5px rgba(0, 0, 0, 0.14), 0px 1px 10px rgba(0, 0, 0, 0.12)",
+        "filePath": "tokens/shadows.json",
+        "isSource": true,
+        "original": {
+            "value": "0px 2px 4px rgba(0, 0, 0, 0.2), 0px 4px 5px rgba(0, 0, 0, 0.14), 0px 1px 10px rgba(0, 0, 0, 0.12)"
+        },
+        "name": "bds-shadows-shadow-03",
+        "attributes": {
+            "category": "shadows",
+            "type": "shadow_03"
+        },
+        "path": [
+            "shadows",
+            "shadow_03"
+        ]
+    },
+    {
+        "value": "0px 5px 5px rgba(0, 0, 0, 0.2), 0px 8px 10px rgba(0, 0, 0, 0.14), 0px 3px 14px rgba(0, 0, 0, 0.12)",
+        "filePath": "tokens/shadows.json",
+        "isSource": true,
+        "original": {
+            "value": "0px 5px 5px rgba(0, 0, 0, 0.2), 0px 8px 10px rgba(0, 0, 0, 0.14), 0px 3px 14px rgba(0, 0, 0, 0.12)"
+        },
+        "name": "bds-shadows-shadow-04",
+        "attributes": {
+            "category": "shadows",
+            "type": "shadow_04"
+        },
+        "path": [
+            "shadows",
+            "shadow_04"
+        ]
+    },
+    {
+        "value": "0px 8px 10px rgba(0, 0, 0, 0.2), 0px 16px 24px rgba(0, 0, 0, 0.14), 0px 6px 30px rgba(0, 0, 0, 0.12)",
+        "filePath": "tokens/shadows.json",
+        "isSource": true,
+        "original": {
+            "value": "0px 8px 10px rgba(0, 0, 0, 0.2), 0px 16px 24px rgba(0, 0, 0, 0.14), 0px 6px 30px rgba(0, 0, 0, 0.12)"
+        },
+        "name": "bds-shadows-shadow-05",
+        "attributes": {
+            "category": "shadows",
+            "type": "shadow_05"
+        },
+        "path": [
+            "shadows",
+            "shadow_05"
+        ]
+    },
+    {
+        "value": "0px 11px 15px rgba(0, 0, 0, 0.2), 0px 24px 38px rgba(0, 0, 0, 0.14), 0px 9px 46px rgba(0, 0, 0, 0.12)",
+        "filePath": "tokens/shadows.json",
+        "isSource": true,
+        "original": {
+            "value": "0px 11px 15px rgba(0, 0, 0, 0.2), 0px 24px 38px rgba(0, 0, 0, 0.14), 0px 9px 46px rgba(0, 0, 0, 0.12)"
+        },
+        "name": "bds-shadows-shadow-06",
+        "attributes": {
+            "category": "shadows",
+            "type": "shadow_06"
+        },
+        "path": [
+            "shadows",
+            "shadow_06"
+        ]
+    },
+    {
+        "value": "0rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "0"
+        },
+        "name": "bds-sizes-size-0",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_0"
+        },
+        "path": [
+            "sizes",
+            "size_0"
+        ]
+    },
+    {
+        "value": "0.0625rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "0.0625"
+        },
+        "name": "bds-sizes-size-1",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_1"
+        },
+        "path": [
+            "sizes",
+            "size_1"
+        ]
+    },
+    {
+        "value": "0.125rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "0.125"
+        },
+        "name": "bds-sizes-size-2",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_2"
+        },
+        "path": [
+            "sizes",
+            "size_2"
+        ]
+    },
+    {
+        "value": "0.1875rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "0.1875"
+        },
+        "name": "bds-sizes-size-3",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_3"
+        },
+        "path": [
+            "sizes",
+            "size_3"
+        ]
+    },
+    {
+        "value": "0.25rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "0.25"
+        },
+        "name": "bds-sizes-size-4",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_4"
+        },
+        "path": [
+            "sizes",
+            "size_4"
+        ]
+    },
+    {
+        "value": "0.3125rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "0.3125"
+        },
+        "name": "bds-sizes-size-5",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_5"
+        },
+        "path": [
+            "sizes",
+            "size_5"
+        ]
+    },
+    {
+        "value": "0.375rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "0.375"
+        },
+        "name": "bds-sizes-size-6",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_6"
+        },
+        "path": [
+            "sizes",
+            "size_6"
+        ]
+    },
+    {
+        "value": "0.4375rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "0.4375"
+        },
+        "name": "bds-sizes-size-7",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_7"
+        },
+        "path": [
+            "sizes",
+            "size_7"
+        ]
+    },
+    {
+        "value": "0.5rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "0.5"
+        },
+        "name": "bds-sizes-size-8",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_8"
+        },
+        "path": [
+            "sizes",
+            "size_8"
+        ]
+    },
+    {
+        "value": "0.625rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "0.625"
+        },
+        "name": "bds-sizes-size-10",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_10"
+        },
+        "path": [
+            "sizes",
+            "size_10"
+        ]
+    },
+    {
+        "value": "0.75rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "0.75"
+        },
+        "name": "bds-sizes-size-12",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_12"
+        },
+        "path": [
+            "sizes",
+            "size_12"
+        ]
+    },
+    {
+        "value": "0.875rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "0.875"
+        },
+        "name": "bds-sizes-size-14",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_14"
+        },
+        "path": [
+            "sizes",
+            "size_14"
+        ]
+    },
+    {
+        "value": "1rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "1"
+        },
+        "name": "bds-sizes-size-16",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_16"
+        },
+        "path": [
+            "sizes",
+            "size_16"
+        ]
+    },
+    {
+        "value": "1.125rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "1.125"
+        },
+        "name": "bds-sizes-size-18",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_18"
+        },
+        "path": [
+            "sizes",
+            "size_18"
+        ]
+    },
+    {
+        "value": "1.25rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "1.25"
+        },
+        "name": "bds-sizes-size-20",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_20"
+        },
+        "path": [
+            "sizes",
+            "size_20"
+        ]
+    },
+    {
+        "value": "1.5rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "1.5"
+        },
+        "name": "bds-sizes-size-24",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_24"
+        },
+        "path": [
+            "sizes",
+            "size_24"
+        ]
+    },
+    {
+        "value": "1.75rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "1.75"
+        },
+        "name": "bds-sizes-size-28",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_28"
+        },
+        "path": [
+            "sizes",
+            "size_28"
+        ]
+    },
+    {
+        "value": "2rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "2"
+        },
+        "name": "bds-sizes-size-32",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_32"
+        },
+        "path": [
+            "sizes",
+            "size_32"
+        ]
+    },
+    {
+        "value": "2.25rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "2.25"
+        },
+        "name": "bds-sizes-size-36",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_36"
+        },
+        "path": [
+            "sizes",
+            "size_36"
+        ]
+    },
+    {
+        "value": "2.5rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "2.5"
+        },
+        "name": "bds-sizes-size-40",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_40"
+        },
+        "path": [
+            "sizes",
+            "size_40"
+        ]
+    },
+    {
+        "value": "2.75rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "2.75"
+        },
+        "name": "bds-sizes-size-44",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_44"
+        },
+        "path": [
+            "sizes",
+            "size_44"
+        ]
+    },
+    {
+        "value": "3rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "3"
+        },
+        "name": "bds-sizes-size-48",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_48"
+        },
+        "path": [
+            "sizes",
+            "size_48"
+        ]
+    },
+    {
+        "value": "3.25rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "3.25"
+        },
+        "name": "bds-sizes-size-52",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_52"
+        },
+        "path": [
+            "sizes",
+            "size_52"
+        ]
+    },
+    {
+        "value": "3.5rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "3.5"
+        },
+        "name": "bds-sizes-size-56",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_56"
+        },
+        "path": [
+            "sizes",
+            "size_56"
+        ]
+    },
+    {
+        "value": "3.75rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "3.75"
+        },
+        "name": "bds-sizes-size-60",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_60"
+        },
+        "path": [
+            "sizes",
+            "size_60"
+        ]
+    },
+    {
+        "value": "4rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "4"
+        },
+        "name": "bds-sizes-size-64",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_64"
+        },
+        "path": [
+            "sizes",
+            "size_64"
+        ]
+    },
+    {
+        "value": "4.25rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "4.25"
+        },
+        "name": "bds-sizes-size-68",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_68"
+        },
+        "path": [
+            "sizes",
+            "size_68"
+        ]
+    },
+    {
+        "value": "4.5rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "4.5"
+        },
+        "name": "bds-sizes-size-72",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_72"
+        },
+        "path": [
+            "sizes",
+            "size_72"
+        ]
+    },
+    {
+        "value": "4.75rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "4.75"
+        },
+        "name": "bds-sizes-size-76",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_76"
+        },
+        "path": [
+            "sizes",
+            "size_76"
+        ]
+    },
+    {
+        "value": "5rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "5"
+        },
+        "name": "bds-sizes-size-80",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_80"
+        },
+        "path": [
+            "sizes",
+            "size_80"
+        ]
+    },
+    {
+        "value": "5.25rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "5.25"
+        },
+        "name": "bds-sizes-size-84",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_84"
+        },
+        "path": [
+            "sizes",
+            "size_84"
+        ]
+    },
+    {
+        "value": "5.5rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "5.5"
+        },
+        "name": "bds-sizes-size-88",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_88"
+        },
+        "path": [
+            "sizes",
+            "size_88"
+        ]
+    },
+    {
+        "value": "5.75rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "5.75"
+        },
+        "name": "bds-sizes-size-92",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_92"
+        },
+        "path": [
+            "sizes",
+            "size_92"
+        ]
+    },
+    {
+        "value": "6rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "6"
+        },
+        "name": "bds-sizes-size-96",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_96"
+        },
+        "path": [
+            "sizes",
+            "size_96"
+        ]
+    },
+    {
+        "value": "6.25rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "6.25"
+        },
+        "name": "bds-sizes-size-100",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_100"
+        },
+        "path": [
+            "sizes",
+            "size_100"
+        ]
+    },
+    {
+        "value": "6.5rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "6.5"
+        },
+        "name": "bds-sizes-size-104",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_104"
+        },
+        "path": [
+            "sizes",
+            "size_104"
+        ]
+    },
+    {
+        "value": "6.75rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "6.75"
+        },
+        "name": "bds-sizes-size-108",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_108"
+        },
+        "path": [
+            "sizes",
+            "size_108"
+        ]
+    },
+    {
+        "value": "7rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "7"
+        },
+        "name": "bds-sizes-size-112",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_112"
+        },
+        "path": [
+            "sizes",
+            "size_112"
+        ]
+    },
+    {
+        "value": "7.25rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "7.25"
+        },
+        "name": "bds-sizes-size-116",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_116"
+        },
+        "path": [
+            "sizes",
+            "size_116"
+        ]
+    },
+    {
+        "value": "7.5rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "7.5"
+        },
+        "name": "bds-sizes-size-120",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_120"
+        },
+        "path": [
+            "sizes",
+            "size_120"
+        ]
+    },
+    {
+        "value": "7.75rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "7.75"
+        },
+        "name": "bds-sizes-size-124",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_124"
+        },
+        "path": [
+            "sizes",
+            "size_124"
+        ]
+    },
+    {
+        "value": "8rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "8"
+        },
+        "name": "bds-sizes-size-128",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_128"
+        },
+        "path": [
+            "sizes",
+            "size_128"
+        ]
+    },
+    {
+        "value": 400,
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": 400
+        },
+        "name": "bds-font-weight-regular",
+        "attributes": {
+            "category": "font",
+            "type": "weight",
+            "item": "regular"
+        },
+        "path": [
+            "font",
+            "weight",
+            "regular"
+        ]
+    },
+    {
+        "value": 500,
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": 500
+        },
+        "name": "bds-font-weight-medium",
+        "attributes": {
+            "category": "font",
+            "type": "weight",
+            "item": "medium"
+        },
+        "path": [
+            "font",
+            "weight",
+            "medium"
+        ]
+    },
+    {
+        "value": 600,
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": 600
+        },
+        "name": "bds-font-weight-semibold",
+        "attributes": {
+            "category": "font",
+            "type": "weight",
+            "item": "semibold"
+        },
+        "path": [
+            "font",
+            "weight",
+            "semibold"
+        ]
+    },
+    {
+        "value": "Roboto, Helvetica, Arial, sans-serif",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "Roboto, Helvetica, Arial, sans-serif"
+        },
+        "name": "bds-font-family-roboto",
+        "attributes": {
+            "category": "font",
+            "type": "family",
+            "item": "roboto"
+        },
+        "path": [
+            "font",
+            "family",
+            "roboto"
+        ]
+    },
+    {
+        "value": "Fellix, Arial, sans-serif",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "Fellix, Arial, sans-serif"
+        },
+        "name": "bds-font-family-fellix",
+        "attributes": {
+            "category": "font",
+            "type": "family",
+            "item": "fellix"
+        },
+        "path": [
+            "font",
+            "family",
+            "fellix"
+        ]
+    },
+    {
+        "value": "2.5rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_40.value}"
+        },
+        "name": "bds-font-tag-h1-desktop-font-size",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "h1",
+            "subitem": "desktop",
+            "state": "font_size"
+        },
+        "path": [
+            "font",
+            "tag",
+            "h1",
+            "desktop",
+            "font_size"
+        ]
+    },
+    {
+        "value": "3.5rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_56.value}"
+        },
+        "name": "bds-font-tag-h1-desktop-line-height",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "h1",
+            "subitem": "desktop",
+            "state": "line_height"
+        },
+        "path": [
+            "font",
+            "tag",
+            "h1",
+            "desktop",
+            "line_height"
+        ]
+    },
+    {
+        "value": "1.75rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_28.value}"
+        },
+        "name": "bds-font-tag-h1-mobile-font-size",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "h1",
+            "subitem": "mobile",
+            "state": "font_size"
+        },
+        "path": [
+            "font",
+            "tag",
+            "h1",
+            "mobile",
+            "font_size"
+        ]
+    },
+    {
+        "value": "2.5rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_40.value}"
+        },
+        "name": "bds-font-tag-h1-mobile-line-height",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "h1",
+            "subitem": "mobile",
+            "state": "line_height"
+        },
+        "path": [
+            "font",
+            "tag",
+            "h1",
+            "mobile",
+            "line_height"
+        ]
+    },
+    {
+        "value": "1.75rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_28.value}"
+        },
+        "name": "bds-font-tag-h2-desktop-font-size",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "h2",
+            "subitem": "desktop",
+            "state": "font_size"
+        },
+        "path": [
+            "font",
+            "tag",
+            "h2",
+            "desktop",
+            "font_size"
+        ]
+    },
+    {
+        "value": "2.5rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_40.value}"
+        },
+        "name": "bds-font-tag-h2-desktop-line-height",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "h2",
+            "subitem": "desktop",
+            "state": "line_height"
+        },
+        "path": [
+            "font",
+            "tag",
+            "h2",
+            "desktop",
+            "line_height"
+        ]
+    },
+    {
+        "value": "1.5rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_24.value}"
+        },
+        "name": "bds-font-tag-h2-mobile-font-size",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "h2",
+            "subitem": "mobile",
+            "state": "font_size"
+        },
+        "path": [
+            "font",
+            "tag",
+            "h2",
+            "mobile",
+            "font_size"
+        ]
+    },
+    {
+        "value": "2rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_32.value}"
+        },
+        "name": "bds-font-tag-h2-mobile-line-height",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "h2",
+            "subitem": "mobile",
+            "state": "line_height"
+        },
+        "path": [
+            "font",
+            "tag",
+            "h2",
+            "mobile",
+            "line_height"
+        ]
+    },
+    {
+        "value": "1.5rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_24.value}"
+        },
+        "name": "bds-font-tag-h3-desktop-font-size",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "h3",
+            "subitem": "desktop",
+            "state": "font_size"
+        },
+        "path": [
+            "font",
+            "tag",
+            "h3",
+            "desktop",
+            "font_size"
+        ]
+    },
+    {
+        "value": "2rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_32.value}"
+        },
+        "name": "bds-font-tag-h3-desktop-line-height",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "h3",
+            "subitem": "desktop",
+            "state": "line_height"
+        },
+        "path": [
+            "font",
+            "tag",
+            "h3",
+            "desktop",
+            "line_height"
+        ]
+    },
+    {
+        "value": "1.25rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_20.value}"
+        },
+        "name": "bds-font-tag-h3-mobile-font-size",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "h3",
+            "subitem": "mobile",
+            "state": "font_size"
+        },
+        "path": [
+            "font",
+            "tag",
+            "h3",
+            "mobile",
+            "font_size"
+        ]
+    },
+    {
+        "value": "2rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_32.value}"
+        },
+        "name": "bds-font-tag-h3-mobile-line-height",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "h3",
+            "subitem": "mobile",
+            "state": "line_height"
+        },
+        "path": [
+            "font",
+            "tag",
+            "h3",
+            "mobile",
+            "line_height"
+        ]
+    },
+    {
+        "value": "1.25rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_20.value}"
+        },
+        "name": "bds-font-tag-h4-desktop-font-size",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "h4",
+            "subitem": "desktop",
+            "state": "font_size"
+        },
+        "path": [
+            "font",
+            "tag",
+            "h4",
+            "desktop",
+            "font_size"
+        ]
+    },
+    {
+        "value": "2rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_32.value}"
+        },
+        "name": "bds-font-tag-h4-desktop-line-height",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "h4",
+            "subitem": "desktop",
+            "state": "line_height"
+        },
+        "path": [
+            "font",
+            "tag",
+            "h4",
+            "desktop",
+            "line_height"
+        ]
+    },
+    {
+        "value": "1rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_16.value}"
+        },
+        "name": "bds-font-tag-h4-mobile-font-size",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "h4",
+            "subitem": "mobile",
+            "state": "font_size"
+        },
+        "path": [
+            "font",
+            "tag",
+            "h4",
+            "mobile",
+            "font_size"
+        ]
+    },
+    {
+        "value": "1.5rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_24.value}"
+        },
+        "name": "bds-font-tag-h4-mobile-line-height",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "h4",
+            "subitem": "mobile",
+            "state": "line_height"
+        },
+        "path": [
+            "font",
+            "tag",
+            "h4",
+            "mobile",
+            "line_height"
+        ]
+    },
+    {
+        "value": "1rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_16.value}"
+        },
+        "name": "bds-font-tag-h5-desktop-font-size",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "h5",
+            "subitem": "desktop",
+            "state": "font_size"
+        },
+        "path": [
+            "font",
+            "tag",
+            "h5",
+            "desktop",
+            "font_size"
+        ]
+    },
+    {
+        "value": "1.5rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_24.value}"
+        },
+        "name": "bds-font-tag-h5-desktop-line-height",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "h5",
+            "subitem": "desktop",
+            "state": "line_height"
+        },
+        "path": [
+            "font",
+            "tag",
+            "h5",
+            "desktop",
+            "line_height"
+        ]
+    },
+    {
+        "value": "0.875rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_14.value}"
+        },
+        "name": "bds-font-tag-h5-mobile-font-size",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "h5",
+            "subitem": "mobile",
+            "state": "font_size"
+        },
+        "path": [
+            "font",
+            "tag",
+            "h5",
+            "mobile",
+            "font_size"
+        ]
+    },
+    {
+        "value": "1.5rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_24.value}"
+        },
+        "name": "bds-font-tag-h5-mobile-line-height",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "h5",
+            "subitem": "mobile",
+            "state": "line_height"
+        },
+        "path": [
+            "font",
+            "tag",
+            "h5",
+            "mobile",
+            "line_height"
+        ]
+    },
+    {
+        "value": "0.875rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_14.value}"
+        },
+        "name": "bds-font-tag-h6-desktop-font-size",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "h6",
+            "subitem": "desktop",
+            "state": "font_size"
+        },
+        "path": [
+            "font",
+            "tag",
+            "h6",
+            "desktop",
+            "font_size"
+        ]
+    },
+    {
+        "value": "1.5rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_24.value}"
+        },
+        "name": "bds-font-tag-h6-desktop-line-height",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "h6",
+            "subitem": "desktop",
+            "state": "line_height"
+        },
+        "path": [
+            "font",
+            "tag",
+            "h6",
+            "desktop",
+            "line_height"
+        ]
+    },
+    {
+        "value": "0.75rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_12.value}"
+        },
+        "name": "bds-font-tag-h6-mobile-font-size",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "h6",
+            "subitem": "mobile",
+            "state": "font_size"
+        },
+        "path": [
+            "font",
+            "tag",
+            "h6",
+            "mobile",
+            "font_size"
+        ]
+    },
+    {
+        "value": "1rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_16.value}"
+        },
+        "name": "bds-font-tag-h6-mobile-line-height",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "h6",
+            "subitem": "mobile",
+            "state": "line_height"
+        },
+        "path": [
+            "font",
+            "tag",
+            "h6",
+            "mobile",
+            "line_height"
+        ]
+    },
+    {
+        "value": "1rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_16.value}"
+        },
+        "name": "bds-font-tag-body-1-desktop-font-size",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "body_1",
+            "subitem": "desktop",
+            "state": "font_size"
+        },
+        "path": [
+            "font",
+            "tag",
+            "body_1",
+            "desktop",
+            "font_size"
+        ]
+    },
+    {
+        "value": "1.5rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_24.value}"
+        },
+        "name": "bds-font-tag-body-1-desktop-line-height",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "body_1",
+            "subitem": "desktop",
+            "state": "line_height"
+        },
+        "path": [
+            "font",
+            "tag",
+            "body_1",
+            "desktop",
+            "line_height"
+        ]
+    },
+    {
+        "value": "0.875rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_14.value}"
+        },
+        "name": "bds-font-tag-body-1-mobile-font-size",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "body_1",
+            "subitem": "mobile",
+            "state": "font_size"
+        },
+        "path": [
+            "font",
+            "tag",
+            "body_1",
+            "mobile",
+            "font_size"
+        ]
+    },
+    {
+        "value": "1.5rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_24.value}"
+        },
+        "name": "bds-font-tag-body-1-mobile-line-height",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "body_1",
+            "subitem": "mobile",
+            "state": "line_height"
+        },
+        "path": [
+            "font",
+            "tag",
+            "body_1",
+            "mobile",
+            "line_height"
+        ]
+    },
+    {
+        "value": "0.875rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_14.value}"
+        },
+        "name": "bds-font-tag-body-2-desktop-font-size",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "body_2",
+            "subitem": "desktop",
+            "state": "font_size"
+        },
+        "path": [
+            "font",
+            "tag",
+            "body_2",
+            "desktop",
+            "font_size"
+        ]
+    },
+    {
+        "value": "1.5rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_24.value}"
+        },
+        "name": "bds-font-tag-body-2-desktop-line-height",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "body_2",
+            "subitem": "desktop",
+            "state": "line_height"
+        },
+        "path": [
+            "font",
+            "tag",
+            "body_2",
+            "desktop",
+            "line_height"
+        ]
+    },
+    {
+        "value": "0.75rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_12.value}"
+        },
+        "name": "bds-font-tag-body-2-mobile-font-size",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "body_2",
+            "subitem": "mobile",
+            "state": "font_size"
+        },
+        "path": [
+            "font",
+            "tag",
+            "body_2",
+            "mobile",
+            "font_size"
+        ]
+    },
+    {
+        "value": "1rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_16.value}"
+        },
+        "name": "bds-font-tag-body-2-mobile-line-height",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "body_2",
+            "subitem": "mobile",
+            "state": "line_height"
+        },
+        "path": [
+            "font",
+            "tag",
+            "body_2",
+            "mobile",
+            "line_height"
+        ]
+    },
+    {
+        "value": "1rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_16.value}"
+        },
+        "name": "bds-font-tag-article-desktop-font-size",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "article",
+            "subitem": "desktop",
+            "state": "font_size"
+        },
+        "path": [
+            "font",
+            "tag",
+            "article",
+            "desktop",
+            "font_size"
+        ]
+    },
+    {
+        "value": "2rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_32.value}"
+        },
+        "name": "bds-font-tag-article-desktop-line-height",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "article",
+            "subitem": "desktop",
+            "state": "line_height"
+        },
+        "path": [
+            "font",
+            "tag",
+            "article",
+            "desktop",
+            "line_height"
+        ]
+    },
+    {
+        "value": "0.875rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_14.value}"
+        },
+        "name": "bds-font-tag-article-mobile-font-size",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "article",
+            "subitem": "mobile",
+            "state": "font_size"
+        },
+        "path": [
+            "font",
+            "tag",
+            "article",
+            "mobile",
+            "font_size"
+        ]
+    },
+    {
+        "value": "2rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_32.value}"
+        },
+        "name": "bds-font-tag-article-mobile-line-height",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "article",
+            "subitem": "mobile",
+            "state": "line_height"
+        },
+        "path": [
+            "font",
+            "tag",
+            "article",
+            "mobile",
+            "line_height"
+        ]
+    },
+    {
+        "value": "0.875rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_14.value}"
+        },
+        "name": "bds-font-tag-caption-desktop-font-size",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "caption",
+            "subitem": "desktop",
+            "state": "font_size"
+        },
+        "path": [
+            "font",
+            "tag",
+            "caption",
+            "desktop",
+            "font_size"
+        ]
+    },
+    {
+        "value": "1.5rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_24.value}"
+        },
+        "name": "bds-font-tag-caption-desktop-line-height",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "caption",
+            "subitem": "desktop",
+            "state": "line_height"
+        },
+        "path": [
+            "font",
+            "tag",
+            "caption",
+            "desktop",
+            "line_height"
+        ]
+    },
+    {
+        "value": "0.75rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_12.value}"
+        },
+        "name": "bds-font-tag-caption-mobile-font-size",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "caption",
+            "subitem": "mobile",
+            "state": "font_size"
+        },
+        "path": [
+            "font",
+            "tag",
+            "caption",
+            "mobile",
+            "font_size"
+        ]
+    },
+    {
+        "value": "1rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_16.value}"
+        },
+        "name": "bds-font-tag-caption-mobile-line-height",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "caption",
+            "subitem": "mobile",
+            "state": "line_height"
+        },
+        "path": [
+            "font",
+            "tag",
+            "caption",
+            "mobile",
+            "line_height"
+        ]
+    },
+    {
+        "value": "0.75rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_12.value}"
+        },
+        "name": "bds-font-tag-footnote-desktop-font-size",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "footnote",
+            "subitem": "desktop",
+            "state": "font_size"
+        },
+        "path": [
+            "font",
+            "tag",
+            "footnote",
+            "desktop",
+            "font_size"
+        ]
+    },
+    {
+        "value": "1rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_16.value}"
+        },
+        "name": "bds-font-tag-footnote-desktop-line-height",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "footnote",
+            "subitem": "desktop",
+            "state": "line_height"
+        },
+        "path": [
+            "font",
+            "tag",
+            "footnote",
+            "desktop",
+            "line_height"
+        ]
+    },
+    {
+        "value": "0.625rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_10.value}"
+        },
+        "name": "bds-font-tag-footnote-mobile-font-size",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "footnote",
+            "subitem": "mobile",
+            "state": "font_size"
+        },
+        "path": [
+            "font",
+            "tag",
+            "footnote",
+            "mobile",
+            "font_size"
+        ]
+    },
+    {
+        "value": "1rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_16.value}"
+        },
+        "name": "bds-font-tag-footnote-mobile-line-height",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "footnote",
+            "subitem": "mobile",
+            "state": "line_height"
+        },
+        "path": [
+            "font",
+            "tag",
+            "footnote",
+            "mobile",
+            "line_height"
+        ]
+    },
+    {
+        "value": "0.75rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_12.value}"
+        },
+        "name": "bds-font-tag-overline-desktop-font-size",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "overline",
+            "subitem": "desktop",
+            "state": "font_size"
+        },
+        "path": [
+            "font",
+            "tag",
+            "overline",
+            "desktop",
+            "font_size"
+        ]
+    },
+    {
+        "value": "1rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_16.value}"
+        },
+        "name": "bds-font-tag-overline-desktop-line-height",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "overline",
+            "subitem": "desktop",
+            "state": "line_height"
+        },
+        "path": [
+            "font",
+            "tag",
+            "overline",
+            "desktop",
+            "line_height"
+        ]
+    },
+    {
+        "value": "0.75rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_12.value}"
+        },
+        "name": "bds-font-tag-overline-mobile-font-size",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "overline",
+            "subitem": "mobile",
+            "state": "font_size"
+        },
+        "path": [
+            "font",
+            "tag",
+            "overline",
+            "mobile",
+            "font_size"
+        ]
+    },
+    {
+        "value": "1rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_16.value}"
+        },
+        "name": "bds-font-tag-overline-mobile-line-height",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "overline",
+            "subitem": "mobile",
+            "state": "line_height"
+        },
+        "path": [
+            "font",
+            "tag",
+            "overline",
+            "mobile",
+            "line_height"
+        ]
+    },
+    {
+        "value": "1rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_16.value}"
+        },
+        "name": "bds-font-tag-label-desktop-font-size",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "label",
+            "subitem": "desktop",
+            "state": "font_size"
+        },
+        "path": [
+            "font",
+            "tag",
+            "label",
+            "desktop",
+            "font_size"
+        ]
+    },
+    {
+        "value": "1.5rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_24.value}"
+        },
+        "name": "bds-font-tag-label-desktop-line-height",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "label",
+            "subitem": "desktop",
+            "state": "line_height"
+        },
+        "path": [
+            "font",
+            "tag",
+            "label",
+            "desktop",
+            "line_height"
+        ]
+    },
+    {
+        "value": "0.75rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_12.value}"
+        },
+        "name": "bds-font-tag-label-mobile-font-size",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "label",
+            "subitem": "mobile",
+            "state": "font_size"
+        },
+        "path": [
+            "font",
+            "tag",
+            "label",
+            "mobile",
+            "font_size"
+        ]
+    },
+    {
+        "value": "1rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_16.value}"
+        },
+        "name": "bds-font-tag-label-mobile-line-height",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "label",
+            "subitem": "mobile",
+            "state": "line_height"
+        },
+        "path": [
+            "font",
+            "tag",
+            "label",
+            "mobile",
+            "line_height"
+        ]
+    },
+    {
+        "value": "0.75rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_12.value}"
+        },
+        "name": "bds-font-tag-helper-text-desktop-font-size",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "helper_text",
+            "subitem": "desktop",
+            "state": "font_size"
+        },
+        "path": [
+            "font",
+            "tag",
+            "helper_text",
+            "desktop",
+            "font_size"
+        ]
+    },
+    {
+        "value": "0.75rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_12.value}"
+        },
+        "name": "bds-font-tag-helper-text-desktop-line-height",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "helper_text",
+            "subitem": "desktop",
+            "state": "line_height"
+        },
+        "path": [
+            "font",
+            "tag",
+            "helper_text",
+            "desktop",
+            "line_height"
+        ]
+    },
+    {
+        "value": "0.75rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_12.value}"
+        },
+        "name": "bds-font-tag-helper-text-mobile-font-size",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "helper_text",
+            "subitem": "mobile",
+            "state": "font_size"
+        },
+        "path": [
+            "font",
+            "tag",
+            "helper_text",
+            "mobile",
+            "font_size"
+        ]
+    },
+    {
+        "value": "0.75rem",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_12.value}"
+        },
+        "name": "bds-font-tag-helper-text-mobile-line-height",
+        "attributes": {
+            "category": "font",
+            "type": "tag",
+            "item": "helper_text",
+            "subitem": "mobile",
+            "state": "line_height"
+        },
+        "path": [
+            "font",
+            "tag",
+            "helper_text",
+            "mobile",
+            "line_height"
+        ]
+    },
+    {
+        "value": 1050,
+        "filePath": "tokens/zindex.json",
+        "isSource": true,
+        "original": {
+            "value": 1050
+        },
+        "name": "bds-z-index-floating",
+        "attributes": {
+            "category": "zIndex",
+            "type": "floating"
+        },
+        "path": [
+            "zIndex",
+            "floating"
+        ]
+    },
+    {
+        "value": 1150,
+        "filePath": "tokens/zindex.json",
+        "isSource": true,
+        "original": {
+            "value": 1150
+        },
+        "name": "bds-z-index-overlay",
+        "attributes": {
+            "category": "zIndex",
+            "type": "overlay"
+        },
+        "path": [
+            "zIndex",
+            "overlay"
+        ]
+    },
+    {
+        "value": 1200,
+        "filePath": "tokens/zindex.json",
+        "isSource": true,
+        "original": {
+            "value": 1200
+        },
+        "name": "bds-z-index-drawer",
+        "attributes": {
+            "category": "zIndex",
+            "type": "drawer"
+        },
+        "path": [
+            "zIndex",
+            "drawer"
+        ]
+    },
+    {
+        "value": 1300,
+        "filePath": "tokens/zindex.json",
+        "isSource": true,
+        "original": {
+            "value": 1300
+        },
+        "name": "bds-z-index-modal",
+        "attributes": {
+            "category": "zIndex",
+            "type": "modal"
+        },
+        "path": [
+            "zIndex",
+            "modal"
+        ]
+    },
+    {
+        "value": 1400,
+        "filePath": "tokens/zindex.json",
+        "isSource": true,
+        "original": {
+            "value": 1400
+        },
+        "name": "bds-z-index-notification",
+        "attributes": {
+            "category": "zIndex",
+            "type": "notification"
+        },
+        "path": [
+            "zIndex",
+            "notification"
+        ]
+    },
+    {
+        "value": 1500,
+        "filePath": "tokens/zindex.json",
+        "isSource": true,
+        "original": {
+            "value": 1500
+        },
+        "name": "bds-z-index-tooltip",
+        "attributes": {
+            "category": "zIndex",
+            "type": "tooltip"
+        },
+        "path": [
+            "zIndex",
+            "tooltip"
+        ]
+    },
+    {
+        "value": "hsl(213, 73%, 60%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(213, 73%, 60%, 1)"
+        },
+        "name": "bds-color-marketing-interactive",
+        "attributes": {
+            "category": "color",
+            "type": "marketing_interactive"
+        },
+        "path": [
+            "color",
+            "marketing_interactive"
+        ]
+    },
+    {
+        "value": "hsl(213, 73%, 68%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(213, 73%, 68%, 1)"
+        },
+        "name": "bds-color-text-interactive",
+        "attributes": {
+            "category": "color",
+            "type": "text_interactive"
+        },
+        "path": [
+            "color",
+            "text_interactive"
+        ]
+    },
+    {
+        "value": "hsl(213, 84%, 45%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(213, 84%, 45%, 1)"
+        },
+        "name": "bds-color-text-interactive-inverse",
+        "attributes": {
+            "category": "color",
+            "type": "text_interactive_inverse"
+        },
+        "path": [
+            "color",
+            "text_interactive_inverse"
+        ]
+    },
+    {
+        "value": "hsl(213, 73%, 68%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(213, 73%, 68%, 1)"
+        },
+        "name": "bds-color-icon-interactive",
+        "attributes": {
+            "category": "color",
+            "type": "icon_interactive"
+        },
+        "path": [
+            "color",
+            "icon_interactive"
+        ]
+    },
+    {
+        "value": "hsl(213, 84%, 45%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(213, 84%, 45%, 1)"
+        },
+        "name": "bds-color-icon-interactive-inverse",
+        "attributes": {
+            "category": "color",
+            "type": "icon_interactive_inverse"
+        },
+        "path": [
+            "color",
+            "icon_interactive_inverse"
+        ]
+    },
+    {
+        "value": "hsl(213, 73%, 68%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(213, 73%, 68%, 1)"
+        },
+        "name": "bds-color-border-interactive",
+        "attributes": {
+            "category": "color",
+            "type": "border_interactive"
+        },
+        "path": [
+            "color",
+            "border_interactive"
+        ]
+    },
+    {
+        "value": "hsl(213, 84%, 45%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(213, 84%, 45%, 1)"
+        },
+        "name": "bds-color-border-interactive-inverse",
+        "attributes": {
+            "category": "color",
+            "type": "border_interactive_inverse"
+        },
+        "path": [
+            "color",
+            "border_interactive_inverse"
+        ]
+    },
+    {
+        "value": "hsl(213, 73%, 60%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(213, 73%, 60%, 1)"
+        },
+        "name": "bds-color-focus-interactive",
+        "attributes": {
+            "category": "color",
+            "type": "focus_interactive"
+        },
+        "path": [
+            "color",
+            "focus_interactive"
+        ]
+    },
+    {
+        "value": "hsl(213, 73%, 60%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(213, 73%, 60%, 1)"
+        },
+        "name": "bds-color-action-interactive",
+        "attributes": {
+            "category": "color",
+            "type": "action_interactive"
+        },
+        "path": [
+            "color",
+            "action_interactive"
+        ]
+    },
+    {
+        "value": "hsl(213, 73%, 68%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(213, 73%, 68%, 1)"
+        },
+        "name": "bds-color-action-interactive-hover",
+        "attributes": {
+            "category": "color",
+            "type": "action_interactive_hover"
+        },
+        "path": [
+            "color",
+            "action_interactive_hover"
+        ]
+    },
+    {
+        "value": "hsl(213, 72%, 73%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(213, 72%, 73%, 1)"
+        },
+        "name": "bds-color-action-interactive-pressed",
+        "attributes": {
+            "category": "color",
+            "type": "action_interactive_pressed"
+        },
+        "path": [
+            "color",
+            "action_interactive_pressed"
+        ]
+    },
+    {
+        "value": "hsl(212, 70%, 17%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(212, 70%, 17%, 1)"
+        },
+        "name": "bds-color-action-interactive-subdued",
+        "attributes": {
+            "category": "color",
+            "type": "action_interactive_subdued"
+        },
+        "path": [
+            "color",
+            "action_interactive_subdued"
+        ]
+    },
+    {
+        "value": "hsl(212, 72%, 19%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(212, 72%, 19%, 1)"
+        },
+        "name": "bds-color-action-interactive-subdued-hover",
+        "attributes": {
+            "category": "color",
+            "type": "action_interactive_subdued_hover"
+        },
+        "path": [
+            "color",
+            "action_interactive_subdued_hover"
+        ]
+    },
+    {
+        "value": "hsl(212, 74%, 20%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(212, 74%, 20%, 1)"
+        },
+        "name": "bds-color-action-interactive-subdued-pressed",
+        "attributes": {
+            "category": "color",
+            "type": "action_interactive_subdued_pressed"
+        },
+        "path": [
+            "color",
+            "action_interactive_subdued_pressed"
+        ]
+    },
+    {
+        "value": "hsl(220, 100%, 15%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(220, 100%, 15%, 1)"
+        },
+        "name": "bds-color-highlight",
+        "attributes": {
+            "category": "color",
+            "type": "highlight"
+        },
+        "path": [
+            "color",
+            "highlight"
+        ]
+    },
+    {
+        "value": "hsl(222, 81%, 31%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(222, 81%, 31%, 1)"
+        },
+        "name": "bds-color-marketing-dark-blue",
+        "attributes": {
+            "category": "color",
+            "type": "marketing_dark_blue"
+        },
+        "path": [
+            "color",
+            "marketing_dark_blue"
+        ]
+    },
+    {
+        "value": "hsl(222, 81%, 31%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(222, 81%, 31%, 1)"
+        },
+        "name": "bds-color-surface-dark-blue",
+        "attributes": {
+            "category": "color",
+            "type": "surface_dark_blue"
+        },
+        "path": [
+            "color",
+            "surface_dark_blue"
+        ]
+    },
+    {
+        "value": "hsl(221, 55%, 18%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(221, 55%, 18%, 1)"
+        },
+        "name": "bds-color-surface-dark-blue-subdued",
+        "attributes": {
+            "category": "color",
+            "type": "surface_dark_blue_subdued"
+        },
+        "path": [
+            "color",
+            "surface_dark_blue_subdued"
+        ]
+    },
+    {
+        "value": "hsl(222, 98%, 21%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(222, 98%, 21%, 1)"
+        },
+        "name": "bds-color-surface-dark-blue-inverse",
+        "attributes": {
+            "category": "color",
+            "type": "surface_dark_blue_inverse"
+        },
+        "path": [
+            "color",
+            "surface_dark_blue_inverse"
+        ]
+    },
+    {
+        "value": "hsl(222, 25%, 92%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(222, 25%, 92%, 1)"
+        },
+        "name": "bds-color-surface-dark-blue-subdued-inverse",
+        "attributes": {
+            "category": "color",
+            "type": "surface_dark_blue_subdued_inverse"
+        },
+        "path": [
+            "color",
+            "surface_dark_blue_subdued_inverse"
+        ]
+    },
+    {
+        "value": "hsl(196, 78%, 27%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(196, 78%, 27%, 1)"
+        },
+        "name": "bds-color-marketing-blue",
+        "attributes": {
+            "category": "color",
+            "type": "marketing_blue"
+        },
+        "path": [
+            "color",
+            "marketing_blue"
+        ]
+    },
+    {
+        "value": "hsl(196, 78%, 61%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(196, 78%, 61%, 1)"
+        },
+        "name": "bds-color-surface-blue",
+        "attributes": {
+            "category": "color",
+            "type": "surface_blue"
+        },
+        "path": [
+            "color",
+            "surface_blue"
+        ]
+    },
+    {
+        "value": "hsl(207, 100%, 13%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(207, 100%, 13%, 1)"
+        },
+        "name": "bds-color-surface-blue-subdued",
+        "attributes": {
+            "category": "color",
+            "type": "surface_blue_subdued"
+        },
+        "path": [
+            "color",
+            "surface_blue_subdued"
+        ]
+    },
+    {
+        "value": "hsl(196, 100%, 44%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(196, 100%, 44%, 1)"
+        },
+        "name": "bds-color-surface-blue-inverse",
+        "attributes": {
+            "category": "color",
+            "type": "surface_blue_inverse"
+        },
+        "path": [
+            "color",
+            "surface_blue_inverse"
+        ]
+    },
+    {
+        "value": "hsl(196, 79%, 94%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(196, 79%, 94%, 1)"
+        },
+        "name": "bds-color-surface-blue-subdued-inverse",
+        "attributes": {
+            "category": "color",
+            "type": "surface_blue_subdued_inverse"
+        },
+        "path": [
+            "color",
+            "surface_blue_subdued_inverse"
+        ]
+    },
+    {
+        "value": "hsl(204, 67%, 84%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(204, 67%, 84%, 1)"
+        },
+        "name": "bds-color-marketing-light-blue",
+        "attributes": {
+            "category": "color",
+            "type": "marketing_light_blue"
+        },
+        "path": [
+            "color",
+            "marketing_light_blue"
+        ]
+    },
+    {
+        "value": "hsl(204, 67%, 84%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(204, 67%, 84%, 1)"
+        },
+        "name": "bds-color-surface-light-blue",
+        "attributes": {
+            "category": "color",
+            "type": "surface_light_blue"
+        },
+        "path": [
+            "color",
+            "surface_light_blue"
+        ]
+    },
+    {
+        "value": "hsl(211, 100%, 10%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(211, 100%, 10%, 1)"
+        },
+        "name": "bds-color-surface-light-blue-subdued",
+        "attributes": {
+            "category": "color",
+            "type": "surface_light_blue_subdued"
+        },
+        "path": [
+            "color",
+            "surface_light_blue_subdued"
+        ]
+    },
+    {
+        "value": "hsl(204, 67%, 76%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(204, 67%, 76%, 1)"
+        },
+        "name": "bds-color-surface-light-blue-inverse",
+        "attributes": {
+            "category": "color",
+            "type": "surface_light_blue_inverse"
+        },
+        "path": [
+            "color",
+            "surface_light_blue_inverse"
+        ]
+    },
+    {
+        "value": "hsl(203, 67%, 98%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(203, 67%, 98%, 1)"
+        },
+        "name": "bds-color-surface-light-blue-subdued-inverse",
+        "attributes": {
+            "category": "color",
+            "type": "surface_light_blue_subdued_inverse"
+        },
+        "path": [
+            "color",
+            "surface_light_blue_subdued_inverse"
+        ]
+    },
+    {
+        "value": "hsl(142, 37%, 48%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(142, 37%, 48%, 1)"
+        },
+        "name": "bds-color-marketing-green",
+        "attributes": {
+            "category": "color",
+            "type": "marketing_green"
+        },
+        "path": [
+            "color",
+            "marketing_green"
+        ]
+    },
+    {
+        "value": "hsl(142, 37%, 48%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(142, 37%, 48%, 1)"
+        },
+        "name": "bds-color-text-green",
+        "attributes": {
+            "category": "color",
+            "type": "text_green"
+        },
+        "path": [
+            "color",
+            "text_green"
+        ]
+    },
+    {
+        "value": "hsl(142, 86%, 28%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(142, 86%, 28%, 1)"
+        },
+        "name": "bds-color-text-green-inverse",
+        "attributes": {
+            "category": "color",
+            "type": "text_green_inverse"
+        },
+        "path": [
+            "color",
+            "text_green_inverse"
+        ]
+    },
+    {
+        "value": "hsl(142, 37%, 48%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(142, 37%, 48%, 1)"
+        },
+        "name": "bds-color-icon-green",
+        "attributes": {
+            "category": "color",
+            "type": "icon_green"
+        },
+        "path": [
+            "color",
+            "icon_green"
+        ]
+    },
+    {
+        "value": "hsl(142, 86%, 28%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(142, 86%, 28%, 1)"
+        },
+        "name": "bds-color-icon-green-inverse",
+        "attributes": {
+            "category": "color",
+            "type": "icon_green_inverse"
+        },
+        "path": [
+            "color",
+            "icon_green_inverse"
+        ]
+    },
+    {
+        "value": "hsl(142, 37%, 55%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(142, 37%, 55%, 1)"
+        },
+        "name": "bds-color-border-green",
+        "attributes": {
+            "category": "color",
+            "type": "border_green"
+        },
+        "path": [
+            "color",
+            "border_green"
+        ]
+    },
+    {
+        "value": "hsl(142, 86%, 28%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(142, 86%, 28%, 1)"
+        },
+        "name": "bds-color-border-green-inverse",
+        "attributes": {
+            "category": "color",
+            "type": "border_green_inverse"
+        },
+        "path": [
+            "color",
+            "border_green_inverse"
+        ]
+    },
+    {
+        "value": "hsl(142, 37%, 48%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(142, 37%, 48%, 1)"
+        },
+        "name": "bds-color-surface-green",
+        "attributes": {
+            "category": "color",
+            "type": "surface_green"
+        },
+        "path": [
+            "color",
+            "surface_green"
+        ]
+    },
+    {
+        "value": "hsl(166, 42%, 20%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(166, 42%, 20%, 1)"
+        },
+        "name": "bds-color-surface-green-subdued",
+        "attributes": {
+            "category": "color",
+            "type": "surface_green_subdued"
+        },
+        "path": [
+            "color",
+            "surface_green_subdued"
+        ]
+    },
+    {
+        "value": "hsl(142, 100%, 35%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(142, 100%, 35%, 1)"
+        },
+        "name": "bds-color-surface-green-inverse",
+        "attributes": {
+            "category": "color",
+            "type": "surface_green_inverse"
+        },
+        "path": [
+            "color",
+            "surface_green_inverse"
+        ]
+    },
+    {
+        "value": "hsl(141, 61%, 90%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(141, 61%, 90%, 1)"
+        },
+        "name": "bds-color-surface-green-subdued-inverse",
+        "attributes": {
+            "category": "color",
+            "type": "surface_green_subdued_inverse"
+        },
+        "path": [
+            "color",
+            "surface_green_subdued_inverse"
+        ]
+    },
+    {
+        "value": "hsl(142, 37%, 48%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(142, 37%, 48%, 1)"
+        },
+        "name": "bds-color-action-green",
+        "attributes": {
+            "category": "color",
+            "type": "action_green"
+        },
+        "path": [
+            "color",
+            "action_green"
+        ]
+    },
+    {
+        "value": "hsl(142, 37%, 55%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(142, 37%, 55%, 1)"
+        },
+        "name": "bds-color-action-green-hover",
+        "attributes": {
+            "category": "color",
+            "type": "action_green_hover"
+        },
+        "path": [
+            "color",
+            "action_green_hover"
+        ]
+    },
+    {
+        "value": "hsl(142, 37%, 60%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(142, 37%, 60%, 1)"
+        },
+        "name": "bds-color-action-green-pressed",
+        "attributes": {
+            "category": "color",
+            "type": "action_green_pressed"
+        },
+        "path": [
+            "color",
+            "action_green_pressed"
+        ]
+    },
+    {
+        "value": "hsl(195, 55%, 11%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(195, 55%, 11%, 1)"
+        },
+        "name": "bds-color-action-green-subdued",
+        "attributes": {
+            "category": "color",
+            "type": "action_green_subdued"
+        },
+        "path": [
+            "color",
+            "action_green_subdued"
+        ]
+    },
+    {
+        "value": "hsl(195, 56%, 13%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(195, 56%, 13%, 1)"
+        },
+        "name": "bds-color-action-green-subdued-hover",
+        "attributes": {
+            "category": "color",
+            "type": "action_green_subdued_hover"
+        },
+        "path": [
+            "color",
+            "action_green_subdued_hover"
+        ]
+    },
+    {
+        "value": "hsl(195, 58%, 14%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(195, 58%, 14%, 1)"
+        },
+        "name": "bds-color-action-green-subdued-pressed",
+        "attributes": {
+            "category": "color",
+            "type": "action_green_subdued_pressed"
+        },
+        "path": [
+            "color",
+            "action_green_subdued_pressed"
+        ]
+    },
+    {
+        "value": "hsl(350, 40%, 64%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(350, 40%, 64%, 1)"
+        },
+        "name": "bds-color-marketing-red",
+        "attributes": {
+            "category": "color",
+            "type": "marketing_red"
+        },
+        "path": [
+            "color",
+            "marketing_red"
+        ]
+    },
+    {
+        "value": "hsl(350, 40%, 64%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(350, 40%, 64%, 1)"
+        },
+        "name": "bds-color-text-red",
+        "attributes": {
+            "category": "color",
+            "type": "text_red"
+        },
+        "path": [
+            "color",
+            "text_red"
+        ]
+    },
+    {
+        "value": "hsl(350, 73%, 35%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(350, 73%, 35%, 1)"
+        },
+        "name": "bds-color-text-red-inverse",
+        "attributes": {
+            "category": "color",
+            "type": "text_red_inverse"
+        },
+        "path": [
+            "color",
+            "text_red_inverse"
+        ]
+    },
+    {
+        "value": "hsl(350, 40%, 64%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(350, 40%, 64%, 1)"
+        },
+        "name": "bds-color-icon-red",
+        "attributes": {
+            "category": "color",
+            "type": "icon_red"
+        },
+        "path": [
+            "color",
+            "icon_red"
+        ]
+    },
+    {
+        "value": "hsl(350, 73%, 35%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(350, 73%, 35%, 1)"
+        },
+        "name": "bds-color-icon-red-inverse",
+        "attributes": {
+            "category": "color",
+            "type": "icon_red_inverse"
+        },
+        "path": [
+            "color",
+            "icon_red_inverse"
+        ]
+    },
+    {
+        "value": "hsl(350, 40%, 64%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(350, 40%, 64%, 1)"
+        },
+        "name": "bds-color-border-red",
+        "attributes": {
+            "category": "color",
+            "type": "border_red"
+        },
+        "path": [
+            "color",
+            "border_red"
+        ]
+    },
+    {
+        "value": "hsl(350, 73%, 35%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(350, 73%, 35%, 1)"
+        },
+        "name": "bds-color-border-red-inverse",
+        "attributes": {
+            "category": "color",
+            "type": "border_red_inverse"
+        },
+        "path": [
+            "color",
+            "border_red_inverse"
+        ]
+    },
+    {
+        "value": "hsl(350, 40%, 64%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(350, 40%, 64%, 1)"
+        },
+        "name": "bds-color-surface-red",
+        "attributes": {
+            "category": "color",
+            "type": "surface_red"
+        },
+        "path": [
+            "color",
+            "surface_red"
+        ]
+    },
+    {
+        "value": "hsl(348, 61%, 11%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(348, 61%, 11%, 1)"
+        },
+        "name": "bds-color-surface-red-subdued",
+        "attributes": {
+            "category": "color",
+            "type": "surface_red_subdued"
+        },
+        "path": [
+            "color",
+            "surface_red_subdued"
+        ]
+    },
+    {
+        "value": "hsl(350, 73%, 35%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(350, 73%, 35%, 1)"
+        },
+        "name": "bds-color-surface-red-inverse",
+        "attributes": {
+            "category": "color",
+            "type": "surface_red_inverse"
+        },
+        "path": [
+            "color",
+            "surface_red_inverse"
+        ]
+    },
+    {
+        "value": "hsl(350, 33%, 96%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(350, 33%, 96%, 1)"
+        },
+        "name": "bds-color-surface-red-subdued-inverse",
+        "attributes": {
+            "category": "color",
+            "type": "surface_red_subdued_inverse"
+        },
+        "path": [
+            "color",
+            "surface_red_subdued_inverse"
+        ]
+    },
+    {
+        "value": "hsl(350, 40%, 64%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(350, 40%, 64%, 1)"
+        },
+        "name": "bds-color-action-red",
+        "attributes": {
+            "category": "color",
+            "type": "action_red"
+        },
+        "path": [
+            "color",
+            "action_red"
+        ]
+    },
+    {
+        "value": "hsl(350, 40%, 58%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(350, 40%, 58%, 1)"
+        },
+        "name": "bds-color-action-red-hover",
+        "attributes": {
+            "category": "color",
+            "type": "action_red_hover"
+        },
+        "path": [
+            "color",
+            "action_red_hover"
+        ]
+    },
+    {
+        "value": "hsl(349, 40%, 51%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(349, 40%, 51%, 1)"
+        },
+        "name": "bds-color-action-red-pressed",
+        "attributes": {
+            "category": "color",
+            "type": "action_red_pressed"
+        },
+        "path": [
+            "color",
+            "action_red_pressed"
+        ]
+    },
+    {
+        "value": "hsl(348, 61%, 11%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(348, 61%, 11%, 1)"
+        },
+        "name": "bds-color-action-red-subdued",
+        "attributes": {
+            "category": "color",
+            "type": "action_red_subdued"
+        },
+        "path": [
+            "color",
+            "action_red_subdued"
+        ]
+    },
+    {
+        "value": "hsl(348, 61%, 14%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(348, 61%, 14%, 1)"
+        },
+        "name": "bds-color-action-red-subdued-hover",
+        "attributes": {
+            "category": "color",
+            "type": "action_red_subdued_hover"
+        },
+        "path": [
+            "color",
+            "action_red_subdued_hover"
+        ]
+    },
+    {
+        "value": "hsl(348, 61%, 16%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(348, 61%, 16%, 1)"
+        },
+        "name": "bds-color-action-red-subdued-pressed",
+        "attributes": {
+            "category": "color",
+            "type": "action_red_subdued_pressed"
+        },
+        "path": [
+            "color",
+            "action_red_subdued_pressed"
+        ]
+    },
+    {
+        "value": "hsl(41, 91%, 70%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(41, 91%, 70%, 1)"
+        },
+        "name": "bds-color-marketing-gold",
+        "attributes": {
+            "category": "color",
+            "type": "marketing_gold"
+        },
+        "path": [
+            "color",
+            "marketing_gold"
+        ]
+    },
+    {
+        "value": "hsl(41, 91%, 70%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(41, 91%, 70%, 1)"
+        },
+        "name": "bds-color-surface-gold",
+        "attributes": {
+            "category": "color",
+            "type": "surface_gold"
+        },
+        "path": [
+            "color",
+            "surface_gold"
+        ]
+    },
+    {
+        "value": "hsl(41, 27%, 38%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(41, 27%, 38%, 1)"
+        },
+        "name": "bds-color-surface-gold-subdued",
+        "attributes": {
+            "category": "color",
+            "type": "surface_gold_subdued"
+        },
+        "path": [
+            "color",
+            "surface_gold_subdued"
+        ]
+    },
+    {
+        "value": "hsl(41, 91%, 57%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(41, 91%, 57%, 1)"
+        },
+        "name": "bds-color-surface-gold-inverse",
+        "attributes": {
+            "category": "color",
+            "type": "surface_gold_inverse"
+        },
+        "path": [
+            "color",
+            "surface_gold_inverse"
+        ]
+    },
+    {
+        "value": "hsl(41, 92%, 90%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(41, 92%, 90%, 1)"
+        },
+        "name": "bds-color-surface-gold-subdued-inverse",
+        "attributes": {
+            "category": "color",
+            "type": "surface_gold_subdued_inverse"
+        },
+        "path": [
+            "color",
+            "surface_gold_subdued_inverse"
+        ]
+    },
+    {
+        "value": "hsl(48, 88%, 60%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(48, 88%, 60%, 1)"
+        },
+        "name": "bds-color-marketing-lfp-yellow",
+        "attributes": {
+            "category": "color",
+            "type": "marketing_lfp_yellow"
+        },
+        "path": [
+            "color",
+            "marketing_lfp_yellow"
+        ]
+    },
+    {
+        "value": "hsl(0, 0%, 0%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(0, 0%, 0%, 1)"
+        },
+        "name": "bds-color-text-solid-inverse",
+        "attributes": {
+            "category": "color",
+            "type": "text_solid_inverse"
+        },
+        "path": [
+            "color",
+            "text_solid_inverse"
+        ]
+    },
+    {
+        "value": "hsl(0, 0%, 0%, .87)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(0, 0%, 0%, .87)"
+        },
+        "name": "bds-color-text-primary-inverse",
+        "attributes": {
+            "category": "color",
+            "type": "text_primary_inverse"
+        },
+        "path": [
+            "color",
+            "text_primary_inverse"
+        ]
+    },
+    {
+        "value": "hsl(0, 0%, 0%, .70)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(0, 0%, 0%, .70)"
+        },
+        "name": "bds-color-text-secondary-inverse",
+        "attributes": {
+            "category": "color",
+            "type": "text_secondary_inverse"
+        },
+        "path": [
+            "color",
+            "text_secondary_inverse"
+        ]
+    },
+    {
+        "value": "hsl(0, 0%, 0%, .60)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(0, 0%, 0%, .60)"
+        },
+        "name": "bds-color-text-tertiary-inverse",
+        "attributes": {
+            "category": "color",
+            "type": "text_tertiary_inverse"
+        },
+        "path": [
+            "color",
+            "text_tertiary_inverse"
+        ]
+    },
+    {
+        "value": "hsl(0, 0%, 0%, .30)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(0, 0%, 0%, .30)"
+        },
+        "name": "bds-color-text-disabled-inverse",
+        "attributes": {
+            "category": "color",
+            "type": "text_disabled_inverse"
+        },
+        "path": [
+            "color",
+            "text_disabled_inverse"
+        ]
+    },
+    {
+        "value": "hsl(0, 0%, 0%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(0, 0%, 0%, 1)"
+        },
+        "name": "bds-color-icon-solid-inverse",
+        "attributes": {
+            "category": "color",
+            "type": "icon_solid_inverse"
+        },
+        "path": [
+            "color",
+            "icon_solid_inverse"
+        ]
+    },
+    {
+        "value": "hsl(0, 0%, 0%, .87)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(0, 0%, 0%, .87)"
+        },
+        "name": "bds-color-icon-primary-inverse",
+        "attributes": {
+            "category": "color",
+            "type": "icon_primary_inverse"
+        },
+        "path": [
+            "color",
+            "icon_primary_inverse"
+        ]
+    },
+    {
+        "value": "hsl(0, 0%, 0%, .70)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(0, 0%, 0%, .70)"
+        },
+        "name": "bds-color-icon-secondary-inverse",
+        "attributes": {
+            "category": "color",
+            "type": "icon_secondary_inverse"
+        },
+        "path": [
+            "color",
+            "icon_secondary_inverse"
+        ]
+    },
+    {
+        "value": "hsl(0, 0%, 0%, .60)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(0, 0%, 0%, .60)"
+        },
+        "name": "bds-color-icon-tertiary-inverse",
+        "attributes": {
+            "category": "color",
+            "type": "icon_tertiary_inverse"
+        },
+        "path": [
+            "color",
+            "icon_tertiary_inverse"
+        ]
+    },
+    {
+        "value": "hsl(0, 0%, 0%, .30)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(0, 0%, 0%, .30)"
+        },
+        "name": "bds-color-icon-disabled-inverse",
+        "attributes": {
+            "category": "color",
+            "type": "icon_disabled_inverse"
+        },
+        "path": [
+            "color",
+            "icon_disabled_inverse"
+        ]
+    },
+    {
+        "value": "hsl(0, 0%, 0%, .44)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(0, 0%, 0%, .44)"
+        },
+        "name": "bds-color-border-default-inverse",
+        "attributes": {
+            "category": "color",
+            "type": "border_default_inverse"
+        },
+        "path": [
+            "color",
+            "border_default_inverse"
+        ]
+    },
+    {
+        "value": "hsl(0, 0%, 0%, .52)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(0, 0%, 0%, .52)"
+        },
+        "name": "bds-color-border-hover-inverse",
+        "attributes": {
+            "category": "color",
+            "type": "border_hover_inverse"
+        },
+        "path": [
+            "color",
+            "border_hover_inverse"
+        ]
+    },
+    {
+        "value": "hsl(0, 0%, 0%, .60)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(0, 0%, 0%, .60)"
+        },
+        "name": "bds-color-border-pressed-inverse",
+        "attributes": {
+            "category": "color",
+            "type": "border_pressed_inverse"
+        },
+        "path": [
+            "color",
+            "border_pressed_inverse"
+        ]
+    },
+    {
+        "value": "hsl(0, 0%, 0%, .12)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(0, 0%, 0%, .12)"
+        },
+        "name": "bds-color-border-subdued-inverse",
+        "attributes": {
+            "category": "color",
+            "type": "border_subdued_inverse"
+        },
+        "path": [
+            "color",
+            "border_subdued_inverse"
+        ]
+    },
+    {
+        "value": "hsl(0, 0%, 0%, .90)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(0, 0%, 0%, .90)"
+        },
+        "name": "bds-color-border-contrast-inverse",
+        "attributes": {
+            "category": "color",
+            "type": "border_contrast_inverse"
+        },
+        "path": [
+            "color",
+            "border_contrast_inverse"
+        ]
+    },
+    {
+        "value": "hsl(0, 0%, 0%, .30)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(0, 0%, 0%, .30)"
+        },
+        "name": "bds-color-border-disabled-inverse",
+        "attributes": {
+            "category": "color",
+            "type": "border_disabled_inverse"
+        },
+        "path": [
+            "color",
+            "border_disabled_inverse"
+        ]
+    },
+    {
+        "value": "hsl(221, 100%, 6%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(221, 100%, 6%, 1)"
+        },
+        "name": "bds-color-focus-inverse",
+        "attributes": {
+            "category": "color",
+            "type": "focus_inverse"
+        },
+        "path": [
+            "color",
+            "focus_inverse"
+        ]
+    },
+    {
+        "value": "hsl(221, 100%, 6%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(221, 100%, 6%, 1)"
+        },
+        "name": "bds-color-surface-default",
+        "attributes": {
+            "category": "color",
+            "type": "surface_default"
+        },
+        "path": [
+            "color",
+            "surface_default"
+        ]
+    },
+    {
+        "value": "hsl(0, 0%, 100%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(0, 0%, 100%, 1)"
+        },
+        "name": "bds-color-surface-default-inverse",
+        "attributes": {
+            "category": "color",
+            "type": "surface_default_inverse"
+        },
+        "path": [
+            "color",
+            "surface_default_inverse"
+        ]
+    },
+    {
+        "value": "hsl(222, 54%, 11%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(222, 54%, 11%, 1)"
+        },
+        "name": "bds-color-surface-subdued",
+        "attributes": {
+            "category": "color",
+            "type": "surface_subdued"
+        },
+        "path": [
+            "color",
+            "surface_subdued"
+        ]
+    },
+    {
+        "value": "hsl(223, 66%, 9%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(223, 66%, 9%, 1)"
+        },
+        "name": "bds-color-elevation-01",
+        "attributes": {
+            "category": "color",
+            "type": "elevation_01"
+        },
+        "path": [
+            "color",
+            "elevation_01"
+        ]
+    },
+    {
+        "value": "hsl(222, 54%, 11%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(222, 54%, 11%, 1)"
+        },
+        "name": "bds-color-elevation-02",
+        "attributes": {
+            "category": "color",
+            "type": "elevation_02"
+        },
+        "path": [
+            "color",
+            "elevation_02"
+        ]
+    },
+    {
+        "value": "hsl(222, 45%, 13%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(222, 45%, 13%, 1)"
+        },
+        "name": "bds-color-elevation-03",
+        "attributes": {
+            "category": "color",
+            "type": "elevation_03"
+        },
+        "path": [
+            "color",
+            "elevation_03"
+        ]
+    },
+    {
+        "value": "hsl(221, 39%, 15%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(221, 39%, 15%, 1)"
+        },
+        "name": "bds-color-elevation-04",
+        "attributes": {
+            "category": "color",
+            "type": "elevation_04"
+        },
+        "path": [
+            "color",
+            "elevation_04"
+        ]
+    },
+    {
+        "value": "hsl(221, 34%, 17%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(221, 34%, 17%, 1)"
+        },
+        "name": "bds-color-elevation-05",
+        "attributes": {
+            "category": "color",
+            "type": "elevation_05"
+        },
+        "path": [
+            "color",
+            "elevation_05"
+        ]
+    },
+    {
+        "value": "hsl(221, 30%, 18%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(221, 30%, 18%, 1)"
+        },
+        "name": "bds-color-elevation-06",
+        "attributes": {
+            "category": "color",
+            "type": "elevation_06"
+        },
+        "path": [
+            "color",
+            "elevation_06"
+        ]
+    },
+    {
+        "value": "hsl(222, 54%, 6%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(222, 54%, 6%, 1)"
+        },
+        "name": "bds-color-action-neutral",
+        "attributes": {
+            "category": "color",
+            "type": "action_neutral"
+        },
+        "path": [
+            "color",
+            "action_neutral"
+        ]
+    },
+    {
+        "value": "hsl(222, 45%, 13%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(222, 45%, 13%, 1)"
+        },
+        "name": "bds-color-action-neutral-hover",
+        "attributes": {
+            "category": "color",
+            "type": "action_neutral_hover"
+        },
+        "path": [
+            "color",
+            "action_neutral_hover"
+        ]
+    },
+    {
+        "value": "hsl(223, 31%, 18%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(223, 31%, 18%, 1)"
+        },
+        "name": "bds-color-action-neutral-pressed",
+        "attributes": {
+            "category": "color",
+            "type": "action_neutral_pressed"
+        },
+        "path": [
+            "color",
+            "action_neutral_pressed"
+        ]
+    },
+    {
+        "value": "hsl(0, 0%, 100%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(0, 0%, 100%, 1)"
+        },
+        "name": "bds-color-white",
+        "attributes": {
+            "category": "color",
+            "type": "white"
+        },
+        "path": [
+            "color",
+            "white"
+        ]
+    },
+    {
+        "value": "hsl(0, 0%, 0%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(0, 0%, 0%, 1)"
+        },
+        "name": "bds-color-black",
+        "attributes": {
+            "category": "color",
+            "type": "black"
+        },
+        "path": [
+            "color",
+            "black"
+        ]
+    },
+    {
+        "value": "hsl(0, 0%, 100%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(0, 0%, 100%, 1)"
+        },
+        "name": "bds-color-text-solid",
+        "attributes": {
+            "category": "color",
+            "type": "text_solid"
+        },
+        "path": [
+            "color",
+            "text_solid"
+        ]
+    },
+    {
+        "value": "hsl(0, 0%, 100%, .87)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(0, 0%, 100%, .87)"
+        },
+        "name": "bds-color-text-primary",
+        "attributes": {
+            "category": "color",
+            "type": "text_primary"
+        },
+        "path": [
+            "color",
+            "text_primary"
+        ]
+    },
+    {
+        "value": "hsl(0, 0%, 100%, .70)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(0, 0%, 100%, .70)"
+        },
+        "name": "bds-color-text-secondary",
+        "attributes": {
+            "category": "color",
+            "type": "text_secondary"
+        },
+        "path": [
+            "color",
+            "text_secondary"
+        ]
+    },
+    {
+        "value": "hsl(0, 0%, 100%, .60)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(0, 0%, 100%, .60)"
+        },
+        "name": "bds-color-text-tertiary",
+        "attributes": {
+            "category": "color",
+            "type": "text_tertiary"
+        },
+        "path": [
+            "color",
+            "text_tertiary"
+        ]
+    },
+    {
+        "value": "hsl(0, 0%, 100%, .30)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(0, 0%, 100%, .30)"
+        },
+        "name": "bds-color-text-disabled",
+        "attributes": {
+            "category": "color",
+            "type": "text_disabled"
+        },
+        "path": [
+            "color",
+            "text_disabled"
+        ]
+    },
+    {
+        "value": "hsl(0, 0%, 100%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(0, 0%, 100%, 1)"
+        },
+        "name": "bds-color-icon-solid",
+        "attributes": {
+            "category": "color",
+            "type": "icon_solid"
+        },
+        "path": [
+            "color",
+            "icon_solid"
+        ]
+    },
+    {
+        "value": "hsl(0, 0%, 100%, .87)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(0, 0%, 100%, .87)"
+        },
+        "name": "bds-color-icon-primary",
+        "attributes": {
+            "category": "color",
+            "type": "icon_primary"
+        },
+        "path": [
+            "color",
+            "icon_primary"
+        ]
+    },
+    {
+        "value": "hsl(0, 0%, 100%, .70)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(0, 0%, 100%, .70)"
+        },
+        "name": "bds-color-icon-secondary",
+        "attributes": {
+            "category": "color",
+            "type": "icon_secondary"
+        },
+        "path": [
+            "color",
+            "icon_secondary"
+        ]
+    },
+    {
+        "value": "hsl(0, 0%, 100%, .60)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(0, 0%, 100%, .60)"
+        },
+        "name": "bds-color-icon-tertiary",
+        "attributes": {
+            "category": "color",
+            "type": "icon_tertiary"
+        },
+        "path": [
+            "color",
+            "icon_tertiary"
+        ]
+    },
+    {
+        "value": "hsl(0, 0%, 100%, .30)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(0, 0%, 100%, .30)"
+        },
+        "name": "bds-color-icon-disabled",
+        "attributes": {
+            "category": "color",
+            "type": "icon_disabled"
+        },
+        "path": [
+            "color",
+            "icon_disabled"
+        ]
+    },
+    {
+        "value": "hsl(220, 7%, 47%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(220, 7%, 47%, 1)"
+        },
+        "name": "bds-color-border-default",
+        "attributes": {
+            "category": "color",
+            "type": "border_default"
+        },
+        "path": [
+            "color",
+            "border_default"
+        ]
+    },
+    {
+        "value": "hsl(221, 7%, 55%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(221, 7%, 55%, 1)"
+        },
+        "name": "bds-color-border-hover",
+        "attributes": {
+            "category": "color",
+            "type": "border_hover"
+        },
+        "path": [
+            "color",
+            "border_hover"
+        ]
+    },
+    {
+        "value": "hsl(222, 7%, 63%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(222, 7%, 63%, 1)"
+        },
+        "name": "bds-color-border-pressed",
+        "attributes": {
+            "category": "color",
+            "type": "border_pressed"
+        },
+        "path": [
+            "color",
+            "border_pressed"
+        ]
+    },
+    {
+        "value": "hsl(0, 0%, 100%, .12)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(0, 0%, 100%, .12)"
+        },
+        "name": "bds-color-border-subdued",
+        "attributes": {
+            "category": "color",
+            "type": "border_subdued"
+        },
+        "path": [
+            "color",
+            "border_subdued"
+        ]
+    },
+    {
+        "value": "hsl(0, 0%, 100%, .90)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(0, 0%, 100%, .90)"
+        },
+        "name": "bds-color-border-contrast",
+        "attributes": {
+            "category": "color",
+            "type": "border_contrast"
+        },
+        "path": [
+            "color",
+            "border_contrast"
+        ]
+    },
+    {
+        "value": "hsl(222, 13%, 34%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(222, 13%, 34%, 1)"
+        },
+        "name": "bds-color-border-disabled",
+        "attributes": {
+            "category": "color",
+            "type": "border_disabled"
+        },
+        "path": [
+            "color",
+            "border_disabled"
+        ]
+    },
+    {
+        "value": "hsl(0, 0%, 44%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(0, 0%, 44%, 1)"
+        },
+        "name": "bds-color-focus-default",
+        "attributes": {
+            "category": "color",
+            "type": "focus_default"
+        },
+        "path": [
+            "color",
+            "focus_default"
+        ]
+    },
+    {
+        "value": "hsl(0, 0%, 9%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(0, 0%, 9%, 1)"
+        },
+        "name": "bds-color-neutral-01",
+        "attributes": {
+            "category": "color",
+            "type": "neutral_01"
+        },
+        "path": [
+            "color",
+            "neutral_01"
+        ]
+    },
+    {
+        "value": "hsl(0, 0%, 15%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(0, 0%, 15%, 1)"
+        },
+        "name": "bds-color-neutral-02",
+        "attributes": {
+            "category": "color",
+            "type": "neutral_02"
+        },
+        "path": [
+            "color",
+            "neutral_02"
+        ]
+    },
+    {
+        "value": "hsl(0, 0%, 22%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(0, 0%, 22%, 1)"
+        },
+        "name": "bds-color-neutral-03",
+        "attributes": {
+            "category": "color",
+            "type": "neutral_03"
+        },
+        "path": [
+            "color",
+            "neutral_03"
+        ]
+    },
+    {
+        "value": "hsl(0, 0%, 32%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(0, 0%, 32%, 1)"
+        },
+        "name": "bds-color-neutral-04",
+        "attributes": {
+            "category": "color",
+            "type": "neutral_04"
+        },
+        "path": [
+            "color",
+            "neutral_04"
+        ]
+    },
+    {
+        "value": "hsl(0, 0%, 44%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(0, 0%, 44%, 1)"
+        },
+        "name": "bds-color-neutral-05",
+        "attributes": {
+            "category": "color",
+            "type": "neutral_05"
+        },
+        "path": [
+            "color",
+            "neutral_05"
+        ]
+    },
+    {
+        "value": "hsl(0, 0%, 55%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(0, 0%, 55%, 1)"
+        },
+        "name": "bds-color-neutral-06",
+        "attributes": {
+            "category": "color",
+            "type": "neutral_06"
+        },
+        "path": [
+            "color",
+            "neutral_06"
+        ]
+    },
+    {
+        "value": "hsl(0, 0%, 66%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(0, 0%, 66%, 1)"
+        },
+        "name": "bds-color-neutral-07",
+        "attributes": {
+            "category": "color",
+            "type": "neutral_07"
+        },
+        "path": [
+            "color",
+            "neutral_07"
+        ]
+    },
+    {
+        "value": "hsl(0, 0%, 78%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(0, 0%, 78%, 1)"
+        },
+        "name": "bds-color-neutral-08",
+        "attributes": {
+            "category": "color",
+            "type": "neutral_08"
+        },
+        "path": [
+            "color",
+            "neutral_08"
+        ]
+    },
+    {
+        "value": "hsl(0, 0%, 88%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(0, 0%, 88%, 1)"
+        },
+        "name": "bds-color-neutral-09",
+        "attributes": {
+            "category": "color",
+            "type": "neutral_09"
+        },
+        "path": [
+            "color",
+            "neutral_09"
+        ]
+    },
+    {
+        "value": "hsl(0, 0%, 96%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(0, 0%, 96%, 1)"
+        },
+        "name": "bds-color-neutral-10",
+        "attributes": {
+            "category": "color",
+            "type": "neutral_10"
+        },
+        "path": [
+            "color",
+            "neutral_10"
+        ]
+    },
+    {
+        "value": "hsl(0, 0%, 21%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(0, 0%, 21%, 1)"
+        },
+        "name": "bds-color-skeleton-01",
+        "attributes": {
+            "category": "color",
+            "type": "skeleton_01"
+        },
+        "path": [
+            "color",
+            "skeleton_01"
+        ]
+    },
+    {
+        "value": "hsl(0, 0%, 32%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(0, 0%, 32%, 1)"
+        },
+        "name": "bds-color-skeleton-02",
+        "attributes": {
+            "category": "color",
+            "type": "skeleton_02"
+        },
+        "path": [
+            "color",
+            "skeleton_02"
+        ]
+    },
+    {
+        "value": "hsl(0, 0%, 100%, .20)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(0, 0%, 100%, .20)"
+        },
+        "name": "bds-color-overlay",
+        "attributes": {
+            "category": "color",
+            "type": "overlay"
+        },
+        "path": [
+            "color",
+            "overlay"
+        ]
+    },
+    {
+        "value": "hsl(263, 100%, 79%, 1)",
+        "filePath": "tokens/dark/color.json",
+        "isSource": true,
+        "original": {
+            "value": "hsl(263, 100%, 79%, 1)"
+        },
+        "name": "bds-color-text-visited-link",
+        "attributes": {
+            "category": "color",
+            "type": "text_visited_link"
+        },
+        "path": [
+            "color",
+            "text_visited_link"
+        ]
+    },
+    {
+        "value": "dark",
+        "filePath": "tokens/dark/info.json",
+        "isSource": true,
+        "original": {
+            "value": "dark"
+        },
+        "name": "bds-name",
+        "attributes": {
+            "category": "name"
+        },
+        "path": [
+            "name"
+        ]
+    }
+]

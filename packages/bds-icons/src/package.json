@@ -1,0 +1,9 @@
+{
+    "name": "@lowes-tech/bds-icons-src",
+    "version": "0.0.0",
+    "main": "./",
+    "dependencies": {
+        "@lowes-tech/bds-tokens": "file:../../bds-tokens/src",
+        "@lowes-tech/bds-react": "file:../../bds-react/src"
+    }
+}

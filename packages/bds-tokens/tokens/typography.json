@@ -1,0 +1,155 @@
+{
+    "font": {
+        "weight": {
+            "regular": { "value": 400 },
+            "medium": { "value": 500 },
+            "semibold": { "value": 600 }
+        },
+        "family": {
+            "roboto": { "value": "Roboto, Helvetica, Arial, sans-serif" },
+            "fellix": { "value": "Fellix, Arial, sans-serif" }
+        },
+        "tag": {
+            "h1": {
+                "desktop": {
+                    "font_size": { "value": "{sizes.size_40.value}" },
+                    "line_height": { "value": "{sizes.size_56.value}" }
+                },
+                "mobile": {
+                    "font_size": { "value": "{sizes.size_28.value}" },
+                    "line_height": { "value": "{sizes.size_40.value}" }
+                }
+            },
+            "h2": {
+                "desktop": {
+                    "font_size": { "value": "{sizes.size_28.value}" },
+                    "line_height": { "value": "{sizes.size_40.value}" }
+                },
+                "mobile": {
+                    "font_size": { "value": "{sizes.size_24.value}" },
+                    "line_height": { "value": "{sizes.size_32.value}" }
+                }
+            },
+            "h3": {
+                "desktop": {
+                    "font_size": { "value": "{sizes.size_24.value}" },
+                    "line_height": { "value": "{sizes.size_32.value}" }
+                },
+                "mobile": {
+                    "font_size": { "value": "{sizes.size_20.value}" },
+                    "line_height": { "value": "{sizes.size_32.value}" }
+                }
+            },
+            "h4": {
+                "desktop": {
+                    "font_size": { "value": "{sizes.size_20.value}" },
+                    "line_height": { "value": "{sizes.size_32.value}" }
+                },
+                "mobile": {
+                    "font_size": { "value": "{sizes.size_16.value}" },
+                    "line_height": { "value": "{sizes.size_24.value}" }
+                }
+            },
+            "h5": {
+                "desktop": {
+                    "font_size": { "value": "{sizes.size_16.value}" },
+                    "line_height": { "value": "{sizes.size_24.value}" }
+                },
+                "mobile": {
+                    "font_size": { "value": "{sizes.size_14.value}" },
+                    "line_height": { "value": "{sizes.size_24.value}" }
+                }
+            },
+            "h6": {
+                "desktop": {
+                    "font_size": { "value": "{sizes.size_14.value}" },
+                    "line_height": { "value": "{sizes.size_24.value}" }
+                },
+                "mobile": {
+                    "font_size": { "value": "{sizes.size_12.value}" },
+                    "line_height": { "value": "{sizes.size_16.value}" }
+                }
+            },
+            "body_1": {
+                "desktop": {
+                    "font_size": { "value": "{sizes.size_16.value}" },
+                    "line_height": { "value": "{sizes.size_24.value}" }
+                },
+                "mobile": {
+                    "font_size": { "value": "{sizes.size_14.value}" },
+                    "line_height": { "value": "{sizes.size_24.value}" }
+                }
+            },
+            "body_2": {
+                "desktop": {
+                    "font_size": { "value": "{sizes.size_14.value}" },
+                    "line_height": { "value": "{sizes.size_24.value}" }
+                },
+                "mobile": {
+                    "font_size": { "value": "{sizes.size_12.value}" },
+                    "line_height": { "value": "{sizes.size_16.value}" }
+                }
+            },
+            "article": {
+                "desktop": {
+                    "font_size": { "value": "{sizes.size_16.value}" },
+                    "line_height": { "value": "{sizes.size_32.value}" }
+                },
+                "mobile": {
+                    "font_size": { "value": "{sizes.size_14.value}" },
+                    "line_height": { "value": "{sizes.size_32.value}" }
+                }
+            },
+            "caption": {
+                "desktop": {
+                    "font_size": { "value": "{sizes.size_14.value}" },
+                    "line_height": { "value": "{sizes.size_24.value}" }
+                },
+                "mobile": {
+                    "font_size": { "value": "{sizes.size_12.value}" },
+                    "line_height": { "value": "{sizes.size_16.value}" }
+                }
+            },
+            "footnote": {
+                "desktop": {
+                    "font_size": { "value": "{sizes.size_12.value}" },
+                    "line_height": { "value": "{sizes.size_16.value}" }
+                },
+                "mobile": {
+                    "font_size": { "value": "{sizes.size_10.value}" },
+                    "line_height": { "value": "{sizes.size_16.value}" }
+                }
+            },
+            "overline": {
+                "desktop": {
+                    "font_size": { "value": "{sizes.size_12.value}" },
+                    "line_height": { "value": "{sizes.size_16.value}" }
+                },
+                "mobile": {
+                    "font_size": { "value": "{sizes.size_12.value}" },
+                    "line_height": { "value": "{sizes.size_16.value}" }
+                }
+            },
+            "label": {
+                "desktop": {
+                    "font_size": { "value": "{sizes.size_16.value}" },
+                    "line_height": { "value": "{sizes.size_24.value}" }
+                },
+                "mobile": {
+                    "font_size": { "value": "{sizes.size_12.value}" },
+                    "line_height": { "value": "{sizes.size_16.value}" }
+                }
+            },
+            "helper_text": {
+                "desktop": {
+                    "font_size": { "value": "{sizes.size_12.value}" },
+                    "line_height": { "value": "{sizes.size_12.value}" }
+                },
+                "mobile": {
+                    "font_size": { "value": "{sizes.size_12.value}" },
+                    "line_height": { "value": "{sizes.size_12.value}" }
+                }
+            }
+        }
+    }
+}

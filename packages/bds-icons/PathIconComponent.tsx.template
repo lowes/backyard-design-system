@@ -1,0 +1,25 @@
+import React from 'react'
+
+import createPathIcon from './components/PathIcon/createPathIcon'
+import type { PathIconProps, PathIconRef } from './components/PathIcon'
+
+const {{componentName}}: React.MemoExoticComponent<React.ForwardRefExoticComponent<{{componentName}}Props>> = createPathIcon(
+    {{{paths}}}
+, 
+    '{{componentName}}'
+)
+
+type {{componentName}}Ref = PathIconRef
+
+type {{componentName}}Props = PathIconProps
+
+export {
+    {{componentName}}
+}
+
+export type {
+    {{componentName}}Ref,
+    {{componentName}}Props
+}
+
+export default {{componentName}}

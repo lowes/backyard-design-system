@@ -1,0 +1,16 @@
+{
+    "border": {
+        "radius": {
+            "sm": { "value": "{sizes.size_2.value}" },
+            "md": { "value": "{sizes.size_4.value}" },
+            "lg": { "value": "{sizes.size_8.value}" },
+            "circle": { "value": "{sizes.size_128.value}" }
+        },
+        "width": {
+            "sm": { "value": "{sizes.size_1.value}" },
+            "md": { "value": "{sizes.size_2.value}" },
+            "lg": { "value": "{sizes.size_3.value}" },
+            "xl": { "value": "{sizes.size_8.value}" }
+        }
+    }
+}

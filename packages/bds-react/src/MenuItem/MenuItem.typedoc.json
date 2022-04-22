@@ -1,0 +1,808 @@
+{
+	"id": 0,
+	"name": "@lowes-tech/bds-react/MenuItem",
+	"kind": 1,
+	"kindString": "Project",
+	"flags": {},
+	"children": [
+		{
+			"id": 31,
+			"name": "default",
+			"kind": 16777216,
+			"kindString": "Reference",
+			"flags": {},
+			"target": 1
+		},
+		{
+			"id": 2,
+			"name": "MenuItemProps",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 29,
+					"name": "as",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ElementType"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "ButtonProps.as"
+					}
+				},
+				{
+					"id": 11,
+					"name": "children",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "React Children"
+					},
+					"type": {
+						"type": "reference",
+						"name": "ReactNode"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "ButtonProps.children"
+					}
+				},
+				{
+					"id": 12,
+					"name": "className",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "DOM Class Name"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "ButtonProps.className"
+					}
+				},
+				{
+					"id": 14,
+					"name": "color",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Type of button\n- Interactive -> (Default) Lowe's Primary Color Palette\n- Commerce -> Lowe's Commerce Color Palette\n- Contrast -> High Contrast Black/White Color Palette"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "interactive"
+							},
+							{
+								"type": "literal",
+								"value": "green"
+							},
+							{
+								"type": "literal",
+								"value": "red"
+							},
+							{
+								"type": "literal",
+								"value": "neutral"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "ButtonProps.color"
+					}
+				},
+				{
+					"id": 3,
+					"name": "component",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Component wrapper of the menu item\nCan be an HTML tag (`li`) or component"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "reflection",
+								"declaration": {
+									"id": 4,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {}
+								}
+							},
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ComponentClass"
+					}
+				},
+				{
+					"id": 5,
+					"name": "disabled",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not the menu item is disabled for selecting"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "ButtonProps.disabled"
+					}
+				},
+				{
+					"id": 19,
+					"name": "elevation",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Adds elevation to the button"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "ButtonProps.elevation"
+					}
+				},
+				{
+					"id": 18,
+					"name": "fullWidth",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Makes button 100% the width of the container"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "ButtonProps.fullWidth"
+					}
+				},
+				{
+					"id": 8,
+					"name": "iconAfter",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Icon Component before to place in menu item"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							},
+							{
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									},
+									{
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "JSXElementConstructor"
+									}
+								]
+							}
+						],
+						"name": "ReactElement"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "ButtonProps.iconAfter"
+					}
+				},
+				{
+					"id": 7,
+					"name": "iconBefore",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Icon Component before to place in menu item"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							},
+							{
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									},
+									{
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "JSXElementConstructor"
+									}
+								]
+							}
+						],
+						"name": "ReactElement"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "ButtonProps.iconBefore"
+					}
+				},
+				{
+					"id": 6,
+					"name": "label",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Label of the menu item\nuses `children` if not defined"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "ButtonProps.label"
+					}
+				},
+				{
+					"id": 9,
+					"name": "selected",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Whether or not the menu item is selected"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "ButtonProps.selected"
+					}
+				},
+				{
+					"id": 15,
+					"name": "shape",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Shape of button\n- Rounded -> Medium Border Radius\n- Squared -> (Default) Zero Border Radius\n- Circle -> Maximum Border Radius (FAB Button)"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "rounded"
+							},
+							{
+								"type": "literal",
+								"value": "squared"
+							},
+							{
+								"type": "literal",
+								"value": "circle"
+							},
+							{
+								"type": "literal",
+								"value": "custom"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "ButtonProps.shape"
+					}
+				},
+				{
+					"id": 16,
+					"name": "size",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Size of Button\n- Small -> Small Height/Spacing Button\n- Medium -> (Default) Medium Height/Spacing Button\n- Large -> Large Height/Spacing Button"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "small"
+							},
+							{
+								"type": "literal",
+								"value": "medium"
+							},
+							{
+								"type": "literal",
+								"value": "large"
+							},
+							{
+								"type": "literal",
+								"value": "jumbo"
+							},
+							{
+								"type": "literal",
+								"value": "full-width"
+							},
+							{
+								"type": "literal",
+								"value": "extra_small"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "ButtonProps.size"
+					}
+				},
+				{
+					"id": 17,
+					"name": "type",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "button"
+							},
+							{
+								"type": "literal",
+								"value": "submit"
+							},
+							{
+								"type": "literal",
+								"value": "reset"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "ButtonProps.type"
+					}
+				},
+				{
+					"id": 10,
+					"name": "value",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Value of menu item"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"overwrites": {
+						"type": "reference",
+						"name": "ButtonProps.value"
+					}
+				},
+				{
+					"id": 13,
+					"name": "variant",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Variant of button\n- Primary -> (Default) Solid Button w/ Background w/o Borders\n- Secondary -> Outlined Button w/o Background w/ Borders\n- Ghost -> No Background, No Borders"
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "primary"
+							},
+							{
+								"type": "literal",
+								"value": "secondary"
+							},
+							{
+								"type": "literal",
+								"value": "tertiary"
+							},
+							{
+								"type": "literal",
+								"value": "ghost"
+							},
+							{
+								"type": "literal",
+								"value": "inverse"
+							}
+						]
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "ButtonProps.variant"
+					}
+				},
+				{
+					"id": 20,
+					"name": "onClick",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 21,
+							"name": "onClick",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onClick` trigger function",
+								"tags": [
+									{
+										"tag": "argument",
+										"text": "{Event} event - DOM event\n"
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 22,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											},
+											{
+												"type": "reference",
+												"name": "MouseEvent"
+											}
+										],
+										"name": "MouseEvent"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "ButtonProps.onClick"
+							}
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "ButtonProps.onClick"
+					}
+				},
+				{
+					"id": 26,
+					"name": "onFocus",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 27,
+							"name": "onFocus",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onFocus` trigger function",
+								"tags": [
+									{
+										"tag": "argument",
+										"text": "{Event} event - DOM event\n"
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 28,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											},
+											{
+												"type": "reference",
+												"name": "Element"
+											}
+										],
+										"name": "FocusEvent"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "ButtonProps.onFocus"
+							}
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "ButtonProps.onFocus"
+					}
+				},
+				{
+					"id": 23,
+					"name": "onKeyDown",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isOptional": true
+					},
+					"signatures": [
+						{
+							"id": 24,
+							"name": "onKeyDown",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "`onKeyDown` trigger function",
+								"tags": [
+									{
+										"tag": "argument",
+										"text": "{Event} event - DOM event\n"
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 25,
+									"name": "event",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "Element"
+											}
+										],
+										"name": "KeyboardEvent"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "ButtonProps.onKeyDown"
+							}
+						}
+					],
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "ButtonProps.onKeyDown"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						29,
+						11,
+						12,
+						14,
+						3,
+						5,
+						19,
+						18,
+						8,
+						7,
+						6,
+						9,
+						15,
+						16,
+						17,
+						10,
+						13
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						20,
+						26,
+						23
+					]
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"name": "ButtonProps"
+				}
+			]
+		},
+		{
+			"id": 30,
+			"name": "MenuItemRef",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"type": {
+				"type": "reference",
+				"name": "ButtonRef"
+			}
+		},
+		{
+			"id": 1,
+			"name": "MenuItem",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"comment": {
+				"shortText": "Backyard React Menu Item",
+				"text": "`MenuItem` provides an item for the user to trigger an action with via `Menu`.\n\nExample:\n```\n <MenuItem\n     iconBefore={<Home />}\n >\n     Home\n </MenuItem>\n```\n"
+			},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"id": 2,
+						"name": "MenuItemProps"
+					}
+				],
+				"name": "BDSForwardRef"
+			},
+			"defaultValue": "..."
+		}
+	],
+	"groups": [
+		{
+			"title": "References",
+			"kind": 16777216,
+			"children": [
+				31
+			]
+		},
+		{
+			"title": "Interfaces",
+			"kind": 256,
+			"children": [
+				2
+			]
+		},
+		{
+			"title": "Type aliases",
+			"kind": 4194304,
+			"children": [
+				30
+			]
+		},
+		{
+			"title": "Variables",
+			"kind": 32,
+			"children": [
+				1
+			]
+		}
+	]
+}

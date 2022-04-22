@@ -1,0 +1,396 @@
+{
+	"id": 0,
+	"name": "@lowes-tech/bds-react/Breadcrumb",
+	"kind": 1,
+	"kindString": "Project",
+	"flags": {},
+	"children": [
+		{
+			"id": 15,
+			"name": "default",
+			"kind": 16777216,
+			"kindString": "Reference",
+			"flags": {},
+			"target": 1
+		},
+		{
+			"id": 2,
+			"name": "BreadcrumbProps",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 7,
+					"name": "ariaLabel",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Label for aria to speak"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.ariaLabel"
+					}
+				},
+				{
+					"id": 5,
+					"name": "as",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ElementType"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.as"
+					}
+				},
+				{
+					"id": 6,
+					"name": "className",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "React DOM Class"
+					},
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.className"
+					}
+				},
+				{
+					"id": 8,
+					"name": "crumb",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Component to render crumb with\nDefaults to `Link` component"
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "reflection",
+								"declaration": {
+									"id": 9,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {}
+								}
+							},
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "ComponentClass"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.crumb"
+					}
+				},
+				{
+					"id": 4,
+					"name": "crumbs",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"shortText": "List of crumb props to render as crumbs"
+					},
+					"type": {
+						"type": "array",
+						"elementType": {
+							"type": "reference",
+							"name": "LinkCrumbProps"
+						}
+					}
+				},
+				{
+					"id": 11,
+					"name": "menuPopoverProps",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "`MenuPopover` props override"
+					},
+					"type": {
+						"type": "reference",
+						"name": "MenuPopoverProps"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.menuPopoverProps"
+					}
+				},
+				{
+					"id": 10,
+					"name": "menuProps",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "`Menu` props override"
+					},
+					"type": {
+						"type": "reference",
+						"name": "MenuProps"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.menuProps"
+					}
+				},
+				{
+					"id": 3,
+					"name": "render",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Determines the rendered breadcrumb component",
+						"tags": [
+							{
+								"tag": "default",
+								"text": "'auto'\n"
+							}
+						]
+					},
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "auto"
+							},
+							{
+								"type": "literal",
+								"value": "desktop"
+							},
+							{
+								"type": "literal",
+								"value": "mobile"
+							}
+						]
+					}
+				},
+				{
+					"id": 12,
+					"name": "toggle",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"shortText": "Toggle element for opening/closing the mobile breadcrumb popover",
+						"tags": [
+							{
+								"tag": "default",
+								"text": "`IconButton`\n"
+							}
+						]
+					},
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							},
+							{
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									},
+									{
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "JSXElementConstructor"
+									}
+								]
+							}
+						],
+						"name": "ReactElement"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.toggle"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						7,
+						5,
+						6,
+						8,
+						4,
+						11,
+						10,
+						3,
+						12
+					]
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"typeArguments": [
+						{
+							"type": "reference",
+							"name": "BreadcrumbDesktopProps"
+						},
+						{
+							"type": "reference",
+							"name": "BreadcrumbOverrideProps"
+						}
+					],
+					"name": "Omit"
+				},
+				{
+					"type": "reference",
+					"typeArguments": [
+						{
+							"type": "reference",
+							"name": "BreadcrumbMobileProps"
+						},
+						{
+							"type": "reference",
+							"name": "BreadcrumbOverrideProps"
+						}
+					],
+					"name": "Omit"
+				}
+			]
+		},
+		{
+			"id": 13,
+			"name": "BreadcrumbRef",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"type": {
+				"type": "union",
+				"types": [
+					{
+						"type": "reference",
+						"name": "BreadcrumbDesktopRef"
+					},
+					{
+						"type": "reference",
+						"name": "BreadcrumbMobileRef"
+					}
+				]
+			}
+		},
+		{
+			"id": 14,
+			"name": "CrumbProps",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"type": {
+				"type": "reference",
+				"name": "LinkCrumbProps"
+			}
+		},
+		{
+			"id": 1,
+			"name": "Breadcrumb",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"type": {
+				"type": "reference",
+				"typeArguments": [
+					{
+						"type": "reference",
+						"id": 2,
+						"name": "BreadcrumbProps"
+					}
+				],
+				"name": "BDSForwardRef"
+			},
+			"defaultValue": "..."
+		}
+	],
+	"groups": [
+		{
+			"title": "References",
+			"kind": 16777216,
+			"children": [
+				15
+			]
+		},
+		{
+			"title": "Interfaces",
+			"kind": 256,
+			"children": [
+				2
+			]
+		},
+		{
+			"title": "Type aliases",
+			"kind": 4194304,
+			"children": [
+				13,
+				14
+			]
+		},
+		{
+			"title": "Variables",
+			"kind": 32,
+			"children": [
+				1
+			]
+		}
+	]
+}

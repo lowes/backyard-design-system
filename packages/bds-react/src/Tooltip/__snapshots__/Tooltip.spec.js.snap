@@ -1,0 +1,4343 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tooltip Snapshots Tooltip default snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  width: var(--style-tooltip-width);
+  max-width: calc(var(--bds-sizes-size-128) * 2);
+  z-index: var(--bds-z-index-tooltip);
+  padding: var(--bds-sizes-size-12) var(--bds-sizes-size-16);
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,-webkit-transform 0s;
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+  transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+}
+
+.c0.shape--rounded .tooltip-background {
+  border-top-left-radius: var(--bds-border-radius-lg);
+  border-top-right-radius: var(--bds-border-radius-lg);
+  border-bottom-left-radius: var(--bds-border-radius-lg);
+  border-bottom-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--squared .tooltip-background {
+  border-radius: 0;
+}
+
+.c0.invisible {
+  display: none;
+}
+
+.c0 .tooltip-background {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -webkit-filter: var(--style-tooltip-drop-shadow);
+  filter: var(--style-tooltip-drop-shadow);
+}
+
+.c0 .tooltip-icon {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: var(--bds-sizes-size-2);
+  z-index: 1;
+}
+
+.c0 .tooltip-body {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  z-index: 1;
+}
+
+.c0 .tooltip-body .tooltip-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: var(--style-tooltip-font-family);
+  font-weight: var(--style-tooltip-font-weight);
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-24);
+}
+
+.c0 .tooltip-body .tooltip-subtitle {
+  display: block;
+  font-family: var(--style-tooltip-font-family);
+  font-weight: var(--bds-font-weight-regular);
+  font-size: var(--bds-sizes-size-12);
+  line-height: var(--bds-sizes-size-16);
+  padding-bottom: var(--bds-sizes-size-1);
+  padding-left: var(--bds-sizes-size-1);
+}
+
+.c0 .tooltip-arrow {
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,-webkit-transform 0s;
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+  transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+}
+
+.c0 .tooltip-arrow,
+.c0 .tooltip-arrow::before {
+  position: absolute;
+  width: var(--bds-sizes-size-14);
+  height: var(--bds-sizes-size-14);
+  z-index: var(--bds-z-index-tooltip);
+}
+
+.c0 .tooltip-arrow::before {
+  content: '';
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.c0 .tooltip-arrow.placement--top,
+.c0 .tooltip-arrow.placement--top-start,
+.c0 .tooltip-arrow.placement--top-end {
+  top: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--top-start {
+  left: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--top {
+  left: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--top-end {
+  left: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--left,
+.c0 .tooltip-arrow.placement--left-start,
+.c0 .tooltip-arrow.placement--left-end {
+  left: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--left-start {
+  top: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--left {
+  top: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--left-end {
+  top: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--right,
+.c0 .tooltip-arrow.placement--right-start,
+.c0 .tooltip-arrow.placement--right-end {
+  right: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--right-start {
+  top: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--right {
+  top: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--right-end {
+  top: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--bottom,
+.c0 .tooltip-arrow.placement--bottom-start,
+.c0 .tooltip-arrow.placement--bottom-end {
+  bottom: calc(-1 * var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--bottom-start {
+  left: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--bottom {
+  left: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--bottom-end {
+  left: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0.variant--low_contrast .tooltip-background {
+  background: var(--bds-color-elevation-04);
+}
+
+.c0.variant--low_contrast .tooltip-icon svg path {
+  fill: var(--bds-color-icon-primary);
+}
+
+.c0.variant--low_contrast .tooltip-title {
+  color: var(--bds-color-text-primary);
+}
+
+.c0.variant--low_contrast .tooltip-subtitle {
+  color: var(--bds-color-text-primary);
+}
+
+.c0.variant--low_contrast .tooltip-arrow::before {
+  background: var(--bds-color-elevation-04);
+}
+
+.c0.variant--high_contrast .tooltip-background {
+  background: var(--bds-color-surface-default-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-icon svg path {
+  fill: var(--bds-color-icon-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-title {
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-subtitle {
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-arrow::before {
+  background: var(--bds-color-surface-default-inverse);
+}
+
+<div
+    class="c0 tooltip variant--low_contrast shape--rounded"
+    style="--style-tooltip-drop-shadow: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.2)) drop-shadow(0px 8px 10px rgba(0, 0, 0, 0.14)) drop-shadow(0px 3px 14px rgba(0, 0, 0, 0.12)); --style-tooltip-width: auto; --style-tooltip-font-family: Roboto, Helvetica, Arial, sans-serif; --style-tooltip-font-weight: 500;"
+  >
+    <span
+      class="tooltip-body"
+    >
+      <div
+        class="tooltip-title"
+      />
+      <div
+        class="tooltip-subtitle"
+      >
+        Subtitle
+      </div>
+    </span>
+    <div
+      class="tooltip-background"
+    >
+      <span
+        class="tooltip-arrow placement--top"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tooltip Snapshots extra props Tooltip DOM props (id, className) snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  width: var(--style-tooltip-width);
+  max-width: calc(var(--bds-sizes-size-128) * 2);
+  z-index: var(--bds-z-index-tooltip);
+  padding: var(--bds-sizes-size-12) var(--bds-sizes-size-16);
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,-webkit-transform 0s;
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+  transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+}
+
+.c0.shape--rounded .tooltip-background {
+  border-top-left-radius: var(--bds-border-radius-lg);
+  border-top-right-radius: var(--bds-border-radius-lg);
+  border-bottom-left-radius: var(--bds-border-radius-lg);
+  border-bottom-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--squared .tooltip-background {
+  border-radius: 0;
+}
+
+.c0.invisible {
+  display: none;
+}
+
+.c0 .tooltip-background {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -webkit-filter: var(--style-tooltip-drop-shadow);
+  filter: var(--style-tooltip-drop-shadow);
+}
+
+.c0 .tooltip-icon {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: var(--bds-sizes-size-2);
+  z-index: 1;
+}
+
+.c0 .tooltip-body {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  z-index: 1;
+}
+
+.c0 .tooltip-body .tooltip-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: var(--style-tooltip-font-family);
+  font-weight: var(--style-tooltip-font-weight);
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-24);
+}
+
+.c0 .tooltip-body .tooltip-subtitle {
+  display: block;
+  font-family: var(--style-tooltip-font-family);
+  font-weight: var(--bds-font-weight-regular);
+  font-size: var(--bds-sizes-size-12);
+  line-height: var(--bds-sizes-size-16);
+  padding-bottom: var(--bds-sizes-size-1);
+  padding-left: var(--bds-sizes-size-1);
+}
+
+.c0 .tooltip-arrow {
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,-webkit-transform 0s;
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+  transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+}
+
+.c0 .tooltip-arrow,
+.c0 .tooltip-arrow::before {
+  position: absolute;
+  width: var(--bds-sizes-size-14);
+  height: var(--bds-sizes-size-14);
+  z-index: var(--bds-z-index-tooltip);
+}
+
+.c0 .tooltip-arrow::before {
+  content: '';
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.c0 .tooltip-arrow.placement--top,
+.c0 .tooltip-arrow.placement--top-start,
+.c0 .tooltip-arrow.placement--top-end {
+  top: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--top-start {
+  left: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--top {
+  left: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--top-end {
+  left: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--left,
+.c0 .tooltip-arrow.placement--left-start,
+.c0 .tooltip-arrow.placement--left-end {
+  left: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--left-start {
+  top: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--left {
+  top: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--left-end {
+  top: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--right,
+.c0 .tooltip-arrow.placement--right-start,
+.c0 .tooltip-arrow.placement--right-end {
+  right: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--right-start {
+  top: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--right {
+  top: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--right-end {
+  top: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--bottom,
+.c0 .tooltip-arrow.placement--bottom-start,
+.c0 .tooltip-arrow.placement--bottom-end {
+  bottom: calc(-1 * var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--bottom-start {
+  left: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--bottom {
+  left: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--bottom-end {
+  left: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0.variant--low_contrast .tooltip-background {
+  background: var(--bds-color-elevation-04);
+}
+
+.c0.variant--low_contrast .tooltip-icon svg path {
+  fill: var(--bds-color-icon-primary);
+}
+
+.c0.variant--low_contrast .tooltip-title {
+  color: var(--bds-color-text-primary);
+}
+
+.c0.variant--low_contrast .tooltip-subtitle {
+  color: var(--bds-color-text-primary);
+}
+
+.c0.variant--low_contrast .tooltip-arrow::before {
+  background: var(--bds-color-elevation-04);
+}
+
+.c0.variant--high_contrast .tooltip-background {
+  background: var(--bds-color-surface-default-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-icon svg path {
+  fill: var(--bds-color-icon-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-title {
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-subtitle {
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-arrow::before {
+  background: var(--bds-color-surface-default-inverse);
+}
+
+<div
+    class="c0 tooltip variant--low_contrast shape--rounded classname"
+    id="id"
+    style="--style-tooltip-drop-shadow: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.2)) drop-shadow(0px 8px 10px rgba(0, 0, 0, 0.14)) drop-shadow(0px 3px 14px rgba(0, 0, 0, 0.12)); --style-tooltip-width: auto; --style-tooltip-font-family: Roboto, Helvetica, Arial, sans-serif; --style-tooltip-font-weight: 500;"
+  >
+    <span
+      class="tooltip-body"
+    >
+      <div
+        class="tooltip-title"
+      >
+        Title
+      </div>
+      <div
+        class="tooltip-subtitle"
+      >
+        Subtitle
+      </div>
+    </span>
+    <div
+      class="tooltip-background"
+    >
+      <span
+        class="tooltip-arrow placement--top"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tooltip Snapshots prop: arrow Tooltip bottom arrow snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  width: var(--style-tooltip-width);
+  max-width: calc(var(--bds-sizes-size-128) * 2);
+  z-index: var(--bds-z-index-tooltip);
+  padding: var(--bds-sizes-size-12) var(--bds-sizes-size-16);
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,-webkit-transform 0s;
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+  transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+}
+
+.c0.shape--rounded .tooltip-background {
+  border-top-left-radius: var(--bds-border-radius-lg);
+  border-top-right-radius: var(--bds-border-radius-lg);
+  border-bottom-left-radius: var(--bds-border-radius-lg);
+  border-bottom-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--squared .tooltip-background {
+  border-radius: 0;
+}
+
+.c0.invisible {
+  display: none;
+}
+
+.c0 .tooltip-background {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -webkit-filter: var(--style-tooltip-drop-shadow);
+  filter: var(--style-tooltip-drop-shadow);
+}
+
+.c0 .tooltip-icon {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: var(--bds-sizes-size-2);
+  z-index: 1;
+}
+
+.c0 .tooltip-body {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  z-index: 1;
+}
+
+.c0 .tooltip-body .tooltip-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: var(--style-tooltip-font-family);
+  font-weight: var(--style-tooltip-font-weight);
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-24);
+}
+
+.c0 .tooltip-body .tooltip-subtitle {
+  display: block;
+  font-family: var(--style-tooltip-font-family);
+  font-weight: var(--bds-font-weight-regular);
+  font-size: var(--bds-sizes-size-12);
+  line-height: var(--bds-sizes-size-16);
+  padding-bottom: var(--bds-sizes-size-1);
+  padding-left: var(--bds-sizes-size-1);
+}
+
+.c0 .tooltip-arrow {
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,-webkit-transform 0s;
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+  transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+}
+
+.c0 .tooltip-arrow,
+.c0 .tooltip-arrow::before {
+  position: absolute;
+  width: var(--bds-sizes-size-14);
+  height: var(--bds-sizes-size-14);
+  z-index: var(--bds-z-index-tooltip);
+}
+
+.c0 .tooltip-arrow::before {
+  content: '';
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.c0 .tooltip-arrow.placement--top,
+.c0 .tooltip-arrow.placement--top-start,
+.c0 .tooltip-arrow.placement--top-end {
+  top: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--top-start {
+  left: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--top {
+  left: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--top-end {
+  left: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--left,
+.c0 .tooltip-arrow.placement--left-start,
+.c0 .tooltip-arrow.placement--left-end {
+  left: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--left-start {
+  top: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--left {
+  top: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--left-end {
+  top: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--right,
+.c0 .tooltip-arrow.placement--right-start,
+.c0 .tooltip-arrow.placement--right-end {
+  right: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--right-start {
+  top: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--right {
+  top: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--right-end {
+  top: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--bottom,
+.c0 .tooltip-arrow.placement--bottom-start,
+.c0 .tooltip-arrow.placement--bottom-end {
+  bottom: calc(-1 * var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--bottom-start {
+  left: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--bottom {
+  left: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--bottom-end {
+  left: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0.variant--low_contrast .tooltip-background {
+  background: var(--bds-color-elevation-04);
+}
+
+.c0.variant--low_contrast .tooltip-icon svg path {
+  fill: var(--bds-color-icon-primary);
+}
+
+.c0.variant--low_contrast .tooltip-title {
+  color: var(--bds-color-text-primary);
+}
+
+.c0.variant--low_contrast .tooltip-subtitle {
+  color: var(--bds-color-text-primary);
+}
+
+.c0.variant--low_contrast .tooltip-arrow::before {
+  background: var(--bds-color-elevation-04);
+}
+
+.c0.variant--high_contrast .tooltip-background {
+  background: var(--bds-color-surface-default-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-icon svg path {
+  fill: var(--bds-color-icon-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-title {
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-subtitle {
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-arrow::before {
+  background: var(--bds-color-surface-default-inverse);
+}
+
+<div
+    class="c0 tooltip variant--low_contrast shape--rounded"
+    style="--style-tooltip-drop-shadow: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.2)) drop-shadow(0px 8px 10px rgba(0, 0, 0, 0.14)) drop-shadow(0px 3px 14px rgba(0, 0, 0, 0.12)); --style-tooltip-width: auto; --style-tooltip-font-family: Roboto, Helvetica, Arial, sans-serif; --style-tooltip-font-weight: 500;"
+  >
+    <span
+      class="tooltip-body"
+    >
+      <div
+        class="tooltip-title"
+      >
+        Title
+      </div>
+      <div
+        class="tooltip-subtitle"
+      >
+        Subtitle
+      </div>
+    </span>
+    <div
+      class="tooltip-background"
+    >
+      <span
+        class="tooltip-arrow placement--bottom"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tooltip Snapshots prop: arrow Tooltip bottom-end arrow snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  width: var(--style-tooltip-width);
+  max-width: calc(var(--bds-sizes-size-128) * 2);
+  z-index: var(--bds-z-index-tooltip);
+  padding: var(--bds-sizes-size-12) var(--bds-sizes-size-16);
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,-webkit-transform 0s;
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+  transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+}
+
+.c0.shape--rounded .tooltip-background {
+  border-top-left-radius: var(--bds-border-radius-lg);
+  border-top-right-radius: var(--bds-border-radius-lg);
+  border-bottom-left-radius: var(--bds-border-radius-lg);
+  border-bottom-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--squared .tooltip-background {
+  border-radius: 0;
+}
+
+.c0.invisible {
+  display: none;
+}
+
+.c0 .tooltip-background {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -webkit-filter: var(--style-tooltip-drop-shadow);
+  filter: var(--style-tooltip-drop-shadow);
+}
+
+.c0 .tooltip-icon {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: var(--bds-sizes-size-2);
+  z-index: 1;
+}
+
+.c0 .tooltip-body {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  z-index: 1;
+}
+
+.c0 .tooltip-body .tooltip-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: var(--style-tooltip-font-family);
+  font-weight: var(--style-tooltip-font-weight);
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-24);
+}
+
+.c0 .tooltip-body .tooltip-subtitle {
+  display: block;
+  font-family: var(--style-tooltip-font-family);
+  font-weight: var(--bds-font-weight-regular);
+  font-size: var(--bds-sizes-size-12);
+  line-height: var(--bds-sizes-size-16);
+  padding-bottom: var(--bds-sizes-size-1);
+  padding-left: var(--bds-sizes-size-1);
+}
+
+.c0 .tooltip-arrow {
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,-webkit-transform 0s;
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+  transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+}
+
+.c0 .tooltip-arrow,
+.c0 .tooltip-arrow::before {
+  position: absolute;
+  width: var(--bds-sizes-size-14);
+  height: var(--bds-sizes-size-14);
+  z-index: var(--bds-z-index-tooltip);
+}
+
+.c0 .tooltip-arrow::before {
+  content: '';
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.c0 .tooltip-arrow.placement--top,
+.c0 .tooltip-arrow.placement--top-start,
+.c0 .tooltip-arrow.placement--top-end {
+  top: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--top-start {
+  left: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--top {
+  left: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--top-end {
+  left: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--left,
+.c0 .tooltip-arrow.placement--left-start,
+.c0 .tooltip-arrow.placement--left-end {
+  left: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--left-start {
+  top: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--left {
+  top: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--left-end {
+  top: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--right,
+.c0 .tooltip-arrow.placement--right-start,
+.c0 .tooltip-arrow.placement--right-end {
+  right: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--right-start {
+  top: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--right {
+  top: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--right-end {
+  top: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--bottom,
+.c0 .tooltip-arrow.placement--bottom-start,
+.c0 .tooltip-arrow.placement--bottom-end {
+  bottom: calc(-1 * var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--bottom-start {
+  left: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--bottom {
+  left: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--bottom-end {
+  left: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0.variant--low_contrast .tooltip-background {
+  background: var(--bds-color-elevation-04);
+}
+
+.c0.variant--low_contrast .tooltip-icon svg path {
+  fill: var(--bds-color-icon-primary);
+}
+
+.c0.variant--low_contrast .tooltip-title {
+  color: var(--bds-color-text-primary);
+}
+
+.c0.variant--low_contrast .tooltip-subtitle {
+  color: var(--bds-color-text-primary);
+}
+
+.c0.variant--low_contrast .tooltip-arrow::before {
+  background: var(--bds-color-elevation-04);
+}
+
+.c0.variant--high_contrast .tooltip-background {
+  background: var(--bds-color-surface-default-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-icon svg path {
+  fill: var(--bds-color-icon-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-title {
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-subtitle {
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-arrow::before {
+  background: var(--bds-color-surface-default-inverse);
+}
+
+<div
+    class="c0 tooltip variant--low_contrast shape--rounded"
+    style="--style-tooltip-drop-shadow: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.2)) drop-shadow(0px 8px 10px rgba(0, 0, 0, 0.14)) drop-shadow(0px 3px 14px rgba(0, 0, 0, 0.12)); --style-tooltip-width: auto; --style-tooltip-font-family: Roboto, Helvetica, Arial, sans-serif; --style-tooltip-font-weight: 500;"
+  >
+    <span
+      class="tooltip-body"
+    >
+      <div
+        class="tooltip-title"
+      >
+        Title
+      </div>
+      <div
+        class="tooltip-subtitle"
+      >
+        Subtitle
+      </div>
+    </span>
+    <div
+      class="tooltip-background"
+    >
+      <span
+        class="tooltip-arrow placement--bottom-end"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tooltip Snapshots prop: arrow Tooltip bottom-start arrow snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  width: var(--style-tooltip-width);
+  max-width: calc(var(--bds-sizes-size-128) * 2);
+  z-index: var(--bds-z-index-tooltip);
+  padding: var(--bds-sizes-size-12) var(--bds-sizes-size-16);
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,-webkit-transform 0s;
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+  transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+}
+
+.c0.shape--rounded .tooltip-background {
+  border-top-left-radius: var(--bds-border-radius-lg);
+  border-top-right-radius: var(--bds-border-radius-lg);
+  border-bottom-left-radius: var(--bds-border-radius-lg);
+  border-bottom-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--squared .tooltip-background {
+  border-radius: 0;
+}
+
+.c0.invisible {
+  display: none;
+}
+
+.c0 .tooltip-background {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -webkit-filter: var(--style-tooltip-drop-shadow);
+  filter: var(--style-tooltip-drop-shadow);
+}
+
+.c0 .tooltip-icon {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: var(--bds-sizes-size-2);
+  z-index: 1;
+}
+
+.c0 .tooltip-body {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  z-index: 1;
+}
+
+.c0 .tooltip-body .tooltip-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: var(--style-tooltip-font-family);
+  font-weight: var(--style-tooltip-font-weight);
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-24);
+}
+
+.c0 .tooltip-body .tooltip-subtitle {
+  display: block;
+  font-family: var(--style-tooltip-font-family);
+  font-weight: var(--bds-font-weight-regular);
+  font-size: var(--bds-sizes-size-12);
+  line-height: var(--bds-sizes-size-16);
+  padding-bottom: var(--bds-sizes-size-1);
+  padding-left: var(--bds-sizes-size-1);
+}
+
+.c0 .tooltip-arrow {
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,-webkit-transform 0s;
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+  transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+}
+
+.c0 .tooltip-arrow,
+.c0 .tooltip-arrow::before {
+  position: absolute;
+  width: var(--bds-sizes-size-14);
+  height: var(--bds-sizes-size-14);
+  z-index: var(--bds-z-index-tooltip);
+}
+
+.c0 .tooltip-arrow::before {
+  content: '';
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.c0 .tooltip-arrow.placement--top,
+.c0 .tooltip-arrow.placement--top-start,
+.c0 .tooltip-arrow.placement--top-end {
+  top: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--top-start {
+  left: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--top {
+  left: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--top-end {
+  left: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--left,
+.c0 .tooltip-arrow.placement--left-start,
+.c0 .tooltip-arrow.placement--left-end {
+  left: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--left-start {
+  top: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--left {
+  top: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--left-end {
+  top: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--right,
+.c0 .tooltip-arrow.placement--right-start,
+.c0 .tooltip-arrow.placement--right-end {
+  right: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--right-start {
+  top: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--right {
+  top: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--right-end {
+  top: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--bottom,
+.c0 .tooltip-arrow.placement--bottom-start,
+.c0 .tooltip-arrow.placement--bottom-end {
+  bottom: calc(-1 * var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--bottom-start {
+  left: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--bottom {
+  left: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--bottom-end {
+  left: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0.variant--low_contrast .tooltip-background {
+  background: var(--bds-color-elevation-04);
+}
+
+.c0.variant--low_contrast .tooltip-icon svg path {
+  fill: var(--bds-color-icon-primary);
+}
+
+.c0.variant--low_contrast .tooltip-title {
+  color: var(--bds-color-text-primary);
+}
+
+.c0.variant--low_contrast .tooltip-subtitle {
+  color: var(--bds-color-text-primary);
+}
+
+.c0.variant--low_contrast .tooltip-arrow::before {
+  background: var(--bds-color-elevation-04);
+}
+
+.c0.variant--high_contrast .tooltip-background {
+  background: var(--bds-color-surface-default-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-icon svg path {
+  fill: var(--bds-color-icon-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-title {
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-subtitle {
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-arrow::before {
+  background: var(--bds-color-surface-default-inverse);
+}
+
+<div
+    class="c0 tooltip variant--low_contrast shape--rounded"
+    style="--style-tooltip-drop-shadow: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.2)) drop-shadow(0px 8px 10px rgba(0, 0, 0, 0.14)) drop-shadow(0px 3px 14px rgba(0, 0, 0, 0.12)); --style-tooltip-width: auto; --style-tooltip-font-family: Roboto, Helvetica, Arial, sans-serif; --style-tooltip-font-weight: 500;"
+  >
+    <span
+      class="tooltip-body"
+    >
+      <div
+        class="tooltip-title"
+      >
+        Title
+      </div>
+      <div
+        class="tooltip-subtitle"
+      >
+        Subtitle
+      </div>
+    </span>
+    <div
+      class="tooltip-background"
+    >
+      <span
+        class="tooltip-arrow placement--bottom-start"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tooltip Snapshots prop: arrow Tooltip left arrow snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  width: var(--style-tooltip-width);
+  max-width: calc(var(--bds-sizes-size-128) * 2);
+  z-index: var(--bds-z-index-tooltip);
+  padding: var(--bds-sizes-size-12) var(--bds-sizes-size-16);
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,-webkit-transform 0s;
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+  transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+}
+
+.c0.shape--rounded .tooltip-background {
+  border-top-left-radius: var(--bds-border-radius-lg);
+  border-top-right-radius: var(--bds-border-radius-lg);
+  border-bottom-left-radius: var(--bds-border-radius-lg);
+  border-bottom-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--squared .tooltip-background {
+  border-radius: 0;
+}
+
+.c0.invisible {
+  display: none;
+}
+
+.c0 .tooltip-background {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -webkit-filter: var(--style-tooltip-drop-shadow);
+  filter: var(--style-tooltip-drop-shadow);
+}
+
+.c0 .tooltip-icon {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: var(--bds-sizes-size-2);
+  z-index: 1;
+}
+
+.c0 .tooltip-body {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  z-index: 1;
+}
+
+.c0 .tooltip-body .tooltip-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: var(--style-tooltip-font-family);
+  font-weight: var(--style-tooltip-font-weight);
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-24);
+}
+
+.c0 .tooltip-body .tooltip-subtitle {
+  display: block;
+  font-family: var(--style-tooltip-font-family);
+  font-weight: var(--bds-font-weight-regular);
+  font-size: var(--bds-sizes-size-12);
+  line-height: var(--bds-sizes-size-16);
+  padding-bottom: var(--bds-sizes-size-1);
+  padding-left: var(--bds-sizes-size-1);
+}
+
+.c0 .tooltip-arrow {
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,-webkit-transform 0s;
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+  transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+}
+
+.c0 .tooltip-arrow,
+.c0 .tooltip-arrow::before {
+  position: absolute;
+  width: var(--bds-sizes-size-14);
+  height: var(--bds-sizes-size-14);
+  z-index: var(--bds-z-index-tooltip);
+}
+
+.c0 .tooltip-arrow::before {
+  content: '';
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.c0 .tooltip-arrow.placement--top,
+.c0 .tooltip-arrow.placement--top-start,
+.c0 .tooltip-arrow.placement--top-end {
+  top: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--top-start {
+  left: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--top {
+  left: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--top-end {
+  left: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--left,
+.c0 .tooltip-arrow.placement--left-start,
+.c0 .tooltip-arrow.placement--left-end {
+  left: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--left-start {
+  top: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--left {
+  top: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--left-end {
+  top: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--right,
+.c0 .tooltip-arrow.placement--right-start,
+.c0 .tooltip-arrow.placement--right-end {
+  right: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--right-start {
+  top: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--right {
+  top: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--right-end {
+  top: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--bottom,
+.c0 .tooltip-arrow.placement--bottom-start,
+.c0 .tooltip-arrow.placement--bottom-end {
+  bottom: calc(-1 * var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--bottom-start {
+  left: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--bottom {
+  left: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--bottom-end {
+  left: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0.variant--low_contrast .tooltip-background {
+  background: var(--bds-color-elevation-04);
+}
+
+.c0.variant--low_contrast .tooltip-icon svg path {
+  fill: var(--bds-color-icon-primary);
+}
+
+.c0.variant--low_contrast .tooltip-title {
+  color: var(--bds-color-text-primary);
+}
+
+.c0.variant--low_contrast .tooltip-subtitle {
+  color: var(--bds-color-text-primary);
+}
+
+.c0.variant--low_contrast .tooltip-arrow::before {
+  background: var(--bds-color-elevation-04);
+}
+
+.c0.variant--high_contrast .tooltip-background {
+  background: var(--bds-color-surface-default-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-icon svg path {
+  fill: var(--bds-color-icon-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-title {
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-subtitle {
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-arrow::before {
+  background: var(--bds-color-surface-default-inverse);
+}
+
+<div
+    class="c0 tooltip variant--low_contrast shape--rounded"
+    style="--style-tooltip-drop-shadow: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.2)) drop-shadow(0px 8px 10px rgba(0, 0, 0, 0.14)) drop-shadow(0px 3px 14px rgba(0, 0, 0, 0.12)); --style-tooltip-width: auto; --style-tooltip-font-family: Roboto, Helvetica, Arial, sans-serif; --style-tooltip-font-weight: 500;"
+  >
+    <span
+      class="tooltip-body"
+    >
+      <div
+        class="tooltip-title"
+      >
+        Title
+      </div>
+      <div
+        class="tooltip-subtitle"
+      >
+        Subtitle
+      </div>
+    </span>
+    <div
+      class="tooltip-background"
+    >
+      <span
+        class="tooltip-arrow placement--left"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tooltip Snapshots prop: arrow Tooltip none arrow snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  width: var(--style-tooltip-width);
+  max-width: calc(var(--bds-sizes-size-128) * 2);
+  z-index: var(--bds-z-index-tooltip);
+  padding: var(--bds-sizes-size-12) var(--bds-sizes-size-16);
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,-webkit-transform 0s;
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+  transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+}
+
+.c0.shape--rounded .tooltip-background {
+  border-top-left-radius: var(--bds-border-radius-lg);
+  border-top-right-radius: var(--bds-border-radius-lg);
+  border-bottom-left-radius: var(--bds-border-radius-lg);
+  border-bottom-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--squared .tooltip-background {
+  border-radius: 0;
+}
+
+.c0.invisible {
+  display: none;
+}
+
+.c0 .tooltip-background {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -webkit-filter: var(--style-tooltip-drop-shadow);
+  filter: var(--style-tooltip-drop-shadow);
+}
+
+.c0 .tooltip-icon {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: var(--bds-sizes-size-2);
+  z-index: 1;
+}
+
+.c0 .tooltip-body {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  z-index: 1;
+}
+
+.c0 .tooltip-body .tooltip-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: var(--style-tooltip-font-family);
+  font-weight: var(--style-tooltip-font-weight);
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-24);
+}
+
+.c0 .tooltip-body .tooltip-subtitle {
+  display: block;
+  font-family: var(--style-tooltip-font-family);
+  font-weight: var(--bds-font-weight-regular);
+  font-size: var(--bds-sizes-size-12);
+  line-height: var(--bds-sizes-size-16);
+  padding-bottom: var(--bds-sizes-size-1);
+  padding-left: var(--bds-sizes-size-1);
+}
+
+.c0 .tooltip-arrow {
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,-webkit-transform 0s;
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+  transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+}
+
+.c0 .tooltip-arrow,
+.c0 .tooltip-arrow::before {
+  position: absolute;
+  width: var(--bds-sizes-size-14);
+  height: var(--bds-sizes-size-14);
+  z-index: var(--bds-z-index-tooltip);
+}
+
+.c0 .tooltip-arrow::before {
+  content: '';
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.c0 .tooltip-arrow.placement--top,
+.c0 .tooltip-arrow.placement--top-start,
+.c0 .tooltip-arrow.placement--top-end {
+  top: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--top-start {
+  left: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--top {
+  left: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--top-end {
+  left: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--left,
+.c0 .tooltip-arrow.placement--left-start,
+.c0 .tooltip-arrow.placement--left-end {
+  left: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--left-start {
+  top: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--left {
+  top: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--left-end {
+  top: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--right,
+.c0 .tooltip-arrow.placement--right-start,
+.c0 .tooltip-arrow.placement--right-end {
+  right: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--right-start {
+  top: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--right {
+  top: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--right-end {
+  top: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--bottom,
+.c0 .tooltip-arrow.placement--bottom-start,
+.c0 .tooltip-arrow.placement--bottom-end {
+  bottom: calc(-1 * var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--bottom-start {
+  left: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--bottom {
+  left: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--bottom-end {
+  left: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0.variant--low_contrast .tooltip-background {
+  background: var(--bds-color-elevation-04);
+}
+
+.c0.variant--low_contrast .tooltip-icon svg path {
+  fill: var(--bds-color-icon-primary);
+}
+
+.c0.variant--low_contrast .tooltip-title {
+  color: var(--bds-color-text-primary);
+}
+
+.c0.variant--low_contrast .tooltip-subtitle {
+  color: var(--bds-color-text-primary);
+}
+
+.c0.variant--low_contrast .tooltip-arrow::before {
+  background: var(--bds-color-elevation-04);
+}
+
+.c0.variant--high_contrast .tooltip-background {
+  background: var(--bds-color-surface-default-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-icon svg path {
+  fill: var(--bds-color-icon-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-title {
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-subtitle {
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-arrow::before {
+  background: var(--bds-color-surface-default-inverse);
+}
+
+<div
+    class="c0 tooltip variant--low_contrast shape--rounded"
+    style="--style-tooltip-drop-shadow: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.2)) drop-shadow(0px 8px 10px rgba(0, 0, 0, 0.14)) drop-shadow(0px 3px 14px rgba(0, 0, 0, 0.12)); --style-tooltip-width: auto; --style-tooltip-font-family: Roboto, Helvetica, Arial, sans-serif; --style-tooltip-font-weight: 500;"
+  >
+    <span
+      class="tooltip-body"
+    >
+      <div
+        class="tooltip-title"
+      >
+        Title
+      </div>
+      <div
+        class="tooltip-subtitle"
+      >
+        Subtitle
+      </div>
+    </span>
+    <div
+      class="tooltip-background"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tooltip Snapshots prop: arrow Tooltip right arrow snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  width: var(--style-tooltip-width);
+  max-width: calc(var(--bds-sizes-size-128) * 2);
+  z-index: var(--bds-z-index-tooltip);
+  padding: var(--bds-sizes-size-12) var(--bds-sizes-size-16);
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,-webkit-transform 0s;
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+  transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+}
+
+.c0.shape--rounded .tooltip-background {
+  border-top-left-radius: var(--bds-border-radius-lg);
+  border-top-right-radius: var(--bds-border-radius-lg);
+  border-bottom-left-radius: var(--bds-border-radius-lg);
+  border-bottom-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--squared .tooltip-background {
+  border-radius: 0;
+}
+
+.c0.invisible {
+  display: none;
+}
+
+.c0 .tooltip-background {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -webkit-filter: var(--style-tooltip-drop-shadow);
+  filter: var(--style-tooltip-drop-shadow);
+}
+
+.c0 .tooltip-icon {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: var(--bds-sizes-size-2);
+  z-index: 1;
+}
+
+.c0 .tooltip-body {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  z-index: 1;
+}
+
+.c0 .tooltip-body .tooltip-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: var(--style-tooltip-font-family);
+  font-weight: var(--style-tooltip-font-weight);
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-24);
+}
+
+.c0 .tooltip-body .tooltip-subtitle {
+  display: block;
+  font-family: var(--style-tooltip-font-family);
+  font-weight: var(--bds-font-weight-regular);
+  font-size: var(--bds-sizes-size-12);
+  line-height: var(--bds-sizes-size-16);
+  padding-bottom: var(--bds-sizes-size-1);
+  padding-left: var(--bds-sizes-size-1);
+}
+
+.c0 .tooltip-arrow {
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,-webkit-transform 0s;
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+  transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+}
+
+.c0 .tooltip-arrow,
+.c0 .tooltip-arrow::before {
+  position: absolute;
+  width: var(--bds-sizes-size-14);
+  height: var(--bds-sizes-size-14);
+  z-index: var(--bds-z-index-tooltip);
+}
+
+.c0 .tooltip-arrow::before {
+  content: '';
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.c0 .tooltip-arrow.placement--top,
+.c0 .tooltip-arrow.placement--top-start,
+.c0 .tooltip-arrow.placement--top-end {
+  top: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--top-start {
+  left: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--top {
+  left: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--top-end {
+  left: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--left,
+.c0 .tooltip-arrow.placement--left-start,
+.c0 .tooltip-arrow.placement--left-end {
+  left: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--left-start {
+  top: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--left {
+  top: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--left-end {
+  top: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--right,
+.c0 .tooltip-arrow.placement--right-start,
+.c0 .tooltip-arrow.placement--right-end {
+  right: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--right-start {
+  top: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--right {
+  top: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--right-end {
+  top: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--bottom,
+.c0 .tooltip-arrow.placement--bottom-start,
+.c0 .tooltip-arrow.placement--bottom-end {
+  bottom: calc(-1 * var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--bottom-start {
+  left: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--bottom {
+  left: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--bottom-end {
+  left: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0.variant--low_contrast .tooltip-background {
+  background: var(--bds-color-elevation-04);
+}
+
+.c0.variant--low_contrast .tooltip-icon svg path {
+  fill: var(--bds-color-icon-primary);
+}
+
+.c0.variant--low_contrast .tooltip-title {
+  color: var(--bds-color-text-primary);
+}
+
+.c0.variant--low_contrast .tooltip-subtitle {
+  color: var(--bds-color-text-primary);
+}
+
+.c0.variant--low_contrast .tooltip-arrow::before {
+  background: var(--bds-color-elevation-04);
+}
+
+.c0.variant--high_contrast .tooltip-background {
+  background: var(--bds-color-surface-default-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-icon svg path {
+  fill: var(--bds-color-icon-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-title {
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-subtitle {
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-arrow::before {
+  background: var(--bds-color-surface-default-inverse);
+}
+
+<div
+    class="c0 tooltip variant--low_contrast shape--rounded"
+    style="--style-tooltip-drop-shadow: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.2)) drop-shadow(0px 8px 10px rgba(0, 0, 0, 0.14)) drop-shadow(0px 3px 14px rgba(0, 0, 0, 0.12)); --style-tooltip-width: auto; --style-tooltip-font-family: Roboto, Helvetica, Arial, sans-serif; --style-tooltip-font-weight: 500;"
+  >
+    <span
+      class="tooltip-body"
+    >
+      <div
+        class="tooltip-title"
+      >
+        Title
+      </div>
+      <div
+        class="tooltip-subtitle"
+      >
+        Subtitle
+      </div>
+    </span>
+    <div
+      class="tooltip-background"
+    >
+      <span
+        class="tooltip-arrow placement--right"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tooltip Snapshots prop: arrow Tooltip top arrow snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  width: var(--style-tooltip-width);
+  max-width: calc(var(--bds-sizes-size-128) * 2);
+  z-index: var(--bds-z-index-tooltip);
+  padding: var(--bds-sizes-size-12) var(--bds-sizes-size-16);
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,-webkit-transform 0s;
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+  transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+}
+
+.c0.shape--rounded .tooltip-background {
+  border-top-left-radius: var(--bds-border-radius-lg);
+  border-top-right-radius: var(--bds-border-radius-lg);
+  border-bottom-left-radius: var(--bds-border-radius-lg);
+  border-bottom-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--squared .tooltip-background {
+  border-radius: 0;
+}
+
+.c0.invisible {
+  display: none;
+}
+
+.c0 .tooltip-background {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -webkit-filter: var(--style-tooltip-drop-shadow);
+  filter: var(--style-tooltip-drop-shadow);
+}
+
+.c0 .tooltip-icon {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: var(--bds-sizes-size-2);
+  z-index: 1;
+}
+
+.c0 .tooltip-body {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  z-index: 1;
+}
+
+.c0 .tooltip-body .tooltip-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: var(--style-tooltip-font-family);
+  font-weight: var(--style-tooltip-font-weight);
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-24);
+}
+
+.c0 .tooltip-body .tooltip-subtitle {
+  display: block;
+  font-family: var(--style-tooltip-font-family);
+  font-weight: var(--bds-font-weight-regular);
+  font-size: var(--bds-sizes-size-12);
+  line-height: var(--bds-sizes-size-16);
+  padding-bottom: var(--bds-sizes-size-1);
+  padding-left: var(--bds-sizes-size-1);
+}
+
+.c0 .tooltip-arrow {
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,-webkit-transform 0s;
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+  transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+}
+
+.c0 .tooltip-arrow,
+.c0 .tooltip-arrow::before {
+  position: absolute;
+  width: var(--bds-sizes-size-14);
+  height: var(--bds-sizes-size-14);
+  z-index: var(--bds-z-index-tooltip);
+}
+
+.c0 .tooltip-arrow::before {
+  content: '';
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.c0 .tooltip-arrow.placement--top,
+.c0 .tooltip-arrow.placement--top-start,
+.c0 .tooltip-arrow.placement--top-end {
+  top: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--top-start {
+  left: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--top {
+  left: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--top-end {
+  left: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--left,
+.c0 .tooltip-arrow.placement--left-start,
+.c0 .tooltip-arrow.placement--left-end {
+  left: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--left-start {
+  top: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--left {
+  top: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--left-end {
+  top: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--right,
+.c0 .tooltip-arrow.placement--right-start,
+.c0 .tooltip-arrow.placement--right-end {
+  right: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--right-start {
+  top: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--right {
+  top: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--right-end {
+  top: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--bottom,
+.c0 .tooltip-arrow.placement--bottom-start,
+.c0 .tooltip-arrow.placement--bottom-end {
+  bottom: calc(-1 * var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--bottom-start {
+  left: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--bottom {
+  left: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--bottom-end {
+  left: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0.variant--low_contrast .tooltip-background {
+  background: var(--bds-color-elevation-04);
+}
+
+.c0.variant--low_contrast .tooltip-icon svg path {
+  fill: var(--bds-color-icon-primary);
+}
+
+.c0.variant--low_contrast .tooltip-title {
+  color: var(--bds-color-text-primary);
+}
+
+.c0.variant--low_contrast .tooltip-subtitle {
+  color: var(--bds-color-text-primary);
+}
+
+.c0.variant--low_contrast .tooltip-arrow::before {
+  background: var(--bds-color-elevation-04);
+}
+
+.c0.variant--high_contrast .tooltip-background {
+  background: var(--bds-color-surface-default-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-icon svg path {
+  fill: var(--bds-color-icon-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-title {
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-subtitle {
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-arrow::before {
+  background: var(--bds-color-surface-default-inverse);
+}
+
+<div
+    class="c0 tooltip variant--low_contrast shape--rounded"
+    style="--style-tooltip-drop-shadow: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.2)) drop-shadow(0px 8px 10px rgba(0, 0, 0, 0.14)) drop-shadow(0px 3px 14px rgba(0, 0, 0, 0.12)); --style-tooltip-width: auto; --style-tooltip-font-family: Roboto, Helvetica, Arial, sans-serif; --style-tooltip-font-weight: 500;"
+  >
+    <span
+      class="tooltip-body"
+    >
+      <div
+        class="tooltip-title"
+      >
+        Title
+      </div>
+      <div
+        class="tooltip-subtitle"
+      >
+        Subtitle
+      </div>
+    </span>
+    <div
+      class="tooltip-background"
+    >
+      <span
+        class="tooltip-arrow placement--top"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tooltip Snapshots prop: arrow Tooltip top-end arrow snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  width: var(--style-tooltip-width);
+  max-width: calc(var(--bds-sizes-size-128) * 2);
+  z-index: var(--bds-z-index-tooltip);
+  padding: var(--bds-sizes-size-12) var(--bds-sizes-size-16);
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,-webkit-transform 0s;
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+  transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+}
+
+.c0.shape--rounded .tooltip-background {
+  border-top-left-radius: var(--bds-border-radius-lg);
+  border-top-right-radius: var(--bds-border-radius-lg);
+  border-bottom-left-radius: var(--bds-border-radius-lg);
+  border-bottom-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--squared .tooltip-background {
+  border-radius: 0;
+}
+
+.c0.invisible {
+  display: none;
+}
+
+.c0 .tooltip-background {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -webkit-filter: var(--style-tooltip-drop-shadow);
+  filter: var(--style-tooltip-drop-shadow);
+}
+
+.c0 .tooltip-icon {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: var(--bds-sizes-size-2);
+  z-index: 1;
+}
+
+.c0 .tooltip-body {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  z-index: 1;
+}
+
+.c0 .tooltip-body .tooltip-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: var(--style-tooltip-font-family);
+  font-weight: var(--style-tooltip-font-weight);
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-24);
+}
+
+.c0 .tooltip-body .tooltip-subtitle {
+  display: block;
+  font-family: var(--style-tooltip-font-family);
+  font-weight: var(--bds-font-weight-regular);
+  font-size: var(--bds-sizes-size-12);
+  line-height: var(--bds-sizes-size-16);
+  padding-bottom: var(--bds-sizes-size-1);
+  padding-left: var(--bds-sizes-size-1);
+}
+
+.c0 .tooltip-arrow {
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,-webkit-transform 0s;
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+  transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+}
+
+.c0 .tooltip-arrow,
+.c0 .tooltip-arrow::before {
+  position: absolute;
+  width: var(--bds-sizes-size-14);
+  height: var(--bds-sizes-size-14);
+  z-index: var(--bds-z-index-tooltip);
+}
+
+.c0 .tooltip-arrow::before {
+  content: '';
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.c0 .tooltip-arrow.placement--top,
+.c0 .tooltip-arrow.placement--top-start,
+.c0 .tooltip-arrow.placement--top-end {
+  top: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--top-start {
+  left: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--top {
+  left: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--top-end {
+  left: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--left,
+.c0 .tooltip-arrow.placement--left-start,
+.c0 .tooltip-arrow.placement--left-end {
+  left: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--left-start {
+  top: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--left {
+  top: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--left-end {
+  top: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--right,
+.c0 .tooltip-arrow.placement--right-start,
+.c0 .tooltip-arrow.placement--right-end {
+  right: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--right-start {
+  top: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--right {
+  top: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--right-end {
+  top: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--bottom,
+.c0 .tooltip-arrow.placement--bottom-start,
+.c0 .tooltip-arrow.placement--bottom-end {
+  bottom: calc(-1 * var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--bottom-start {
+  left: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--bottom {
+  left: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--bottom-end {
+  left: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0.variant--low_contrast .tooltip-background {
+  background: var(--bds-color-elevation-04);
+}
+
+.c0.variant--low_contrast .tooltip-icon svg path {
+  fill: var(--bds-color-icon-primary);
+}
+
+.c0.variant--low_contrast .tooltip-title {
+  color: var(--bds-color-text-primary);
+}
+
+.c0.variant--low_contrast .tooltip-subtitle {
+  color: var(--bds-color-text-primary);
+}
+
+.c0.variant--low_contrast .tooltip-arrow::before {
+  background: var(--bds-color-elevation-04);
+}
+
+.c0.variant--high_contrast .tooltip-background {
+  background: var(--bds-color-surface-default-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-icon svg path {
+  fill: var(--bds-color-icon-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-title {
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-subtitle {
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-arrow::before {
+  background: var(--bds-color-surface-default-inverse);
+}
+
+<div
+    class="c0 tooltip variant--low_contrast shape--rounded"
+    style="--style-tooltip-drop-shadow: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.2)) drop-shadow(0px 8px 10px rgba(0, 0, 0, 0.14)) drop-shadow(0px 3px 14px rgba(0, 0, 0, 0.12)); --style-tooltip-width: auto; --style-tooltip-font-family: Roboto, Helvetica, Arial, sans-serif; --style-tooltip-font-weight: 500;"
+  >
+    <span
+      class="tooltip-body"
+    >
+      <div
+        class="tooltip-title"
+      >
+        Title
+      </div>
+      <div
+        class="tooltip-subtitle"
+      >
+        Subtitle
+      </div>
+    </span>
+    <div
+      class="tooltip-background"
+    >
+      <span
+        class="tooltip-arrow placement--top-end"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tooltip Snapshots prop: arrow Tooltip top-start arrow snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  width: var(--style-tooltip-width);
+  max-width: calc(var(--bds-sizes-size-128) * 2);
+  z-index: var(--bds-z-index-tooltip);
+  padding: var(--bds-sizes-size-12) var(--bds-sizes-size-16);
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,-webkit-transform 0s;
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+  transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+}
+
+.c0.shape--rounded .tooltip-background {
+  border-top-left-radius: var(--bds-border-radius-lg);
+  border-top-right-radius: var(--bds-border-radius-lg);
+  border-bottom-left-radius: var(--bds-border-radius-lg);
+  border-bottom-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--squared .tooltip-background {
+  border-radius: 0;
+}
+
+.c0.invisible {
+  display: none;
+}
+
+.c0 .tooltip-background {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -webkit-filter: var(--style-tooltip-drop-shadow);
+  filter: var(--style-tooltip-drop-shadow);
+}
+
+.c0 .tooltip-icon {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: var(--bds-sizes-size-2);
+  z-index: 1;
+}
+
+.c0 .tooltip-body {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  z-index: 1;
+}
+
+.c0 .tooltip-body .tooltip-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: var(--style-tooltip-font-family);
+  font-weight: var(--style-tooltip-font-weight);
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-24);
+}
+
+.c0 .tooltip-body .tooltip-subtitle {
+  display: block;
+  font-family: var(--style-tooltip-font-family);
+  font-weight: var(--bds-font-weight-regular);
+  font-size: var(--bds-sizes-size-12);
+  line-height: var(--bds-sizes-size-16);
+  padding-bottom: var(--bds-sizes-size-1);
+  padding-left: var(--bds-sizes-size-1);
+}
+
+.c0 .tooltip-arrow {
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,-webkit-transform 0s;
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+  transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+}
+
+.c0 .tooltip-arrow,
+.c0 .tooltip-arrow::before {
+  position: absolute;
+  width: var(--bds-sizes-size-14);
+  height: var(--bds-sizes-size-14);
+  z-index: var(--bds-z-index-tooltip);
+}
+
+.c0 .tooltip-arrow::before {
+  content: '';
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.c0 .tooltip-arrow.placement--top,
+.c0 .tooltip-arrow.placement--top-start,
+.c0 .tooltip-arrow.placement--top-end {
+  top: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--top-start {
+  left: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--top {
+  left: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--top-end {
+  left: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--left,
+.c0 .tooltip-arrow.placement--left-start,
+.c0 .tooltip-arrow.placement--left-end {
+  left: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--left-start {
+  top: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--left {
+  top: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--left-end {
+  top: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--right,
+.c0 .tooltip-arrow.placement--right-start,
+.c0 .tooltip-arrow.placement--right-end {
+  right: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--right-start {
+  top: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--right {
+  top: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--right-end {
+  top: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--bottom,
+.c0 .tooltip-arrow.placement--bottom-start,
+.c0 .tooltip-arrow.placement--bottom-end {
+  bottom: calc(-1 * var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--bottom-start {
+  left: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--bottom {
+  left: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--bottom-end {
+  left: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0.variant--low_contrast .tooltip-background {
+  background: var(--bds-color-elevation-04);
+}
+
+.c0.variant--low_contrast .tooltip-icon svg path {
+  fill: var(--bds-color-icon-primary);
+}
+
+.c0.variant--low_contrast .tooltip-title {
+  color: var(--bds-color-text-primary);
+}
+
+.c0.variant--low_contrast .tooltip-subtitle {
+  color: var(--bds-color-text-primary);
+}
+
+.c0.variant--low_contrast .tooltip-arrow::before {
+  background: var(--bds-color-elevation-04);
+}
+
+.c0.variant--high_contrast .tooltip-background {
+  background: var(--bds-color-surface-default-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-icon svg path {
+  fill: var(--bds-color-icon-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-title {
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-subtitle {
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-arrow::before {
+  background: var(--bds-color-surface-default-inverse);
+}
+
+<div
+    class="c0 tooltip variant--low_contrast shape--rounded"
+    style="--style-tooltip-drop-shadow: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.2)) drop-shadow(0px 8px 10px rgba(0, 0, 0, 0.14)) drop-shadow(0px 3px 14px rgba(0, 0, 0, 0.12)); --style-tooltip-width: auto; --style-tooltip-font-family: Roboto, Helvetica, Arial, sans-serif; --style-tooltip-font-weight: 500;"
+  >
+    <span
+      class="tooltip-body"
+    >
+      <div
+        class="tooltip-title"
+      >
+        Title
+      </div>
+      <div
+        class="tooltip-subtitle"
+      >
+        Subtitle
+      </div>
+    </span>
+    <div
+      class="tooltip-background"
+    >
+      <span
+        class="tooltip-arrow placement--top-start"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tooltip Snapshots prop: icon Tooltip icon snapshot 1`] = `
+<DocumentFragment>
+  .c1 {
+  width: var(--style-icon-width);
+  height: var(--style-icon-height);
+}
+
+.c1:not(.color-override) g,
+.c1:not(.color-override) path {
+  fill: var(--style-icon-color);
+}
+
+.c1:not(.color-override) g[stroke-width],
+.c1:not(.color-override) path[stroke-width] {
+  stroke: var(--style-icon-color);
+  fill: none;
+}
+
+.c1:not(.color-override) g[stroke-width] *,
+.c1:not(.color-override) path[stroke-width] * {
+  fill: none;
+}
+
+.c1.start {
+  margin-right: var(--bds-sizes-size-8);
+}
+
+.c1.end {
+  margin-left: var(--bds-sizes-size-8);
+}
+
+.c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  width: var(--style-tooltip-width);
+  max-width: calc(var(--bds-sizes-size-128) * 2);
+  z-index: var(--bds-z-index-tooltip);
+  padding: var(--bds-sizes-size-12) var(--bds-sizes-size-16);
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,-webkit-transform 0s;
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+  transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+}
+
+.c0.shape--rounded .tooltip-background {
+  border-top-left-radius: var(--bds-border-radius-lg);
+  border-top-right-radius: var(--bds-border-radius-lg);
+  border-bottom-left-radius: var(--bds-border-radius-lg);
+  border-bottom-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--squared .tooltip-background {
+  border-radius: 0;
+}
+
+.c0.invisible {
+  display: none;
+}
+
+.c0 .tooltip-background {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -webkit-filter: var(--style-tooltip-drop-shadow);
+  filter: var(--style-tooltip-drop-shadow);
+}
+
+.c0 .tooltip-icon {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: var(--bds-sizes-size-2);
+  z-index: 1;
+}
+
+.c0 .tooltip-body {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  z-index: 1;
+}
+
+.c0 .tooltip-body .tooltip-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: var(--style-tooltip-font-family);
+  font-weight: var(--style-tooltip-font-weight);
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-24);
+}
+
+.c0 .tooltip-body .tooltip-subtitle {
+  display: block;
+  font-family: var(--style-tooltip-font-family);
+  font-weight: var(--bds-font-weight-regular);
+  font-size: var(--bds-sizes-size-12);
+  line-height: var(--bds-sizes-size-16);
+  padding-bottom: var(--bds-sizes-size-1);
+  padding-left: var(--bds-sizes-size-1);
+}
+
+.c0 .tooltip-arrow {
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,-webkit-transform 0s;
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+  transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+}
+
+.c0 .tooltip-arrow,
+.c0 .tooltip-arrow::before {
+  position: absolute;
+  width: var(--bds-sizes-size-14);
+  height: var(--bds-sizes-size-14);
+  z-index: var(--bds-z-index-tooltip);
+}
+
+.c0 .tooltip-arrow::before {
+  content: '';
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.c0 .tooltip-arrow.placement--top,
+.c0 .tooltip-arrow.placement--top-start,
+.c0 .tooltip-arrow.placement--top-end {
+  top: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--top-start {
+  left: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--top {
+  left: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--top-end {
+  left: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--left,
+.c0 .tooltip-arrow.placement--left-start,
+.c0 .tooltip-arrow.placement--left-end {
+  left: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--left-start {
+  top: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--left {
+  top: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--left-end {
+  top: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--right,
+.c0 .tooltip-arrow.placement--right-start,
+.c0 .tooltip-arrow.placement--right-end {
+  right: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--right-start {
+  top: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--right {
+  top: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--right-end {
+  top: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--bottom,
+.c0 .tooltip-arrow.placement--bottom-start,
+.c0 .tooltip-arrow.placement--bottom-end {
+  bottom: calc(-1 * var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--bottom-start {
+  left: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--bottom {
+  left: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--bottom-end {
+  left: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0.variant--low_contrast .tooltip-background {
+  background: var(--bds-color-elevation-04);
+}
+
+.c0.variant--low_contrast .tooltip-icon svg path {
+  fill: var(--bds-color-icon-primary);
+}
+
+.c0.variant--low_contrast .tooltip-title {
+  color: var(--bds-color-text-primary);
+}
+
+.c0.variant--low_contrast .tooltip-subtitle {
+  color: var(--bds-color-text-primary);
+}
+
+.c0.variant--low_contrast .tooltip-arrow::before {
+  background: var(--bds-color-elevation-04);
+}
+
+.c0.variant--high_contrast .tooltip-background {
+  background: var(--bds-color-surface-default-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-icon svg path {
+  fill: var(--bds-color-icon-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-title {
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-subtitle {
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-arrow::before {
+  background: var(--bds-color-surface-default-inverse);
+}
+
+<div
+    class="c0 tooltip variant--low_contrast shape--rounded"
+    style="--style-tooltip-drop-shadow: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.2)) drop-shadow(0px 8px 10px rgba(0, 0, 0, 0.14)) drop-shadow(0px 3px 14px rgba(0, 0, 0, 0.12)); --style-tooltip-width: auto; --style-tooltip-font-family: Roboto, Helvetica, Arial, sans-serif; --style-tooltip-font-weight: 500;"
+  >
+    <span
+      class="tooltip-body"
+    >
+      <div
+        class="tooltip-title"
+      >
+        <span
+          class="tooltip-icon"
+        >
+          <svg
+            aria-hidden="true"
+            class="c1 icon icon-location-outlined"
+            role="presentation"
+            style="--style-icon-height: 1rem; --style-icon-width: 1rem; --style-icon-color: hsl(0, 0%, 0%, 1);"
+            viewBox="0 0 16 16"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M3.6857 6.3143C3.6857 3.9291 5.6147 2 8 2c2.3852 0 4.3143 1.9291 4.3143 4.3143 0 2.5701-2.7242 6.1141-3.8397 7.4638a.6118.6118 0 0 1-.943 0c-1.1217-1.3497-3.846-4.8937-3.846-7.4638Zm.7672.1291C4.453 4.4458 6.039 2.8302 8 2.8302c1.961 0 3.5471 1.6156 3.5471 3.6132 0 2.1525-2.2398 5.1205-3.157 6.2509a.4972.4972 0 0 1-.7752 0c-.9222-1.1304-3.162-4.0984-3.162-6.2509ZM8 7.8552c-.8505 0-1.5408-.6903-1.5408-1.5409 0-.8505.6903-1.5408 1.5408-1.5408.8505 0 1.5408.6903 1.5408 1.5408 0 .8506-.6903 1.5409-1.5408 1.5409Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </span>
+        Title
+      </div>
+      <div
+        class="tooltip-subtitle"
+      >
+        Subtitle
+      </div>
+    </span>
+    <div
+      class="tooltip-background"
+    >
+      <span
+        class="tooltip-arrow placement--top"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tooltip Snapshots prop: invisible Tooltip invisible snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  width: var(--style-tooltip-width);
+  max-width: calc(var(--bds-sizes-size-128) * 2);
+  z-index: var(--bds-z-index-tooltip);
+  padding: var(--bds-sizes-size-12) var(--bds-sizes-size-16);
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,-webkit-transform 0s;
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+  transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+}
+
+.c0.shape--rounded .tooltip-background {
+  border-top-left-radius: var(--bds-border-radius-lg);
+  border-top-right-radius: var(--bds-border-radius-lg);
+  border-bottom-left-radius: var(--bds-border-radius-lg);
+  border-bottom-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--squared .tooltip-background {
+  border-radius: 0;
+}
+
+.c0.invisible {
+  display: none;
+}
+
+.c0 .tooltip-background {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -webkit-filter: var(--style-tooltip-drop-shadow);
+  filter: var(--style-tooltip-drop-shadow);
+}
+
+.c0 .tooltip-icon {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: var(--bds-sizes-size-2);
+  z-index: 1;
+}
+
+.c0 .tooltip-body {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  z-index: 1;
+}
+
+.c0 .tooltip-body .tooltip-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: var(--style-tooltip-font-family);
+  font-weight: var(--style-tooltip-font-weight);
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-24);
+}
+
+.c0 .tooltip-body .tooltip-subtitle {
+  display: block;
+  font-family: var(--style-tooltip-font-family);
+  font-weight: var(--bds-font-weight-regular);
+  font-size: var(--bds-sizes-size-12);
+  line-height: var(--bds-sizes-size-16);
+  padding-bottom: var(--bds-sizes-size-1);
+  padding-left: var(--bds-sizes-size-1);
+}
+
+.c0 .tooltip-arrow {
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,-webkit-transform 0s;
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+  transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+}
+
+.c0 .tooltip-arrow,
+.c0 .tooltip-arrow::before {
+  position: absolute;
+  width: var(--bds-sizes-size-14);
+  height: var(--bds-sizes-size-14);
+  z-index: var(--bds-z-index-tooltip);
+}
+
+.c0 .tooltip-arrow::before {
+  content: '';
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.c0 .tooltip-arrow.placement--top,
+.c0 .tooltip-arrow.placement--top-start,
+.c0 .tooltip-arrow.placement--top-end {
+  top: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--top-start {
+  left: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--top {
+  left: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--top-end {
+  left: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--left,
+.c0 .tooltip-arrow.placement--left-start,
+.c0 .tooltip-arrow.placement--left-end {
+  left: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--left-start {
+  top: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--left {
+  top: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--left-end {
+  top: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--right,
+.c0 .tooltip-arrow.placement--right-start,
+.c0 .tooltip-arrow.placement--right-end {
+  right: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--right-start {
+  top: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--right {
+  top: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--right-end {
+  top: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--bottom,
+.c0 .tooltip-arrow.placement--bottom-start,
+.c0 .tooltip-arrow.placement--bottom-end {
+  bottom: calc(-1 * var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--bottom-start {
+  left: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--bottom {
+  left: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--bottom-end {
+  left: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0.variant--low_contrast .tooltip-background {
+  background: var(--bds-color-elevation-04);
+}
+
+.c0.variant--low_contrast .tooltip-icon svg path {
+  fill: var(--bds-color-icon-primary);
+}
+
+.c0.variant--low_contrast .tooltip-title {
+  color: var(--bds-color-text-primary);
+}
+
+.c0.variant--low_contrast .tooltip-subtitle {
+  color: var(--bds-color-text-primary);
+}
+
+.c0.variant--low_contrast .tooltip-arrow::before {
+  background: var(--bds-color-elevation-04);
+}
+
+.c0.variant--high_contrast .tooltip-background {
+  background: var(--bds-color-surface-default-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-icon svg path {
+  fill: var(--bds-color-icon-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-title {
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-subtitle {
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-arrow::before {
+  background: var(--bds-color-surface-default-inverse);
+}
+
+<div
+    class="c0 tooltip variant--low_contrast shape--rounded invisible"
+    style="--style-tooltip-drop-shadow: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.2)) drop-shadow(0px 8px 10px rgba(0, 0, 0, 0.14)) drop-shadow(0px 3px 14px rgba(0, 0, 0, 0.12)); --style-tooltip-width: auto; --style-tooltip-font-family: Roboto, Helvetica, Arial, sans-serif; --style-tooltip-font-weight: 500;"
+  >
+    <span
+      class="tooltip-body"
+    >
+      <div
+        class="tooltip-title"
+      >
+        Title
+      </div>
+      <div
+        class="tooltip-subtitle"
+      >
+        Subtitle
+      </div>
+    </span>
+    <div
+      class="tooltip-background"
+    >
+      <span
+        class="tooltip-arrow placement--top"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tooltip Snapshots prop: variant Tooltip high_contrast variant snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  width: var(--style-tooltip-width);
+  max-width: calc(var(--bds-sizes-size-128) * 2);
+  z-index: var(--bds-z-index-tooltip);
+  padding: var(--bds-sizes-size-12) var(--bds-sizes-size-16);
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,-webkit-transform 0s;
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+  transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+}
+
+.c0.shape--rounded .tooltip-background {
+  border-top-left-radius: var(--bds-border-radius-lg);
+  border-top-right-radius: var(--bds-border-radius-lg);
+  border-bottom-left-radius: var(--bds-border-radius-lg);
+  border-bottom-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--squared .tooltip-background {
+  border-radius: 0;
+}
+
+.c0.invisible {
+  display: none;
+}
+
+.c0 .tooltip-background {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -webkit-filter: var(--style-tooltip-drop-shadow);
+  filter: var(--style-tooltip-drop-shadow);
+}
+
+.c0 .tooltip-icon {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: var(--bds-sizes-size-2);
+  z-index: 1;
+}
+
+.c0 .tooltip-body {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  z-index: 1;
+}
+
+.c0 .tooltip-body .tooltip-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: var(--style-tooltip-font-family);
+  font-weight: var(--style-tooltip-font-weight);
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-24);
+}
+
+.c0 .tooltip-body .tooltip-subtitle {
+  display: block;
+  font-family: var(--style-tooltip-font-family);
+  font-weight: var(--bds-font-weight-regular);
+  font-size: var(--bds-sizes-size-12);
+  line-height: var(--bds-sizes-size-16);
+  padding-bottom: var(--bds-sizes-size-1);
+  padding-left: var(--bds-sizes-size-1);
+}
+
+.c0 .tooltip-arrow {
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,-webkit-transform 0s;
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+  transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+}
+
+.c0 .tooltip-arrow,
+.c0 .tooltip-arrow::before {
+  position: absolute;
+  width: var(--bds-sizes-size-14);
+  height: var(--bds-sizes-size-14);
+  z-index: var(--bds-z-index-tooltip);
+}
+
+.c0 .tooltip-arrow::before {
+  content: '';
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.c0 .tooltip-arrow.placement--top,
+.c0 .tooltip-arrow.placement--top-start,
+.c0 .tooltip-arrow.placement--top-end {
+  top: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--top-start {
+  left: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--top {
+  left: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--top-end {
+  left: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--left,
+.c0 .tooltip-arrow.placement--left-start,
+.c0 .tooltip-arrow.placement--left-end {
+  left: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--left-start {
+  top: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--left {
+  top: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--left-end {
+  top: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--right,
+.c0 .tooltip-arrow.placement--right-start,
+.c0 .tooltip-arrow.placement--right-end {
+  right: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--right-start {
+  top: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--right {
+  top: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--right-end {
+  top: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--bottom,
+.c0 .tooltip-arrow.placement--bottom-start,
+.c0 .tooltip-arrow.placement--bottom-end {
+  bottom: calc(-1 * var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--bottom-start {
+  left: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--bottom {
+  left: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--bottom-end {
+  left: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0.variant--low_contrast .tooltip-background {
+  background: var(--bds-color-elevation-04);
+}
+
+.c0.variant--low_contrast .tooltip-icon svg path {
+  fill: var(--bds-color-icon-primary);
+}
+
+.c0.variant--low_contrast .tooltip-title {
+  color: var(--bds-color-text-primary);
+}
+
+.c0.variant--low_contrast .tooltip-subtitle {
+  color: var(--bds-color-text-primary);
+}
+
+.c0.variant--low_contrast .tooltip-arrow::before {
+  background: var(--bds-color-elevation-04);
+}
+
+.c0.variant--high_contrast .tooltip-background {
+  background: var(--bds-color-surface-default-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-icon svg path {
+  fill: var(--bds-color-icon-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-title {
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-subtitle {
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-arrow::before {
+  background: var(--bds-color-surface-default-inverse);
+}
+
+<div
+    class="c0 tooltip variant--high_contrast shape--rounded"
+    style="--style-tooltip-drop-shadow: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.2)) drop-shadow(0px 8px 10px rgba(0, 0, 0, 0.14)) drop-shadow(0px 3px 14px rgba(0, 0, 0, 0.12)); --style-tooltip-width: auto; --style-tooltip-font-family: Roboto, Helvetica, Arial, sans-serif; --style-tooltip-font-weight: 500;"
+  >
+    <span
+      class="tooltip-body"
+    >
+      <div
+        class="tooltip-title"
+      >
+        Title
+      </div>
+      <div
+        class="tooltip-subtitle"
+      >
+        Subtitle
+      </div>
+    </span>
+    <div
+      class="tooltip-background"
+    >
+      <span
+        class="tooltip-arrow placement--top"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tooltip Snapshots prop: variant Tooltip low_contrast variant snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  width: var(--style-tooltip-width);
+  max-width: calc(var(--bds-sizes-size-128) * 2);
+  z-index: var(--bds-z-index-tooltip);
+  padding: var(--bds-sizes-size-12) var(--bds-sizes-size-16);
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,-webkit-transform 0s;
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+  transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+}
+
+.c0.shape--rounded .tooltip-background {
+  border-top-left-radius: var(--bds-border-radius-lg);
+  border-top-right-radius: var(--bds-border-radius-lg);
+  border-bottom-left-radius: var(--bds-border-radius-lg);
+  border-bottom-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--squared .tooltip-background {
+  border-radius: 0;
+}
+
+.c0.invisible {
+  display: none;
+}
+
+.c0 .tooltip-background {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -webkit-filter: var(--style-tooltip-drop-shadow);
+  filter: var(--style-tooltip-drop-shadow);
+}
+
+.c0 .tooltip-icon {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: var(--bds-sizes-size-2);
+  z-index: 1;
+}
+
+.c0 .tooltip-body {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  z-index: 1;
+}
+
+.c0 .tooltip-body .tooltip-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: var(--style-tooltip-font-family);
+  font-weight: var(--style-tooltip-font-weight);
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-24);
+}
+
+.c0 .tooltip-body .tooltip-subtitle {
+  display: block;
+  font-family: var(--style-tooltip-font-family);
+  font-weight: var(--bds-font-weight-regular);
+  font-size: var(--bds-sizes-size-12);
+  line-height: var(--bds-sizes-size-16);
+  padding-bottom: var(--bds-sizes-size-1);
+  padding-left: var(--bds-sizes-size-1);
+}
+
+.c0 .tooltip-arrow {
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,-webkit-transform 0s;
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+  transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+}
+
+.c0 .tooltip-arrow,
+.c0 .tooltip-arrow::before {
+  position: absolute;
+  width: var(--bds-sizes-size-14);
+  height: var(--bds-sizes-size-14);
+  z-index: var(--bds-z-index-tooltip);
+}
+
+.c0 .tooltip-arrow::before {
+  content: '';
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.c0 .tooltip-arrow.placement--top,
+.c0 .tooltip-arrow.placement--top-start,
+.c0 .tooltip-arrow.placement--top-end {
+  top: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--top-start {
+  left: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--top {
+  left: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--top-end {
+  left: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--left,
+.c0 .tooltip-arrow.placement--left-start,
+.c0 .tooltip-arrow.placement--left-end {
+  left: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--left-start {
+  top: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--left {
+  top: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--left-end {
+  top: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--right,
+.c0 .tooltip-arrow.placement--right-start,
+.c0 .tooltip-arrow.placement--right-end {
+  right: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--right-start {
+  top: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--right {
+  top: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--right-end {
+  top: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--bottom,
+.c0 .tooltip-arrow.placement--bottom-start,
+.c0 .tooltip-arrow.placement--bottom-end {
+  bottom: calc(-1 * var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--bottom-start {
+  left: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--bottom {
+  left: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--bottom-end {
+  left: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0.variant--low_contrast .tooltip-background {
+  background: var(--bds-color-elevation-04);
+}
+
+.c0.variant--low_contrast .tooltip-icon svg path {
+  fill: var(--bds-color-icon-primary);
+}
+
+.c0.variant--low_contrast .tooltip-title {
+  color: var(--bds-color-text-primary);
+}
+
+.c0.variant--low_contrast .tooltip-subtitle {
+  color: var(--bds-color-text-primary);
+}
+
+.c0.variant--low_contrast .tooltip-arrow::before {
+  background: var(--bds-color-elevation-04);
+}
+
+.c0.variant--high_contrast .tooltip-background {
+  background: var(--bds-color-surface-default-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-icon svg path {
+  fill: var(--bds-color-icon-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-title {
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-subtitle {
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-arrow::before {
+  background: var(--bds-color-surface-default-inverse);
+}
+
+<div
+    class="c0 tooltip variant--low_contrast shape--rounded"
+    style="--style-tooltip-drop-shadow: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.2)) drop-shadow(0px 8px 10px rgba(0, 0, 0, 0.14)) drop-shadow(0px 3px 14px rgba(0, 0, 0, 0.12)); --style-tooltip-width: auto; --style-tooltip-font-family: Roboto, Helvetica, Arial, sans-serif; --style-tooltip-font-weight: 500;"
+  >
+    <span
+      class="tooltip-body"
+    >
+      <div
+        class="tooltip-title"
+      >
+        Title
+      </div>
+      <div
+        class="tooltip-subtitle"
+      >
+        Subtitle
+      </div>
+    </span>
+    <div
+      class="tooltip-background"
+    >
+      <span
+        class="tooltip-arrow placement--top"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tooltip Snapshots themes Tooltip dark theme snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  width: var(--style-tooltip-width);
+  max-width: calc(var(--bds-sizes-size-128) * 2);
+  z-index: var(--bds-z-index-tooltip);
+  padding: var(--bds-sizes-size-12) var(--bds-sizes-size-16);
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,-webkit-transform 0s;
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+  transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+}
+
+.c0.shape--rounded .tooltip-background {
+  border-top-left-radius: var(--bds-border-radius-lg);
+  border-top-right-radius: var(--bds-border-radius-lg);
+  border-bottom-left-radius: var(--bds-border-radius-lg);
+  border-bottom-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--squared .tooltip-background {
+  border-radius: 0;
+}
+
+.c0.invisible {
+  display: none;
+}
+
+.c0 .tooltip-background {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -webkit-filter: var(--style-tooltip-drop-shadow);
+  filter: var(--style-tooltip-drop-shadow);
+}
+
+.c0 .tooltip-icon {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: var(--bds-sizes-size-2);
+  z-index: 1;
+}
+
+.c0 .tooltip-body {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  z-index: 1;
+}
+
+.c0 .tooltip-body .tooltip-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: var(--style-tooltip-font-family);
+  font-weight: var(--style-tooltip-font-weight);
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-24);
+}
+
+.c0 .tooltip-body .tooltip-subtitle {
+  display: block;
+  font-family: var(--style-tooltip-font-family);
+  font-weight: var(--bds-font-weight-regular);
+  font-size: var(--bds-sizes-size-12);
+  line-height: var(--bds-sizes-size-16);
+  padding-bottom: var(--bds-sizes-size-1);
+  padding-left: var(--bds-sizes-size-1);
+}
+
+.c0 .tooltip-arrow {
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,-webkit-transform 0s;
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+  transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+}
+
+.c0 .tooltip-arrow,
+.c0 .tooltip-arrow::before {
+  position: absolute;
+  width: var(--bds-sizes-size-14);
+  height: var(--bds-sizes-size-14);
+  z-index: var(--bds-z-index-tooltip);
+}
+
+.c0 .tooltip-arrow::before {
+  content: '';
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.c0 .tooltip-arrow.placement--top,
+.c0 .tooltip-arrow.placement--top-start,
+.c0 .tooltip-arrow.placement--top-end {
+  top: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--top-start {
+  left: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--top {
+  left: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--top-end {
+  left: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--left,
+.c0 .tooltip-arrow.placement--left-start,
+.c0 .tooltip-arrow.placement--left-end {
+  left: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--left-start {
+  top: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--left {
+  top: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--left-end {
+  top: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--right,
+.c0 .tooltip-arrow.placement--right-start,
+.c0 .tooltip-arrow.placement--right-end {
+  right: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--right-start {
+  top: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--right {
+  top: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--right-end {
+  top: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--bottom,
+.c0 .tooltip-arrow.placement--bottom-start,
+.c0 .tooltip-arrow.placement--bottom-end {
+  bottom: calc(-1 * var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--bottom-start {
+  left: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--bottom {
+  left: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--bottom-end {
+  left: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0.variant--low_contrast .tooltip-background {
+  background: var(--bds-color-elevation-04);
+}
+
+.c0.variant--low_contrast .tooltip-icon svg path {
+  fill: var(--bds-color-icon-primary);
+}
+
+.c0.variant--low_contrast .tooltip-title {
+  color: var(--bds-color-text-primary);
+}
+
+.c0.variant--low_contrast .tooltip-subtitle {
+  color: var(--bds-color-text-primary);
+}
+
+.c0.variant--low_contrast .tooltip-arrow::before {
+  background: var(--bds-color-elevation-04);
+}
+
+.c0.variant--high_contrast .tooltip-background {
+  background: var(--bds-color-surface-default-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-icon svg path {
+  fill: var(--bds-color-icon-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-title {
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-subtitle {
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-arrow::before {
+  background: var(--bds-color-surface-default-inverse);
+}
+
+<div
+    class="c0 tooltip variant--low_contrast shape--rounded"
+    style="--style-tooltip-drop-shadow: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.2)) drop-shadow(0px 8px 10px rgba(0, 0, 0, 0.14)) drop-shadow(0px 3px 14px rgba(0, 0, 0, 0.12)); --style-tooltip-width: auto; --style-tooltip-font-family: Roboto, Helvetica, Arial, sans-serif; --style-tooltip-font-weight: 500;"
+  >
+    <span
+      class="tooltip-body"
+    >
+      <div
+        class="tooltip-title"
+      >
+        Title
+      </div>
+      <div
+        class="tooltip-subtitle"
+      >
+        Subtitle
+      </div>
+    </span>
+    <div
+      class="tooltip-background"
+    >
+      <span
+        class="tooltip-arrow placement--top"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tooltip Snapshots themes Tooltip light theme snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  width: var(--style-tooltip-width);
+  max-width: calc(var(--bds-sizes-size-128) * 2);
+  z-index: var(--bds-z-index-tooltip);
+  padding: var(--bds-sizes-size-12) var(--bds-sizes-size-16);
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,-webkit-transform 0s;
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+  transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+}
+
+.c0.shape--rounded .tooltip-background {
+  border-top-left-radius: var(--bds-border-radius-lg);
+  border-top-right-radius: var(--bds-border-radius-lg);
+  border-bottom-left-radius: var(--bds-border-radius-lg);
+  border-bottom-right-radius: var(--bds-border-radius-lg);
+}
+
+.c0.shape--squared .tooltip-background {
+  border-radius: 0;
+}
+
+.c0.invisible {
+  display: none;
+}
+
+.c0 .tooltip-background {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -webkit-filter: var(--style-tooltip-drop-shadow);
+  filter: var(--style-tooltip-drop-shadow);
+}
+
+.c0 .tooltip-icon {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: var(--bds-sizes-size-2);
+  z-index: 1;
+}
+
+.c0 .tooltip-body {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  z-index: 1;
+}
+
+.c0 .tooltip-body .tooltip-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: var(--style-tooltip-font-family);
+  font-weight: var(--style-tooltip-font-weight);
+  font-size: var(--bds-sizes-size-14);
+  line-height: var(--bds-sizes-size-24);
+}
+
+.c0 .tooltip-body .tooltip-subtitle {
+  display: block;
+  font-family: var(--style-tooltip-font-family);
+  font-weight: var(--bds-font-weight-regular);
+  font-size: var(--bds-sizes-size-12);
+  line-height: var(--bds-sizes-size-16);
+  padding-bottom: var(--bds-sizes-size-1);
+  padding-left: var(--bds-sizes-size-1);
+}
+
+.c0 .tooltip-arrow {
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,-webkit-transform 0s;
+  -webkit-transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+  transition: opacity 0.2s ease-in-out,top 0s,left 0s,transform 0s;
+}
+
+.c0 .tooltip-arrow,
+.c0 .tooltip-arrow::before {
+  position: absolute;
+  width: var(--bds-sizes-size-14);
+  height: var(--bds-sizes-size-14);
+  z-index: var(--bds-z-index-tooltip);
+}
+
+.c0 .tooltip-arrow::before {
+  content: '';
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.c0 .tooltip-arrow.placement--top,
+.c0 .tooltip-arrow.placement--top-start,
+.c0 .tooltip-arrow.placement--top-end {
+  top: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--top-start {
+  left: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--top {
+  left: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--top-end {
+  left: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--left,
+.c0 .tooltip-arrow.placement--left-start,
+.c0 .tooltip-arrow.placement--left-end {
+  left: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--left-start {
+  top: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--left {
+  top: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--left-end {
+  top: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--right,
+.c0 .tooltip-arrow.placement--right-start,
+.c0 .tooltip-arrow.placement--right-end {
+  right: calc(-1 * var(--bds-sizes-size-7));
+}
+
+.c0 .tooltip-arrow.placement--right-start {
+  top: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--right {
+  top: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--right-end {
+  top: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0 .tooltip-arrow.placement--bottom,
+.c0 .tooltip-arrow.placement--bottom-start,
+.c0 .tooltip-arrow.placement--bottom-end {
+  bottom: calc(-1 * var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--bottom-start {
+  left: var(--bds-sizes-size-16);
+}
+
+.c0 .tooltip-arrow.placement--bottom {
+  left: calc(50% - var(--bds-sizes-size-6));
+}
+
+.c0 .tooltip-arrow.placement--bottom-end {
+  left: calc(100% - var(--bds-sizes-size-32));
+}
+
+.c0.variant--low_contrast .tooltip-background {
+  background: var(--bds-color-elevation-04);
+}
+
+.c0.variant--low_contrast .tooltip-icon svg path {
+  fill: var(--bds-color-icon-primary);
+}
+
+.c0.variant--low_contrast .tooltip-title {
+  color: var(--bds-color-text-primary);
+}
+
+.c0.variant--low_contrast .tooltip-subtitle {
+  color: var(--bds-color-text-primary);
+}
+
+.c0.variant--low_contrast .tooltip-arrow::before {
+  background: var(--bds-color-elevation-04);
+}
+
+.c0.variant--high_contrast .tooltip-background {
+  background: var(--bds-color-surface-default-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-icon svg path {
+  fill: var(--bds-color-icon-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-title {
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-subtitle {
+  color: var(--bds-color-text-primary-inverse);
+}
+
+.c0.variant--high_contrast .tooltip-arrow::before {
+  background: var(--bds-color-surface-default-inverse);
+}
+
+<div
+    class="c0 tooltip variant--low_contrast shape--rounded"
+    style="--style-tooltip-drop-shadow: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.2)) drop-shadow(0px 8px 10px rgba(0, 0, 0, 0.14)) drop-shadow(0px 3px 14px rgba(0, 0, 0, 0.12)); --style-tooltip-width: auto; --style-tooltip-font-family: Roboto, Helvetica, Arial, sans-serif; --style-tooltip-font-weight: 500;"
+  >
+    <span
+      class="tooltip-body"
+    >
+      <div
+        class="tooltip-title"
+      >
+        Title
+      </div>
+      <div
+        class="tooltip-subtitle"
+      >
+        Subtitle
+      </div>
+    </span>
+    <div
+      class="tooltip-background"
+    >
+      <span
+        class="tooltip-arrow placement--top"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

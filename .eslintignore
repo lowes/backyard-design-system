@@ -1,0 +1,24 @@
+# Root
+build/
+coverage/
+dist/
+example/
+scripts/
+test-utils/
+
+.eslintrc.base.js
+.eslintrc.js
+.eslintrc.base.js
+babel.config.js
+jest.base.config.js
+modules.base.js
+prettier.config.js
+styled.d.ts
+webpack.base.config.js
+webpack.base.js
+
+# Src
+packages/**/*.spec.*
+packages/**/*.test.*
+packages/**/*.stories.*
+packages/**/*.ignore.*

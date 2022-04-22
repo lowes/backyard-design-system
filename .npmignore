@@ -1,0 +1,11 @@
+/src
+/tests
+/tasks
+/coverage
+/styleguide
+.logs
+Jenkinsfile
+jest.config.js
+.editorconfig
+.eslintrc
+tsconfig.json

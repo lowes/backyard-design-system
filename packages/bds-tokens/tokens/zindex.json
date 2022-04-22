@@ -1,0 +1,10 @@
+{
+    "zIndex": {
+        "floating": { "value": 1050 },
+        "overlay": { "value": 1150 },
+        "drawer": { "value": 1200 },
+        "modal": { "value": 1300 },
+        "notification": { "value": 1400 },
+        "tooltip": { "value": 1500 }
+    }
+}

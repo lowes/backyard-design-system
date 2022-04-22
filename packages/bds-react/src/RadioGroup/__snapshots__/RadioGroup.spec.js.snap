@@ -1,0 +1,290 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RadioGroup Snapshots RadioGroup default snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c0.direction--column {
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0.direction--column > * {
+  margin: 0.25rem 0;
+}
+
+.c0.direction--row {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-left: -0.25rem;
+}
+
+.c0.direction--row > * {
+  margin: 0.25rem;
+}
+
+<div
+    class="c0 form-group direction--column"
+    role="radiogroup"
+    spacing="size_4"
+  />
+</DocumentFragment>
+`;
+
+exports[`RadioGroup Snapshots extra props RadioGroup DOM id, name, value snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c0.direction--column {
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0.direction--column > * {
+  margin: 0.25rem 0;
+}
+
+.c0.direction--row {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-left: -0.25rem;
+}
+
+.c0.direction--row > * {
+  margin: 0.25rem;
+}
+
+<div
+    class="c0 form-group direction--column"
+    id="test-id"
+    role="radiogroup"
+    spacing="size_4"
+  />
+</DocumentFragment>
+`;
+
+exports[`RadioGroup Snapshots extra props RadioGroup className snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c0.direction--column {
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0.direction--column > * {
+  margin: 0.25rem 0;
+}
+
+.c0.direction--row {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-left: -0.25rem;
+}
+
+.c0.direction--row > * {
+  margin: 0.25rem;
+}
+
+<div
+    class="c0 form-group direction--column test-class"
+    role="radiogroup"
+    spacing="size_4"
+  />
+</DocumentFragment>
+`;
+
+exports[`RadioGroup Snapshots prop: disabled RadioGroup disabled snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c0.direction--column {
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0.direction--column > * {
+  margin: 0.25rem 0;
+}
+
+.c0.direction--row {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-left: -0.25rem;
+}
+
+.c0.direction--row > * {
+  margin: 0.25rem;
+}
+
+<div
+    class="c0 form-group direction--column"
+    disabled=""
+    role="radiogroup"
+    spacing="size_4"
+  />
+</DocumentFragment>
+`;
+
+exports[`RadioGroup Snapshots prop: disabled RadioGroup enabled snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c0.direction--column {
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0.direction--column > * {
+  margin: 0.25rem 0;
+}
+
+.c0.direction--row {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-left: -0.25rem;
+}
+
+.c0.direction--row > * {
+  margin: 0.25rem;
+}
+
+<div
+    class="c0 form-group direction--column"
+    role="radiogroup"
+    spacing="size_4"
+  />
+</DocumentFragment>
+`;
+
+exports[`RadioGroup Snapshots themes RadioGroup dark theme snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c0.direction--column {
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0.direction--column > * {
+  margin: 0.25rem 0;
+}
+
+.c0.direction--row {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-left: -0.25rem;
+}
+
+.c0.direction--row > * {
+  margin: 0.25rem;
+}
+
+<div
+    class="c0 form-group direction--column"
+    role="radiogroup"
+    spacing="size_4"
+  />
+</DocumentFragment>
+`;
+
+exports[`RadioGroup Snapshots themes RadioGroup light theme snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c0.direction--column {
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0.direction--column > * {
+  margin: 0.25rem 0;
+}
+
+.c0.direction--row {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-left: -0.25rem;
+}
+
+.c0.direction--row > * {
+  margin: 0.25rem;
+}
+
+<div
+    class="c0 form-group direction--column"
+    role="radiogroup"
+    spacing="size_4"
+  />
+</DocumentFragment>
+`;

@@ -1,0 +1,1601 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormGroup Snapshots FormGroup checkbox snapshot 1`] = `
+<DocumentFragment>
+  .c2 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+}
+
+.c2 label {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  pointer-events: none;
+}
+
+.c2 label .checkbox-icon {
+  z-index: 1;
+}
+
+.c2 input {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.c2 input:checked + label::after {
+  opacity: 1;
+}
+
+.c2 input:not(:checked) + label::after {
+  opacity: 0;
+}
+
+.c2 input + label::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: var(--bds-sizes-size-14);
+  width: var(--bds-sizes-size-14);
+  border-width: var(--bds-border-width-sm);
+  border-style: solid;
+}
+
+.c2 input.shape--rounded + label::before {
+  border-radius: var(--bds-border-radius-md);
+}
+
+.c2 input.shape--squared + label::before {
+  border-radius: 0;
+}
+
+.c2 input:not(:checked):enabled + label::before,
+.c2 input:not(:checked).enabled + label::before {
+  border-color: var(--bds-color-border-default);
+}
+
+.c2 input:not(:checked):hover + label::before,
+.c2 input:not(:checked).hover + label::before {
+  border-color: var(--bds-color-action-interative-hover);
+}
+
+.c2 input:not(:checked):focus + label::before,
+.c2 input:not(:checked).focus + label::before {
+  border-color: var(--bds-color-action-interactive);
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+}
+
+.c2 input:not(:checked):disabled,
+.c2 input:not(:checked).disabled,
+.c2 input:not(:checked):disabled + label,
+.c2 input:not(:checked).disabled + label {
+  cursor: not-allowed;
+  color: var(--bds-color-text-disabled);
+}
+
+.c2 input:not(:checked):disabled + label::before,
+.c2 input:not(:checked).disabled + label::before {
+  border-color: var(--bds-color-text-disabled);
+}
+
+.c2 input:not(:checked),
+.c2 input:not(:checked) + label {
+  cursor: pointer;
+}
+
+.c2 input:not(:checked) + label::before {
+  background-color: transparent;
+  border-color: var(--bds-color-border-default);
+}
+
+.c2 input:checked:enabled + label::before,
+.c2 input:checked.enabled + label::before {
+  background-color: var(--bds-color-action-interactive);
+}
+
+.c2 input:checked:hover + label::before,
+.c2 input:checked:focus:hover + label::before,
+.c2 input:checked.hover + label::before {
+  background-color: var(--bds-color-action-interactive-hover);
+  border-color: var(--bds-color-action-interactive-hover);
+}
+
+.c2 input:checked:focus + label::before,
+.c2 input:checked.focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c2 input:checked:disabled,
+.c2 input:checked.disabled,
+.c2 input:checked:disabled + label,
+.c2 input:checked.disabled + label {
+  cursor: not-allowed;
+  color: var(--bds-color-text-disabled);
+}
+
+.c2 input:checked:disabled + label::before,
+.c2 input:checked.disabled + label::before {
+  background-color: var(--bds-color-text-disabled);
+  border-color: transparent;
+}
+
+.c2 input:checked,
+.c2 input:checked + label {
+  cursor: pointer;
+}
+
+.c2 input:checked + label::before {
+  background-color: var(--bds-color-action-interactive);
+  border-color: var(--bds-color-action-interactive);
+}
+
+.c3 {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  color: hsl(0,0%,0%,.87);
+  font-size: var(--bds-font-tag-label-mobile-font-size);
+  line-height: var(--bds-font-tag-label-mobile-line-height);
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.c1 .typography {
+  padding-left: var(--bds-sizes-size-16);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c1 .typography {
+  cursor: pointer;
+  color: var(--bds-color-text-primary);
+}
+
+.c1.disabled .typography {
+  cursor: not-allowed;
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c0.direction--column {
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0.direction--column > * {
+  margin: 0.25rem 0;
+}
+
+.c0.direction--row {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-left: -0.25rem;
+}
+
+.c0.direction--row > * {
+  margin: 0.25rem;
+}
+
+@media only screen and (min-width:66rem) {
+  .c3 {
+    font-size: var(--bds-font-tag-label-desktop-font-size);
+    line-height: var(--bds-font-tag-label-desktop-line-height);
+  }
+}
+
+<div
+    class="c0 form-group direction--column"
+    spacing="size_4"
+  >
+    <label
+      class="c1"
+    >
+      <span
+        class="c2"
+      >
+        <input
+          class="backyard checkbox shape--rounded"
+          data-indeterminate="false"
+          type="checkbox"
+          value=""
+        />
+        <label
+          class="checkbox-label"
+        />
+      </span>
+      <span
+        class="c3 typography variant--label align--left"
+        color="text_primary"
+      >
+        Label 1
+      </span>
+    </label>
+    <label
+      class="c1"
+    >
+      <span
+        class="c2"
+      >
+        <input
+          class="backyard checkbox shape--rounded"
+          data-indeterminate="false"
+          type="checkbox"
+          value=""
+        />
+        <label
+          class="checkbox-label"
+        />
+      </span>
+      <span
+        class="c3 typography variant--label align--left"
+        color="text_primary"
+      >
+        Label 2
+      </span>
+    </label>
+    <label
+      class="c1"
+    >
+      <span
+        class="c2"
+      >
+        <input
+          class="backyard checkbox shape--rounded"
+          data-indeterminate="false"
+          type="checkbox"
+          value=""
+        />
+        <label
+          class="checkbox-label"
+        />
+      </span>
+      <span
+        class="c3 typography variant--label align--left"
+        color="text_primary"
+      >
+        Label 3
+      </span>
+    </label>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`FormGroup Snapshots prop: direction FormControl column snapshot 1`] = `
+<DocumentFragment>
+  .c2 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+}
+
+.c2 label {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  pointer-events: none;
+}
+
+.c2 label .checkbox-icon {
+  z-index: 1;
+}
+
+.c2 input {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.c2 input:checked + label::after {
+  opacity: 1;
+}
+
+.c2 input:not(:checked) + label::after {
+  opacity: 0;
+}
+
+.c2 input + label::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: var(--bds-sizes-size-14);
+  width: var(--bds-sizes-size-14);
+  border-width: var(--bds-border-width-sm);
+  border-style: solid;
+}
+
+.c2 input.shape--rounded + label::before {
+  border-radius: var(--bds-border-radius-md);
+}
+
+.c2 input.shape--squared + label::before {
+  border-radius: 0;
+}
+
+.c2 input:not(:checked):enabled + label::before,
+.c2 input:not(:checked).enabled + label::before {
+  border-color: var(--bds-color-border-default);
+}
+
+.c2 input:not(:checked):hover + label::before,
+.c2 input:not(:checked).hover + label::before {
+  border-color: var(--bds-color-action-interative-hover);
+}
+
+.c2 input:not(:checked):focus + label::before,
+.c2 input:not(:checked).focus + label::before {
+  border-color: var(--bds-color-action-interactive);
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+}
+
+.c2 input:not(:checked):disabled,
+.c2 input:not(:checked).disabled,
+.c2 input:not(:checked):disabled + label,
+.c2 input:not(:checked).disabled + label {
+  cursor: not-allowed;
+  color: var(--bds-color-text-disabled);
+}
+
+.c2 input:not(:checked):disabled + label::before,
+.c2 input:not(:checked).disabled + label::before {
+  border-color: var(--bds-color-text-disabled);
+}
+
+.c2 input:not(:checked),
+.c2 input:not(:checked) + label {
+  cursor: pointer;
+}
+
+.c2 input:not(:checked) + label::before {
+  background-color: transparent;
+  border-color: var(--bds-color-border-default);
+}
+
+.c2 input:checked:enabled + label::before,
+.c2 input:checked.enabled + label::before {
+  background-color: var(--bds-color-action-interactive);
+}
+
+.c2 input:checked:hover + label::before,
+.c2 input:checked:focus:hover + label::before,
+.c2 input:checked.hover + label::before {
+  background-color: var(--bds-color-action-interactive-hover);
+  border-color: var(--bds-color-action-interactive-hover);
+}
+
+.c2 input:checked:focus + label::before,
+.c2 input:checked.focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c2 input:checked:disabled,
+.c2 input:checked.disabled,
+.c2 input:checked:disabled + label,
+.c2 input:checked.disabled + label {
+  cursor: not-allowed;
+  color: var(--bds-color-text-disabled);
+}
+
+.c2 input:checked:disabled + label::before,
+.c2 input:checked.disabled + label::before {
+  background-color: var(--bds-color-text-disabled);
+  border-color: transparent;
+}
+
+.c2 input:checked,
+.c2 input:checked + label {
+  cursor: pointer;
+}
+
+.c2 input:checked + label::before {
+  background-color: var(--bds-color-action-interactive);
+  border-color: var(--bds-color-action-interactive);
+}
+
+.c3 {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  color: hsl(0,0%,0%,.87);
+  font-size: var(--bds-font-tag-label-mobile-font-size);
+  line-height: var(--bds-font-tag-label-mobile-line-height);
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.c1 .typography {
+  padding-left: var(--bds-sizes-size-16);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c1 .typography {
+  cursor: pointer;
+  color: var(--bds-color-text-primary);
+}
+
+.c1.disabled .typography {
+  cursor: not-allowed;
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c0.direction--column {
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0.direction--column > * {
+  margin: 0.25rem 0;
+}
+
+.c0.direction--row {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-left: -0.25rem;
+}
+
+.c0.direction--row > * {
+  margin: 0.25rem;
+}
+
+@media only screen and (min-width:66rem) {
+  .c3 {
+    font-size: var(--bds-font-tag-label-desktop-font-size);
+    line-height: var(--bds-font-tag-label-desktop-line-height);
+  }
+}
+
+<div
+    class="c0 form-group direction--column"
+    spacing="size_4"
+  >
+    <label
+      class="c1"
+    >
+      <span
+        class="c2"
+      >
+        <input
+          class="backyard checkbox shape--rounded"
+          data-indeterminate="false"
+          type="checkbox"
+          value=""
+        />
+        <label
+          class="checkbox-label"
+        />
+      </span>
+      <span
+        class="c3 typography variant--label align--left"
+        color="text_primary"
+      >
+        Label 1
+      </span>
+    </label>
+    <label
+      class="c1"
+    >
+      <span
+        class="c2"
+      >
+        <input
+          class="backyard checkbox shape--rounded"
+          data-indeterminate="false"
+          type="checkbox"
+          value=""
+        />
+        <label
+          class="checkbox-label"
+        />
+      </span>
+      <span
+        class="c3 typography variant--label align--left"
+        color="text_primary"
+      >
+        Label 2
+      </span>
+    </label>
+    <label
+      class="c1"
+    >
+      <span
+        class="c2"
+      >
+        <input
+          class="backyard checkbox shape--rounded"
+          data-indeterminate="false"
+          type="checkbox"
+          value=""
+        />
+        <label
+          class="checkbox-label"
+        />
+      </span>
+      <span
+        class="c3 typography variant--label align--left"
+        color="text_primary"
+      >
+        Label 3
+      </span>
+    </label>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`FormGroup Snapshots prop: direction FormControl row snapshot 1`] = `
+<DocumentFragment>
+  .c2 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+}
+
+.c2 label {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  pointer-events: none;
+}
+
+.c2 label .checkbox-icon {
+  z-index: 1;
+}
+
+.c2 input {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.c2 input:checked + label::after {
+  opacity: 1;
+}
+
+.c2 input:not(:checked) + label::after {
+  opacity: 0;
+}
+
+.c2 input + label::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: var(--bds-sizes-size-14);
+  width: var(--bds-sizes-size-14);
+  border-width: var(--bds-border-width-sm);
+  border-style: solid;
+}
+
+.c2 input.shape--rounded + label::before {
+  border-radius: var(--bds-border-radius-md);
+}
+
+.c2 input.shape--squared + label::before {
+  border-radius: 0;
+}
+
+.c2 input:not(:checked):enabled + label::before,
+.c2 input:not(:checked).enabled + label::before {
+  border-color: var(--bds-color-border-default);
+}
+
+.c2 input:not(:checked):hover + label::before,
+.c2 input:not(:checked).hover + label::before {
+  border-color: var(--bds-color-action-interative-hover);
+}
+
+.c2 input:not(:checked):focus + label::before,
+.c2 input:not(:checked).focus + label::before {
+  border-color: var(--bds-color-action-interactive);
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+}
+
+.c2 input:not(:checked):disabled,
+.c2 input:not(:checked).disabled,
+.c2 input:not(:checked):disabled + label,
+.c2 input:not(:checked).disabled + label {
+  cursor: not-allowed;
+  color: var(--bds-color-text-disabled);
+}
+
+.c2 input:not(:checked):disabled + label::before,
+.c2 input:not(:checked).disabled + label::before {
+  border-color: var(--bds-color-text-disabled);
+}
+
+.c2 input:not(:checked),
+.c2 input:not(:checked) + label {
+  cursor: pointer;
+}
+
+.c2 input:not(:checked) + label::before {
+  background-color: transparent;
+  border-color: var(--bds-color-border-default);
+}
+
+.c2 input:checked:enabled + label::before,
+.c2 input:checked.enabled + label::before {
+  background-color: var(--bds-color-action-interactive);
+}
+
+.c2 input:checked:hover + label::before,
+.c2 input:checked:focus:hover + label::before,
+.c2 input:checked.hover + label::before {
+  background-color: var(--bds-color-action-interactive-hover);
+  border-color: var(--bds-color-action-interactive-hover);
+}
+
+.c2 input:checked:focus + label::before,
+.c2 input:checked.focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c2 input:checked:disabled,
+.c2 input:checked.disabled,
+.c2 input:checked:disabled + label,
+.c2 input:checked.disabled + label {
+  cursor: not-allowed;
+  color: var(--bds-color-text-disabled);
+}
+
+.c2 input:checked:disabled + label::before,
+.c2 input:checked.disabled + label::before {
+  background-color: var(--bds-color-text-disabled);
+  border-color: transparent;
+}
+
+.c2 input:checked,
+.c2 input:checked + label {
+  cursor: pointer;
+}
+
+.c2 input:checked + label::before {
+  background-color: var(--bds-color-action-interactive);
+  border-color: var(--bds-color-action-interactive);
+}
+
+.c3 {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  color: hsl(0,0%,0%,.87);
+  font-size: var(--bds-font-tag-label-mobile-font-size);
+  line-height: var(--bds-font-tag-label-mobile-line-height);
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.c1 .typography {
+  padding-left: var(--bds-sizes-size-16);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c1 .typography {
+  cursor: pointer;
+  color: var(--bds-color-text-primary);
+}
+
+.c1.disabled .typography {
+  cursor: not-allowed;
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c0.direction--column {
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0.direction--column > * {
+  margin: 0.25rem 0;
+}
+
+.c0.direction--row {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-left: -0.25rem;
+}
+
+.c0.direction--row > * {
+  margin: 0.25rem;
+}
+
+@media only screen and (min-width:66rem) {
+  .c3 {
+    font-size: var(--bds-font-tag-label-desktop-font-size);
+    line-height: var(--bds-font-tag-label-desktop-line-height);
+  }
+}
+
+<div
+    class="c0 form-group direction--column"
+    spacing="size_4"
+  >
+    <label
+      class="c1"
+    >
+      <span
+        class="c2"
+      >
+        <input
+          class="backyard checkbox shape--rounded"
+          data-indeterminate="false"
+          type="checkbox"
+          value=""
+        />
+        <label
+          class="checkbox-label"
+        />
+      </span>
+      <span
+        class="c3 typography variant--label align--left"
+        color="text_primary"
+      >
+        Label 1
+      </span>
+    </label>
+    <label
+      class="c1"
+    >
+      <span
+        class="c2"
+      >
+        <input
+          class="backyard checkbox shape--rounded"
+          data-indeterminate="false"
+          type="checkbox"
+          value=""
+        />
+        <label
+          class="checkbox-label"
+        />
+      </span>
+      <span
+        class="c3 typography variant--label align--left"
+        color="text_primary"
+      >
+        Label 2
+      </span>
+    </label>
+    <label
+      class="c1"
+    >
+      <span
+        class="c2"
+      >
+        <input
+          class="backyard checkbox shape--rounded"
+          data-indeterminate="false"
+          type="checkbox"
+          value=""
+        />
+        <label
+          class="checkbox-label"
+        />
+      </span>
+      <span
+        class="c3 typography variant--label align--left"
+        color="text_primary"
+      >
+        Label 3
+      </span>
+    </label>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`FormGroup Snapshots themes FormControl dark theme snapshot 1`] = `
+<DocumentFragment>
+  .c2 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+}
+
+.c2 label {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  pointer-events: none;
+}
+
+.c2 label .checkbox-icon {
+  z-index: 1;
+}
+
+.c2 input {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.c2 input:checked + label::after {
+  opacity: 1;
+}
+
+.c2 input:not(:checked) + label::after {
+  opacity: 0;
+}
+
+.c2 input + label::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: var(--bds-sizes-size-14);
+  width: var(--bds-sizes-size-14);
+  border-width: var(--bds-border-width-sm);
+  border-style: solid;
+}
+
+.c2 input.shape--rounded + label::before {
+  border-radius: var(--bds-border-radius-md);
+}
+
+.c2 input.shape--squared + label::before {
+  border-radius: 0;
+}
+
+.c2 input:not(:checked):enabled + label::before,
+.c2 input:not(:checked).enabled + label::before {
+  border-color: var(--bds-color-border-default);
+}
+
+.c2 input:not(:checked):hover + label::before,
+.c2 input:not(:checked).hover + label::before {
+  border-color: var(--bds-color-action-interative-hover);
+}
+
+.c2 input:not(:checked):focus + label::before,
+.c2 input:not(:checked).focus + label::before {
+  border-color: var(--bds-color-action-interactive);
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+}
+
+.c2 input:not(:checked):disabled,
+.c2 input:not(:checked).disabled,
+.c2 input:not(:checked):disabled + label,
+.c2 input:not(:checked).disabled + label {
+  cursor: not-allowed;
+  color: var(--bds-color-text-disabled);
+}
+
+.c2 input:not(:checked):disabled + label::before,
+.c2 input:not(:checked).disabled + label::before {
+  border-color: var(--bds-color-text-disabled);
+}
+
+.c2 input:not(:checked),
+.c2 input:not(:checked) + label {
+  cursor: pointer;
+}
+
+.c2 input:not(:checked) + label::before {
+  background-color: transparent;
+  border-color: var(--bds-color-border-default);
+}
+
+.c2 input:checked:enabled + label::before,
+.c2 input:checked.enabled + label::before {
+  background-color: var(--bds-color-action-interactive);
+}
+
+.c2 input:checked:hover + label::before,
+.c2 input:checked:focus:hover + label::before,
+.c2 input:checked.hover + label::before {
+  background-color: var(--bds-color-action-interactive-hover);
+  border-color: var(--bds-color-action-interactive-hover);
+}
+
+.c2 input:checked:focus + label::before,
+.c2 input:checked.focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c2 input:checked:disabled,
+.c2 input:checked.disabled,
+.c2 input:checked:disabled + label,
+.c2 input:checked.disabled + label {
+  cursor: not-allowed;
+  color: var(--bds-color-text-disabled);
+}
+
+.c2 input:checked:disabled + label::before,
+.c2 input:checked.disabled + label::before {
+  background-color: var(--bds-color-text-disabled);
+  border-color: transparent;
+}
+
+.c2 input:checked,
+.c2 input:checked + label {
+  cursor: pointer;
+}
+
+.c2 input:checked + label::before {
+  background-color: var(--bds-color-action-interactive);
+  border-color: var(--bds-color-action-interactive);
+}
+
+.c3 {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  color: hsl(0,0%,100%,.87);
+  font-size: var(--bds-font-tag-label-mobile-font-size);
+  line-height: var(--bds-font-tag-label-mobile-line-height);
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.c1 .typography {
+  padding-left: var(--bds-sizes-size-16);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c1 .typography {
+  cursor: pointer;
+  color: var(--bds-color-text-primary);
+}
+
+.c1.disabled .typography {
+  cursor: not-allowed;
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c0.direction--column {
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0.direction--column > * {
+  margin: 0.25rem 0;
+}
+
+.c0.direction--row {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-left: -0.25rem;
+}
+
+.c0.direction--row > * {
+  margin: 0.25rem;
+}
+
+@media only screen and (min-width:66rem) {
+  .c3 {
+    font-size: var(--bds-font-tag-label-desktop-font-size);
+    line-height: var(--bds-font-tag-label-desktop-line-height);
+  }
+}
+
+<div
+    class="c0 form-group direction--column"
+    spacing="size_4"
+  >
+    <label
+      class="c1"
+    >
+      <span
+        class="c2"
+      >
+        <input
+          class="backyard checkbox shape--rounded"
+          data-indeterminate="false"
+          type="checkbox"
+          value=""
+        />
+        <label
+          class="checkbox-label"
+        />
+      </span>
+      <span
+        class="c3 typography variant--label align--left"
+        color="text_primary"
+      >
+        Label 1
+      </span>
+    </label>
+    <label
+      class="c1"
+    >
+      <span
+        class="c2"
+      >
+        <input
+          class="backyard checkbox shape--rounded"
+          data-indeterminate="false"
+          type="checkbox"
+          value=""
+        />
+        <label
+          class="checkbox-label"
+        />
+      </span>
+      <span
+        class="c3 typography variant--label align--left"
+        color="text_primary"
+      >
+        Label 2
+      </span>
+    </label>
+    <label
+      class="c1"
+    >
+      <span
+        class="c2"
+      >
+        <input
+          class="backyard checkbox shape--rounded"
+          data-indeterminate="false"
+          type="checkbox"
+          value=""
+        />
+        <label
+          class="checkbox-label"
+        />
+      </span>
+      <span
+        class="c3 typography variant--label align--left"
+        color="text_primary"
+      >
+        Label 3
+      </span>
+    </label>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`FormGroup Snapshots themes FormControl light theme snapshot 1`] = `
+<DocumentFragment>
+  .c2 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+}
+
+.c2 label {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: var(--bds-sizes-size-16);
+  width: var(--bds-sizes-size-16);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  pointer-events: none;
+}
+
+.c2 label .checkbox-icon {
+  z-index: 1;
+}
+
+.c2 input {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.c2 input:checked + label::after {
+  opacity: 1;
+}
+
+.c2 input:not(:checked) + label::after {
+  opacity: 0;
+}
+
+.c2 input + label::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: var(--bds-sizes-size-14);
+  width: var(--bds-sizes-size-14);
+  border-width: var(--bds-border-width-sm);
+  border-style: solid;
+}
+
+.c2 input.shape--rounded + label::before {
+  border-radius: var(--bds-border-radius-md);
+}
+
+.c2 input.shape--squared + label::before {
+  border-radius: 0;
+}
+
+.c2 input:not(:checked):enabled + label::before,
+.c2 input:not(:checked).enabled + label::before {
+  border-color: var(--bds-color-border-default);
+}
+
+.c2 input:not(:checked):hover + label::before,
+.c2 input:not(:checked).hover + label::before {
+  border-color: var(--bds-color-action-interative-hover);
+}
+
+.c2 input:not(:checked):focus + label::before,
+.c2 input:not(:checked).focus + label::before {
+  border-color: var(--bds-color-action-interactive);
+  box-shadow: 0 0 0 2px var(--bds-color-action-interactive);
+}
+
+.c2 input:not(:checked):disabled,
+.c2 input:not(:checked).disabled,
+.c2 input:not(:checked):disabled + label,
+.c2 input:not(:checked).disabled + label {
+  cursor: not-allowed;
+  color: var(--bds-color-text-disabled);
+}
+
+.c2 input:not(:checked):disabled + label::before,
+.c2 input:not(:checked).disabled + label::before {
+  border-color: var(--bds-color-text-disabled);
+}
+
+.c2 input:not(:checked),
+.c2 input:not(:checked) + label {
+  cursor: pointer;
+}
+
+.c2 input:not(:checked) + label::before {
+  background-color: transparent;
+  border-color: var(--bds-color-border-default);
+}
+
+.c2 input:checked:enabled + label::before,
+.c2 input:checked.enabled + label::before {
+  background-color: var(--bds-color-action-interactive);
+}
+
+.c2 input:checked:hover + label::before,
+.c2 input:checked:focus:hover + label::before,
+.c2 input:checked.hover + label::before {
+  background-color: var(--bds-color-action-interactive-hover);
+  border-color: var(--bds-color-action-interactive-hover);
+}
+
+.c2 input:checked:focus + label::before,
+.c2 input:checked.focus + label::before {
+  box-shadow: 0 0 0 2px var(--bds-color-border-default);
+}
+
+.c2 input:checked:disabled,
+.c2 input:checked.disabled,
+.c2 input:checked:disabled + label,
+.c2 input:checked.disabled + label {
+  cursor: not-allowed;
+  color: var(--bds-color-text-disabled);
+}
+
+.c2 input:checked:disabled + label::before,
+.c2 input:checked.disabled + label::before {
+  background-color: var(--bds-color-text-disabled);
+  border-color: transparent;
+}
+
+.c2 input:checked,
+.c2 input:checked + label {
+  cursor: pointer;
+}
+
+.c2 input:checked + label::before {
+  background-color: var(--bds-color-action-interactive);
+  border-color: var(--bds-color-action-interactive);
+}
+
+.c3 {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  color: hsl(0,0%,0%,.87);
+  font-size: var(--bds-font-tag-label-mobile-font-size);
+  line-height: var(--bds-font-tag-label-mobile-line-height);
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.c1 .typography {
+  padding-left: var(--bds-sizes-size-16);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c1 .typography {
+  cursor: pointer;
+  color: var(--bds-color-text-primary);
+}
+
+.c1.disabled .typography {
+  cursor: not-allowed;
+  color: var(--bds-color-text-disabled);
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c0.direction--column {
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0.direction--column > * {
+  margin: 0.25rem 0;
+}
+
+.c0.direction--row {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-left: -0.25rem;
+}
+
+.c0.direction--row > * {
+  margin: 0.25rem;
+}
+
+@media only screen and (min-width:66rem) {
+  .c3 {
+    font-size: var(--bds-font-tag-label-desktop-font-size);
+    line-height: var(--bds-font-tag-label-desktop-line-height);
+  }
+}
+
+<div
+    class="c0 form-group direction--column"
+    spacing="size_4"
+  >
+    <label
+      class="c1"
+    >
+      <span
+        class="c2"
+      >
+        <input
+          class="backyard checkbox shape--rounded"
+          data-indeterminate="false"
+          type="checkbox"
+          value=""
+        />
+        <label
+          class="checkbox-label"
+        />
+      </span>
+      <span
+        class="c3 typography variant--label align--left"
+        color="text_primary"
+      >
+        Label 1
+      </span>
+    </label>
+    <label
+      class="c1"
+    >
+      <span
+        class="c2"
+      >
+        <input
+          class="backyard checkbox shape--rounded"
+          data-indeterminate="false"
+          type="checkbox"
+          value=""
+        />
+        <label
+          class="checkbox-label"
+        />
+      </span>
+      <span
+        class="c3 typography variant--label align--left"
+        color="text_primary"
+      >
+        Label 2
+      </span>
+    </label>
+    <label
+      class="c1"
+    >
+      <span
+        class="c2"
+      >
+        <input
+          class="backyard checkbox shape--rounded"
+          data-indeterminate="false"
+          type="checkbox"
+          value=""
+        />
+        <label
+          class="checkbox-label"
+        />
+      </span>
+      <span
+        class="c3 typography variant--label align--left"
+        color="text_primary"
+      >
+        Label 3
+      </span>
+    </label>
+  </div>
+</DocumentFragment>
+`;

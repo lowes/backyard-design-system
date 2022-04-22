@@ -1,0 +1,668 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Scrollbar Snapshots Scrollbar default snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  height: auto;
+  width: auto;
+}
+
+.c0 .content-container {
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+}
+
+.c0 .content-container::-webkit-scrollbar {
+  display: none;
+}
+
+.c0 .content-container .scrollbar-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c1 {
+  width: 100%;
+  padding-top: var(--bds-sizes-size-4);
+  padding-bottom: var(--bds-sizes-size-4);
+}
+
+.c1:hover {
+  cursor: pointer;
+}
+
+.c1.hide-scrollbar {
+  display: none;
+}
+
+.c3 {
+  position: absolute;
+  left: 0;
+  width: 10%;
+  height: var(--bds-sizes-size-4);
+  background-color: var(--bds-color-action-interactive);
+  border-radius: var(--bds-border-radius-circle);
+  -webkit-transition: top 0.08s;
+  -moz-transition: top 0.08s;
+  -ms-transition: top 0.08s;
+  -o-transition: top 0.08s;
+  -webkit-transition: top 0.08s;
+  transition: top 0.08s;
+}
+
+.c3:hover {
+  background-color: var(--bds-color-action-interactive-hover);
+}
+
+.c3:hover,
+.c3:focus,
+.c3:active {
+  margin-top: -0.0625rem;
+  height: var(--bds-sizes-size-6);
+}
+
+.c2 {
+  position: relative;
+  background: var(--bds-color-surface-subdued);
+  height: 4px;
+  -webkit-order: 10;
+  -ms-flex-order: 10;
+  order: 10;
+  width: 100%;
+  border-radius: var(--bds-border-radius-circle);
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="content-container"
+      id="test"
+    >
+      <div
+        class="scrollbar-content"
+      >
+        Bacon ipsum dolor amet t-bone cow flank tri-tip shankle tenderloin landjaeger rump alcatra capicola chicken pork chop. Filet mignon tenderloin drumstick burgdoggen swine shoulder picanha meatball ham venison chislic landjaeger andouille beef ribs jerky. Strip steak kevin sirloin cow picanha pork loin jowl chuck short loin shoulder sausage flank, brisket drumstick. Landjaeger ham pig meatball chuck ribeye. Kevin filet mignon pastrami turducken. Spare ribs pastrami chicken, meatball rump ball tip bacon kevin pork belly shoulder venison capicola cow pig ground round. Shank beef turducken, leberkas chuck tri-tip hamburger pork ham spare ribs kielbasa.
+      </div>
+    </div>
+    <div
+      class="c1 scrollbar-container hide-scrollbar"
+    >
+      <div
+        class="c2 scrollbar-track"
+      >
+        <div
+          aria-controls="test"
+          class="c3 scrollbar-knob"
+          role="scrollbar"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Scrollbar Snapshots className prop snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  height: auto;
+  width: auto;
+}
+
+.c0 .content-container {
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+}
+
+.c0 .content-container::-webkit-scrollbar {
+  display: none;
+}
+
+.c0 .content-container .scrollbar-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c1 {
+  width: 100%;
+  padding-top: var(--bds-sizes-size-4);
+  padding-bottom: var(--bds-sizes-size-4);
+}
+
+.c1:hover {
+  cursor: pointer;
+}
+
+.c1.hide-scrollbar {
+  display: none;
+}
+
+.c3 {
+  position: absolute;
+  left: 0;
+  width: 10%;
+  height: var(--bds-sizes-size-4);
+  background-color: var(--bds-color-action-interactive);
+  border-radius: var(--bds-border-radius-circle);
+  -webkit-transition: top 0.08s;
+  -moz-transition: top 0.08s;
+  -ms-transition: top 0.08s;
+  -o-transition: top 0.08s;
+  -webkit-transition: top 0.08s;
+  transition: top 0.08s;
+}
+
+.c3:hover {
+  background-color: var(--bds-color-action-interactive-hover);
+}
+
+.c3:hover,
+.c3:focus,
+.c3:active {
+  margin-top: -0.0625rem;
+  height: var(--bds-sizes-size-6);
+}
+
+.c2 {
+  position: relative;
+  background: var(--bds-color-surface-subdued);
+  height: 4px;
+  -webkit-order: 10;
+  -ms-flex-order: 10;
+  order: 10;
+  width: 100%;
+  border-radius: var(--bds-border-radius-circle);
+}
+
+<div
+    class="c0 test-class"
+  >
+    <div
+      class="content-container"
+      id="test"
+    >
+      <div
+        class="scrollbar-content"
+      >
+        Bacon ipsum dolor amet t-bone cow flank tri-tip shankle tenderloin landjaeger rump alcatra capicola chicken pork chop. Filet mignon tenderloin drumstick burgdoggen swine shoulder picanha meatball ham venison chislic landjaeger andouille beef ribs jerky. Strip steak kevin sirloin cow picanha pork loin jowl chuck short loin shoulder sausage flank, brisket drumstick. Landjaeger ham pig meatball chuck ribeye. Kevin filet mignon pastrami turducken. Spare ribs pastrami chicken, meatball rump ball tip bacon kevin pork belly shoulder venison capicola cow pig ground round. Shank beef turducken, leberkas chuck tri-tip hamburger pork ham spare ribs kielbasa.
+      </div>
+    </div>
+    <div
+      class="c1 scrollbar-container hide-scrollbar"
+    >
+      <div
+        class="c2 scrollbar-track"
+      >
+        <div
+          aria-controls="test"
+          class="c3 scrollbar-knob"
+          role="scrollbar"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Scrollbar Snapshots extra props Scrollbar DOM props (id, className) snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  height: auto;
+  width: auto;
+}
+
+.c0 .content-container {
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+}
+
+.c0 .content-container::-webkit-scrollbar {
+  display: none;
+}
+
+.c0 .content-container .scrollbar-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c1 {
+  width: 100%;
+  padding-top: var(--bds-sizes-size-4);
+  padding-bottom: var(--bds-sizes-size-4);
+}
+
+.c1:hover {
+  cursor: pointer;
+}
+
+.c1.hide-scrollbar {
+  display: none;
+}
+
+.c3 {
+  position: absolute;
+  left: 0;
+  width: 10%;
+  height: var(--bds-sizes-size-4);
+  background-color: var(--bds-color-action-interactive);
+  border-radius: var(--bds-border-radius-circle);
+  -webkit-transition: top 0.08s;
+  -moz-transition: top 0.08s;
+  -ms-transition: top 0.08s;
+  -o-transition: top 0.08s;
+  -webkit-transition: top 0.08s;
+  transition: top 0.08s;
+}
+
+.c3:hover {
+  background-color: var(--bds-color-action-interactive-hover);
+}
+
+.c3:hover,
+.c3:focus,
+.c3:active {
+  margin-top: -0.0625rem;
+  height: var(--bds-sizes-size-6);
+}
+
+.c2 {
+  position: relative;
+  background: var(--bds-color-surface-subdued);
+  height: 4px;
+  -webkit-order: 10;
+  -ms-flex-order: 10;
+  order: 10;
+  width: 100%;
+  border-radius: var(--bds-border-radius-circle);
+}
+
+<div
+    class="c0 classname"
+  >
+    <div
+      class="content-container"
+      id="id"
+    >
+      <div
+        class="scrollbar-content"
+      >
+        hi Bacon ipsum dolor amet t-bone cow flank tri-tip shankle tenderloin landjaeger rump alcatra capicola chicken pork chop. Filet mignon tenderloin drumstick burgdoggen swine shoulder picanha meatball ham venison chislic landjaeger andouille beef ribs jerky. Strip steak kevin sirloin cow picanha pork loin jowl chuck short loin shoulder sausage flank, brisket drumstick. Landjaeger ham pig meatball chuck ribeye. Kevin filet mignon pastrami turducken. Spare ribs pastrami chicken, meatball rump ball tip bacon kevin pork belly shoulder venison capicola cow pig ground round. Shank beef turducken, leberkas chuck tri-tip hamburger pork ham spare ribs kielbasa.
+      </div>
+    </div>
+    <div
+      class="c1 scrollbar-container hide-scrollbar"
+    >
+      <div
+        class="c2 scrollbar-track"
+      >
+        <div
+          aria-controls="id"
+          class="c3 scrollbar-knob"
+          role="scrollbar"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Scrollbar Snapshots themes Scrollbar dark theme snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  height: auto;
+  width: auto;
+}
+
+.c0 .content-container {
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+}
+
+.c0 .content-container::-webkit-scrollbar {
+  display: none;
+}
+
+.c0 .content-container .scrollbar-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c1 {
+  width: 100%;
+  padding-top: var(--bds-sizes-size-4);
+  padding-bottom: var(--bds-sizes-size-4);
+}
+
+.c1:hover {
+  cursor: pointer;
+}
+
+.c1.hide-scrollbar {
+  display: none;
+}
+
+.c3 {
+  position: absolute;
+  left: 0;
+  width: 10%;
+  height: var(--bds-sizes-size-4);
+  background-color: var(--bds-color-action-interactive);
+  border-radius: var(--bds-border-radius-circle);
+  -webkit-transition: top 0.08s;
+  -moz-transition: top 0.08s;
+  -ms-transition: top 0.08s;
+  -o-transition: top 0.08s;
+  -webkit-transition: top 0.08s;
+  transition: top 0.08s;
+}
+
+.c3:hover {
+  background-color: var(--bds-color-action-interactive-hover);
+}
+
+.c3:hover,
+.c3:focus,
+.c3:active {
+  margin-top: -0.0625rem;
+  height: var(--bds-sizes-size-6);
+}
+
+.c2 {
+  position: relative;
+  background: var(--bds-color-surface-subdued);
+  height: 4px;
+  -webkit-order: 10;
+  -ms-flex-order: 10;
+  order: 10;
+  width: 100%;
+  border-radius: var(--bds-border-radius-circle);
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="content-container"
+      id="test"
+    >
+      <div
+        class="scrollbar-content"
+      >
+        Bacon ipsum dolor amet t-bone cow flank tri-tip shankle tenderloin landjaeger rump alcatra capicola chicken pork chop. Filet mignon tenderloin drumstick burgdoggen swine shoulder picanha meatball ham venison chislic landjaeger andouille beef ribs jerky. Strip steak kevin sirloin cow picanha pork loin jowl chuck short loin shoulder sausage flank, brisket drumstick. Landjaeger ham pig meatball chuck ribeye. Kevin filet mignon pastrami turducken. Spare ribs pastrami chicken, meatball rump ball tip bacon kevin pork belly shoulder venison capicola cow pig ground round. Shank beef turducken, leberkas chuck tri-tip hamburger pork ham spare ribs kielbasa.
+      </div>
+    </div>
+    <div
+      class="c1 scrollbar-container hide-scrollbar"
+    >
+      <div
+        class="c2 scrollbar-track"
+      >
+        <div
+          aria-controls="test"
+          class="c3 scrollbar-knob"
+          role="scrollbar"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Scrollbar Snapshots themes Scrollbar light theme snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  height: auto;
+  width: auto;
+}
+
+.c0 .content-container {
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+}
+
+.c0 .content-container::-webkit-scrollbar {
+  display: none;
+}
+
+.c0 .content-container .scrollbar-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c1 {
+  width: 100%;
+  padding-top: var(--bds-sizes-size-4);
+  padding-bottom: var(--bds-sizes-size-4);
+}
+
+.c1:hover {
+  cursor: pointer;
+}
+
+.c1.hide-scrollbar {
+  display: none;
+}
+
+.c3 {
+  position: absolute;
+  left: 0;
+  width: 10%;
+  height: var(--bds-sizes-size-4);
+  background-color: var(--bds-color-action-interactive);
+  border-radius: var(--bds-border-radius-circle);
+  -webkit-transition: top 0.08s;
+  -moz-transition: top 0.08s;
+  -ms-transition: top 0.08s;
+  -o-transition: top 0.08s;
+  -webkit-transition: top 0.08s;
+  transition: top 0.08s;
+}
+
+.c3:hover {
+  background-color: var(--bds-color-action-interactive-hover);
+}
+
+.c3:hover,
+.c3:focus,
+.c3:active {
+  margin-top: -0.0625rem;
+  height: var(--bds-sizes-size-6);
+}
+
+.c2 {
+  position: relative;
+  background: var(--bds-color-surface-subdued);
+  height: 4px;
+  -webkit-order: 10;
+  -ms-flex-order: 10;
+  order: 10;
+  width: 100%;
+  border-radius: var(--bds-border-radius-circle);
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="content-container"
+      id="test"
+    >
+      <div
+        class="scrollbar-content"
+      >
+        Bacon ipsum dolor amet t-bone cow flank tri-tip shankle tenderloin landjaeger rump alcatra capicola chicken pork chop. Filet mignon tenderloin drumstick burgdoggen swine shoulder picanha meatball ham venison chislic landjaeger andouille beef ribs jerky. Strip steak kevin sirloin cow picanha pork loin jowl chuck short loin shoulder sausage flank, brisket drumstick. Landjaeger ham pig meatball chuck ribeye. Kevin filet mignon pastrami turducken. Spare ribs pastrami chicken, meatball rump ball tip bacon kevin pork belly shoulder venison capicola cow pig ground round. Shank beef turducken, leberkas chuck tri-tip hamburger pork ham spare ribs kielbasa.
+      </div>
+    </div>
+    <div
+      class="c1 scrollbar-container hide-scrollbar"
+    >
+      <div
+        class="c2 scrollbar-track"
+      >
+        <div
+          aria-controls="test"
+          class="c3 scrollbar-knob"
+          role="scrollbar"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Scrollbar Snapshots wrapperProps prop snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  height: auto;
+  width: auto;
+}
+
+.c0 .content-container {
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+}
+
+.c0 .content-container::-webkit-scrollbar {
+  display: none;
+}
+
+.c0 .content-container .scrollbar-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c1 {
+  width: 100%;
+  padding-top: var(--bds-sizes-size-4);
+  padding-bottom: var(--bds-sizes-size-4);
+}
+
+.c1:hover {
+  cursor: pointer;
+}
+
+.c1.hide-scrollbar {
+  display: none;
+}
+
+.c3 {
+  position: absolute;
+  left: 0;
+  width: 10%;
+  height: var(--bds-sizes-size-4);
+  background-color: var(--bds-color-action-interactive);
+  border-radius: var(--bds-border-radius-circle);
+  -webkit-transition: top 0.08s;
+  -moz-transition: top 0.08s;
+  -ms-transition: top 0.08s;
+  -o-transition: top 0.08s;
+  -webkit-transition: top 0.08s;
+  transition: top 0.08s;
+}
+
+.c3:hover {
+  background-color: var(--bds-color-action-interactive-hover);
+}
+
+.c3:hover,
+.c3:focus,
+.c3:active {
+  margin-top: -0.0625rem;
+  height: var(--bds-sizes-size-6);
+}
+
+.c2 {
+  position: relative;
+  background: var(--bds-color-surface-subdued);
+  height: 4px;
+  -webkit-order: 10;
+  -ms-flex-order: 10;
+  order: 10;
+  width: 100%;
+  border-radius: var(--bds-border-radius-circle);
+}
+
+<div
+    class="c0"
+    style="background-color: green;"
+  >
+    <div
+      class="content-container"
+      id="test"
+    >
+      <div
+        class="scrollbar-content"
+      >
+        Bacon ipsum dolor amet t-bone cow flank tri-tip shankle tenderloin landjaeger rump alcatra capicola chicken pork chop. Filet mignon tenderloin drumstick burgdoggen swine shoulder picanha meatball ham venison chislic landjaeger andouille beef ribs jerky. Strip steak kevin sirloin cow picanha pork loin jowl chuck short loin shoulder sausage flank, brisket drumstick. Landjaeger ham pig meatball chuck ribeye. Kevin filet mignon pastrami turducken. Spare ribs pastrami chicken, meatball rump ball tip bacon kevin pork belly shoulder venison capicola cow pig ground round. Shank beef turducken, leberkas chuck tri-tip hamburger pork ham spare ribs kielbasa.
+      </div>
+    </div>
+    <div
+      class="c1 scrollbar-container hide-scrollbar"
+    >
+      <div
+        class="c2 scrollbar-track"
+      >
+        <div
+          aria-controls="test"
+          class="c3 scrollbar-knob"
+          role="scrollbar"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

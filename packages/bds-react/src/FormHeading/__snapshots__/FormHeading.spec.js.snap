@@ -1,0 +1,375 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormHeading Snapshots FormHeading default snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  color: hsl(0,0%,0%,.87);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: hsl(0,0%,0%,.87);
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  font-size: var(--bds-font-tag-h5-mobile-font-size);
+  line-height: var(--bds-font-tag-h5-mobile-line-height);
+}
+
+.c0.align--left {
+  text-align: left;
+}
+
+.c0.align--center {
+  text-align: center;
+}
+
+.c0.align--right {
+  text-align: right;
+}
+
+.c0.display--block {
+  display: block;
+}
+
+.c0.display--inline {
+  display: inline;
+}
+
+.c0 b,
+.c0 bold,
+.c0 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.bold {
+  font-weight: 500;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c0 {
+    font-size: var(--bds-font-tag-h5-desktop-font-size);
+    line-height: var(--bds-font-tag-h5-desktop-line-height);
+  }
+}
+
+<h5
+    class="c0 typography variant--h5 align--left form-heading"
+    color="text_primary"
+  >
+    Heading
+  </h5>
+</DocumentFragment>
+`;
+
+exports[`FormHeading Snapshots prop: variant FormHeading caption snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  color: hsl(0,0%,0%,.87);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: var(--bds-font-weight-regular);
+  color: hsl(0,0%,0%,.87);
+  font-size: var(--bds-font-tag-caption-mobile-font-size);
+  line-height: var(--bds-font-tag-caption-mobile-line-height);
+}
+
+.c0.align--left {
+  text-align: left;
+}
+
+.c0.align--center {
+  text-align: center;
+}
+
+.c0.align--right {
+  text-align: right;
+}
+
+.c0.display--block {
+  display: block;
+}
+
+.c0.display--inline {
+  display: inline;
+}
+
+.c0 b,
+.c0 bold,
+.c0 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.bold {
+  font-weight: 500;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c0 {
+    font-size: var(--bds-font-tag-caption-desktop-font-size);
+    line-height: var(--bds-font-tag-caption-desktop-line-height);
+  }
+}
+
+<span
+    class="c0 typography variant--caption align--left form-heading"
+    color="text_primary"
+  >
+    Heading
+  </span>
+</DocumentFragment>
+`;
+
+exports[`FormHeading Snapshots prop: variant FormHeading default snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  color: hsl(0,0%,0%,.87);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: hsl(0,0%,0%,.87);
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  font-size: var(--bds-font-tag-h5-mobile-font-size);
+  line-height: var(--bds-font-tag-h5-mobile-line-height);
+}
+
+.c0.align--left {
+  text-align: left;
+}
+
+.c0.align--center {
+  text-align: center;
+}
+
+.c0.align--right {
+  text-align: right;
+}
+
+.c0.display--block {
+  display: block;
+}
+
+.c0.display--inline {
+  display: inline;
+}
+
+.c0 b,
+.c0 bold,
+.c0 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.bold {
+  font-weight: 500;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c0 {
+    font-size: var(--bds-font-tag-h5-desktop-font-size);
+    line-height: var(--bds-font-tag-h5-desktop-line-height);
+  }
+}
+
+<h5
+    class="c0 typography variant--h5 align--left form-heading"
+    color="text_primary"
+  >
+    Heading
+  </h5>
+</DocumentFragment>
+`;
+
+exports[`FormHeading Snapshots prop: variant FormHeading h5 snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  color: hsl(0,0%,0%,.87);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: hsl(0,0%,0%,.87);
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  font-size: var(--bds-font-tag-h5-mobile-font-size);
+  line-height: var(--bds-font-tag-h5-mobile-line-height);
+}
+
+.c0.align--left {
+  text-align: left;
+}
+
+.c0.align--center {
+  text-align: center;
+}
+
+.c0.align--right {
+  text-align: right;
+}
+
+.c0.display--block {
+  display: block;
+}
+
+.c0.display--inline {
+  display: inline;
+}
+
+.c0 b,
+.c0 bold,
+.c0 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.bold {
+  font-weight: 500;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c0 {
+    font-size: var(--bds-font-tag-h5-desktop-font-size);
+    line-height: var(--bds-font-tag-h5-desktop-line-height);
+  }
+}
+
+<h5
+    class="c0 typography variant--h5 align--left form-heading"
+    color="text_primary"
+  >
+    Heading
+  </h5>
+</DocumentFragment>
+`;
+
+exports[`FormHeading Snapshots themes FormHeading dark theme snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  color: hsl(0,0%,100%,.87);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: hsl(0,0%,100%,.87);
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  font-size: var(--bds-font-tag-h5-mobile-font-size);
+  line-height: var(--bds-font-tag-h5-mobile-line-height);
+}
+
+.c0.align--left {
+  text-align: left;
+}
+
+.c0.align--center {
+  text-align: center;
+}
+
+.c0.align--right {
+  text-align: right;
+}
+
+.c0.display--block {
+  display: block;
+}
+
+.c0.display--inline {
+  display: inline;
+}
+
+.c0 b,
+.c0 bold,
+.c0 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.bold {
+  font-weight: 500;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c0 {
+    font-size: var(--bds-font-tag-h5-desktop-font-size);
+    line-height: var(--bds-font-tag-h5-desktop-line-height);
+  }
+}
+
+<h5
+    class="c0 typography variant--h5 align--left form-heading"
+    color="text_primary"
+  >
+    Heading
+  </h5>
+</DocumentFragment>
+`;
+
+exports[`FormHeading Snapshots themes FormHeading light theme snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  color: hsl(0,0%,0%,.87);
+  margin: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  color: hsl(0,0%,0%,.87);
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  font-size: var(--bds-font-tag-h5-mobile-font-size);
+  line-height: var(--bds-font-tag-h5-mobile-line-height);
+}
+
+.c0.align--left {
+  text-align: left;
+}
+
+.c0.align--center {
+  text-align: center;
+}
+
+.c0.align--right {
+  text-align: right;
+}
+
+.c0.display--block {
+  display: block;
+}
+
+.c0.display--inline {
+  display: inline;
+}
+
+.c0 b,
+.c0 bold,
+.c0 strong {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c0.bold {
+  font-weight: 500;
+}
+
+@media only screen and (min-width:66.0625rem) {
+  .c0 {
+    font-size: var(--bds-font-tag-h5-desktop-font-size);
+    line-height: var(--bds-font-tag-h5-desktop-line-height);
+  }
+}
+
+<h5
+    class="c0 typography variant--h5 align--left form-heading"
+    color="text_primary"
+  >
+    Heading
+  </h5>
+</DocumentFragment>
+`;

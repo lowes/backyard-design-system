@@ -1,0 +1,564 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CarouselSkeleton Snapshots prop snapshots 1`] = `
+<DocumentFragment>
+  .c0 {
+  background: var(--bds-color-skeleton-01);
+  position: relative;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.c0.style--animated::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--bds-color-skeleton-01);
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+  animation-direction: normal;
+  -webkit-animation-fill-mode: none;
+  animation-fill-mode: none;
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+}
+
+.c0.variant--circle {
+  width: 100%;
+  height: 20.5rem;
+  border-radius: var(--bds-border-radius-circle);
+}
+
+.c0.variant--rect {
+  width: 100%;
+  height: 20.5rem;
+}
+
+.c0.variant--rect.shape--rounded {
+  border-radius: var(--bds-border-radius-lg);
+}
+
+.c0.variant--rect.shape--squared {
+  border-radius: 0;
+}
+
+.c0.variant--text {
+  width: 100%;
+  height: 16px;
+  margin-bottom: var(--bds-sizes-size-6);
+}
+
+.c0.variant--text.shape--rounded {
+  border-radius: var(--bds-border-radius-lg);
+}
+
+.c0.variant--text.shape--squared {
+  border-radius: 0;
+}
+
+.c1 {
+  background: var(--bds-color-skeleton-01);
+  position: relative;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.c1.style--animated::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--bds-color-skeleton-01);
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+  animation-direction: normal;
+  -webkit-animation-fill-mode: none;
+  animation-fill-mode: none;
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+}
+
+.c1.variant--circle {
+  width: 100%;
+  height: 0.25rem;
+  border-radius: var(--bds-border-radius-circle);
+}
+
+.c1.variant--rect {
+  width: 100%;
+  height: 0.25rem;
+}
+
+.c1.variant--rect.shape--rounded {
+  border-radius: var(--bds-border-radius-lg);
+}
+
+.c1.variant--rect.shape--squared {
+  border-radius: 0;
+}
+
+.c1.variant--text {
+  width: 100%;
+  height: 16px;
+  margin-bottom: var(--bds-sizes-size-6);
+}
+
+.c1.variant--text.shape--rounded {
+  border-radius: var(--bds-border-radius-lg);
+}
+
+.c1.variant--text.shape--squared {
+  border-radius: 0;
+}
+
+<div
+    class="carousel--skeleton"
+  >
+    <div
+      style="display: flex; align-items: center;"
+    >
+      <div
+        style="width: 100%;"
+      >
+        <div
+          class="c0 variant--rect shape--rounded style--default"
+          height="20.5rem"
+          width="100%"
+        />
+        <div
+          class="c1 variant--rect shape--rounded style--default"
+          height="0.25rem"
+          style="margin-top: 2rem;"
+          width="100%"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`CarouselSkeleton Snapshots prop snapshots 2`] = `
+<DocumentFragment>
+  .c1 {
+  background: var(--bds-color-skeleton-01);
+  position: relative;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.c1.style--animated::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--bds-color-skeleton-01);
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+  animation-direction: normal;
+  -webkit-animation-fill-mode: none;
+  animation-fill-mode: none;
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+}
+
+.c1.variant--circle {
+  width: 100%;
+  height: 20.5rem;
+  border-radius: var(--bds-border-radius-circle);
+}
+
+.c1.variant--rect {
+  width: 100%;
+  height: 20.5rem;
+}
+
+.c1.variant--rect.shape--rounded {
+  border-radius: var(--bds-border-radius-lg);
+}
+
+.c1.variant--rect.shape--squared {
+  border-radius: 0;
+}
+
+.c1.variant--text {
+  width: 100%;
+  height: 16px;
+  margin-bottom: var(--bds-sizes-size-6);
+}
+
+.c1.variant--text.shape--rounded {
+  border-radius: var(--bds-border-radius-lg);
+}
+
+.c1.variant--text.shape--squared {
+  border-radius: 0;
+}
+
+.c0 {
+  background: var(--bds-color-skeleton-01);
+  position: relative;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.c0.style--animated::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--bds-color-skeleton-01);
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+  animation-direction: normal;
+  -webkit-animation-fill-mode: none;
+  animation-fill-mode: none;
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+}
+
+.c0.variant--circle {
+  border-radius: var(--bds-border-radius-circle);
+}
+
+.c0.variant--rect.shape--rounded {
+  border-radius: var(--bds-border-radius-lg);
+}
+
+.c0.variant--rect.shape--squared {
+  border-radius: 0;
+}
+
+.c0.variant--text {
+  width: 100%;
+  height: 16px;
+  margin-bottom: var(--bds-sizes-size-6);
+}
+
+.c0.variant--text.shape--rounded {
+  border-radius: var(--bds-border-radius-lg);
+}
+
+.c0.variant--text.shape--squared {
+  border-radius: 0;
+}
+
+<div
+    class="carousel--skeleton"
+  >
+    <div
+      style="display: flex; align-items: center;"
+    >
+      <div
+        class="c0 variant--circle shape--rounded style--default"
+        style="min-width: 2.625rem; min-height: 2.625rem; margin-right: 0.5rem;"
+      />
+      <div
+        style="width: 100%;"
+      >
+        <div
+          class="c1 variant--rect shape--rounded style--default"
+          height="20.5rem"
+          width="100%"
+        />
+      </div>
+      <div
+        class="c0 variant--circle shape--rounded style--default"
+        style="min-width: 2.625rem; min-height: 2.625rem; margin-left: 0.5rem;"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`CarouselSkeleton Snapshots renders 1`] = `
+<DocumentFragment>
+  .c0 {
+  background: var(--bds-color-skeleton-01);
+  position: relative;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.c0.style--animated::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--bds-color-skeleton-01);
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+  animation-direction: normal;
+  -webkit-animation-fill-mode: none;
+  animation-fill-mode: none;
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+}
+
+.c0.variant--circle {
+  border-radius: var(--bds-border-radius-circle);
+}
+
+.c0.variant--rect.shape--rounded {
+  border-radius: var(--bds-border-radius-lg);
+}
+
+.c0.variant--rect.shape--squared {
+  border-radius: 0;
+}
+
+.c0.variant--text {
+  width: 100%;
+  height: 16px;
+  margin-bottom: var(--bds-sizes-size-6);
+}
+
+.c0.variant--text.shape--rounded {
+  border-radius: var(--bds-border-radius-lg);
+}
+
+.c0.variant--text.shape--squared {
+  border-radius: 0;
+}
+
+.c1 {
+  background: var(--bds-color-skeleton-01);
+  position: relative;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.c1.style--animated::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--bds-color-skeleton-01);
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+  animation-direction: normal;
+  -webkit-animation-fill-mode: none;
+  animation-fill-mode: none;
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+}
+
+.c1.variant--circle {
+  width: 100%;
+  height: 20.5rem;
+  border-radius: var(--bds-border-radius-circle);
+}
+
+.c1.variant--rect {
+  width: 100%;
+  height: 20.5rem;
+}
+
+.c1.variant--rect.shape--rounded {
+  border-radius: var(--bds-border-radius-lg);
+}
+
+.c1.variant--rect.shape--squared {
+  border-radius: 0;
+}
+
+.c1.variant--text {
+  width: 100%;
+  height: 16px;
+  margin-bottom: var(--bds-sizes-size-6);
+}
+
+.c1.variant--text.shape--rounded {
+  border-radius: var(--bds-border-radius-lg);
+}
+
+.c1.variant--text.shape--squared {
+  border-radius: 0;
+}
+
+.c2 {
+  background: var(--bds-color-skeleton-01);
+  position: relative;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.c2.style--animated::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--bds-color-skeleton-01);
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+  animation-direction: normal;
+  -webkit-animation-fill-mode: none;
+  animation-fill-mode: none;
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+}
+
+.c2.variant--circle {
+  width: 100%;
+  height: 0.25rem;
+  border-radius: var(--bds-border-radius-circle);
+}
+
+.c2.variant--rect {
+  width: 100%;
+  height: 0.25rem;
+}
+
+.c2.variant--rect.shape--rounded {
+  border-radius: var(--bds-border-radius-lg);
+}
+
+.c2.variant--rect.shape--squared {
+  border-radius: 0;
+}
+
+.c2.variant--text {
+  width: 100%;
+  height: 16px;
+  margin-bottom: var(--bds-sizes-size-6);
+}
+
+.c2.variant--text.shape--rounded {
+  border-radius: var(--bds-border-radius-lg);
+}
+
+.c2.variant--text.shape--squared {
+  border-radius: 0;
+}
+
+<div
+    class="carousel--skeleton"
+  >
+    <div
+      style="display: flex; align-items: center;"
+    >
+      <div
+        class="c0 variant--circle shape--rounded style--animated"
+        style="min-width: 2.625rem; min-height: 2.625rem; margin-right: 0.5rem;"
+      />
+      <div
+        style="width: 100%;"
+      >
+        <div
+          class="c1 variant--rect shape--rounded style--animated"
+          height="20.5rem"
+          width="100%"
+        />
+        <div
+          class="c2 variant--rect shape--rounded style--animated"
+          height="0.25rem"
+          style="margin-top: 2rem;"
+          width="100%"
+        />
+      </div>
+      <div
+        class="c0 variant--circle shape--rounded style--animated"
+        style="min-width: 2.625rem; min-height: 2.625rem; margin-left: 0.5rem;"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
