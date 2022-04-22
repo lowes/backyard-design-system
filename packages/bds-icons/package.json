@@ -1,6 +1,6 @@
 {
     "name": "@lowes-tech/bds-icons",
-    "version": "0.2.0",
+    "version": "1.0.0",
     "description": "Icon library for backyard design system",
     "author": "Backyard Design System",
     "main": "./src/",
