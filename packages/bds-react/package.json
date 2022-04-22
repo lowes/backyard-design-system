@@ -1,6 +1,6 @@
 {
     "name": "@lowes-tech/bds-react",
-    "version": "0.2.0",
+    "version": "1.0.0",
     "description": "React component for backyard design system",
     "author": "Backyard Design System",
     "main": "./src/",
