@@ -73,14 +73,14 @@ Toggle wrapper to manage state of a group of `ToggleButton`s
 
 Examples:
 
-- [Toggle](https://dev.carbon.gcp.lowes.com/bds/documentation/Components/Toggle)
+- [Toggle](https://backyard.lowes.com/Components/Toggle)
 
 API:
 
-- [Toggle API](https://dev.carbon.gcp.lowes.com/bds/documentation/ComponentsAPI/Toggle)
-- inherits [ButtonGroup API](https://dev.carbon.gcp.lowes.com/bds/documentation/ComponentsAPI/ButtonGroup)
+- [Toggle API](https://backyard.lowes.com/ComponentsAPI/Toggle)
+- inherits [ButtonGroup API](https://backyard.lowes.com/ComponentsAPI/ButtonGroup)
 
-- [ToggleButton API](https://dev.carbon.gcp.lowes.com/bds/documentation/ComponentsAPI/ToggleButton)
+- [ToggleButton API](https://backyard.lowes.com/ComponentsAPI/ToggleButton)
 
 ___
 
@@ -94,8 +94,8 @@ Toggle button to be used as a child of `Toggle`
 
 Examples:
 
-- [Toggle](https://dev.carbon.gcp.lowes.com/bds/documentation/Components/Toggle)
+- [Toggle](https://backyard.lowes.com/Components/Toggle)
 
 API:
 
-- [ToggleButton API](https://dev.carbon.gcp.lowes.com/bds/documentation/ComponentsAPI/ToggleButton)
+- [ToggleButton API](https://backyard.lowes.com/ComponentsAPI/ToggleButton)

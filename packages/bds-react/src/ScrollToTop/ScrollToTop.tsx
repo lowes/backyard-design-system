@@ -20,11 +20,11 @@ import ScrollToTopWrapper from './styles/ScrollToTopWrapper'
  *
  * Documentation:
  *
- * - [ScrollToTop](https://dev.carbon.gcp.lowes.com/bds/documentation/Components/ScrollToTop)
+ * - [ScrollToTop](https://backyard.lowes.com/Components/ScrollToTop)
  *
  * API:
  *
- * - [ScrollToTop API](https://dev.carbon.gcp.lowes.com/bds/documentation/ComponentsAPI/ScrollToTop)
+ * - [ScrollToTop API](https://backyard.lowes.com/ComponentsAPI/ScrollToTop)
  *
  */
 const ScrollToTop: BDSForwardRef<ScrollToTopProps> = React.forwardRef<

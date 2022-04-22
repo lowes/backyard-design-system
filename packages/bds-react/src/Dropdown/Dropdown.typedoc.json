@@ -1378,7 +1378,7 @@
 			"flags": {},
 			"comment": {
 				"shortText": "Backyard React Dropdown",
-				"text": "Customized popover for `Select`\n\nExamples:\n\n- [Dropdown](https://dev.carbon.gcp.lowes.com/bds/documentation/Components/Dropdown)\n\nAPI:\n\n- [Dropdown API](https://dev.carbon.gcp.lowes.com/bds/documentation/ComponentsAPI/Dropdown)\n\n- [Option API](https://dev.carbon.gcp.lowes.com/bds/documentation/ComponentsAPI/Option)\n"
+				"text": "Customized popover for `Select`\n\nExamples:\n\n- [Dropdown](https://backyard.lowes.com/Components/Dropdown)\n\nAPI:\n\n- [Dropdown API](https://backyard.lowes.com/ComponentsAPI/Dropdown)\n\n- [Option API](https://backyard.lowes.com/ComponentsAPI/Option)\n"
 			},
 			"type": {
 				"type": "reference",

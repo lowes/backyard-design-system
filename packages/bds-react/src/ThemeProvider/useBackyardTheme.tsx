@@ -15,7 +15,7 @@ const validateBackyardTheme = (theme: BackyardTheme, name: BackyardTheme['name']
                     name ? `\`${name}\` or` : ''
                 } your entire application in a Backyard \`ThemeProvider\`.\n` +
                 'For a getting started guide, see \n' +
-                '`https://stage.carbon.gcp.lowes.com/bds/documentation/GetStarted/Develop#create-theme-provider`',
+                '`https://backyard.lowes.com/GetStarted/Develop#create-theme-provider`',
         )
     }
 

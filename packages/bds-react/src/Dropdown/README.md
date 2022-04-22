@@ -30,10 +30,10 @@ Customized popover for `Select`
 
 Examples:
 
-- [Dropdown](https://dev.carbon.gcp.lowes.com/bds/documentation/Components/Dropdown)
+- [Dropdown](https://backyard.lowes.com/Components/Dropdown)
 
 API:
 
-- [Dropdown API](https://dev.carbon.gcp.lowes.com/bds/documentation/ComponentsAPI/Dropdown)
+- [Dropdown API](https://backyard.lowes.com/ComponentsAPI/Dropdown)
 
-- [Option API](https://dev.carbon.gcp.lowes.com/bds/documentation/ComponentsAPI/Option)
+- [Option API](https://backyard.lowes.com/ComponentsAPI/Option)

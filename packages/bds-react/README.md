@@ -1,27 +1,9 @@
 # @lowes-tech/bds-react
 
-![Build Status](https://vmlnxjenkinsmaster01.lowes.com/job/Backyard-Design-System/job/backyard-design-system/job/main/badge/icon)
-![Version](https://img.shields.io/badge/version-3.0.0-blue)
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![Node](https://img.shields.io/badge/node-8+-blue)
 ![NPM](https://img.shields.io/badge/npm-5+-blue)
 ![Contributors](https://img.shields.io/badge/contributers-welcome-brightgreen)
-
-</br>
-
-![Quality Gate Status](http://lxappsonrqas001.lowes.com:9000/api/project_badges/measure?project=backyard-bds-react&metric=alert_status)
-![Maintainability Rating](http://lxappsonrqas001.lowes.com:9000/api/project_badges/measure?project=backyard-bds-react&metric=sqale_rating)
-![Reliability Rating](http://lxappsonrqas001.lowes.com:9000/api/project_badges/measure?project=backyard-bds-react&metric=reliability_rating)
-![Security Rating](http://lxappsonrqas001.lowes.com:9000/api/project_badges/measure?project=backyard-bds-react&metric=security_rating)
-
-</br>
-
-![Coverage](http://lxappsonrqas001.lowes.com:9000/api/project_badges/measure?project=backyard-bds-react&metric=coverage)
-![Vulnerabilities](http://lxappsonrqas001.lowes.com:9000/api/project_badges/measure?project=backyard-bds-react&metric=vulnerabilities)
-![Bugs](http://lxappsonrqas001.lowes.com:9000/api/project_badges/measure?project=backyard-bds-react&metric=bugs)
-![Code Smells](http://lxappsonrqas001.lowes.com:9000/api/project_badges/measure?project=backyard-bds-react&metric=code_smells)
-![Duplicated Lines (%)](http://lxappsonrqas001.lowes.com:9000/api/project_badges/measure?project=backyard-bds-react&metric=duplicated_lines_density)
-
-
 
 <br>
 
@@ -55,7 +37,7 @@ const Component = (props) => {
         <Grid.Container>
             <Grid.Row>
                 <Grid.Column>
-                    <Button.Solid />
+                    <Button />
                 </Grid.Column>
             </Grid.Row>
         </Grid.Container>

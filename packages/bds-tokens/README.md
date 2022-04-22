@@ -1,14 +1,5 @@
 # Lowe's Backyard Design Tokens
 
-[![Quality Gate Status](http://lxappsonrqas001.lowes.com:9000/api/project_badges/measure?project=backyard-bds-design-tokens&metric=alert_status)](http://lxappsonrqas001.lowes.com:9000/dashboard?id=backyard-bds-design-tokens)
-[![Maintainability Rating](http://lxappsonrqas001.lowes.com:9000/api/project_badges/measure?project=backyard-bds-design-tokens&metric=sqale_rating)](http://lxappsonrqas001.lowes.com:9000/dashboard?id=backyard-bds-design-tokens)
-[![Reliability Rating](http://lxappsonrqas001.lowes.com:9000/api/project_badges/measure?project=backyard-bds-design-tokens&metric=reliability_rating)](http://lxappsonrqas001.lowes.com:9000/dashboard?id=backyard-bds-design-tokens)
-[![Security Rating](http://lxappsonrqas001.lowes.com:9000/api/project_badges/measure?project=backyard-bds-design-tokens&metric=security_rating)](http://lxappsonrqas001.lowes.com:9000/dashboard?id=backyard-bds-design-tokens)
-[![Coverage](http://lxappsonrqas001.lowes.com:9000/api/project_badges/measure?project=backyard-bds-design-tokens&metric=coverage)](http://lxappsonrqas001.lowes.com:9000/dashboard?id=backyard-bds-design-tokens)
-[![Bugs](http://lxappsonrqas001.lowes.com:9000/api/project_badges/measure?project=backyard-bds-design-tokens&metric=bugs)](http://lxappsonrqas001.lowes.com:9000/dashboard?id=backyard-bds-design-tokens)
-[![Code Smells](http://lxappsonrqas001.lowes.com:9000/api/project_badges/measure?project=backyard-bds-design-tokens&metric=code_smells)](http://lxappsonrqas001.lowes.com:9000/dashboard?id=backyard-bds-design-tokens)
-[![Vulnerabilities](http://lxappsonrqas001.lowes.com:9000/api/project_badges/measure?project=backyard-bds-design-tokens&metric=vulnerabilities)](http://lxappsonrqas001.lowes.com:9000/dashboard?id=backyard-bds-design-tokens)
-
 Welcome to the Lowe's Backyard Design Token generator.  These tokens are the source of truth for all Lowe's Digital design properties see below for the token categories included.
 
 This generator will take the YAML files and create variable files for both web and applications depending on platform need.

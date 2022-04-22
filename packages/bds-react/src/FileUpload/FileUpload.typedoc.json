@@ -4158,7 +4158,7 @@
 			"flags": {},
 			"comment": {
 				"shortText": "*Backyard React File Upload*",
-				"text": "Handles the UI/UX for users to submit files to an `onDrop` handler\n\nDocumentation:\n\n- [FileUpload](https://dev.carbon.gcp.lowes.com/bds/documentation/Components/FileUpload)\n\nAPI:\n\n- [FileUpload API](https://dev.carbon.gcp.lowes.com/bds/documentation/ComponentsAPI/FileUpload)\n- inherits [FileUploadProvider API](https://dev.carbon.gcp.lowes.com/bds/documentation/ComponentsAPI/FileUploadProvider)\n\n"
+				"text": "Handles the UI/UX for users to submit files to an `onDrop` handler\n\nDocumentation:\n\n- [FileUpload](https://backyard.lowes.com/Components/FileUpload)\n\nAPI:\n\n- [FileUpload API](https://backyard.lowes.com/ComponentsAPI/FileUpload)\n- inherits [FileUploadProvider API](https://backyard.lowes.com/ComponentsAPI/FileUploadProvider)\n\n"
 			},
 			"type": {
 				"type": "reference",
@@ -4225,7 +4225,7 @@
 			"flags": {},
 			"comment": {
 				"shortText": "Backyard React File Upoad Provider",
-				"text": "Provides values to children and handles state management of `FileUpload`\nUse this component to supply your own custom layout\n\nExamples:\n\n- [FileUpload](https://dev.carbon.gcp.lowes.com/bds/documentation/Components/FileUpload)\n\nAPI:\n\n- [FileUploadProvider API](https://dev.carbon.gcp.lowes.com/bds/documentation/ComponentsAPI/FileUploadProvider)\n"
+				"text": "Provides values to children and handles state management of `FileUpload`\nUse this component to supply your own custom layout\n\nExamples:\n\n- [FileUpload](https://backyard.lowes.com/Components/FileUpload)\n\nAPI:\n\n- [FileUploadProvider API](https://backyard.lowes.com/ComponentsAPI/FileUploadProvider)\n"
 			},
 			"type": {
 				"type": "reference",

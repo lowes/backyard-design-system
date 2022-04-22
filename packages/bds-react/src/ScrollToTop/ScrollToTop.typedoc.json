@@ -318,7 +318,7 @@
 			"flags": {},
 			"comment": {
 				"shortText": "Backyard React Scroll To Top",
-				"text": "Provides a button to allow the user to have quick access back to the top of the page without scrolling up manually.\n\nDocumentation:\n\n- [ScrollToTop](https://dev.carbon.gcp.lowes.com/bds/documentation/Components/ScrollToTop)\n\nAPI:\n\n- [ScrollToTop API](https://dev.carbon.gcp.lowes.com/bds/documentation/ComponentsAPI/ScrollToTop)\n\n"
+				"text": "Provides a button to allow the user to have quick access back to the top of the page without scrolling up manually.\n\nDocumentation:\n\n- [ScrollToTop](https://backyard.lowes.com/Components/ScrollToTop)\n\nAPI:\n\n- [ScrollToTop API](https://backyard.lowes.com/ComponentsAPI/ScrollToTop)\n\n"
 			},
 			"type": {
 				"type": "reference",

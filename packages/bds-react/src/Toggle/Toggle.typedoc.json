@@ -1365,7 +1365,7 @@
 			"flags": {},
 			"comment": {
 				"shortText": "Backyard React Toggle",
-				"text": "Toggle wrapper to manage state of a group of `ToggleButton`s\n\nExamples:\n\n- [Toggle](https://dev.carbon.gcp.lowes.com/bds/documentation/Components/Toggle)\n\nAPI:\n\n- [Toggle API](https://dev.carbon.gcp.lowes.com/bds/documentation/ComponentsAPI/Toggle)\n- inherits [ButtonGroup API](https://dev.carbon.gcp.lowes.com/bds/documentation/ComponentsAPI/ButtonGroup)\n\n- [ToggleButton API](https://dev.carbon.gcp.lowes.com/bds/documentation/ComponentsAPI/ToggleButton)\n"
+				"text": "Toggle wrapper to manage state of a group of `ToggleButton`s\n\nExamples:\n\n- [Toggle](https://backyard.lowes.com/Components/Toggle)\n\nAPI:\n\n- [Toggle API](https://backyard.lowes.com/ComponentsAPI/Toggle)\n- inherits [ButtonGroup API](https://backyard.lowes.com/ComponentsAPI/ButtonGroup)\n\n- [ToggleButton API](https://backyard.lowes.com/ComponentsAPI/ToggleButton)\n"
 			},
 			"type": {
 				"type": "reference",
@@ -1388,7 +1388,7 @@
 			"flags": {},
 			"comment": {
 				"shortText": "Backyard React Toggle Button",
-				"text": "Toggle button to be used as a child of `Toggle`\n\nExamples:\n\n- [Toggle](https://dev.carbon.gcp.lowes.com/bds/documentation/Components/Toggle)\n\nAPI:\n\n- [ToggleButton API](https://dev.carbon.gcp.lowes.com/bds/documentation/ComponentsAPI/ToggleButton)\n"
+				"text": "Toggle button to be used as a child of `Toggle`\n\nExamples:\n\n- [Toggle](https://backyard.lowes.com/Components/Toggle)\n\nAPI:\n\n- [ToggleButton API](https://backyard.lowes.com/ComponentsAPI/ToggleButton)\n"
 			},
 			"type": {
 				"type": "reference",

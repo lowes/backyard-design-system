@@ -14,12 +14,12 @@ import { ButtonProps } from '../Button'
  *
  * Documentation:
  *
- * - [FileUpload](https://dev.carbon.gcp.lowes.com/bds/documentation/Components/FileUpload)
+ * - [FileUpload](https://backyard.lowes.com/Components/FileUpload)
  *
  * API:
  *
- * - [FileUpload API](https://dev.carbon.gcp.lowes.com/bds/documentation/ComponentsAPI/FileUpload)
- * - inherits [FileUploadProvider API](https://dev.carbon.gcp.lowes.com/bds/documentation/ComponentsAPI/FileUploadProvider)
+ * - [FileUpload API](https://backyard.lowes.com/ComponentsAPI/FileUpload)
+ * - inherits [FileUploadProvider API](https://backyard.lowes.com/ComponentsAPI/FileUploadProvider)
  *
  */
 const FileUpload: BDSForwardRef<FileUploadProps> = React.forwardRef<FileUploadRef, FileUploadProps>(

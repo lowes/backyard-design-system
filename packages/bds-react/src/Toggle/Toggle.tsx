@@ -19,14 +19,14 @@ const ToggleButtonGroup = ButtonGroup as React.ForwardRefExoticComponent<ToggleB
  *
  * Examples:
  *
- * - [Toggle](https://dev.carbon.gcp.lowes.com/bds/documentation/Components/Toggle)
+ * - [Toggle](https://backyard.lowes.com/Components/Toggle)
  *
  * API:
  *
- * - [Toggle API](https://dev.carbon.gcp.lowes.com/bds/documentation/ComponentsAPI/Toggle)
- * - inherits [ButtonGroup API](https://dev.carbon.gcp.lowes.com/bds/documentation/ComponentsAPI/ButtonGroup)
+ * - [Toggle API](https://backyard.lowes.com/ComponentsAPI/Toggle)
+ * - inherits [ButtonGroup API](https://backyard.lowes.com/ComponentsAPI/ButtonGroup)
  *
- * - [ToggleButton API](https://dev.carbon.gcp.lowes.com/bds/documentation/ComponentsAPI/ToggleButton)
+ * - [ToggleButton API](https://backyard.lowes.com/ComponentsAPI/ToggleButton)
  */
 const Toggle: BDSForwardRef<ToggleProps> = React.forwardRef(function Toggle(
     {

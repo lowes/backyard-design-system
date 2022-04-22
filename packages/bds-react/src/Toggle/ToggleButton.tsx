@@ -19,11 +19,11 @@ import useToggle from './hooks/useToggle'
  *
  * Examples:
  *
- * - [Toggle](https://dev.carbon.gcp.lowes.com/bds/documentation/Components/Toggle)
+ * - [Toggle](https://backyard.lowes.com/Components/Toggle)
  *
  * API:
  *
- * - [ToggleButton API](https://dev.carbon.gcp.lowes.com/bds/documentation/ComponentsAPI/ToggleButton)
+ * - [ToggleButton API](https://backyard.lowes.com/ComponentsAPI/ToggleButton)
  */
 const ToggleButton: BDSForwardRef<ToggleButtonProps> = React.forwardRef<
     ToggleButtonRef,

@@ -28,8 +28,8 @@ Provides a button to allow the user to have quick access back to the top of the 
 
 Documentation:
 
-- [ScrollToTop](https://dev.carbon.gcp.lowes.com/bds/documentation/Components/ScrollToTop)
+- [ScrollToTop](https://backyard.lowes.com/Components/ScrollToTop)
 
 API:
 
-- [ScrollToTop API](https://dev.carbon.gcp.lowes.com/bds/documentation/ComponentsAPI/ScrollToTop)
+- [ScrollToTop API](https://backyard.lowes.com/ComponentsAPI/ScrollToTop)

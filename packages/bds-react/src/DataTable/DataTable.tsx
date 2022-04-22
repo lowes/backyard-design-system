@@ -11,11 +11,11 @@ import { MenuItemProps } from '../MenuItem'
  *
  * Examples:
  *
- * - [DataTable](https://dev.carbon.gcp.lowes.com/bds/documentation/Components/DataTable)
+ * - [DataTable](https://backyard.lowes.com/Components/DataTable)
  *
  * API:
  *
- * - [DataTable API](https://dev.carbon.gcp.lowes.com/bds/documentation/ComponentsAPI/DataTable)
+ * - [DataTable API](https://backyard.lowes.com/ComponentsAPI/DataTable)
  */
 const DataTable = <Data extends object = {}>({
     children,

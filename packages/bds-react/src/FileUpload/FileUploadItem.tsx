@@ -24,7 +24,7 @@ import type { BDSForwardRef } from '../utils/typings/BDSComponentProps'
  *
  * API:
  *
- * - [FileUploadItem API](https://dev.carbon.gcp.lowes.com/bds/documentation/ComponentsAPI/FileUploadItem)
+ * - [FileUploadItem API](https://backyard.lowes.com/ComponentsAPI/FileUploadItem)
  */
 const FileUploadItem: BDSForwardRef<FileUploadItemProps> = React.forwardRef<
     FileUploadItemRef,

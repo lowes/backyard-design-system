@@ -74,7 +74,7 @@ const Carousel: BDSForwardRef<CarouselProps> = React.forwardRef<CarouselRef, Car
                     `noButtons \n` +
                     `noScrollbar \n\n` +
                     `For reference to this components api, please refer to: \n\n` +
-                    `https://stage.carbon.lowes.com/bds/documentation/ComponentAPI/Carousel \n\n`,
+                    `https://backyard.lowes.com/ComponentAPI/Carousel \n\n`,
             )
         }
 

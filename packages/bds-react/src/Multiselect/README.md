@@ -41,10 +41,10 @@ Customized popover for multiple variant of `Select`
 
 Examples:
 
-- [Multiselect](https://dev.carbon.gcp.lowes.com/bds/documentation/Components/Multiselect)
+- [Multiselect](https://backyard.lowes.com/Components/Multiselect)
 
 API:
 
-- [Multiselect API](https://dev.carbon.gcp.lowes.com/bds/documentation/ComponentsAPI/Multiselect)
+- [Multiselect API](https://backyard.lowes.com/ComponentsAPI/Multiselect)
 
-- [Option API](https://dev.carbon.gcp.lowes.com/bds/documentation/ComponentsAPI/Option)
+- [Option API](https://backyard.lowes.com/ComponentsAPI/Option)

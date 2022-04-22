@@ -141,7 +141,6 @@ export const WithHelperText = () => (
                 Helper Text
             </FormHelperText>
         </FormControl>
-        <ApiLink to='https://stage.carbon.gcp.lowes.com/bds/documentation/ComponentAPI/TextField' />
     </Grid.Column>
 )
 

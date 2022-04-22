@@ -39,11 +39,11 @@ const variantOptions: { [key: string]: DropzoneOptions } = {
  *
  * Examples:
  *
- * - [FileUpload](https://dev.carbon.gcp.lowes.com/bds/documentation/Components/FileUpload)
+ * - [FileUpload](https://backyard.lowes.com/Components/FileUpload)
  *
  * API:
  *
- * - [FileUploadProvider API](https://dev.carbon.gcp.lowes.com/bds/documentation/ComponentsAPI/FileUploadProvider)
+ * - [FileUploadProvider API](https://backyard.lowes.com/ComponentsAPI/FileUploadProvider)
  */
 const FileUploadProvider: BDSFunctional<FileUploadProviderProps> = ({
     accept,

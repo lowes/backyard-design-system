@@ -1240,7 +1240,7 @@
 			"flags": {},
 			"comment": {
 				"shortText": "Backyard React Multiselect",
-				"text": "Customized popover for multiple variant of `Select`\n\nExamples:\n\n- [Multiselect](https://dev.carbon.gcp.lowes.com/bds/documentation/Components/Multiselect)\n\nAPI:\n\n- [Multiselect API](https://dev.carbon.gcp.lowes.com/bds/documentation/ComponentsAPI/Multiselect)\n\n- [Option API](https://dev.carbon.gcp.lowes.com/bds/documentation/ComponentsAPI/Option)\n"
+				"text": "Customized popover for multiple variant of `Select`\n\nExamples:\n\n- [Multiselect](https://backyard.lowes.com/Components/Multiselect)\n\nAPI:\n\n- [Multiselect API](https://backyard.lowes.com/ComponentsAPI/Multiselect)\n\n- [Option API](https://backyard.lowes.com/ComponentsAPI/Option)\n"
 			},
 			"type": {
 				"type": "reference",
